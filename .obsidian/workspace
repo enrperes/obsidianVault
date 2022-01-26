@@ -4,75 +4,121 @@
     "type": "split",
     "children": [
       {
-        "id": "421cda9408901480",
+        "id": "199ab54235ded750",
         "type": "leaf",
+        "dimension": 49.02597402597403,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Note rapide.md",
+            "file": "Git.md",
             "mode": "source"
           }
+        }
+      },
+      {
+        "id": "fc1facaafcd15691",
+        "type": "leaf",
+        "dimension": 50.97402597402597,
+        "state": {
+          "type": "graph",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "aa2a545bbf8f7d4b",
-    "type": "mobile-drawer",
+    "id": "b70e98cfaf4928f4",
+    "type": "split",
     "children": [
       {
-        "id": "0feab6f8b0f806cf",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "b99189255cb3ebac",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "ffd75e7b002ec303",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "171749ca42214333",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0b71a3aa7474f5b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "bbb322240fba3c5d",
-    "type": "mobile-drawer",
+    "id": "c62003eb4564a802",
+    "type": "split",
     "children": [
       {
-        "id": "25df388e0c1484c8",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Note rapide.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "a51a6af084ae3c49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6db90b67ca3ab79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        }
+        ]
+      },
+      {
+        "id": "1be5479e3e01e3c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "421cda9408901480",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source"
+              }
+            }
+          }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "421cda9408901480",
+  "active": "199ab54235ded750",
   "lastOpenFiles": [
+    "Git.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "SCUOLA.md",
     "Note rapide.md"
   ]
 }
