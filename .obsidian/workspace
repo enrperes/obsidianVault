@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "debd6307328c39d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "421cda9408901480",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Note rapide.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa2a545bbf8f7d4b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0feab6f8b0f806cf",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "b99189255cb3ebac",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "bbb322240fba3c5d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "25df388e0c1484c8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Note rapide.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "421cda9408901480",
+  "lastOpenFiles": [
+    "Note rapide.md"
+  ]
+}
