@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "debd6307328c39d0",
+    "id": "98e707e8284436cc",
     "type": "split",
     "children": [
       {
-        "id": "421cda9408901480",
+        "id": "34c89d36822e719d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Psicologia delle folle.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -18,84 +18,70 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "994eb581655b3eae",
-    "type": "split",
+    "id": "aa2a545bbf8f7d4b",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "12f5102bb416ea89",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9891a4adc8e65911",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "11c7ad263d85270a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "0feab6f8b0f806cf",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "b99189255cb3ebac",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "50bcdf173c5348b1",
-    "type": "split",
+    "id": "bbb322240fba3c5d",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "3765a41c9f8eeae0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "22c92d8ae9b7ab76",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Psicologia delle folle.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "25df388e0c1484c8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Psicologia delle folle.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "421cda9408901480",
+  "active": "34c89d36822e719d",
   "lastOpenFiles": [
     "Psicologia delle folle.md",
-    "Storia.md",
     "Git.md",
-    "Fiore di roccia - Enrico Peressin.md",
+    "Workhouses.md",
+    "Horatio Nelson.md",
+    "Italiano.md",
+    "Pascoli.md",
     "SCUOLA.md",
-    "Informatica.md",
-    "Inglese.md",
-    "Legge Ampere.md",
-    "Note rapide.md"
+    "taila.md",
+    "Ammine.md",
+    "Legge_Faraday_Neumann_Lenz.md"
   ]
 }
