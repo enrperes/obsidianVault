@@ -29,3 +29,14 @@ ___
             1.  This will ask you to enter your username and password
             2.  [Git can use your personal access token to login automatically](https://docs.github.com/en/get-started/getting-started-with-git/why-is-git-always-asking-for-my-password)
         4.  That's it! Take a look at [this example commit from iSH](https://github.com/ForceBru/ObsidianVaultTest/commit/f642c3334a870ca8ab2aa1355528403502433b2b)
+
+___
+
+# PULL 
+1. In iSH: 
+	1. make sure directory is set to obsidian
+	2. (optional) check whether there is stuff to pull 
+		1. Bring remote refs  up to date: `git remote update`
+		2. Check status: `git status`
+	3. actually update wiht `git pull`
+: D
