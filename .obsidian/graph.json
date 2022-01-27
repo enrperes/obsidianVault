@@ -6,17 +6,39 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:scuola",
+      "color": {
+        "a": 1,
+        "rgb": 14820352
+      }
+    },
+    {
+      "query": "tag:materia",
+      "color": {
+        "a": 1,
+        "rgb": 16240198
+      }
+    },
+    {
+      "query": "tag:risorsa",
+      "color": {
+        "a": 1,
+        "rgb": 25086
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
+  "centerStrength": 0.747252747252747,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.9006614195080822,
+  "scale": 3.024996343724129,
   "close": false
 }

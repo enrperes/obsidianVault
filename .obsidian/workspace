@@ -1,17 +1,14 @@
 {
   "main": {
-    "id": "debd6307328c39d0",
+    "id": "98e707e8284436cc",
     "type": "split",
     "children": [
       {
-        "id": "421cda9408901480",
+        "id": "34c89d36822e719d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Git.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -57,7 +54,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Git.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -71,9 +67,12 @@
     ],
     "currentTab": 0
   },
-  "active": "421cda9408901480",
+  "active": "34c89d36822e719d",
   "lastOpenFiles": [
-    "Git.md",
-    "Note rapide.md"
+    "Note rapide.md",
+    "Chimica.md",
+    "Informatica.md",
+    "Fiore di roccia - Enrico Peressin.md",
+    "Git.md"
   ]
 }
