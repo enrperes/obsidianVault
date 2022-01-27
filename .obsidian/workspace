@@ -7,8 +7,11 @@
         "id": "34c89d36822e719d",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Pascoli.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -54,6 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Pascoli.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -69,6 +73,7 @@
   },
   "active": "34c89d36822e719d",
   "lastOpenFiles": [
+    "Pascoli.md",
     "Italiano.md",
     "SCUOLA.md",
     "Ammine.md",
@@ -77,7 +82,6 @@
     "PDFs.md",
     "Note rapide.md",
     "Chimica.md",
-    "Informatica.md",
-    "Fiore di roccia - Enrico Peressin.md"
+    "Informatica.md"
   ]
 }
