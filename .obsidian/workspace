@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Pascoli.md",
+            "file": "Italiano.md",
             "mode": "source"
           }
         }
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Pascoli.md",
+            "file": "Italiano.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -73,15 +73,15 @@
   },
   "active": "34c89d36822e719d",
   "lastOpenFiles": [
-    "Pascoli.md",
     "Italiano.md",
+    "Pascoli.md",
     "SCUOLA.md",
+    "taila.md",
     "Ammine.md",
     "Legge_Faraday_Neumann_Lenz.md",
     "Storia.md",
     "PDFs.md",
     "Note rapide.md",
-    "Chimica.md",
-    "Informatica.md"
+    "Chimica.md"
   ]
 }
