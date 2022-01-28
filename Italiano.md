@@ -1,5 +1,5 @@
 #materia 
-[[Fiori di roccia]]
-[[Fiore di roccia - Enrico Peressin]]
+
+[[Fiore di roccia]]
 [[Hapatuko]]
 [[Pascoli]]
