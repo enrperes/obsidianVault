@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Psicologia delle folle.md",
+            "file": "Crisi 1929.md",
             "mode": "source"
           }
         }
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Psicologia delle folle.md",
+            "file": "Crisi 1929.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -73,15 +73,15 @@
   },
   "active": "34c89d36822e719d",
   "lastOpenFiles": [
+    "Crisi 1929.md",
+    "Storia.md",
     "Psicologia delle folle.md",
     "PDFs.md",
     "Legge_Faraday_Neumann_Lenz.md",
     "Acidi Carbossilici.md",
     "Git.md",
     "Fisica.md",
-    "Storia.md",
     "Horatio Nelson.md",
-    "SCUOLA.md",
-    "Workhouses.md"
+    "SCUOLA.md"
   ]
 }
