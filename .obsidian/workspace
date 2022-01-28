@@ -7,8 +7,11 @@
         "id": "34c89d36822e719d",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Git.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -54,6 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Git.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -69,15 +73,15 @@
   },
   "active": "34c89d36822e719d",
   "lastOpenFiles": [
+    "Git.md",
+    "Acidi Carbossilici.md",
+    "Legge_Faraday_Neumann_Lenz.md",
+    "Fisica.md",
     "Storia.md",
     "Horatio Nelson.md",
     "SCUOLA.md",
     "Psicologia delle folle.md",
-    "Git.md",
     "Workhouses.md",
-    "Italiano.md",
-    "Pascoli.md",
-    "taila.md",
-    "Ammine.md"
+    "Italiano.md"
   ]
 }

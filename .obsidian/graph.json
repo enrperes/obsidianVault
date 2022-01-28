@@ -5,20 +5,27 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:scuola",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14820352
       }
     },
     {
-      "query": "",
+      "query": "tag:materia",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 16240198
+      }
+    },
+    {
+      "query": "tag:risorsa",
+      "color": {
+        "a": 1,
+        "rgb": 25086
       }
     }
   ],

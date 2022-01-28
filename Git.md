@@ -73,3 +73,9 @@ ___
 		2. Check status: `git status`
 	3. actually update wiht `git pull`
 : D
+
+___
+
+touch .gitignore
+echo ".obsidian/cache"
+.Ds_Store > .gitignore
