@@ -22,3 +22,8 @@ Qualunque siano le idee suggerite alle folle, esse non possono diventare dominan
 Forme religiose che tutte le convinzioni delle folle rivestono 
 ### Capitolo 3 parte seconda
 > *La folla è un gregge che non potrebbe far a meno di un padrone*
+
+
+
+CIAO
+

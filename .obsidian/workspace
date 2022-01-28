@@ -7,11 +7,8 @@
         "id": "34c89d36822e719d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Psicologia delle folle.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -57,7 +54,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Psicologia delle folle.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -73,15 +69,15 @@
   },
   "active": "34c89d36822e719d",
   "lastOpenFiles": [
+    "Storia.md",
+    "Horatio Nelson.md",
+    "SCUOLA.md",
     "Psicologia delle folle.md",
     "Git.md",
     "Workhouses.md",
-    "Horatio Nelson.md",
     "Italiano.md",
     "Pascoli.md",
-    "SCUOLA.md",
     "taila.md",
-    "Ammine.md",
-    "Legge_Faraday_Neumann_Lenz.md"
+    "Ammine.md"
   ]
 }
