@@ -1,0 +1,15 @@
+- Datazione
+- Critica Hegel
+- Economia base di tutto
+- Forme di alienaione
+	- [[Rivoluzione industriale II]]
+- Storia finisce con il comunismo
+- Materialismo storico, contro ideologia
+- Lettera a Vera Zalusic
+- Comunismo è in corso
+- Definizione capitalismo
+- Lavoro a priori e posteriori
+- Valore d'uso e di scambio
+- Denaro = equivalente universale delle merci
+- Valore in base al tempo medio di produzione
+

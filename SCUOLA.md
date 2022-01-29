@@ -5,3 +5,5 @@
 [[Chimica]]
 [[Informatica]]
 [[Italiano]]
+[[Esame]]
+[[FIlosofia]
