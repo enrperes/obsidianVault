@@ -6,4 +6,3 @@ Workhouses are **big buildings** that provide **accommodation, food, clothing, h
 There were also small farms attached to make them **as indipendent as possible**. 
 On paper they seem like a good place, but in reality they became known as places of **abuse** and **misery**. Families were split up and were **punished** if they tried to make contact. Regulations were very strict and the **punishments** harsh and humiliating. 
 The workday was long, hard, repetitive. The food was limited and the conditions were unhealthy and overcrowded. Children education was not sufficient, they didn't learn how to write or read. 
-
