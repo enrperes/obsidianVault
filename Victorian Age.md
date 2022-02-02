@@ -2,7 +2,7 @@
 Period in Britirsh history between 1820 and 1914, corresponding more or less to the reign of Queen Victoria (1837-1901)
 Period characterized by a class-based society, a growing number of people being able to vote, a growing state and economy and Britain's status as the most powerful empire in the world. 
 
-Britain was a powerful nation with rich culture. Stable government, growing state, expanding franchise. On the other hand, there was poverty and social problems. 
+Britain was a powerful nation with rich culture. Stable government, growing state, expanding franchise. On the other hand, there was poverty and social problems. [[Workhouses]]
 
 ### Gender and class
 Victorian society was organized hierarchically. The main organizing principles of Victorian society were gender and class. Gender was biologically based, and statet that man and women were different and meant for different things. man>women
