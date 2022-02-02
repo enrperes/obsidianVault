@@ -27,6 +27,7 @@ Da voce al bambino, che è puro e sincero, quindi ha la forza della verità. (es
 
 pag 607: "Il fanciullino e il superuomo"
 pag 602 "Dentro di noi c'è un Fanciullo"
+pag 623: Critica di Pasolini [[Aesthetic movement]]
 
 
 
