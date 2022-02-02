@@ -29,11 +29,8 @@ pag 607: "Il fanciullino e il superuomo"
 pag 602 "Dentro di noi c'è un Fanciullo"
 pag 623: Critica di Pasolini [[Aesthetic movement]]
 
-
-
-
-
-
+___
+[2022-02-02]
 
 
 
