@@ -15,15 +15,15 @@ L'interesse principale di Seurat era di ==approfondire la sua conoscenza sul com
 ___
 ## Lo Chaut 
 ##### 1890
-Raffigurati dei ballerini su un palco di un locale parigino che si esibiscono nel ballo dello Chalut, molto in voga alla fine dell'800 a Parigi. Il quadro si sviluppa in verticale e l'induqdratura permette di rappresentare interamente il palco e i ballerini. In primo piano un contrabbassista suona il suo strumento, a sinistra ci sono altri strumenti musicali. Si ispira alla omonima poesia di Jean Ajalbert, che lascia intendere che il ballo susciti desiderio e piacere negli spettatori. 
-La ripetizione ritmica delle ballerine suggerisce il sottofondo musicale del ballo.
+Raffigurati dei ballerini su un palco di un locale parigino che si esibiscono nel ballo dello Chalut, molto in ==voga alla fine dell'800 ==a Parigi. Il quadro si sviluppa in ==verticale== e l'induqdratura permette di rappresentare interamente il palco e i ballerini. In primo piano un contrabbassista suona il suo strumento, a sinistra ci sono altri strumenti musicali. Si ispira alla omonima ==poesia di Jean Ajalbert==, che lascia intendere che il ballo susciti desiderio e piacere negli spettatori. 
+La ==ripetizione ritmica delle ballerine== suggerisce il sottofondo musicale del ballo.
 Questa è un'occasione per dipingere una scena dinamica grazie alle posizioni delle danzatrici. 
 ![[7C91DEFF-F649-4B7E-B210-C4D096BFBF92.jpeg|300]]
 ___
 ## Il circo
 ##### 1891
-Ultima opera di Seurat, lasciata incompiuta per la sua morte. Raffigura il circo con il tendone a strisce e l'atmosfera festosa. Il dipinto viene poi acquistato da Signac. 
-Oltre allo studio del colore, vi è un primo studio applicato alla psicologia. Infatti, oltre ai colori che rappresentano gioiosità e allegria, le linee che si estendono da sinistra a destra vengono associate dalla mente a qualcosa di gioioso, che è alla fine quello che il pittore vuole rappresentare. 
+Ultima opera di Seurat, lasciata incompiuta per la sua morte. Raffigura il circo con il tendone a strisce e l'atmosfera festosa. Il dipinto viene poi acquistato da ==Signac==. 
+Oltre allo studio del colore, vi è un primo studio applicato alla ==psicologia==. Infatti, oltre ai colori che rappresentano gioiosità e allegria, le linee che si estendono da sinistra a destra vengono associate dalla mente a qualcosa di gioioso, che è alla fine quello che il pittore vuole ==rappresentare==. 
 ![[5CD3CF29-13C5-4707-B159-FD438B3ACDD4.jpeg|300]]
 
 

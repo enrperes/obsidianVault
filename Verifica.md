@@ -1,0 +1,16 @@
+- forza magnetica su correnti 
+- momento torcente su una spira percorsa da corrente 
+- momento dipolo magnetico
+- bobine
+- energia magnetica 
+- legge di biot-savart 
+- magnetone di bohr 
+- domini di weiss
+- campo magnetico creato da un filo rettilineo percorso da corrente di lunghezza illimitata
+- forze magnetiche tra fili percorsi da corrente
+- circuitazione campo magnetico
+- legge di ampere
+- flusso campo magnetico attraversato da una superficie
+- teorema di gauss
+- campo magnetico generato da solenoide 
+- legge di ampere applicata a solenoide
