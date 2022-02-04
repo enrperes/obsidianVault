@@ -1,7 +1,7 @@
 #risorsa 
 6 commissari interni, presidente esterno. 
 ___
-30 marzo simulazione #1
+23 marzo simulazione #1
 5 maggio simulazione #2
 
 22 giugno prima prova 
