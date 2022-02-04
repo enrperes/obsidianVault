@@ -16,3 +16,4 @@ ___
 # Seconda prova
 - Matematica 
 - Latino
+- Francese
