@@ -15,6 +15,3 @@ inizio luglio orale
 ___
 # Seconda prova
 - Matematica 
-- Latino
-- Francese
-- tedesco
