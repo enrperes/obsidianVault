@@ -1,4 +1,9 @@
 # Psicologia delle folle
+
+- Se due folle si scontrano chi ha la meglio? Quella con più membri?
+- È possibile che una folla si divida in altre due folle con idee contrastanti?
+- Deve esserci sempre un leader o la folla può autogovernarsi [deve esserci sempre]?
+- Se un leader di una folla muore, se ne crea subito un altro o la folla si scioglie?
 ___
 ### Introduzione
 ==Elementi essenziali per la folla:==
