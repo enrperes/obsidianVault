@@ -14,4 +14,5 @@ inizio luglio orale
 - Riflessione critica su tematiche di attualità
 ___
 # Seconda prova
-MATEMATICA
+- Matematica 
+- 
