@@ -1,2 +1,3 @@
 #materia 
 [[Marx]]
+[[Nietzsche]]
