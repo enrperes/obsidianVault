@@ -16,4 +16,4 @@
 - campo magnetico generato da solenoide 
 - legge di ampere applicata a solenoide
 ___
-$\mu_0 = 4\pi\cdot10^{-7}\dfrac{T\cdotm}$
+$\mu_0 = 4\pi\cdot10^{-7}\dfrac{T\cdot m}{A}$
