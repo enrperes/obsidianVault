@@ -15,3 +15,4 @@
 - teorema di gauss
 - campo magnetico generato da solenoide 
 - legge di ampere applicata a solenoide
+___
