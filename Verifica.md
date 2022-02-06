@@ -19,3 +19,5 @@ ___
 <span style="font-size:30px">$\mu_0 = 4\pi\cdot10^{-7}\dfrac{T\cdot m}{A}$</span>
 <span style="color: #7abadd">*Costante di permeabilità magnetica nel vuoto*</span>
 
+
+
