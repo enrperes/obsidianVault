@@ -47,9 +47,20 @@ Esalta: (*pars costruens*)
 - Treni
 - Macchine
 - Aerei
+---
+### Manifesto tecnico della letteratura futurista
+pag 720, 1912. 
+Elenco numerato: 
+1. Distruggere la sintassi (è frutto di tradizione)
+2. Verbi all'infinito
+3. Aggettivi aboliti
+4. I sostantivi devono avere i doppi 
+5. Abolire la punteggiatura, utilizzando segni matematici e musicali
 
+Abolire tutto quello inutile, mantenendo solo l'essenziale. 
+Bisogna introdurre: Rumore, peso, odore
 
-
+### Bombardamento 
 
 
 
