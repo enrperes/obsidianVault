@@ -15,3 +15,6 @@ Legame disolfuro = ossidazione, eliminazione di 2 H. Zolfi legati covalentemente
 	- amminoacidi e gruppo prostetico = molecola non proteica, o lipidica(lipoproteine, LDL, HLDL) o acido nucleico. Aterosclerosi = troppi grassi nei vasi sanguigni. 
 Esempi di variazione di proteine solo per alcuni amminoacidi: *Ossitocina* e *Vasopressina* pag 35
 
+##### Metabolismo
+Tanti enzimi
+ 

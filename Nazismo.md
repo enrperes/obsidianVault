@@ -11,4 +11,31 @@ In pochi mesi si passa ad una dittatura. Fu approvata una legge che garantiva a 
 Hitler temeva le SA, il 30 giugno 1934 nella notte dei lunghi coltelli i principali membri delle SA vennero uccisi dalle SS (squadre di difesa)
 
 Con Hitler nasce il terzo Reich, con le leggi di Norimberga del 1935 toglie agli ebrei la cittadinanza e la possibilità di avere attività commerciali. 
-Nella notte del 9 dicembre 1938 ci fu la "notte dei cristalli" dove furono distrutte sinagoghe, abitazioni e uccisi moltissimi ebrei. 
+Nella notte del 9 dicembre 1938 ci fu la "notte dei cristalli" dove furono distrutte sinagoghe, abitazioni e uccisi moltissimi ebrei. In 7 anni quasi 200mila ebrei lasciano la Germania. Hitler poi ricorre alla soluzione finale:
+deportazione di massa. Gli interventi dei partiti democratici e della chiesa sono inutili. 
+Hitler facendo uso del deficit spending conta sulla ripresa economica della Germania. Tra il 1933 e il 1936 i disoccupati si dirigono da 6MLN a 500k. 
+Una grande arma di Hitler era la propaganda, in particolare radio e film. Veniva rappresentato come monumentale e solenne. 
+nel 1933 Hitler tenta di annettere l'Austria ma fallisce. Mussolini manda forze al Brennero per respingere Hitler. Nel 1935 Mussolini tenta di conquistare l'Etiopia, Francia e Inghilterra lo impediscono e lo cacciano dalla società delle nazioni; viene anche sanzionato economicamente. Nel 1935 Hitler aggiunge la leva militare obbligatoria, nel 1938 annette l'Austria e nessuno lo ferma. 
+
+Churchill: 
+> *Dovevate scegliere tra perdere l'onore e la guerra, avete perso l'onore e avrete la guerra.*
+
+Disonore = abbandonare la Cecoslovacchia. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
