@@ -20,7 +20,7 @@ ___
 ##### Datazione
 Nasce nel 1818 e nel 1848 scrive il manifesto del partito comunista
 ##### Hegel
-Si forma sulle opere di Hegel, poi prende autonomia. La critica che gli pone è la stessa di Feuerbach: -> lo accusa di misticismo logico. 
+Si forma sulle opere di Hegel, poi prende autonomia. La critica che gli pone è la stessa di Feuerbach: -> lo accusa di misticismo logico perchè crede che i mezzi di produzione inducono il pensiero, al contrario di quello che diceva Hegel. 
 Critica anche la sua definizione di scienza, che per Marx è intesa come analisi della totalità e non come studio specifico di un settore. 
 Per Marx non è la realtà ad essere un riflesso ma è lo spirito (coscienza) ad essere un prodotto delle condizioni materiali della realtà storica. 
 ##### Economia

@@ -7,3 +7,31 @@ Divide la storia in 3 diversi tipi.
 ###### Storia monumentale
 Deriva dal guardare al passato per rintracciare i modelli e i maestri da cui trarre ispirazione. Serve a combattere la rassegnazione. Questo tipo di storia tende ad alterare il passato, in quando ne dimentica la maggior parte e tiene conto solo degli aspetti positivi, spesso alterati. 
 ###### Storia antiquaria 
+...
+###### Storia l'altra
+...
+
+---
+Il **divenire** al centro di Nietzsche 
+Accidentale è il loro esserci (?)
+Tragedia del senso, nulla del senso = Nichilismo. Le cose stanno così perchè così stanno, senza ragione 
+
+Non è Dio ad aver creato l'uomo a propria immagine e somiglianza ma il contrario. 
+
+infinita possibilità e assoluta potenza. 
+
+---
+Definizione di morale di Nietzsche 
+Morale  = coscienza del gregge ... cercare definizione su Google
+La Morale diviene sempre. 4
+
+
+
+
+
+
+
+
+
+
+
