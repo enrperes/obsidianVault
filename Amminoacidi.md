@@ -18,3 +18,33 @@ Esempi di variazione di proteine solo per alcuni amminoacidi: *Ossitocina* e *Va
 ##### Metabolismo
 Tanti enzimi
  
+---
+Esosi = con 6 atomi di carbonio. 
+
+
+EPIMERI COSA SONO per verifica
+dimannosio diglucosio ^ (pagina B6)
+
+Polisaccaridi fatti 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

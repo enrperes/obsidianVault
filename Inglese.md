@@ -6,3 +6,4 @@
 [[Industrialization]]
 [[Bronte Sisters]]
 [[Picture of Dorian Gray]]
+[[Oscar Wilde]]
