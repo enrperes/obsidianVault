@@ -2,7 +2,7 @@
 Pag B23
 - Acido colico 
 	- nella cistifellea 
-- corticoidi 
+- corticoidi  ^ddeee6
 	- cortisolo 
 	- cortisone
 - aldosterone
