@@ -17,3 +17,15 @@ I monosaccaridi hanno uno o più *stereocentri*, sono **chirali** e hanno due o 
 
 ###### Proiezione di Fischer
 Per rappresentare le molecole tridimensionali in un piano bidimensionale. 
+
+1. Disporre la catena carboniosa in verticale posizionando in alto il gruppo carbonile (aldeidico o chetonico)
+2. Omettere il carbonio che costituisce uno stereocentro
+3. Numerare gli atomi di carbonio dall'alto verso il basso
+![[Fischer.png|120]]
+
+###### Diastereoisomeri
+Una molecola che contiene $n$ stereocentri ha un numero di enantiomeri pari a $2^n$
+Gli stereoisomeri che non sono l'uno immagine speculare dell'altro sono diastereoisomeri. i diastereoisomeri che differisono per la posizione di un solo stereocentro si chiamano **epimeri**.
+###### Proiezione di Haworth
+La forma ciclica degli aldoesosi e chetoesosi si rappresenta con la proiezione di Haworth. 	
+![[Haworth.png|200]]
