@@ -1,5 +1,7 @@
 # Lipidi
+Costituiscono una riserva energetica ma svolgono anche funzione strutturale. 
 ___
+
 Acidi grassi essenziali (AGE)
 Sono idrocarburi a catena lunga e discontinua con un gruppo carbossilico $\ce{COOH}$
 
