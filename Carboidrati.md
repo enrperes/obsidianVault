@@ -29,3 +29,10 @@ Gli stereoisomeri che non sono l'uno immagine speculare dell'altro sono diastere
 ###### Proiezione di Haworth
 La forma ciclica degli aldoesosi e chetoesosi si rappresenta con la proiezione di Haworth. 	
 ![[Haworth.png|200]]
+
+###### Reazioni dei monosaccaridi
+- Riduzione
+	- del gruppo carbonile
+- Ossidazione
+	- del gruppo aldeidico (reattivo di Tollens e Fehling)
+- 
