@@ -5,7 +5,7 @@ ___
 
 ![[Pasted image 20220217233720.png]]
 
-
+---
 Acidi grassi essenziali (AGE)
 Sono idrocarburi a catena lunga e discontinua con un gruppo carbossilico $\ce{COOH}$
 
