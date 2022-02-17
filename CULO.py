@@ -1,3 +1,0 @@
-culo = "CULO"
-
-print(culo)

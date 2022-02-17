@@ -11,7 +11,7 @@ Una corrente elettrica *i* che scorre in un circuito produce un campo magnetico 
 Unità di misura dell'induttanza: *Henry*
 $1H = 1Wb \cdot A^{-1}$
 
-<iframe border=0 frameborder=0 width=550 height=300 src="https://www.youtube.com/embed/ySx84Ca7BFQ" style="border-radius:25px"></iframe>
+<iframe border=0 frameborder=0 width=550 height=300 src="https://www.youtube.com/embed/ySx84Ca7BFQ" style="border-radius:10px"></iframe>
 
 L'equazione che definisce l'induttanza può essere riscritta in questo modo:
 
