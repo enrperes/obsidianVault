@@ -17,5 +17,57 @@ Nessun romanzo ha successo, questi *Anti-eroi* non attirano il pubblico.
 
 ##### Fumo
 ##### Morte del padre
-839, 848
+%%839~848%%
+
+|  Padre   |    Zeno     |
+|:--------:|:-----------:|
+| Certezze | insicurezza |
+|  debole  |    forte    |
+| statico  |  dinamico   |
+ 
 ##### Salute malata di Augusta
+%% 850 %%
+Lei è ancorata al presente, rigida. Incarna la normalità come il padre. Zeno è inquieto. 
+Malattia come ricchezza, pag 867
+
+##### La profezia di un'apocalisse cosmica 
+%%pag 869 %%
+
+L'unico modo per liberarsi della malattia della razza umana è una grande bomba. La sua debolezza è la sua forza.  
+
+Estreneità, incapacità di fronte alla vita perchè è imprevedibile e casuale, non governabile con i mezzi umani. L'uomo non è un essere razionale, ma dominato da pulsioni inconsce  non controllabili. Non è artefice del suo destino. 
+Consapevolezza di essere in balia delle pulsioni sotto il livello della coscienza -> si vive con ironica saggezza. 
+Eroe Zeno = può permettersi di vivere con questa ironica saggezza perchè si è liberato dei miti su di sè e sul mondo. 
+Per Zeno è la specie umana ad essere malata. L'essenza dell'umanità per Zeno è la malattia. 
+
+---
+
+*pag 833 riassuntino*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
