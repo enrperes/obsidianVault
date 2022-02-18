@@ -1,0 +1,7 @@
+- Personalità cosciente svanisce, i sentimenti e le idee di tutte le unità sono orientate in una stessa direzione. 
+- Tendenza a trasformare in atti le idee suggerite (Mussolini che scalia la folla contro il socialismo)
+- Esagerazione dei sentimenti (Patti di versailles gonfiati)
+- La folla si trova in attesa, quindi è facile condizionarla. (La prima proposta data viene sempre accolta.)
+- "Coloro che hanno impressionato la folla furono eroi leggendari, eroi reali."
+- Non nutrono dubbi verso le autorità.
+- Capaci di delitti o sacrifici elevati 

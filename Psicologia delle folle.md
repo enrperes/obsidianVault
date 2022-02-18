@@ -30,7 +30,7 @@ diversi caratteri osservati nella maggior parte delle folle:
 Quindi vengono esagerati i sentimenti e anche la violenza. 
 > *Intolleranza, autoritarismo e conservatorismo delle folle. ==Le folle, accettano e rifiutano in blocco le opinioni, le idee, le credenze.== Vengono considerate come verità assoluta o come errori non meno assoluti. Non avendo dubbi su ciò che è verità, la folla è autoritaria quanto ignorante.* 
 ### Capitolo 3
-Le ==idee delle folle: ==
+Le ==idee delle folle:==
 > *Si possono dividere in due classi: in una le ==idee accidentali e passeggere== nate sotto l'influenza momentanea, nell'altra le i==dee fondamentali,== che sono molto stabili. [...]
 Qualunque siano le idee suggerite alle folle, esse non possono diventare dominanti che alla condizione di rivestire una forma semplicissima e di essere rappresentate nel loro spirito sotto l'aspetto di un'immagine.* 
 ### Capitolo 4
@@ -38,7 +38,4 @@ Forme religiose che tutte le convinzioni delle folle rivestono
 ### Capitolo 3 parte seconda
 > *La folla è un gregge che non potrebbe far a meno di un padrone*
 
-
-
-CIAO
-
+[[Frasi]]
