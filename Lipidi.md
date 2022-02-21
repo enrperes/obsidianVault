@@ -15,3 +15,4 @@ si trova nei pesci: Sgombri, Acciughe, Sardine -> pesci azzurri ricchi di Omega-
 Omega-6 e Omega-9 si trovano in noci e oli. Per la membrana plasmatica neuronica più forte. 
 
 Hanno funzione antinfiammatoria e per formare le molecole per la coagulazione del sangue. 
+

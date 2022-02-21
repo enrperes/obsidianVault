@@ -5,3 +5,8 @@ almeno 1 stereocentro. Diasteroisomeri=stereoisomeri non speculari. anomerico = 
 LPDI
 insolubili, apolari. saponificabili ihanno acidi grassi. trigliceridi = 1glicerolo 3a.g.// a.g. = 4-36C; saturi. Colesterolo:sintesi acidi biliari; LDL, VLDL -> depositi->arterosclerosi. A=pelle,vista;D=ossa;E:antiossidante;K=coagulazione sangue. 
 
+---
+
+2022-02-18
+imparare 5 amminoacidi (formula chimica)
+ da B15
