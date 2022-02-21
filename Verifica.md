@@ -25,4 +25,4 @@ ___
 <span style="color: #7abadd">*Costante di permeabilità magnetica nel vuoto*</span>
 
 
-
+![[Pasted image 20220221193514.png]]
