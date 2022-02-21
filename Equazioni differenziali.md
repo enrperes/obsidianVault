@@ -30,6 +30,18 @@ $$\dfrac{dy}{dx}=a(x) \cdot b(y)$$
 $$\int \dfrac{dy}{dx}=\int{a(x)dx}$$
 $$B(y) = A(x)+c$$
 
+---
+
+# Equazioni differenziali di secondo ordine
+Si trovano nella forma:
+### $$ay''+by'+cy=f(x)$$
+Con $a,b,c$ numeri reali, **coefficienti costanti**; y = funzione incognita e $f(x)$ = *funzione assegnata*
+
+## Equazioni omogenee
+### $$ay''+by'+cy=0$$
+Si inizia risolvendo l'equazione di secondo grado in $r$:
+##### $$ar^2+br+c=0$$
+
 
 
 

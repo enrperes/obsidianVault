@@ -17,10 +17,23 @@
 %%
 ___
 # Carl Marx
+
+%%
+1867 testo sul capitale oltre al 1848
+definizione di  uomo -> animale che produce mezzi di sopravvivenza
+Economia alla base di tutto
+Alienazione
+rapporti di produzione: quanto spetta agli operai in base a quanto producono = rapporti di proprietà 
+sono statici mentre la tecnologia avanza, ,perchè sono leggi scritte e non cambiano facilmente. 
+Si arriva alla fine della storia, che è lotta tra le classi perchè rimarrà solo una classe. 
+agganci alla storia (rivoluzione francese)
+
+%%
+
 ##### Datazione
 Nasce nel 1818 e nel 1848 scrive il manifesto del partito comunista
 ##### Hegel
-Si forma sulle opere di Hegel, poi prende autonomia. La critica che gli pone è la stessa di Feuerbach: -> lo accusa di misticismo logico perchè crede che i mezzi di produzione inducono il pensiero, al contrario di quello che diceva Hegel. 
+Si forma sulle opere di Hegel, poi prende autonomia. La critica che gli pone è la stessa di Feuerbach: -> lo accusa di misticismo logico perchè crede che i mezzi di produzione inducano il pensiero, al contrario di quello che diceva Hegel. 
 Critica anche la sua definizione di scienza, che per Marx è intesa come analisi della totalità e non come studio specifico di un settore. 
 Per Marx non è la realtà ad essere un riflesso ma è lo spirito (coscienza) ad essere un prodotto delle condizioni materiali della realtà storica. 
 ##### Economia
