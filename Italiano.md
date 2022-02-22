@@ -4,4 +4,7 @@
 [[Hapatuko]]
 [[Pascoli]]
 [[Futurismo]]
+
 [[Svevo]]
+[[Pirandello]]
+[[Sverandello]]

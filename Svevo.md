@@ -1,7 +1,12 @@
 # Italo Svevo
+[[Pirandello]]
+*triestino*
 %% pag 800~809 %%
-Pseudonimo letterario di Aron Hector Schmitz. Nasce a Trieste nel 1861 da agiata famiglia borghese. Entrambi i genitori hanno origini ebraiche. 
-Autodidatta, avvia gli studi economici in Germania, ha la passione per la letteratura. In parallelo svolge il suo lavoro in banca a Vienna e legge e scrive. 
+Pseudonimo letterario di **Aron Hector Schmitz**. Nasce a Trieste nel 1861 da agiata famiglia borghese. Entrambi i genitori hanno origini ebraiche. 
+**Autodidatta**, avvia gli studi economici in Germania, ha la passione per la letteratura. In parallelo svolge il suo lavoro in banca a Vienna e legge e scrive. 
+Incoraggiato a pubblicare il romanzo da James Joyce 
+
+Temi chiave: Inetto[^1], salute&malattia;
 3 **Romanzi**:
 - 1892 = *Una vita*
 	- Alfonso Nitti
@@ -16,6 +21,7 @@ Nessun romanzo ha successo, questi *Anti-eroi* non attirano il pubblico.
 ![[88B86F45-E004-48FD-8CE9-84C985096C11.jpeg]]
 
 ##### Fumo
+Non riesce a smettere perchè incolpa il fumo e lo usa coma alibi 
 ##### Morte del padre
 %%839~848%%
 
@@ -44,12 +50,9 @@ Per Zeno è la specie umana ad essere malata. L'essenza dell'umanità per Zeno �
 
 *pag 833 riassuntino*
 
+[^1] incapacità di vivere nella società
 
-
-
-
-
-
+<iframe width="560" height="250" src="https://www.youtube.com/embed/Gqq45H0lQzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:10px"></iframe>
 
 
 
