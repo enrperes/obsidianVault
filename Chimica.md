@@ -6,11 +6,11 @@
 
 ---
 [[Biomolecole]]
-[[glicolisi]]
+[[Glicolisi]]
 
 ---
 
 [[Enzimi]]
 [[Metabolismo energetico]]
 [[DNA]]
-[[perverifica]]
+[[Verifica-chimica]]

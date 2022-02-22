@@ -1,5 +1,5 @@
 # Glicolisi
-> Processo metabolico dove una molecola di glucosio viene scissa in due molecole di piruvato al fine di generare una molecola a più alta energia, come 2 molecole di ATP e 2 molecole di [[glicolisi#NADH|NADH]] per ogni molecola di glucosio. 
+> Processo metabolico dove una molecola di glucosio viene scissa in due molecole di piruvato al fine di generare una molecola a più alta energia, come 2 molecole di ATP e 2 molecole di [[Glicolisi#NADH|NADH]] per ogni molecola di glucosio. 
 
 Composta da 5 passaggi: 
 
@@ -30,9 +30,10 @@ N. |Fase | Descrizione
 
 [wiki]([](https://it.wikipedia.org/wiki/Glicolisi?wprov=sfti1))
 
+![[3E285D23-E6FB-433A-897B-AFECD76F5B1D.jpeg]]
+![[D28A4E2D-50FB-4F38-944C-E842A0F64213.jpeg]]
 
-
-
+	
 
 
 

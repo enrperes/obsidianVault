@@ -9,9 +9,8 @@ Divide la storia in 3 diversi tipi.
 ###### Storia monumentale
 Deriva dal guardare al passato per rintracciare i modelli e i maestri da cui trarre ispirazione. Serve a combattere la rassegnazione. Questo tipo di storia tende ad alterare il passato, in quando ne dimentica la maggior parte e tiene conto solo degli aspetti positivi, spesso alterati. 
 ###### Storia antiquaria 
-...
-###### Storia l'altra
-...
+Tendenza a guardare le proprie origini. Ci si sente eredi del passato ma si può tendere a limitare il campo visivo sfociando in una furia collezionista
+###### Storia critica
 
 ---
 Il **divenire** al centro di Nietzsche 
