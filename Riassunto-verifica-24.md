@@ -10,8 +10,7 @@ Su tutto il dipinto predomina il colore verde declinato nelle varianti di tono e
 
 La natura e il paesaggio sono dipinti attraverso ampie zone di colore e pennellate rade e frettolose che anticipano la pittura impressionista.
 
-
-
+![CSE](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg/1920px-Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg)
   
 
 # 02 - OLIMPIA
@@ -24,7 +23,7 @@ Nel quadro una giovane donna è distesa su un letto verso il fronte del dipinto,
 A destra del dipinto una donna di colore guarda la protagonista porgendo un mazzo di fiori, accanto a lei è presente un gatto nero che guarda con sospetto in avanti.
 
 L’innovazione di Manet sta nel proporre il nudo non idealizzato di questa prostituta. Sono presenti forti contrasti cromatici: la donna, le lenzuola e i vestiti sono rappresentati con tinte chiare praticamente bianche in netto contrasto con lo sfondo, la pelle della seconda donna e il gatto fortemente scuri.
-
+![oly](https://upload.wikimedia.org/wikipedia/commons/5/5c/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg)
   
 
 # 03 - IMPRESSIONI AL LEVAR DEL SOLE
@@ -35,7 +34,7 @@ Monet è considerato il maggior interprete della pittura impressionista che ha i
 Claude Monet scelse di dipingere en plein air, dipingendo immagini di paesaggi. Viene rappresentato il sorgere del sole, alcune imbarcazioni solcano il mare e sullo sfondo si vede la vita industriale della città.
 
 Su tutto il dipinto domina un tono azzurro-grigio. Spicca l’imbarcazione costruita con alcune veloci pennellate di grigio scuro e l’arancio del sole che sorge. La dialettica cromatica è tutta giocata nel contrasto di complementari tra azzurro e arancio.
-
+![eas](https://mariaconcettaiannone.files.wordpress.com/2012/12/monet-impressione-levar-del-sole-1872.jpg?w=640)
   
 
 # 04 - LA GRENOUILLÈRE - Monet
@@ -44,15 +43,15 @@ L’opera “La grenouillère" è un dipinto del pittore francese Claude Monet r
 Monet è considerato il maggior interprete della pittura impressionista che ha il suo inizio proprio con questo quadro.
 
 Nel dipinto sono dipinte delle piccole barche ancorate alla riva e un barcone galleggiante sulla destra. Il fiume rappresentato è la Senna parigina. Sul fondo si vede la sponda opposta a La Grenouillère con una filare di alberi fitto e alto. Al centro del dipinto si trova l’isoletta con un alberello e alcuni bagnanti. Un minuscolo pontile, a sinistra, collega l’isoletta alla sponda. La tonalità generale del quadro è fredda: prevalgono azzurro e verde.
-
+![GRENOUILLMO](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/La_Grenouill%C3%A8re_MET_DT833.jpg/1920px-La_Grenouill%C3%A8re_MET_DT833.jpg)
   
 
 # 04 - LA GRENOUILLÈRE - Renoir
 L’opera “La grenouillère" è un dipinto del pittore francese Pierre Auguste Renoir realizzato nel 1869 e conservato al Nationalmuseum di Stoccolma. Questo è un dipinto realizzato in olio su tela delle dimensioni di 66 x 81 centimetri circa. Monet predilige l’immagine nel suo insieme, allontanando prospetticamente l’isolotto e tratteggiando il gruppo di persone con la stessa sinteticità di tutti gli altri elementi del paesaggio. Renoir invece è più sensibile alle presenze umane, raffigurandone anche i piccoli dettagli come fiocchi e cappellini, attraverso pennellate più piccole e veloci. Entrambi pongono particolare importanza nel rappresentare l’acqua e i suoi riflessi. Monet la raffigura con pochi colori stesi con pennellate orizzontali sottolineando le zone di luce e ombra con bruschi cambiamenti cromatici; Renoir invece utilizza una pennellata più piccola e frammentata conferendo al quadro una sensazione giocosa.
-
+![GRENOUILL_re](https://upload.wikimedia.org/wikipedia/commons/f/f1/Auguste_Renoir_-_La_Grenouill%C3%A8re.jpg)
   
 
-# 05 - SALICE PIANGENT
+# 05 - SALICE PIANGENTE
 L’opera “Salice piangente" è un dipinto del pittore francese Claude Monet realizzato nel 1920/1922 e conservato al Museo d’Orsay a Parigi. 
 
 In quest’opera le pennellate si fanno dense a pastose e i confini tra forma e colore hanno perso definitivamente qualsiasi significato, tanto che a stento si riconoscere l’albero raffigurato. 
@@ -61,6 +60,7 @@ La chioma del salice diventa una cascata di filamenti colorati, dove al verde de
 
 In questo quadro il colore è il protagonista indiscusso.
 
+![salice](https://www.meisterdrucke.it/kunstwerke/1200w/Claude%20Monet%20-%20Weeping%20Willow%201918-19%20%20-%20%28MeisterDrucke-273531%29.jpg)
   
   
 
@@ -73,6 +73,7 @@ Il quadro documenta un momento di vita dei giovani parigini riuniti nel celebre 
 
 Il colore e le impressioni luminose vengono utilizzate da Renoir per creare una immagine istantanea della scena in movimento. Il sole che filtra tra i rami degli alberi, per creare effetti di contrasto Renoir dipinge gli abiti degli uomini scuri mettendo in evidenza gli abiti chiari delle ragazze. Gli azzurri delle ombre esaltano le luci in rosa e arancio.
 
+![mou](https://upload.wikimedia.org/wikipedia/commons/4/40/Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_%28derivative_work_-_AutoContrast_edit_in_LCH_space%29.jpg)
   
 
 # 07 - LA LEZIONE DI DANZA
@@ -84,7 +85,7 @@ Nel dipinto le danzatrici si riposano e si sistemano tutù e scarpette. Al centr
 
 L’intero dipinto è dominato da un colore di fondo neutro tendente all’ocra che identifica il palcoscenico. Le pareti, poi, sono colorate di un verde molto chiaro e poco saturo. Su questi colori spiccano, nella fascia centrale, i tutù chiari delle ballerine. I colori più saturi, sono riservati ai nastri che stringono la vita ed i capelli delle ragazze.
 
-  
+![danza](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Degas-_La_classe_de_danse_1874.jpg/1280px-Degas-_La_classe_de_danse_1874.jpg)
 
 # 08 - L’ASSENZIO
 L’opera “La scuola di danza " è un dipinto del pittore francese Edgar Degas realizzato nel 1875 e conservato al Museo d’Orsay a Parigi. Questo è un dipinto realizzato in olio su tela delle dimensioni di 90 x 70 centimetri circa.
@@ -94,7 +95,7 @@ Degas è considerato uno dei maggiori esponenti della pittura impressionista che
 Due avventori sono seduti ai tavolini di un caffè. La protagonista è una giovane donna vestita con pesanti abiti. Sul tavolino, di fronte alla protagonista, è posato un calice che contiene una bevanda di colore giallo chiaro. Nel tavolino di sinistra si trova poi una bottiglia trasparente e vuota posata su un vassoio di metallo. Accanto alla donna, a destra, un uomo in abiti scuri fuma da una pipa e guarda oltre il bordo del dipinto. Dietro i due personaggi si riflettono sullo specchio le loro ombre. La bevitrice sembra persa nel vuoto e mostra un’espressione triste e sofferente, il busto è leggermente piegato in avanti e le spalle sono cadenti.
 
 Forti contrasti di luminosità che organizzano la composizione si ritrovano nell’abito della donna contro lo schienale del sedile.
-
+![ASSENZIO](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg/1024px-Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg)
   
 
 # 09 - GIOCATORI DI CARTE
@@ -105,7 +106,7 @@ Cézanne è considerato uno dei maggiori esponenti della pittura post-impression
 I due giocatori impegnati nella partita a carte sono isolati dagli altri clienti del locale, sono seduti ad un semplice tavolo di legno sul quale è appoggiata una bottiglia di vino chiusa da un tappo di sughero. 
 
 Tutto il dipinto è articolato su di un principale contrasto di complementarietà che tende al blu e all’arancione. I giocatori e il tavolino sono posti in evidenza grazie ad un contrasto di luminosità che agisce soprattutto sul viso e la giacca del giocatore di destra.
-
+![carte](https://upload.wikimedia.org/wikipedia/commons/3/3d/Paul_C%C3%A9zanne%2C_Les_joueurs_de_carte_%281892-95%29.jpg)
   
 
 # 10 - LA MONTAGNA SAINT VICTOR
@@ -116,7 +117,7 @@ Cézanne è considerato uno dei maggiori esponenti della pittura post-impression
 In primo piano una fila di alberi e cespugli coprono parzialmente il borgo, si intravedono infatti piccole case dai tetti spioventi. Sull’orizzonte si alza lo sperone del monte rivolto verso destra.
 
 Il primo piano è occupato da una fascia di vegetazione colorata di grigio e nero. Si osservano poi abitazioni e natura alternati con verde brillante e ocra. Questi due colori creano un contrasto di temperatura che movimenta la pianura fino al monte.
-
+![montagna](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Montagne_Sainte-Victoire%2C_par_Paul_C%C3%A9zanne_110.jpg/1200px-Montagne_Sainte-Victoire%2C_par_Paul_C%C3%A9zanne_110.jpg)
   
 
 # 11 - I MANGIATORI DI PATATE
@@ -128,7 +129,7 @@ Una modesta famiglia di contadini è riunita intorno al tavolo di sera. Una debo
 
 I colori sono tendenti al grigio e al nero. Solo i volti e le mani dei contadini sono ravvivati da un leggero tono di ocra. L’unica fonte luminosa è rappresentata dalla lanterna apposta sul soffitto.
 
-  
+![patate](https://upload.wikimedia.org/wikipedia/commons/2/22/Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project_%285776925%29.jpg)
 
 # 12 - CAMPO DI GRANO CON VOLO DI CORVI
 L’opera “Campo di grano con volo di corvi " è un dipinto del pittore olandese Vincent Van Gogh realizzato nel 1890 e conservato al Museo Van Gogh ad Amsterdam. Questo è un dipinto realizzato in olio su tela delle dimensioni di 50 x 100 centimetri circa.
@@ -140,6 +141,7 @@ Campo di grano con volo di corvi è considerato il testamento spirituale di Vinc
 Su un campo di grano ormai maturo vola uno stormo di corvi neri. Dal primo piano una stradina fende gli steli dorati e si perde nel campo in lontananza. I bordi del sentiero sono popolati da erba verde. Nel cielo scuro vorticano nubi nere che si confondono con il volo dei corvi.
 
 La parte alta, il cielo è freddo, blu con sfumature molto scure. La parte bassa, invece, è calda. I contrasti di luminosità sono particolarmente intensi tra le sagome dei corvi e il colore del grano.
+![grano](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vincent_van_Gogh_-_Wheatfield_with_crows_-_Google_Art_Project.jpg/2880px-Vincent_van_Gogh_-_Wheatfield_with_crows_-_Google_Art_Project.jpg)
 
   
 
@@ -154,7 +156,7 @@ Seurat dipinge la folla domenicale dei parigini. Donne con abiti tipici dell’e
 
 I colori delle campiture che contengono le forme sono, poi, la risultante dei diversi puntini colorati secondo le mescolanze indicate dalla teoria cromatica dei primari e dei complementari.
 
-  
+![domenica](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Georges_Seurat_-_Un_dimanche_apr%C3%A8s-midi_%C3%A0_l%27%C3%AEle_de_la_Grande_Jatte.jpg/1920px-Georges_Seurat_-_Un_dimanche_apr%C3%A8s-midi_%C3%A0_l%27%C3%AEle_de_la_Grande_Jatte.jpg)
   
 
 # 14 - IL CRISTO GIALLO
@@ -165,6 +167,7 @@ Gauguin è considerato uno degli esponenti della pittura post-impressionista che
 Un crocifisso si staglia in primo piano. La croce è costruita con semplici assi. La figura di Cristo è realizzata con forme semplici e un po' incerte. Ai piedi della croce vi sono alcune contadine, con abiti tipici. Un prato in discesa viene interrotto da un muretto scavalcato da un uomo. Alcuni alberi punteggiano i confini dei campi e in lontananza si alzano le colline. Tra gli alberi si intravedono alcune abitazioni e il cielo azzurro è sgombro di nubi.
 
 Con il giallo si vuole simboleggiare il dolore umano. Inoltre il giallo è lo stesso colore utilizzato per descrivere i campi di grano che possedeva un profondo significato religioso. Cristo partecipa quindi tramite questo riferimento cromatico alla vita quotidiana dei contadini qui rappresentata.
+![Cristo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Gauguin_Il_Cristo_giallo.jpg/1024px-Gauguin_Il_Cristo_giallo.jpg)
 
 # 15 - DA DOVE VENIAMO, CHI SIAMO, DOVE ANDIAMO
 L’opera “Da dove veniamo, chi siamo, dove andiamo" è un dipinto del pittore francese Paul Gauguin realizzato nel 1889 e conservato al Museum of Fine Arts di Boston. Questo è un dipinto realizzato in olio su tela delle dimensioni di 139 x 375 centimetri circa.
@@ -176,3 +179,5 @@ Vi sono dodici figure umane e numerosi animali. A partire da destra in basso un 
 In prossimità dell’angolo di sinistra è seduta una giovane che è rivolta verso una donna molto anziana seduta e raccolta. Ai suoi piedi un uccello bianco trattiene una lucertola tra le zampe. Una donna infine è raffigurata in secondo piano in piedi e di profilo. Alla sua sinistra si trova una grande statua di un idolo posta su di una base naturale. Il terreno è disseminato di vegetazione e piccoli animali. Sul fondo si intravede la superficie del mare e a sinistra una grande isola montuosa.
 
 Rappresenta le diverse età della vita e la condizione esistenziale che esprimono con colori che rimandano all’uso primitivo della distribuzione cromatica.**
+
+![chi](https://www.laboratoriodellearti.org/wp-content/uploads/2020/04/Gauguinchi-simao-Da-dove-veniamo-1-1024x384.jpg)
