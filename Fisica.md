@@ -6,3 +6,4 @@
 [[Circuiti]]
 [[Lenz]]
 [[Condensatore]]
+[[Interrogazione-fisica]]

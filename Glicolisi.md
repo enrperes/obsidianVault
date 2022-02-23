@@ -33,6 +33,10 @@ N. |Fase | Descrizione
 ![[3E285D23-E6FB-433A-897B-AFECD76F5B1D.jpeg]]
 ![[D28A4E2D-50FB-4F38-944C-E842A0F64213.jpeg]]
 
+---
+
+
+
 	
 
 

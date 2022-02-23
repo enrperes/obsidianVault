@@ -1,16 +1,39 @@
 #todo 
 
 # Nietsche 
-### Filosofia della storia
-1872 Nascita della tragedia. 
-Nietzsche nel periodo giovanile scrive *Considerazioni inattuali* nel 1874. Dei 4 testi scritti, *Sull'utilità e il danno della storia per la vita* è il più importante e originale. Scrive per la prima e unica volta di **Filosofia della storia**.
-Va contro la cultura storicistica, definita come una malattia che indebolisce la proprietà creatrici della storia. Occorre combattere le illusioni, perchè "Non esistono i fatti ma solo le interpretazioni dei fatti". 
-Divide la storia in 3 diversi tipi.
+Nietzsche fu un filosofo tedesco nato nel 1844 in Germania. Tra le opere più importanti ricordiamo "La nascita della tragedia dallo spirito della musica" (1872) e "Così parlò Zarathustra" (1885). 
+Nel primo dei due Nietzsche affronta la società moderna e la definisce decadente: infatti per lui la decadenza è l'uso della ragione nel tentativo di allontanare l'irrazionalità del reale e definisce l'uomo come non ben riuscito. 
+
+Per Nietzsche la forza di un uomo sta in quanto dolore riesce a sopportare senza fingere illusione. 
+
+Già nel mondo classico c'erano due figure che si contrapponevano: Apollo e Dionisio. 
+Apollo è il dio del giorno, della luce, chiarezza, proporzione, armonia. 
+Dionisio al contrario è il dio della notte, del buio, dismisura. 
+L'uomo si trova felice solo quando riesce a dosare in modo uguale la perfezione di Apollo e l'ebbrezza di Dionisio. 
+
+Applicando questi concetti all'arte si può notare come architettura e pittura rispecchino i canoni dell'Apollo, mentre Dionisio trova la sua espressione nella musica. 
+L'arte quindi rappresenta la via verso l'irrazionale. 
+
+Nietzsche si occupa inoltre della filosofia della storia in "Sull'utilità e il danno della storia per la vita" (1874)
+Dove sostiene che non esistano i fatti ma soltanto l'interpretazione di essi. 
+Individua tre tipi di storia: 
+
 ###### Storia monumentale
 Deriva dal guardare al passato per rintracciare i modelli e i maestri da cui trarre ispirazione. Serve a combattere la rassegnazione. Questo tipo di storia tende ad alterare il passato, in quando ne dimentica la maggior parte e tiene conto solo degli aspetti positivi, spesso alterati. 
 ###### Storia antiquaria 
-Tendenza a guardare le proprie origini. Ci si sente eredi del passato ma si può tendere a limitare il campo visivo sfociando in una furia collezionista
+Tendenza a guardare le proprie origini. Ci si sente eredi del passato ma si può tendere a limitare il campo visivo
 ###### Storia critica
+#todo dal libro
+
+In conclusione, l'uomo moderno è troppo schiacciato dalla conoscienza del passato e tende a rimanere immobile verso la costruzione del proprio destino. 
+
+Nietzsche è visto come illuminista, infatti ha come obiettivo quello di liberare l'umanità. 
+
+
+
+
+
+
 
 ---
 Il **divenire** al centro di Nietzsche 
