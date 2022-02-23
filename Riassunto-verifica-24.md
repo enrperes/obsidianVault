@@ -1,10 +1,4 @@
-**Verifica arte (circa 120 parole per opera)
-
-  
-
-01 - COLAZIONE SULL’ERBA
-
-  
+# 01 - COLAZIONE SULL’ERBA
 
 L’opera “Colazione sull’erba” è un dipinto del pittore francese Édouard Manet realizzato nel 1863 e conservato al Museo d’Orsay a Parigi. Questo è un dipinto realizzato in olio su tela delle dimensioni di 200 x 260 centimetri circa.
 
@@ -16,12 +10,11 @@ Su tutto il dipinto predomina il colore verde declinato nelle varianti di tono e
 
 La natura e il paesaggio sono dipinti attraverso ampie zone di colore e pennellate rade e frettolose che anticipano la pittura impressionista.
 
-  
 
-02 - OLIMPIA
 
   
 
+# 02 - OLIMPIA
 L’opera “Olympia” è un dipinto del pittore francese Édouard Manet realizzato nel 1863 e conservato al Museo d’Orsay a Parigi. Questo è un dipinto realizzato in olio su tela delle dimensioni di 130 x 190 centimetri circa.
 
 Manet è considerato il maggior interprete della pittura pre-impressionista che è rispecchiata in questo quadro.
@@ -34,10 +27,7 @@ L’innovazione di Manet sta nel proporre il nudo non idealizzato di questa pros
 
   
 
-03 - IMPRESSIONI AL LEVAR DEL SOLE
-
-  
-
+# 03 - IMPRESSIONI AL LEVAR DEL SOLE
 L’opera “Impressioni al levar del sole” è un dipinto del pittore francese Claude Monet realizzato nel 1872 e conservato al Musée Marmottan Monet di Parigi. Questo è un dipinto realizzato in olio su tela delle dimensioni di 50 x 60 centimetri circa.
 
 Monet è considerato il maggior interprete della pittura impressionista che ha il suo inizio proprio con questo quadro.
@@ -48,10 +38,7 @@ Su tutto il dipinto domina un tono azzurro-grigio. Spicca l’imbarcazione costr
 
   
 
-04 - LA GRENOUILLÈRE - Monet
-
-  
-
+# 04 - LA GRENOUILLÈRE - Monet
 L’opera “La grenouillère" è un dipinto del pittore francese Claude Monet realizzato nel 1869 e conservato al Metropolitan Museum of Art di New York. Questo è un dipinto realizzato in olio su tela delle dimensioni di 75 x 100 centimetri circa.
 
 Monet è considerato il maggior interprete della pittura impressionista che ha il suo inizio proprio con questo quadro.
@@ -60,18 +47,12 @@ Nel dipinto sono dipinte delle piccole barche ancorate alla riva e un barcone ga
 
   
 
-04 - LA GRENOUILLÈRE - Renoir
-
-  
-
+# 04 - LA GRENOUILLÈRE - Renoir
 L’opera “La grenouillère" è un dipinto del pittore francese Pierre Auguste Renoir realizzato nel 1869 e conservato al Nationalmuseum di Stoccolma. Questo è un dipinto realizzato in olio su tela delle dimensioni di 66 x 81 centimetri circa. Monet predilige l’immagine nel suo insieme, allontanando prospetticamente l’isolotto e tratteggiando il gruppo di persone con la stessa sinteticità di tutti gli altri elementi del paesaggio. Renoir invece è più sensibile alle presenze umane, raffigurandone anche i piccoli dettagli come fiocchi e cappellini, attraverso pennellate più piccole e veloci. Entrambi pongono particolare importanza nel rappresentare l’acqua e i suoi riflessi. Monet la raffigura con pochi colori stesi con pennellate orizzontali sottolineando le zone di luce e ombra con bruschi cambiamenti cromatici; Renoir invece utilizza una pennellata più piccola e frammentata conferendo al quadro una sensazione giocosa.
 
   
 
-05 - SALICE PIANGENTE
-
-  
-
+# 05 - SALICE PIANGENT
 L’opera “Salice piangente" è un dipinto del pittore francese Claude Monet realizzato nel 1920/1922 e conservato al Museo d’Orsay a Parigi. 
 
 In quest’opera le pennellate si fanno dense a pastose e i confini tra forma e colore hanno perso definitivamente qualsiasi significato, tanto che a stento si riconoscere l’albero raffigurato. 
@@ -83,10 +64,7 @@ In questo quadro il colore è il protagonista indiscusso.
   
   
 
-06 - MOULIN DE LA GALETTE - Renoir
-
-  
-
+# 06 - MOULIN DE LA GALETTE - Renoir
 L’opera “Moulin de la Galette" è un dipinto del pittore francese Pierre-Auguste Renoir realizzato nel 1876 e conservato al Museo d’Orsay a Parigi. Questo è un dipinto realizzato in olio su tela delle dimensioni di 130 x 180 centimetri circa.
 
 Renoir è considerato uno dei maggiori esponenti della pittura impressionista che è rispecchiata in questo quadro.
@@ -97,10 +75,7 @@ Il colore e le impressioni luminose vengono utilizzate da Renoir per creare una 
 
   
 
-07 - LA LEZIONE DI DANZA
-
-  
-
+# 07 - LA LEZIONE DI DANZA
 L’opera “La scuola di danza " è un dipinto del pittore francese Edgar Degas realizzato nel 1874 e conservato al Museo d’Orsay a Parigi. Questo è un dipinto realizzato in olio su tela delle dimensioni di 85 x 75 centimetri circa.
 
 Degas è considerato uno dei maggiori esponenti della pittura impressionista che è rispecchiata in questo quadro.
@@ -111,10 +86,7 @@ L’intero dipinto è dominato da un colore di fondo neutro tendente all’ocra 
 
   
 
-08 - L’ASSENZIO
-
-  
-
+# 08 - L’ASSENZIO
 L’opera “La scuola di danza " è un dipinto del pittore francese Edgar Degas realizzato nel 1875 e conservato al Museo d’Orsay a Parigi. Questo è un dipinto realizzato in olio su tela delle dimensioni di 90 x 70 centimetri circa.
 
 Degas è considerato uno dei maggiori esponenti della pittura impressionista che è rispecchiata in questo quadro.
@@ -125,10 +97,7 @@ Forti contrasti di luminosità che organizzano la composizione si ritrovano nell
 
   
 
-09 - GIOCATORI DI CARTE
-
-  
-
+# 09 - GIOCATORI DI CARTE
 L’opera “Giocatori di carte " è un dipinto del pittore francese Paul Cézanne realizzato nel 1890 e conservato al Museo d’Orsay a Parigi. Questo è un dipinto realizzato in olio su tela delle dimensioni di 50 x 60 centimetri circa.
 
 Cézanne è considerato uno dei maggiori esponenti della pittura post-impressionista che è rispecchiata in questo quadro.
@@ -139,10 +108,7 @@ Tutto il dipinto è articolato su di un principale contrasto di complementariet�
 
   
 
-10 - LA MONTAGNA SAINT VICTOR
-
-  
-
+# 10 - LA MONTAGNA SAINT VICTOR
 L’opera “La montagna Saint Victor " è un dipinto del pittore francese Paul Cézanne realizzato nel 1905 e conservato al Museo Kunsthaus di Zurigo. Questo è un dipinto realizzato in olio su tela delle dimensioni di 70 x 80 centimetri circa.
 
 Cézanne è considerato uno dei maggiori esponenti della pittura post-impressionista che è rispecchiata in questo quadro.
@@ -153,10 +119,7 @@ Il primo piano è occupato da una fascia di vegetazione colorata di grigio e ner
 
   
 
-11 - I MANGIATORI DI PATATE
-
-  
-
+# 11 - I MANGIATORI DI PATATE
 L’opera “I mangiatori di patate " è un dipinto del pittore olandese Vincent Van Gogh realizzato nel 1885 e conservato al Museo Van Gogh ad Amsterdam. Questo è un dipinto realizzato in olio su tela delle dimensioni di 80 x 110 centimetri circa.
 
 Van Gogh è considerato uno dei maggiori esponenti della pittura post-impressionista che è rispecchiata in questo quadro.
@@ -167,10 +130,7 @@ I colori sono tendenti al grigio e al nero. Solo i volti e le mani dei contadini
 
   
 
-12 - CAMPO DI GRANO CON VOLO DI CORVI
-
-  
-
+# 12 - CAMPO DI GRANO CON VOLO DI CORVI
 L’opera “Campo di grano con volo di corvi " è un dipinto del pittore olandese Vincent Van Gogh realizzato nel 1890 e conservato al Museo Van Gogh ad Amsterdam. Questo è un dipinto realizzato in olio su tela delle dimensioni di 50 x 100 centimetri circa.
 
 Van Gogh è considerato uno dei maggiori esponenti della pittura post-impressionista che è rispecchiata in questo quadro.
@@ -183,10 +143,7 @@ La parte alta, il cielo è freddo, blu con sfumature molto scure. La parte bassa
 
   
 
-13 - UNA DOMENICA POMERIGGIO ALL’ISOLA DELLA GRANDE JATTE
-
-  
-
+# 13 - UNA DOMENICA POMERIGGIO ALL’ISOLA DELLA GRANDE JATTE
 L’opera “Una domenica pomeriggio sull'isola della grande-jatte " è un dipinto del pittore francese Georges Seurat realizzato nel 1885 e conservato all’Art Institute of Chicago. Questo è un dipinto realizzato in olio su tela delle dimensioni di 200 x 300 centimetri circa.
 
 Seurat è considerato il maggiore esponente della pittura puntinista che è rispecchiata in questo quadro.
@@ -200,10 +157,7 @@ I colori delle campiture che contengono le forme sono, poi, la risultante dei di
   
   
 
-14 - IL CRISTO GIALLO
-
-  
-
+# 14 - IL CRISTO GIALLO
 L’opera “Il Cristo giallo" è un dipinto del pittore francese Paul Gauguin realizzato nel 1889 e conservato alla Albright-Knox Art Gallery di Buffalo.. Questo è un dipinto realizzato in olio su tela delle dimensioni di 92 x 73 centimetri circa.
 
 Gauguin è considerato uno degli esponenti della pittura post-impressionista che è rispecchiata in questo quadro.
@@ -212,16 +166,7 @@ Un crocifisso si staglia in primo piano. La croce è costruita con semplici assi
 
 Con il giallo si vuole simboleggiare il dolore umano. Inoltre il giallo è lo stesso colore utilizzato per descrivere i campi di grano che possedeva un profondo significato religioso. Cristo partecipa quindi tramite questo riferimento cromatico alla vita quotidiana dei contadini qui rappresentata.
 
-  
-  
-  
-  
-  
-
-15 - DA DOVE VENIAMO, CHI SIAMO, DOVE ANDIAMO
-
-  
-
+# 15 - DA DOVE VENIAMO, CHI SIAMO, DOVE ANDIAMO
 L’opera “Da dove veniamo, chi siamo, dove andiamo" è un dipinto del pittore francese Paul Gauguin realizzato nel 1889 e conservato al Museum of Fine Arts di Boston. Questo è un dipinto realizzato in olio su tela delle dimensioni di 139 x 375 centimetri circa.
 
 Gauguin è considerato uno degli esponenti della pittura post-impressionista che è rispecchiata in questo quadro.
