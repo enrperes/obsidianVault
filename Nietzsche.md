@@ -1,7 +1,7 @@
 #todo 
 
 # Nietsche 
-Nietzsche fu un filosofo tedesco nato nel 1844 in Germania. Tra le opere più importanti ricordiamo "La nascita della tragedia dallo spirito della musica" (1872) e "Così parlò Zarathustra" (1885). 
+Nietzsche fu un filosofo tedesco nato nel 1844 in Germania. Tra le opere più importanti ricordiamo "**La nascita della tragedia dallo spirito della musica**" (1872) e "**Così parlò Zarathustra**" (1885). 
 Nel primo dei due Nietzsche affronta la società moderna e la definisce decadente: infatti per lui la decadenza è l'uso della ragione nel tentativo di allontanare l'irrazionalità del reale e definisce l'uomo come non ben riuscito. 
 
 Per Nietzsche la forza di un uomo sta in quanto dolore riesce a sopportare senza fingere illusione. 
@@ -21,7 +21,7 @@ Individua tre tipi di storia:
 ###### Storia monumentale
 Deriva dal guardare al passato per rintracciare i modelli e i maestri da cui trarre ispirazione. Serve a combattere la rassegnazione. Questo tipo di storia tende ad alterare il passato, in quando ne dimentica la maggior parte e tiene conto solo degli aspetti positivi, spesso alterati. 
 ###### Storia antiquaria 
-Tendenza a guardare le proprie origini. Ci si sente eredi del passato ma si può tendere a limitare il campo visivo
+Tendenza a guardare le proprie origini. Ci si sente eredi del passato ma si può tendere a limitare il campo visivo alla tradizione, distaccandoci dal presente.
 ###### Storia critica
 #todo dal libro
 
