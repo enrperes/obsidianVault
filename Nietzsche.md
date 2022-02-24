@@ -31,7 +31,10 @@ Nietzsche è visto come illuminista, nella seconda fase della sua vita. Infatti 
 1. L'istinto morale di ogni uomo diventa volontà di gregge 
 2. L'altruista non è che una forma di egoista. Esso cerca solamente l'approvazione dalla comunità di appartenenza. 
 
-Nella terza fase della sua vita, dominata dalla pazzia, scrive "Così parlò Zarathustra"
+Nella terza fase della sua vita, dominata dalla pazzia, scrive "Così parlò Zarathustra" spiega come la morte di Dio ha diviso in due l'umanità. L'uomo deve rendersi conto che ha creduto in una menzogna per tutti questi anni: Questo crollo culturale è chiamato Nichilismo. 
+L'uomo si abbandona all'unica certezza, ovvero: l'unica certezza che gli rimane è il nulla. Ci sono due forme di Nichilismo: 
+- Passiva: chi non sa reagire
+- Passiva: chi capisce che questo è solo un momento di passaggio necessario. 
 
 
 
