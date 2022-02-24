@@ -23,11 +23,13 @@ Deriva dal guardare al passato per rintracciare i modelli e i maestri da cui tra
 ###### Storia antiquaria 
 Tendenza a guardare le proprie origini. Ci si sente eredi del passato ma si può tendere a limitare il campo visivo alla tradizione, distaccandoci dal presente.
 ###### Storia critica
-#todo dal libro
+condanna il passato. Il pericolo che comporta è quello di pensare che sia possibile spezzare completamente le catene che ci legano al passato. Bisogna agire tenendo conto del passato ma senza farci condizionare da esso. Dimenticare è importante per agire liberi dai ricordi. 
 
 In conclusione, l'uomo moderno è troppo schiacciato dalla conoscienza del passato e tende a rimanere immobile verso la costruzione del proprio destino. 
 
-Nietzsche è visto come illuminista, infatti ha come obiettivo quello di liberare l'umanità. 
+Nietzsche è visto come illuminista, infatti ha come obiettivo quello di liberare l'umanità. Di conseguenza si scaglia contro la morale cristiana, sollevando due critiche: 
+1. L'istinto morale di ogni uomo diventa volontà di gregge 
+2. L'altruista non è che una forma di egoista. Esso cerca solamente l'approvazione dalla comunità di appartenenza. 
 
 
 
