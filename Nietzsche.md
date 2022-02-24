@@ -27,7 +27,7 @@ condanna il passato. Il pericolo che comporta è quello di pensare che sia possi
 
 In conclusione, l'uomo moderno è troppo schiacciato dalla conoscienza del passato e tende a rimanere immobile verso la costruzione del proprio destino. 
 
-Nietzsche è visto come illuminista, infatti ha come obiettivo quello di liberare l'umanità. Di conseguenza si scaglia contro la morale cristiana, sollevando due critiche: 
+Nietzsche è visto come illuminista, infatti ha come obiettivo quello di liberare l'umanità. E scaglia contro la morale cristiana, sollevando due critiche: 
 1. L'istinto morale di ogni uomo diventa volontà di gregge 
 2. L'altruista non è che una forma di egoista. Esso cerca solamente l'approvazione dalla comunità di appartenenza. 
 
