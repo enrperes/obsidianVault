@@ -37,7 +37,7 @@ L'uomo si abbandona all'unica certezza, ovvero: l'unica certezza che gli rimane 
 - Passiva: chi capisce che questo è solo un momento di passaggio necessario. 
 
 
-
+end
 
 
 ---
@@ -73,13 +73,48 @@ Definizione di morale contiene l'essenza che è indiveniente.
 La dimensione originaria intrascendibile per il mondo è il divenire. niente è sottratto al divenire. 
 La profondità è il divenire, irrazionale. 
 
-**GENEAOLOGIA DELLA MORALE**
+### **GENEAOLOGIA DELLA MORALE**
 = discorso sull'origine, sulla genesi 
 
 I Leader dei gruppi umani sono di due nature. Due tipi di morale:
 - dei guerrieri 
 - sacerdotale 
 Morale = Serie di concetti che stabilisce cosa è bene e cosa è male.
+
+Muore Dio. Noi lo abbiamo ucciso. 
+Genealogia = studio delle generazioni. 
+
+In quali condizioni l'uomo è andato inventando il complesso fenomeno di Bene e Male
+Si ribella al fatto che il bene sia attribuito a certe azioni utili al gruppo umano. (??)
+Leader guerriero 
+Leader sacerdotale 
+
+Pace, remnissività, umiltà, quiete saranno il Bene
+
+##### Risentimento 
+
+**Definizione= autoavvelenamento dell'anima** con cause e conseguenze ben determinate. atteggiamento psichico permanente.
+Nasce con la repressione-rimozione sistematica dello sfogo di certi moti dell'anima. 
+
+Uomo = volontà di potenza (Per Schopenhauer era volontà di vivere). Non può rimanere impotente. 
+
+
+Impossibilità di raggiungere un bene -> si toglie valore all'oggetto (Esempio volpe-uva, acerba) = CALUNIA (deprivare di valore l'oggetto desiderato) --> per far vedere che non mi importa più di tanto. 
+
+Si modellizza a partire da una critica distruttiva nei confronti del mondo. Rapporto tra i modelli e il mondo = modello informa il mondo. Il mondo è deformato dalla critica distruttiva, si vedranno solo gli aspetti negativi. 
+
+Si calunnia il valore stesso. = tolgo il riconoscimento a questi valori. (Bellezza, ricchezza..)
+Gli schiavi diventano signori. 
+Il vero valore è la debolezza, stanchezza, remissività. 
+Togliendo il riconoscimento del valore l'essere umano comincia a sentirsi sbagliato, colpevole. 
+Prima orgoglioso portatore, adesso vergognoso portatore. Ci si riconosce colpevoli. 
+
+Si tolgono i valori "standard" sostituendoli con i valori opposti, i signori cominciano a pensare "io sono sbagliato"
+
+Problema: 
+Modelliiamo il mondo dalla rivoluzione per cause meccaniche. Unico modello, per tutto. 
+Problema: La politica si fonda su *Libertà e uguaglianza*. La libertà da dove deriva? non può essere mappata nel nostro  modello. bisogna introdurre un operatore, la morale. 
+
 
 
 
