@@ -19,7 +19,7 @@ ____
 
 ### Correnti parassite
 Quando si generano correnti indotte indesiderate al di fuori dei circuiti elettrici. Dette correnti di ==**Foucault**== 
-Ad esempio quando un blocco metallico è sottoposto ad una variazione di flusso (di campo magnetico) al suo interno si manifestano correnti elettriche indotte. Esempio Pendolo metallico in oscillazione in una regione di spazio dove è presente un campo magnetico uniforme ortogonale al piano del pendolo. 
+Ad esempio quando un blocco metallico è sottoposto ad una variazione di flusso (di campo magnetico) al suo interno si manifestano correnti elettriche indotte, a forma di vortice/mulinello. Esempio Pendolo metallico in oscillazione in una regione di spazio dove è presente un campo magnetico uniforme ortogonale al piano del pendolo. 
 Il pendolo rallenta per effetto Joule, per cui un conduttore percorso da corrente elettrica si riscalda. Quindi parte dell'energia cinetica viene dissipata più velocemente. Questo effetto è indesiderato in motori elettrici e desiderato in freni elettrici (treni) e piani ad induzione. 
 
 ### Circuiti in corrente alternata
