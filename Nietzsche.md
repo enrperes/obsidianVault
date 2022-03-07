@@ -16,7 +16,7 @@ L'uomo si trova felice solo quando riesce a dosare in modo uguale la perfezione 
 #### Arte
 Applicando questi concetti all'arte si può notare come architettura e pittura rispecchino i canoni dell'Apollo, mentre Dionisio trova la sua espressione nella musica. 
 La tragedia è la forma più elevata forma d'arte: riesce a creare sintesi tra sensibilità di Dionisio e Apollo. Coro = indistinto(Dionisio) Attori = Razionale (Apollo). 
-Grandezza della tragedia Greca = Tradurre dolore e disperazione in linguaggio comprensibile apollineo. 
+Grandezza della tragedia Greca = Tradurre dolore (irrazionale) e disperazione in linguaggio comprensibile apollineo. 
 
 L'arte quindi rappresenta la via verso l'irrazionale. 
 Socrate ha innalzato il razionale sopra l'irrazionale -> crea un'illusione. 
