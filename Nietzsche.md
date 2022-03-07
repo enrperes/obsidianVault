@@ -4,14 +4,17 @@
 Nietzsche fu un filosofo tedesco nato nel 1844 in Germania. Tra le opere più importanti ricordiamo "**La nascita della tragedia dallo spirito della musica**" (1872) e "**Così parlò Zarathustra**" (1885). 
 Nel primo dei due Nietzsche affronta la società moderna e la definisce decadente: infatti per lui la decadenza è l'uso della ragione nel tentativo di allontanare l'irrazionalità del reale e definisce l'uomo come non ben riuscito. 
 
-Per Nietzsche la forza di un uomo sta in quanto dolore riesce a sopportare senza fingere illusione. 
+Per Nietzsche la forza di un uomo sta in quanto dolore riesce a sopportare senza fingere illusione.  
 
-Già nel mondo classico c'erano due figure che si contrapponevano: Apollo e Dionisio. 
+Già nel mondo classico greco c'erano due figure che si contrapponevano: Apollo e Dionisio. 
 Apollo è il dio del giorno, della luce, chiarezza, proporzione, armonia. 
-Dionisio al contrario è il dio della notte, del buio, dismisura. 
+Dionisio al contrario è il dio della notte, del caos, dismisura, sfrenatezza. 
 L'uomo si trova felice solo quando riesce a dosare in modo uguale la perfezione di Apollo e l'ebbrezza di Dionisio. 
 
 Applicando questi concetti all'arte si può notare come architettura e pittura rispecchino i canoni dell'Apollo, mentre Dionisio trova la sua espressione nella musica. 
+La tragedia è la forma più elevata forma d'arte: riesce a creare sintesi tra sensibilità di Dionisio e Apollo. Coro = indistinto(Dionisio) Attori = Razionale (Apollo). 
+Grandezza della tragedia Greca = Tradurre dolore e disperazione in linguaggio comprensibile apollineo. 
+
 L'arte quindi rappresenta la via verso l'irrazionale. 
 
 Nietzsche si occupa inoltre della filosofia della storia in "Sull'utilità e il danno della storia per la vita" (1874)
@@ -115,10 +118,7 @@ Problema:
 Modelliiamo il mondo dalla rivoluzione per cause meccaniche. Unico modello, per tutto. 
 Problema: La politica si fonda su *Libertà e uguaglianza*. La libertà da dove deriva? non può essere mappata nel nostro  modello. bisogna introdurre un operatore, la morale. 
 
-
-
-
-
+---
 
 
 
