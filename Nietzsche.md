@@ -1,6 +1,6 @@
 #todo 
 
-# Nietsche 
+# Nietzsche 
 Nietzsche fu un filosofo tedesco nato nel 1844 in Germania. Tra le opere più importanti ricordiamo "**La nascita della tragedia dallo spirito della musica**" (1872) e "**Così parlò Zarathustra**" (1885). 
 Nel primo dei due Nietzsche affronta la società moderna e la definisce decadente: infatti per lui la decadenza è l'uso della ragione nel tentativo di allontanare l'irrazionalità del reale e definisce l'uomo come non ben riuscito. 
 
@@ -16,13 +16,14 @@ La tragedia è la forma più elevata forma d'arte: riesce a creare sintesi tra s
 Grandezza della tragedia Greca = Tradurre dolore e disperazione in linguaggio comprensibile apollineo. 
 
 L'arte quindi rappresenta la via verso l'irrazionale. 
+Socrate ha innalzato il razionale sopra l'irrazionale -> crea un'illusione. 
 
 Nietzsche si occupa inoltre della filosofia della storia in "Sull'utilità e il danno della storia per la vita" (1874)
 Dove sostiene che non esistano i fatti ma soltanto l'interpretazione di essi. 
 Individua tre tipi di storia: 
 
 ###### Storia monumentale
-Deriva dal guardare al passato per rintracciare i modelli e i maestri da cui trarre ispirazione. Serve a combattere la rassegnazione. Questo tipo di storia tende ad alterare il passato, in quando ne dimentica la maggior parte e tiene conto solo degli aspetti positivi, spesso alterati. 
+Deriva dal guardare al passato per rintracciare i modelli e i maestri da cui trarre ispirazione. Positivo perchè vedendo i modelli vincenti siamo spinti a fare qualcosa. Questo tipo di storia tende ad alterare il passato, in quando ne dimentica la maggior parte e tiene conto solo degli aspetti positivi, spesso alterati. 
 ###### Storia antiquaria 
 Tendenza a guardare le proprie origini. Ci si sente eredi del passato ma si può tendere a limitare il campo visivo alla tradizione, distaccandoci dal presente.
 ###### Storia critica
