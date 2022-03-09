@@ -39,7 +39,7 @@ Tre fasi:
 Manifesto politico del superuomo. 
 Testo in prosa, segna il passaggio da esteta a superuomo. ispirazione: [[Nietzsche]]. Passa dall'incertezza a un eroe forte e sicuro. 
 ##### Le Laudi
-1903 - Raccolta di componimenti, oltre all'estetismo, sul concetto del superuomo. 
+1903 - Raccolta poetica divisa in 7 libri di cui 5 composti. 
 ##### La sera fiesolana
 ##### La pioggia nel pineto
 ##### Meriggio
