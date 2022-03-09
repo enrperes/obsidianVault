@@ -12,7 +12,13 @@ Nasce in Francia. La realtà è qualcosa di misterioso, profondo. Solo il poeta,
 Visione della vita deformata dal bello. Si sviluppa il Dandy, eccentrico e trasgressivo. Esponenti = D'annunzio e Wilde. 
 ##### Baudelaire
 1821
-Visoine della modernità pessimista, tutto è inutile
+Visoine della modernità pessimista, tutto è inutile. 
+**Spleen** = umore nero, Stato d'animo caratterizzato da noia. 
+###### Fiori del male
+1857 
+Raccolta di opere. Già il titolo indica che esiste un fascino per il male. I fiori riescono a nascere nel male, il mondo. Temi= scappatoie, crimine, droga per scappare allo spleen
+###### ALbatros 
+Paragone tra vita dell'uccello e del poeta. Uccello libero e capace di volare come lui con la mente e la fantasia. i Marinai che infastidiscono sono come la gente comune che deride il poeta. 
 #### D'annunzio
 ##### Ideologie, vita
 ##### Il piacere
