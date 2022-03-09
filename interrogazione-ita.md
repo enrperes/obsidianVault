@@ -106,8 +106,10 @@ Descrizione di un notturno lunare, reso attraverso sensazioni visive e uditive.
 ##### 11 Novembre
 Illusione primaverile ma è autunno quindi preludio di morte. 
 ##### Temporale, Lampo, Tuono
-Trittico. 
+Trittico. riferimento ai pericoli della vita 
 ##### Gelsomino notturno
+Dai Canti di Castelvecchio. Scritta come dono di nozze a amico. 
+Il fiore di notte fiorisce e di giorno si chiude, metafora prima notte di nozze. 
 ##### La mia sera
 ##### La proletaria s'è mossa
 
