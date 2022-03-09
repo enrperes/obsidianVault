@@ -19,8 +19,16 @@ Visoine della modernità pessimista, tutto è inutile.
 Raccolta di opere. Già il titolo indica che esiste un fascino per il male. I fiori riescono a nascere nel male, il mondo. Temi= scappatoie, crimine, droga per scappare allo spleen
 ###### ALbatros 
 Paragone tra vita dell'uccello e del poeta. Uccello libero e capace di volare come lui con la mente e la fantasia. i Marinai che infastidiscono sono come la gente comune che deride il poeta. 
+###### Corrispondenze
+Manifesto del simbolismo. Natura vista come tempio vivente, foresta di simboli che solo il poeta può decifrare. 
 #### D'annunzio
+- 1863 - 1938
+- Decadentismo, estetismo
+- Il significato e il contenuto delle opere è in secondo piano. Più importante il bello. La vita stessa è un'opera d'arte. 
 ##### Ideologie, vita
+Nasce a Pescara da famiglia borghese. Studi prestigiosi. A Roma abbandona l'università per dedicarsi ad uno stile di vita estetizzante, dominato da lusso, avventure, trasgressioni -> Dandy. Tra le numerose amanti Eleonora Duse, attrice a Venezia, [[interrogazione-ita#La pioggia nel pineto|musa ispiratrice]]
+1915 dalla Francia torna in Italia per la guerra, si schiera con gli interventisti. Toglie visibilità al duce Mussolini, che lo esilia. (Dente malato: o rimosso o ricoperto d'oro)
+
 ##### Il piacere
 ##### La vergine delle rocce
 ##### Laudi
