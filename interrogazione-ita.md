@@ -62,10 +62,13 @@ Massima espressione panismo (tendenza a mescolarsi con la natura). Terza e quart
 1855-1912
 Al contrario di [[interrogazione-ita#D'annunzio|D'annunzio]], pieno di eccessi e sopra ogni regola, Pascoli vive nell'ombra.
 Vive nel NIDO (Luogo caldo e sicuro dove proteggersi insieme a sorella Maria)
-10 agosto 1867 muore il padre, viene traumatizzato a vita. La produzione pascoliana ruota attorno a questo (lutto, paura, nido, sofferenza) 
-
-##### Politica, vita
+- 10 agosto 1867 muore il padre, viene traumatizzato a vita. La produzione pascoliana ruota attorno a questo (lutto, paura, nido, sofferenza) 
+- 1887 si stabilisce a Lucca con sorella Maria per costruire il nido familiare lontano dalla vita cittadina. 
+- 1891 Raccolta di poesie Myricae dedicata al padre. 
+##### politica
+Inizialmente socialista, manifesta contro la società che non gli permette di esprimersi come avrebbe voluto, influenzato dalla morte del padre. 
 ##### famiglia
+Tutta la produzione ruota intorno alla morte del padre, al lutto e agli affetti familiari. Ha esigenza di ricostruire il nido per sanare la trauma infantile. 
 #####  Il fanciullino
 ##### Myriacae
 ##### X Agosto
