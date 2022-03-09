@@ -51,8 +51,9 @@ I nomi derivano dalle stelle più luminose delle Pleiadi.
 Insieme a Eleonora Duse. Tema principale: Natura, i personaggi sono in secondo piano. 3 Strofe: 
 1. Natività della Luna: Momento magico che precede il sorgere della luna. 
 2. Musicalità e trama fonica protagoniste
-3. Immagine più sensuale, motivo amoroso. Trasfigurazione delle colline in labbra
+3. Immagine più sensuale, motivo amoroso. Trasfigurazione delle colline in labbra di Duse
 ###### La pioggia nel pineto
+
 ###### Meriggio
 
 
