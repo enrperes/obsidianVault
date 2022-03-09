@@ -63,17 +63,25 @@ $E$ = campo elettrico. Quindi dove c'è campo elettrico c'è una densità di ene
 ---
 
 Potenza:
-##### $\varepsilon i = Li \dfrac{di}{dt} + Ri^2$
+#### $\varepsilon i = Li \dfrac{di}{dt} + Ri^2$
 Dove $\varepsilon i$ = potenza erogata;  $Ri^2$ = potenza dissipata di $R$
 
-## $$E_{conc_{ind}} = \int_0^I Li\;di = ....$$
+### $$E_{conc_{ind}} = \int_0^I Li\;di = ....$$
+
+---
+## Circuiti LC
 
 
 
+---
+## Circuiti RLC 
+Contiene solo Resistori, Induttori e Condensatori. 
+Equazione differenziale secondo Kirchhoff: 
+#### $$\dfrac{q}{c}+R_i+L\dfrac{di}{dt}=0$$
+Con corrente alternata diventa LC. Ci sono comportamenti diversi tra corrente alternata e continua. 
 
-
-
-
+pag 884 
+35, 41, 43, 48, 51, 61, 69.
 
 
 

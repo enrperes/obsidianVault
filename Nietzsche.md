@@ -111,6 +111,8 @@ Uomo = volontà di potenza (Per Schopenhauer era volontà di vivere). Non può r
 
 Impossibilità di raggiungere un bene -> si toglie valore all'oggetto (Esempio volpe-uva, acerba) = CALUNIA (deprivare di valore l'oggetto desiderato) --> per far vedere che non mi importa più di tanto. 
 
+
+
 Si modellizza a partire da una critica distruttiva nei confronti del mondo. Rapporto tra i modelli e il mondo = modello informa il mondo. Il mondo è deformato dalla critica distruttiva, si vedranno solo gli aspetti negativi. 
 
 Si calunnia il valore stesso. = tolgo il riconoscimento a questi valori. (Bellezza, ricchezza..)

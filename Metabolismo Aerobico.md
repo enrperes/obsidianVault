@@ -12,4 +12,11 @@ Glucosio entra, viene scisso in due molecole di Piruvato, entra nel ciclo di Kre
 ### Ciclo di Krebs
 Ciclo perchè si inizia con Acetil coenzima A e si finisce sempre con esso. 
 Si ottengono 6 NADH, 2 FADH2
+pag 69, 70 - 72,75
+
+### Biochimica del corpo umano
+pag 77
+#### Gluconeogenesi
+Alanina, aspartico, glutammico 
+ 
 

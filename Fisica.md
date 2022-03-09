@@ -1,5 +1,6 @@
 #materia
 [[Alphabeto]]
+[[Kirchhoff]]
 [[Legge Ampere]]
 [[Faraday-Neuman-Lenz]]
 [[Verifica]]

@@ -64,10 +64,14 @@ schema pag 899
 Pag 907 le *Novelle per una anno*
 916: *Il treno ha fischiato*
 
-
-
 ![[5A40B904-DDCF-4E55-A7D7-379CDE91024C.jpeg]]
 
-
+##### Treno fischiato 
+Storia ragionier Belluca, impazzisce. Continua a dire che il treno fischia. QUesta  è una Epiphany che lo scardina dalla vita di ogni giorno. Diventa emblema dei vari punti di vista come è interpretato. Pazzo e normale. Anche delle vie di fuga dalla maschera. 
+Comico = prima parte. fino a 67. 
+#### Il Fu Mattia Pascal 
+%%pag 924%%
+Trama da sapere. 
+#### Uno, nessuno centomila. 
 
 
