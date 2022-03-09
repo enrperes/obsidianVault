@@ -43,7 +43,7 @@ Testo in prosa, segna il passaggio da esteta a superuomo. ispirazione: [[Nietzsc
 I nomi derivano dalle stelle più luminose delle Pleiadi. 
 - Maia -> Esaltazione vita superuomo
 - Elettra -> esaltazione passato glorioso città italiane
-- Alcyone -> Tema lirico panismo
+- Alcyone -> Non più tema politico, ma fusione panica con la natura. 
 - Merope -> celebrazione impresa coloniale Libia
 - Asterope -> patriottismo e nazionalismo
 ##### La sera fiesolana
