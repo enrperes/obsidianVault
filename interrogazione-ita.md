@@ -43,10 +43,11 @@ Testo in prosa, segna il passaggio da esteta a superuomo. ispirazione: [[Nietzsc
 I nomi derivano dalle stelle più luminose delle Pleiadi. 
 - Maia -> Esaltazione vita superuomo
 - Elettra -> esaltazione passato glorioso città italiane
-- Alcyone -> Non più tema politico, ma fusione panica con la natura. Manifestazione del superomismo. Solo al superuomo (poeta) è concesso di trasumanare spingendosi al di là del limite umano. 
+- **Alcyone** -> Non più tema politico, ma fusione panica con la natura. Manifestazione del superomismo. Solo al superuomo (poeta) è concesso di trasumanare spingendosi al di là del limite umano. 
 - Merope -> celebrazione impresa coloniale Libia
 - Asterope -> patriottismo e nazionalismo
 ###### La sera fiesolana
+
 ###### La pioggia nel pineto
 ###### Meriggio
 
