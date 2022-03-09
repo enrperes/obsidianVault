@@ -53,41 +53,17 @@ Insieme a Eleonora Duse. Tema principale: Natura, i personaggi sono in secondo p
 2. Musicalità e trama fonica protagoniste
 3. Immagine più sensuale, motivo amoroso. Trasfigurazione delle colline in labbra di Duse
 ###### La pioggia nel pineto
-
+Poeta sorpreso dalla pioggia (il pianto del cielo) durante una passeggiata con Ermione (Eleonora). Grazie alle figure retoriche crea un flusso di pensieri omogeneo e continuo. Si concentra sulla pioggia e sui suoni che produce. Terza strofa -> aumenta il motivo musicale, unione con natura sempre più forte. Nella quarta strofa poeta e musa perdono le sembianze umane e si trasformano in parte della foresta. 
 ###### Meriggio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Ammirazione del paesaggio nel silenzio e torpore del meriggio estivo(mezzogiorno)
+Massima espressione panismo (tendenza a mescolarsi con la natura). Terza e quarta strofa -> poeta si identifica con il meriggio, perde l'identità umana. 
 
 #### Pascoli
+1855-1912
+Al contrario di [[interrogazione-ita#D'annunzio|D'annunzio]], pieno di eccessi e sopra ogni regola, Pascoli vive nell'ombra.
+Vive nel NIDO (Luogo caldo e sicuro dove proteggersi insieme a sorella Maria)
+10 agosto 1867 muore il padre, viene traumatizzato a vita. La produzione pascoliana ruota attorno a questo (lutto, paura, nido, sofferenza) 
+
 ##### Politica, vita
 ##### famiglia
 #####  Il fanciullino
@@ -99,6 +75,36 @@ Insieme a Eleonora Duse. Tema principale: Natura, i personaggi sono in secondo p
 ##### Gelsomino notturno
 ##### La mia sera
 ##### La proletaria s'è mossa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Futurismo
 ##### Manifesto futurismo 
 ##### Manifesto tecnico 
