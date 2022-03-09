@@ -111,6 +111,7 @@ Trittico. riferimento ai pericoli della vita
 Dai Canti di Castelvecchio. Scritta come dono di nozze a amico. 
 Il fiore di notte fiorisce e di giorno si chiude, metafora prima notte di nozze. 
 ##### La mia sera
+
 ##### La proletaria s'è mossa
 
 
