@@ -102,9 +102,11 @@ descrizione realistica e decadente di un paesaggio estivo realista lontano da D'
 Giorno in cui muore il padre. Paragone alla morte di cristo come morte innocenti. Anche notte di san lorenzo. Stelle cadenti->pianto del cielo->dolore.
 Tragica storia parallela del ritorno di una rondine al nido con la morte di pascoli. Entrambi muoiono innocenti prima di poter riabbracciare la propria famiglia. 
 ##### Assiuolo
-Descrizione di un notturno lunare, 
+Descrizione di un notturno lunare, reso attraverso sensazioni visive e uditive. 
 ##### 11 Novembre
+Illusione primaverile ma è autunno quindi preludio di morte. 
 ##### Temporale, Lampo, Tuono
+Trittico. 
 ##### Gelsomino notturno
 ##### La mia sera
 ##### La proletaria s'è mossa
