@@ -47,7 +47,11 @@ I nomi derivano dalle stelle più luminose delle Pleiadi.
 - Merope -> celebrazione impresa coloniale Libia
 - Asterope -> patriottismo e nazionalismo
 ###### La sera fiesolana
-
+(Fine primavera)
+Insieme a Eleonora Duse. Tema principale: Natura, i personaggi sono in secondo piano. 3 Strofe: 
+1. Natività della Luna: Momento magico che precede il sorgere della luna. 
+2. Musicalità e trama fonica protagoniste
+3. Immagine più sensuale, motivo amoroso. Trasfigurazione delle colline in labbra
 ###### La pioggia nel pineto
 ###### Meriggio
 
