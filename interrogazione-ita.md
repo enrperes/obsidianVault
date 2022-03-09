@@ -36,11 +36,45 @@ Tre fasi:
 ##### Il piacere
 1889 - Racconta la sua esperienza romana attraverso il protagonista Andrea Sperelli. Vita lussuosa e piena di amori. Viene espresso pienamente l'**estetismo** di D'annunzio, è uno dei testi che meglio lo rappresenta. 
 ##### La vergine delle rocce
+Manifesto politico del superuomo. 
+Testo in prosa, segna il passaggio da esteta a superuomo. ispirazione: [[Nietzsche]]. Passa dall'incertezza a un eroe forte e sicuro. 
 ##### Le Laudi
 1903 - Raccolta di componimenti, oltre all'estetismo, sul concetto del superuomo. 
 ##### La sera fiesolana
 ##### La pioggia nel pineto
 ##### Meriggio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Pascoli
 ##### Politica, vita
 ##### famiglia
