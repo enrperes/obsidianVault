@@ -40,6 +40,12 @@ Manifesto politico del superuomo.
 Testo in prosa, segna il passaggio da esteta a superuomo. ispirazione: [[Nietzsche]]. Passa dall'incertezza a un eroe forte e sicuro. 
 ##### Le Laudi
 1903 - Raccolta poetica divisa in 7 libri di cui 5 composti. 
+I nomi derivano dalle stelle più luminose delle Pleiadi. 
+- Maia -> Esaltazione vita superuomo
+- Elettra -> esaltazione passato glorioso città italiane
+- Alcyone -> Tema lirico panismo
+- Merope -> celebrazione impresa coloniale Libia
+- Asterope -> patriottismo e nazionalismo
 ##### La sera fiesolana
 ##### La pioggia nel pineto
 ##### Meriggio
