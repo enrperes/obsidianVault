@@ -64,15 +64,45 @@ Al contrario di [[interrogazione-ita#D'annunzio|D'annunzio]], pieno di eccessi e
 Vive nel NIDO (Luogo caldo e sicuro dove proteggersi insieme a sorella Maria)
 - 10 agosto 1867 muore il padre, viene traumatizzato a vita. La produzione pascoliana ruota attorno a questo (lutto, paura, nido, sofferenza) 
 - 1887 si stabilisce a Lucca con sorella Maria per costruire il nido familiare lontano dalla vita cittadina. 
+- Sostituisce Carducci nella cattedra di letteratura italiana a Bologna
 - 1891 Raccolta di poesie Myricae dedicata al padre. 
+- 1903 Canti di Castelvecchio in Garfagnana.
 ##### politica
 Inizialmente socialista, manifesta contro la società che non gli permette di esprimersi come avrebbe voluto, influenzato dalla morte del padre. 
 ##### famiglia
 Tutta la produzione ruota intorno alla morte del padre, al lutto e agli affetti familiari. Ha esigenza di ricostruire il nido per sanare la trauma infantile. 
+La morte del padre è ingiusta in quanto era innocente. 
+##### Stile
+Ci sono 3 fasi del suo registro: 
+1. grammaticale: lo standard, livello della prosa
+2. Post grammaticale: tecnicismi, lessico specifico, dialetti (usati sempre i nomi scientifici di flora e fauna)
+3. a-grammaticale, Linguagio del bambino. onomatopee, sgrammaticature, irrazionale. 
+In generale mantiene le forme tradizionali della metrica ma le rinnova usando più pause e punteggiature. 
 #####  Il fanciullino
+Saggio del 1897. Idea chiave: il poeta coincide con il fanciullo che sopravvive in ogni uomo. vede le cose "come per la priva volta" con ingenuità, stupore e meraviglia. 
+Poesia = espressione vocina del fanciullo, che normalmente negli adulti viene soffocato. 
+Tutti possiamo essere poeti in quanto poesia è immaginazione. 
+Il poeta fanciullo può andare nell'intimo delle cose cogliendo l'essenza oltre alle apparenze sensibili e il significato profondo delle piccole cose che un adulto trascura. 
+###### Fanciullo e superuomo
+due miti antietici. 
+
+|  Fanciullo   | superuomo |
+|:------------:|:---------:|
+|  innocienza  | Lussuria  |
+| tranquillità | violenza  |
+|  ordinario   |  esotico  |
+|   povertà    |   lusso   |
+|  sofferenza  |  dominio  |
+
 ##### Myriacae
+1891 - Raccolta di 156 poesie. Il titolo è un riferimento a Virgilio che diceva di innalzare il tono del suo componimento in quanto a nessuno piacciono le piccole cose (cespugli bassi = tamerici). Pascoli usa questo titolo proprio per concentrarsi sulle piccole cose. 
+##### Arano
+descrizione realistica e decadente di un paesaggio estivo realista lontano da D'annunzio. Apparente realismo e basta, c'è paragone con fatica umana e fonte di vita per uccelli. 
 ##### X Agosto
+Giorno in cui muore il padre. Paragone alla morte di cristo come morte innocenti. Anche notte di san lorenzo. Stelle cadenti->pianto del cielo->dolore.
+Tragica storia parallela del ritorno di una rondine al nido con la morte di pascoli. Entrambi muoiono innocenti prima di poter riabbracciare la propria famiglia. 
 ##### Assiuolo
+Descrizione di un notturno lunare, 
 ##### 11 Novembre
 ##### Temporale, Lampo, Tuono
 ##### Gelsomino notturno
