@@ -111,48 +111,35 @@ Trittico. riferimento ai pericoli della vita
 Dai Canti di Castelvecchio. Scritta come dono di nozze a amico. 
 Il fiore di notte fiorisce e di giorno si chiude, metafora prima notte di nozze. 
 ##### La mia sera
-
+Confronto quiete dopo tempesta con vita che sembra tranquilla dopo i lutti
 ##### La proletaria s'è mossa
+discorso per celebrare la conquista in Libia. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### Futurismo
+---
+3 movimenti (avanguardie storiche): futurismo, crepuscolari, vociani. 
+#### [[Futurismo]]
+movimento culturale, artistico, sociale, scientifico. Basato sul voler trasformare la cultura. 
 ##### Manifesto futurismo 
+1909 su un giornale parigino *Le Figaro*. Marinetti disprezza e vuole distruggere il passato. Vengono enunciati i fondamenti della rivoluzione futurista. 
+![[Futurismo#Manifesto del partito futurista]]
 ##### Manifesto tecnico 
+Presenta programma tecnico con proposte riguardanti la struttura sintattica, l'uso della punteggiatura ecc. 
+1. Distruggere la sintassi (è frutto di tradizione)
+2. Verbi all'infinito
+3. Aggettivi aboliti
+4. I sostantivi devono avere i doppi 
+5. Abolire la punteggiatura, utilizzando segni matematici e musicali
 ##### Bombardamento
+Descritto Bombardamento a opera dei bulgari a Adrianopoli. onomatopee, spartito musicale per indicazioni su come leggere. 
 ##### E lasciatemi divertire
+Poeta  dialoga con interlocutori anonimi, vuole comunicare la gioia di scrivere poesie giocando con leforme di tradizione letteraria. Rivendica con ironia il diritto al divertimento. 
 #### crepuscolari
 ##### Desolazione del povero poeta sentimentale
+Temi chiave: apatia, svogliatezza, male di vivere. 
 ##### Signorina Felicita
 #### vociani
 ##### invetriata
+
 #### Svevo
 ##### Vita
 ##### Inetto 

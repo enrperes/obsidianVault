@@ -35,7 +35,7 @@ Rebora, Sbarbaro, Campana. (Ambiente ligure)
 ---
 ### Manifesto del partito futurista 
 Novità: elenco puntato. 
-Messaggio forte e chiaro. Disprezza fortemente il passato. [[Nietzsche]] che critica la storia.
+Messaggio forte e chiaro. Disprezza fortemente il passato. [[Nietzsche#Filosofia della storia]] che critica la storia.
 Critica: (*pars destruens*) 
 - Musei 
 - Biblioteche
