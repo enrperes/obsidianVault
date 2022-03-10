@@ -137,6 +137,7 @@ Poeta  dialoga con interlocutori anonimi, vuole comunicare la gioia di scrivere 
 ##### Desolazione del povero poeta sentimentale
 Temi chiave: apatia, svogliatezza, male di vivere. 
 ##### Signorina Felicita
+ragazza si oppone ai canoni di bellezza del tempo, rappresenta la felicità, ultima speranza per potersi riappropriare delal vita felice che la letteratura ha allontanato. 
 #### vociani
 ##### invetriata
 
