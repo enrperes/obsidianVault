@@ -71,7 +71,7 @@ Storia ragionier Belluca, impazzisce. Continua a dire che il treno fischia. QUes
 Comico = prima parte. fino a 67. 
 #### Il Fu Mattia Pascal 
 %%pag 924%%
-Trama da sapere. 
+[[FuMattiaPascal]]
 #### Uno, nessuno centomila. 
 
 

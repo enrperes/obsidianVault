@@ -58,7 +58,7 @@ Poeta sorpreso dalla pioggia (il pianto del cielo) durante una passeggiata con E
 Ammirazione del paesaggio nel silenzio e torpore del meriggio estivo(mezzogiorno)
 Massima espressione panismo (tendenza a mescolarsi con la natura). Terza e quarta strofa -> poeta si identifica con il meriggio, perde l'identità umana. 
 
-#### Pascoli
+### Pascoli
 1855-1912
 Al contrario di [[interrogazione-ita#D'annunzio|D'annunzio]], pieno di eccessi e sopra ogni regola, Pascoli vive nell'ombra.
 Vive nel NIDO (Luogo caldo e sicuro dove proteggersi insieme a sorella Maria)
@@ -106,7 +106,7 @@ Descrizione di un notturno lunare, reso attraverso sensazioni visive e uditive.
 ##### 11 Novembre
 Illusione primaverile ma è autunno quindi preludio di morte. 
 ##### Temporale, Lampo, Tuono
-Trittico. riferimento ai pericoli della vita 
+Trittico. riferimento ai pericoli della vita. Nulla che rima con culla. 
 ##### Gelsomino notturno
 Dai Canti di Castelvecchio. Scritta come dono di nozze a amico. 
 Il fiore di notte fiorisce e di giorno si chiude, metafora prima notte di nozze. 
@@ -135,23 +135,41 @@ Descritto Bombardamento a opera dei bulgari a Adrianopoli. onomatopee, spartito 
 Poeta  dialoga con interlocutori anonimi, vuole comunicare la gioia di scrivere poesie giocando con leforme di tradizione letteraria. Rivendica con ironia il diritto al divertimento. 
 #### crepuscolari
 ##### Desolazione del povero poeta sentimentale
-Temi chiave: apatia, svogliatezza, male di vivere. 
+Temi chiave: apatia, svogliatezza, male di vivere. Non si sentono all'altezza di essere poeti. Vogliono criticare i grandi poeti italiani che stanno distruggendo la poetica. 
 ##### Signorina Felicita
 ragazza si oppone ai canoni di bellezza del tempo, rappresenta la felicità, ultima speranza per potersi riappropriare delal vita felice che la letteratura ha allontanato. 
 #### vociani
+Dalla rivista "Voce"
+quegli scrittori che vogliono sperimentare una nuova linguaggio che superasse gli standard dell'800
 ##### invetriata
-
+esprime il disagio esistenziale attraverso la sera. 
 #### Svevo
 ##### Vita
+Non nasce come scrittore, studia in germania -> pseudonimo. 1861 a Trieste. 
 ##### Inetto 
-##### Innovazioniu
+Narrazione in terza persona del fallimento dell'intellettuale alfonso Nitti. 
+
+Protagonista delle opere = antieroe. Uomo che vive la vita ordinaira. 
+
+Uomo indeciso, 
+##### Innovazioni
 ##### Pensiero 
 ##### Stile
 ##### Coscienza di Zeno
+1923 - inizialmente 0 successo fino a quando Joyce lo invia ad alcuni critici. 
+narrazione in prima persona di Zeno cosini, ricco triestino impossibilitato di fumare, sottoposto a una crisi psicanalitica. Il medico impone per mettere per iscritto la propria vita. 
 ###### Trama
+8 capitoli, racconta la sua vita. Smettere di fumare, morte del padre, matrimonio, amori. 
 ###### Fumo
+Chissà se cessando di fumare sarei diventato l'uomo ideale che mi aspettavo? forse è questo dubbio che mi lega al vizio perchè è un modo comodo per vivere quello di credersi grande. 
+###### Malattia 
+è la sua inettitudine, il suo non saper stare al mondo. 
+
 ###### Morte padre
+Zeno è più preoccupato di rimanere solo che del fatto che il padre sta morendo. Schiaffo perchè Zeno si interessa di lui solo in punto di morte. 
 ###### Augusta
+Inizialmente vista come la *Salute*, poi si rende conto pag 852 che era simbolo di malattia, era lei ad aver bisogno di cure. 
 ###### Apocalisse cosmica
+Unica cura per Svevo è un'esplosione che farà tornare tutto alla farse nebulosa. Unico modo per liberarsi da tutte le malattie. 
 
 
