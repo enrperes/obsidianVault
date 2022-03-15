@@ -18,5 +18,13 @@ pag 69, 70 - 72,75
 pag 77
 #### Gluconeogenesi
 Alanina, aspartico, glutammico 
- 
+
+---
+
+pagina B82
+
+pagina B84 diabete
+B86 Glucagone 
+	
+
 
