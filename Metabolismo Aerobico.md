@@ -25,6 +25,8 @@ pagina B82
 
 pagina B84 diabete
 B86 Glucagone 
-	
+
+
+Sintesi acidi grassi e ossidazione. 
 
 

@@ -7,6 +7,7 @@
 Famiglia agiata borghese, padre dirigeva alcune miniere di Zolfo. 
 Formazione umanista, laurea in lettere a università di Palermo.
 Si trasferisce all'università di Bonn dove si laurea in Filologia romanza. Nel frattempo inizia la produzione letteraria. 
+Riceve premio Nobel per le riforme portate al teatro. 
 Perde le ricchezze di famiglia causa allagamento miniera, la moglie finisce in psichiatria. 
 ***Involontario soggiorno sulla terra*** = vita 
 
@@ -75,3 +76,7 @@ Comico = prima parte. fino a 67.
 
 #### Uno, nessuno centomila. 
 [[UnoNessunoCentomila]]
+
+#### Il Teatro
+
+[[TeatroPirandello]]

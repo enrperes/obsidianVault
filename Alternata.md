@@ -1,0 +1,7 @@
+# Corrente alternata
+
+$$
+
+
+
+$$

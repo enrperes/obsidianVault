@@ -83,8 +83,10 @@ Con corrente alternata diventa LC. Ci sono comportamenti diversi tra corrente al
 pag 884 
 35, 41, 43, 48, 51, 61, 69.
 
+---
 
 
+[[Alternata]]
 
 
 

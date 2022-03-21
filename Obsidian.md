@@ -25,3 +25,7 @@ Text displayed in column 1.
 Text displayed in column 2.
 
 ===end-multi-column
+
+---
+
+<!-- embed code will be here after publishing -->
