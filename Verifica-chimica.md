@@ -16,14 +16,14 @@ da b120 no replicazione
 ---
 
 
-- [ ] ATP, NAD, FAD
-- [ ] B38, B39. 
-- [ ] ATP e NAD a pagina B56 
+- [x] ATP, NAD, FAD
+- [x] B38, B39. 
+- [x] ATP e NAD a pagina B56 
 - [ ] ADP, AMP 
 
-- [ ] Definizione Catabolismo, anabolismo, metabolismo
+- [x] Definizione Catabolismo, anabolismo, metabolismo
 - [ ] Glicolisi: le due fasi (investimento(preparatoria) e esoergonica) 
-- [ ] da un glucosio -> due piruvati. gaudagno = 2ATP. 
+- [x] da un glucosio -> due piruvati. gaudagno = 2ATP. 
 
 - [ ] Gliceraldeide 3 fosfato importante, da sapere. è la prima della fase di rendimento. 
 - [ ] fase 7 (fase limitante, non reversibile) da sapere 
