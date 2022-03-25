@@ -39,18 +39,18 @@ da b120 no replicazione
 
 - [x] Aerobiosi -> Il piruvato subisce decarbossilazione ossidativa 
 - [ ] Complesso della piruvato idrogenasi. Legame covalente -SH con lo Zolfo è ad alta energia
-- [ ] Viene data attivazione energetica al piruvato 
-- [ ] si passa da 3 atomi di C a 2. 
-- [ ] una molecola di CO2 per Piruvato. 
+- [x] Viene data attivazione energetica al piruvato 
+- [x] si passa da 3 atomi di C a 2. 
+- [x] una molecola di CO2 per Piruvato. 
 
-- [ ] CICLO DI KREBS
+- [x] CICLO DI KREBS
 
-- [ ] si apre e si chiude con la stessa molecola (Acetil coA (?)) 
+- [x] si apre e si chiude con la stessa molecola (Acetil coA (?)) 
 1. [ ] Citrato (formato da ossalacetato, ultimo composto del ciclo precedente) 
 - [ ] e si ritorna a 6 atomi di C (citrato) 
 2. [ ] si isomerizza (cambia solo la disposizione nello spazio) 
-3. [ ] decarbossilazione = si produce CO2. Isocitrato viene "smontato" una molecola di C viene persa sotto CO2. NAD+ diventa NADH. 
-- [ ] Tutta la CO2 viene eliminata con la respirazione cellulare. 
+3. [x] decarbossilazione = si produce CO2. Isocitrato viene "smontato" una molecola di C viene persa sotto CO2. NAD+ diventa NADH. 
+- [x] Tutta la CO2 viene eliminata con la respirazione cellulare. 
 [...]
 - [ ] alfachetoglutarato 
 - [ ] diventa succinil coato dopo aver tolto un C, e altri passaggi. 
