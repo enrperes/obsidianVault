@@ -1,6 +1,8 @@
 #todo 
 
 # Nietzsche 
+### Desiderio di potenza
+
 Nietzsche fu un filosofo tedesco nato nel 1844 in Germania. Tra le opere più importanti ricordiamo "**La nascita della tragedia dallo spirito della musica**" (1872) e "**Così parlò Zarathustra**" (1885). 
 
 #### Tragedia

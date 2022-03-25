@@ -10,3 +10,5 @@ insolubili, apolari. saponificabili ihanno acidi grassi. trigliceridi = 1glicero
 2022-02-18
 imparare 5 amminoacidi (formula chimica)
  da B15
+
+da b120 no replicazione 
