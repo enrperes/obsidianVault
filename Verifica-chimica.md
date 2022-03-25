@@ -12,3 +12,55 @@ imparare 5 amminoacidi (formula chimica)
  da B15
 
 da b120 no replicazione 
+
+---
+
+
+- [ ] ATP, NAD, FAD
+- [ ] B38, B39. 
+- [ ] ATP e NAD a pagina B56 
+- [ ] ADP, AMP 
+
+- [ ] Definizione Catabolismo, anabolismo, metabolismo
+- [ ] Glicolisi: le due fasi (investimento(preparatoria) e esoergonica) 
+- [ ] da un glucosio -> due piruvati. gaudagno = 2ATP. 
+
+- [ ] Gliceraldeide 3 fosfato importante, da sapere. è la prima della fase di rendimento. 
+- [ ] fase 7 (fase limitante, non reversibile) da sapere 
+- [ ] Fase 1, 3 importanti. 
+
+- [ ] le tre fasi limitanti: 1, 3, 7, 10. 
+- [ ] esochinasi fosforila il glucosio(fase1). importante. Fosforila se c'è il glucosio. 
+
+- [ ] Anaerobia = fermentazione lattea. Piruvato usato per formare NAD+. si forma il lattato (acido lattico) 
+- [ ] I lieviti fanno la fermentazione alcolica. Lieviti -> CO2 e Etanolo come prodotti di scarico.
+
+- [ ] Ciclo di Cori NO
+
+- [ ] Aerobiosi -> Il piruvato subisce decarbossilazione ossidativa 
+- [ ] Complesso della piruvato idrogenasi. Legame covalente -SH con lo Zolfo è ad alta energia
+- [ ] Viene data attivazione energetica al piruvato 
+- [ ] si passa da 3 atomi di C a 2. 
+- [ ] una molecola di CO2 per Piruvato. 
+
+- [ ] CICLO DI KREBS
+
+- [ ] si apre e si chiude con la stessa molecola (Acetil coA (?)) 
+1. [ ] Citrato (formato da ossalacetato, ultimo composto del ciclo precedente) 
+- [ ] e si ritorna a 6 atomi di C (citrato) 
+2. [ ] si isomerizza (cambia solo la disposizione nello spazio) 
+3. [ ] decarbossilazione = si produce CO2. Isocitrato viene "smontato" una molecola di C viene persa sotto CO2. NAD+ diventa NADH. 
+- [ ] Tutta la CO2 viene eliminata con la respirazione cellulare. 
+[...]
+- [ ] alfachetoglutarato 
+- [ ] diventa succinil coato dopo aver tolto un C, e altri passaggi. 
+
+- [ ] Domanda su GDP nel ciclo di Krebs. 
+
+- [ ] 4 complessi fosforilazione ossidativa SI (1,3,4 sono pompe protoniche, il 2 NO) 
+
+- [ ] Metabolismo SI 
+
+- [ ] Domanda corpi chetonici. (chi sono, quando vengono prodotti (digiuno, bambini, diabetici))
+
+- [ ] Colesterolo (quando è alto?)chi
