@@ -26,18 +26,18 @@ da b120 no replicazione
 - [x] da un glucosio -> due piruvati. gaudagno = 2ATP. 
 
 - [ ] Gliceraldeide 3 fosfato importante, da sapere. è la prima della fase di rendimento. 
-- [ ] fase 7 (fase limitante, non reversibile) da sapere 
-- [ ] Fase 1, 3 importanti. 
+- [x] fase 7 (fase limitante, non reversibile) da sapere 
+- [x] Fase 1, 3 importanti. 
 
-- [ ] le tre fasi limitanti: 1, 3, 7, 10. 
+- [x] le tre fasi limitanti: 1, 3, 7, 10. 
 - [ ] esochinasi fosforila il glucosio(fase1). importante. Fosforila se c'è il glucosio. 
 
-- [ ] Anaerobia = fermentazione lattea. Piruvato usato per formare NAD+. si forma il lattato (acido lattico) 
+- [x] Anaerobia = fermentazione lattea. Piruvato usato per formare NAD+. si forma il lattato (acido lattico) 
 - [ ] I lieviti fanno la fermentazione alcolica. Lieviti -> CO2 e Etanolo come prodotti di scarico.
 
-- [ ] Ciclo di Cori NO
+- [x] Ciclo di Cori NO
 
-- [ ] Aerobiosi -> Il piruvato subisce decarbossilazione ossidativa 
+- [x] Aerobiosi -> Il piruvato subisce decarbossilazione ossidativa 
 - [ ] Complesso della piruvato idrogenasi. Legame covalente -SH con lo Zolfo è ad alta energia
 - [ ] Viene data attivazione energetica al piruvato 
 - [ ] si passa da 3 atomi di C a 2. 
