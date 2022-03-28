@@ -1,4 +1,6 @@
 # Freud 
 #todo
 
-Eros è Dionisio 
+ %% Eros è Dionisio %%
+ 
+ 
