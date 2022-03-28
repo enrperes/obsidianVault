@@ -3,4 +3,27 @@
 
  %% Eros è Dionisio %%
  
- Desiderio di sopravvivenza. 
+ #### Teoria della sessualità
+ Prima si riteneva che essa coincidesse con la genitalità e che quindi la vita sessuale iniziasse con la pubertà e i bambini fossero asessuati. 
+ Conclude che sessualità e genitalità non coincidono e che si tratta di due concetti distinti. 
+ La vita sessuale è dominata dal desiderio sesssuale, la ***[[Libido]]***. 
+ Divisa nei bambini in 3 fasi: 
+###### Fase orale
+il bambino non solo ricava nutrimento dal seno della madre ma prova anche piacere
+###### Fase anale
+2-3 anno di vita. Bambino prova piacere nel trattenere e rilasciare le feci. 
+###### Fase fallica
+Scoperta dei genitali, il bambino prova piacere a toccarsi. 
+
+Bambino definito da Freud come *Perverso e polimorfo*
+Infatti viene criticato perchè il bambino era visto come sacro. 
+C'è un forte collegamento con la madre: 
+##### Complesso di Edipo
+Chiamato così perchè coincide con quanto accade nell' Edipo Re, tragedia di Sofocle. Edipo uccide suo padre e sposa sua madre, il bambino vorrebbe uccidere il padre per unirsi alla madre. 
+Analogamente, 
+##### Complesso di Elettra
+L'attaccamento affettuoso al padre da parte della figlia fa si che essa vogtlia uccidere la madre per unirsi al padre. 
+
+### Ruolo dell'arte
+> L'artista è colui che sogna ad occhi aperti trasfigurando in forme artistiche socialmente accettabili le sue pulsioni sessuali insoddisfatte. 
+ 
