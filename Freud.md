@@ -27,3 +27,43 @@ L'attaccamento affettuoso al padre da parte della figlia fa si che essa vogtlia 
 ### Ruolo dell'arte
 > L'artista è colui che sogna ad occhi aperti trasfigurando in forme artistiche socialmente accettabili le sue pulsioni sessuali insoddisfatte. 
  
+ L'arte permette agli uomini di rifugiarsi in una regione fra illusione e realtà in cui si può tollerare la durezza della vita. 
+ Quindi l'artista traspone sul piano della fantasi a i propri desideri erotici, allontanandosi dalla realtà. 
+ Trova una via per tornare nella realtà ralizzando l'opera d'arte. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
