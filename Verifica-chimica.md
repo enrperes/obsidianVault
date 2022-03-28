@@ -55,11 +55,11 @@ da b120 no replicazione
 - [ ] alfachetoglutarato 
 - [ ] diventa succinil coato dopo aver tolto un C, e altri passaggi. 
 
-- [ ] Domanda su GDP nel ciclo di Krebs. 
+- [x] Domanda su GDP nel ciclo di Krebs. 
 
 - [ ] 4 complessi fosforilazione ossidativa SI (1,3,4 sono pompe protoniche, il 2 NO) 
 
-- [ ] Metabolismo SI 
+- [x] Metabolismo SI 
 
 - [ ] Domanda corpi chetonici. (chi sono, quando vengono prodotti (digiuno, bambini, diabetici))
 
