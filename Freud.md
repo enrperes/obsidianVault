@@ -31,6 +31,10 @@ L'attaccamento affettuoso al padre da parte della figlia fa si che essa vogtlia 
  Quindi l'artista traspone sul piano della fantasi a i propri desideri erotici, allontanandosi dalla realtà. 
  Trova una via per tornare nella realtà ralizzando l'opera d'arte. 
  
+ ### Super-io collettivo
+ Si rese conto che la psicoanalisi poteva essere usata in modo filosofico per interpretare la storia dell'umanità. 
+ Sostiene che all'origine della civiltà, Caratterizzata da una cultura totemica, ci fossero due divieti: di incesto e di uccidere il padre. 
+ 
  
  
  
