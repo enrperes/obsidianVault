@@ -35,6 +35,13 @@ L'attaccamento affettuoso al padre da parte della figlia fa si che essa vogtlia 
  Si rese conto che la psicoanalisi poteva essere usata in modo filosofico per interpretare la storia dell'umanità. 
  Sostiene che all'origine della civiltà, Caratterizzata da una cultura totemica, ci fossero due divieti: di incesto e di uccidere il padre. 
  
+ Eros -> tendenze sessuali che sono pulsioni di vita. Si esprime nell'amore e creatività. Paragonabile a Dionisio.
+ 
+ Thanatos -> tendenze distruttive 
+ 
+ ###### Il disagio della civiltà 
+ 1929
+ Sostiene che la civiltà sia il risultato dei processi con gli uomini 
  
  
  
