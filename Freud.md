@@ -1,8 +1,22 @@
 # Freud 
-#todo
-
  %% Eros è Dionisio %%
- 
+#### Struttura della psiche
+###### Metodo catartico
+Freud e Breuer si convincono che la psiche contenga una parte inconscia costituita dai ricordi traumatici. Dopo aver indotto il paziente in ipnosi, la scarica emotiva del ricordo innesca un processo catartico (di purificazione) che libera dai disturbi. 
+Problema: ipnosi causa dipendenza e può essere applicata solo su gli individui più deboli 
+###### Metodo della pressione
+Consiste nel provocare il ricordo con la pressione della mano sulla fronte del paziente. 
+###### Metodo delle libere associazioni 
+Consiste nel cercare di rilassare il paziente facendolo risalire agli eventi traumatici che sono la causa dei suoi disturbi. 
+
+#### Psiche
+La divide in tre parti: conscio, preconscio, inconscio. 
+Conscio = ciò che si conosce di se
+Preconscio = ciò che si riesce a ricordare con uno sforzo di memoria., 
+Inconscio = momenti ritenuti spiacevoli che vengono censurati 
+
+
+
  #### Teoria della sessualità
  Prima si riteneva che essa coincidesse con la genitalità e che quindi la vita sessuale iniziasse con la pubertà e i bambini fossero asessuati. 
  Conclude che sessualità e genitalità non coincidono e che si tratta di due concetti distinti. 
@@ -35,7 +49,7 @@ L'attaccamento affettuoso al padre da parte della figlia fa si che essa vogtlia 
  Si rese conto che la psicoanalisi poteva essere usata in modo filosofico per interpretare la storia dell'umanità. 
  Sostiene che all'origine della civiltà, Caratterizzata da una cultura totemica, ci fossero due divieti: di incesto e di uccidere il padre. 
  
- 
+ I sogni hanno un ruolo compensatorio virtuale (torta-bambino)
  
  
  

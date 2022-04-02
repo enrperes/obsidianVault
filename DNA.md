@@ -17,7 +17,7 @@ Promotore sta a monte
 Introne sta a valle
 (processo di trascrizione del DNA pag 125)
 
-### Recuperare quadernino
+##### Recuperare quadernino
 
 Operone = serie di geni che devono essere trascritti
 
@@ -29,3 +29,7 @@ Spliceosomi = pallini
 
 Trascrizione eucarioti e procarioti 
 
+
+pag 134
+
+CAP favorisce le reazioni di splicing 
