@@ -15,4 +15,4 @@ Super-io & Superuomo da fare
 
 Freud -> Desiderio di sopravvivenza
 Schopenhauer -> Desiderio di vita
-Nietzsche -> Desiderio di ...
+Nietzsche -> irrazionale, caos.
