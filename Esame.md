@@ -11,10 +11,25 @@ inizio luglio orale
 # Invalsi
 [[2022-03-11]]
 
-# Prima prova
+### Prima prova
 - Analisi testo letterario 
 - Analisi e produzione di testo argomentativo 
 - Riflessione critica su tematiche di attualità
 ___
-# Seconda prova
+### Seconda prova
 - Matematica 
+
+
+---
+
+Commissione: 
+- Manzon
+- Candido
+- Dorigo
+- Magro
+- Mazzon
+- Peloso
+
+Rimangono fuori Spanio, Del Ben. 
+
+

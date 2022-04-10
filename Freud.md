@@ -54,13 +54,12 @@ L'attaccamento affettuoso al padre da parte della figlia fa si che essa vogtlia 
 =======
  Eros -> tendenze sessuali che sono pulsioni di vita. Si esprime nell'amore e creatività. Paragonabile a Dionisio.
  
- Thanatos -> tendenze distruttive 
+ Thanatos -> tendenze distruttive  (gli incubi)
  
  ###### Il disagio della civiltà 
  1929
  Sostiene che la civiltà sia il risultato dei processi con gli uomini 
  
->>>>>>> 7b139c6347ac177514e9dd3b385f02cdf959e525
  
  
  
