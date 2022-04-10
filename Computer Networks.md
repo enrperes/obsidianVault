@@ -56,11 +56,12 @@ Aimed at proposing a reference standard for different network designs. So comput
 
 > _Please Do Not Throw Sausage Pizza Away_
 
-- Physical 
-- Data-link 
-- Network
-- Transport 
-- Session
-- Presentation 
-- Application
+#### Physical 
+Responsable for the connection (physical or wireless) between network nodes.
+#### Data-link 
+#### Network
+#### Transport 
+#### Session
+#### Presentation 
+#### Application
 
