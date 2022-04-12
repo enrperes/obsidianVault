@@ -20,7 +20,6 @@ Winston Smith, 39. No friends. He starts to secretly write a diary, where he tir
 Julia, pretty girl who works with Winston. He hates her because he can't have her+ 
 
 O'Brien: Member of the inner party, a boss. Winston shoud be afraid of him but he knows he is intelligent so he tries to be friend with him. 
-### Location and time
 ### Themes 
 Thematically, it centres on the consequences of [totalitarianism](https://en.wikipedia.org/wiki/Totalitarianism "Totalitarianism"), [mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance "Mass surveillance") and [repressive regimentation](https://en.wikipedia.org/wiki/Brainwashing "Brainwashing") of people and behaviours within society.[[](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four#cite_note-BenetReader-2)
 
