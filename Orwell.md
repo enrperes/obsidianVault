@@ -8,7 +8,7 @@ He is best known for the allegorical novella Animal Farm (1945) and the dystopia
 He was born in India and raised in England were he began his writing career. He worked as a journalist and a teacher in London, the pubblication of Animal Farm led to his fame. 
 
 ### Plot
-The story takes place in an imagined future in the year 1984.Most of the was has fallen into perpetual war, omnipresent government surveillance and propaganda. Great Britain now known as Airstrip One, has become a province of the totalitarian superstate Oceania, ruled by the Party. 
+The story takes place in an imagined future in the year 1984.Most of the was has fallen into perpetual war, omnipresent government surveillance and propaganda. Great Britain now known as Airstrip One, has become a province of the totalitarian superstate Oceania, ruled by the Party under the leader Big Brother. Everyone is constantly being observed through telescreen, hidden mics and cameras. 
 
 
 
