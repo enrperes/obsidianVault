@@ -44,6 +44,9 @@ Piede straniero, morti nelle piazze, erba di ghiaccio, lamento fanciulli.
 
 
 
-### [[Eugenio Montale ]]
+### ![[Eugenio Montale ]]
 
 
+Gramsci e Vittorini
+
+### [[Alda Merini]]

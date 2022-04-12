@@ -50,24 +50,32 @@ Big, powerful, reliable computer. Non scalable.
 
 
 ### OSI Model 
-Open System Interconnection.
+**Open System Interconnection**
+
 Standard definined by ISO (Internetional Standard Organization)
-Aimed at proposing a reference standard for different network designs. So computers belonging to different networks could communicate. 
+Aimed at proposing a reference standard for different network designs. So computers belonging to different networks can communicate. 
+
 
 > _Please Do Not Throw Sausage Pizza Away_
 
-#### Physical 
+#### 1-Physical 
 Responsable for the connection (physical or wireless) between network nodes. It defines the connections between the devices and is responsable for transmission of raw data.
-#### Data-link 
+#### 2-Data-link 
 Estabilishes a connection between two nodes on a network. Breaks packets into frames and sends them from source to destination. LLC (Logical-link-control) identifies network protocols, performs error checking and MAC (Media Access Control): uses MAC addresses to connect devices and define permissions to send and receive data. 
-#### Network
+#### 3-Network
 Breaks up segments into network packets and reassembles them on the receiving end. It uses network addresses (IP) to route packets to the destination node. 
-#### Transport 
+#### 4-Transport 
 Takes the data and breaks it into segments (transmitting end) responsible for reassembling the segments in the receiving end. Error control - check if data is received correctly.
-#### Session
+#### 5-Session
 Creates communication channels (sessions) between devices. Responsible for opening and closing them. Checkpoints: during data transfer if the session is interrupted, devices can resume data transfer from the last checkpoint. 
-#### Presentation 
+#### 6-Presentation 
 Prepares the data for the application layer. Defines how the devices should encode, encrypt, compress data. Takes data transmitted by the application layer and prepares it for transmission over the session layer. 
-#### Application
+#### 7-Application
 Used by the end user software (Browser, Email client). Provides protocols that allow software to send and receive information: HTTPS (HyperText Transfer Protocol Secure), FTP (File Transfer Protocol) DNS(Domaing Name System) SMTP(Simple Mail Transfer Protocol)
+
+---
+
+##### Interconnection devices: 
+Between sender and receiver device. 
+
 
