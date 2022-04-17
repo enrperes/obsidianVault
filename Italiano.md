@@ -15,3 +15,5 @@
 [[Saba]]
 [[Ungaretti]]
 [[Ermetismo]] (Quasimodo, Montale)
+[[Gramsci-Vittorini]]
+[[Silvia Salvatici]]
