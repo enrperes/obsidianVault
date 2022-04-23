@@ -60,8 +60,13 @@ Aimed at proposing a reference standard for different network designs. So comput
 
 #### 1-Physical 
 Responsable for the connection (physical or wireless) between network nodes. It defines the connections between the devices and is responsable for transmission of raw data.
+Digital data is converted into an analog signal (signaling). Voltage difference for cables or electromagnetic waves at specific frequency. 
+
 #### 2-Data-link 
 Estabilishes a connection between two nodes on a network. Breaks packets into frames and sends them from source to destination. LLC (Logical-link-control) identifies network protocols, performs error checking and MAC (Media Access Control): uses MAC addresses to connect devices and define permissions to send and receive data. 
+MAC Address: every network device has one (Hardware based) Used within a local area network (LAN). IP address belongs to layer 3, can be used between remote devices. 
+Also checks if there are errors. (CRC)
+
 #### 3-Network
 Breaks up segments into network packets and reassembles them on the receiving end. It uses network addresses (IP) to route packets to the destination node. 
 #### 4-Transport 
@@ -77,5 +82,10 @@ Used by the end user software (Browser, Email client). Provides protocols that a
 
 ##### Interconnection devices: 
 Between sender and receiver device. 
+
+- Network Interface Cart
+- Repeater 
+- Hub
+- Bridge
 
 

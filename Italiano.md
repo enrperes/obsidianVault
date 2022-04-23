@@ -15,3 +15,6 @@
 [[Saba]]
 [[Ungaretti]]
 [[Ermetismo]] (Quasimodo, Montale)
+[[Gramsci]]
+[[Vittorini]]
+[[NeoRealismo]]
