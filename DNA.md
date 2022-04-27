@@ -33,3 +33,5 @@ Trascrizione eucarioti e procarioti
 pag 134
 
 CAP favorisce le reazioni di splicing 
+
+pag 163

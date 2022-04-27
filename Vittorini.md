@@ -1,6 +1,6 @@
 # Elio Vittorini
 1908 - 1966. Siracusa - Milano. 
-Siciliano. 
+#siciliano. 
 Riconosciamo di avere un grande patrimonio culturale. 
 > la società non è cultura perchè la cultura non è società. 
 
@@ -25,6 +25,7 @@ Stile scarno, asciutto. Dai dialoghi riscopre il mondo siciliano -> tema dolore,
 Ci sono uomini e uomini che non possono essere definiti tali. 
 Tutti noi appartenenti al genere umano possiamo essere uomini. 
 Ambientato a Milano 1945 - lotta partigiana contro i nazifascisti. 
+
 Sceglie di stampare i vari capitoli alcuni con carattere tondo altri con caratteri in corsivo: 
 Tondo -> narrativo 
 Corsivo -> parti riflessive, emblematiche. 
@@ -35,4 +36,11 @@ Linguaggio molto crudo, diretto, con ripetizioni
 Si pone la domanda _chi è l'uomo?_
 
 ###### Il mondo offeso 
-da leggere 
+Stile con ripetizioni, anafore, dialoghi... 
+
+Riga 87: 
+> *Tutti soffrono ognuno per se stesso, ma non soffrono per il mondo che è offeso così continua ad essere offeso.*
+
+
+Arrotino Calogero 
+Sellaio Ezechiele

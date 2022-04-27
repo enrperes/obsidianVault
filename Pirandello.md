@@ -1,7 +1,7 @@
 # Luigi Pirandello 
 %%tutto tutto per bene fino a pagina 901%%
 
-*Siciliano*
+#Siciliano
 [[Svevo]]
 1867(Grigenti) - 1936(Roma)
 Famiglia agiata borghese, padre dirigeva alcune miniere di Zolfo. 
