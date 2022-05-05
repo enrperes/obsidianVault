@@ -1,4 +1,5 @@
 [[ComputerNetworks-pdf]]
+[[Transmission Media]]
 
 ---
 
@@ -68,7 +69,11 @@ MAC Address: every network device has one (Hardware based) Used within a local a
 Also checks if there are errors. (CRC)
 
 #### 3-Network
-Breaks up segments into network packets and reassembles them on the receiving end. It uses network addresses (IP) to route packets to the destination node. 
+Breaks up segments into network packets and reassembles them on the receiving end. It uses network addresses (Logical address = IP) to route packets to the destination node. 
+Routing = selecting the best route for the packets in the network. Performed by the router. 
+Routing tables to store best routes for every IP address. 
+[http
+
 #### 4-Transport 
 Takes the data and breaks it into segments (transmitting end) responsible for reassembling the segments in the receiving end. Error control - check if data is received correctly.
 #### 5-Session

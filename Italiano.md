@@ -22,3 +22,4 @@
 [[Silvia Salvatici]]
 [[Primo Levi]]
 [[Cesare Pavese]]
+[[Calvino]]

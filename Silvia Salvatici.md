@@ -1,7 +1,7 @@
 ## SILVIA SALVATICI: donne e politica nell'Italia repubblicana
 Silvia Salvatici: Docente di storia contemporanea all'università degli studi di Milano
 
-7/06/1943
+7/06/1953
 	donne camera 34
 	donne senato 1 
 
@@ -11,10 +11,9 @@ Silvia Salvatici: Docente di storia contemporanea all'università degli studi di
 - licenziata perchè non giura al partito fascista (arrestata e espatriata per 5 anni)
 - 1943 è nella resistenza contro il fascismo
 - esempio della lotta per la parità dei sessi
+Le si deve un contributo alla stesura dell'articolo 3: no distinzioni di sesso.
 
-
-
-2/6/1946 donne italiane chiamate a votare per l'assemblea costituente (posso essere anche elette come componenti di essa)
+==2/6/1946== donne italiane chiamate a votare per l'assemblea costituente (posso essere anche elette come componenti di essa)
 21 donne entrano a far parte dell'organismo che deve redigere la carta costituzionale (3.7% dei costituenti)
 4 donne entrano a far parte del "gruppo dei 75" --> chi materialmente redige la carta
 Carta costituzionale per la parità di diritto 

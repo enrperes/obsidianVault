@@ -8,3 +8,4 @@
 [[Lenz]]
 [[Condensatore]]
 [[Interrogazione-fisica]]
+[[Onde Elettromagnetiche]]
