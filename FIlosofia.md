@@ -3,8 +3,10 @@
 [[Schopenhauer]]
 [[Nietzsche]]
 [[Freud]]
-[[Heidegger]]
 [[Appunti-filo]]
+[[Heidegger]]
+[[Sartre]]
+
 
 ---
 
