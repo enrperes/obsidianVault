@@ -1,0 +1,15 @@
+{
+  "promptDelete": false,
+  "fileSortOrder": "byModifiedTime",
+  "defaultViewMode": "preview",
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "showFrontmatter": false,
+  "alwaysUpdateLinks": true,
+  "foldHeading": false,
+  "foldIndent": true,
+  "attachmentFolderPath": "media",
+  "livePreview": false,
+  "communityThemeSortOrder": "download",
+  "spellcheck": false
+}

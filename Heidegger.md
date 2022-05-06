@@ -48,5 +48,4 @@ L'uomo è privilegiato perchè ha la possibilità di porsi la questione dell'ess
 #### Che cos'è il mondo? 
 > Il mondo è costituito dalle cose (enti) che hanno la caratteristica di poter essere utilizzati dall'uomo. 
 
-
-
+22:43 venerdì sera 🫶😀

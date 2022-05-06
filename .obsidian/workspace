@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "98e707e8284436cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4d35be3ed744990",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Heidegger.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa2a545bbf8f7d4b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0feab6f8b0f806cf",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "b99189255cb3ebac",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "bbb322240fba3c5d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "25df388e0c1484c8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Heidegger.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "919a49cbc6da84ff",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Heidegger.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1d485babce0da6f0",
+        "type": "leaf",
+        "state": {
+          "type": "advanced-tables-toolbar",
+          "state": {}
+        }
+      },
+      {
+        "id": "c2647ecc00afb642",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "e23f6cbfb7c9fb5c",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Heidegger.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "active": "d4d35be3ed744990",
+  "lastOpenFiles": [
+    "Heidegger.md",
+    "Git.md",
+    "Sartre.md",
+    "FIlosofia.md",
+    "Superuomo.md",
+    "Schiappacassi.md",
+    "Chimica.md",
+    "Onde Elettromagnetiche.md",
+    "Obsidian.md",
+    "conflict-files-obsidian-git.md"
+  ]
+}

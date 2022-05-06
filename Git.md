@@ -14,6 +14,7 @@ ____
 7.  Create a "branch" (version), make a change, commit the change
 8.  Open a "pull request" (propose changes to the main branch)
 9.  "Merge" your branch to the main branch
+10. To permanently cache the credentials: `git config --global credential.helper store`
 ___
 # Obsidian sync (Git + iSH)
 ### A new repo from an existing project (vault)
