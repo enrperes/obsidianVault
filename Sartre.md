@@ -6,3 +6,5 @@ Si focalizza sull'essere dell'esser-ci
 Vergogna ~ nasce dal pregiudizio degli altri 
 Sguardo degli altri, oggetto di attenzioni -> incubo, essendo oggetto di giudizi. 
 [Wiki-Sartre](https://it.wikipedia.org/wiki/Jean-Paul_Sartre?wprov=sfti1)
+
+update

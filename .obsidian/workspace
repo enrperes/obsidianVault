@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Heidegger.md",
-            "mode": "preview",
+            "file": "Sartre.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -36,7 +36,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "possibili",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -45,8 +45,7 @@
           }
         }
       }
-    ],
-    "currentTab": 1
+    ]
   },
   "right": {
     "id": "bbb322240fba3c5d",
@@ -58,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Heidegger.md",
+            "file": "Sartre.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -75,7 +74,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Heidegger.md",
+            "file": "Sartre.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -103,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Heidegger.md"
+            "file": "Sartre.md"
           }
         }
       }
@@ -112,15 +111,15 @@
   },
   "active": "d4d35be3ed744990",
   "lastOpenFiles": [
-    "Heidegger.md",
-    "Git.md",
     "Sartre.md",
+    "Heidegger.md",
     "FIlosofia.md",
-    "Superuomo.md",
-    "Schiappacassi.md",
-    "Chimica.md",
-    "Onde Elettromagnetiche.md",
-    "Obsidian.md",
-    "conflict-files-obsidian-git.md"
+    "Italiano.md",
+    "Calvino.md",
+    "Cesare Pavese.md",
+    "Silvia Salvatici.md",
+    "Primo Levi.md",
+    "DelConte.md",
+    "Chimica.md"
   ]
 }
