@@ -10,8 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Heidegger.md",
-            "mode": "preview",
-            "source": true
+            "mode": "source"
           }
         }
       }
@@ -19,96 +18,103 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "aa2a545bbf8f7d4b",
-    "type": "mobile-drawer",
+    "id": "e2b1064451d06baa",
+    "type": "split",
     "children": [
       {
-        "id": "0feab6f8b0f806cf",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "b99189255cb3ebac",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "c15ee0fb4ba182a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdef8f948f22d16a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "871d6f7446ae190b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 1
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "bbb322240fba3c5d",
-    "type": "mobile-drawer",
+    "id": "a5f31596b40a9613",
+    "type": "split",
     "children": [
       {
-        "id": "25df388e0c1484c8",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Heidegger.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "99e914f446f8db83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b114bed63f8550d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "deab9e0b7beb9ee2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Heidegger.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "701508926dcbcdfc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Heidegger.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3bcaba431e32f14b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Heidegger.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "919a49cbc6da84ff",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Heidegger.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "1d485babce0da6f0",
-        "type": "leaf",
-        "state": {
-          "type": "advanced-tables-toolbar",
-          "state": {}
-        }
-      },
-      {
-        "id": "c2647ecc00afb642",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "e23f6cbfb7c9fb5c",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Heidegger.md"
-          }
-        }
+        ],
+        "currentTab": 3
       }
     ],
-    "currentTab": 2
+    "direction": "horizontal",
+    "width": 300
   },
   "active": "d4d35be3ed744990",
   "lastOpenFiles": [

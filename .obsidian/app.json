@@ -3,7 +3,7 @@
   "fileSortOrder": "byModifiedTime",
   "defaultViewMode": "preview",
   "showLineNumber": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showFrontmatter": false,
   "alwaysUpdateLinks": true,
   "foldHeading": false,
