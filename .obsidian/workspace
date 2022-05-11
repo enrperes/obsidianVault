@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Calvino.md",
+            "file": "Verifica-ing.md",
             "mode": "preview",
             "source": true
           }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Calvino.md",
+            "file": "Verifica-ing.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -75,7 +75,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Calvino.md",
+            "file": "Verifica-ing.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -103,7 +103,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Calvino.md"
+            "file": "Verifica-ing.md"
           }
         }
       }
@@ -112,15 +112,15 @@
   },
   "active": "fb918bce357a62d8",
   "lastOpenFiles": [
+    "Verifica-ing.md",
+    "Inglese.md",
+    "Git.md",
+    "Onde Elettromagnetiche.md",
     "Calvino.md",
     "TeatroPirandello.md",
     "Pirandello.md",
     "Relatività.md",
     "Sfida al labirinto.md",
-    "aneddoto-pavese-calvino.md",
-    "Fisica.md",
-    "Matematica.md",
-    "3D.md",
-    "Statistica e probabilità.md"
+    "aneddoto-pavese-calvino.md"
   ]
 }

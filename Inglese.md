@@ -10,7 +10,6 @@
 [[Stevenson]]
 [[Thomas Hardy]]
 [[Mountaineering]]
-[[Verifica-ing]]
 [[Women]]
 [[20th Century]]
 [[Colonial Conflict]]
@@ -18,3 +17,6 @@
 [[Orwell]]
 [[James Joyce]]
 [[Modernism]]
+
+
+[[Verifica-ing]]
