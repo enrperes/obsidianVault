@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3D.md",
-            "mode": "source"
+            "file": "Onde Elettromagnetiche.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D.md",
+                "file": "Onde Elettromagnetiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D.md",
+                "file": "Onde Elettromagnetiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D.md"
+                "file": "Onde Elettromagnetiche.md"
               }
             }
           }
@@ -118,6 +118,8 @@
   },
   "active": "d4d35be3ed744990",
   "lastOpenFiles": [
+    "Onde Elettromagnetiche.md",
+    "Fisica.md",
     "3D.md",
     "Heidegger.md",
     "Git.md",
@@ -125,8 +127,6 @@
     "FIlosofia.md",
     "Superuomo.md",
     "Schiappacassi.md",
-    "Chimica.md",
-    "Onde Elettromagnetiche.md",
-    "Obsidian.md"
+    "Chimica.md"
   ]
 }
