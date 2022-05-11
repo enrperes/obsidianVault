@@ -29,6 +29,10 @@ Used for internet or long distance communication. Signal is light.
 Fine glass strands surrounded by glass and protective layer. 
 Low signal loss, very fast, no interference. 
 Very expensive and fragile.
+- **Single Mode**: smaller core, more expensive, for longer distances due to the low attenuation. 
+- **Multimode**: Bigger core, attenuation is higher, suitable for shorter distances, <400m. Can transmit more light signals. 
+
+
 ##### Unguided Media
 (Wireless media)
 ###### Microwave
@@ -70,4 +74,12 @@ A signal transmitted on one circuit of a transmisssion system creates an undesir
 Unshielded twisted pair are much more affected. 
 
 ##### Bandwidth (signal processing)
+>Bandwidth is **the data transfer capacity of a computer network in bits per second (Bps)**.
+
 > Difference between the upper and lower frequencies in a continuous band of frequencies. Measured in Hertz. 
+
+### Multiplexing 
+#### MUX
+Process of consolidating multiple signals (channels) digital or analog, into a single composite signal, transported over a single medium. Performed at [[Computer Networks#4-Transport|Layer 4]] ![[378FC133-70DA-45BB-BDAD-F5B70FCFA574.png|300]]
+#### DMUX 
+Demultiplexing: the opposite process.

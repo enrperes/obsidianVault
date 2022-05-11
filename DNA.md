@@ -35,3 +35,8 @@ pag 134
 CAP favorisce le reazioni di splicing 
 
 pag 163
+
+pag 174 
+## Sangers
+anche pagina 178 
+Insulina pag 17
