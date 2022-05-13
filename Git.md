@@ -76,7 +76,9 @@ ___
 : D
 
 ___
-
-touch .gitignore
-echo ".obsidian/cache"
-.Ds_Store > .gitignore
+### .gitignore
+Creare il file: 
+`touch .gitignore`
+Scrivere nel file aggiungendo le directory: 
+`echo .obsidian .trash > .gitignore`
+Con un `>` **sovrascrive** il contenuto. Con `>>` appende
