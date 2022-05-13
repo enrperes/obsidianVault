@@ -61,21 +61,24 @@ Aimed at proposing a reference standard for different network designs. So comput
 
 #### 1-Physical 
 Responsable for the connection (physical or wireless) between network nodes. It defines the connections between the devices and is responsable for transmission of raw data.
-Digital data is converted into an analog signal (signaling). Voltage difference for cables or electromagnetic waves at specific frequency. 
+Digital data is converted into an analog signal (signaling). Voltage difference for cables or electromagnetic waves at specific frequency. Frames are seen as bits. 
 
 #### 2-Data-link 
-Estabilishes a connection between two nodes on a network. Breaks packets into frames and sends them from source to destination. LLC (Logical-link-control) identifies network protocols, performs error checking and MAC (Media Access Control): uses MAC addresses to connect devices and define permissions to send and receive data. 
-MAC Address: every network device has one (Hardware based) Used within a local area network (LAN). IP address belongs to layer 3, can be used between remote devices. 
+Estabilishes a connection between two nodes on a network. **Breaks packets into frames** and sends them from source to destination. LLC (Logical-link-control) identifies network protocols, performs error checking and MAC (Media Access Control): uses MAC addresses to connect devices and define permissions to send and receive data. 
+**MAC Address:** every network device has one (Hardware-coded) Used within a local area network (**LAN**). IP address belongs to layer 3, can be used between remote devices. 
 Also checks if there are errors. (CRC)
 
 #### 3-Network
-Breaks up segments into network packets and reassembles them on the receiving end. It uses network addresses (Logical address = IP) to route packets to the destination node. 
+**Breaks up segments into network packets** and reassembles them on the receiving end. It uses network addresses (Logical address = IP. Identifies devices within a Internetwork) to route packets to the destination node. 
 Routing = selecting the best route for the packets in the network. Performed by the router. 
 Routing tables to store best routes for every IP address. 
 [http
 
 #### 4-Transport 
-Takes the data and breaks it into segments (transmitting end) responsible for reassembling the segments in the receiving end. Error control - check if data is received correctly.
+Takes the **data and breaks it into segments**, passed to layer 3. Responsible for reassembling the segments in the receiving end. Error control - check if data is received correctly.
+Also handles [[Transmission Media#Multiplexing|MUX and DMUX]]
+CONS service: Connection Oriented Network Services:> Reliable data transmission (raccomandata)
+CONS = reliable. CLNS (Connection-less network services)-> not reliable. 
 #### 5-Session
 Creates communication channels (sessions) between devices. Responsible for opening and closing them. Checkpoints: during data transfer if the session is interrupted, devices can resume data transfer from the last checkpoint. 
 #### 6-Presentation 

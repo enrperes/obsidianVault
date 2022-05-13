@@ -1,15 +1,23 @@
 {
   "main": {
-    "id": "98e707e8284436cc",
+    "id": "1f3eb54cc4eafd5c",
     "type": "split",
     "children": [
       {
-        "id": "d4d35be3ed744990",
+        "id": "ee6525e927ee3563",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "7b463b3f482ec951",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Onde Elettromagnetiche.md",
+            "file": "conflict-files-obsidian-git.md",
             "mode": "preview"
           }
         }
@@ -18,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e2b1064451d06baa",
+    "id": "123aed66324fff75",
     "type": "split",
     "children": [
       {
-        "id": "c15ee0fb4ba182a1",
+        "id": "fe7a41e0268a6135",
         "type": "tabs",
         "children": [
           {
-            "id": "cdef8f948f22d16a",
+            "id": "9616410db985cec0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +42,7 @@
             }
           },
           {
-            "id": "871d6f7446ae190b",
+            "id": "f6be991d641a036c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -55,15 +63,15 @@
     "width": 300
   },
   "right": {
-    "id": "a5f31596b40a9613",
+    "id": "429a359d7b7b3fb6",
     "type": "split",
     "children": [
       {
-        "id": "99e914f446f8db83",
+        "id": "02cd884697cce86c",
         "type": "tabs",
         "children": [
           {
-            "id": "3b114bed63f8550d",
+            "id": "3bd6f4886ec7e46f",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -71,12 +79,12 @@
             }
           },
           {
-            "id": "deab9e0b7beb9ee2",
+            "id": "636123cf1cddb168",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Onde Elettromagnetiche.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,45 +96,36 @@
             }
           },
           {
-            "id": "701508926dcbcdfc",
+            "id": "0e47e8ddb51d895e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Onde Elettromagnetiche.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "3bcaba431e32f14b",
+            "id": "5fe14b3dc407ff68",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Onde Elettromagnetiche.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 278
+    "width": 300,
+    "collapsed": true
   },
-  "active": "d4d35be3ed744990",
+  "active": "7b463b3f482ec951",
   "lastOpenFiles": [
-    "Onde Elettromagnetiche.md",
-    "Fisica.md",
-    "3D.md",
-    "Heidegger.md",
-    "Git.md",
-    "Sartre.md",
-    "FIlosofia.md",
-    "Superuomo.md",
-    "Schiappacassi.md",
-    "Chimica.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
