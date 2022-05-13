@@ -15,8 +15,8 @@
 [[Colonial Conflict]]
 [[WorldWarOne]]
 [[Orwell]]
-[[James Joyce]]
-[[Modernism]]
 
 
 [[Verifica-ing]]
+[[Modernism]]
+[[James Joyce]]

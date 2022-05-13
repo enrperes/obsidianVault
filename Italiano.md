@@ -23,3 +23,4 @@
 [[Primo Levi]]
 [[Cesare Pavese]]
 [[Calvino]]
+[[Pasolini]]

@@ -1,4 +1,5 @@
 #risorsa 
+FOOTNOTE [^1]
 ```ad-note
 title: Admonition
 collapse: open 
@@ -8,24 +9,24 @@ color: 200, 200, 0
 tool carino con tante opzioni per fare questo  
 ```
 
----
-
-
-=== start-multi-column: <RegionID>  
-```column-settings  
-number of columns: 2  
-largest column: left  
-border: off
-```
-
-Text displayed in column 1.
-
-===end-column===
-
-Text displayed in column 2.
-
-===end-multi-column
 
 ---
+# Callouts: 
+-   note
+-   abstract, summary, tldr
+-   info, todo
+-   tip, hint, important
+-   success, check, done
+-   question, help, faq
+-   warning, caution, attention
+-   failure, fail, missing
+-   danger, error
+-   bug
+-   example
+-   quote, cite
 
-<!-- embed code will be here after publishing -->
+
+> [!BUG] test 
+>  BUG!! RESOLVE BUG!! 
+
+[^1]: Footnotes look like this.

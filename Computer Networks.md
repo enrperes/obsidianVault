@@ -96,4 +96,12 @@ Between sender and receiver device.
 - Hub
 - Bridge
 
+---
+### Application Program Interfaces (API)
+10 Base T (TP cables) = 10 Mbps (LAN)
+F = fiber optics 
+X = mix 
 
+---
+
+## [[TCP-IP]]

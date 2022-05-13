@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "fb918bce357a62d8",
+        "id": "5726bd134b19ae29",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Verifica-ing.md",
-            "mode": "preview",
+            "file": "Relatività.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Verifica-ing.md",
+            "file": "Relatività.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -75,7 +75,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Verifica-ing.md",
+            "file": "Relatività.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -103,24 +103,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Verifica-ing.md"
+            "file": "Relatività.md"
           }
         }
       }
     ],
     "currentTab": 2
   },
-  "active": "fb918bce357a62d8",
+  "active": "5726bd134b19ae29",
   "lastOpenFiles": [
-    "Verifica-ing.md",
-    "Inglese.md",
-    "Git.md",
-    "Onde Elettromagnetiche.md",
-    "Calvino.md",
-    "TeatroPirandello.md",
-    "Pirandello.md",
     "Relatività.md",
-    "Sfida al labirinto.md",
-    "aneddoto-pavese-calvino.md"
+    "Fisica.md",
+    "Schiappacassi.md",
+    "Sartre.md",
+    "Heidegger.md",
+    "FIlosofia.md",
+    "Le Cesari di Gramsci.md",
+    "Pasolini.md",
+    "Italiano.md",
+    "Obsidian.md"
   ]
 }
