@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "c336098eaf583094",
+    "id": "d9c3f3bf96676938",
     "type": "split",
     "children": [
       {
-        "id": "88d1491e14d74b86",
+        "id": "1ad7ab87168c94f1",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -15,15 +15,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d695aaa667bfbc0c",
+    "id": "c03ec9913357bc23",
     "type": "split",
     "children": [
       {
-        "id": "f5ff34f475881c8e",
+        "id": "1bd93d3c5cded088",
         "type": "tabs",
         "children": [
           {
-            "id": "ba6ee615b096846e",
+            "id": "a82374172e0f64f2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +31,7 @@
             }
           },
           {
-            "id": "7d576f306064c14a",
+            "id": "1c604d23548a03e4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,15 +52,15 @@
     "width": 300
   },
   "right": {
-    "id": "b347048f15424c44",
+    "id": "5a825844df13eff6",
     "type": "split",
     "children": [
       {
-        "id": "9c7b1f5457b0ba64",
+        "id": "726a05446f1c8e9d",
         "type": "tabs",
         "children": [
           {
-            "id": "bbebfbdafc96731d",
+            "id": "a15aa87f770af685",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -68,7 +68,7 @@
             }
           },
           {
-            "id": "da0e4418903f8d9d",
+            "id": "af5ea67ff784a17f",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -84,7 +84,7 @@
             }
           },
           {
-            "id": "d9de3729c75676ed",
+            "id": "0913e01ec5d8cca4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -95,7 +95,7 @@
             }
           },
           {
-            "id": "6fd3865eadb27281",
+            "id": "4e52d60b1a48e6cd",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -109,6 +109,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88d1491e14d74b86",
+  "active": "1ad7ab87168c94f1",
   "lastOpenFiles": []
 }
