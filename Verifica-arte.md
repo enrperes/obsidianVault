@@ -1,0 +1,3 @@
+# Verifica di Storia dell'arte
+1. Il pessimismo e le tragedie della vita hanno accompagnato Munch per tutta la sua esistenza. Evidenzia questi concetti in due delle sue più famose opere come "Grido e la Pubertà"
+2. La realtà urbana...
