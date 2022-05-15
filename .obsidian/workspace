@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Schiappacassi.md",
+                "file": "DelConte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Schiappacassi.md",
+                "file": "DelConte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Schiappacassi.md"
+                "file": "DelConte.md"
               }
             }
           }
@@ -127,10 +127,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1ad7ab87168c94f1",
+  "active": "335004e95f936e6f",
   "lastOpenFiles": [
-    "Schiappacassi.md",
     "DelConte.md",
+    "Schiappacassi.md",
     "Chimica.md"
   ]
 }
