@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e86b157a03f648e6",
+        "id": "4ab34c9f8e7d26bb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Git.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -116,8 +116,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e86b157a03f648e6",
+  "active": "4ab34c9f8e7d26bb",
   "lastOpenFiles": [
-    "Git.md"
+    "Git.md",
+    "media/1350px-EM_Spectrum_Properties_edit.svg.png"
   ]
 }
