@@ -82,3 +82,4 @@ Creare il file:
 Scrivere nel file aggiungendo le directory: 
 `echo .obsidian .trash > .gitignore`
 Con un `>` **sovrascrive** il contenuto. Con `>>` appende
+`git cat .obsidiangit` per visualizzare il contenuto del file 
