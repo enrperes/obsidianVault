@@ -46,4 +46,6 @@ Inner thoughts of a character -> noconnection between thoughts, no linking words
 #### Interior monologue
 It's a narrative mode in which a character's thoughts are presented on the page with no interference from an interlocutor. It is free direct thought from a first person, interior point of view. It's a technique associated with Modernism. 
 
+LALALALALA
+
 ![[4_6034084117761491759.pdf]]
