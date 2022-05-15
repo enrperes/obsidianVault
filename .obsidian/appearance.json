@@ -1,9 +1,0 @@
-{
-  "baseFontSize": 15,
-  "theme": "moonstone",
-  "cssTheme": "Typewriter",
-  "translucency": false,
-  "enabledCssSnippets": [
-    "CSSsnippet"
-  ]
-}
