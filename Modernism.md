@@ -22,3 +22,5 @@ Fragmentary images, obscure illusions, make this poem typical of Modernism, requ
 A sense of disillusionment and loss pervades American Modernist fiction. 
 
 THe publication of the Irish writer James Joyce's Ulysses in 1922 was a landmark event in the development of Modernist literature. Portions of the book were considered obscene and Ulysses was banned for many years in English-speaking countries. 
+
+SONO LE 23:12
