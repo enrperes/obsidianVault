@@ -3,7 +3,7 @@
   "fileSortOrder": "byModifiedTime",
   "defaultViewMode": "preview",
   "showLineNumber": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showFrontmatter": false,
   "alwaysUpdateLinks": true,
   "foldHeading": false,
@@ -30,5 +30,11 @@
     "obsidian-admonition:insert-admonition",
     "editor:configure-toolbar"
   ],
-  "rightToLeft": false
+  "rightToLeft": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

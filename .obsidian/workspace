@@ -1,17 +1,16 @@
 {
   "main": {
-    "id": "98e707e8284436cc",
+    "id": "d9c3f3bf96676938",
     "type": "split",
     "children": [
       {
-        "id": "5726bd134b19ae29",
+        "id": "656fb401de5e7e05",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Relatività.md",
-            "mode": "source",
-            "source": true
+            "file": "Git.md",
+            "mode": "source"
           }
         }
       }
@@ -19,108 +18,112 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "aa2a545bbf8f7d4b",
-    "type": "mobile-drawer",
+    "id": "c03ec9913357bc23",
+    "type": "split",
     "children": [
       {
-        "id": "0feab6f8b0f806cf",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "b99189255cb3ebac",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "pirand",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "1bd93d3c5cded088",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a82374172e0f64f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c604d23548a03e4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 1
+    "direction": "horizontal",
+    "width": 323
   },
   "right": {
-    "id": "bbb322240fba3c5d",
-    "type": "mobile-drawer",
+    "id": "5a825844df13eff6",
+    "type": "split",
     "children": [
       {
-        "id": "25df388e0c1484c8",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Relatività.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "726a05446f1c8e9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a15aa87f770af685",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "af5ea67ff784a17f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0913e01ec5d8cca4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4e52d60b1a48e6cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "919a49cbc6da84ff",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Relatività.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "1d485babce0da6f0",
-        "type": "leaf",
-        "state": {
-          "type": "advanced-tables-toolbar",
-          "state": {}
-        }
-      },
-      {
-        "id": "c2647ecc00afb642",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "e23f6cbfb7c9fb5c",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Relatività.md"
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 2
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "5726bd134b19ae29",
+  "active": "656fb401de5e7e05",
   "lastOpenFiles": [
-    "Relatività.md",
-    "Fisica.md",
+    "Git.md",
+    "James Joyce.md",
+    "Inglese.md",
     "Schiappacassi.md",
-    "Sartre.md",
-    "Heidegger.md",
-    "FIlosofia.md",
-    "Le Cesari di Gramsci.md",
-    "Pasolini.md",
-    "Italiano.md",
-    "Obsidian.md"
+    "Verifica-arte.md",
+    "Arte.md",
+    "DelConte.md",
+    "Chimica.md"
   ]
 }
