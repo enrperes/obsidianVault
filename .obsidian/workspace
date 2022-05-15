@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DelConte.md",
+            "file": "Verifica-arte.md",
             "mode": "preview"
           }
         }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DelConte.md",
+                "file": "Verifica-arte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DelConte.md",
+                "file": "Verifica-arte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DelConte.md"
+                "file": "Verifica-arte.md"
               }
             }
           }
@@ -129,6 +129,8 @@
   },
   "active": "335004e95f936e6f",
   "lastOpenFiles": [
+    "Verifica-arte.md",
+    "Arte.md",
     "DelConte.md",
     "Schiappacassi.md",
     "Chimica.md"
