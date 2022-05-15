@@ -8,10 +8,10 @@ Riferimenti a intimo, personale.
 Uso di figure retoriche, analogie -> linguaggio criptico -> poesia esclusiva, complessa, per pochi. 
 Oltre al linguaggio, il contenuto è particolare: I poeti scrivono della loro intima verità. La vita del poeta, dell'uomo sono al centro, lontane dal contesto storico -> rifiuto della storia [[Nietzsche#Storia critica]]. Bandita ogni retorica in nome della ricerca della verità del profondo soggettivo. 
 Si pone negli annni 30 in opposizione alla politica fascista. 
-### Salvatore Quasimodo 
+## Salvatore Quasimodo 
 Poeta e traduttore dai lirici greci. 1901-1968. Poeta siciliano nato in provincia di Ragusa. 
 	Ha vinto un premio Nobel nel 1959 
-
+e
 - pag 226: _Ed è subito sera_
 - _vento a Tinderi_
 

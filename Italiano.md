@@ -11,10 +11,11 @@
 [[Svevo]]
 [[Pirandello]]
 [[Sverandello]]
-[[interrogazione-ita]]
+[[interrogazione-ita Febbraio]] [^1]
 [[Saba]]
 [[Ungaretti]]
 [[Ermetismo]] (Quasimodo, Montale)
+[[Eugenio Montale]]
 [[Gramsci]]
 [[Vittorini]]
 [[NeoRealismo]]
@@ -24,3 +25,7 @@
 [[Cesare Pavese]]
 [[Calvino]]
 [[Pasolini]]
+[[Interrogazione-ita-maggio]]
+
+
+[^1]: Decadentismo, simbolismo, estetismo, Baudelaire, D'annunzio, Pascoli, futurismo, crepuscolari, vociani, Svevo

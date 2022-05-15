@@ -6,7 +6,7 @@ collapse: open
 icon: database
 color: 200, 200, 0
 
-tool carino con tante opzioni per fare questo  
+tool carino con tante opzioni per fare questo  - deprecato. USa Callouts. 
 ```
 
 
@@ -26,7 +26,10 @@ tool carino con tante opzioni per fare questo
 -   quote, cite
 
 
-> [!BUG] test 
+> [!BUG]+ test 
 >  BUG!! RESOLVE BUG!! 
+
+>[!Attention]- ATTENTION
+> eheh
 
 [^1]: Footnotes look like this.

@@ -7,9 +7,9 @@
 Famiglia agiata borghese, padre dirigeva alcune miniere di Zolfo. 
 Formazione umanista, laurea in lettere a università di Palermo.
 Si trasferisce all'università di Bonn dove si laurea in Filologia romanza. Nel frattempo inizia la produzione letteraria. 
-Riceve premio Nobel per le riforme portate al teatro. 
+Riceve ==premio Nobel== per le riforme portate al teatro. 
 Perde le ricchezze di famiglia causa allagamento miniera, la moglie finisce in psichiatria. 
-***Involontario soggiorno sulla terra*** = vita 
+==->==***Involontario soggiorno sulla terra*** = vita 
 
 - 246 novelle
 - 7 romanzi 
@@ -20,14 +20,14 @@ Perde le ricchezze di famiglia causa allagamento miniera, la moglie finisce in p
 1903 allagamento alla miniera di zolfo del padre -> fallimento finanziario
 conseguenze delle condizioni sociali e nella vita familiari 
 
-- 1904 - "Il fu Mattia Pascal"
-- 1908 - "L'umorismo"
-- 1921 - "Sei soggetti in cerca d'autore"
-- 1924 - "Iscrizioni Fascismo"
-- 1926 - "Uno nessuno centomila"
+- 1904 - =="Il fu Mattia Pascal"==
+- 1908 - =="L'umorismo"==
+- 1921 - =="Sei soggetti in cerca d'autore"==
+- 1924 - =="Iscrizioni Fascismo"==
+- 1926 - =="Uno nessuno centomila"==
 	- "Scelgo di essere centomila così non manco di essere nessuno"
 
-Riceve un premio Nobel 
+
 1961 - Vengono murate le sue ceneri 
 Funerale molto spartano, non vuole dare importanza al momento della morte. 
 
@@ -51,12 +51,12 @@ equilibrio tra non ferire e non subire.
 Secondo pirandello: Illuso chi crede di essere uguale a se stesso, chi crede di essere sempre uguale. Ci poniamo in modi diversi in base al contesto e a chi ci circonda, e siamo visti in modi diversi in base a chi osserva. 
 Quindi: Tutto è relativo, non possiamo credere che esista solo un'identità, una sola verità. Mette in crisi la coscienza di se stessi e i rapporti umani. 
 
-La vita è **Tragicomica**: Ha una parte tragica e una comica -> 
+La vita è **==Tragicomica==**: Ha una parte tragica e una comica -> 
 (esempio pag 902)
-1. Comicità = avvertimento del contrario (Di fronte a qualcosa che ci appare strano è la prima reazione.)
-2. Riflessione
-3. Umorismo = sentimento del contrario, riso-amaro
-4. Tragicomico 
+1. ==Comicità== = avvertimento del contrario (Di fronte a qualcosa che ci appare strano è la prima reazione.)
+2. ==Riflessione==
+3. ==Umorismo== = sentimento del contrario, riso-amaro
+4. ==Tragicomico== 
 
 Si prova una sorta di pietà/empatia dopo una riflessione. (Es. vedere il pazzo del paese.)
 
@@ -67,7 +67,8 @@ Pag 907 le *Novelle per una anno*
 
 ![[5A40B904-DDCF-4E55-A7D7-379CDE91024C.jpeg]]
 
-##### Treno fischiato 
+#### Treno fischiato 
+Romanzo, 1914. 
 Storia ragionier Belluca, impazzisce. Continua a dire che il treno fischia. QUesta  è una Epiphany che lo scardina dalla vita di ogni giorno. Diventa emblema dei vari punti di vista come è interpretato. Pazzo e normale. Anche delle vie di fuga dalla maschera. 
 Comico = prima parte. fino a 67. 
 #### Il Fu Mattia Pascal 
@@ -78,5 +79,4 @@ Comico = prima parte. fino a 67.
 [[UnoNessunoCentomila]]
 
 #### Il Teatro
-
 [[TeatroPirandello]]

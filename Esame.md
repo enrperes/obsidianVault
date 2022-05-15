@@ -21,7 +21,12 @@ ___
 
 
 ---
+### ORALE
+- Città che sale di Boccioni per arte, qualcuno se la becca. 
 
+
+
+---
 Commissione: 
 - Manzon
 - Candido

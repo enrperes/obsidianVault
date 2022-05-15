@@ -1,20 +1,20 @@
 # Umberto Saba
-Trieste 1883 - 1957 Gorizia
+==Trieste== 1883 - 1957 Gorizia
 Famiglia di commercianti. Affidato a una Balia a 3 anni. 
 Madre di origine ebraica (come con [[Svevo]])
 %%pag 120 libro 3.2 %%
 Poeta controcorrente, contro le innovazioni della poesia moderna. Raccoglie tutte le sue poesie in un'unica raccolta: *Canzoniere* -> Riferimento a [[Petrarca]]
 
-Persona schiva, riservata, ancorato alle tradizioni. 
+==Persona schiva, riservata, ancorato alle tradizioni.== 
 Soffre molto nella sua vita per problemi Psicologici. 
 
 ---
 
-Saba = pseudonimo di Poli (ancora riferimento a [[Svevo]])
+Saba = pseudonimo di  Umberto Poli (ancora riferimento a [[Svevo]])
 Saba in ebraico = nonno. Oppure alla balia, *Sabaz* di cognome. 
-Infanzia subito segnata da questo abbandono, da cui resterà segnato. 
+Infanzia subito segnata da questo abbandono (della madre), da cui resterà segnato. 
 
-Formazione letteraria = studio dei classici tradizionali italiani (Leopardi, Dante, Petrarca, Foscolo, Manzoni, e anche Pascoli, D'annunzio.)
+Formazione letteraria = studio dei ==classici== tradizionali italiani (Leopardi, Dante, Petrarca, Foscolo, Manzoni, e anche Pascoli, D'annunzio.)
 Autodidatta appassionato di lettura. Resta un intellettuale periferico, non frequenta i centri letterari e non sta sotto i riflettori. 
 Università di Bologna -> *Laurea Honoris Causa* in lettere, dopo la morte. 
 Nel 1959 esce un saggio post mortem: "***quello che resta da fare ai poeti***" è una dichiarazione di poetica di Saba, non gli era stata riconosciuta. Condensato diventa: *Ai poeti resta da fare poesia onesta.* 

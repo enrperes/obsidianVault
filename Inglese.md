@@ -17,6 +17,4 @@
 [[Orwell]]
 
 
-[[Verifica-ing]]
-[[Modernism]]
-[[James Joyce]]
+[[Verifica-ing]]: > [[Modernism]] e [[James Joyce]]

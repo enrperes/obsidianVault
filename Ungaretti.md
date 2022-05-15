@@ -2,7 +2,7 @@
 
 1888-1970
 
-Primo autore della letteratura italiana **cosmopolita**, nasce ad Alessandria d'Egitto. Padre era impegnato nella costruzione del canale di Suez. Si trasferisce a Parigi, dove compie gli studi nell'ambiente decadente, verà influenzato dai poeti simbolisti ([[interrogazione-ita#Baudelaire|Baudelaire]])
+Primo autore della letteratura italiana **==cosmopolita==**, nasce ad Alessandria d'Egitto. Padre era impegnato nella costruzione del canale di Suez. Si trasferisce a Parigi, dove compie gli studi nell'ambiente decadente, verà influenzato dai poeti simbolisti ([[interrogazione-ita Febbraio#Baudelaire|Baudelaire]])
 
 Due raccolte di poesie: 
 
@@ -18,9 +18,9 @@ Rientra a Roma sempre come docente di letteratura italiana.
 Vita di un uomo - raccolta di tutte le poesie da Mondadori (?)
 
 Poeta, docente universitario, traduttore. 
-Egitto, Parigi, San Paolo, Roma -> cosmopolita. 
+==->== Egitto, Parigi, San Paolo, Roma -> cosmopolita. 
 
-Tutta l'opera di Ungaretti è rivolta alla sintesi, allo "scarnificare" dei versi, ridurre al minimo. -> è vicino ai futuristi. 
+Tutta l'opera di Ungaretti è rivolta alla ==sintesi==, allo "scarnificare" dei versi, ridurre al minimo. -> è vicino ai futuristi. 
 
 #### Allegria
 Prima raccolta, pubblicata nel 1931. Quasi un ventennio di lavoro. 
