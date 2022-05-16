@@ -90,5 +90,7 @@ In caso di problemi:
 	`git pull`
 	
 
-Per rimuovere la directory .obsidian in remoto ma non in locale:
+Per rimuovere la directory .obsidian in remoto ma non in locale: (Obsidian Git fa commit in automatico di TUTTA la directory, bisogna usare )
 `git rm -r --cached .obsidian`
+
+- [ ] DA RIFARE IL FILE .gitignore con un coso per riga
