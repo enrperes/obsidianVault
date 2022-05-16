@@ -9,4 +9,9 @@ hmm
 
 ## Leggi di Lorentz
 Introduzione della quarta variabile, il tempo. 
+Conseguenze: 
+- Legge della velocità 
+- Dilatazione del tempo 
+- Contrazione delle lunghezze 
+
 

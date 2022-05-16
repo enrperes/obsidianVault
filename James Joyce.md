@@ -1,6 +1,7 @@
-# James Joyce 
+# James Joyce
+[[Modernism]]
 ### Life
-Joyce was born in Dublin in 1882 and attended a Jesuit boarding school. He was sent to the local school due to economic problems. At University in Dublin he studied English, Italian and French and he read about European literature. He left Ireland because he did not feel accepted by literary circles. in 1902 he left for Paris. 
+Joyce was born in Dublin in ==1882== and attended a Jesuit boarding school. He was sent to the local school due to economic problems. At University in Dublin he studied English, Italian and French and he read about European literature. He left Ireland because he did not feel accepted by literary circles. in 1902 he left for Paris. 
 He met Nora Barnacle who was to become his life-long companion. He first walked out with her on the 16th of June, which will be the famous single-day of Ulysses. He wrote *The sisters*, the first story of Dubliners. 
 They moved in Trieste where he was teaching English. in 1909 he met Italo Svevo. Their friendship would last many  years. Joyce helped publishing *La coscienza di Zeno*. 
 ***Dubliners*** was published in book form in 1914. Joyce began to work on Ulysses which was first published in installments on a literary journal. 
@@ -46,6 +47,5 @@ Inner thoughts of a character -> noconnection between thoughts, no linking words
 #### Interior monologue
 It's a narrative mode in which a character's thoughts are presented on the page with no interference from an interlocutor. It is free direct thought from a first person, interior point of view. It's a technique associated with Modernism. 
 
-LALALALALA
 
 ![[4_6034084117761491759.pdf]]

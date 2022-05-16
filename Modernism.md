@@ -17,10 +17,14 @@ In Italian literature the main writers were Montale, Ungaretti, Saba; breaking w
 One of the main themes of TS Eliot's long poem *==The Waste Land==* (1922) is the search for redemption and renewal in a sterile and empty landscape. 
 DIvided into 5 sections the poem explores the life in London in the aftermath of the WWI.
 
-Fragmentary images, obscure illusions, make this poem typical of Modernism, requiring the reader to have an active role in interpreting the text. 
+Fragmentary images, obscure illusions, make this poem typical of Modernism, requiring the reader to have an ==active role in interpreting the text==. 
 
 A sense of disillusionment and loss pervades American Modernist fiction. 
 
 THe publication of the Irish writer James Joyce's Ulysses in 1922 was a landmark event in the development of Modernist literature. Portions of the book were considered obscene and Ulysses was banned for many years in English-speaking countries. 
 
-SONO LE 23:12
+## Boer war 
+Between 1889 and 1902 the British army fought a colonial war against Boers in South Africa. After a partial succes of the B. The british prevailed after a long, cruel war. 
+Linked with Thomas Hardy's "The man he killed" where he expresses the nonsense of war. 
+
+

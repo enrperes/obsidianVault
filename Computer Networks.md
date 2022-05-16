@@ -35,7 +35,7 @@ Using **Packet Switching approach**: messages broken up into packets, routet acr
 
 1974 -> became TCP (Transmission control protocol)
 
-IP (internet protocol) to ensure packets were delivered to the right destination. 
+IP (internet protocol, logical address) to ensure packets were delivered to the right destination. 
 1982 combined TCP and IP adopted as commmunication standard for different networks. 
 Internet became wildly used to describe the concept of a WWN. 
 High speed backbone for supercomputers. 
@@ -105,3 +105,4 @@ X = mix
 ---
 
 ## [[TCP-IP]]
+[[IP]]
