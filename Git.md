@@ -89,6 +89,6 @@ In caso di problemi:
 	`git reset --hard`
 	`git pull`
 	
-	
-	TEST TOAST
-NUTELLA
+
+Per rimuovere la directory .obsidian in remoto ma non in locale:
+`git rm -r --cached .obsidian`
