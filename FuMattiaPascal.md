@@ -1,8 +1,12 @@
 # Il fu Mattia Pascal
 %%929, sapere bene la trama%%
-Vuole liberarsi dalla trappola pressiva e frustrante della famiglia. 
-Errore che compie: diventa Adriano Meis ma scopre che non può realizzarsi felicemente, anche questo è un limite. Errore è di non essersi liberato completamente. Non può avere documenti e non può avere casa, beni ecc. 
-Simula una seconda morte lasciando i suoi abiti su un ponte a Roma. Torna in Liguria e ricompare ma onn può più reinserirsi nella vecchia vita, la moglie si è risposata. Di sè può dire solo ciò che non è. CIoò che fu. 
+
+### Trama
+Protagonista Mattia Pascal. Si trova in un contesto familiare difficile e frustrante. Liguria. 
+Scappa per tentare una nuova vita. A Montecarlo vince una cospiqua somma di denaro, legge per caso sul giornale della sua morte. Ha la possibilità di cambiare vita. 
+Cambia identità in Adriano Meis. Viaggia, si stabilisce a Roma. Si accorge di non essere libero: non può avere documenti, casa... Vorrebbe sposare una donna conosciuta ma con la nuova identità non gli è consentito. 
+Finge un suicidio e torna alla vecchia vita ma si accorge che non è più come prima. Nessuno lo riconosce più, la moglie si è sposata. Non gli resta che chiudersi in biblioteca a scrivere la sua storia. Può solo dire ciò che non è. 
+
 > Di me posso dire che io fu il Mattia Pascal. 
 
 Testo pag 932 letto 

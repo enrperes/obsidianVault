@@ -25,7 +25,8 @@
 [[Cesare Pavese]]
 [[Calvino]]
 [[Pasolini]]
-[[Interrogazione-ita-maggio]]
+[[Interrogazione-ita-maggio]][^2]
 
 
 [^1]: Decadentismo, simbolismo, estetismo, Baudelaire, D'annunzio, Pascoli, futurismo, crepuscolari, vociani, Svevo
+[^2]: Pirandello, Primo novecento, tra le due guerre, Saba, Ungaretti, Ermetismo, Gramsci, Vittorini, NeoRealistmo, Quasimodo, Montale, Dopoguerra, Primo Levi, Cesare Pavese, Caalvino, Pasolini. 

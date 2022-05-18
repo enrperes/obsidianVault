@@ -1,32 +1,32 @@
-- Pirandello
+- [x] Pirandello
 	- [[Pirandello]]
-- Primo novecento
+- [ ] Primo novecento
 	- boh
-- Tra le due guerre
+- [ ] Tra le due guerre
 	- boh 
-- Saba
+- [ ] Saba
 	- [[Saba]]
-- Ungaretti
+- [ ] Ungaretti
 	- [[Ungaretti]]
-- Ermetismo
+- [ ] Ermetismo
 	- [[Ermetismo]]
-- Gramsci 
+- [ ] Gramsci 
 	- [[Gramsci]]
-- Vittorini
+- [ ] Vittorini
 	- [[Vittorini]]
-- NeoRealismo
+- [ ] NeoRealismo
 	- [[NeoRealismo]]
-- Quasimodo 
+- [ ] Quasimodo 
 	- [[Ermetismo#Salvatore Quasimodo]]
-- Montale 
+- [ ] Montale 
 	- [[Eugenio Montale]]
-- Dopoguerra
+- [ ] Dopoguerra
 	- [[NeoRealismo]]
-- Primo Levi
+- [ ] Primo Levi
 	- [[Primo Levi]]
-- Cesare Pavese
+- [ ] Cesare Pavese
 	- [[Cesare Pavese]]
-- Calvino 
+- [ ] Calvino 
 	- [[Calvino]]
-- Pasolini
+- [ ] Pasolini
 	- [[Pasolini]]
