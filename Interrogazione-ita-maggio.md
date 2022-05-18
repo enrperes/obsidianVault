@@ -1,12 +1,12 @@
 - [x] Pirandello
 	- [[Pirandello]]
-- [ ] Primo novecento
-	- boh
-- [ ] Tra le due guerre
-	- boh 
-- [ ] Saba
+- [x] Primo novecento
+	- [[Primo Novecento Letteratura]]
+- [x] Tra le due guerre
+	- [[Tra le due guerre]]
+- [x] Saba
 	- [[Saba]]
-- [ ] Ungaretti
+- [x] Ungaretti
 	- [[Ungaretti]]
 - [ ] Ermetismo
 	- [[Ermetismo]]

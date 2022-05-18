@@ -1,40 +1,54 @@
 # Ungaretti
-
-1888-1970
+p.168
+Alessandia d'Egitto 1888-1970 Milano
 
 Primo autore della letteratura italiana **==cosmopolita==**, nasce ad Alessandria d'Egitto. Padre era impegnato nella costruzione del canale di Suez. Si trasferisce a Parigi, dove compie gli studi nell'ambiente decadente, verà influenzato dai poeti simbolisti ([[interrogazione-ita Febbraio#Baudelaire|Baudelaire]])
 
-Due raccolte di poesie: 
+1. Alessandria d'egitto: nasce 1888
+2. Parigi: Frequente ambienti avanguardistici
+3. Carso: Combatte nella prima guerra mondiale 1915 - 1918
+4. Parigi
+5. Roma: Aderisce al [[Fascismo]] nel 1921 dopo la guerra. 
+6. São Paulo: docente universitario
+7. Roma: insegna letteratura italiana
+8. Milano, muore nel 1970
 
-1916 - Il porto sepolto 
-1919 - Allegria di naufragi 
-	Titolo prende ispirazione da una stoira che aveva senttito ad Alessandria d'Egitto 
-	Poeta = palombaro, che si immerge nella profondità nascosta, celata e venendo a galla sparge a tutti le scoperte che fa nelle immersioni. 
-Ritorna in Italia dopo la guerra nel 1921 a Roma e aderisce al [[Fascismo]]
-1933 - Sentimento del tempo (più legato alla metrica tradizionale, reinterpreta) Pag 200
-Parte per San Paolo (Brasile) come docente di letteratura italiana, fino al 1942 per 6 anni. 
-Rientra a Roma sempre come docente di letteratura italiana. 
+^COSMOPOLITA^ 
 
-Vita di un uomo - raccolta di tutte le poesie da Mondadori (?)
 
-Poeta, docente universitario, traduttore. 
-==->== Egitto, Parigi, San Paolo, Roma -> cosmopolita. 
+### ==Tre Fasi:==
+1. Il Porto Sepolto - 1916
+2. Allegria di Naufragi - 1919ù
+	1. Titolo prende ispirazione da una storia di Alessandria: Poeta palombaro si immerge nella profondità nascosta e venendo a galla condivide a tutti le scoperte che fa. 
+3. Allegria - 1931
 
 Tutta l'opera di Ungaretti è rivolta alla ==sintesi==, allo "scarnificare" dei versi, ridurre al minimo. -> è vicino ai futuristi. 
+- Proposizioni brevi, periodi semplici, soppressione della punteggiatura. Versi liberi, brevi. 
+---
 
-#### Allegria
+
+## Allegria
 Prima raccolta, pubblicata nel 1931. Quasi un ventennio di lavoro. 
-Poesia **Pellegrinaggio**
+
+#### Pellegrinaggio
+Estratto:
+
 > *Ungaretti
 > uomo di pena
 > ti basta un'illusione 
 > per farti coraggio*
-##### Mattina
+
+Racconta la sofferenza fisica e psicologica subita in guerra + riflessione generale sulla guerra. 
+*Illusione:* La vita è illusioni, speranze. 
+
+#### Mattina
 > *M'illumino 
 > d'immenso*
 
 Scritta sul fronte. Titolo fornisce chiave di lettura: soldato si sveglia e trova il sole. 
 Simmetria, due ternari. O-O alla fine. Allitterazione M, N, L. (suoni morbidi). 
+Fonde due elementi contrapposti: Il Singolo (Poeta) e l'immenso, infinito. 
+Sinestesia 
 
 ##### Fratelli
 Scenario di guerra, notturno, di morte. Riesce a chiamare i soldati *fratelli* perchè è come un riscatto del poeta, vuole sentirsi uomo nonostante tutto. 
@@ -112,9 +126,9 @@ mi resta
 quel nulla  
 d’inesauribile segreto*
 
-Poesia indicibile (?)
+Paragone palombaro - poeta che porta a galla i suoi canti. La poesia delle cose rimarrà sempre un segreto. 
 
-##### Eterno 
+##### Eterno  <---------------------
 Incipit della raccolta. 
 
 > *Tra un fiore colto e l'altro donato 

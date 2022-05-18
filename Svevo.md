@@ -20,6 +20,7 @@ Nessun romanzo ha successo, questi *Anti-eroi* non attirano il pubblico.
 
 ![[88B86F45-E004-48FD-8CE9-84C985096C11.jpeg]]
 
+## La coscienza di Zeno
 ##### Fumo
 Non riesce a smettere perchè incolpa il fumo e lo usa coma alibi 
 ##### Morte del padre
