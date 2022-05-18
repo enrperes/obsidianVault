@@ -1,5 +1,6 @@
 # Relatività ristretta - 1905
 ## $\beta = \dfrac v c \approx 0$
+(Nella fisica classica)
 ## $\gamma = \dfrac 1 {\sqrt{1-\dfrac {v^2}{c^2}}} \approx 1$
 Quando rapporto velocità / velocità luce tende a 0 
 Velocità massima in natura = $C \approx 300000km/s$  
@@ -13,5 +14,7 @@ Conseguenze:
 - Legge della velocità 
 - Dilatazione del tempo 
 - Contrazione delle lunghezze 
+
+
 
 
