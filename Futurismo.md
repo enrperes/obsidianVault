@@ -99,7 +99,7 @@ Registro basso, riscatta la provincia e le cose Kitsch, brutte ma più vere dell
 ## I vociani 
 I Liguri
 Personalità diverse, esprimono letteratura svincolata dalla tradizione accademica. Componimenti brevi, intensi, soggettivi. 
-Riferimento a [[Ungaretti]] (?)
+Riferimento a [[Giuseppe Ungaretti]] (?)
 #### Viatico 
 1916, Prima guerra mondiale
 Ringrazie il soldato che sta morendo. 

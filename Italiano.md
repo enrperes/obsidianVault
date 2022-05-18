@@ -13,7 +13,7 @@
 [[Sverandello]]
 [[interrogazione-ita Febbraio]] [^1]
 [[Saba]]
-[[Ungaretti]]
+[[Giuseppe Ungaretti]]
 [[Ermetismo]] (Quasimodo, Montale)
 [[Eugenio Montale]]
 [[Gramsci]]

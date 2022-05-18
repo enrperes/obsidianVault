@@ -7,26 +7,26 @@
 - [x] Saba
 	- [[Saba]]
 - [x] Ungaretti
-	- [[Ungaretti]]
-- [ ] Ermetismo
+	- [[Giuseppe Ungaretti]]
+- [x] Ermetismo
 	- [[Ermetismo]]
 - [ ] Gramsci 
 	- [[Gramsci]]
 - [ ] Vittorini
 	- [[Vittorini]]
-- [ ] NeoRealismo
+- [x] NeoRealismo
 	- [[NeoRealismo]]
-- [ ] Quasimodo 
+- [x] Quasimodo 
 	- [[Ermetismo#Salvatore Quasimodo]]
-- [ ] Montale 
+- [x] Montale 
 	- [[Eugenio Montale]]
-- [ ] Dopoguerra
+- [x] Dopoguerra
 	- [[NeoRealismo]]
-- [ ] Primo Levi
+- [x] Primo Levi
 	- [[Primo Levi]]
-- [ ] Cesare Pavese
+- [x] Cesare Pavese
 	- [[Cesare Pavese]]
-- [ ] Calvino 
+- [x] Calvino 
 	- [[Calvino]]
 - [ ] Pasolini
 	- [[Pasolini]]

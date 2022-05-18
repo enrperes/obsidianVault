@@ -2,19 +2,20 @@
 
 %%240%%
 
+
 #todo 
 
 
 - 1896 - Genova
-- 1875 - Premio Nobel (per aver rappresentato valori umani sotto il simbolo della vita priva di illusioni) 
+- 1875 - Premio ==Nobel== (per aver rappresentato valori umani sotto il simbolo della vita priva di illusioni) 
 - 1981 - Muore a Milano 
 
 Studia in modo autonomo, non si laureerà mai. 
-Partecipa alla WWI 
+Partecipa alla ==WWI== 
 Monterosso (Una delle 5 terre) in Liguria. Ne sarà ispirato dal mare etc
-Prende posizione antifascista. 
+Prende posizione ==antifascista==. 
 Si trasferisce a Firenze. Lavorerà per una casa editrice. Incontro con donna americana, vuole andare negli stati uniti ma non andrà mai. 
-Lavora anche come traduttore, scrittore, giornalista. 
+Lavora anche come ==traduttore, scrittore, giornalista==. 
 Moglie Drusilla Tanzi (*Mosca*, perchè non ci vede.)
 Ospita [[Saba]], perseguitato in quanto ebreo. 
 Si trasferisce a Milano lavorando al Corriere della Sera. Scrive articoli, racconti. 
@@ -26,8 +27,8 @@ Successo fin da subito (a dimostrazione dei premi ricevuti.)
 %%Fino a pagina 249 tutto bene bene da sapere%%
 
 
-4 Raccolte: 
-Ossi di seppia - 1925 
+### Quattro Raccolte: 
+==Ossi di seppia== - 1925 
 Le occasioni - 1939 
 La bufera e altro - 1956 
 l'ultimo montale - 1971 
@@ -35,11 +36,12 @@ l'ultimo montale - 1971
 
 ---
 
+Visione pessimistica dell'esistenza -> vivere = "camminare lungo una muraglia con cocci aguzzi di bottiglia" [[Eugenio Montale#Meriggiare pallido e assorto]]
 Poetica degli oggetti, concretezza delle immagini e dei paesaggi (liguri)
 Oggetti aridi, secchi, duri, inanimati. 
 Poesia antiretorica: prende le distanze da D'annunzio e dal fascismo, contro ogni enfasi e ogni certezza. 
 
-Concetto del **male di vivere**: visione della vita disincantata, pessimistica. Il poeta può solo denunciare il male di vivere ma non può dare certezze. 
+Concetto del **==male di vivere==**: visione della vita disincantata, pessimistica. Il poeta può solo denunciare il male di vivere ma non può dare certezze. 
 Poetica in negativo perchè è la poetica del ***NON*** Può solo dire ciò che non è. 
 Rivisitazione del pessimismo leopardiano. 
 

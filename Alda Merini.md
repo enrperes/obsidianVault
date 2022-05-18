@@ -32,7 +32,7 @@ Poesia, riscrittura moderna di Baudelaire. Lei soffre.
 [...] Registrazione [40:00]
 Uccello in gabbia (manicomio) MA -> Anche distesa per terra io canto le mie canzoni d'amore (le poesie)
 Nonostante le abbiano tornato le ali continua a scrivere poesie d'amore. 
-Nonostante il dolore scrive  letttere piene d'amore -> [[Ungaretti]]
+Nonostante il dolore scrive  letttere piene d'amore -> [[Giuseppe Ungaretti]]
 
 
 #### Io mi sono una donna
