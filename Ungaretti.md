@@ -18,7 +18,7 @@ Primo autore della letteratura italiana **==cosmopolita==**, nasce ad Alessandri
 
 ### ==Tre Fasi:==
 1. Il Porto Sepolto - 1916
-2. Allegria di Naufragi - 1919ù
+2. Allegria di Naufragi - 1919
 	1. Titolo prende ispirazione da una storia di Alessandria: Poeta palombaro si immerge nella profondità nascosta e venendo a galla condivide a tutti le scoperte che fa. 
 3. Allegria - 1931
 

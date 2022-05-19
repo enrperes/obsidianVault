@@ -1,32 +1,44 @@
+#risorsa
 - [x] Pirandello
 	- [[Pirandello]]
+	- Sicilia, Zolfo, involontario soggiorno sulla terra, Maschere, Relativismo, tragicomico
 - [x] Primo novecento
 	- [[Primo Novecento Letteratura]]
 - [x] Tra le due guerre
 	- [[Tra le due guerre]]
 - [x] Saba
 	- [[Saba]]
+	- Trieste, Balia, abbandono, contro le innovazioni, riservatezza, tradizione, classici, CANZONIERE
 - [x] Ungaretti
 	- [[Giuseppe Ungaretti]]
+	- Cosmopolita, Parigi, sintesi, scarnificare, fronte
 - [x] Ermetismo
 	- [[Ermetismo]]
-- [ ] Gramsci 
+	- 1900s, UNGARETTI, MONTALE; Quasimodo. Ermetico = incomprensibile, criptico, figure retoriche, analogie. ~ Francesco Flora. Temi intimi personali, rifiuto della storia. 
+- [x] Gramsci 
 	- [[Gramsci]]
-- [ ] Vittorini
+	- Poeta impegnato, tratta temi politici e sociali. 
+- [x] Vittorini
 	- [[Vittorini]]
+	- Sicilia, Einaudi, dimensione simbolica della prosa (uomini e no)- ci sono uomini che non possono essere definiti tali. 
 - [x] NeoRealismo
 	- [[NeoRealismo]]
 - [x] Quasimodo 
 	- [[Ermetismo#Salvatore Quasimodo]]
+	- Ermetismo, Sicilia, Nobel. Ed è subito sera. 
 - [x] Montale 
 	- [[Eugenio Montale]]
+	- Genova, Nobel, Male di vivere, pessimismo, Traduzioni, Ossi di seppia (1925), cocci, poetica del NON, Poetica oggetti, aridi, inanimati sono simboli. 
 - [x] Dopoguerra
 	- [[NeoRealismo]]
 - [x] Primo Levi
 	- [[Primo Levi]]
+	- 1944 Auschwitzp, ebreo, chimica, scrittura tecnica, sensi di colpa, suicidio, ricordo, dovere morale
+
 - [x] Cesare Pavese
 	- [[Cesare Pavese]]
+	- Torino, Riservato, traduzioni, Einaudi, Esilio -> mestiere di vivere, ANTITESI (Ozio-lavoro, città-campagna) CASA in collina (analogia con biografia), impossibilità di ritorno ai luoghi dell'infanzia. 
 - [x] Calvino 
 	- [[Calvino]]
-- [ ] Pasolini
+- [x] Pasolini
 	- [[Pasolini]]

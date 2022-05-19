@@ -15,9 +15,7 @@ CONS = Connection Oriented Network Service
 UDP = CLNS (connection-less(non aspetta conferma ricezione)). Allows for higher speeds, less reliable.
 VoIP (Voice over IP) uses UDP
 
-
-
-
 File transfer, Emails...  -> TCP
 Voice calls, streaming... -> UDP
 
+[[IP]]

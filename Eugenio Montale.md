@@ -2,7 +2,7 @@
 
 %%240%%
 
-
+GENOVA; CORRELATIVO OGGETTIVO; POETICA OGGETTI; 
 #todo 
 
 
@@ -36,9 +36,9 @@ l'ultimo montale - 1971
 
 ---
 
-Visione pessimistica dell'esistenza -> vivere = "camminare lungo una muraglia con cocci aguzzi di bottiglia" [[Eugenio Montale#Meriggiare pallido e assorto]]
+Visione ==pessimistica dell'esistenza== -> vivere = "camminare lungo una muraglia con cocci ==aguzzi== di bottiglia" [[Eugenio Montale#Meriggiare pallido e assorto]]
 Poetica degli oggetti, concretezza delle immagini e dei paesaggi (liguri)
-Oggetti aridi, secchi, duri, inanimati. 
+Oggetti aridi, secchi, duri, inanimati assumono valore di simbolo. 
 Poesia antiretorica: prende le distanze da D'annunzio e dal fascismo, contro ogni enfasi e ogni certezza. 
 
 Concetto del **==male di vivere==**: visione della vita disincantata, pessimistica. Il poeta può solo denunciare il male di vivere ma non può dare certezze. 
@@ -62,7 +62,7 @@ Concetto di una vita nella quale tutto è
 Pensiero negativo e relativisa. Prende la distanza dalle certezze.
 
 #### Forse un mattino andando in un'aria di vetro
-Scopre la verità, il nulla alle sue spalle e quindi la vita non ha senso, è il nulla, il vuoto. 
+Scopre la verità, il nulla alle sue spalle e quindi la vita non ha senso, è il ==nulla==, il ==vuoto.==
 Voltandosi ha scoperto qualcosa. Chi non si volta non scopre. (= chi non si pone domande non è profondo come persona.)
 
 pag 257 
@@ -70,7 +70,7 @@ pag 257
 #### Meriggiare pallido e assorto
 Prime ore del pomeriggio, silenzio. 
 
-Muraglia con cocci -> per delimitare i terreni in sostituzione del filo spinato 
+Muraglia con ==cocci== -> per delimitare i terreni in sostituzione del filo spinato 
 Vita = camminare vicino a un muro (muraglia) con cocci aguzzi di bottiglia -> la vita è difficile. 
 Prova che usa immagini reali, poetica delle cose. 
 verbi all'infinito -> per generalizzare, astrarre una situazione personale che valga per tutti. 
@@ -90,11 +90,13 @@ Pag 310
 [...]
 #### Ho sceso, dandoti il braccio, almeno un milione di scale. 
 da _ultimo Montale_
-Dichiarazione d'amore alla moglie scritta dopo la morte. 
-[...]
+
+Dichiarazione d'amore alla moglie scritta dopo la sua morte. 
+Ora ad ogni scalino c'è una sensazione di vuoto che lo pervade.
 
 #### I limoni 
 pag 250 
 
-Negatività della vita persiste. I limoni sono un'eccezione. (perchè sono gialli 🫶😃)
+Estate, Cinque terre. Limone acido ma anche bello colorato. Quindi nella negatività persistente della vita ci sono i limoni che sonno eccezione. 
+
 [...]

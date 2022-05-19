@@ -1,5 +1,6 @@
 # Pier Paolo Pasolini
 ![[AFFF2A64-F031-4CD9-AD20-287B077BCCA4.jpeg|130]]
+1922-1975 Casarsa
 Vita ==travagliata==, omosessuale, condannato per atti osceni in luogo pubblico -> intellettuale scomodo
 Poesie, romanzi, saggi, film. 
 

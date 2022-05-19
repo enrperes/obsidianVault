@@ -1,4 +1,6 @@
 # Umberto Saba
+
+SEMPLICE; CHIARO; SINCERO.
 %%pag 120 libro 3.2 %%
 ### ==Trieste== 1883 - 1957 Gorizia
 Famiglia di commercianti. Affidato a una Balia a 3 anni. Ci sono alcune somiglianze con Svevo: 
@@ -44,7 +46,7 @@ Va in cura da un allievo di Freud, non guarirà mai e muore pochi mesi dopo la m
 
 ## ==Canzoniere==
 Storia di una vita. 
-Edizione divisa in 3 volumi. Riproducono la tripartizione della Divina Commedia Dantesca. Si sviluppano nell'arco della vita, Giovinezza, maturità, vecchiaia.
+Edizione divisa in 3 volumi. Riproducono la tripartizione della Divina Commedia Dantesca. Si sviluppano nell'arco della vita, ==Giovinezza, maturità, vecchiaia==.
 è come un diario, racconto di una vita. 
 "Autobiografia in versi e romanzo psicologico"
 

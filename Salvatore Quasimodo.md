@@ -1,7 +1,9 @@
 ## Salvatore Quasimodo 
 #Siciliano 
+
+ERMETISMO; 
 Poeta e traduttore dai lirici greci. 1901-1968. Poeta siciliano nato in provincia di Ragusa. 
-	Ha vinto un premio Nobel nel 1959 
+	Ha vinto un premio ==Nobel== nel 1959 
 e
 - pag 226: _Ed è subito sera_
 - _vento a Tinderi_
@@ -20,6 +22,7 @@ Da notare anche la bravura del poeta a ridurre "a trapezio" la lunghezza dei ver
 #### Vento a Tìndari
 _Da Acqua e Terre_ %%pag 228%%
 
+MILANO NEGATIVO, TINDARI POSITIVO (Sicilia)
 Versi liberi, strofe irregolari. 5 strofe. 
 Anche qua suoni R, S, T presenti. 
 "fingo timore (all'amico) che vento profondo mi ha cercato" -> vento metaforico = instabilità

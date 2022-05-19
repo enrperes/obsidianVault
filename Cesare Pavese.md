@@ -1,4 +1,5 @@
 # Cesare Pavese
+DISAGIO; DISADATTAMENTO; 
 Non riesce a sopravvivere ad un senso di inadeguatezza che provava -> si suicida nonostante il grande successo in vita. Conviveva con un'inquietudine interiore fin da bambino. 
 ==Piemontese==, 1908 (Cuneo) - 1950 ==Torino==
 
@@ -48,7 +49,7 @@ Collina = Langhe Lucchesi.
 
 p. 661
 pag 670 trama romanzo 
-==impossibilità di ritornare  ale origini ==
+==impossibilità di ritornare  ale origini==
 
 Scheda con incipit + 669 explicit . 
 
@@ -61,4 +62,4 @@ Ragazzo Cinto, deformato, sotto l'ala protettiva di Anguilla. Ricordo della raga
 
 Senso di non appartenenza a nessun luogo, collegamento con [[FuMattiaPascal| Il Fu Mattia Pascal]] e testo [[Giuseppe Ungaretti#In memoria]]
 
-
+[[Gramsci]]

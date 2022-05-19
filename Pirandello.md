@@ -9,11 +9,11 @@
 Famiglia agiata borghese, padre dirigeva alcune miniere di Zolfo. 
 Formazione umanista, si laurea in lettere a università di Palermo.
 Si trasferisce all'università di Bonn(Germania) dove si laurea in Filologia romanza. Nel frattempo inizia la produzione letteraria. 
-Dal 1892 si stabilisce a Roma dedicandosi interamente alla lettura (poesie, Novelle per un anno). Stringe amicizia con Capuana. 
-1903 -> allagamento nella miniera di zolfo del padre -> conseguenze drammatiche in seguito alle perdite economiche. Anche per questo aumenta la produzione letteraria tra il 1904 e 1905. 
-Perde le ricchezze di famiglia causa allagamento miniera, la moglie finisce in psichiatria. 
-Dal 1910 inizia a lavorare nel **Teatro**. Nel 1921 scrive [[TeatroPirandello#Sei Personaggi in cerca d'autore|Sei Personaggi in cerca d'autore]] che avrà successo, rivoluzionando completamente il linguaggio teatrale. 
-Aderisce al fascismo. 
+Dal 1892 si stabilisce a ==Roma== dedicandosi interamente alla lettura (poesie, Novelle per un anno). Stringe amicizia con ==Capuana==. 
+==1903== -> ==allagamento== nella miniera di zolfo del padre -> conseguenze drammatiche in seguito alle perdite economiche. Anche per questo aumenta la produzione letteraria tra il 1904 e 1905. 
+==Perde le ricchezze== di famiglia causa allagamento miniera, la moglie finisce in psichiatria. 
+Dal 1910 inizia a lavorare nel **==Teatro==**. Nel 1921 scrive [[TeatroPirandello#Sei Personaggi in cerca d'autore|Sei Personaggi in cerca d'autore]] che avrà successo, rivoluzionando completamente il linguaggio teatrale. 
+Aderisce al ==fascismo==. 
 1934 -> Riceve ==premio Nobel== per le riforme portate al teatro. 
 Muore nel 1936.
 ==->==***Involontario soggiorno sulla terra*** = vita 
@@ -41,7 +41,7 @@ Funerale molto spartano, non vuole dare importanza al momento della morte.
 - Relativismo conoscitivo
 	- Nessuno può rivendicare la verità, che non esiste. Esistono più verità (relativismo). Nessuna versione è superiore alle altre. TUtto è relativo perchè ci poniamo in modi diversi a seconda di chi ci circonda. Quindi non esiste una sola identità, verità. 
 - Tragicomico
-	- La vita ha una parte tragica e una comica. Esempio pag 902. 
+	- La vita ha una parte tragica e una comica. Esempio pag 902. arte che scompone il reale, umorismo.
 
 ![[PirandelloMermaid]]
 
