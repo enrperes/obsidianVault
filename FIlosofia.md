@@ -6,6 +6,7 @@
 [[Appunti-filo]]
 [[Heidegger]]
 [[Sartre]]
+[[Bergson]]
 
 
 ---

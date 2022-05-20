@@ -3,7 +3,7 @@
 %%240%%
 
 GENOVA; CORRELATIVO OGGETTIVO; POETICA OGGETTI; 
-#todo 
+
 
 
 - 1896 - Genova

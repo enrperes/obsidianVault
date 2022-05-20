@@ -1,5 +1,5 @@
 m# Antonio Gramsci 
-#todo 
+
 
 1891 - 1937 
 I suoi scritti vengono pubblicati dopo la WW2

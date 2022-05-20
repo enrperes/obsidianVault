@@ -1,4 +1,4 @@
-#todo 
+
 
 # Nietzsche 
 ### Desiderio di potenza

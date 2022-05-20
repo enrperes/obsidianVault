@@ -1,4 +1,4 @@
-#todo
+e
 # Futurismo 
 19 manifesti del movimento futurista
 Più importante -> Filippo Tommaso Marinetti(1909)

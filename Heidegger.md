@@ -16,7 +16,7 @@ Gli **enti** sono le cose che sono, che possono essere utilizzate dagli uomini. 
 Il termine **Esistenza** deriva da *ex sisto* e significa "stare fuori da". L'uomo **esiste** e quindi *sta fuori* dalla realtà e sta nella possibilità. 
 #### Avere cura degli altri
 Ci sono due modi per farlo, autentico (aiutando gli altri nelle proprie cure) e inautentico (sostituendo gli altri nelle cure, cioè sottraendo le cure agli altri).
-L'esistenza **inautendica** si esplicita in tre caratterizzazioni: 
+L'esistenza **==inautentica==** si esplicita in tre caratterizzazioni: 
 - **Chiacchiera**: "Le cose stanno così perchè così si dice", è un parlare vuoto -> genera curiosità, la gente vuole sapere sempre di più
 - **Curiosità**: Per colmare il vuoto esistenziale si è attratti alle novità. Generata dalla chiacchiera.
 - **Equivoco**: è la causa della superficialità comunicativa. 

@@ -1,5 +1,5 @@
 # Primo Levi 
-#todo 
+
 
 Partigiano antifascista. Nel ==1944 viene inviato ad Auschwitz== in quanto ebreo. La conoscenza della chimica e del tedesco gli permettono di sopravvivere nel campo di concentramento. 
 Chimico, la sua scrittura sarà molto tecnica. Diventa scrittore dopo la liberazione da Auschitz. 
