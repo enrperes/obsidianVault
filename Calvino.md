@@ -1,5 +1,5 @@
 # Italo Calvino
-#todo 
+
 #### Biografia
 [...]
 

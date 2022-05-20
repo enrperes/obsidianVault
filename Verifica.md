@@ -1,4 +1,4 @@
-#todo
+
 - forza magnetica su correnti 
 - momento torcente su una spira percorsa da corrente 
 - momento dipolo magnetico
