@@ -1,7 +1,6 @@
 #materia 
 
 [[Fiore di roccia]]
-[[Hapatuko]]
 
 ---
 [[Decadentismo]]
@@ -19,7 +18,6 @@
 [[Gramsci]]
 [[Vittorini]]
 [[NeoRealismo]]
-[[Gramsci-Vittorini]]
 [[Silvia Salvatici]]
 [[Primo Levi]]
 [[Cesare Pavese]]

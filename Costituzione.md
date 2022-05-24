@@ -30,12 +30,15 @@ La costituzione Italiana è così ricca perhcè è frutto di esigenze e bisogni 
 > Sono quasi tutte rigide a eccezione del Regno Unito e Israele.
 
 > [!info]- Lunga 
-> Non si limita a disporre l'organizzazione dello Stato e a garantire libertà civili e politiche ma *riconosce altri diritti* (etici, sociali, economici)
+> Non si limita a disporre l'organizzazione dello Stato e a garantire libertà civili e politiche ma *riconosce altri diritti* (etici, sociali, economici). A differenza di quella Americana
 
 > [!info]- Scritta
 > A differenza di quella Inglese. Averla scritta garantisce più stabilità dei diritti ma comporta complicanze in fase di revisione. 
 
 ---
+
+>[!success]+ Principi fondamentali
+> Democratico, Personalista
 
 Nei primi 12 articoli della costituzione vengon affermati alcuni principi fondamentali: 
 
@@ -47,15 +50,17 @@ La sovranità è del popolo nei limiti della costituzione.
 Articolo 2
 I diritti naturali, non creati e concessi dallo stato, sono riconosciuti e garantiti come inviolabili. 
 Sono diritti umani, posseduti per natura, non "creati" dal governo. 
-Con gli stati totalitari qualsiasi diritto poteva essere revocato per il bene comune.
+Con gli stati totalitari qualsiasi diritto poteva essere revocato per il bene comune. (Leggi fascistissime)
 Questo principio è dovuto in parte alla parte della Democrazia Cristiana (Cattolici+liberali)
 #### Principio di uguaglianza
 Articolo 3
 Compito della costituzione rimuovere gli ostacoli economici, sociali che limitano **di fatto** la libertà e uguaglianza dei cittadini. 
+Non solo uguaglianza formale: "tutti i cittadini sono uguali" (Rivoluzione Francese), ma uguaglianza sostanziale. 
+
 #### Principio di Laicità
-Articolo 7. Lo stato e la Chiesa sono indipendenti e sovrani. I rapporti sono legati dai Patti Lateranensi.  
+Articolo 7. Lo stato e la Chiesa sono indipendenti e sovrani. I rapporti sono legati dai Patti Lateranensi di  Mussolini (1929)
 #### Principio Pluralista
-La società Italiana è inquadrata come un insieme di realtà sociali differenziate. 
+La società Italiana è inquadrata come un insieme di realtà sociali differenziate, di entità intermedie. 
 #### Principio Lavorista
 Articolo 1 e 4.
 Ogni cittadino ha il dovere di svolgere un lavoro. Lavoro non solo come fonte di reddito ma come attività che nobilita l'uomo e la società.
@@ -69,3 +74,10 @@ Articolo fondamentale dell'assemblea costituente.
 #### Principio autonomista
 Articolo 5
 Assicura alle organizzazioni territoriali minori (Regioni, Comuni) una relativa indipendenza dallo Stato. 
+
+---
+
+Un articolo da sapere (9?)
+
+Si segue la legge anche per paura, non solo per razionalità. 
+Le banche sono uno stato "leggero": lo stato tende a non internvenire. 
