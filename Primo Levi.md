@@ -14,6 +14,6 @@ Stile asciutto e privo di retorica. Si adatta al pubblico a cui vuole rivolgersi
 
 1. Dimensione ricordo personale: urgenza del dovere di ==ricordare per se stesso==. Memoria di quello che chiama *discesa tra gli inferi*. (forma terapeutica)
 2. Il ==dovere morale nei confronti di tutti== nel lanciare una ==denuncia== del passato recente. Tutti devono ricordare, carnefici e vittime, contro ogni negazionismo. 
-3. Esigenza di capire come mai possa essere successo
+3. Esigenza di capire ==come mai== possa essere successo
 
 [[Se questo è un uomo]]

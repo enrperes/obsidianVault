@@ -96,6 +96,8 @@ Fa rimare Nietzsche con camice. La ragazza è terrapiattista.
 Vuole tornare nella semplicità. *Non voglio più essere quello che fingo d'essere e non sono!*
 Registro basso, riscatta la provincia e le cose Kitsch, brutte ma più vere delle cose della città e dei poeti che ostentano. Prende in giro la ragazza ma almeno dice che è felice e se stessa. 
 
+
+#todo
 ## I vociani 
 I Liguri
 Personalità diverse, esprimono letteratura svincolata dalla tradizione accademica. Componimenti brevi, intensi, soggettivi. 
