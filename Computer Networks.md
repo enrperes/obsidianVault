@@ -2,6 +2,15 @@
 [[Transmission Media]]
 
 ---
+### Types of transmission
+#### Broadcast
+- One communication channel between all machines. All messagges are received by everyone. Typical of BUS topology
+- LAN
+#### Point-to-point
+- Direct connection between machines. 
+- WAN
+
+---
 
 - PAN (Personal Area Network)
 - LAN (Local)
@@ -13,30 +22,40 @@
 Communication system between autonomous computers within a limited area (building). Must be reliable with low error rate. 
 
 ---
-#### Topology
+#### Classification by topology
 
-###### Bus topology 
+>[!info]- Classification
+>###### Bus topology 
 The transmission medium is shared by all devices. 
 CSMA/CD Protocol to avoid collisions. (Carrier Sense with Multiple Access with Collision Detection). 
-- Ring topology 
-- Star topology 
-- Tree topology 
+![[Pasted image 20220525205658.png|150]]
+> ######  Ring topology
+![[Pasted image 20220525205705.png|150]]
+> ######  Ring topology
+![[Pasted image 20220525205705.png|150]]
+> ###### Star topology 
+![[Pasted image 20220525205709.png|150]]
+> ###### Tree topology  
+![[Pasted image 20220525205714.png|150]]
+
 
 ---
 
+# Story of the *Internet*
+
 ARPA (cold war)
-Advanced Research Projects Agencyi
+**Advanced Research Projects Agency**
 
 plan to create a communication Network which would not be vulnerable to nuclear attacs. 
 
-1969 ArpaNET - connecting computers across the country
+**1969 ArpaNET** - connecting computers across the country
 
 Using **Packet Switching approach**: messages broken up into packets, routet across the network. The final point must then reassemble the message. 
 
-1974 -> became TCP (Transmission control protocol)
+**1974** -> became **TCP** (Transmission control protocol)
 
 IP (internet protocol, logical address) to ensure packets were delivered to the right destination. 
-1982 combined TCP and IP adopted as commmunication standard for different networks. 
+**1982** combined TCP and IP adopted as **commmunication standard** for different networks. 
 Internet became wildly used to describe the concept of a WWN. 
 High speed backbone for supercomputers. 
 
@@ -46,15 +65,14 @@ TCP/IP became standard  in 1982 between different networks
 E-mails -> mid 1960s 
 
 ---
-##### Computer vs Mainframes 
-Big, powerful, reliable computer. Non scalable. 
 
 
-### OSI Model 
-**Open System Interconnection**
+
+# OSI Model
+##### **Open System Interconnection**
 
 Standard definined by ISO (Internetional Standard Organization)
-Aimed at proposing a reference standard for different network designs. So computers belonging to different networks can communicate. 
+Aimed at proposing a ==reference standard for different network designs==. So computers belonging to different networks can communicate. 
 
 
 > _Please Do Not Throw Sausage Pizza Away_
