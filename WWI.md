@@ -5,19 +5,19 @@
 
 - [x] Perche si chiama grande guerra
 - [x] 14 punti di wilson e collegarli all'italia
-- [ ] Comprensione di un testo di giolitti
+- [x] Comprensione di un testo di giolitti
 - [x] Cosa è stato ceduto all'italia (guarda rapallo e versailles)
-- [ ] Cosa non è stato ceduto all'italia (fiume dalmazia...)
-- [ ] Perchè si chiama dictat
-- [ ] Domande a crocette
+- [x] Cosa non è stato ceduto all'italia (fiume dalmazia...)
+- [x] Perchè si chiama dictat
+- [x] Domande a crocette
 
 
 
 
 1. La Prima guerra mondiale viene anche chiamata Grande Guerra perchè è stata la prima e perchè coinvolse i civili in particolar modo: Gli uomini andavano a combattere al fronte e le le donne lavoravano in fabbrica. Ci furono 9 milioni di soldati morti e 5 milioni di civili. 
-2. 9 gennaio 1918, Winston Churchill enuncia al congresso le condizioni per giungere ad una pace durevole: Abolizione delle barriere doganali, libertà di commercio, riduzione armamenti, cessione di Alsazie e Lorena alla Francia, Nuove frontiere per l'Italia, costituzione di una società generale delle nazioni
-3. Dopo la conclusione della prima guerra mondiale nel 11 novembre 1918, l'Italia ottenne il Trentino, l'Alto adige, Venezia Giulia, l'Istria ma non ottenne Fiume. Il trattato di Rapallo, firmato a novembre 1920, venne stabilito il confine tra il territorio italiano, serbo e croato. All'Italia vennero annesse Gorizia, Trieste, Pola, Zara. Con il trattato di Versailles
-1. 
+2. 9 gennaio 1918, Presidente Wilson enuncia al congresso le condizioni per giungere ad una pace durevole: Abolizione delle barriere doganali, libertà di commercio, riduzione armamenti, cessione di Alsazie e Lorena alla Francia, Nuove frontiere per l'Italia, costituzione di una società generale delle nazioni
+3. Dopo la conclusione della prima guerra mondiale nel 11 novembre 1918, l'Italia ottenne il Trentino, l'Alto adige, Venezia Giulia, l'Istria ma non ottenne Fiume. Il trattato di Rapallo, firmato a novembre 1920, venne stabilito il confine tra il territorio italiano, serbo e croato. All'Italia vennero annesse Gorizia, Trieste, Pola, Zara. Trattato di Versailles: Stati uniti, GB, Francia e Italia si riuniscono a Parigi nel gennaio 1919. All'Italia non vengono riconosciuti i territori promessi (Dalmazia, Fiume in particolare). Gli interventisti sono arrabbiati. La Germania deve restituire i possedimenti Francesi, Danimarca e Polonia e risarcire i danni. 
+4. 
 
 
 
