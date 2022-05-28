@@ -17,10 +17,8 @@
 1. La Prima guerra mondiale viene anche chiamata Grande Guerra perchè è stata la prima e perchè coinvolse i civili in particolar modo: Gli uomini andavano a combattere al fronte e le le donne lavoravano in fabbrica. Ci furono 9 milioni di soldati morti e 5 milioni di civili. 
 2. 9 gennaio 1918, Presidente Wilson enuncia al congresso le condizioni per giungere ad una pace durevole: Abolizione delle barriere doganali, libertà di commercio, riduzione armamenti, cessione di Alsazie e Lorena alla Francia, Nuove frontiere per l'Italia, costituzione di una società generale delle nazioni
 3. Dopo la conclusione della prima guerra mondiale nel 11 novembre 1918, l'Italia ottenne il Trentino, l'Alto adige, Venezia Giulia, l'Istria ma non ottenne Fiume. Il trattato di Rapallo, firmato a novembre 1920, venne stabilito il confine tra il territorio italiano, serbo e croato. All'Italia vennero annesse Gorizia, Trieste, Pola, Zara. Trattato di Versailles: Stati uniti, GB, Francia e Italia si riuniscono a Parigi nel gennaio 1919. All'Italia non vengono riconosciuti i territori promessi (Dalmazia, Fiume in particolare). Gli interventisti sono arrabbiati. La Germania deve restituire i possedimenti Francesi, Danimarca e Polonia e risarcire i danni. 
-4. 
 
-
-
+---
 
 Negli anni antecedenti all'inizio della prima guerra mondiale, l'Europa è divisa in due. Da una parte Germania, Impero Austro Ungarico e regno d'Italia formano la **triplice alleanza**, dall'altra Francia, Regno Unito e Russia formano la **triplice intesa**. Il _casus belli_ della guerra si verificò il 28 giugno 1914: A Sarajevo l'arciduca Ferdinando e sua moglie vennero assassinati con una pistola da Gavrilo Princip, uno studente bosniaco facente parte della mano nera, associazione che voleva l'indipendenza dal regno austriaco. L'Austria avviò un **ultimatum** il 23 luglio e la Serbia accettò sotto tutti i punti tranne uno: l'Austria non è d'accordo e il 28 luglio, quindi un mese dopo, l'Austria dichiara guerra alla serbia, che riceve in aiuto le truppe russe poco dopo.
 

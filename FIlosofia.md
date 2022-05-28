@@ -2,6 +2,7 @@
 [[Marx]]
 [[Schopenhauer]]
 [[Nietzsche]]
+[[Nietzsche-foglietto]]
 [[Freud]]
 [[Appunti-filo]]
 [[Heidegger]]

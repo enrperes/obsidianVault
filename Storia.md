@@ -13,3 +13,4 @@
 # Extra
 
 [[Bombardamento di Guernica]]
+[[Guerra arabo israeliana]]
