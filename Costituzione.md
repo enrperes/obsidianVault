@@ -1,24 +1,28 @@
 # I Principi fondamentali della Costituzione
 
 **==2 Giugno 1946==** 
-Si svolse il referendum sulla forma istituzionale dello stato: con il voto popolare nasce la Repubblica. 
-Elezione Assemblea Costituente, le donne vengono chiamate a votare per la prima volta. 
+
+- Si svolse il referendum sulla riforma istituzionale dello stato: con il voto popolare nasce la Repubblica. 
+- Elezione Assemblea Costituente, le donne vengono chiamate a votare per la prima volta. 
 Si sceglie tra **REPUBBLICA** e **MONARCHIA**. Vince la Repubblica con 12mln vs 10mln di voti. La monarchia perdere perchè il RE era stato compromesso dalla marcia su Roma e l'omicidio Matteotti. 
-Viene riscritta la costituzione perchè era **Concessa** dal Re. 
+Viene riscritta la costituzione perchè prima era **Concessa** dal Re. 
 
 La Repubblica è formata da: 
 - 35% Democrazia Cristiana (continuazione PPI)
 - 20% Partito Socialista 
 - 19% Partito Comunista 
 - <10% Partito liberale, espressione grande capitale 
+
 Quindi 40% espressione Marxismo (Comunismo e socialismo)
+
 Si formano 3 anime:
 - Cattolica
 - Socialista 
 - Liberale
-La costituzione Italiana è così ricca perhcè è frutto di esigenze e bisogni complessi provenienti da ideologie diverse. 
+La costituzione Italiana è così ricca perché è frutto di esigenze e bisogni complessi provenienti da ideologie diverse. 
 
 ### Costituzione Italiana
+##### Caratteristiche
 
 > [!info]- Votata
 > Non concessa (come lo Statuto Albertino (1848)). Quindi non può essere tolta se non con la votazione del popolo.
@@ -38,9 +42,9 @@ La costituzione Italiana è così ricca perhcè è frutto di esigenze e bisogni 
 ---
 
 >[!success]+ Principi fondamentali
-> Democratico, Personalista
+> Democratico, Personalista, Uguaglianza, Laicità, Pluralista, Lavorista, Solidarista, Internazionalista, Pacifista, Autonomista. 
 
-Nei primi 12 articoli della costituzione vengon affermati alcuni principi fondamentali: 
+Nei primi 12 articoli della costituzione vengono affermati alcuni principi fondamentali: 
 
 #### Principio democratico
 Articolo 1
@@ -77,7 +81,5 @@ Assicura alle organizzazioni territoriali minori (Regioni, Comuni) una relativa 
 
 ---
 
-Un articolo da sapere (9?)
-
-Si segue la legge anche per paura, non solo per razionalità. 
-Le banche sono uno stato "leggero": lo stato tende a non internvenire. 
+### Articolo 9
+> La Repubblica  promuove lo sviluppo della cultura e la ricerca scientifica e tecnica. Tutela il paesaggio e il patrimonio storico e artistico della Nazione. Tutela l'ambiente, la biodiversità e gli ecosistemi, anche nell'interesse delle future generazioni. La legge dello Stato disciplina i modi e le forme di tutela degli animali. 
