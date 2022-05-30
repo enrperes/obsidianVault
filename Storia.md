@@ -7,10 +7,10 @@
 [[Crisi 1929]]
 [[Rivoluzione industriale II]]
 [[WWII]]
-[[Costituzione]]
 
 ---
 # Extra
 
+[[Costituzione]]
 [[Bombardamento di Guernica]]
 [[Guerra arabo israeliana]]

@@ -16,5 +16,8 @@ Conseguenze:
 - Contrazione delle lunghezze 
 
 
-
-
+## Caso relativistico della luce
+Luce sia onda che corpuscolo: 
+Relazione di De Broglie 
+$$p=\dfrac{h\cdot v}{c} = \dfrac h \lambda$$
+Si osservano in uno stato allla volta; Se vengono misurati come particelle non si comportano da onde e viceversa. 
