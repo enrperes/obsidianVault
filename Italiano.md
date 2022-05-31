@@ -9,6 +9,12 @@
 
 ## Letteratura
 
+
+[[Positivismo]]
+[[Verismo]]
+[[Carducci]]
+[[Naturalismo]]
+[[Verga]]
 [[Decadentismo]]
 [[D'annunzio]]
 [[Pascoli]]
