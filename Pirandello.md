@@ -3,7 +3,7 @@
 ![[Pasted image 20220517101558.png|130]]
 
 #Siciliano
-(Come [[Svevo]])
+
 1867(Grigenti) - 1936(Roma)
 
 Famiglia agiata borghese, padre dirigeva alcune miniere di Zolfo. 

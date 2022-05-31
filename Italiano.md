@@ -3,6 +3,12 @@
 [[Fiore di roccia]]
 
 ---
+## Paradiso
+[[Paradiso]]
+
+
+## Letteratura
+
 [[Decadentismo]]
 [[D'annunzio]]
 [[Pascoli]]
@@ -24,6 +30,7 @@
 [[Calvino]]
 [[Pasolini]]
 [[Interrogazione-ita-maggio]][^2]
+
 
 
 [^1]: Decadentismo, simbolismo, estetismo, Baudelaire, D'annunzio, Pascoli, futurismo, crepuscolari, vociani, Svevo
