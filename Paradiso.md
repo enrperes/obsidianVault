@@ -1,5 +1,21 @@
 #todo 
 
+[[Paradiso#Canto I]]
+
+[[Paradiso#Canto III]]
+
+[[Paradiso#Canto VI]]
+
+[[Paradiso#Canto XI]]
+
+[[Paradiso#Canto XV]]
+
+[[Paradiso#Canto XVII]]
+
+[[Paradiso#Canto XXVII]]
+
+[[Paradiso#Canto XXXIII]]
+
 Mercoledì 13 aprile 1300 - il viaggio si compie in un solo giorno.
 
 ### Struttura:
@@ -35,11 +51,11 @@ Parola chiave **Ineffabilità:** impossibilità di rendere a parole l’esperien
 
 Ineffabilità = indescrivibilità
 
-## Canti
+# Canti
 
 ### Canto I
 
-### Dal Paradiso Terrestre al Paradiso Celeste
+ Dal Paradiso Terrestre al Paradiso Celeste
 
 -   Dante
 -   Beatrice
@@ -56,7 +72,7 @@ il fine dell’uomo è Dio, quindi è naturale che salga verso l’Empireo. Può
 
 ### Canto III
 
-### Cielo della Luna (I)
+ Cielo della Luna (I)
 
 -   Piccarda Donati, sorella di Corso Donati che si trova all’Inferno
 -   Costanza d’Altavilla
@@ -71,7 +87,7 @@ Canto Femminile → personaggi e delicatezza del linguaggio. Tolta Beatrice, Pic
 
 ### Canto VI
 
-### Cielo di Mercurio II
+ Cielo di Mercurio II
 
 -   Giustiniano (unica voce narrante) → per dare importanza ai temi trattati
 -   Romeo di Villanova
@@ -93,7 +109,7 @@ Presentato Romeo di Villanova: onesto uomo di corte finchè i cortigiani per inv
 
 ### Canto XI
 
-### Cielo del Sole (IV)
+ Cielo del Sole (IV)
 
 -   San Tommaso d’Aquino → Dominicano → eccellente in sapienza
 
@@ -112,7 +128,7 @@ San Tommaso vede in Dio che Dante non ha capito due affermazioni:
 
 ### Canto XV
 
-### Cielo di Marte (V)
+ Cielo di Marte (V)
 
 -   Cacciaguida
 
@@ -130,7 +146,7 @@ Si presenta poi come Cacciaguida, nominato cavaliere dall’imperatore Corrado, 
 
 ### Canto XVII
 
-### Cielo di Marte (V)
+ Cielo di Marte (V)
 
 -   Cacciaguida
 
@@ -142,7 +158,7 @@ Altra domanda: Dante ha visto cose di personaggi potenti, che, se riferite, poss
 
 ### Canto XXVII
 
-### Ascesa dal cielo delle stelle fisse (VIII) al Primo Mobile (IX)
+ Ascesa dal cielo delle stelle fisse (VIII) al Primo Mobile (IX)
 
 -   San Pietro, San Giacomo, San Giovanni
 
@@ -162,7 +178,7 @@ Beatrice profetizza un cambiamento: fine della corruzione della chiesa.
 
 ### Canto XXXIII
 
-### Empireo (X)
+ Empireo (X)
 
 -   ~~Beatrice~~
 -   San Bernardo
