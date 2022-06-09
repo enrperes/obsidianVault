@@ -1,5 +1,15 @@
 # Psicologia delle folle
 
+## Per l'esame
+"contagio" > iniziare a credere all'opinione più sentita. 
+"polarizzazione delle informazioni" > informazioni false, incomplete, 
+
+Freedomhouse.org Global freedom index a 19/100 (Russia)
+
+
+
+---
+
 - Se due folle si scontrano chi ha la meglio? Quella con più membri?
 - È possibile che una folla si divida in altre due folle con idee contrastanti?
 - Deve esserci sempre un leader o la folla può autogovernarsi [deve esserci sempre]?

@@ -30,3 +30,25 @@ Una occupa il 55% del territorio affidata al popolo ebraico, l'altra, 45% per il
 In Palestina ci sono circa 1.2 mln arabo palestinesi, 600mila ebrei. Gli arabi rifiutano: Perchè il doppio della popolazione deve avere un po' meno del territorio? 
 In realtà gli è stata data una grande regione di deserto. Sono comunque contenti perchè hanno uno stato indipendente. 
 
+
+---
+
+Risoluzioni ONU: n.
+- 181
+- 242 (Non viene ancora sempre rispettata)
+- 272
+- 338
+
+1978 Egitto (stato più potente e popoloso del medio oriente) riconosce lo stato di Israele come libero e sovrano. Ci hanno messo 30 anni di conflitti. 
+Sinistra: "Terra in cambio di pace" -> Perchè Israele ritorna della terra. 
+Destra: "Pace in cambio di pace" -> Perchè boh terra promessa. 
+
+1987  Prima *Intifada* [^1]
+L'opinione pubblica è tutta per i palestinesi 
+
+OLP: Organizzazione Liberazione Palestina. Verrà riconosciuto da Israele non più come organizzazione terrorista. Nel 1993. 
+
+
+
+
+[^1]:[Intfada, wilki](https://it.wikipedia.org/wiki/Prima_intifada)

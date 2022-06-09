@@ -26,7 +26,8 @@ ___
 ---
 ### ORALE
 - Città che sale di Boccioni per arte, qualcuno se la becca. 
-
+- Preparare un articolo della costituzione per ed Civica
+- Ripassare domande di ed civica arte 
 
 
 ---
