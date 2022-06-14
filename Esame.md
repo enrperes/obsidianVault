@@ -21,6 +21,7 @@ inizio luglio orale
 ___
 ## **Seconda prova**
 - Matematica 
+- Non di stato 
 
 
 ---
