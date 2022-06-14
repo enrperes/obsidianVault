@@ -1,4 +1,4 @@
-#todo
+
 
 # Prima guerra mondiale
 

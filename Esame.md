@@ -1,5 +1,7 @@
 #risorsa 
 6 commissari interni, presidente esterno. 
+
+![[Documento15Maggio.pdf]]
 ___
 
 [[Collegamenti]]
@@ -11,20 +13,39 @@ ___
 23 giugno seconda prova 
 inizio luglio orale
 
-# Invalsi
-[[2022-03-11]]
 
-### Prima prova
+## **Prima prova**
 - Analisi testo letterario 
 - Analisi e produzione di testo argomentativo 
 - Riflessione critica su tematiche di attualità
 ___
-### Seconda prova
+## **Seconda prova**
 - Matematica 
 
 
 ---
-### ORALE
+## **ORALE**
+
+
+### Ed civica
+- Magro
+	- Transizione dai combuistibili fossili alle fonti rinnovabili, nuove tecnologie a elevato "ritorno energetico". Biotecnologie e bioetica. Benessere e stile di vita, armi di prevenzione. 
+- Candido
+	- Questioni di genere. Le donne nella letteratura, resistenza, vita civile e politica, lavoro. Diritto allo studio
+- Dorigo
+	- Donne nel periodo Vittoriano. Nascita del club alpino, mountaneering/alpinism. 
+- Manzon
+	- Progressività della tassazione dei redditi, analisi con lo studio di funzione. Limiti per la salute nell'intensità dell'inquinamento elettromagnetico. 
+- Del Ben
+	- Primo soccorso
+- Peloso
+	- Progetto Wikipedia. 
+- Mazzon
+	- Analisi norme urbanistiche. Salvaguardia dei centir storici e riconversione funzionale delle aree industriali  e centri urbani. 
+- Spanio
+	- Analisi degli articoli 1-12 dell Costituzione. Problema della Libertà. 
+
+
 - Città che sale di Boccioni per arte, qualcuno se la becca. 
 - Preparare un articolo della costituzione per ed Civica
 - Ripassare domande di ed civica arte 
