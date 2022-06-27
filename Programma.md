@@ -4,7 +4,7 @@
 
 
 >[!todo]+ Italiano
-> - [ ] Leopardi
+> - [x] Leopardi
 > - [ ] Età postunitaria (Praga, Carducci)
 > - [ ] Positivismo, naturalismo (Flaubert, De Goncourt, Zola)
 > - [ ] Verga

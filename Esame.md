@@ -6,6 +6,7 @@ ___
 
 [[Collegamenti]]
 [[Programma]]
+[[PCTO]]
 
 ---
 
@@ -27,24 +28,46 @@ ___
 ---
 ## **ORALE**
 
+#### Argomenti scelti
+Inglese: Victorian Age, industrialization + Orwell
+Chimica: DNA, Virus. 
 
-### Ed civica
-- Magro
-	- Transizione dai combuistibili fossili alle fonti rinnovabili, nuove tecnologie a elevato "ritorno energetico". Biotecnologie e bioetica. Benessere e stile di vita, armi di prevenzione. 
-- Candido
-	- Questioni di genere. Le donne nella letteratura, resistenza, vita civile e politica, lavoro. Diritto allo studio
-- Dorigo
-	- Donne nel periodo Vittoriano. Nascita del club alpino, mountaneering/alpinism. 
-- Manzon
-	- Progressività della tassazione dei redditi, analisi con lo studio di funzione. Limiti per la salute nell'intensità dell'inquinamento elettromagnetico. 
-- Del Ben
-	- Primo soccorso
-- Peloso
-	- Progetto Wikipedia. 
-- Mazzon
-	- Analisi norme urbanistiche. Salvaguardia dei centir storici e riconversione funzionale delle aree industriali  e centri urbani. 
-- Spanio
-	- Analisi degli articoli 1-12 dell Costituzione. Problema della Libertà. 
+### Immagini di partenza
+- farfalle gialle
+- mano legata a dei fili
+- uomo in moto
+- trincee
+- treno/stazione
+- Orologi
+- fotosintesi
+- polimero
+- autoritratto in divisa di Kirchner
+- uomo in trincea
+- donna che si specchia
+- centrale idroelettrica
+- poltrona di freud
+- struttura del benzene 
+- un paesaggio
+
+- ### Ed civica
+	- Magro
+		- Transizione dai combuistibili fossili alle fonti rinnovabili, nuove tecnologie a elevato "ritorno energetico". Biotecnologie e bioetica. Benessere e stile di vita, armi di prevenzione. 
+	- Candido
+		- Questioni di genere. Le donne nella letteratura, resistenza, vita civile e politica, lavoro. Diritto allo studio
+	- Dorigo
+		- Donne nel periodo Vittoriano. Nascita del club alpino, mountaneering/alpinism. 
+	- Manzon
+		- Progressività della tassazione dei redditi, analisi con lo studio di funzione. Limiti per la salute nell'intensità dell'inquinamento elettromagnetico. 
+	- Del Ben
+		- Primo soccorso
+	- Peloso
+		- Progetto Wikipedia. 
+	- Mazzon
+		- Analisi norme urbanistiche. Salvaguardia dei centir storici e riconversione funzionale delle aree industriali  e centri urbani. 
+	- Spanio
+		- Analisi degli articoli 1-12 dell Costituzione. Problema della Libertà. 
+
+---
 
 
 - Città che sale di Boccioni per arte, qualcuno se la becca. 

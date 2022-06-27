@@ -36,6 +36,6 @@ Si sentono divisi tra Ideale e Vero, Bene e Male, Virtù e Vizio, Bello e orrend
 
 ---
 
-[[Carducci]]
-
+![[Carducci]]
+![[Verga]]
 ---
