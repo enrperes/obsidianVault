@@ -11,6 +11,8 @@
 [[Condensatore]]
 [[Interrogazione-fisica]]
 
+
+[[Induzione]]
 [[Onde Elettromagnetiche]]
 [[Relatività]]
 [[Cinematica relativistica]]

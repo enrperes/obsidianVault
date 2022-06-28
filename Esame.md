@@ -48,6 +48,14 @@ Chimica: DNA, Virus.
 - poltrona di freud
 - struttura del benzene 
 - un paesaggio
+- Piano a induzione
+- DNA
+- Freud
+- Incendio camera Lord
+- Trincea
+- Maschera
+- Bicchiere con sigari dentro
+- 
 
 - ### Ed civica
 	- Magro
