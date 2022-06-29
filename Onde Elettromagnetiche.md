@@ -6,6 +6,7 @@ Energia fotone. $h$ = costante di Plank.
 
 Limiti di esposizione: 
 3MHz < 3000MHz --> 20 E (V/m)
+[[Induzione]]
 
 ---
 ### Luce 
