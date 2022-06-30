@@ -24,4 +24,4 @@ Si pone negli annni 30 in opposizione alla politica fascista.
 
 Gramsci e Vittorini
 
-### [[Alda Merini]]
+### ![[Alda Merini]]
