@@ -1,6 +1,11 @@
 #risorsa 
 6 commissari interni, presidente esterno. 
 
+75/100
+
+
+---
+
 ![[Documento15Maggio.pdf]]
 ___
 
