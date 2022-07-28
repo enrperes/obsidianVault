@@ -5,18 +5,18 @@
 
 >[!todo]+ Italiano
 > - [x] Leopardi
-> - [ ] Età postunitaria (Praga, Carducci)
-> - [ ] Positivismo, naturalismo (Flaubert, De Goncourt, Zola)
-> - [ ] Verga
-> - [ ] Decadentismo, Avanguardie storiche (Baudelaire, Verlaine, )
-> - [ ] Futurismo (Marinetti, Palazzeschi)
-> - [ ] Vociani (Rebora, Campana)
-> - [ ] Pascoli 
-> - [ ] D'annunzio
-> - [ ] Svevo
-> - [ ] Pirandello
-> - [ ] Saba
-> - [ ] Ungaretti
+> - [x] Età postunitaria (Praga, Carducci)
+> - [x] Positivismo, naturalismo (Flaubert, De Goncourt, Zola)
+> - [x] Verga
+> - [x] Decadentismo, Avanguardie storiche (Baudelaire, Verlaine, )
+> - [x] Futurismo (Marinetti, Palazzeschi)
+> - [x] Vociani (Rebora, Campana)
+> - [x] Pascoli 
+> - [x] D'annunzio
+> - [x] Svevo
+> - [x] Pirandello
+> - [x] Saba
+> - [x] Ungaretti
 > - [ ] Montale
 > - [ ] Quasimodo
 > - [ ] Gramsci 

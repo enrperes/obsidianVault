@@ -21,3 +21,14 @@ Luce sia onda che corpuscolo:
 Relazione di De Broglie 
 $$p=\dfrac{h\cdot v}{c} = \dfrac h \lambda$$
 Si osservano in uno stato allla volta; Se vengono misurati come particelle non si comportano da onde e viceversa. 
+
+---
+
+## Riassunto generale 
+Le equazioni di Maxwell spiegano l'esistenza delle onde elettromagnetiche, e descrivono la luce come un'onda EM di velocità circa uguale a 300milioni di m/s. 
+La velocità costante della luce va in contrasto con la teoria di Newton e Galileo: che tutto è relativo. 
+Le equazioni di Maxwell dicono che la luce viaggia a velocità $c$ costante in tutti i sistemi di riferimento, anche se ci stiamo muovendo nel verso di propagazione della luce. 
+Einstein pubblica la teoria della relatività ristretta: Appica la fisica classica solo alle basse velocità; quando si tende alla velocità della luce invece no. 
+> la luce si propaga a velocità $c$ per ogni osservatore
+
+Essendo la luce **sempre** a velocità costante, si conclude che il tempo, le distanze e la simultaneità degli eventi sono relativi agli osservatori. 

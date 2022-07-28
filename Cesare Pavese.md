@@ -57,6 +57,13 @@ Scheda con incipit + 669 explicit .
 pag 673 da fare 
 
 #### La luna e i falò 
+
+###### Trama: 
+Protagonista Anguilla ritorna in Italia quando la guerra è finita. Un suo amico che è sempre rimasto lì in periodo di guerra rappresenta la forza, la resilienza. Anguilla invece è (come suggerisce il nome) un personaggio sfuggente, inafferrabile. Non prende  una posizione ma si allontana. 
+Sente il bisogno di "avere" un paese. 
+I falò del titolo indicano i fuochi che vengono accesi ogni anno in occasione di una festa del paese -> tema del ritorno, conforto del paese che Anguilla non trova mai. 
+
+
 Rappresenta l=='impossibilità ritorno.== Protagonista Anguilla emigrato in America per cercare fortuna. Arricchito, vuole tornare nel paese d'origine e non trova più i luoghi dell'infanzia: tutti scomparsi / morti per la guerra. Link con i ==Malavoglia==. 
 Ragazzo Cinto, deformato, sotto l'ala protettiva di Anguilla. Ricordo della ragazza Santa, uccisa. Lune e falò: Luna= infanzia, amicizie.. Falò = guerra, fuoco dove è stata bruciata Santa. 
 
