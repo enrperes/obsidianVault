@@ -31,7 +31,7 @@ Il computer viene visto come un astratificazione di *livelli*. Ciascun livello f
 ### Storia dei sistemi di calcolo
 ()
 
-### Circuiti logici (Booleani)
+### ***Circuiti logici (Booleani)***
 2022-10-03 09:35
 
 Mappano *k* segnali binari in ingresso (input) a *m* segnali binari in uscita (output). 
