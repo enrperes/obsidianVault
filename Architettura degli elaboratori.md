@@ -1,18 +1,8 @@
 # Architettura degli Elaboratori 
-*Fontana Federico* 
 
-### Risorse
-
-A.S. Tanenbaum T.Austin: *Architettura dei calcolatori - Un approccio strutturale*
-> https://fr.be1lib.org/book/11483498/e408b6?dsource=recommend (6a Edizione)
-> 	Edizione 2006 su DropBox
-> 	Molto discorsivo, 
-
----
+[[Architettura degli elaboratori-info]]
 
 2022-09-30 10:37
-
-
 
 #### Architettura di calcolo: 
 Macchina capace di eseguire una sequenza di istruzioni semplici = **Istruzioni Macchina**
@@ -29,7 +19,7 @@ Il computer viene visto come un astratificazione di *livelli*. Ciascun livello f
 ![[Pasted image 20220930112436.png|300]]
 
 ### Storia dei sistemi di calcolo
-()
+(...)
 
 ### ***Circuiti logici (Booleani)***
 2022-10-03 09:35
