@@ -1,4 +1,6 @@
 #risorsa 
+[[Git]]
+[[HOME]]
 FOOTNOTE [^1]
 ```ad-note
 title: Admonition

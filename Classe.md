@@ -1,3 +1,5 @@
+[[SCUOLA]]
+
 [08/02/2022]
 Questi i punti:
 - allo scrutinio c'è stato un dibattito sui voti in condotta da lei proposti ( infatti è sempre il coordinatore che propone e poi il consiglio vota) che sembravano troppo alti... i voti rimasti alti sono per gli studenti che quest'anno e negli anni si sono dimostrati leali e non hanno giocato a ribasso. Si è voluto differenziare la "resilienza" rispetto al gruppo classe.

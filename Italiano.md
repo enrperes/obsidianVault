@@ -9,8 +9,6 @@
 
 ## Letteratura
 
-![[Scaletta-esame]]
-
 [[Positivismo]]
 [[Verismo]]
 [[Carducci]]
