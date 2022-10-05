@@ -33,3 +33,9 @@ tool carino con tante opzioni per fare questo  - deprecato. USa Callouts.
 > eheh
 
 [^1]: Footnotes look like this.
+
+[[Latex]]
+
+---
+# Homepage
+https://thesweetsetup.com/creating-obsidian-dashboard/
