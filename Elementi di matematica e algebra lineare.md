@@ -33,3 +33,19 @@ $\varnothing \neq 0$  ⚠️
 
 Fine lezione 2022-10-04 = 17:16
 
+2022-10-06 13:35
+
+**Unione di insiemi**
+
+(Goodnotes)
+
+## Linguaggio formale
+
+- Linguaggio semplificato con sintassi rigida, precisa, semplice e meno ambigua. 
+I linguaggi formali sono oggetto di studio della logica matematica. #todo Necessario per la magistrale in informatica. 
+
+### Linguaggio Proposizionale
+Analizza solo le frasi dichiarative: le **proposizioni** ovvero espressioni linguistiche per cui ha senso chiedersi se sono *vere o false.* Le frasi imperative NON sono proposizioni. 
+Indaga il modo di costruire proposizioni complesse a partire da proposizioni semplici. 
+
+$P1 \vee P2$ -> "oppure"
