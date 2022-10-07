@@ -1,6 +1,11 @@
 #risorsa 
 [[Informatica]]
 # Instructions 
+
+https://rogerdudler.github.io/git-guide/
+
+
+
 ____
  
 ## Git basics

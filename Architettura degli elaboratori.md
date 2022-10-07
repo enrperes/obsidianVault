@@ -44,3 +44,10 @@ Permettono di:
 - ![[Pasted image 20221003111405.png|400]]
 
 Assorbimento: $A+(A \cdot B) = A(1 \cdot B) = A \cdot 1 = A$
+2022-10-07
+#### Dualità e complementarietà 
+Data un'espressione booleana, la sua negata si ottiene negando le variabili, scambiando le operazioni + e * e scambiando le costanti 0 e 1. 
+$E = A+\not{A} \cdot (B+0)$ -> $\not{E} = \not{A} \;\; \cdot (A+\not{B} \cdot 1)$
+- Negazione variabili (gli ingressi della tabella di verità)
+- Scambiare + con * e viceversa
+- Scambiare 0 con 1 e viceversa
