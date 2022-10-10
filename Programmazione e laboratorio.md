@@ -62,7 +62,7 @@ https://replit.com/@enrperes/First-Test
 string-append ha 2 argomenti
 Substring ha 3 argomenti: Stinga; a partire dal carattere n; 
 
-## $\lambda$ Procedurale: Astrazione procedurale 
+## $\lambda$: Procedural Abstraction
 Introduce le variabili 
 
 ### `define`
@@ -88,8 +88,9 @@ https://replit.com/@enrperes/ProceduralAbstraction#main.scm
  
  (define femminile ;val: bool
 	 (lambda (s)
-		 (string=? (substring s (-(string-length s) 1)) "a"); Secondo indice di Substring si può omettere
-		 
+		 (string=? (substring s (-(string-length s) 1)) "a")
 	 )
  )
 ```
+Il secondo indice di substring si può omettere. 
+
