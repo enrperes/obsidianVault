@@ -51,3 +51,7 @@ $E = A+\not{A} \cdot (B+0)$ -> $\not{E} = \not{A} \;\; \cdot (A+\not{B} \cdot 1)
 - Negazione variabili (gli ingressi della tabella di verità)
 - Scambiare + con * e viceversa
 - Scambiare 0 con 1 e viceversa
+
+2022-10-10 09:38
+
+

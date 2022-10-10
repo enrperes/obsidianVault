@@ -16,8 +16,7 @@ $(2 \pi r^2) + 2\pi r$
 
 ---
 ## Scheme
-![[8C49591B-8A2A-490B-8180-099BB148A01F.jpeg|450]]
-
+![[B473D7B8-37C2-413B-BBC4-3112E5076D99.png|550]]
 Language: Intermediate Studente with Lambda 
 
 ###### Espressione che calcola la superficie totale di un cilindro. 
