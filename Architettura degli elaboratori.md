@@ -52,6 +52,25 @@ $E = A+\not{A} \cdot (B+0)$ -> $\not{E} = \not{A} \;\; \cdot (A+\not{B} \cdot 1)
 - Scambiare + con * e viceversa
 - Scambiare 0 con 1 e viceversa
 
-2022-10-10 09:38
+#### Propagazione del ritardo
+- I circuiti logici rispondono con un ritardo di $10^{-10}$s. Il valore di tensione non cambia istantaneamente. 
+- Il ritardo viene sommato in presenza di porte logiche a cascata. [[Sommatore|Il sommatore è lento]].
 
+#### Circuiti con memoria
+Il comportamento passato ha effetti sull'uscita all'istante presente. 
+**Retroazione**: riutilizzo dell'uscita nell'ingresso -> Il circuito non può essere tradotto in espressione booleana. 
+[Latch set-reset (wiki)](https://en.wikibooks.org/wiki/Digital_Circuits/Latches) => circuito con memoria. 
+
+![[Latch Set Reset]]
+
+#### Clock
+Il segnale periodico che scandisce il funzionamento dei circuiti sequenziali. (*onda quadra*)
+Un segnale è periodico se esiste un intervallo di tempo detto *periodo* in cui il segnale si ripete identici. 
+**Frequenza di clock [Hz]** = 1 / periodo di clock. 
+![[Pasted image 20221011110529.png|400]]
+
+###### Periodo di clock: 
+Per avere prestazioni più elevate il periodo di clock dovrebbe essere più breve possibile. 
+Ogni circuito ha un tempo di commutazione che **non** può essere superiore al periodo di clock. 
+Periodo di clock: da 1 a 10ns -> Frequenza: da 1GHz a 100MHz. 
 
