@@ -36,6 +36,8 @@ Permettono di:
 
 ![[Pasted image 20221003110458.png|500]]
 
+**OR = +
+AND = * **
 - Il segno del prodotto può essere omesso: $AB = A \cdot B$
 - Il prodotto ha precedenza sulla somma
 - Raramente la negazione è rappresentata con ' : $(A+B)' = a$
@@ -52,13 +54,16 @@ $E = A+\not{A} \cdot (B+0)$ -> $\not{E} = \not{A} \;\; \cdot (A+\not{B} \cdot 1)
 - Scambiare + con * e viceversa
 - Scambiare 0 con 1 e viceversa
 
+---
+
+2022-10-11
 #### Propagazione del ritardo
-- I circuiti logici rispondono con un ritardo di $10^{-10}$s. Il valore di tensione non cambia istantaneamente. 
+- I circuiti logici rispondono con un ritardo di $10^{-10}$s, perchè il valore di tensione non cambia istantaneamente. 
 - Il ritardo viene sommato in presenza di porte logiche a cascata. [[Sommatore|Il sommatore è lento]].
 
 #### Circuiti con memoria
 Il comportamento passato ha effetti sull'uscita all'istante presente. 
-**Retroazione**: riutilizzo dell'uscita nell'ingresso -> Il circuito non può essere tradotto in espressione booleana. 
+**Retroazione**: riutilizzo dell'uscita nell'ingresso -> Il circuito non può essere tradotto in espressione booleana.  (ricorsione)
 [Latch set-reset (wiki)](https://en.wikibooks.org/wiki/Digital_Circuits/Latches) => circuito con memoria. 
 
 ![[Latch Set Reset]]
