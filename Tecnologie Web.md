@@ -61,3 +61,72 @@ La tecnologia è neutrale, dipende da come viene usata. L'etica è il settore de
 ![[Internet]]
 
 ![[Internet - Parte 1.pdf]]
+
+---
+
+2022-10-12 10:37
+### Livelli di applicazione 
+#### Applicazione di rete 
+- I programmi hanno l'obiettivo di definire l'architettura dell'applicazione e stabilire la sua organizzazione. 
+- client-server o peer-to-peer
+
+##### Architettura client-server
+Un **Host** sempre attivo (SERVER) risponde alle richieste di servizio degli altri host, i **client**.
+- *client* chiede il servizio. Comunica con il server in qualunque momento, indirizzo dinamico, non comunica con gli altri client. 
+- *server* fornisce il servizio. Sempre attivo, indirizzo statico, può ricevere richieste client in qualunque momento
+Un singolo server non riesce a gestire tutte le richieste. I **data center** ospitano molti server per creare un potente server virtuale. 
+
+##### Architettura Peer-to-peer (P2P)
+Non c'è un server sempre attivo ma coppie arbitrarie di host: i **peer**, che comunicano direttamente tra di loro. (bit Torrent)
+Nessuno degli host deve essere necessariamente sempre attivo. 
+Non 'c'è un'infrastruttura sempre attiva.  Un vantaggio è la scalabilità. Tra gli svantaggi: sicurezza, prestazioni, affidabilità. 
+
+#### Protocolli a livello di applicazione
+definisce come i processi di un'applicazione si scambiano i messaggi: 
+- tipi di messaggi scambiati
+- sintassi dei messaggi
+- semantica dei campi 
+Alcuni protocolli: DNS; DHCP; FTP; HTTPS; SSH; SMTP...
+
+Le applicazioni consistono in coppie di processi comunicanti che si scambiano messaggi. 
+Un processo invia e riceve messaggi dalla rete attraverso un'interfaccia software: **Socket** (porta tra applicazione e internet)
+Per scambiare messaggi le applicazioni hanno bisogno di un indirizzo IP, a 32bit. 
+
+##### SOCKET
+definito con un numero di porta di destinazione (a 16bit) a due parametri: NA = indirizzo IP di rete dell' host; PN = numero di porta associato al processo. 
+###### Numeri di porta: 
+2^16 = 65536 porte. 
+Tra 0 e 1024 ci sono i numeri di porta *noti*(controllati dall'associazione IANA): 23:telnet; 22:ssh; 25:SMTP; 80:HTTP
+Tra 49152 e 65536 ci sono le porte libere. Fino a 49152 possono essere registrate per evitare conflitti. 
+
+#### Livello di trasporto 
+Un protocollo a livello di trasporto mette a disposizione uan comunicazione logica tra processi applicativi di host differenti. 
+[Slide protocollo a livello di trasporto (2)]
+
+Due protocolli:
+***UDP*** (User Datagram Protocol): servizio non affidabile e non orientato alla connessione. La consegna dei pacchetti non è garantita. 
+***TCP*** (Transmission Control Protocol) servizio affidabile e orientato alla connessione
+
+#### Multiplexing e demultiplexing 
+Estendono la spedizione da host a host dal livello di rete a un servizio di trasporto da processo a processo per le applicazioni in esecuzione sugli host. 
+
+### UDP
+- controllo più preciso a livello di applicazione 
+- [slides]
+
+##### Checksum UDP 
+
+### TCP
+Servizio full-duplex  point to point, unicast 
+
+Segmento TCP e struttura dei segmenti TCP  (32 bit)
+
+11:56 registrazione 
+
+Numero di sequenza 
+
+Timeout 
+
+Controllo di congestione 
+
+![[Internet - Parte 2.pdf]]
