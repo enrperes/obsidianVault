@@ -130,3 +130,62 @@ Timeout
 Controllo di congestione 
 
 ![[Internet - Parte 2.pdf]]
+
+---
+
+2022-10-13 10:33
+
+### Livello di rete
+*Forwarding / Switching*=quando un router riceve un pacchetto, lo trasferisce sul collegamento di uscita. 
+*Routing*= il livello di rete deve determinare il percorso che i pacchetti devono seguire tramite algoritmi di routing. 
+Il livello di rete è **Best effort**, non garantisce 
+- La consegna dei pacchetti
+- L'ordine dei pacchetti
+- Il ritardo end to end
+- La larghezza di banda minima necessaria
+
+L'elemento hardware del livello di rete è il **Router**
+Formato da: 
+- Porte di ingresso
+- Porte di uscita
+- Struttura di commutazioni (collega input e output)
+- Processore di instradamento
+
+Per gestire il passaggio tra input e output il router usa una *tabella di inoltro*: 
+
+### Internet Protocol [[IP]]
+
+**IP**: Due versioni: 
+- IPv4: 32 bit; $2^{32}$ bit, circa 4 miliardi  
+- IPv6: 128 bit
+
+[formato dei datagrammi IPv4]
+- Numero di versione
+- Lunghezza dell'intestazione
+- Tipo di servizio (low latency, high throughput, reliable...)
+- Lunghezza del datagramma
+
+Un router ha più indirizzi IP, uno per collegamento. 
+
+#### Subnet
+
+	223.1.1.0/24 
+/24 indica che i 24 bit che compongono l'indirizzo definiscono l'indirizzo della sottorete
+[...]
+
+**NAT** Network Address Translation. Assegna ad una intera LAN un solo indirizzo IP WAN
+
+#todo 
+
+#### Algoritmi di instradamento
+- Centralizzato: calcola il percorso a costo minimo avendo una conoscenza globale della rete
+- Decentralizzato: calcola il percorso a costo minimo in modo iterativo. Nessun nodo possiede informazioni complete sul costo di tutti i nodi. 
+- Statico: I percorsi cambiano molto raramente
+- Dinamico: determinano gli instradamenti al variare del volume di traffico o della topologia della rete
+- Sensibile al carico: i costi dei collegamenti variano dinamicamente per riflettere il livello di congestione
+- Insensibili al carico: dato che il costo di un collegamento non riflette esplicitamente il suo attuale livello di congestione. 
+
+- Le **schede di rete** possiedono indirizzi a livello di collegamento: gli indirizzi ***[[MAC]]***
+
+
+ 
