@@ -84,7 +84,7 @@ Digital data is converted into an analog signal (signaling). Voltage difference 
 #### 2-Data-link 
 Estabilishes a connection between two nodes on a network. **Breaks packets into frames** and sends them from source to destination. LLC (Logical-link-control) identifies network protocols, performs error checking and MAC (Media Access Control): uses MAC addresses to connect devices and define permissions to send and receive data. 
 **MAC Address:** every network device has one (Hardware-coded) Used within a local area network (**LAN**). IP address belongs to layer 3, can be used between remote devices. 
-Also checks if there are errors. (CRC)
+Also checks if there are errors. [[CRC]]
 
 #### 3-Network
 **Breaks up segments into network packets** and reassembles them on the receiving end. It uses network addresses (Logical address = IP. Identifies devices within a Internetwork) to route packets to the destination node. 

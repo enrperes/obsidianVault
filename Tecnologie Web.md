@@ -1,4 +1,4 @@
-[[Tecnologie Web-info]]
+e[[Tecnologie Web-info]]
 
 ## Etica & Tecnologia 2022-10-05
 > **Tecnologia** = ambito del sapere e del fare che si occupa degli *artefatti*, prodotti comprendendo e trasformando il mondo. 
@@ -188,4 +188,10 @@ Un router ha più indirizzi IP, uno per collegamento.
 - Le **schede di rete** possiedono indirizzi a livello di collegamento: gli indirizzi ***[[MAC]]***
 
 
- 
+ ### Ethernet
+ Insieme di tecnologie e protocolli per reti locali **LAN**
+
+
+[...]
+
+![[Internet - Parte 3.pdf]]
