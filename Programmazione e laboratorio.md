@@ -1,4 +1,3 @@
-# Programmazione e laboratorio
 
 [[Programmazione e laboratorio-info]]
 [[Programmazione e laboratorio-pdf]]
@@ -54,7 +53,7 @@ https://replit.com/@enrperes/First-Test
 ```scheme
 (define) plurale
 	(lambda (sm)
-		(string-append (substring am 0 (- (string-length sm) 1)) "i")
+		(string-append (substring sm 0 (- (string-length sm) 1)) "i")
 	)
 ```
 
@@ -94,3 +93,66 @@ https://replit.com/@enrperes/ProceduralAbstraction#main.scm
 ```
 Il secondo indice di substring si può omettere. 
 
+2022-10-14 08:37 
+###### Da infinito a participio passato 
+
+ ```scheme
+ (define ato ;val :bool
+  (lambda (s) ;s: string
+   ;(string=? (string-ref s (- (string-length s) 1)) "are")
+    (string-append (substring s 0 (- (string-length s) 2)) "to")
+    )
+  )
+
+ 
+```
+
+# `if`
+
+
+```scheme
+(if C E1 E2) ; C1 ? E1 : E2
+
+```
+
+3 argomenti: 
+- Condizione (booleana)
+- Espressione 1
+- Espressione 2 (non può essere omesso)
+
+Se il risultato di C è vero si valuta E1 e il risultato di if è E1. 
+Falso: valuta E2, if = E2. 
+Solo quando si valuta C si valuta o E1 o E2. 
+
+#### Generalizzazione del plurale 
+
+```scheme
+
+(define femm?
+  (lambda (s)
+    (string=? (substring s (- (string-length s) 1)) "a")
+    )
+  )
+
+(define plurale-f
+  (lambda (s)
+    (string-append (substring s 0 (- (string-length s) 1)) "e")
+    )
+  )
+
+(define plurale-m
+  (lambda (s)
+    (string-append (substring s 0 (- (string-length s) 1)) "i")
+    )
+  )
+
+(define plurale
+  (lambda (s) ; s: string
+    (if (femm? s)
+        (plurale-f s)
+        (plurale-m s)
+        )
+    )
+  )
+
+```
