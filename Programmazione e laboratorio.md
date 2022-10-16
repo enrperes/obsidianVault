@@ -15,6 +15,8 @@ $(2 \pi r^2) + 2\pi r$
 
 ---
 ## Scheme $\lambda$
+
+
 ![[B473D7B8-37C2-413B-BBC4-3112E5076D99.png|550]]
 Language: Intermediate Studente with Lambda 
 

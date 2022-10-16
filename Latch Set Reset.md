@@ -16,5 +16,6 @@ Il segnale di clock abilita la scrittura dei segnali S, R. Quando ha tensione ba
 ### Latch D sincronizzato
 Bit da memorizzare: attraverso il segnale D. 
 [...]
+![[Pasted image 20221016230817.png|700]]
 
-![[E5B1F67A-2431-4064-9273-B8A67D52C489.png]]
+![[E5B1F67A-2431-4064-9273-B8A67D52C489.png|500]]

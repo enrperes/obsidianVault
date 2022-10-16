@@ -1,4 +1,8 @@
-e[[Tecnologie Web-info]]
+---
+cssclass: list-lines
+---
+
+[[Tecnologie Web-info]]
 
 ## Etica & Tecnologia 2022-10-05
 > **Tecnologia** = ambito del sapere e del fare che si occupa degli *artefatti*, prodotti comprendendo e trasformando il mondo. 
@@ -178,12 +182,18 @@ Un router ha più indirizzi IP, uno per collegamento.
 #todo 
 
 #### Algoritmi di instradamento
-- Centralizzato: calcola il percorso a costo minimo avendo una conoscenza globale della rete
-- Decentralizzato: calcola il percorso a costo minimo in modo iterativo. Nessun nodo possiede informazioni complete sul costo di tutti i nodi. 
-- Statico: I percorsi cambiano molto raramente
-- Dinamico: determinano gli instradamenti al variare del volume di traffico o della topologia della rete
-- Sensibile al carico: i costi dei collegamenti variano dinamicamente per riflettere il livello di congestione
-- Insensibili al carico: dato che il costo di un collegamento non riflette esplicitamente il suo attuale livello di congestione. 
+- **Centralizzato**
+	- calcola il percorso a costo minimo avendo una conoscenza globale della rete
+- **Decentralizzato**
+	- calcola il percorso a costo minimo in modo iterativo. Nessun nodo possiede informazioni complete sul costo di tutti i nodi. 
+- **Statico**
+	- I percorsi cambiano molto raramente
+- **Dinamico**
+	- determinano gli instradamenti al variare del volume di traffico o della topologia della rete
+- **Sensibile al carico**
+	- i costi dei collegamenti variano dinamicamente per riflettere il livello di congestione
+- **Insensibili al carico**
+	- dato che il costo di un collegamento non riflette esplicitamente il suo attuale livello di congestione. 
 
 - Le **schede di rete** possiedono indirizzi a livello di collegamento: gli indirizzi ***[[MAC]]***
 
