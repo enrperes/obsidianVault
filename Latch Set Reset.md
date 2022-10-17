@@ -17,4 +17,4 @@ Il segnale di clock abilita la scrittura dei segnali S, R. Quando ha tensione ba
 Bit da memorizzare: attraverso il segnale D. 
 [...]
 
-![[E5B1F67A-2431-4064-9273-B8A67D52C489.png]]
+![[Untitled_Artwork.png]]

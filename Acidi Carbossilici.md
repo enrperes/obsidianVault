@@ -19,7 +19,7 @@ acido butirrico|$\ce{CH3(CH2)2COOH}$
 Sono composti **polari** che si legano facilmente formando legami a idrogeno tra il carbonile e l'ossidrile di due atomi. Di conseguenza hanno punti di ebollizione elevati, più degli alcoli corrispondenti. 
 Equilibrio in soluzione acquosa:  **$\ce{RCOOH<=>RCOO- +H+}$**
 Hanno una forte acidità: $Ka=10^{\small-5}$
-L'acidità è anche determinata dal tipo di gruppo legato al carbossile: 
+L'acidità è anche determinata dal tipwo di gruppo legato al carbossile: 
 - I gruppi elettron attrattori aumentano l'acidità
 - i gruppi elettron donatori diminuiscono l'acidità
 Per questo l'acido acetico è 12 volte più debole rispetto all'acido formico. 

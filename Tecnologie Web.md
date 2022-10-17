@@ -1,4 +1,4 @@
-e[[Tecnologie Web-info]]
+[[Tecnologie Web-info]]
 
 ## Etica & Tecnologia 2022-10-05
 > **Tecnologia** = ambito del sapere e del fare che si occupa degli *artefatti*, prodotti comprendendo e trasformando il mondo. 
@@ -65,6 +65,16 @@ La tecnologia è neutrale, dipende da come viene usata. L'etica è il settore de
 ---
 
 2022-10-12 10:37
+
+# Internet 
+
+Internet è un sistema di reti di calcolatori (rete di reti)
+I dispositivi che si connettono a internet sono detti Host (ospiti) o *end system* (sistemi periferici)
+I sistemi periferici sono connessi tramite una rete di collegamenti (communication link) e commutatori di pacchetti (**packet switch**). 
+
+I dati da scambiare sono divisi in sottoparti con un'intestazione: **pacchetti**
+
+
 ### Livelli di applicazione 
 #### Applicazione di rete 
 - I programmi hanno l'obiettivo di definire l'architettura dell'applicazione e stabilire la sua organizzazione. 

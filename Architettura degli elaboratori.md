@@ -1,4 +1,7 @@
-# Architettura degli Elaboratori 
+---
+cssclass: list-indent-color
+---
+
 
 [[Architettura degli elaboratori-info]]
 
@@ -79,3 +82,99 @@ Per avere prestazioni più elevate il periodo di clock dovrebbe essere più brev
 Ogni circuito ha un tempo di commutazione che **non** può essere superiore al periodo di clock. 
 Periodo di clock: da 1 a 10ns -> Frequenza: da 1GHz a 100MHz. 
 
+
+2022-10-17 - 09:52 
+## Circuiti integrati (IC, Chip)
+Unità contententi circuiti logici
+- Piastrina di silicio di qualche cm^2 
+- Transistors, resistors, capacitors + relativi collegamenti vengono formati sulla superficie. (formati esponendo il cristallo a vapori di altre sostanze (boro, arsenico, fosforo))
+- I collegamenti vengono ottenuti depositando uno strato di materiale conduttore (rame, alluminio)
+- Gli Isolamenti elettrici sono ottenuti 
+- Fotolitografia 
+	- Silicio selettivamente coperto e poi illuminato
+		- Parte illuminata solidifica e forma il circuito
+		- Parte al buio rimossa 
+
+
+Ogni chip è impacchettato in un *package*. 
+- Chip di memoria e semplici processori: due fili di piedini (*dual in line package*)
+- Chip per computer, schede video: centinaia di connessioni 
+
+Le **Locazioni** di memoria sono accessibili individualmente tramite il loro indirizzo. 
+Per operare su un dato in memoria: 
+- Si seleziona la locazione contenente il dato specificando il suo indirizzo
+- Si definisce l'operazione da eseguire: Lettura o scrittura
+
+Una memoria deve assicurare l'accesso ai seguenti segnali **I/O**
+- Indirizzo 
+	- Specifica la locazione su cui si opera 
+- Dato in ingresso 
+	- da scrivere nella locazione
+- Dato in uscita 
+	- da leggere nella locazione
+- Segnali di controllo 
+	- Chip Select (CS)
+		- Attiva il chip
+	- Read, Write (RW) 
+		- Speficia se l'operazione è di scrittura o lettura
+	- Output enable (OE) abilita l'uscita
+Ingresso e uscita avvengono sugli stessi piedini
+
+10:41 2022-10-17
+## Memorie RAM
+
+Costituiscono la **Memoria principale** dei calcolatori. 
+- *Statica* (SRAM): I singoli bit vengono memorizzati con latch (Flip-Flop). Veloce e costosa, utilizzata nella memoria di basso livello. 
+- *Dinamica* (DRAM): Usa altre tecnologie di memorizzazione. Lenta e capiente. Utilizzata nella memoria di alto livello. 
+
+### DRAM 
+Un singolo transistor più un condensatore per memorizzare un bit. 
+![[Pasted image 20221017104219.png|300]]
+Il condensatore è controllato dal transistor, aperto o chiuso in base alla *word line*.
+- Transistor aperto 
+	- Condensatore assume la tensione sulla bit line. 
+- Transistor chiuso
+	- Il condensatore per un po' conserva il livello di tensione. 
+
+#### Lettura DRAM 
+Avviene in due fasi: 
+- RAS
+	- Row Access Strobe
+- CAS 
+	- Column Access Strobe
+
+
+#### Pregi e difetti: 
+- Più economiche e compatte delle SRAM. 
+- Più lente delle SRAM
+- Complessità della conservazione dello stato. I condensatori si scaricano in 1ms, 
+
+Le DRAM hanno migliorato più la banda passante rispetto al tempo di accesso: 
+- Banda passante: quantitaà di dati trasmessi per unità di tempo
+- Tempo di adesso: tempo necessario per completare una singola operazione in memoria. 
+
+*Random Access Memory*: Non si accede a ogni dato nello stesso tempo. 
+
+La crescita della capacità segue la legge di Moore. 
+
+**CAPACITA' (in bit, della memoria) = 2^{linee di indirizzo} X Linee dati**
+
+19 linee di indirizzo x 8 linee di dati -> 2^19 x 8 = 4Mbit 
+11 linee indirizzo, RAS e CAS -> 11 * 2 linee. --> 2^22 * 1 = 4Mbit 
+
+### Tipi di memorie permanenti 
+- **ROM** 
+	- Read Only Memory
+		- scritte nel momento in cui sono prodotte
+- **PROM** 
+	- Programmable ROM 
+		- Scrivibili in un'unica volta 
+- **EPROM**
+	- Erasable PROM
+		- Cancellabili mediante esposizione a UV
+- **EEPROM**
+	- Electrically EPROM 
+		- Cancellabili tramite bit (carica elettrica)
+- **Flash**
+	- Particolari EEPROM cancellabili a banchi (SSD: dischi a stato solido)
+	- Come RAM che mantengono i dati senza corrente. 
