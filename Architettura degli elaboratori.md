@@ -216,3 +216,72 @@ Si applica direttamente la definizione di notazione posizionale. **scomporre** i
 Isolamento della parte frazionaria: 
 Nelle conversioni frazionarie da base 10 a base B è più efficiente isolare progressivamente le cifre nella nuova base. 
 Moltiplicando un numero frazionario per B ottengo la cifra frazionaria più a sinistra nella nuova base come parte intera della moltiplicazione. 
+
+### Conversione esadecimamle <- -> ottale
+
+11:43 
+
+Non passare attraverso base 10 per conversioni di base che sono potenze tra di loro (8 e 16)
+
+### Aritmetica del calcolatore
+
+- *Signed*: numeri interi
+- *Unsigned*: numeri naturali
+- *Float*: numeri reali
+
+Sono rappresentati in ogni caso con un numero fissato di cifre. 
+- Naturali e interi: **16** o **32** bit. (fixed point)
+- Reali: **32** o **64** o **128** bit. (floating point)
+
+L'insieme dei valori rappresentabili è quindi limitato a $2^{16,32,64,128}$ codifiche. 
+#### Codifiche di interi
+I valori sono memorizzati con diverse codifiche.
+
+- **Segno e valore assoluto**: 
+	- (Cambio di segno: si nega il bit più significativo)
+	- $9_{10} = 0 0001001$ -> $-9_{10} = 1 0001001$
+- **Complemento a uno**: 
+	- (cambio di segno: si nega ogni bit)
+	- $9_{10} = 0 0001001$ -> $-9_{10} = 1 1110110$
+- **Complemento a due** ⚠️
+	- (cambio di segno: si nega ogni bit e si incrementa di 1)
+	- $9_{10} = 0 0001001$ -> $-9_{10} = 1 1110111$
+- **Eccesso N**
+	- Zero va su N: se N = 2^7 = 128, #todo 
+
+
+##### Cofica complemento a due
+Codice per ottenere un numero in **complemento a due a N bit: **
+- I valori tra 0 1 2^{N-1} -1 sono normalmente codificati in notazione binaria. 
+- I valori tra -1 e -2^{N-1} sono codificati *negando ogni bit del rispettivo valore assoluto in notazione binaria e poi sommando 1*
+
+Es: (N=8)
+
+- $- 1_{10}$ -> $11111110_2$ + $1_2$ = $11111111_2$
+
+**Quindi:** usando N bit, la codifica del numero *-i* equivale al numero *2^N -i* espresso in base 2. 
+
+Si possono sommare numeri negativi con negativi e positivi con positivi. Per sommare positivi con negativi bisogna fare il cambio di segno. 
+
+###### Vantaggi del complemento a due: 
+- è immediato il riconoscimento del segno in quanto *il numero è negativo se e solo se* il bit più significativo è **uguale a zero**
+- La somma algebrica non necessita di complicare il sommatore 
+- La sottrazione si calcola sommando il secondo termine dopo averlo cambiato di segno
+- L'estensione a una codifica di M > N bit si ottiene immediatamente aggiungendo M-N cifre uguali al segno alla codifica di N bit. 
+
+###### Operazioni in complemento a due
+- Somma
+- Opposto
+	- nego e poi incremento
+- Sottrazione
+	- sommo l'opposto del secondo termine
+- Prodotto
+	- sommo per un numero di volte uguale al termine positivo
+- Divisione
+	- sottraggo il divisore fino ad annullare il dividendo, contando le sottrazioni. 
+
+### OverFlow
+
+Quando il risultato di un'operazionee non è rappresentabile, l'Hardware segnala un **overflow**
+Somma di numeri grandi in assoluto, con lo stesso segno. 
+Nella codifica complemento a due c'è overflow solo se sommo due numeri con lo stesso segno. 
