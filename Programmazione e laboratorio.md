@@ -178,3 +178,32 @@ Operazioni con numeri misti :
 ``(+ 1 3/4)``
 
 Backslash e doppio apice sono caratteri speciali
+
+
+2022-10-17 12:41
+ ###  Complemento a uno
+(invertire stringa binaria in modo ricorsivo)
+```scheme
+(define compluno ; val: stringa di 0/1
+(lambda (seq)    ; seq: stringa di 0/1
+  (if (> (string-length seq) 1)
+  (string-append
+   (bit-compl (substring seq 0 1))
+   (compluno (substring seq 1))
+  )
+  (bit-compl seq) ; sequenza di 1 bit 
+)))
+
+(define bit-compl 
+  (lambda (bit) ; bit: "0", "1"
+    (if (string=? bit "0")
+	  "1"
+	  "0"
+    )
+  )
+)
+```
+
+--- 12:51 ---
+
+![[Pasted image 20221017130555.png|400]]

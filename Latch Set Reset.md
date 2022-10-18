@@ -18,4 +18,8 @@ Bit da memorizzare: attraverso il segnale D.
 [...]
 ![[Pasted image 20221016230817.png|700]]
 
+<<<<<<< HEAD
 ![[E5B1F67A-2431-4064-9273-B8A67D52C489.png|500]]
+=======
+![[Untitled_Artwork.png]]
+>>>>>>> 26e05124b43d0a895f0757409772f85e01711dde
