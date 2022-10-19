@@ -226,44 +226,105 @@ Un router ha più indirizzi IP, uno per collegamento.
 
 ![[World Wide Web.pdf]]
 
-> spazio informativo e operativo on struttura ipertestuale e architettura client-server
+Nasce intorno al 1990 al CERN di Ginevra. Obiettivo: servizio di pubblicazione e distribuzione di dati e informazioni scientifiche. 
 
-**Ipermedia** = struttura multilineare, utilizza diverse modalità di rappresentazione dell'informazione 
+> WEB = spazio informativo e operativo on struttura ipertestuale e architettura client-server
+
 
 [[Computer Networks#Story of the Internet | Le origini del WEB (più o meno)]] 
 
 1991 I primi componenti principali del web
-1994 W3C fondato al Cern -> World Wide Web Consortium [w3c.org]
+1994 W3C fondato al Cern -> World Wide Web Consortium www.w3.org
 - Stabilisce gli standard e i protocolli di comunicazione. 
 
-[...]
-
-- Interoperabilità: Capacità di scambiare e usare le informazioni tra sistemi diversi. 
-- Evolvibilità: sempre possibile aggionrnare un sistema 
+### Principi fondamentali del web:
+- Accesso Universale: il web deve essere accessibile a tutti in qualsiasi momento. 
+- Universo aperto: Deve potersi sviluppare con continuità. 
+- Usabilità
+- Accessibilità
+- Interoperabilità
+- Evolvibilità
 - Uso di linguaggi misti
 
-[...]
-## URL
+### Applicazione WEB
+Caratterizzata da **Ipermedia** = struttura multilineare, utilizza diverse modalità di rappresentazione dell'informazione.
 
+### Architettura di un browser WEB
+- Interfaccia utente
+	- Programma che interagisce direttamente con l'utente 
+- Interfaccia di rete
+	- Gestisce il flusso dati attraverso internet e il mantenimento di **cache** e **cookies**
+- Parser
+	- Analizza il file richiesto (*parsing*)
+- Layout 
+	- Presentazione dei componenti del sistema. 
+- Librerie di supporto 
+	- componenti software per interfaccia del browser. 
+
+
+## URL
+> Uniform Resource Locator
+Identifica le risorse mediante un indirizzo.
+
+Schema tipico: 
 `` protocol://hostname:port/path-and-file-name 
 
-- Protocol: protocollo a livello applicazione utilizzato da client e server (HTTPS, FTP...)
-- Host name: Nome dominio DNS o indirizzo IP del server
-- Port: #todo omesso, va in automatico quando corrisponde ad una porta standard. 
-- Path: #todo 
+- *Protocol*: protocollo a livello applicazione utilizzato da client e server (HTTPS, FTP...)
+- *Host name*: Nome dominio DNS o indirizzo IP del server
+- *Port*:  omesso, va in automatico quando corrisponde ad una porta standard. 
+- *Path*: Nome e ubicazione della risorsa richiesta nel server.
 
 Opzionali: 
 - Username e password
 - Query string: identificano parametri in aggiunta: "?" 
 - Fragment: con il simbolo "#" indica una parte o una posizione all'interno della risorsa. 
 
-[...]
-Web Server: Apache. Software libero. 
+#### Funzionamento del Browser
+1. Utente inserisce URL 
+2. URL spedito a interfaccia di rete. 
+3. URL analizzato -> estratto indirizzo IP a cui connettersi e nome file da recuperare. Stabilisce la connessione con il server
+4. Avviene la richiesta del file tramite il protocollo di rete (HTTPS, FTP)
+5. File inviato al Parser.
 
-## HTTP
 
-[...]
-stateless protocol
+### Elementi di un Server Web
+
+- Nucleo 
+	- gestire dati tra moduli
+- Traduzione
+	- traduce richieste del client (file, locazione)
+- Controllo acceesso
+	- Verifica identità utente
+- Tipo di contenuto 
+	- codifica oggetto richiesto
+- Risposta
+	- al client 
+- Tracciamento
+	- Registrazione dati richiesta (logging)
+
+#### Esempio di server Web: Apache Software
+Apache.org
+
+
+## Protocollo HTTP
+
+*HyperText Transfer Protocol*
+
+Definisce la struttura dei messaggi e la modalità di comunicazione tra Client e Server
+- Utilizza TCP come protocollo di trasporto
+- Classificato come **Stateless protocol**: senza memoria di stato.
+	- Invia i file al client senza informazioni sul client. 
+
+
+#### Versioni HTTP 
+
+---
+---
+slide 33/60
+---
+---
+---
+
 
 [...]
 
