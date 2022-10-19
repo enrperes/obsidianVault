@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 ---
 cssclass: list-lines
 ---
 
-=======
->>>>>>> 26e05124b43d0a895f0757409772f85e01711dde
+
+
 [[Tecnologie Web-info]]
 
 ## Etica & Tecnologia 2022-10-05
@@ -218,3 +218,86 @@ Un router ha più indirizzi IP, uno per collegamento.
 [...]
 
 ![[Internet - Parte 3.pdf]]
+
+---
+
+# World Wide Web
+2022-10-19 10:31
+
+> spazio informativo e operativo on struttura ipertestuale e architettura client-server
+
+**Ipermedia** = struttura multilineare, utilizza diverse modalità di rappresentazione dell'informazione 
+
+[[Computer Networks#Story of the Internet | Le origini del WEB (più o meno)]] 
+
+1991 I primi componenti principali del web
+1994 W3C fondato al Cern -> World Wide Web Consortium [w3c.org]
+- Stabilisce gli standard e i protocolli di comunicazione. 
+
+[...]
+
+- Interoperabilità: Capacità di scambiare e usare le informazioni tra sistemi diversi. 
+- Evolvibilità: sempre possibile aggionrnare un sistema 
+- Uso di linguaggi misti
+
+[...]
+## URL
+
+`` protocol://hostname:port/path-and-file-name 
+
+- Protocol: protocollo a livello applicazione utilizzato da client e server (HTTPS, FTP...)
+- Host name: Nome dominio DNS o indirizzo IP del server
+- Port: #todo omesso, va in automatico quando corrisponde ad una porta standard. 
+- Path: #todo 
+
+Opzionali: 
+- Username e password
+- Query string: identificano parametri in aggiunta: "?" 
+- Fragment: con il simbolo "#" indica una parte o una posizione all'interno della risorsa. 
+
+[...]
+Web Server: Apache. Software libero. 
+
+## HTTP
+
+[...]
+stateless protocol
+
+[...]
+
+Formato dei messaggi HTTP di risposta. Errori più comuni: 
+
+- 200 
+	- OK
+- 301 Moved permanently
+- 400 Bad Request: richiesta non compresa dal server
+- 404 Not Found 
+- 505 HTTP version not supported
+
+## Cookies 
+
+Utilizzati per autenticare gli utenti e limitare l'accesso 
+
+• L'utente A accede al sito S (es. Amazon) per la prima volta (S usa i cookie).
+• Quando la richiesta di A arriva al server, il sito S crea un numero di identificazione
+ID-x univoco e crea nel suo database locale una nuova voce indicizzata da ID-X.
+• Il server risponde ad A introducendo nella risposta HTTP una intestazione del
+tipo: Set cookie: ID-X.
+• Quando il browser di A riceve la risposta crea una nova voce nel file cookie da
+esso gestito. Questa nova voce contiene il nome (hostname) del server e il
+numero di identificazione ricevuto (ID-x).
+• Ogni volta che A navigando nel sito segue nuove richieste il browser consulta il
+file cookie estrae il numero di identificazione per il sito S e lo mette nella richiesta
+HTTP in una linea di intestazione del tipo: Cookie: ID-X.
+• In questo modo il server è in grado di tracciare l'attività di A nel sito S.
+
+
+## Web Cache 
+Nota anche come server proxy. Soddisfa le richieste HTTP al posto del web server. 
+
+#todo Definizione di Proxy.
+
+**GET condizionale**
+
+[...]
+
