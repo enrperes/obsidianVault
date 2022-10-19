@@ -1,10 +1,6 @@
----
-banner: "![[uniudlogo.png]]"
----
 
 ---
 banner: "![[uniudlogo.png]]"
-banner_y: 0.49596
 ---
 #uniud
 
@@ -24,6 +20,3 @@ banner_y: 0.49596
 ### [[Elementi di matematica e algebra lineare]]
 
 
-8D
-
-7D
