@@ -224,6 +224,8 @@ Un router ha più indirizzi IP, uno per collegamento.
 # World Wide Web
 2022-10-19 10:31
 
+![[World Wide Web.pdf]]
+
 > spazio informativo e operativo on struttura ipertestuale e architettura client-server
 
 **Ipermedia** = struttura multilineare, utilizza diverse modalità di rappresentazione dell'informazione 
