@@ -62,18 +62,19 @@ La tecnologia è neutrale, dipende da come viene usata. L'etica è il settore de
 ---
 
 2022-10-06 10:35
+![[Internet - Parte 1.pdf]]
 
 ![[Computer Networks#Story of the Internet]]
 
 ![[Internet]]
 
-![[Internet - Parte 1.pdf]]
 
 ---
 
-2022-10-12 10:37
 
 # Internet 
+2022-10-12 10:37
+![[Internet - Parte 2.pdf]]
 
 Internet è un sistema di reti di calcolatori (rete di reti)
 I dispositivi che si connettono a internet sono detti Host (ospiti) o *end system* (sistemi periferici)
@@ -146,11 +147,11 @@ Timeout
 
 Controllo di congestione 
 
-![[Internet - Parte 2.pdf]]
 
 ---
 
 2022-10-13 10:33
+![[Internet - Parte 3.pdf]]
 
 ### Livello di rete
 *Forwarding / Switching*=quando un router riceve un pacchetto, lo trasferisce sul collegamento di uscita. 
@@ -217,7 +218,6 @@ Un router ha più indirizzi IP, uno per collegamento.
 
 [...]
 
-![[Internet - Parte 3.pdf]]
 
 ---
 
@@ -316,32 +316,59 @@ Definisce la struttura dei messaggi e la modalità di comunicazione tra Client e
 	- Invia i file al client senza informazioni sul client. 
 
 
-#### Versioni HTTP 
+#### Formato messaggi HTTP
 
----
----
-slide 33/60
----
----
----
+- Riga di richiesta
+	- Campo Metodo
+		- GET (browser richiede un oggetto)
+		- POST 
+		- HEAD
+		- PUT 
+		- DELETE
+	- Campo URL
+- Righe di intestazione
+- Riga vuota 
+
+Formato messaggi HTTP di *richiesta*: 
+
+```HTTP
+GET /directory/page.html HTTP/1.1 
+Host: www.google.com 
+Connection: close 
+User-agent: Mozilla/5.0 
+Accept-language: en 
+```
+
+Formato messaggi HTTP di *risposta*
+```HTTP
+HTTP/1.1 200 OK
+Connection: close
+Date: 2022-10-20 01:14
+Server: Apache/2.2.3
+Last-Modified: 2022-10-19 21:15
+Content-type: text/html
+```
 
 
-[...]
-
-Formato dei messaggi HTTP di risposta. Errori più comuni: 
-
+###### Codici di stato HTTP più comuni: 
 - 200 
 	- OK
-- 301 Moved permanently
-- 400 Bad Request: richiesta non compresa dal server
+- 301
+	- Moved permanently
+- 400 Bad Request
+	- richiesta non compresa dal server
 - 404 Not Found 
 - 505 HTTP version not supported
 
 ## Cookies 
 
-Utilizzati per autenticare gli utenti e limitare l'accesso 
+Utilizzati per: 
+- Autenticare gli utenti 
+- Limitarne l'accesso
+- Fornire contenuti in funzione della loro identità
 
-• L'utente A accede al sito S (es. Amazon) per la prima volta (S usa i cookie).
+>[!info]- Esempio sui cookie
+>• L'utente A accede al sito S (es. Amazon) per la prima volta (S usa i cookie).
 • Quando la richiesta di A arriva al server, il sito S crea un numero di identificazione
 ID-x univoco e crea nel suo database locale una nuova voce indicizzata da ID-X.
 • Il server risponde ad A introducendo nella risposta HTTP una intestazione del
@@ -355,12 +382,84 @@ HTTP in una linea di intestazione del tipo: Cookie: ID-X.
 • In questo modo il server è in grado di tracciare l'attività di A nel sito S.
 
 
-## Web Cache 
-Nota anche come server proxy. Soddisfa le richieste HTTP al posto del web server. 
+## Web Cache = Server Proxy
 
-#todo Definizione di Proxy.
+> Soddisfa le richieste HTTP al posto del web server effettivo.
+Ha una memoria sul disco (cache) dove conserva oggetti recentemente richiesti
 
-**GET condizionale**
+**Vantaggi**
+- riduce i tempi di risposta alle richieste client
+- Riducono il traffico sul collegamento a internet. Non sovraccaricano la banda. 
+- Riducono il traffico globale del web in internet. 
+**Problema:**
+La copia di un oggetto che sta nella cache potrebbe essere scaduta -> il *GET condizionale* permette alla cache di verificare se i suoi oggetti sono aggiornati. 
 
-[...]
+*GET condizionale:*
+Proxy al server: 
 
+```HTTP
+GET /fruit/banana.gif HTTP/1.1
+Host: www.fruits.com
+```
+IL server invia l'oggetto al proxy:
+```HTTP
+HTTP/1.1 200 OK
+Date: 2022-10-20 01:24
+Server: Apache/1.3.0
+Last-modified: 2022-10-19 20:25
+Content-Type: image/gif
+[data...]
+
+```
+...passa tempo...
+Il proxy effettua un controllo di aggiornamento con il GET condizionale: 
+```HTTP
+GET /fruit/banana.gif HTTP/1.1
+Host: www.fruits.com
+If-modified-since: 2022-10-19 01:27
+```
+Il server web risponde (in caso di assenza di modifiche)
+```HTTP
+HTTP/1.1 304 Not Modified 
+Date: 2022-10-20 01:28
+Server: Apache/1.3.0
+[]
+```
+
+
+### HTTP/2
+
+Obiettivi: 
+- Ridurre latenza
+- Priorità delle richieste
+- Compressione efficiente
+- Elimina HOL
+	- Gli oggetti pesanti caricate in testa alla pagina web creano un bottleneck per gli oggetti più piccoli in basso
+	- Vengono suddivisi in piccoli frame 
+- Priorità dei messaggi 
+	- La priorità delle richieste può essere modificata per ottimizzare le prestazioni 
+- Server push
+	- Il server può inviare più risposte ad una singola richiesta. 
+
+## HTTPS
+> HyperText Transfer Protocol Secure
+
+La comunicazione browser-server avviene su **TLS**: Trasnport Layer Security. 
+- Riservatezza dei dati
+	- Solo mittente e destinatario possono decifrare il contenuto del messaggio
+- Integrità dei dati
+	- Garanzia che il contenuto non subisca alterazioni durante la trasmissione
+- Autenticazione end-to-end
+	- Mittente e destinatario devono essere sicuri della loro identità
+
+### Crittografia
+- Chiave simmetrica
+	- I due host utilizzano la stessa chiave
+		-(pattern di sostituzione alfabetica)
+- Chiave pubblica
+	- Due chiavi
+		- Pubblica
+			Distribuita
+		- Privata
+			Personale e segreta
+	
