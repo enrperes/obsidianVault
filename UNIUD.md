@@ -1,3 +1,6 @@
+---
+banner: "![[uniudlogo.png]]"
+---
 
 ---
 banner: "![[uniudlogo.png]]"
@@ -22,3 +25,5 @@ banner_y: 0.49596
 
 
 8D
+
+7D
