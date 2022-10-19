@@ -19,3 +19,6 @@ banner_y: 0.49596
 ### [[Tecnologie Web]]
 ### [[Programmazione e laboratorio]]
 ### [[Elementi di matematica e algebra lineare]]
+
+
+8D
