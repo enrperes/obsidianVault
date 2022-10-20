@@ -534,8 +534,22 @@ Immagini digitalizzate attraverso:
 - Quantizzazione
 	- [...]
 	- ogni pixel assume un valore discreto 
-
+	- RGB ---> REGISTRAZIONE ORE 11:12
 - Grafica Raster (bitmap)
 	- Immagine = array di pixel disposti su griglia regolare. 
 - Vettoriale
 	- 
+
+### Rappresentazione del colore
+##### Scala di grigi: 
+Il valore indica l'intensità del grigio. 
+##### Colore: 
+Definizione di spazio geometrico astratto e tridimensionale 
+
+- RGB
+- CMYK
+- HSL
+- YUV
+
+[.........]
+
