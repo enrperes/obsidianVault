@@ -24,10 +24,7 @@ Slides su elearning.uniud.it
 
 ## Modalità Esame
 - Prova scritta con domande di teoria + esercizi su linguaggi: 
+
 	- Teoria su infrastruttura di rete (OSI), protocolli, caratteristiche servizio web, risorse multimediali
 	- Esercizi su linguaggi XML, HTML, CSS + fondamentali di JS
 
-
-
-
-- 

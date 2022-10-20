@@ -462,4 +462,80 @@ La comunicazione browser-server avviene su **TLS**: Trasnport Layer Security.
 			Distribuita
 		- Privata
 			Personale e segreta
-	
+
+
+---
+
+
+# Risorse Multimediali - Parte 1
+2022-10-20 10:30
+
+### Digitalizzazione: 
+Processo di conversione da analogico a digitale. Da valori continui a valori discreti. 
+La conversione porta una perdita di informazioni: spesso non percettibili. 
+
+Testi alfanumerici costituiti da elementi atomici discreti. (in codice ASCII)
+
+C'è una legge di corrispondenza (codice) tra i caratteri astratti (alfabeto) e un insieme di configurazioni di bit (codici binari) 
+
+## ASCII
+American Standard Code for Information Interchange 
+è un codice per codifica dei caratteri 
+Si usano 7 bit (0-127)
+I primi 32 codici numerici sono per i caratteri di controllo. 
+**Extended ASCII** Si usano *8 bit* (estende ASCII ai caratteri usati in europa occidentale)
+
+### UTF-8
+Unicode Transformation Format è la codifica principale di **Unicode** per internet e W3C. 
+Assegna un numero univoco ad ogni carattere usato per la scrittura di testi. 
+www.home.unicode.org
+Usa da 1 a 4 byte per rappresentare un carattere. 
+I primi 128 sono lo standard ASCII
+
+>[!danger]-   Microtipografia
+>Riguarda le famiglie di caratteri 
+>ogni carattere astratto deve essere associato a una specifica rappresentazione grafica visiva: **glifo**
+>sono memorizzati come mappe di **bit** (raster) o in forma vettoriale (vector)
+>La corrispondenza caratteri - glifi è data dal **font**
+
+## Font
+
+Corrispondenza triangolare tra: 
+- Carattere Astratto (T)
+- Codice numerico ASCII (84)
+- Glifo (*T*)
+
+#### Famiglie di caratteri 
+- Serif 
+- Sans Serif 
+- Roman
+- [...]
+
+#### Attributi grafici del glifo
+
+Le dimensioni dei caratteri si misurano in punti. Un punto corrisponde a 1/72 inch. 1 inch = 2.54cm
+
+#### Mesotipografia
+Tratta di configurazioni di frigi in linee e blocchi di testo. 
+
+Interlinea, spaziatura... [...]
+Allineamento, giustificazione [...]
+
+## Immagini
+
+Immagine analogica: rappresenta oggetto riprodotto mantenendo un'analogia formale con l'immagine originale. 
+### $I = f(x,y)$
+I = valore di luminosità / colore 
+P = punto di coordinate x/y
+
+Immagini digitalizzate attraverso: 
+- Campionamento
+	-  [...]
+- Quantizzazione
+	- [...]
+	- ogni pixel assume un valore discreto 
+
+- Grafica Raster (bitmap)
+	- Immagine = array di pixel disposti su griglia regolare. 
+- Vettoriale
+	- 
