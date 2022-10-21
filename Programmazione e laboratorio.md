@@ -207,3 +207,21 @@ Backslash e doppio apice sono caratteri speciali
 --- 12:51 ---
 
 ![[Pasted image 20221017130555.png|400]]
+
+---
+
+2022-10-21 8:30
+
+![[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|400]]
+
+	cond()
+	quotient()
+	let()
+
+
+```scheme
+(let ((k 0)) (+ k 1))
+```
+
+Con il let si aprono due parentesi, c'è sempre almeno una associazione. 
+
