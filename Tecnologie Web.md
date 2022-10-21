@@ -473,19 +473,20 @@ La comunicazione browser-server avviene su **TLS**: Trasnport Layer Security.
 
 ![[Risorse Multimediali - Parte 1.pdf]]
 
-
-### Digitalizzazione: 
-Processo di conversione da analogico a digitale. Da valori continui a valori discreti. 
+## Digitalizzazione: 
+Processo di conversione da *analogico* a *digitale*. Da valori continui a valori discreti. 
 La conversione porta una perdita di informazioni: spesso non percettibili. 
 
 Testi alfanumerici costituiti da elementi atomici discreti. (in codice ASCII)
-
 C'è una legge di corrispondenza (codice) tra i caratteri astratti (alfabeto) e un insieme di configurazioni di bit (codici binari) 
+Per codificare un alfabeto da 200 caratteri servono 8 bit: 2?8 = 256 > 200.
+
 
 ## ASCII
-American Standard Code for Information Interchange 
+American Standard Code for Information Interchange  (1963 da ANSI)
 è un codice per codifica dei caratteri 
-Si usano 7 bit (0-127)
+**Si usano 7 bit (0-127)**
+
 I primi 32 codici numerici sono per i caratteri di controllo. 
 **Extended ASCII** Si usano *8 bit* (estende ASCII ai caratteri usati in europa occidentale)
 
@@ -493,37 +494,52 @@ I primi 32 codici numerici sono per i caratteri di controllo.
 Unicode Transformation Format è la codifica principale di **Unicode** per internet e W3C. 
 Assegna un numero univoco ad ogni carattere usato per la scrittura di testi. 
 www.home.unicode.org
-Usa da 1 a 4 byte per rappresentare un carattere. 
-I primi 128 sono lo standard ASCII
+Usa da **1 a 4 byte** per rappresentare un carattere. 
+I primi 128 sono lo standard ASCII.
 
 >[!danger]-   Microtipografia
 >Riguarda le famiglie di caratteri 
 >ogni carattere astratto deve essere associato a una specifica rappresentazione grafica visiva: **glifo**
->sono memorizzati come mappe di **bit** (raster) o in forma vettoriale (vector)
+>I glifi sono memorizzati come mappe di **bit** (raster) o in forma vettoriale (vector)
 >La corrispondenza caratteri - glifi è data dal **font**
 
 ## Font
 
-Corrispondenza triangolare tra: 
+Corrispondenza *triangolare* tra: 
 - Carattere Astratto (T)
 - Codice numerico ASCII (84)
 - Glifo (*T*)
 
-#### Famiglie di caratteri 
-- Serif 
-- Sans Serif 
+#### Famiglie di typeface
 - Roman
-- [...]
+	- Caratteri che hanno dei trattini di completamento nel glifo (grazie) -> serif. Usati per stampa su carta. 
+- Gothic
+	- Comprende i **sans serif**. Caratteri detti bastoni, usati per visualizzazione a schermo.
+- Script
+	- Caratteri che limitano l a scrittura a mano libera
+- Blackletter
+	- Caratteri ispirati a manoscritti antichi
 
 #### Attributi grafici del glifo
+- Dimensione del carattere
+- Larghezza del carattere
+- Spessore del tratto
+- Inclinazione del tratto
 
 Le dimensioni dei caratteri si misurano in punti. Un punto corrisponde a 1/72 inch. 1 inch = 2.54cm
 
 #### Mesotipografia
-Tratta di configurazioni di frigi in linee e blocchi di testo. 
+> Configurazioni di glifi in linee e blocchi di testo 
 
-Interlinea, spaziatura... [...]
-Allineamento, giustificazione [...]
+- **Spacing**
+	- spazio fra lettere
+- **Kerning**
+	- Spazio tra coppie di lettere specifiche. Usata per conferire aspetto equilibrato ai carattteri. 
+- **justify**
+	- lunghezza delle righe di testo
+- **Interlinea**
+	- Spazio sotto e sopra la riga di testo. 
+
 
 ## Immagini
 
@@ -532,28 +548,50 @@ Immagine analogica: rappresenta oggetto riprodotto mantenendo un'analogia formal
 I = valore di luminosità / colore 
 P = punto di coordinate x/y
 
-Immagini digitalizzate attraverso: 
+### Digitalizzazione immagini
+Attraverso due processi: 
 - Campionamento
-	-  [...]
+	-  Immagine suddivisa in griglia di celle: pixel logici. 
 - Quantizzazione
-	- [...]
-	- ogni pixel assume un valore discreto 
-	- RGB ---> REGISTRAZIONE ORE 11:12
-- Grafica Raster (bitmap)
-	- Immagine = array di pixel disposti su griglia regolare. 
-- Vettoriale
-	- 
+	- ogni pixel assume un valore di colore, facendo la media dei valori all'interno del pixel. 
 
-### Rappresentazione del colore
-##### Scala di grigi: 
-Il valore indica l'intensità del grigio. 
-##### Colore: 
-Definizione di spazio geometrico astratto e tridimensionale 
+#### Rappresentazione del colore
+Monocromatica: il valore indica l'intensità del grigio 
+Colore: definizione di sazio geometrico astratto. 
 
 - RGB
+	- Sintesi additiva di tre colori primari. Ogni colore occupa **8 bit**. Usato per monitor e scanner
 - CMYK
+	- Sintesi sottrattiva di quattro colori: Cyan, Magenta, Yellow, Black. Usato nelle stampanti
 - HSL
+	- Hue Saturation Value. 8 bit per canale. Usato in campo artistico.
+	- Hue: Parte dal rosso (0°), verde (120°), blu (240°)
+	- Saturation: intensità e purezza del colore. Percentuale
+	- Value: luminosità, brillantezza. Percentuale 
 - YUV
+	- Basato sulla separazione della luminanza (Y) dalla crominanza (UV). Usato in alcune tecniche di compressione (JPEG)
 
+##### Sintesi Additiva e sottrattiva
+
+![[440F1071-A755-43DC-8365-A6228966F226.png|600]]
+
+>[!palette]- CLUT 
+>Color LookUp Table
+
+##### Altre caratteristiche immagine: 
+- Dimensione (logica) di immagine bitmap = numero di pixel che compongono l'immagine. 
+- Risoluzione di immagine: risoluzione del dispositivo di acquisizione o visualizzazione. 
+**PPI** = pixel per inch 
+- Profondità del colore: n. bit usati per la quantizzazione (2, 8, 16...)
+- Scala tonale: gamma di colori visualizzabili (8bit, 10bit...)
+
+##### Spazio occupato da immagine raster: 
+	Spazio = Dimensione (pixel) x profondità (bit/pixel)
+
+
+### Grafica vettoriale
+
+Gestite alla base da **Curve di Bezier**. 1962.
+- sono curve parametriche che definiscono elementi 
 [.........]
 
