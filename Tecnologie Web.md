@@ -470,6 +470,10 @@ La comunicazione browser-server avviene su **TLS**: Trasnport Layer Security.
 # Risorse Multimediali - Parte 1
 2022-10-20 10:30
 
+
+![[Risorse Multimediali - Parte 1.pdf]]
+
+
 ### Digitalizzazione: 
 Processo di conversione da analogico a digitale. Da valori continui a valori discreti. 
 La conversione porta una perdita di informazioni: spesso non percettibili. 
