@@ -153,35 +153,42 @@ Controllo di congestione
 2022-10-13 10:33
 ![[Internet - Parte 3.pdf]]
 
-### Livello di rete
-*Forwarding / Switching*=quando un router riceve un pacchetto, lo trasferisce sul collegamento di uscita. 
-*Routing*= il livello di rete deve determinare il percorso che i pacchetti devono seguire tramite algoritmi di routing. 
+## Livello di rete
+
+- Lato mittente: Prende i segmenti dal livello di trasporto, li incapsula. 
+- Lato destinazione: Riceve i datagrammi dal router, estrae i segmenti e li consegna al livello trasporto. 
+
+*Forwarding / Switching* (Inoltro) = quando un router riceve un pacchetto, lo trasferisce sul collegamento di uscita. Funzione del router.
+*Routing* (Instradamento) = il livello di rete deve **determinare** il percorso che i pacchetti devono seguire tramite algoritmi di 
+
 Il livello di rete è **Best effort**, non garantisce 
 - La consegna dei pacchetti
 - L'ordine dei pacchetti
 - Il ritardo end to end
 - La larghezza di banda minima necessaria
 
+### Router
 L'elemento hardware del livello di rete è il **Router**
 Formato da: 
 - Porte di ingresso
 - Porte di uscita
 - Struttura di commutazioni (collega input e output)
 - Processore di instradamento
-
-Per gestire il passaggio tra input e output il router usa una *tabella di inoltro*: 
+Per gestire il passaggio tra input e output il router usa una *tabella di inoltro*. Dai pacchetti il router estrae gli indirizzi di destinazione. 
 
 ### Internet Protocol [[IP]]
 
 **IP**: Due versioni: 
-- IPv4: 32 bit; $2^{32}$ bit, circa 4 miliardi  
-- IPv6: 128 bit
+- **IPv4**: 32 bit; $2^{32}$ bit, circa 4 miliardi  
+- **IPv6**: 128 bit
 
-[formato dei datagrammi IPv4]
-- Numero di versione
+#### formato dei datagrammi IPv4
+- Numero di versione: 4bit, numero di versione del protocollo IP
 - Lunghezza dell'intestazione
 - Tipo di servizio (low latency, high throughput, reliable...)
-- Lunghezza del datagramma
+- Lunghezza totale del datagramma IP (16bit max)
+
+
 
 Un router ha più indirizzi IP, uno per collegamento. 
 
@@ -224,7 +231,7 @@ Un router ha più indirizzi IP, uno per collegamento.
 # World Wide Web
 2022-10-19 10:31
 
-![[World Wide Web.pdf]]
+[[World Wide Web.pdf]]
 
 Nasce intorno al 1990 al CERN di Ginevra. Obiettivo: servizio di pubblicazione e distribuzione di dati e informazioni scientifiche. 
 
@@ -471,7 +478,7 @@ La comunicazione browser-server avviene su **TLS**: Trasnport Layer Security.
 2022-10-20 10:30
 
 
-![[Risorse Multimediali - Parte 1.pdf]]
+[[Risorse Multimediali - Parte 1.pdf]]
 
 ## Digitalizzazione: 
 Processo di conversione da *analogico* a *digitale*. Da valori continui a valori discreti. 
@@ -559,19 +566,19 @@ Attraverso due processi:
 Monocromatica: il valore indica l'intensità del grigio 
 Colore: definizione di sazio geometrico astratto. 
 
-- RGB
+- **RGB**
 	- Sintesi additiva di tre colori primari. Ogni colore occupa **8 bit**. Usato per monitor e scanner
-- CMYK
+- **CMYK**
 	- Sintesi sottrattiva di quattro colori: Cyan, Magenta, Yellow, Black. Usato nelle stampanti
-- HSL
+- **HSL**
 	- Hue Saturation Value. 8 bit per canale. Usato in campo artistico.
 	- Hue: Parte dal rosso (0°), verde (120°), blu (240°)
 	- Saturation: intensità e purezza del colore. Percentuale
 	- Value: luminosità, brillantezza. Percentuale 
-- YUV
+- **YUV**
 	- Basato sulla separazione della luminanza (Y) dalla crominanza (UV). Usato in alcune tecniche di compressione (JPEG)
 
-##### Sintesi Additiva e sottrattiva
+##### Sintesi Additiva  (RGB) e sottrattiva (CMYK)
 
 ![[440F1071-A755-43DC-8365-A6228966F226.png|600]]
 
@@ -593,5 +600,15 @@ Colore: definizione di sazio geometrico astratto.
 
 Gestite alla base da **Curve di Bezier**. 1962.
 - sono curve parametriche che definiscono elementi 
-[.........]
+
+Vantaggi: compatte, facilmente manipolabili. 
+Svantaggi: Complessità nella progettazione di immagini articolate, devono subire un processo di rasterizzazione per essere visualizzate. 
+
+#### Uso delle immagini nel Web 
+- Non figurative: Astratte. Non rappresentano entità del mondo 
+- Figurative: rappresentano entità riconoscibili (persone, oggetti, ambienti)
+	- Concettuali: Concetti astratti 
+	- Narrative: eventi, monumenti del mondo. 
+
+
 
