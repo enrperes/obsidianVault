@@ -210,7 +210,7 @@ Backslash e doppio apice sono caratteri speciali
 
 ---
 
-2022-10-21 8:30
+## 2022-10-21 8:30
 
 ![[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|400]]
 
