@@ -183,10 +183,11 @@ Backslash e doppio apice sono caratteri speciali
 2022-10-17 12:41
  ###  Complemento a uno
 (invertire stringa binaria in modo ricorsivo)
+
 ```scheme
 (define compluno ; val: stringa di 0/1
-(lambda (seq)    ; seq: stringa di 0/1
-  (if (> (string-length seq) 1)
+	(lambda (seq)    ; seq: stringa di 0/1
+	  (if (> (string-length seq) 1)
   (string-append
    (bit-compl (substring seq 0 1))
    (compluno (substring seq 1))
@@ -206,22 +207,73 @@ Backslash e doppio apice sono caratteri speciali
 
 --- 12:51 ---
 
-![[Pasted image 20221017130555.png|400]]
+```scheme
+
+(define s
+	(lambda (k)
+		(if (>= k 2)
+		(/ (s (- k 2)) 2)
+		(if (= k 0) s0 s1)
+		)
+	)
+  )
+
+(define s0 (expt 2 1/4)) ; radice quarta di 2
+(define s1 (expt 2 -1/4)); inversa della radice quarta di 2
+
+```
 
 ---
 
 ## 2022-10-21 8:30
 
-![[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|400]]
 
 	cond()
 	quotient()
 	let()
 
+### (cond)
+
+Per avere più ``(if)`` in sequenza: 
 
 ```scheme
+(cond (test1
+       ("action1"))
+      (test2
+       ("action2"))
+      (test3
+       ("action3") ("action4"))
+      (else
+       ("action5"))
+)
+
+(cond (C1 E1)
+	  (C2 E2)
+	  ...
+	  (Ck EK)
+	  (true E)
+)
+
+```
+Comodo quando ci sono tanti condizioni. La prima condizione Ci che viene verificata determina l'esecuzione dell'istruzione Ei. Se C1 e C2 sono entrambe verificate ``cond`` assume il valore della prima. Se nessuna è verificata c'è un errore. ``(true E)`` assegna valore *true* al cond quando nessuna condizione è verificata. 
+
+
+#### (quotient)
+Risultato della divisione in numero intero. 
+
+### (let)
+serve ad associare dei valori a dei simboli. 
+#### Distinzione tra ``(let)`` e ``(define)``
+Define è un'associazione permanente. ``(define k 0)`` -> k diventa una costante. Inoltre **NON** è un'espressione. Non restituisce alcun valore. 
+Il ``let`` definisce un'espressione e ha valore solo all'interno delle sue parentesi. è un'espressione, infatti assume un valore. ``(let ((k 0)) (+ k 1)`` valuta k, 
+
+```scheme
+(let ((k (quotient (string-length seq) 2)) ;definisce k come indice della posizione intermedia 
+	  ))
+
 (let ((k 0)) (+ k 1))
 ```
 
 Con il let si aprono due parentesi, c'è sempre almeno una associazione. 
 
+![[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|400]]
