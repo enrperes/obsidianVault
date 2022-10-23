@@ -1,19 +1,15 @@
 #risorsa 
+
+
 [[Git]]
 [[HOME]]
 FOOTNOTE [^1]
-```ad-note
-title: Admonition
-collapse: open 
-icon: database
-color: 200, 200, 0
-
-tool carino con tante opzioni per fare questo  - deprecato. USa Callouts. 
-```
-
 
 ---
 # Callouts: 
+
+https://notes.nicolevanderhoeven.com/Obsidian+Callouts
+
 -   note
 -   abstract, summary, tldr
 -   info, todo
@@ -36,7 +32,6 @@ tool carino con tante opzioni per fare questo  - deprecato. USa Callouts.
 
 [^1]: Footnotes look like this.
 
-[[Latex]]
 
 ---
 # Homepage
