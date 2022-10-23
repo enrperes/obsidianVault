@@ -285,3 +285,7 @@ Si possono sommare numeri negativi con negativi e positivi con positivi. Per som
 Quando il risultato di un'operazionee non è rappresentabile, l'Hardware segnala un **overflow**
 Somma di numeri grandi in assoluto, con lo stesso segno. 
 Nella codifica complemento a due c'è overflow solo se sommo due numeri con lo stesso segno. 
+
+---
+
+2022-10-24 

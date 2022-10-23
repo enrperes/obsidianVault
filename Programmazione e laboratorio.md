@@ -14,10 +14,10 @@ $(2 \pi r^2) + 2\pi r$
 -> $2 \cdot \pi \cdot r \cdot (r+h)$ 
 
 ---
-## Scheme $\lambda$
+# Scheme $\lambda$
 
 
-![[B473D7B8-37C2-413B-BBC4-3112E5076D99.png|550]]
+![[B473D7B8-37C2-413B-BBC4-3112E5076D99.png|300]]
 Language: Intermediate Studente with Lambda 
 
 ###### Espressione che calcola la superficie totale di un cilindro. 
@@ -30,11 +30,7 @@ Language: Intermediate Studente with Lambda
 
 ###### Con ***Variabili***: 
 ```scheme
-
-
-
 (lambda (r h)(* (* 2 3.14 r (+ r h))) 5 11.8)
-
 
 ```
 Astrae proceduralmente il costrutto. 
@@ -46,7 +42,7 @@ https://replit.com/@enrperes/First-Test
 
 ###### Espressione che declini al plurale i sostantivi della lingua italiana
 
-![[CDC7862B-31FD-43B0-89EC-651EA7689808.png|450]]
+![[CDC7862B-31FD-43B0-89EC-651EA7689808.png|400]]
 
 ```scheme
 (string-append (substring "protiro" 0 (- (string-lenght "protiro") 1)) "i")
@@ -66,7 +62,7 @@ Substring ha 3 argomenti: Stinga; a partire dal carattere n;
 ## $\lambda$: Procedural Abstraction
 Introduce le variabili 
 
-### `define`
+## (define)
 
 ```scheme
  
@@ -105,11 +101,9 @@ Il secondo indice di substring si può omettere.
     (string-append (substring s 0 (- (string-length s) 2)) "to")
     )
   )
-
- 
 ```
 
-# `if`
+## (if)
 
 
 ```scheme
@@ -226,13 +220,12 @@ Backslash e doppio apice sono caratteri speciali
 ---
 
 ## 2022-10-21 8:30
+>[!info] funzioni
+>	cond()
+>	quotient()
+>	let()
 
-
-	cond()
-	quotient()
-	let()
-
-### (cond)
+## (cond)
 
 Per avere più ``(if)`` in sequenza: 
 
@@ -261,14 +254,14 @@ Comodo quando ci sono tanti condizioni. La prima condizione Ci che viene verific
 #### (quotient)
 Risultato della divisione in numero intero. 
 
-### (let)
+## (let)
 serve ad associare dei valori a dei simboli. 
-#### Distinzione tra ``(let)`` e ``(define)``
+### Distinzione tra ``(let)`` e ``(define)``
 Define è un'associazione permanente. ``(define k 0)`` -> k diventa una costante. Inoltre **NON** è un'espressione. Non restituisce alcun valore. 
 Il ``let`` definisce un'espressione e ha valore solo all'interno delle sue parentesi. è un'espressione, infatti assume un valore. ``(let ((k 0)) (+ k 1)`` valuta k, 
 
 ```scheme
-(let ((k (quotient (string-length seq) 2)) ;definisce k come indice della posizione intermedia 
+(let ((k (quotient (string-length seq) 2)) ; definisce k come indice della posizione intermedia 
 	  ))
 
 (let ((k 0)) (+ k 1))
@@ -276,4 +269,4 @@ Il ``let`` definisce un'espressione e ha valore solo all'interno delle sue paren
 
 Con il let si aprono due parentesi, c'è sempre almeno una associazione. 
 
-![[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|400]]
+[[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|codice 20221021]]
