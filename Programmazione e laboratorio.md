@@ -59,7 +59,7 @@ https://replit.com/@enrperes/First-Test
 string-append ha 2 argomenti
 Substring ha 3 argomenti: Stinga; a partire dal carattere n; 
 
-## $\lambda$: Procedural Abstraction
+##  (lambda)
 Introduce le variabili 
 
 ## (define)
@@ -253,6 +253,8 @@ Comodo quando ci sono tanti condizioni. La prima condizione Ci che viene verific
 
 #### (quotient)
 Risultato della divisione in numero intero. 
+#### (remainder)
+Il resto della divisione 
 
 ## (let)
 serve ad associare dei valori a dei simboli. 
@@ -270,3 +272,16 @@ Il ``let`` definisce un'espressione e ha valore solo all'interno delle sue paren
 Con il let si aprono due parentesi, c'è sempre almeno una associazione. 
 
 [[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|codice 20221021]]
+
+
+---
+
+2022-10-24 11:46
+
+![[8834A672-566D-4177-B76A-945BEA80D7DD.jpeg|350]]
+Sotto la versione equivalente senza `let` 
+
+
+
+
+
