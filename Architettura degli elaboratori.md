@@ -289,3 +289,21 @@ Nella codifica complemento a due c'è overflow solo se sommo due numeri con lo s
 ---
 
 2022-10-24 
+
+## Mantissa ed esponente
+
+![[Pasted image 20221024094211.png|400]]
+
+Mantissa: numero frazionario 
+Esponente: numero intero
+
+--- 
+
+# Codifica di carattere
+**Carattere** = simbolo appartenente a stringa testuale 
+- cifre 
+- simboli speciali (#, @, %, &, $)
+- Caratteri speciali (enter, esc, tab)
+
+![[Tecnologie Web#ASCII|ASCII]]
+

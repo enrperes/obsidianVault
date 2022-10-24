@@ -62,7 +62,7 @@ La tecnologia è neutrale, dipende da come viene usata. L'etica è il settore de
 ---
 
 2022-10-06 10:35
-![[Internet - Parte 1.pdf]]
+[[Internet - Parte 1.pdf]]
 
 ![[Computer Networks#Story of the Internet]]
 
@@ -74,7 +74,7 @@ La tecnologia è neutrale, dipende da come viene usata. L'etica è il settore de
 
 # Internet 
 2022-10-12 10:37
-![[Internet - Parte 2.pdf]]
+[[Internet - Parte 2.pdf]]
 
 Internet è un sistema di reti di calcolatori (rete di reti)
 I dispositivi che si connettono a internet sono detti Host (ospiti) o *end system* (sistemi periferici)
@@ -151,7 +151,7 @@ Controllo di congestione
 ---
 
 2022-10-13 10:33
-![[Internet - Parte 3.pdf]]
+[[Internet - Parte 3.pdf]]
 
 ## Livello di rete
 
@@ -493,16 +493,20 @@ Per codificare un alfabeto da 200 caratteri servono 8 bit: 2?8 = 256 > 200.
 American Standard Code for Information Interchange  (1963 da ANSI)
 è un codice per codifica dei caratteri 
 **Si usano 7 bit (0-127)**
-
-I primi 32 codici numerici sono per i caratteri di controllo. 
+non 8 perchè i primi 32 codici numerici sono per i caratteri di controllo: 
+- Carriage return, line feed, backspace, cancel, escape... 
+- 127 = delete
 **Extended ASCII** Si usano *8 bit* (estende ASCII ai caratteri usati in europa occidentale)
 
 ### UTF-8
 Unicode Transformation Format è la codifica principale di **Unicode** per internet e W3C. 
 Assegna un numero univoco ad ogni carattere usato per la scrittura di testi. 
 www.home.unicode.org
-Usa da **1 a 4 byte** per rappresentare un carattere. 
+Usa da **1 a 6 byte** per rappresentare un carattere.  è retrocompatibile con la codifica ASCII 
+UTF-8: 127 caratteri (ASCII standard)
+UTF-16: 2^11 caratteri (estensioni ASCII, alcuni ideogrammi)
 I primi 128 sono lo standard ASCII.
+UTF è la codifica di caratteri più diffusa.
 
 >[!danger]-   Microtipografia
 >Riguarda le famiglie di caratteri 
@@ -580,7 +584,7 @@ Colore: definizione di sazio geometrico astratto.
 
 ##### Sintesi Additiva  (RGB) e sottrattiva (CMYK)
 
-![[440F1071-A755-43DC-8365-A6228966F226.png|600]]
+![[440F1071-A755-43DC-8365-A6228966F226.png|300]]
 
 >[!palette]- CLUT 
 >Color LookUp Table
@@ -609,6 +613,5 @@ Svantaggi: Complessità nella progettazione di immagini articolate, devono subir
 - Figurative: rappresentano entità riconoscibili (persone, oggetti, ambienti)
 	- Concettuali: Concetti astratti 
 	- Narrative: eventi, monumenti del mondo. 
-
 
 
