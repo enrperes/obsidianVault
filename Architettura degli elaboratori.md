@@ -328,6 +328,8 @@ Esempio di ridondanza: trasmettere ogni carattere due o tre volte: *ccaassaa*
 Non ci sono codici a prova di errore.
 
 ### Codici di parità 
+> introduce 1 bit di controllo per ogni 7 bit 
+
 Hanno un singolo bit ridondante, sono molto usati nella pratica. 
 - DAti suddivisi in parole id N bit. 
 - Ad ogni parola viene aggiunto un **bit di controllo**, in modo che N+1 totale di bit uguali a 1 della codifica sia sempre pari o sempre dispari.  (il numero di uni nel byte deve essere sempre pari o sempre dispari)
@@ -336,4 +338,41 @@ Hanno un singolo bit ridondante, sono molto usati nella pratica.
 	- Non può correggere eventuali errori
 	- Non può rilevare errori che modificano un numero pari di bit in una codifica. 
 
+
+### Codice di correzione di Hamming 
+> Introduce 3 bit di controllo per ogni parola di 4 bit. 
+
+- Divide la sequenza binaria di bit informativi in sottoinsiemi non disgiunti 
+- Associa ogni bit ai sottoinsiemi a cui appartiene 
+- Aggiunge un bit di parità per ogni sottinsieme
+- **Il ricevitore:**
+- Valuta la parità su ogni sottoinsieme
+- Se rileva un errore elenca i sottoinsiemi contenenti l'errore
+- Se possibile corregge l'errore negando il bit che appartiene a tutti i sottoinsiemi errati. 
+
+I bit di parità sono quelli la cui posizione è una potenza di due: 1, 2, 4, 8... e controllano i bit la cui posizione contiene la cif ra 1 nella stessa posizione. 
+es: 
+	
+010 controlla: #todo 
+	- 011
+	- 110 
+	- 111
+
+#### Costo di un codice
+Rapporto tra: Simboli ridondanti / simboli utili 
+- Ripetizione doppia del carattere: costo 1 (100% dei simboli aggiuntivi)
+- Ripetizione tripla del carattere: costo 2 (200%)
+- Parità: 1/N con N = dimensione del dato binario. 
+
+Codifiche **valide**: pacchetti di bit ottenibili da un dato applicando un codice. 
+Codifiche **non valide**: tutti gli altri pacchetti
+Il trasmettitore genera solo codifiche valide. Il ricevitore controlla se è valida. 
+
+### Distanza di Hamming (≠ Codifica di Hamming! )
+> Fornisce una misura di "differenza" tra coppie di codifiche valide. 
+
+Nei codici binari a lunghezza fissa è il *numero di coppie di bit allineati **non** coincidenti*
+Più le codifiche sono lontane più il codice è ridondante #todo 
+
+Distanza minima tra le coppie di codifiche valide distinte #todo ?????????????
 
