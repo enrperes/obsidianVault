@@ -307,3 +307,33 @@ Esponente: numero intero
 
 ![[Tecnologie Web#ASCII|ASCII]]
 
+
+2022-10-25 10:39
+
+## Codici di carattere
+
+- **Compatto**: limitare il numero di bit necessari
+- **Pratico**: ottenere le codifiche con calcoli semplici
+- **Accurato**: conservare tutte le informazioni con errori trascurabili. 
+	- Nella trasmissione dei dati si verificano errori causati da disturbi, imperfezioni, radioattività.
+
+**Codici di correzione degli errori**
+Per rilevare e correggere errori: si introduce **==ridondanza==** nelle informazioni.
+- Il trasmettitore aggiunge informazioni di controllo
+- Il canale/supporto trasmette più bit del necessario 
+- Il ricevitore controlla la presenza di errori sfruttando le info ridondanti. 
+Gli errori sono resi **rari** ma non impossibili. 
+
+Esempio di ridondanza: trasmettere ogni carattere due o tre volte: *ccaassaa*
+Non ci sono codici a prova di errore.
+
+### Codici di parità 
+Hanno un singolo bit ridondante, sono molto usati nella pratica. 
+- DAti suddivisi in parole id N bit. 
+- Ad ogni parola viene aggiunto un **bit di controllo**, in modo che N+1 totale di bit uguali a 1 della codifica sia sempre pari o sempre dispari.  (il numero di uni nel byte deve essere sempre pari o sempre dispari)
+- Il ricevitore: 
+	- Verifica la parità o disparità
+	- Non può correggere eventuali errori
+	- Non può rilevare errori che modificano un numero pari di bit in una codifica. 
+
+
