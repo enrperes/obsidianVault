@@ -103,6 +103,7 @@ Il secondo indice di substring si può omettere.
   )
 ```
 
+(string-ref str k) -> returns character at position k in str. First position =  0. 
 ## (if)
 
 
