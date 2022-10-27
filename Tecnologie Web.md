@@ -668,6 +668,8 @@ Con A = ampiezza del segnale al tempo T
 
 ### Dominio del tempo e della frequenza 
 
+![[Pasted image 20221027095206.png|500]]
+
 La relazione di un suono nel dominio del *tempo e delle frequenza* si basa sull' **Analisi di Fourier** e sul modello di **onda sinusoidale**
 Onda sinusoidale ha la forma: 
 ####  $y(t) = Asin(2\pi ft + \phi)$
