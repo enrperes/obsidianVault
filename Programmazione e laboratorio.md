@@ -282,6 +282,6 @@ Con il let si aprono due parentesi, c'è sempre almeno una associazione.
 Sotto la versione equivalente senza `let` 
 
 
+---
 
-
-
+[[PLAB-2022-10-27]]
