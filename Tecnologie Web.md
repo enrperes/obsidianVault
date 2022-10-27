@@ -658,27 +658,33 @@ Svantaggi: Complessità nella progettazione di immagini articolate, devono subir
 2022-10-26 10:30
 
 [[Risorse Multimediali - Parte 2.pdf]]
-# Suono
+# Audio
  > Onda longitudinale (onda di pressione) che viaggia attraverso aria o altro mezzo
 
 Il processo di registrazione e riproduzione dell'audio è composto da una serie di operazioni idi **digitalizzazione** dell'onda di pressione sonora per la conversione dell'audio digitale in **onda di pressione.** 
-
 Il segnale di audio analogico è rappresentabilie da una funzione in un intervallo reale di una variabile reale, il tempo t. 
 ### $A = x(t)$ 
 Con A = ampiezza del segnale al tempo T 
 
 ### Dominio del tempo e della frequenza 
 
-#### $y(t) = Asin(2\pi ft + \phi)$n
+La relazione di un suono nel dominio del *tempo e delle frequenza* si basa sull' **Analisi di Fourier** e sul modello di **onda sinusoidale**
+Onda sinusoidale ha la forma: 
+####  $y(t) = Asin(2\pi ft + \phi)$
+La frequenza (1/t) indica quante volte la funzione si ripete. 
 
-##### Serie di Fourier
-Le onde periodiche possono essere visualizzate come somma di più onde sinusoidali di diversa frequenza e ampiezza 
-Suono periodico: suono che si ripete a intervalli regolari 
-**Serie di Fourier:** [formila]
+#### Serie di Fourier
+> Rappresentazione di una funzione periodica mediante combinazione lineare di funzioni sinusoidali. 
 
-![[CEA37F31-09CB-400B-9185-A89608C18B1B.jpeg|300]]
+Ad esempio per rappresentare un'approssimazione dell'onda quadra attraverso i primi quattro termini della corrispondente della **Trasformata di Fourier**
+Formula: 
 
-#### Trasformata di Fourier 
+## $$ f(x) = a_0 + \sum_{n=1}^{\infty} (a_n cos \dfrac{n \pi x}{T} + b_n sin \dfrac {n\pi x}{T})$$
+
+![[7CD31827-7882-405B-9157-ECCF52C15BDF.jpeg|500]]
+
+##### Trasformata di Fourier 
+Consente di calcolare diverse componenti delle onde sinusoidali di un segnale. 
 
 [...]
 
