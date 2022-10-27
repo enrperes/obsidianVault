@@ -670,8 +670,8 @@ Con A = ampiezza del segnale al tempo T
 
 ![[Pasted image 20221027095206.png|500]]
 è possibile analizzare un segnale sia nel **dominio del tempo** che nel **dominio della frequenza**:
-
-
+![[Pasted image 20221027095552.png|400]]
+![[Pasted image 20221027095605.png|400]]
 
 La relazione di un suono nel dominio del *tempo e delle frequenza* si basa sull' **Analisi di Fourier** e sul modello di **onda sinusoidale**
 Onda sinusoidale ha la forma: 
