@@ -657,6 +657,7 @@ Svantaggi: Complessità nella progettazione di immagini articolate, devono subir
 
 2022-10-26 10:30
 
+[[Risorse Multimediali - Parte 2.pdf]]
 # Suono
  > Onda longitudinale (onda di pressione) che viaggia attraverso aria o altro mezzo
 
