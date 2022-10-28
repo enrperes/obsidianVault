@@ -746,10 +746,126 @@ il Bitrate di un audio PCM può essere di 1400 kbps
 Un messaggio audio vocale può essere 256kbps
 
 # Video 
+Rappresentato da una funzione a valori in un intervallo a **tre** variabili reali: Coordinate (x, y) del punto e t = tempo. 
+Il video analogico è campionato sia nel tempo che nello spazio. I campioni di intensità luminosa sono quantizzati come per le immmagini. 
+- **Dimensione logica**: numero di pixel di cui è composto un frame. 
+- **Profondità del colore:** numero di but usati per codificare il colore di ciascun pixel (8, 10 bit.)
+- **Aspect Ratio**: (4:3, 16:9)
+- **Pixel Aspetc Ratio** rapporto tra larghezza e altezza dei pixel di un frame. 
 
-#todo 
+>[!info]- Dimensione di un video 
+> Dimensione di un video (non compresso) = 
+>	spazio(bit) = dimensione logica del frame * Profondità del colore * frame rate * durata del video (s)
+> - 720x576; 25fps; 8bit; 24bit a pixel; 1h30m --> 720 * 576 *  24 * 25 * 90 * 60 = 168GB 
+> 
+
+#### Codifica video 
+- Codifica **intra frame**
+	- Tecniche di compressione applicate ad ogni fotogramma 
+- Codifica **inter frame**
+	- Tecniche di compressione applicate a uno o più frame adiacenti. Ciascun fotogramma viene confrontato con quello di riferimento. Vengono codificati solo i pixel che cambiano. 
+	- Compensazione del movimento basata su blocchi
+##### H.265 e AV1
+*High Efficiency Video Coding* = standard di compressione inter frame. Uno dei più usati per la registrazione, compressione e condivisione video. 
+*AV1* royalty free 
+
+# Formati contenitori multimediali
+Più flussi audio/video, sottotitoli, informazioni sui capitoli, metadati...
+- AVI
+	- Standard microsoft Windows
+- MKV
+	- (Matroska) 
+- MOV
+	- Standard QuickTime Apple
+- MP4
+	- Contenitore standard audio/video 
+- Ogg
+- WebM
+
+# Compressione dei dati
+> rappresentazione più compatta delle informazioni, riducendo i bit necessari 
+
+- ### **LossLess**
+	- **LZW** (Lempel, Ziv, Walsh)
+		- Metodo a sostituzione dizionario dinamico: costruisce un dizionario dei dati.
+		- Le informazioni sono stringhe di dati all'interno delle quali si trovano dei pattern (*sotto sequenze*). Se non vengono trovati pattern viene costruito un codice per quel pattern e viene aggiunto al dizionario. 
+		- **Esempio**
+			- `ababbcbc`
+			1. Identificazione dei pattern e costruzione dinamica del dizionario:
+				1. `a b ab bc bc `
+			2. Codifica della stringa: `12344`
+			3. Tasso di compressione: $100 \cdot \dfrac 5 8 = 62.5 \%$
+	- **RLC** 
+		- Formato (due byte)
+			- `Numero di caratteri 
+			- `carattere`
+		- Esempio
+			- `AAAAAA` = `6A
+- ###  **Lossy** 
+Rimuovono l'informazione ridondante e poco rilevante in modo irreversibile. 
+- **DCT** (Discrete Cosine Transform)
+	- Usato per JPEG, MP3, AAC, H.265..
 
 
 ---
 
 [[Modello di un Sito Web.pdf]]
+
+2022-10-28 10:10
+
+# Sviluppo di un sito WEB
+
+#### Componenti di un sito web
+- Contenuto 
+	- Risorse 
+- Contenitore 
+	- Struttura che ospita i contenuti
+- Infrastruttura tecnica
+	- Ambiente tecnologico che ospita contenuto e contenitore 
+
+### Contenuti
+- **Informativo**: fornire informazioni utilizzando risorse multimediali 
+- **Servizi applicativi**: Applicazioni software che permettono di eseguire compiti o procedure complesse di lavoro. 
+- **Servizi di comunità**: chat, forum..
+- **Servizi di supporto**: Servizi generali di utilità
+
+### Modello di progettazione sito WEB
+1. **Analisi e specificazione**
+	1. Profilazione e analisi degli utenti
+	2. Identificare siti concorrenti
+	3. Scenari d'uso
+	4. obiettivi del sito
+2. **Progettazione del contenuto** 
+	1. Lista dei contenuti e delle funzioni
+	2. Modello del contenuto
+3. **Progettazione della struttura ipertestuale**
+	1. Definire collegamenti e percorsi attraverso unità di contenuto 
+4. **Progettazione della presentazione**
+	1. Caratteristiche dei dispositivi di erogazione
+	2. Struttura delle pagine 
+5. **Realizzazione collaudo e pubblicazione**
+	1. Prototipo 
+	2. Collaudo
+	3. Piano di pubblicazione
+6. **Gestione e valutazione**
+	1. Aggiornamento dei contenuti 
+	2. Aggiornamento tecnologico 
+	3. Manutenzione sistemistica
+	4. Web-analytics 
+
+### Personalizzazione di un sito web
+
+- Sistemi adattabili
+	- L'utente prima di fornire di usufruire dei servizi fornisce il proprio profilo (compilazione form). Utente consapevole di fornire info personali. 
+- Sistemi adattivi
+	- il sistema adatta la presentazione o il contenuto in maniera automatica in base alle info date dagli utenti 
+	- Non è detto che l'utente sia consapevole di fornire inforamzioni personali. 
+
+### Ottimizzazione sito web
+#### Motori di ricerca
+- **Indicizzazione** delle pagine
+	- Associa parole chiave ad indirizzi 
+	- **Crawling**= un web bot analizza le strutture ipertestuali di tutte le pagine web per scoprire nuovi contenuti 
+	- Le **key words** sono fondamentali per il crawling. Sono specificate nell'elemento `<meta>`di HTML. 
+- **Ordinamento** dei risultati di ricerca
+	- **SERP** (Search Engine Results Page) = pagina che contiene i risultati di una ricerca.
