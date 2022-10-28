@@ -523,15 +523,15 @@ La comunicazione browser-server avviene su **TLS**: Trasnport Layer Security.
 Processo di conversione da *analogico* a *digitale*. Da valori continui a valori discreti. 
 La conversione porta una perdita di informazioni: spesso non percettibili. 
 
-Testi alfanumerici costituiti da elementi atomici discreti. (in codice ASCII)
-C'è una legge di corrispondenza (codice) tra i caratteri astratti (alfabeto) e un insieme di configurazioni di bit (codici binari) 
-Per codificare un alfabeto da 200 caratteri servono 8 bit: 2?8 = 256 > 200.
+Testi alfanumerici sono costituiti da elementi atomici discreti. (in codice ==ASCII==)
+C'è una **legge di corrispondenza** (codice) tra i caratteri astratti (alfabeto) e un insieme di configurazioni di bit (codici binari) 
+Per codificare un alfabeto da 200 caratteri servono 8 bit: 2^8 = 256 > 200.
 
 
 ## ASCII
-American Standard Code for Information Interchange  (1963 da ANSI)
+*American Standard Code for Information Interchange*  (1963 da ANSI)
 è un codice per codifica dei caratteri 
-**Si usano 7 bit (0-127)**
+Si usano ==7 bit== (0-127)
 non 8 perchè i primi 32 codici numerici sono per i caratteri di controllo: 
 - Carriage return, line feed, backspace, cancel, escape... 
 - 127 = delete
@@ -547,27 +547,27 @@ UTF-16: 2^11 caratteri (estensioni ASCII, alcuni ideogrammi)
 I primi 128 sono lo standard ASCII.
 UTF è la codifica di caratteri più diffusa.
 
->[!danger]-   Microtipografia
+>[!danger]+  Microtipografia
 >Riguarda le famiglie di caratteri 
->ogni carattere astratto deve essere associato a una specifica rappresentazione grafica visiva: **glifo**
->I glifi sono memorizzati come mappe di **bit** (raster) o in forma vettoriale (vector)
->La corrispondenza caratteri - glifi è data dal **font**
+>ogni carattere astratto deve essere associato a una specifica rappresentazione grafica visiva: **==glifo==**
+>I glifi sono memorizzati come mappe di **bit** (**raster**) o in forma vettoriale (**vector**)
+>La corrispondenza caratteri - glifi è data dal **==font==**
 
 ## Font
 
 Corrispondenza *triangolare* tra: 
-- Carattere Astratto (T)
-- Codice numerico ASCII (84)
-- Glifo (*T*)
+- Carattere Astratto (es. T)
+- Codice numerico ASCII (es. 84)
+- Glifo (es. *T*)
 
 #### Famiglie di typeface
-- Roman
-	- Caratteri che hanno dei trattini di completamento nel glifo (grazie) -> serif. Usati per stampa su carta. 
-- Gothic
+- **Roman**
+	- Caratteri che hanno dei trattini di completamento nel glifo (dette grazie) -> serif. Usati per stampa su carta. 
+- **Gothic**
 	- Comprende i **sans serif**. Caratteri detti bastoni, usati per visualizzazione a schermo.
-- Script
+- **Script**
 	- Caratteri che limitano l a scrittura a mano libera
-- Blackletter
+- **Blackletter**
 	- Caratteri ispirati a manoscritti antichi
 
 #### Attributi grafici del glifo
@@ -591,28 +591,28 @@ Le dimensioni dei caratteri si misurano in punti. Un punto corrisponde a 1/72 in
 	- Spazio sotto e sopra la riga di testo. 
 
 
-## Immagini
+# Immagini
 
-Immagine analogica: rappresenta oggetto riprodotto mantenendo un'analogia formale con l'immagine originale. 
+Immagine **analogica**: rappresenta oggetto riprodotto mantenendo un'analogia formale con l'immagine originale. 
 ### $I = f(x,y)$
 I = valore di luminosità / colore 
 P = punto di coordinate x/y
 
 ### Digitalizzazione immagini
 Attraverso due processi: 
-- Campionamento
+- **Campionamento**
 	-  Immagine suddivisa in griglia di celle: pixel logici. 
-- Quantizzazione
+- **Quantizzazione**
 	- ogni pixel assume un valore di colore, facendo la media dei valori all'interno del pixel. 
 
 #### Rappresentazione del colore
 Monocromatica: il valore indica l'intensità del grigio 
-Colore: definizione di sazio geometrico astratto. 
+Colore: definizione di spazio geometrico astratto. 
 
 - **RGB**
-	- Sintesi additiva di tre colori primari. Ogni colore occupa **8 bit**. Usato per monitor e scanner
+	- Sintesi *additiva* di tre colori primari. Ogni colore occupa **8 bit**. Usato per monitor e scanner
 - **CMYK**
-	- Sintesi sottrattiva di quattro colori: Cyan, Magenta, Yellow, Black. Usato nelle stampanti
+	- Sintesi *sottrattiva* di quattro colori: Cyan, Magenta, Yellow, Black. Usato nelle stampanti
 - **HSL**
 	- Hue Saturation Value. 8 bit per canale. Usato in campo artistico.
 	- Hue: Parte dal rosso (0°), verde (120°), blu (240°)
@@ -631,9 +631,9 @@ Colore: definizione di sazio geometrico astratto.
 ##### Altre caratteristiche immagine: 
 - Dimensione (logica) di immagine bitmap = numero di pixel che compongono l'immagine. 
 - Risoluzione di immagine: risoluzione del dispositivo di acquisizione o visualizzazione. 
-**PPI** = pixel per inch 
 - Profondità del colore: n. bit usati per la quantizzazione (2, 8, 16...)
 - Scala tonale: gamma di colori visualizzabili (8bit, 10bit...)
+**PPI** = pixel per inch 
 
 ##### Spazio occupato da immagine raster: 
 	Spazio = Dimensione (pixel) x profondità (bit/pixel)
@@ -644,8 +644,8 @@ Colore: definizione di sazio geometrico astratto.
 Gestite alla base da **Curve di Bezier**. 1962.
 - sono curve parametriche che definiscono elementi 
 
-Vantaggi: compatte, facilmente manipolabili. 
-Svantaggi: Complessità nella progettazione di immagini articolate, devono subire un processo di rasterizzazione per essere visualizzate. 
+*Vantaggi*: compatte, facilmente manipolabili. 
+*Svantaggi*: Complessità nella progettazione di immagini articolate, devono subire un processo di rasterizzazione per essere visualizzate. 
 
 #### Uso delle immagini nel Web 
 - Non figurative: Astratte. Non rappresentano entità del mondo 
@@ -664,23 +664,23 @@ Svantaggi: Complessità nella progettazione di immagini articolate, devono subir
 Il processo di registrazione e riproduzione dell'audio è composto da una serie di operazioni idi **digitalizzazione** dell'onda di pressione sonora per la conversione dell'audio digitale in **onda di pressione.** 
 Il segnale di audio analogico è rappresentabilie da una funzione in un intervallo reale di una variabile reale, il tempo t. 
 ### $A = x(t)$ 
-Con A = ampiezza del segnale al tempo T 
+Con A = ampiezza del segnale al tempo  `t`
 
 ### Dominio del tempo e della frequenza 
 
 ![[Pasted image 20221027095206.png|500]]
 è possibile analizzare un segnale sia nel **dominio del tempo** che nel **dominio della frequenza**:
+
 ![[Pasted image 20221027095552.png|400]]
-Dominio del tempo: Con il passare del tempo il segnale (somma di tutte le frequenze) varia. 
+Dominio del tempo: ^  Con il passare del tempo il segnale (somma di tutte le frequenze) varia. 
 
 ![[Pasted image 20221027095605.png|400]]
-Dominio della frequenza: Il segnale è scomposto nelle varie frequenze. 
-
+Dominio della frequenza: ^ Il segnale è scomposto nelle varie frequenze. 
 
 La relazione di un suono nel dominio del *tempo e delle frequenza* si basa sull' **Analisi di Fourier** e sul modello di **onda sinusoidale**
 Onda sinusoidale ha la forma: 
 ####  $y(t) = Asin(2\pi ft + \phi)$
-La frequenza (1/t) indica quante volte la funzione si ripete. 
+La frequenza (1/t) indica quante volte la funzione si ripete ogni secondo.
 
 #### Serie di Fourier
 > Rappresentazione di una funzione periodica mediante combinazione lineare di funzioni sinusoidali. 
@@ -701,17 +701,17 @@ Consente di calcolare diverse componenti delle onde sinusoidali di un segnale.
 
 #### Digitalizzazione del suono
 Un audio digitale è ottenuto partendo da un segnale analogico attraverso le fasi di 
-- Campionamento 
-- Quantizzazione
-- Codifica
+1. Campionamento 
+2. Quantizzazione
+3. Codifica
 
 
 ##### Campionamento
-> discretizzazione del segnale analogico nel tempo. 
+> discretizzazione del ==segnale== analogico nel tempo. 
 
 ![[FAD9FB1F-171D-4BAB-BB24-B3A2C3600804.jpeg|500]]
 ###### Aliasing 
-Quando un segnale campiona i dati in modo discreto a una velocità **insufficiente** per catturare i cambiamenti nel segnale. INtroduce delle distorsioni nel segnale, compromette il contenuto. 
+Quando un segnale campiona i dati in modo discreto a una velocità **insufficiente** per catturare i cambiamenti nel segnale. Introduce delle distorsioni nel segnale, compromettendo il contenuto. 
 Le distorsioni sono provocate dalla produzione di frequenza non proprie del segnale originario (*Alias*)
 ###### Frequenza di campionamento 
 Gamma frequenze dell'udito umano: 20-20k Hz. 
@@ -719,14 +719,14 @@ Frequenza di campionamento ideale: 40k Hz
 Frequenza campionamento CD (44100Hz)
 
 ##### Quantizzazione
-> Discretizzazione dell'ampiezza del segnale. Divide la gamma delle ampiezze in 2^N valori discreti. 
+> Discretizzazione dell'==ampiezza== del segnale. Divide la gamma delle ampiezze in 2^N valori discreti. 
 
 Si commettono errori che al massimo valgono metà dell'ampiezza dell'intervallo. Un errore di quantizzazione si comporta come *rumore di quantizzazione*
 
 ![[000AA12E-7E57-483A-969A-B208124E1B59.jpeg|400]]
 
 ##### Codifica
-> Definisce il formato con cui il flusso di dati audio deve essere memorizzato su un supporto trasmesso a internet.
+> Definisce il ==formato== con cui il flusso di dati audio deve essere memorizzato su un supporto trasmesso a internet.
 
 **PCM**: Pulse Code Modulation: i campioni quantizzati vengono memorizzati **senza compressione**: Il formato .waw (Waveform Audio File Format). Un file audio PCM è una lunga matrice di numeri. 
 Tra le codifiche con compressione: 
@@ -868,4 +868,34 @@ Rimuovono l'informazione ridondante e poco rilevante in modo irreversibile.
 	- **Crawling**= un web bot analizza le strutture ipertestuali di tutte le pagine web per scoprire nuovi contenuti 
 	- Le **key words** sono fondamentali per il crawling. Sono specificate nell'elemento `<meta>`di HTML. 
 - **Ordinamento** dei risultati di ricerca
-	- **SERP** (Search Engine Results Page) = pagina che contiene i risultati di una ricerca.
+	- **SERP** (Search Engine Results Page) = pagina che contiene i risultati di una ricerca. Obiettivo: ordinare le pagine in base alla pertinenza. 
+	- Importanza di una pagina è data da: 
+		- Numero di link che puntano alla pagina desiderata
+		- Importanza delle pagine da cui partono i link 
+	- I motori di ricerca usano la personalizzazione (info sul comportamento degli utenti) per modificare le SERP
+	- **Gatekeeping** = processo di selezione delle informazioni, determina quali informazioni sono selezionate. Svolto da servizi online (Google, Meta, Twitter)
+	- Ottimizzazione per i motori di ricerca (Search Engine Optimizazion = **SEO**) 
+		- SEO on page: 
+			- intervento di ottimizzazione che riguardano direttamente la pagine del sito web
+		- SEO off page:
+			- Riguarda elementi esterni al sito. *link building* = incremento dei link in ingresso della pagina desiretata. 
+
+### WEB analytics
+Raccolta, misura, analisi, interpretazione di dati relativi all'uso del sito. 
+*Tra i metodi di acquisizione:* 
+- Cookies 
+- Codice JavaScript nelle pagine del sito
+*Tra le informazioni di interesse:* 
+- Numero di visite
+- Pagina di arrivo 
+- Numero di pagine visualizzate
+- Frequenza di visualizzazione
+- Tempo di permanenza su ciascuna pagina
+- Azioni svolte dagli utenti 
+- Percorso di navigazione nel sito
+- Pagina d iuscita
+- Numero di visitatori nuovi e non
+- Provenienza dei visitatori (dai social, tramite URL...)
+- Dispositivo usato per l'accesso...
+
+
