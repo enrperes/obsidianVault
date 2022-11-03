@@ -50,4 +50,32 @@ i ==commenti== hanno la forma: `<!-- commento --> `
 	- Rami = sottoelementi che hanno elementi figli 
 	- Foglie = elementi che non contengono altri elementi 
 
+2022-11-03 10:35
+
+## DTD = Document Type Definition -> file.dtd   
+
+
+Dichiara come un documento XML deve essere scritto: quali attributi si possono usare, che contenuti possono avere...
+Se un documento rispetta le regole di un DTD si dice ==valido== rispetto al DTD. 
+#### Composizione DTD
+- Formato da una lista di dichiarazioni
+- Ogni dichiarazione è relativa ad un oggetto contenuto nel file XML
+- **Ogni oggetto del file XML va definito**
+- Il DTD segue una sintassi ben definita. 
+
+##### Dichiarazione elementi 
+` <!ELEMENT nome_elemento contenuto_elemento> ` Contenuto_elemento specifica il tipo del contenuto: **vuoto, testo o altri elementi.** La parola chiave **ANY** permette di avere qualunque altro elemento dichiarato. Testo o EMPTY non valgono. 
+(expr) dichiara un elemento che deve contenere altri elementi in un certo ordine e numero definiti dall'**espressione regolare** ==expr==
+
+```xml
+--- dtd
+<!ELEMENT email EMPTY> 
+--- xml: 
+<email> </email> 
+<email> email@gmail.com </email> ;; Non corretto! (perchè è emtpy)
+```
+
+Dichiarazione elemento email: 
+` <!ELEMENT mail (#PCDATA)>` dichiara un elemento che può contenere solo testo. 
+
 
