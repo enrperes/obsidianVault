@@ -286,3 +286,28 @@ Sotto la versione equivalente senza `let` 
 ---
 
 [[PLAB-2022-10-27]]
+
+---
+
+2022-11-04 08:37
+
+## Numeri di Stirling  del secondo tipo 
+
+Nessun cioccolatino fuori e nessun piatto vuoto. I piatti sono anonimi.
+esempio: 4 piatti, 16 cioccolatini univoci. 
+esempio2: 2 piatti e 3 cioccolatini. -> 3 modi possibili
+Esempio3: 3 piatti, 4 cioccolatini -> ''
+
+```scheme
+(define st
+	(lambda (n k)
+		(if (or (= k 1) (= k n))
+		1
+		(+ (st (- n 1)(- k 1)) (* k (st (- n 1) k)))
+		)
+	)  
+)
+```
+
+
+![[Pasted image 20221104101004.png|400]]
