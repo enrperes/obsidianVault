@@ -20,8 +20,8 @@ $A \subset B$
 $A \nsubseteq B$
 
 **Descrizione per elencazione** $P=\{0,2,4..,2n\}$
-**Costruzione per selezione**: costruzione di un nuovo insieme selezionando alcuni elementi di un altro elemento tramite una proprietà. L'insieme ottenuto è un sottoinsieme dell'insieme originale: 
-$\{ x\in A: P(x)\}$  X ha la prorietà P. 
+**Costruzione ==per selezione==**: costruzione di un nuovo insieme selezionando alcuni elementi di un altro elemento tramite una proprietà. L'insieme ottenuto è un sottoinsieme dell'insieme originale: 
+##### ==$\{ x\in A: P(x)\}$==  X ha la prorietà P. 
 Es: $\{x \in Z : x^2 = 4 \} = \{-2, 2\}$
 
 ***Principio di Estensionabilità***: Due insiemi sono uguali se hanno gli stessi elementi. 
@@ -29,23 +29,20 @@ Es: $\{x \in Z : x^2 = 4 \} = \{-2, 2\}$
 $\varnothing$ = insieme vuoto con 0 elementi. è sottoinsieme di ogni insieme. 
 $\varnothing \neq 0$  ⚠️
 
-**Notazione funzionale**, ad esempio per i numeri pari:  $\{2n : n \in N \}$
-
-Fine lezione 2022-10-04 = 17:16
-
-2022-10-06 13:35
-
-**Unione di insiemi**
-
-(Goodnotes)
+**Notazione ==funzionale==**, ad esempio per i numeri pari:  $\{2n : n \in N \}$
 
 ## Linguaggio formale
 
 - Linguaggio semplificato con sintassi rigida, precisa, semplice e meno ambigua. 
-I linguaggi formali sono oggetto di studio della logica matematica. #todo Necessario per la magistrale in informatica. 
+I linguaggi formali sono oggetto di studio della logica matematica. #todo Necessario per la magistrale in informatica.
 
 ### Linguaggio Proposizionale
 Analizza solo le frasi dichiarative: le **proposizioni** ovvero espressioni linguistiche per cui ha senso chiedersi se sono *vere o false.* Le frasi imperative NON sono proposizioni. 
 Indaga il modo di costruire proposizioni complesse a partire da proposizioni semplici. 
 
-$P1 \vee P2$ -> "oppure"
+>[!example]+ Sintassi 
+$P1 \land P2$    -    and
+$P1 \to P2$     -    implica
+$P1 \lnot P2$    -    not
+$P1 \lor P2$     -    oppure
+

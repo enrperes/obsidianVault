@@ -291,7 +291,10 @@ Sotto la versione equivalente senza `let` 
 
 2022-11-04 08:37
 
-## Numeri di Stirling  del secondo tipo 
+## Numeri di Stirling  del secondo tipo
+
+
+
 
 Nessun cioccolatino fuori e nessun piatto vuoto. I piatti sono anonimi.
 esempio: 4 piatti, 16 cioccolatini univoci. 
@@ -310,5 +313,5 @@ Esempio3: 3 piatti, 4 cioccolatini -> ''
 ```
 
 
-![[Pasted image 20221104101004.png|400]]
+![[Pasted image 20221104101004.png|600]]
 
