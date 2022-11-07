@@ -22,7 +22,7 @@ $A \nsubseteq B$
 **Descrizione per elencazione** $P=\{0,2,4..,2n\}$
 **Costruzione ==per selezione==**: costruzione di un nuovo insieme selezionando alcuni elementi di un altro elemento tramite una proprietà. L'insieme ottenuto è un sottoinsieme dell'insieme originale: 
 ##### ==$\{ x\in A: P(x)\}$==  X ha la prorietà P. 
-Es: $\{x \in Z : x^2 = 4 \} = \{-2, 2\}$
+Es: $ \{x \in Z : x^2 = 4 \} = \{-2, 2\}$
 
 ***Principio di Estensionabilità***: Due insiemi sono uguali se hanno gli stessi elementi. 
 

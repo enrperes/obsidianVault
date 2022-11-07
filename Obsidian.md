@@ -30,6 +30,22 @@ https://notes.nicolevanderhoeven.com/Obsidian+Callouts
 >[!Attention]- ATTENTION
 > eheh
 
+---
+
+#  $\huge \;\;\LaTeX$
+Aggiungere prima del blocco di testo: 
+```latex
+\huge
+\large
+\normalsize
+\small
+\tiny
+```
+
+---
+
+
+
 [^1]: Footnotes look like this.
 
 

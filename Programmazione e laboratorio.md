@@ -315,3 +315,29 @@ Esempio3: 3 piatti, 4 cioccolatini -> ''
 
 ![[Pasted image 20221104101004.png|600]]
 
+---
+
+2022-11-07
+
+# LCS: Longest Common Subsequence
+
+LLCS = Lenght Longest Common Subsequence
+
+```scheme
+;; llcs(ax, by) --> k
+;; llcs (ax, ay) = 1 + llcs (x, y)
+;; llcs (ax, by) = max(llcs (ax, y), llcs(x, by)) se a != b
+;;llcs ("", y) = llcs (x, "") = 0
+
+```
+
+```scheme
+(define llcs ; val: intero
+  (lambda(u v) ;u, v: stringhe
+	  (cond ((or (string=? u "") (string=? v ""))
+	  0)
+	  ((char=? (string-ref u 0))
+	  )
+	  )
+  ))
+```
