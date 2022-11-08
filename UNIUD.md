@@ -1,9 +1,7 @@
 ---
 banner: "![[uniudlogo.png]]"
 ---
- 
----
-banner: "![[uniudlogo.png]]"
+
 ---
 #uniud
 
