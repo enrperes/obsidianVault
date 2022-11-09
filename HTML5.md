@@ -1,14 +1,17 @@
-# HTML5
-#### Tag `<canvas></canvas>`
+# HTML5 (2017)
 
-```html
+![[HTML-old]]
 
-<canvas id="canva1" style="...">
-</canvas>
-<script>
-	var C1 = document.getElementById("canva1");
-	var foglio = C1.getContext("2d");
-</script>
-```
 
-![[F92976AD-D1E7-43C7-8AA4-7626A1FA1346.jpeg]]
+---
+
+ HTML W3C: verifica la rispondenza delle pagine web alle specifiche tecniche previste dallo standard HTML:  https://validator.w3.org/ (da usare per controllare il codice)
+
+### Struttura della pagina web
+- Elemento: contenitore di informazione  e dati. Contiene Tag di apertura e Tag di chiusura. 
+- Tag: stringa di caratteri racchiusa tra <>
+	- Attributi
+	- <p lang= "en-us"> 
+- Tag di apertura: specifica il nome dell'elemento 
+- Tag di chiusura: ` < /nomeElemento >  `
+

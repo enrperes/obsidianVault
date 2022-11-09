@@ -902,4 +902,7 @@ Raccolta, misura, analisi, interpretazione di dati relativi all'uso del sito.
 
 2022-11-02 10:30
 
-[[XML]]
+# Programmazione e laboratorio
+
+# [[XML]]
+# [[HTML5]]

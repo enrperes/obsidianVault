@@ -1,4 +1,3 @@
-
 ###  [[Programmazione e laboratorio-info]]
 ### [[Programmazione e laboratorio-pdf]]
 
@@ -23,101 +22,18 @@ Codice per declinare al plurale i sostantivi regolari:  [[Espressione che declin
 
 ![[78FF4480-ECFF-465A-92EF-00656F8AA60E.jpeg|300]]
 
-##### Procedura per verificare se parola è maschile o femminile 
-
-https://replit.com/@enrperes/ProceduralAbstraction#main.scm
- ```scheme
- 
- (define femminile ;val: bool
-	 (lambda (s)
-		 (string=? (substring s (-(string-length s) 1)) "a")
-	 )
- )
-```
-Il secondo indice di substring si può omettere. 
-
-2022-10-14 08:37 
-###### Da infinito a participio passato 
-
- ```scheme
- (define ato ;val :bool
-  (lambda (s) ;s: string
-   ;(string=? (string-ref s (- (string-length s) 1)) "are")
-    (string-append (substring s 0 (- (string-length s) 2)) "to")
-    )
-  )
-```
-
-(string-ref str k) -> returns character at position k in str. First position =  0. 
-## (if)
+#### Procedura per verificare se una parola è maschile o femminile: [[Procedura per verificare se parola è maschile o femminile|codice]]
+#### Procedura per passare da infinito a participio passato [[Da infinito a participio passato|codice]]
 
 
-```scheme
-(if C E1 E2) ; C1 ? E1 : E2
+![[IF|IF]]
 
-```
+Programma per la [[Generalizzazione del plurale]]. 
 
-3 argomenti: 
-- Condizione (booleana)
-- Espressione 1
-- Espressione 2 (non può essere omesso)
-
-Se il risultato di C è vero si valuta E1 e il risultato di if è E1. 
-Falso: valuta E2, if = E2. 
-Solo quando si valuta C si valuta o E1 o E2. 
-
-#### Generalizzazione del plurale 
-
-```scheme
-
-(define femm?
-  (lambda (s)
-    (string=? (substring s (- (string-length s) 1)) "a")
-    )
-  )
-
-(define plurale-f
-  (lambda (s)
-    (string-append (substring s 0 (- (string-length s) 1)) "e")
-    )
-  )
-
-(define plurale-m
-  (lambda (s)
-    (string-append (substring s 0 (- (string-length s) 1)) "i")
-    )
-  )
-
-(define plurale
-  (lambda (s) ; s: string
-    (if (femm? s)
-        (plurale-f s)
-        (plurale-m s)
-        )
-    )
-  )
-
-```
 
 ----
-
-**Tipi numerici**
-- Interi. Non ha limiti di dimensioni particolari
-	(expt base esponente) -> ``(expt 15 2)`` = 125
-	(sqrt base) -> ``(sqrt 2)`` = 1.4142
-- Razionali: 
-	- ``(/ 3 4) = 0.75``
-	- 3 tipi di visualizzazione (tasto destro)
-- Double: (floating point)
-	- ``#i0.75``
-- Numeri complessi
-	- ``(sqrt -1)`` = 0+1i
-- Costanti: 
-	- pi, e, 
-Operazioni con numeri misti : 
-``(+ 1 3/4)``
-
-Backslash e doppio apice sono caratteri speciali
+### [[Tipi numerici]]
+In Scheme i numeri possono essere Interi, Razionali, Double, Complessi, Costanti, Misti: 
 
 
 2022-10-17 12:41
