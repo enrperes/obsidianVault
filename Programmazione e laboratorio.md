@@ -202,3 +202,95 @@ LLCS = Lenght Longest Common Subsequence
 	  )
   ))
 ```
+
+![[F4A08797-7A9A-40F4-A918-3F25CC1AE46B.jpeg|600]]
+
+`(llcs "ATAG" "ATAG")` => 4
+
+---
+2022-11-11 
+
+### Liste (diverse da array)
+#### Operatori:
+**null** = lista vuota => '()
+	(null? null) => true
+	(null? '(5)) => false
+**cons** => cons (=aggiungere un elemento a una lista già data)
+	Args: Elemento e lista. Crea una lista con quell'elemento come primo elemento della lista. 
+**nulll?** => vero o falso in base a se una lista è vuota o no
+**car** => Qual è il primo elemento di una lista (non vuota, altrimenti errore) 
+**cdr** => Torna la lista senza il primo elemento. 
+
+`(cons 1 (cons 2 (cons 3 (cons 4 (cons 5 null )))))` == `'(1 2 3 4 5)`
+=> (list 1 2 3 4 5)
+
+**lenght**
+[[list-ref]] => elemento in posizione data di una lista
+[[append]] => 
+[[reverse]] => 
+
+---
+2022-11-14
+
+## Ricorsione ambigua, conigli e fibonacci
+
+>[!hint]-  Ipotesi 
+> L'ambiente è chiuso (situazione sperimentale!):
+   All'istante iniziale t = 0 c'è una coppia di conigli fertile;
+   Una coppia di conigli fertile all'istante t da' alla luce una nuova coppia di conigli ad ogni mese successivo 141, 142,
+   I conigli nati all'istante t diventano fertili esattamente dopo un mese, all'istante 1+1;
+  I conigli non muoiono nell'intervallo di tempo considerato;
+   I conigli nascono sempre a coppie: un maschio e una femmina
+
+- t = 0 -> 1 coppia fertile
+- t = 1 -> 1 coppia fertile + 1 coppia 
+- t = 2 -> 2 coppie fertile + 1 coppia 
+
+t: *f* coppie fertili + *c* coppie 
+t+1: *f+c* coppie fertili + *f*  coppie cucciole 
+Formule ricorsive: 
+$\large cf(t+1) = cf(t) + c(t)$
+$\large c(t+1) = cf(t)$
+
+```scheme
+(define coppie   ; val: intero 
+  (lambda (t); t: intero non negativo (clock)
+	(if (= t 0)
+	  (coppie-fertili (- t 1))
+	)
+  ))
+  
+(define coppie-fertili
+  (lambda (t)
+	(if (= t 0)
+	  (+ (coppie-fertili (- t 1)) (coppie (- t 1)))
+	)
+	
+  ))
+
+(define coppie 
+  (lambda (t)
+	  (+ (coppie-fertili t) (coppie t))
+  ))
+```
+
+`(coppie 0)` => 1
+`(coppie 1)` => 2
+`(coppie 2)` => 3
+`(coppie 3)` => 5
+`(coppie 12)` => 377 
+^ Sequenza di Fibonacci 
+
+
+---
+# Primo? 
+
+```scheme
+(define primo?  ;val: bool 
+  (lambda (n)   ;n: >= 2, intero
+
+	
+  ))
+```
+
+![[D23ECC45-A478-4E36-BB17-0EBF880F1EE7.jpeg|400]]
