@@ -61,4 +61,25 @@ La porzione di memoria principale dedicata a un programma eseguito da MIC si com
 3. Area Stack 
 	1. Dati variabili usati nel programma 
 
+---
 
+2022-11-15
+
+# Mic-1 
+Appunti sul file 06 - Notability + File Mic-1 Zotero 
+
+
+**Mic-1** è un micro-codice. 
+
+## Circuito di Controlllo 
+Invia più tipi di segnali: 
+- Ai registri l'accesso in lettura e scrittura
+- All'area Stack della memoria l'accesso in lettura e scrittura 
+- All'area codice della memoria l'accesso in lettura per il fetch 
+- Alla ALU la micro-istruzione da eseguire 
+L'istruzione successiva nel registro MBR viene determinata via: 
+- L'istruzione corrente nel registro MBR
+- La micro-istruzione, se l'istruzione corrente prevede un **salto** altrove nell'area codice, in base all'esito di una condizione *if*
+- L'uscita della ALU, se l'istruzione corrente prevede un salto condizionato dal risultato. 
+
+## Utilizzo del ciclo di clock 
