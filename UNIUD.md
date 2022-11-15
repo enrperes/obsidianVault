@@ -18,7 +18,7 @@ banner: "![[uniudlogo.png]]"
 ### [[Architettura degli elaboratori]]
 ### [[Analisi]]
 ### [[Tecnologie Web]]
-### [[Programmazione e laboratorio]]
+### [[Scheme]]
 ### [[Elementi di matematica e algebra lineare]]
 
 

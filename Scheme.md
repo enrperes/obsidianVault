@@ -294,3 +294,5 @@ $\large c(t+1) = cf(t)$
 ```
 
 ![[D23ECC45-A478-4E36-BB17-0EBF880F1EE7.jpeg|400]]
+
+# [[Laboratorio-Scheme]]
