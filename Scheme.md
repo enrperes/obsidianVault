@@ -14,27 +14,18 @@
 
 ![[B473D7B8-37C2-413B-BBC4-3112E5076D99.png|300]]
 Language: **Intermediate Studente with Lambda** 
+Codice per calcolare la **superficie di un cilindro**: [[Scheme-superficie-cilindro|file]]
+Codice per declinare al **plurale i sostantivi regolari**:  [[Espressione che declini al plurale i sostantivi della lingua italiana|file]]
 
-Codice per calcolare la superficie di un cilindro: [[Scheme-superficie-cilindro|file]]
-Codice per declinare al plurale i sostantivi regolari:  [[Espressione che declini al plurale i sostantivi della lingua italiana|file]]
-
-![[Lambda]]
-
-![[Define]]
-
-![[78FF4480-ECFF-465A-92EF-00656F8AA60E.jpeg|300]]
-
+## [[Lambda]] & [[Define]]
 #### Procedura per verificare se una parola è maschile o femminile: [[Procedura per verificare se parola è maschile o femminile|codice]]
 #### Procedura per passare da infinito a participio passato [[Da infinito a participio passato|codice]]
+## [[IF]] & [[COND]]
 
-
-![[IF|IF]]
-
-Programma per la [[Generalizzazione del plurale]]. 
-
+Programma per la [[Generalizzazione del plurale]] 
 
 ----
-### [[Tipi numerici]]
+### [[Tipi numerici]]:
 In Scheme i numeri possono essere Interi, Razionali, Double, Complessi, Costanti, Misti: 
 
 
@@ -88,32 +79,6 @@ In Scheme i numeri possono essere Interi, Razionali, Double, Complessi, Costanti
 >	cond()
 >	quotient()
 >	let()
-
-## (cond)
-
-Per avere più ``(if)`` in sequenza: 
-
-```scheme
-(cond (test1
-       ("action1"))
-      (test2
-       ("action2"))
-      (test3
-       ("action3") ("action4"))
-      (else
-       ("action5"))
-)
-
-(cond (C1 E1)
-	  (C2 E2)
-	  ...
-	  (Ck EK)
-	  (true E)
-)
-
-```
-Comodo quando ci sono tanti condizioni. La prima condizione Ci che viene verificata determina l'esecuzione dell'istruzione Ei. Se C1 e C2 sono entrambe verificate ``cond`` assume il valore della prima. Se nessuna è verificata c'è un errore. ``(true E)`` assegna valore *true* al cond quando nessuna condizione è verificata. 
-
 
 #### (quotient)
 Risultato della divisione in numero intero. 

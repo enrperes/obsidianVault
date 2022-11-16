@@ -1,27 +1,33 @@
 #risorsa 
-
-
 [[Git]]
 [[HOME]]
 FOOTNOTE [^1]
+
+---
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
 ---
 # Callouts: 
 
 https://notes.nicolevanderhoeven.com/Obsidian+Callouts
 
--   note
--   abstract, summary, tldr
--   info, todo
--   tip, hint, important
--   success, check, done
--   question, help, faq
--   warning, caution, attention
--   failure, fail, missing
--   danger, error
--   bug
--   example
--   quote, cite
+	-   note
+	-   abstract, summary, tldr
+	-   info, todo
+	-   tip, hint, important
+	-   success, check, done
+	-   question, help, faq
+	-   warning, caution, attention
+	-   failure, fail, missing
+	-   danger, error
+	-   bug
+	-   example
+	-   quote, cite
 
 
 > [!BUG]+ test 
