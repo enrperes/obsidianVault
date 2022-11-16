@@ -1,6 +1,8 @@
 ###  [[Programmazione e laboratorio-info]]
 ### [[Programmazione e laboratorio-pdf]]
 
+
+# [[Laboratorio-Scheme]]
 ---
 
 #wip
@@ -146,7 +148,7 @@ Sotto la versione equivalente senza `let` 
 
 ---
 
-[[PLAB-2022-10-27]]
+[[Esercizio1-Frase]]
 
 ---
 
@@ -294,5 +296,3 @@ $\large c(t+1) = cf(t)$
 ```
 
 ![[D23ECC45-A478-4E36-BB17-0EBF880F1EE7.jpeg|400]]
-
-# [[Laboratorio-Scheme]]
