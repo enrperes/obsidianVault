@@ -1,14 +1,14 @@
-## (define)
-Per definire le procedure. 
+
+Definisce (dare un nome) alle procedure 
 
 ```scheme
  
-(define supCilindro 
-	(lambda (r h)  ; introduzione variabili r, h. Numeri reali. 
+(define sup-tot-cil ; rinominazione procedura come "sup-tot-cil" 
+	(lambda (r h)   ; introduzione variabili r, h. Numeri reali. 
 		(* (* 2 3.14 r) (+ r h))
     )
 )
 
-(supCilindro 5 11.8) ; ->  527.00
+(sup-tot-cil 5 11.8) ; ->  527.00
 ```
 

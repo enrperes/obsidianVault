@@ -2,14 +2,45 @@
 ### [[Programmazione e laboratorio-pdf]]
 
 
-# [[Laboratorio-Scheme]]
----
-
-#wip
-
-
+# [[Laboratorio-Scheme]
 
 # Scheme $\lambda$
+
+>[!tldr]+  Documentation: 
+>>[!example]- `(define)`
+>>![[Define]]
+>
+>>[!example]- `(lambda)`
+>>![[Lambda]]
+>
+>>[!example]- `(string-x)`
+>> ![[strings]]
+>
+>>[!example]- ``(quotient)``
+>>`(quotient 10 3)` = 3
+>>Restituisce il quoziente della divisione senza il resto
+>
+>>[!example]- `(if)`
+>>![[IF]]
+>
+>>[!example]- `(cond)` 
+>>![[COND]]
+>
+>>[!example]-	``(let)``
+>>![[let]]
+>
+>	
+
+---
+## Astrazione Procedurale
+
+> Consiste nel descrivere tutti i sottoproblemi in cui un problema è descrivibile sostituendo a queste descrizioni una chiamata ad un sottoprogramma, il cui compito sarà quello di risolvere il corrispondente sottoproblema.
+
+
+
+
+---
+
 
 
 ![[B473D7B8-37C2-413B-BBC4-3112E5076D99.png|300]]
@@ -17,12 +48,10 @@ Language: **Intermediate Studente with Lambda**
 Codice per calcolare la **superficie di un cilindro**: [[Scheme-superficie-cilindro|file]]
 Codice per declinare al **plurale i sostantivi regolari**:  [[Espressione che declini al plurale i sostantivi della lingua italiana|file]]
 
-## [[Lambda]] & [[Define]]
+
 #### Procedura per verificare se una parola è maschile o femminile: [[Procedura per verificare se parola è maschile o femminile|codice]]
 #### Procedura per passare da infinito a participio passato [[Da infinito a participio passato|codice]]
-## [[IF]] & [[COND]]
-
-Programma per la [[Generalizzazione del plurale]] 
+#### Programma per la [[Generalizzazione del plurale]] 
 
 ----
 ### [[Tipi numerici]]:
@@ -71,34 +100,16 @@ In Scheme i numeri possono essere Interi, Razionali, Double, Complessi, Costanti
 (define s1 (expt 2 -1/4)); inversa della radice quarta di 2
 
 ```
+# Ricorsione
 
----
+> Procedure che richiamano loro stesse
 
+
+
+
+----
+#todo 
 ## 2022-10-21 8:30
->[!info] funzioni
->	cond()
->	quotient()
->	let()
-
-#### (quotient)
-Risultato della divisione in numero intero. 
-#### (remainder)
-Il resto della divisione 
-
-## (let)
-serve ad associare dei valori a dei simboli. 
-### Distinzione tra ``(let)`` e ``(define)``
-Define è un'associazione permanente. ``(define k 0)`` -> k diventa una costante. Inoltre **NON** è un'espressione. Non restituisce alcun valore. 
-Il ``let`` definisce un'espressione e ha valore solo all'interno delle sue parentesi. è un'espressione, infatti assume un valore. ``(let ((k 0)) (+ k 1)`` valuta k, 
-
-```scheme
-(let ((k (quotient (string-length seq) 2)) ; definisce k come indice della posizione intermedia 
-	  ))
-
-(let ((k 0)) (+ k 1))
-```
-
-Con il let si aprono due parentesi, c'è sempre almeno una associazione. 
 
 [[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|codice 20221021]]
 
@@ -110,19 +121,11 @@ Con il let si aprono due parentesi, c'è sempre almeno una associazione.
 ![[8834A672-566D-4177-B76A-945BEA80D7DD.jpeg|350]]
 Sotto la versione equivalente senza `let` 
 
-
----
-
-[[Esercizio1-Frase]]
-
 ---
 
 2022-11-04 08:37
 
 ## Numeri di Stirling  del secondo tipo
-
-
-
 
 Nessun cioccolatino fuori e nessun piatto vuoto. I piatti sono anonimi.
 esempio: 4 piatti, 16 cioccolatini univoci. 
@@ -134,15 +137,11 @@ Esempio3: 3 piatti, 4 cioccolatini -> ''
 	(lambda (n k)
 		(if (or (= k 1) (= k n))
 		1
-		(+ (st (- n 1)(- k 1)) (* k (st (- n 1) k)))
+		(+ (st (- n 1) (- k 1)) (* k (st (- n 1) k)))
 		)
 	)  
 )
 ```
-
-
-![[Pasted image 20221104101004.png|600]]
-
 ---
 
 2022-11-07

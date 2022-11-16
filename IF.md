@@ -1,8 +1,10 @@
-## (if)
+**Costrutto condizionale**
 
 ```scheme
-(if C E1 E2) ; C1 ? E1 : E2
-
+(if C   ; Se è vero C
+	E1  ; Allora è valutato E1
+	E2  ; Altrimenti viene valutato E2
+) ; analogo a: C1 ? E1 : E2
 ```
 
 3 argomenti: 
