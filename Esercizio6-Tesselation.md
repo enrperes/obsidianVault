@@ -1,6 +1,7 @@
+> `L-tesselation` restituisce l'immagine della regione tassellata dato in input la lunghezza del lato piìù corto della regione da coprire (si assume sia potenza di due)
 
-
-
+![[tessellation.png|500]]
+Tassellazione di una regione a L realizzata utilizzando piastrelle simili delimitate da quattro lati corti di lunghezza 1 e due di lunghezza 2.
 
 ```scheme
 (define one-tile
@@ -23,5 +24,8 @@
 )
  
 ```
+### Codice:
 
+`one-tile` restituisce ![[L-tessellation2.png|50]]  spostando e girando la forma base, aumentandone gli spazi in funzione di `n`
+`L-tesselation` richiama `one-tile`, che aggiunge una ![[L-tessellation2.png|50]] ogni volta. 
 
