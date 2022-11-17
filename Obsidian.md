@@ -11,6 +11,19 @@ FOOTNOTE [^1]
 ##### Heading 5
 ###### Heading 6
 
+**BOLDbold** *Italic* 
+
+> Quoteeee 
+> OBsidian
+
+>[!example]+ Callout
+>Callout text 
+
+
+
+
+
+
 ---
 # Callouts: 
 

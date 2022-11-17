@@ -2,7 +2,7 @@
 ### [[Programmazione e laboratorio-pdf]]
 
 
-# [[Laboratorio-Scheme]
+# [[Laboratorio-Scheme]]
 
 # Scheme $\lambda$
 

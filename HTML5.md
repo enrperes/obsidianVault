@@ -15,4 +15,9 @@
 - Tag di apertura: specifica il nome dell'elemento 
 - Tag di chiusura: ` < /nomeElemento >  `
 
+----
 
+# Esercizi
+
+[[Esercizio8-HTML]]
+[[Esercizio1-HTML]]
