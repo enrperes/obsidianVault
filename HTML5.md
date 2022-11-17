@@ -19,5 +19,7 @@
 
 # Esercizi
 
-[[Esercizio8-HTML]]
-[[Esercizio1-HTML]]
+[[Input-HTML]]
+
+[[Esercizio1-HTML-Orario]]
+[[Esercizio8-HTML-Input]]

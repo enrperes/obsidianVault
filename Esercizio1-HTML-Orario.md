@@ -111,7 +111,7 @@
 </body>
 
 
->[!done]- CODICE
+>[!example]- CODICE
 > ![[Esercizio1-HTML-Orario-Codice1]]
 
 
@@ -255,7 +255,7 @@
 
 
 
->[!done]- Codice 
+>[!example]- Codice 
 >![[Esercizio1-HTML-Orario-Codice2]]
 
 
