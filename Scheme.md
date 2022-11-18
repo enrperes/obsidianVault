@@ -251,6 +251,8 @@ $\large c(t+1) = cf(t)$
 ---
 # Primo? 
 
+#todo 
+
 ```scheme
 (define primo?  ;val: bool 
   (lambda (n)   ;n: >= 2, intero
@@ -260,3 +262,35 @@ $\large c(t+1) = cf(t)$
 ```
 
 ![[D23ECC45-A478-4E36-BB17-0EBF880F1EE7.jpeg|400]]
+
+---
+2022-11-18
+
+```scheme
+(define mul
+  (lambda (m n)  ; n,m: interi non negativi.
+    (cond ((= n 0)
+           0)
+          ((even? n) 
+           (mul (* 2 m) (quotient n 2)))
+          (else
+           (+ m (mul (* 2 m) (quotient n 2)))
+          )
+          )
+     ))
+```
+
+
+```scheme
+(define mcd
+  (lambda (x y)
+    (cond ((= x y)
+           x)
+          ((< x y)
+           (mcd x (- y x)))
+          (else
+           (mcd (- x y) y))
+          )
+          ))
+
+```
