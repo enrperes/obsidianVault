@@ -4,6 +4,8 @@
 FOOTNOTE [^1]
 
 ---
+[[Nord Theme]]
+
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -51,10 +53,13 @@ https://notes.nicolevanderhoeven.com/Obsidian+Callouts
 
 ---
 
-#  $\huge \;\;\LaTeX$
+#  $$\Huge \;\;\LaTeX$$
 Aggiungere prima del blocco di testo: 
 ```latex
+\Huge
 \huge
+\LARGE
+\Large
 \large
 \normalsize
 \small

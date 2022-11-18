@@ -1,12 +1,13 @@
 #todo 
 
-## Regola della somma
-## [[Regola-del-prodotto|Regola del prodotto]]
+### Regola della somma
+### [[Regola-del-prodotto|Regola del prodotto]]
+### Regola del complementare
+### Calcolo del numero delle sequenze a elementi distinti (*disposizioni*)
+### Calcolo del numero di sottoinsiemi di fissata cardinalità (*combinazioni*)
 
-## Regola del complementare
-## Calcolo del numero delle sequenze a elementi distinti (*disposizioni*)
-## Calcolo del numero di sottoinsiemi di fissata cardinalità (*combinazioni*)
+---
 
+2022-11-18
 
-
-Induzione, funzioni, qualcosa di combinatoria
+## Albero 
