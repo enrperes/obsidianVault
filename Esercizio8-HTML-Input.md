@@ -4,19 +4,13 @@
     <body>
         <h1> CURRICULUM VITAE </h1>
         <form action="index.html">
-            
-                    &lt;<table border="1" align="center" cellspacing="0" cellpadding="4">
+            <table border="1" align="center" cellspacing="0" cellpadding="4">
                <!-- <caption>Tabella con i bordi</caption> -->
                 <tbody><tr>
-                    <td colspan="2"><hr></td>
+                    <!-- <td colspan="2"><hr></td> -->
                 </tr>
                 <tr>
                     <td colspan="2"><b>INFORMAZIONI PERSONALI</b></td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <hr>
-                    </td>
                 </tr>
                 <tr>
                     <td>
@@ -85,16 +79,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2"><hr></td>
-                </tr>
-                <tr>
                     <td colspan="2">
-                        ESPERIENZA LAVORATIVA <br> (Partendo dalla più recente)
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <hr>
+                       <h3> ESPERIENZA LAVORATIVA <br> (Partendo dalla più recente)</h3>
                     </td>
                 </tr>
                 <tr>

@@ -62,12 +62,17 @@ Aggiungere prima del blocco di testo:
 ```
 
 ---
-
-
-
 [^1]: Footnotes look like this.
-
-
 ---
+
 # Homepage
 https://thesweetsetup.com/creating-obsidian-dashboard/
+
+
+# Personalization
+CSS snippet found in `.obsidian\snippets\snip.css`
+**can only use terminal to change the file!**
+- `ls` to view all files in directory
+- `echo` to create file 
+- `echo "body.obsidian-app {--background-primary: #333333;}" > snip.css"`  -> `>`  sovrascrive, `>>` giustappone. 
+- `cat snip.css` per vedere il contenuto del file. 
