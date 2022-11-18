@@ -10,6 +10,7 @@
 [[Relazioni-equivalenza]]
 [[Funzioni]]
 [[Principio-Induzione]]
+[[Combinatoria]]
 
 
 
@@ -59,3 +60,4 @@ $P1 \to P2$     -    implica
 $P1 \lnot P2$    -    not
 $P1 \lor P2$     -    oppure
 
+sx
