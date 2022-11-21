@@ -1,6 +1,6 @@
 ```css
 /* change main background color (app only, I think) */
-body.obsidian-app {--background-primary: #222222;}
+body.obsidian-app {--background-primary: #111111;}
 
 /* change header in edit mode */
 .cm-header-1{color: #bf616a;}

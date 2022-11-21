@@ -140,5 +140,12 @@ Il processore impiega alcuni cicli di clock per valutare una condizione. Nel fra
 - **Predizione e speculazione**: La CPU esegue istruzioni sotto condizione. L'esecuzione è annullata se la previsione si rivela errata. 
 	- **Predizione statica**: 
 		- **Semplice:** le istruzioni che seguono un salto all'indietro (dopo una condizione, si torna indietro nella pipeline) sono sempre eseguite sotto condizione. 
-		- Ogni salto condizionato è accompagnato da un suggerimento generato da un **profiler** durante la compilazione o dal programmatore. 
-		- 
+		- Ogni salto condizionato è accompagnato da un suggerimento generato da un **profiler** durante la compilazione o dal programmatore.
+	- **Predizione dinamica:** tramite accesso a una history table mantenuta aggiornata con gli esiti dei precedenti salti condizionati. 
+
+
+### Accesso alla memoria e caching 
+L'accesso alla memoria resta un'operazione troppo lenta. Il processore deve attendere la conclusione del servizio anche per più di una decina di cicli di clock. Si fa uso di uno o più livelli di memoria più veloce (e costosa) = **memoria cache**. L'efficacia di tale memoria è legata a come sono selezionati dati e istruzioni che la occupano. Trattenere troppe info non in uso in cache è peggio che non averla. 
+Tipicamente si ha qualche MB di cache. 
+
+### Architettura Sandy bridge 
