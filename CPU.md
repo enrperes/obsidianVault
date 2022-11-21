@@ -83,3 +83,62 @@ L'istruzione successiva nel registro MBR viene determinata via:
 - L'uscita della ALU, se l'istruzione corrente prevede un salto condizionato dal risultato. 
 
 ## Utilizzo del ciclo di clock 
+
+2022-11-21
+## Parallelizzazione micro-operazioni (Pipelining)
+- Esecuzione istruzione macchina divisa in più **stati**, ciascuno realizzato da una micro operazione. 
+- Le micro-operazioni di ogni stadio possono essere eseguite in **parallelo** a quelle di altri stadi.
+- A ogni ciclo di clock sono eseguiti contemporaneamente più stadi. 
+> **Pipelining** velocizza il flusso di calcolo ma non i tempi di risposta. 
+
+Lunghezza tipica di una pipeline: 7-14 stadi. 
+
+1. INstruction Fetch Unit
+2. Decoder 
+	1. decodifica delle istruzioni macchina
+3. Queue 
+	1. Accodamento: riordina le istruzioni macchina diversamente (con il decoding possono venire spostate)
+4. Operands
+	1. Acquisizione di dati
+5. Exec
+	1. Segue le istruzioni macchina 
+6. Write back
+7. Memory
+
+i **Processori superscalare** eseguono più istruzioni macchina **contemporaneamente**. Quindi possiedono più pipeline operanti in  **parallelo.** La **superscalarità** migliora ulteriormente il rapporto istruzioni / cicli di clock. 
+![[Pasted image 20221121095511.png|600]]
+- Il primo stadio preleva più istruzioni dalla memoria e le instrada su più pipeline. 
+- Le istruzioni sono eseguite lungo stadi **identici** che operano in parallelo. 
+- ==***Dipendenza tra istruzioni***==  (in relazione alla dipendenza tra i dati) impedisce la conclusione di una istruzione se uno stadio finale singolo (o un sistema di controllo) termini in modo **ordinato** le istruzioni. 
+	- In un programma le istruzioni devono essere logicamente eseguite nell'ordine in cui sono state scritte. 
+	- Esecuzioni parallele non controllate portano a errori. 
+- **RAW**
+	- Read after Write
+	- `R0 = R1`
+	- `R2 = R0 + 1`
+- **WAR**
+	- Write after Read
+	- `R1 = R0 + 1`
+	- `R0 = R2`
+- **WAW**
+	- Write after Write
+	- `R0 = R1`
+	- `R0 = R2 + 1`
+
+Le dipendenze vengono rilevate mediante una **Tabella delle dipendenze** (Scoreboard). realizzata in una memoria riservata a tale scopo. Per ogni registro il processore conta gli accessi in lettura e scrittura rimasti in sospeso, dipendenti da istruzioni non terminate. 
+Le istruzioni dipendenti da istruzioni non terminate devono essere tenute in sospeso. 
+Si creano **bolle**: stadi (in una pipeline) bloccati dal completamento di stadi in altre pipeline. Bolle portano a una perdita di prestazioni. Soluzioni: 
+1. **Esecuzione fuori ordine**: si eseguono istruzioni non dipendenti
+2. **Registri ombra**: si memorizzano dati dipendenti (che fanno coda) su copie dei registri (specificati dall'istruzione) 
+3. **register renaming**: il processore alloca registri diversi da quelli specificati dall'istruzione (simile ai registri ombra)
+4. **Multi-threading**: si eseguono più programmi contemporaneamente, necessario duplicare i registri. 
+	1. **Hyper threading** ulteriore evoluzione. 
+
+### Esecuzione di salti condizionati
+Il processore impiega alcuni cicli di clock per valutare una condizione. Nel frattempo non sa se eseguire o saltare le istruzioni successive: 
+- **Stall**: La CPU non prosegue fino al completamento della valutazione della condizione. Logicamente corretto ma lento 
+- **Predizione e speculazione**: La CPU esegue istruzioni sotto condizione. L'esecuzione è annullata se la previsione si rivela errata. 
+	- **Predizione statica**: 
+		- **Semplice:** le istruzioni che seguono un salto all'indietro (dopo una condizione, si torna indietro nella pipeline) sono sempre eseguite sotto condizione. 
+		- Ogni salto condizionato è accompagnato da un suggerimento generato da un **profiler** durante la compilazione o dal programmatore. 
+		- 
