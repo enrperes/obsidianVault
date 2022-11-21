@@ -121,5 +121,8 @@ Visualizzato in una nuova linea, ogni elemento che lo segue è visualizzato su u
 # Esercizi 
 
 [[Esercizio-Input-HTML]]
+---
 [[Esercizio1-HTML-Orario]]
+---
 [[Esercizio8-HTML-Input]]
+---

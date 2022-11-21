@@ -64,6 +64,11 @@ Aggiungere prima del blocco di testo:
 \normalsize
 \small
 \tiny
+
+---
+\emph{italic text}
+\unrerline{underlined text}
+\textbf{boldtext}
 ```
 
 ---

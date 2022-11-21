@@ -50,4 +50,49 @@ Dunque $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$
 $A$ è detto **Dominio**, mentre $B$ è detto **Codominio**.
 $$f: A \to B$$
 Un'applicazione può essere descritta elencando come vengono mappati gli elementi, oppure attraverso l'esplicazione della legge che li mappa.
+>[!list]- Esempi 
+> - $f: 0 \mapsto 1$
+> 	- $f(0) = 1$
+> - $f: 1 \mapsto 2$
+> 	- $f(1)=2$
+> - $f: 2 \mapsto 3$
+> 	- $f(2) = 3$
 
+L'immagine di $A$ rispetto ad $f$ si scrive $\large f(a) = \{b \in B \; | \; \exists a \in A \;|\; f(a) = b \} \subseteq  B$  
+## Proprietà
+### Suriettività (surgettività)
+$\large f : X \to Y$ è detta suriettiva se: $$\Large \forall y \in Y \;\; \exists x \in X \;|\; f(x)=y$$
+> Una funzione si dice **suriettiva** quando ogni elemento del **codominio** è immagine di almeno un elemento del **dominio.** Si ha che l'immagine coincide con il 
+
+ovvero:
+$$\Large f(a)=B \lor \forall b \in B f^{-1}(b) \neq \emptyset$$
+![[7839874C-F0EA-4D7D-9098-5186D65E648D.png|200]] non esiste alcun elemento di $Y$ che non sia puntato da un elemento di $X$ 
+
+### Iniettività 
+$F: A \to B$ è detta invettiva se: 
+$$\Large \forall x,y \in X, f(x) = f(y) \Rightarrow x = y$$
+> Una funzione si dice **iniettiva** se due elementi distinti del codominio hanno immagini distinte. Ossia $a_1 \neq a_2$ implica $f(a_1) \neq f(a_2)$ e $a_1 = a_2$ implica $f(a_1) = f(a_2)$ 
+
+ovvero: $$\Large \forall a_1 ,a_2 \in A (a_1 = a_2 \to f(a_1) = f(a_2) \land \forall b \in f(A) \exists a \in A \; | \; f(a) = b$$
+### Biiettività (Biunivocità)
+> una funzione $f$ è detta biunivoca se e solo se è sia iniettiva sia suriettiva.
+
+## Controimmagine 
+Data $f:A \to B$ e un elemento $b \in B$, è detta *controimmagine di* $\large b$: $$\Large f(b)^{-1}=\{a \in A \; |\; f(a) = b \}$$
+> La controimmagine di un insieme è l'insieme degli elementi del dominio che vengono mandati nell'insieme dalla funzione. 
+
+## Composizione
+Siano $A, B, C$ insiemi e siano $f: A \to B$ e $g: B \to C$. La funzione $g \circ f: A \to C$ è detta "*g composto f* " ed è  definita tramite la legge: $$\Large \forall a \in A \;\; g\;  \circ f(a) = {g(f(a))}$$
+## Inversa 
+### Inversa Destra o Sezione
+Data $f: A \to B$ è detta **inversa Destra** una funzione $g: B \to A$ se vale che: $$\Large \forall b \in B \;\;\; f \circ g_{(b)} = b = id_B$$
+e $$\Large \forall a \in A \;\; g \circ f_{(a)} = a = id_A$$
+$\Large f$ ammette un'inversa Destra se e solo se è [[Analisi#Suriettività (surgettività)|suriettiva]]. 
+
+### Inversa Sinistra 
+Data $f: A \to B$ è detta **inversa sinistra** una funzione $g: B \to A$ se $$\Large \forall  a \in A \;\; g\circ f(a) = a = id_A$$
+e $$\Large \forall b \in B\;\; f\circ g(b) = b = id_B$$
+$\Large f$ ammette un'inversa Sinistra se e solo se è [[Analisi#Iniettività|iniettiva]]. 
+
+### Inversa unica
+Una funzione $f:A\to B$ biunivoca ammette un'unica Inversa Destra, che è anche l'unica Inversa Sinistra, detta: $f^{-1} : B\to A$ tale funzione vale $$\Large f \circ f^{-1} = id_B \;\;\;\;\;\;\;\;\; f^{-1}\circ f = id_A$$
