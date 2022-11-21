@@ -86,7 +86,7 @@ Creare il file:
 `touch .gitignore`
 Scrivere nel file aggiungendo le directory: 
 `echo .obsidian .trash > .gitignore`
-Con un `>` **sovrascrive** il contenuto. Con `>>` appende
+Con un `>` **sovrascrive** il contenuto. Con `>>` giustappone
 `git cat .obsidiangit` per visualizzare il contenuto del file 
 
 ----

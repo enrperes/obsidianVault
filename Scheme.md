@@ -175,9 +175,38 @@ LLCS = Lenght Longest Common Subsequence
 
 ---
 2022-11-11 
+# Liste ( $\neq$ array) 
 
-### Liste (diverse da array)
-#### Operatori:
+
+>[!tldr]+  Operatori
+>>[!example]- `(append)`
+>>Creates a single list from several, by concatenation of the item. 
+>>```scheme
+>>(append (cons 1 (cons 2 '()))) ; (list 1 2)
+>>(append) ; '()
+>>```
+>
+>
+>>[!example]- `null`
+>> lista vuota, equivalente a `(append)`
+>
+>>[!example]- `cons`
+>>Aggiunge l'elemento nella pirma posizione della lista. 
+>
+>>[!example]- `null?` 
+>>Vero o falso in base a se una lista è vuota o meno
+>
+>>[!example]- `car`
+>>Ritorna il primo elemento di una lista non vuota
+>
+>>[!example]- `cdr`
+>>Ritorna la lista **senza** il primo elemento
+
+
+
+
+
+
 **null** = lista vuota => '()
 	(null? null) => true
 	(null? '(5)) => false
