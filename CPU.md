@@ -5,26 +5,48 @@
 ## Clock 
 Un circuito di temporizzazione (clock) invia pulsi elettrici alla CPU a velocità costante (qualche miliardo di cicli al secondo). Questi impulsi guidano l'attività all'interno della CPU e altri componenti. 
 
-## Fetch-Decode-Execute
+## Istruzioni
+Tutte le CPU hanno un set di istruzioni semplici predefinite: 
+### ALU  (Arithmetic Logic Unit)
+![[6B1D0292-8837-4805-BC94-8BD5CD2802C7.png|150]] (ALU)
+Processore digitale preposto all'esecuzione di operazioni **aritmetiche** (somma, moltiplicazione) e **logiche** (and, or..) 
+Un singolo processore moderno può contenere anche più di un'ALU. 
 
+### Control Unit
+Circuito sequenziale che coordina le attività tra le parti di lavoro del processore. Suddivide ogni istruzione in una serie di azioni. Ordina ai vari sottosistemi della CPU di eseguire le azioni. (es. Ordina all ALU di moltiplicare due numeri.)
+Viene configurata dall'istruzione in esecuzione una volta caricata nell' **Instruction Register** (IR) 
+
+### Memoria
+ALU agisce direttamente sui registri. La quantità di memoria è molto limitata. Le istruzioni e i dati utilizzati di recente / spesso vengono conservati nella cache, che migliora l'efficienza. 
+
+## Fetch-Decode-Execute
+Schema di un processore: 
+![[C73F1410-9AF6-4857-987A-909691773973.png|300]]
 Il compito del processore è di eseguire il ciclo **Fetch-decode-execute** il più velocemente possibile. 
+In generale, un processore: 
+- *Fetcha* l'istruzione dalla memoria primaria
+- *decodifica* l'istruzione
+- *executes* l'istruzione
+In questo modo il processore esegue sequenzialmente istruzioni che creeranno **thread** e **processi**, sotto la supervisione del **sistema operativo** e dello **scheduler**. 
 
 ### Fetch
-Cpu carica una determinata istruzione macchina dalla memoria. 
+L'indirizzo della prima cella di memoria (contenente l'istruzione per l'esecuzione delle fasi successive del programma (lanciato dal sistema operativo)) viene inserito nel [[CPU#PC|PC]] (Program Counter). 
+La CPU carica l'istruzione dalla memoria principale (mediante *data bus*) nella [[CPU#MDR|MDR]] (Memory Data Register). Dalla MDR viene depositato nell' IR (Instruction Register), dove rimane in attesa di essere decodificata e eseguita. 
+
 ### Decode
-Determina il tipo di istruzione e i suoi argomenti
+CPU carica i dati richiesti dalla memoria principale per essere processati e depositati nei registri. Dall' IR l'istruzione viene decodificata dal [[CPU#Control Unit| Control Unit]]. Al termine, Program Counter aumenta di 1 l'indirizzo contenuto in memoria per indicare che la prossima istruzione è contenuta in una nuova cella di memoria. 
+
 ### Execute
 Carica gli argomenti, svolge le operazioni necessarie a eseguire le istruzioni, memorizza i risultati e si predispone per il ciclo successivo. 
 
-Il ciclo si ripete fino quando non si incontra un'istruzione di arresto. 
+> Il ciclo si ripete fino quando non si incontra un'istruzione di arresto. 
+
 
 ## Data path nel processore
 Il percorso fisico dei dati comprende: 
 - **registri** (memoria interna della CPU)
-- Unità aritmetica e logica (**ALU**)
+- Unità aritmetica e logica ([[CPU#ALU (Arithmetic Logic Unit)|ALU]])
 - **BUS** che collegano ALU e registri. 
-
-La **ALU** esegue le sequenze di **micro operazioni** necessarie al completamento delle istruzioni.  (Aritmetica (+, -..) o logiche (AND, OR)
 
 #### Micro-Operazioni
 (Raramente un'istruzione macchina si compone di una sola micro-operazione)
@@ -37,26 +59,32 @@ Esempi:
 Il funzionamento dei data-path viene regolato da segnali dell'**unità di controllo.**
 
 >[!hint]-  Unità di controllo 
-> circuito sequenziale che coordina più in generale il funzionamento dell'intero processore. 
-   Viene configurata dall'istruzione in esecuzione una volta caricata nell' **Instruction Register** (IR) 
+>![[CPU#Control Unit]]
 
 Le micro-operazioni possono essere realizzate in due modi: 
-- **Logica cablata**: si realizza l'hardware di un circuito sequenziale tradizionale. più complicato e costos oda realizzzare, meno flessibile ma più veloce. 
+- **Logica cablata**: si realizza l'hardware di un circuito sequenziale tradizionale con cavi e diodi. Si possono realizzare porte AND e OR ma non NOT. più complicato e costos oda realizzzare, meno flessibile ma più **veloce**. 
 - **Logica programmata** l'unità di controllo è a sua volta una *micro-architettura* capace di eseguire micro-programmi. Più semplice, economico ma più lento. 
 
 ## RISC E CISC
 ### Reduced Instruction Set Computer 
-ARM, torna ad essere competitiva negli ultimi anni. Più efficiente del 20-30%. 
+Il numero ridotto di istruzioni memorizzate nel microprocessore accelera notevolmente i tempi di elaborazione dati. Sfruttano il fatto che la maggior parte delle istruzioni per i processi sono semplici e di conseguenza veloci da eseguire. Rendendo l'architettura del processore più semplice si fa più utilizzo del software. 
+I processori ARM si basano su architetture RISC. 
+Sono più economici, efficienti del 30%, e veloci. 
+
 ### Complex Instruction Set Computer 
+Architettura CISC contiene un ampio set di istruzioni (semplici e complesse).
 x86 IA-32 Intel, motivati da compatibilità di hardware preesistente. 
+Tra i vantaggi: 
+- più facile scrivere codice assembly CISC che RISC 
+- Avendo numerose istruzioni ben definite, i linguaggi di alto livello sono più facili da programmare e implementare. 
 
 
 ## Istruzioni macchina
-
 Il programmatore sfrutta la compilazione di un programma scritto in linguaggio di alto livello (Java, C++)
 - Il **compilatore** traduce il programma sorgente ad alto livello in codice macchina che realizza la procedura da eseguire
 - L'**interprete** traduce una sequenza di istruzioni di alto livello nella corrispondente sequenza di istruzioni macchina -> *bytecode*
-==MIC== esegue le istruzioni macchina generate dal compilatore (bytecode)
+
+==MIC==: esegue le istruzioni macchina generate dal compilatore (bytecode)
 MIc è implementato dall'architettura ARM. Più frequentemente il bytecode è interpretato dalla **Java Virtual Machine** --> ==JVM==  
 La porzione di memoria principale dedicata a un programma eseguito da MIC si compone di tre parti: 
 1. Area del codice 
