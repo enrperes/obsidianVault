@@ -1,5 +1,10 @@
 2022-11-14
+[[06_processore_221115_104717.pdf]]
+
 # Schema base di un calcolatore 
+## Clock 
+Un circuito di temporizzazione (clock) invia pulsi elettrici alla CPU a velocità costante (qualche miliardo di cicli al secondo). Questi impulsi guidano l'attività all'interno della CPU e altri componenti. 
+
 ## Fetch-Decode-Execute
 
 Il compito del processore è di eseguire il ciclo **Fetch-decode-execute** il più velocemente possibile. 
@@ -149,3 +154,16 @@ L'accesso alla memoria resta un'operazione troppo lenta. Il processore deve atte
 Tipicamente si ha qualche MB di cache. 
 
 ### Architettura Sandy bridge 
+
+Intel's 32nm microarchitecture used in second generation of Intel Core (i7, i5, i3). Intel released the first Sandy Bridge processors in 2011 under the *Core* brand. 
+
+### ARM architecture 
+#### SoC:
+**System on Chip**: Ram, GPU, CPU sono integrati in un unico chip. 
+#### ARM Cortex A9
+- Progetto Acorn realizzato messo su chip da vari costruttori 
+- Core integrato in SoC
+- Implementa istruzioni macchina ARM v7
+- Strutturalamente simile al Core i7
+	- Manca lo stadio iniziale di traduzione (nasce infatti come macchina [[CPU#RISC E CISC|RISC]]) 
+

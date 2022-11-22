@@ -96,3 +96,6 @@ $\Large f$ ammette un'inversa Sinistra se e solo se è [[Analisi#Iniettività|in
 
 ### Inversa unica
 Una funzione $f:A\to B$ biunivoca ammette un'unica Inversa Destra, che è anche l'unica Inversa Sinistra, detta: $f^{-1} : B\to A$ tale funzione vale $$\Large f \circ f^{-1} = id_B \;\;\;\;\;\;\;\;\; f^{-1}\circ f = id_A$$
+## Applicazione delle funzioni
+
+#todo 
