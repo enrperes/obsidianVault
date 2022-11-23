@@ -1,4 +1,4 @@
-2022-11-14
+e2022-11-14
 [[06_processore_221115_104717.pdf]]
 
 # Schema base di un calcolatore 
