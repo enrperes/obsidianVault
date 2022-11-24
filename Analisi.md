@@ -14,7 +14,7 @@ Gli insiemi contengono **elementi** e si identificano tra parentesi graffe $\{ \
 L'appartenenza si indica con $\in$. Il numero di elementi di un insieme $A$ è detto **cardinalità** e si esprime come $|A| = n$. L'insieme vuoto è rappresentato con $\emptyset$
 
 ### Notazioni:
-1. **Elencazione:** ogni elemento è elencato e separato tramite `,` . In caso di insiemi infiniti si possono usare i `...`  e la forma dell'elemento. 
+1. **Elencazione:** ogni elemento è elencato e separato tramite $\large ,$ . In caso di insiemi infiniti si possono usare i "..." e la forma dell'elemento. 
 	- $\mathbb{N} = \{0,1,2...\}$ oppure $\mathbb{N} = \{0,1,2...n,...\}$
 2.  **Selezione**: Si evidenzia che due insiemi si prendono gli elementi *tali che* abbiano una certa proprietà: 
 	- $A = \{n \in \mathbb{N} | n$ è divisibile per $2\}$ 
@@ -74,6 +74,7 @@ $$\Large \forall x,y \in X, f(x) = f(y) \Rightarrow x = y$$
 > Una funzione si dice **iniettiva** se due elementi distinti del codominio hanno immagini distinte. Ossia $a_1 \neq a_2$ implica $f(a_1) \neq f(a_2)$ e $a_1 = a_2$ implica $f(a_1) = f(a_2)$ 
 
 ovvero: $$\Large \forall a_1 ,a_2 \in A (a_1 = a_2 \to f(a_1) = f(a_2) \land \forall b \in f(A) \exists a \in A \; | \; f(a) = b$$
+![[43B40C39-5993-49F8-9F02-11CC7DCB49E6.png|200]]
 ### Biiettività (Biunivocità)
 > una funzione $f$ è detta biunivoca se e solo se è sia iniettiva sia suriettiva.
 

@@ -29,33 +29,38 @@ Opera: `-ms-`
 >[!info]- Selettori
 >>[!example]+ Universal selector
 >>Applies to **all elements** in the documen
->>` *{}`
+>>` *{}` 
 >
 >>[!example]+ Type Selector
 >>Matches element names
->>`h1, h2, h3 {}`
+>>`h1, h2, h3 {}` -> Targets h1, h2, h3 elements. 
 >
 >>[!example]+ Class Selector
 >>Matches an element whose `class` attribute matches the one specified after the period symbol:
->>`.note{}` -> targets any element whose class attribute is `p.note{}`
+>>`.note{}` -> targets any element whose class attribute has a value of *note* 
 >
 >>[!example]+ ID Selector
 >>Matches an element whose `id` attribute has a value that matches the one specified after the hash symbol `#` 
->>`#introduction {}`
+>>`#introduction {}` -> targets all the elements whose ID attribute has a value of *introduction*
 >
 >>[!example]+ Child Selctor 
 >>Matches element that is a child of another 
 >>`li>a{}`
+>>Targets `<a>` elements that are children of `<li>` element (but NOT other `<a>` elements in the page)
 >
 >>[!example]+ Descendant Selector
 >>Matches an element that is a descendent of another specified element (NOT just a direct chihld of that element)
 >>`p a {}`
+>>Targets `<a>` elements that sit inside `<p>  element. 
 >
 >>[!example]+ Adjacent Sibling Selector
 >>Matches an element that is the next sibling of another 
 >>`h1+p {}` -> targets the first `<p>` element after any `<h1>` element but NOT other `<p>` elements! 
 >
->> 
+>>[!example]+ General Sibling Selector
+>>Matches an element that is a sibling of another. Does not have to be directly preceding element. 
+>>`h1~p{}` 
+>>With two `<p>` elements that are siblings of an `<h1>` element, this would apply to both. 
 
 ```css 
 h1, h2, h3 {font-family: Arian; color: yellow;}
@@ -70,7 +75,7 @@ If one selector is more specific than the others, the more specific rule wil tak
 #### IMPORTANT
 `!important` added after any property to indicate that it should be considered more important than others. 
 
-## Ereditarietà
+## Inheritance 
 Alcune proprietà vengono automaticamente ereditate dagli elementi figli. (`font-family:`). Altre come `background-color` non vengono ereditate.
 Si può forzare l'ereditarietà da elemento contenitore a elemento child con la proprietà `inherit` 
 ```css
@@ -127,4 +132,11 @@ Creano elementi fittizi a cui applicare proprietà personalizzate.
 ```css
 h1::first-letter {color: yellow;}
 ```
+# Color
+
+- RGB 
+- HEX 
+- Color Names
+- [[HSL]], HSV, HSB. 
+- CMYK 
 
