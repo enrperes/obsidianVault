@@ -1,6 +1,6 @@
 #todo 
 
-### Regola della somma
+### [[Regola della somma]]
 ### [[Regola-del-prodotto|Regola del prodotto]]
 ### Regola del complementare
 ### Calcolo del numero delle sequenze a elementi distinti (*disposizioni*)
@@ -8,6 +8,3 @@
 
 ---
 
-2022-11-18
-
-## Albero 
