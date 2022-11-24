@@ -1,3 +1,5 @@
+> Detto $P(n)$ un predicato su $\mathbb{N}$, il principio di induzione si basa sull'*ipotesi induttiva* che valga $P(0)$ e la verità di $P(n) \Rightarrow P(n+1)$. Se ciò è verificato, $P(n)$ vale $\forall n \in \mathbb{N}$ 
+
 ## 1. Base dell'induzione 
 > Si verifica la proprietà $\large P(n)$ sul più piccolo numero fra quelli per cui si vuole dimostrare la proprietà 
 ## 2. Passo induttivo 

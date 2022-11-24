@@ -98,4 +98,19 @@ $\Large f$ ammette un'inversa Sinistra se e solo se è [[Analisi#Iniettività|in
 Una funzione $f:A\to B$ biunivoca ammette un'unica Inversa Destra, che è anche l'unica Inversa Sinistra, detta: $f^{-1} : B\to A$ tale funzione vale $$\Large f \circ f^{-1} = id_B \;\;\;\;\;\;\;\;\; f^{-1}\circ f = id_A$$
 ## Applicazione delle funzioni
 
+### Numerazione di elementi 
+- Dati due insiemi $A$ e $B$ si dice che hanno la stessa cardinalità se $\exists g: A \to B$ biettiva. 
+- $\mathbb{N}$ ha la stessa cardinalità di $\mathbb{Z}$ e $\mathbb{Q}$ 
+- L'unione di insiemi numerabili è numerabile: 
+- $\large \bigcup_{i=0}^{\infty} \; A_i$ è numerabile $\forall i \in \mathbb{N}$ 
+
+### Principio dei cassetti 
+Se $card_{(A)} > card_{(B)}$ allora non esistono applicazioni iniettive $A \to B$. 
+$$\Large \exists x_1, x_2 \in A \; | \; x_2 \neq x_2 \land f_{x_1} = f_{x_2}$$
+# ![[Principio-Induzione]] 
+# Principio di buon ordinamento 
+> ogni sottoinsieme non vuoto di $\mathbb{N}$ ha un minimo. 
+
+# Teorema di divisione euclidea 
 #todo 
+
