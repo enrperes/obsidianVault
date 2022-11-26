@@ -60,6 +60,15 @@ Un'applicazione può essere descritta elencando come vengono mappati gli element
 
 L'immagine di $A$ rispetto ad $f$ si scrive $\large f(a) = \{b \in B \; | \; \exists a \in A \;|\; f(a) = b \} \subseteq  B$  
 ## Proprietà
+### Iniettività 
+$F: A \to B$ è detta invettiva se: 
+$$\Large \forall x,y \in X, f(x) = f(y) \Rightarrow x = y$$
+> Una funzione si dice **iniettiva** se due elementi distinti del codominio hanno immagini distinte. Ossia $a_1 \neq a_2$ implica $f(a_1) \neq f(a_2)$ e $a_1 = a_2$ implica $f(a_1) = f(a_2)$ 
+
+ovvero: $$\Large \forall a_1 ,a_2 \in A (a_1 = a_2 \to f(a_1) = f(a_2) \land \forall b \in f(A) \exists a \in A \; | \; f(a) = b$$
+![[43B40C39-5993-49F8-9F02-11CC7DCB49E6.png|200]]
+
+
 ### Suriettività (surgettività)
 $\large f : X \to Y$ è detta suriettiva se: $$\Large \forall y \in Y \;\; \exists x \in X \;|\; f(x)=y$$
 > Una funzione si dice **suriettiva** quando ogni elemento del **codominio** è immagine di almeno un elemento del **dominio.** Si ha che l'immagine coincide con il 
@@ -68,13 +77,6 @@ ovvero:
 $$\Large f(a)=B \lor \forall b \in B f^{-1}(b) \neq \emptyset$$
 ![[7839874C-F0EA-4D7D-9098-5186D65E648D.png|200]] non esiste alcun elemento di $Y$ che non sia puntato da un elemento di $X$ 
 
-### Iniettività 
-$F: A \to B$ è detta invettiva se: 
-$$\Large \forall x,y \in X, f(x) = f(y) \Rightarrow x = y$$
-> Una funzione si dice **iniettiva** se due elementi distinti del codominio hanno immagini distinte. Ossia $a_1 \neq a_2$ implica $f(a_1) \neq f(a_2)$ e $a_1 = a_2$ implica $f(a_1) = f(a_2)$ 
-
-ovvero: $$\Large \forall a_1 ,a_2 \in A (a_1 = a_2 \to f(a_1) = f(a_2) \land \forall b \in f(A) \exists a \in A \; | \; f(a) = b$$
-![[43B40C39-5993-49F8-9F02-11CC7DCB49E6.png|200]]
 ### Biiettività (Biunivocità)
 > una funzione $f$ è detta biunivoca se e solo se è sia iniettiva sia suriettiva.
 
