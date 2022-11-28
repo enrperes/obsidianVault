@@ -195,3 +195,7 @@ Intel's 32nm microarchitecture used in second generation of Intel Core (i7, i5, 
 - Strutturalamente simile al Core i7
 	- Manca lo stadio iniziale di traduzione (nasce infatti come macchina [[CPU#RISC E CISC|RISC]]) 
 
+# [[Sistema operativo]]
+
+
+
