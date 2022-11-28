@@ -14,4 +14,6 @@
 ## [[Architettura degli elaboratori-info]]
 - [ ] Primo appello 2023/01/24
 - [ ] Secondo appello 2023/02/14
-
+## ~~Inglese B1 intermedio~~
+- [x] Scritto 2022/11/09
+- [x] Orale 2022/11/28
