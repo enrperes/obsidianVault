@@ -1,7 +1,8 @@
 #materia
 # Analisi Matematica
 
-[[Analisi-info]]
+### [[Analisi-info]]
+### [[Analisi-appunti]]
 
 2022-11-18
 
