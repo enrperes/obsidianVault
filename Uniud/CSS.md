@@ -140,3 +140,20 @@ h1::first-letter {color: yellow;}
 - [[HSL]], HSV, HSB. 
 - CMYK 
 
+# Background 
+- Immagini 
+- Background color 
+- Scroll behaviour
+
+>[!question]+ Esercizio
+>Data l'immagine "uniud.jpg" nella cartella "image" e il file HTML "immagine.html"
+>Creare il file "immagine.css" da inserire nella cartella "css"
+>Per fare in modo che l'immagine di sfondo venga ripetuta per coprire l'intera finestra del browser.
+>>[!done]- Soluzione
+>>```css
+>>body{
+>>	height: 100%;
+>>	background-image: url("/images/uniud.jpg");
+>>	background-repeat: repeat; 
+>>}
+>>```
