@@ -7,10 +7,3 @@
 ---
 
 [[Collegamenti]]
-
-
-Riqualificazione aree industriali (file)
-
-
-## Educazione civica: 
-![[E.C._Arte_-Enrico_Peressin.pdf]]

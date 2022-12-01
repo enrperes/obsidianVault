@@ -4,7 +4,7 @@
 1. Chemioterapia 
 	1. Distrugge gran parte delle cellule tumorali ma anche quelle normali
 2. Target therapies
-	1. [[Schiappacassi]], cercando il gene modificato si fa un attacco mirato
+	1. [[Dott. Schiappacassi]], cercando il gene modificato si fa un attacco mirato
 3. immunoterapia
 	1. Insieme di cellule che vanno a travolgere le cellule tumorali. 
 

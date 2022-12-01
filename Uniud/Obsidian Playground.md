@@ -1,6 +1,9 @@
 #risorsa 
-[[Git]]
-[[HOME]]
+
+# [[Git]]
+# [[HOME]]
+
+
 FOOTNOTE [^1]
 
 ---
@@ -13,23 +16,26 @@ FOOTNOTE [^1]
 ##### Heading 5
 ###### Heading 6
 
-**BOLDbold** *Italic* 
+**BOLD** 
+*Italic* 
+***BOLD AND ITALIC***
 
-> Quoteeee 
-> OBsidian
+
+> Quote
+> *Lorem Ipsum ....*
+> 
+
+---
+
+# Callouts: 
 
 >[!example]+ Callout
 >Callout text 
 
 
 
-
-
-
----
-# Callouts: 
-
 https://notes.nicolevanderhoeven.com/Obsidian+Callouts
+#### Supported icons: 
 
 	-   note
 	-   abstract, summary, tldr
@@ -45,8 +51,8 @@ https://notes.nicolevanderhoeven.com/Obsidian+Callouts
 	-   quote, cite
 
 
-> [!BUG]+ test 
->  BUG!! RESOLVE BUG!! 
+> [!BUG]+ Bug Test
+>  Very important Bug
 
 >[!Attention]- ATTENTION
 > eheh

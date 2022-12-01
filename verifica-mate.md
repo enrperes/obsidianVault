@@ -1,13 +1,13 @@
 ### 02/04/2022
-- [ ] Punti di non derivabilità
-- [ ] definizione differenziale
-- [ ] Fermat
-- [ ] Rolle
-- [ ] Lagrange
-- [ ] Teorema fondamentale calcolo integrale
-- [ ] Teorema valore medio  (media integrale)
-- [ ] Calcolo volumi
-- [ ] Criteri di integrazione
-- [ ] Metodo tangente
-- [ ] Differenziali
-- [ ] Teorema Cauchy 
+- [x] Punti di non derivabilità
+- [x] definizione differenziale
+- [x] Fermat
+- [x] Rolle
+- [x] Lagrange
+- [x] Teorema fondamentale calcolo integrale
+- [x] Teorema valore medio  (media integrale)
+- [x] Calcolo volumi
+- [x] Criteri di integrazione
+- [x] Metodo tangente
+- [x] Differenziali
+- [x] Teorema Cauchy 
