@@ -62,8 +62,8 @@ $P1 \lor P2$     -    oppure
 
 ---
 ## Esame 
-Dimostrare iniettività suriettività partendo dalla funzione 
-dimostrare che se è invertibile è biiettiva. E poi calcolare la funzione inversa. 
-
-
+- [x] Dimostrare iniettività suriettività partendo dalla funzione 
+- [x] dimostrare che se è invertibile è biiettiva. E poi calcolare la funzione inversa. 
+- [ ] Combinatoria 22 dicembre 
+- [ ] 
 
