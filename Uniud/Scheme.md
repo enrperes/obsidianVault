@@ -350,4 +350,53 @@ $\large c(t+1) = cf(t)$
 
 Dimostrazione per [[Principio-Induzione|induzione]]
 
+---
 
+## Procedure con argomenti e/o valori procedurali 
+
+1. Procedure con argomenti procedurali 
+2. Procedure con valori procedurali 
+3. Procedure con argomenti e valori procedurali 
+
+**Regola di criptazione**: ad ogni lettera viene applicata la stessa regola di codifica indipendentemente dal contesto. 
+#### Cesare 
+> La regola di Giulio Cesare per la criptazione consiste nel sostituire ogni lettera del testo originale con la lettera che si trova un certo numero di posizioni più avanti nell'alfabeto. Ad esempio, se si sceglie uno spostamento di tre posizioni, la lettera "a" diventerà "d", la "b" diventerà "e" e così via. Questo metodo di criptazione è stato utilizzato da Giulio Cesare per inviare messaggi segreti ai suoi generali durante le guerre galliche.
+
+>[!done]+ Procedura con *argomenti* procedurali
+>```scheme
+>(define encryption
+>	(lambda (message rule)
+>		(if (= (string-length message)0)
+>		""
+>		(string-append
+>			(string (rule (string-ref message 0)))
+>			(encryption (substring message 1) rule)
+>			)
+>		)
+>	))
+>```
+>`(encryption "PROGRAMMAZIONE" (lambda (x) x))` cosa ritorna? 
+
+>[!done]+ Procedura con *valori* procedurali 
+>```scheme
+> (define caesar-cipher ; valore procedurale: lettera -> lettera
+> 	(lambda (rot)           ; la funzione dipende da rot: integer
+> 		(lambda letter)
+> 			(let ((c (+ (char->integer letter) rot)))
+> 				(if (> c codZ)
+> 					(integer -> char (- c 26)) ; 26 lettere dell'alfabeto 
+> 					(integer -> char c)
+> 					))
+> 			)
+> 	))
+> 	(define codA (char -> integer #\A)) ; Costante con codice ASCII per la lettera A 
+> 	(define codZ (char -> integer #\Z)) ; Costante con codice ASCII per la lettera Z
+>```
+
+>[!attention]- Esercizio 
+>Che valore assume la seguente espressione? Perchè? 
+>`(encryption (encryption "PROGRAMMAZIONE" (caesar-cipher 3)) (caesar-cipher 23))`
+>>[!tip]- Soluzione 
+>> #todo 
+
+end
