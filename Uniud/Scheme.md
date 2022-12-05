@@ -365,7 +365,7 @@ Dimostrazione per [[Principio-Induzione|induzione]]
 >[!done]+ Procedura con *argomenti* procedurali
 >```scheme
 >(define encryption
->	(lambda (message rule)
+>	(lambda (message rule)  ; rule è la procedura 
 >		(if (= (string-length message)0)
 >		""
 >		(string-append
@@ -399,4 +399,26 @@ Dimostrazione per [[Principio-Induzione|induzione]]
 >>[!tip]- Soluzione 
 >> #todo 
 
-end
+---
+2022-12-05
+
+## `map`
+
+Procedura predefinita
+`(map (lambda (x) (x+1)) '(1 2 3 4 5))` -> `(list 2 3 4 5 6)`
+Applica la stessa funzione agli argomenti di una lista, restituendo una lista con i risultati. 
+`(map plurale '("albero", "rosa"))` -> `(list "alberi" "rose")`
+
+#### Definizione di map
+
+```scheme
+(define mappa    ; val: lista di elementi in E
+  (lambda (f s)  ; f: procedura [D -> I] (da dominio a immagine). s: lista di elementi in D
+	(if (null? s)
+		'()
+		(cons (f (car s)) (mappa f (cdr s)))
+	)
+  ))
+```
+
+Cartella con prove di accertamento su sito Mirolo dmif (con soluzioni da qualche parte)
