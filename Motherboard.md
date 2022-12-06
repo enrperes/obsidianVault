@@ -29,3 +29,49 @@ Viene anche usata la protezione differenziale basata su [[Kirchhoff]].
 
 ![[Pasted image 20221205154905.png|500]]
 
+---
+
+2022-12-06
+
+### La prossimità con la CPU 
+Determina la banda passante, il costo e la flessibilità del bus. 
+- Bus locale (front-side bus): proprietario, banda elevata. 
+- Bus della cache (back-side bus): proprietario
+- Bus della memoria principale
+- Bus della scheda video (Accelerated Graphics Port (AGP))
+- Bus per specifici controllori (ISA, ATA, SCSI)
+- Bus per dispositivi esterni: USB, Thunderbolt 
+
+## Schema connessioni Core i7
+![[Pasted image 20221206110628.png|400]]
+- 2 Bus proprietari a 666MHz e 64 linee dati per connessione a due memorie DDR3 SDRAM: 20GB/s
+- 1 Bus PCIe per la connessione alla scheda grafica: 16GB/s
+- 1 Bus Direct Media Interface: bus proprietario simile a PCIe per connessione a un chipset
+
+## Accesso alla memoria
+Può avvenire in modo sincrono o asincrono 
+#todo 
+
+## Accesso alla memoria DDR3
+Parallelizzazione accessi alla memoria (**pipelining**)
+Accesso dati in 3 fasi: 
+- ACTIVATE
+	- Si prepara la lettura, una riga della matrice di celle viene preparata all'accesso 
+- READ/WRITE
+	- Si eseguono accessi multipli a singole o sequenze di parole nella riga attivata. 
+- PRECHARGE 
+	- Chiude la riga corrente e prepara la memoria a una nuova ACTIVATE
+
+La memoria DDR è divisa in banchi. Fino a 4 possono essere attivati simultaneamente. 
+
+PCI realizza un arbitraggio semplice: 
+- REQ# = segnale di richiesta 
+- GNT# = segnale di assegnazione
+^ lavorano in logica negata. 
+
+## PCI Express (PCIe)
+
+---
+
+`lsusb` comando Linux per periferiche USB 
+
