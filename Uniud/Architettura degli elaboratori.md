@@ -381,3 +381,5 @@ Distanza minima tra le coppie di codifiche valide distinte #todo ?????????????
 # [[ISA]]
 
 # [[Motherboard]]
+
+# [[Memoria fisica]]

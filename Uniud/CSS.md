@@ -157,3 +157,71 @@ h1::first-letter {color: yellow;}
 >>	background-repeat: repeat; 
 >>}
 >>```
+
+
+---
+
+2022-12-07 
+
+# Box Model
+- Dimensioni 
+- Bordi 
+- Margini 
+- Visibilità 
+- Posizione 
+
+## Padding 
+> Per aggiungere spazio di padding tra contenuto e bordo 
+> `padding` 
+> `padding-top`
+> `padding-right`
+> `padding-...`
+
+I valori sono misure di lunghezza o valori percentuali 
+
+## Bordi
+> Area tra padding e margine 
+> Rende visibile l'area costituita da contenuto e padding 
+> `border-style` , `border-top-style` 
+> - `border-width` 
+> - `border-color`
+> - `border-radius` 
+> - `border-image` definisce un bordo basato su immagine. 
+
+## Margini 
+> Spazio tra gli elementi di tipo blocco. 
+
+# `div` 
+
+```css
+div{
+	height: 400px; 
+	width: 300px;
+	background-color: red;
+}
+p {
+	height: 70%; 
+	width: 70%;
+	background-color: yellow; 
+}
+```
+
+### Limiti per design fluidi 
+```css
+td {
+min-width: 400px;
+max-width: 500px;
+min-height: 400px;
+max-height: 500px;
+}
+```
+
+##### OverFlow 
+- Visible
+- Hidden
+- Scroll 
+- Auto 
+
+
+## Floating, positioning (per esame)
+
