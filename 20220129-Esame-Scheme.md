@@ -15,5 +15,15 @@
 
 > **1.2** Utilizzando `pair` definisci in Scheme la procedura `pair-list` (utilizzando la ricorsione)
 ```scheme
-
+(define pair-list
+  (lambda (u v)
+    (if (null? u)
+        null
+        (cons (pair (car u) (car v)) (pair-list (cdr u) (cdr v))
+              )
+        )
+    )
+  )
 ```
+
+
