@@ -422,3 +422,14 @@ Applica la stessa funzione agli argomenti di una lista, restituendo una lista co
 ```
 
 Cartella con prove di accertamento su sito Mirolo dmif (con soluzioni da qualche parte)
+
+## Parity check 
+![[Pasted image 20221212131240.png|500]]
+#todo 
+
+
+
+---
+# Esercizi Esame
+
+[[20220129-Esame-Scheme]]

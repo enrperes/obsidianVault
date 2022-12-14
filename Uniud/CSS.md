@@ -141,10 +141,43 @@ h1::first-letter {color: yellow;}
 - CMYK 
 
 # Background 
-- Immagini 
+- Immagini
+	- `background-image`: proprietà che permette di aggiungere un'immagine di sfondo a qualsiasi elemento. 
+	- `background-repeat` 
+		- `repeat` = default
+		- `repeat-x` = replica orizzontalmente 
+		- `repeat-y` = replica verticalmente
+		- `no-repeat` = nessuna replica. 
+		- `background-position` permette di specififare la posizione dell'immagine di sfondo
+		- `background-attachment`: se immagine deve scrollare (`scroll`)
+		- `background-size` 
+			- `auto`
+			- `cover`
+			- `contain`
 - Background color 
-- Scroll behaviour
+	- **gradienti**
+		- `linear-gradient()` ha per argomenti la direzione in cui si sviluppa e i colori del gradiente
 
+
+# Famiglie di font
+[[Tecnologie Web#Font]]
+
+con `@font-face` si possono usare font da far scaricare agli utenti. 
+## Proprietà
+- `font-weight`
+- `font-style`
+- `font-stretch`
+## Allineamento del testo 
+`text-align` imposta l'allineamento 
+- `left`
+- `right`
+- `center`
+- `justify`
+- `vertical-align`
+- `text-indent` 
+
+
+---
 >[!question]+ Esercizio
 >Data l'immagine "uniud.jpg" nella cartella "image" e il file HTML "immagine.html"
 >Creare il file "immagine.css" da inserire nella cartella "css"
@@ -158,17 +191,16 @@ h1::first-letter {color: yellow;}
 >>}
 >>```
 
-
 ---
-
 2022-12-07 
-
 # Box Model
-- Dimensioni 
-- Bordi 
-- Margini 
-- Visibilità 
-- Posizione 
+> Ogni elemento HTML è dentro un BOX, invisibile. Con CSS si può controllare: 
+> - dimensione
+> - bordi
+> - margini
+> - visibilità
+> - posizione
+
 
 ## Padding 
 > Per aggiungere spazio di padding tra contenuto e bordo 
@@ -222,10 +254,56 @@ max-height: 500px;
 - Scroll 
 - Auto 
 
+# Posizionamento 
+> CSS consente di controllare il posizionamento degli elementi tramite due metodi: 
+> - Floating 
+> - Positioning
 
-## Floating, positioning (per esame)
+## Floating
+- Si utilizza la proprietà `float`, applicabile a tutti gli elementi. Permette di muovere l'elemento all'estrema destra (`right`) o all'estrema sinistra (`left`) dell'area del contenuto del padre. 
+- La prorietà si applica a tutto l'elemento incluso **padding, margini e bordi**. 
+- l'elemento viene inserito dentro il padding del padre, ma può uscire.
+- Proprietà non ereditata. 
+### Inline floating
+gli elementi **inline** floating si comportano come block, perchè i margini vengono visualizzati su tutti i lati e non solo a destra e sinistra. 
+### Block floating
+un elemento **blocco floating** sarà sempre ssotto gli elementi blocco che lo precedono.
+### Annullare il floating
+Per ripristinare il normale comportamento degli elementi dopo un elemento floating è necessareio utilizzare la proprietà `clear`
+`clear` si applica soo agli elementi di tipo blocco. deve essere applicata all'elemento che si vuole venga posizionato **sotto** all'elemento floating (non all'elemento floating)
+### Floating per layout a colonne: 
+`float` può essere usato per organizzare il layout di un sito in colonne. due metodi: 
+1. Rendere floating a sinistra un primo `<div>` e aggiungere un margine sinistro sufficiente a un secondo `<div>`
+2. Rendere floating a destra o a sinistra due `<div>` 
+3. rendere floating a sinistra un div e a destra un altro 
+Nella creazione di siti con layout a colonna bisogna impostare bene le dimensioni degli elementi floating (padding, bordi, margini)
 
-[posizionamento]
+## Positioning
+> consente di posizionare precisamente elementi sulla pagina
+
+`position` permette di indicare quale metodo utilizzare: 
+- `static`: default 
+- `relative`: posizionamento **relativo** rispetto al normale flusso
+	- Muove un elementi rispetto al posto che avrebbe normalmente avuto nel flusso degli elementi. Lo spazio che l'elemento avrebbe normalmente occupato viene mantenuto
+	- L'elemento nella **nuova** posizione può andare a sovrapporsi con altri elementi
+- `absolute`: posizione in modo **assoluto** rispetto al primo antenato **non statico**.
+	- Lo spazio nel flusso viene ignorato. 
+	- `absolute` fa riferimento al più vicino antenato che utilizza position con valore diverso da `static`. se non c'è antenato di questo tipo, `absolute` fa riferimento alla radice `<html>` (quindi alla finestra del browser)
+	- L'antenato può essere: 
+		- Block
+			- posizionamento viene calcolato rispetto al limite del **padding**. 
+		- Inline
+			- posizionamento calcolato rispetto all'area del contenuto.
+	- un inline con position `absolute` si comporta come un block.
+- `fixed`: posiziona in modo **fisso** rispetto alla finestra del browser. La posizione viene mantenuta anche durante lo scrolling. 
+	- La differenza con absolute è che lo spostamento degli elementi è relativo alla finestra del browser. Gli elementi posizionati restano fissi nello schermo anche durante lo scrolling. 
+
+### Sovrapposizioni
+- Gli elementi posizionati possono sovrapporsi tra di loro: `z-index` permette di modificare l'ordine di visualizzazione elementi a schermo. 
+- Default: ordine z = ordine di comparsa elementi nel codice HTML
+- Il valore di `z-index` è un intero positivo o negativo che determina l'ordine. `z-index: 1000` farà apparire l'oggetto sopra tutti. 
+
+`top, right, bottom, left` permettono di specificare l'offset dell'elemento rispetto al contenitore antenato (???)
 
 # Layout 
 %%guardare tutti i relativi esempi nel Teams.%%
