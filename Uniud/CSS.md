@@ -225,3 +225,143 @@ max-height: 500px;
 
 ## Floating, positioning (per esame)
 
+[posizionamento]
+
+# Layout 
+%%guardare tutti i relativi esempi nel Teams.%%
+
+- **Fixed**
+	> mantiene dimensioni indipendentemente dalla dimensione della finestra del browser 
+	
+	- Dimensioni degli elementi e relazioni tra elementi, allineamenti sono decisi e impostati in **pixel**. 
+	- Gli elementi venivano collocati dentro in `<div>` per distribuire spazio extra laterale equamente.
+	- Svantaggi: 
+		- Non si adatta alla dimensione della finestra che può essere più piccola o più grande. 
+		- Pensato solo per gli schermi 1024x768 pixel. 
+- **Fluid** 
+	> Le dimensioni cambiano in modo proporzionale alle dimensioni della finestra
+	
+	- La dimensione delle pagine varia dinamicamente in funzione dello **spazio**
+	- Vengono usate le percentuali per le dimensioni degli elementi, sempre in funzione delle dimensioni della finestra. 
+	- Svantaggi: 
+		- righe di testo o elementi molto lunghi o corti
+			- Si utiilzza `min-width` e `max-width` per minimizzare il problema. 
+- **Elastic** 
+	> Dimensioni del layout cambiano in modo proporzionale alla dimensione del testo. 
+	
+	- Permette di avere righe sempre della stessa lunghezza 
+	- Le dimensioni degli elementi sono impostate in **em**.
+	- Svantaggi: 
+		- Non funziona bene su contenuti non testuali. 
+- **Hybrid** 
+	> Combina aree fisse ee aree ibride
+	
+	- Ad esempio si realizzano con colonne *float* e *position*. 
+- **Flexbx**
+> il più usato 
+
+
+
+---
+
+ESAME
+
+- 1 Esercizio XML:
+	- correggere errori 
+	- oppure dato XML fare DTD oppure dire se: dati XML e DTD, i due funzionano insieme o ci sono errori. 
+- CSS
+	- solo un esercizio: fornito HTML, scrivere CSS per rispettare le regole date. 
+	- ci saranno selettori e proprietà tra le meno usate e più complicate 
+- HTML 
+	- roba di Salvati
+- JavaScript
+	- Sempre Salvati
+
+Il punteggio delle varie parti è proporzionato alle ore di lezione dei vari argomenti. (XML conta poco, CSS di più)
+
+---
+
+>[!todo]+ Esercizio: layout 2 colonne float fisso
+> - dato il file HTML "2col-float-fisso.html"
+> - Creare il file CSS per fare in modo che: 
+> 	- L'elemento con id "wrapper" abbia una larghezza fissa di 960px e sia centrato
+> 	- Gli elementi con id "header" e "footer" occupino tutta la larghezza del "wrapper"
+> 	- L'elemento "main" si estenda per 650px da sinistra 
+> 	- L'elemento "secondary" si estenda per 250px da destra
+> 	- "main" e "secondary" siano distanti 20px dai bordi del "wrapper" e tra di loro
+> - Usare le proprietà float 
+>>[!example]+ Codice HTML
+>>```html
+>><html>
+>>	<head> 
+>>		<title> Tecnologie WEB </title> 
+>>		<link href = "style.css" type "..."> 
+>>	</head> 
+>>	<body> 
+>>		<div id ="wrapper">
+>>			<div id ="header"><p>Header</p></div> 
+>>			<div id ="main">
+>>				<p> Contenuto principale </p>
+>>				<p> Loren.. </p>
+>>			  </div> 
+>>			<div id = "secondary">
+>>				<p> Articoli correlati:</p> 
+>>				<ul>
+>>					<li> LINK 1 </li>
+>>					...
+>>				</ul>
+>>			</div>
+>>			<div id = "footer"><p>Footer</p></div>
+>>		</div>
+>>	 </body>
+>></html>
+>> ```
+
+
+>[!done]- Soluzione (DA RIVEDERE!)
+> ```css
+> #wrapper{
+> 	width: 960px;
+> 	margin: auto;
+> }
+> #headers{
+> ...
+> }
+> #main{
+> 	width: 650px;
+> 	margin: 20px; 
+> 	float: left; 
+> }
+> #footer{
+> 	clear: both; 
+> }
+> #secondary{
+> 	width: 250px; 
+> 	margin: 20px;
+> 	float: right;
+> }
+> ```
+
+
+---
+>[!todo]- Esercizio: Layout 3 colonne position fisso.
+>Dato il file HTML, creare il file CSS per fare in modo che: 
+> - Layout si estenda per 960px al centro della pagina 
+> - l'elemento con id "header" occupi tutta la larghezza 
+> - Gli elementi "navigation" e "secondary" occupino 200px in larghezza 
+> - L'elemento "main" occupi 530px e stia al centro
+> - Gli spazi tra le colonne siano uniformi
+> - Non ci siano spazi tra le colonne e il limite del layout 
+> - Si usi la proprietà `position`
+> 
+
+>[!example]- Codice HTML:
+
+```html
+<body>
+	<div id = "wrapper">
+		<div id = header">
+```
+
+## Grid Framework 
+- Usati per semplificare la creazione di layout a griglia 
