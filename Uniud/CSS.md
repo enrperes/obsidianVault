@@ -368,60 +368,16 @@ Il punteggio delle varie parti è proporzionato alle ore di lezione dei vari arg
 > 	- L'elemento "secondary" si estenda per 250px da destra
 > 	- "main" e "secondary" siano distanti 20px dai bordi del "wrapper" e tra di loro
 > - Usare le proprietà float 
+> 
 >>[!example]+ Codice HTML
->>```html
->><html>
->>	<head> 
->>		<title> Tecnologie WEB </title> 
->>		<link href = "style.css" type "..."> 
->>	</head> 
->>	<body> 
->>		<div id ="wrapper">
->>			<div id ="header"><p>Header</p></div> 
->>			<div id ="main">
->>				<p> Contenuto principale </p>
->>				<p> Loren.. </p>
->>			  </div> 
->>			<div id = "secondary">
->>				<p> Articoli correlati:</p> 
->>				<ul>
->>					<li> LINK 1 </li>
->>					...
->>				</ul>
->>			</div>
->>			<div id = "footer"><p>Footer</p></div>
->>		</div>
->>	 </body>
->></html>
->> ```
-
-
->[!done]- Soluzione (DA RIVEDERE!)
-> ```css
-> #wrapper{
-> 	width: 960px;
-> 	margin: auto;
-> }
-> #headers{
-> ...
-> }
-> #main{
-> 	width: 650px;
-> 	margin: 20px; 
-> 	float: left; 
-> }
-> #footer{
-> 	clear: both; 
-> }
-> #secondary{
-> 	width: 250px; 
-> 	margin: 20px;
-> 	float: right;
-> }
-> ```
+>>![[HTML-esercizio-layout2colfloatfixed]]
+>
+>>[!done]- Soluzione (DA RIVEDERE!)
+>> ![[CSS-esercizio-layout2colfloafixed]]
 
 
 ---
+#todo 
 >[!todo]- Esercizio: Layout 3 colonne position fisso.
 >Dato il file HTML, creare il file CSS per fare in modo che: 
 > - Layout si estenda per 960px al centro della pagina 
