@@ -1,3 +1,7 @@
+
+>[!bug]- Set permission to read/write in serial port: 
+> `sudo chmod a+rw /dev/ttyACM0`
+
 ```cpp
 // Define the pins that the LED is connected to
 const int redPin = 11;

@@ -443,3 +443,111 @@ Il punteggio delle varie parti è proporzionato alle ore di lezione dei vari arg
 
 ## Grid Framework 
 - Usati per semplificare la creazione di layout a griglia 
+
+## Viewport 
+```css
+<meta name = "viewport" content = "width=device-width, initial-scale = 1"> 
+```
+
+
+# Media query 
+> direttive CSS per specificare regole da applicare in particolari condizioni relative ai media.
+
+`@media` seguito dal tipo di media e espressioni con condizioni. 
+Le media query possono essere specificate nel file CSS o con l'attributo `media` nel tag `<link>` 
+
+```css
+@media screen and (min-width: 400px){
+/* regole di stile */
+}
+```
+```html
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css" media ="screen and (min-width:800px)">
+</head>
+```
+
+I tipi di **media** specificabili sono: 
+- `all` = tutti i dispositivi
+- `screen` = schermo del computer, tablet, smartphone
+- `print` = pagina stampata
+- `speech` = sintesi vocale 
+Alcune caratteristiche comuni: 
+- `min-width`
+- `max-widh`
+- `orientation`
+- `aspect-ratio`
+### Mobile first
+> Strategia diffusa recentemente che prioritizza i dispositivi mobile. 
+
+- Vengono scritte le regole CSS pensando ai dispositivi mobile
+- Con le media query si scrivono le regole per le eccezioni
+- Si usa min-width per specificare quali proprietà si applicheranno ai viewport con risoluzione alta 
+Al contrario, l'approccio **desktop down**: usando max-width
+
+# FlexBox
+`display:flex` serve a definire un contenitore flessibile. I figli diretti di un contenitore flex diventano automatiamente elementi **flex**. 
+### Proprietà
+- `flex-direction` determina la direzione in cui disporre gli elementi 
+	- column: dispone in verticale
+	- column-reverse dispone in vertiale (basso-alto)
+	- row: dispone in orizzontale
+	- row-reverse: orizzontae (destra-sinistra)
+- `flex-wrap` determina se gli elementi possono andare a capo
+	- wrap fa andare a capo
+	- no-wrap impedisce di andare a capo, schiaccia
+	- wrap-reverse fa andare a capo in ordine inverso. 
+- `flex-flow` permette di specificare sia direzione che a capo. 
+- `justify-content` serve per la disposizione sulla direzione principale:
+	- center dispone al centro
+	- flex-start dispone all'inizio del contenitore
+	- flex-end dispone alla fine del contenitore 
+	- space-arount mette spazio prima, dopo e tra gli elementi
+	- space-between mette spazio tra gli elementi 
+- `align-items` serve ad allineare rispetto alla direzione secndaria
+	- center allinea al centro
+	- flex-start allinea all'inizio 
+	- flex-end allinea alla fine 
+	- stretch riempie il contenitore 
+	- baeline alinea rispetto alla baseline del testo all'interno del box 
+- `align-content`
+
+---
+
+![[Pasted image 202 21215121106.png|400]]
+![[Pasted image 20221215121143.png|400]]
+soluzione punto a: 
+
+```css
+body{
+	display: flex; 
+	flex-direction: low; 
+	flex-wrap: wrap;
+}
+```
+
+---
+- Utilizzare font Arial o Helvetica o, in assenza, un altro font sans-seriff per gli elementi "p" della classe "note"
+```css
+p.note{
+font-family: arial, helvetica, sans-seriff; 
+}
+```
+
+- Applicare il grassetto all'ultimo elemento `<li>` della lista `<ol>` 
+```css
+ol>li:last-child { /* figlio di tipo li delle liste ol*/
+	font-weight: bold; 
+}
+```
+
+- Evidenziare con sfondo giallo gli elementi "a" quando passa sopra il mouse
+```css
+a:hover{
+background-color: yellow;
+}
+```
+
+
+
