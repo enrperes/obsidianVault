@@ -199,6 +199,7 @@ Formula:
 ## $$ f(x) = a_0 + \sum_{n=1}^{\infty} (a_n cos \dfrac{n \pi x}{T} + b_n sin \dfrac {n\pi x}{T})$$
 ![[7CD31827-7882-405B-9157-ECCF52C15BDF.jpeg|500]]
 
+
 ##### Trasformata di Fourier 
 Consente di calcolare diverse componenti delle onde sinusoidali di un segnale. 
 > Permette di trasformare un segnale nel dominio del tempo in segnale nel dominio delle frequenze 
