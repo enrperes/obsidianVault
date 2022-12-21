@@ -75,6 +75,11 @@ Aggiungere prima del blocco di testo:
 \emph{italic text}
 \unrerline{underlined text}
 \textbf{boldtext}
+
+---
+
+{3\choose 4} -> binomial coeff
+
 ```
 
 ---
