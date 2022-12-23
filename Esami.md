@@ -1,7 +1,7 @@
 ## [[Elementi di matematica e algebra lineare-info]]
 - [x] Parziale 2022/11/10 
-- [ ] Parziale 2022/12/01
-- [ ] Parziale 2022/12/22
+- [x] Parziale 2022/12/01
+- [x] Parziale 2022/12/22
 - [ ] Orale 2023/02/16
 ## [[Programmazione e laboratorio-info]]
 - [ ] Prima prova scritta 2023/01/19
