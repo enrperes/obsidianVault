@@ -1,6 +1,4 @@
-# [[CSS.pdf]]
-
-
+ ![[CSS.pdf]]
 # CSS3
 Ultimo standard (retro-compatibile) 
 [Proprietà introdotte con CSS3](https://meiert.com/en/indices/css-properties/)
