@@ -1,0 +1,1 @@
+![[esercizio8scheme.pdf]]
