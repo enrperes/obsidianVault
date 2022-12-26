@@ -417,3 +417,4 @@ Raccolta, misura, analisi, interpretazione di dati relativi all'uso del sito.
 # [[HTML5]]
 # [[CSS]]
 
+# [[JavaScript]]
