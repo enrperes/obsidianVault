@@ -14,12 +14,16 @@
 2022-10-12 10:37
 [[Internet - Parte 2.pdf]]
 
-Internet è un sistema di reti di calcolatori (rete di reti)
+Internet è un sistema di reti di calcolatori (rete di reti) [^rdc]
 I dispositivi che si connettono a internet sono detti Host (ospiti) o *end system* (sistemi periferici)
 I sistemi periferici sono connessi tramite una rete di collegamenti (communication link) e commutatori di pacchetti (**packet switch**). 
+Quindi: 
+- **Router:** collega reti e determina il percorso migliore per i pacchetti 
+- **Switch**: collega dispositivi per creare una rete locale. 
 
 I dati da scambiare sono divisi in sottoparti con un'intestazione: **pacchetti**
 
+[^rdc]: Una rete di calcolatori è un insieme di nodi (sistemi) e linee di comunicazione che li connettono. 
 
 ### Livelli di applicazione 
 #### Applicazione di rete 
