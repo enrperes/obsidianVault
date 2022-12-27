@@ -1,0 +1,2 @@
+![[esercizio9scheme.pdf]]
+

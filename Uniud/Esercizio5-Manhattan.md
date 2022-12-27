@@ -1,3 +1,5 @@
+[[esercizio5scheme.pdf]]
+
 Generalizzazione del problema dei percordsi di Manhattan in spazio tridimensionale. 
 > In quanti modi diversi si può andare dal punto **A** al punto **B** senza allungare inutilmente il percorso? 
 

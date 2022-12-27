@@ -1,8 +1,5 @@
 {
 	"nodes":[
-		{"id":"e638b91834350ba4","x":-980,"y":-622,"width":771,"height":443,"type":"file","file":"Esami.md"},
-		{"id":"45d8a930b7266f0c","x":-79,"y":-1093,"width":597,"height":693,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/"},
-		{"id":"dcaeb89942ed3ef1","x":-440,"y":280,"width":1989,"height":1783,"color":"6","type":"group","label":"Programmazione"},
 		{"id":"d396c8dea3d51428","x":504,"y":919,"width":573,"height":93,"color":"1","type":"text","text":"# Programmazione e laboratorio\n"},
 		{"id":"859f1311d869a644","x":504,"y":1088,"width":250,"height":37,"type":"text","text":"## Primo semestre\n"},
 		{"id":"55a33879851a42e0","x":733,"y":838,"width":116,"height":50,"color":"6","type":"text","text":"Risorse\n"},
@@ -11,18 +8,20 @@
 		{"id":"c83d57c0e2cda09e","x":799,"y":1271,"width":230,"height":131,"color":"3","type":"text","text":"## Secondo parziale\n### xx/xx/2023"},
 		{"id":"d0fef56c9ae5e83f","x":1049,"y":1271,"width":230,"height":184,"color":"3","type":"text","text":"## Prova di laboratorio\n- Discussione codice laboratorio\n"},
 		{"id":"f87dad5c92acb7a6","x":1299,"y":1271,"width":230,"height":131,"color":"3","type":"text","text":"## Esame orale\n#todo \n"},
-		{"id":"e8a001fe9b59dd78","x":-313,"y":1434,"width":418,"height":606,"color":"6","type":"file","file":"Uniud/esameScheme122022.pdf"},
-		{"id":"c800cf6fbee77342","x":229,"y":323,"width":550,"height":400,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/programmazione-e-laboratorio/"},
-		{"id":"da5276210a66cd76","x":-420,"y":1159,"width":316,"height":63,"color":"6","type":"text","text":"- Appunti cartacei ammessi\n- No calcolatrici o computer"},
-		{"id":"45f5aa9e1e257ec3","x":198,"y":1434,"width":535,"height":609,"color":"6","type":"file","file":"Scheme_Primo_semestre.md"},
-		{"id":"41895abf1fb3f91b","x":71,"y":1125,"width":230,"height":131,"color":"3","type":"text","text":"## Primo parziale\n### 16/01/2023"},
-		{"id":"1ff5848e9723b989","x":-4120,"y":-2000,"width":979,"height":80,"color":"1","type":"text","text":"# Tecnologie WEB "},
 		{"id":"727ac56727c861b5","x":-2480,"y":280,"width":1955,"height":1167,"color":"4","type":"group","label":"Algebra Lineare"},
 		{"id":"5bdeb6efba32f3e2","x":-2460,"y":366,"width":498,"height":404,"type":"file","file":"Uniud/Elementi di matematica e algebra lineare-info.md"},
 		{"id":"85528da27d7a950b","x":-2460,"y":939,"width":498,"height":449,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/elementi-di-matematica-e-algebra-lineare/"},
 		{"id":"ea524680af5e6d08","x":-1913,"y":848,"width":385,"height":540,"type":"text","text":"### Insiemi\n- Notazioni, operazioni, Pow(A), partizioni, prodotto cartesiano\n### Logica proposizionale\n- Tavole di verità \n- Equivalenza logica, conseguenza logica\n### Logica predicativa \n- Traduzioni da linguaggio naturale e viceversa\n- Negazione di una formula e semplificazione\n### Relazioni di equivalenza\n- Classi di equivalenza e insiemi di rappresentanti "},
 		{"id":"821ee47c893412d0","x":-1908,"y":1392,"width":96,"height":29,"color":"2","type":"text","text":"21/30"},
 		{"id":"b6a4860c2e321471","x":-1752,"y":300,"width":754,"height":66,"color":"1","type":"text","text":"# Elementi di matematica e algebra lineare\n"},
+		{"id":"5d3127076e4568f5","x":-1508,"y":848,"width":318,"height":380,"type":"text","text":"### Funzioni \n- Iniettività, suriettività, biunivocità \n- Funzioni composte \n- Funzione identità \n- Funzioni invertibili\n### Principio di induzione\n- Dimostrazioni (con sommatorie, uguaglianze, disequazioni, divisibilità...)\n- Principio di gauss"},
+		{"id":"936fee4105c19d76","x":-880,"y":720,"width":250,"height":60,"color":"5","type":"text","text":"## 13 gennaio\n"},
+		{"id":"dcaeb89942ed3ef1","x":-440,"y":280,"width":1989,"height":1783,"color":"6","type":"group","label":"Programmazione"},
+		{"id":"e8a001fe9b59dd78","x":-313,"y":1434,"width":418,"height":606,"color":"6","type":"file","file":"Uniud/esameScheme122022.pdf"},
+		{"id":"c800cf6fbee77342","x":229,"y":323,"width":550,"height":400,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/programmazione-e-laboratorio/"},
+		{"id":"da5276210a66cd76","x":-420,"y":1159,"width":316,"height":63,"color":"6","type":"text","text":"- Appunti cartacei ammessi\n- No calcolatrici o computer"},
+		{"id":"45f5aa9e1e257ec3","x":198,"y":1434,"width":535,"height":609,"color":"6","type":"file","file":"Scheme_Primo_semestre.md"},
+		{"id":"41895abf1fb3f91b","x":71,"y":1125,"width":230,"height":131,"color":"3","type":"text","text":"## Primo parziale\n### 16/01/2023"},
 		{"id":"f0cd45469cb7a98b","x":-795,"y":848,"width":250,"height":126,"type":"text","text":"### Divisibilità \n#todo "},
 		{"id":"1b0810be3778e617","x":-1503,"y":1232,"width":128,"height":29,"color":"2","type":"text","text":"14/30 :("},
 		{"id":"f4286a0c5171d36f","x":-1165,"y":1104,"width":98,"height":29,"color":"2","type":"text","text":"xx/30"},
@@ -35,8 +34,9 @@
 		{"id":"06042f6190799b1b","x":-1170,"y":848,"width":355,"height":252,"type":"text","text":"### Combinatoria\n- Permutazioni semplici e con ripetizione\n- Disposizioni semplici e con ripetizione\n- Combinazioni semplici e con ripetizione\n"},
 		{"id":"f8b8501180f1348a","x":-1690,"y":720,"width":250,"height":60,"color":"5","type":"text","text":"## 10 novembre"},
 		{"id":"b51ca102977cf720","x":-1620,"y":498,"width":112,"height":50,"color":"6","type":"text","text":"**Risorse**"},
-		{"id":"5d3127076e4568f5","x":-1508,"y":848,"width":318,"height":380,"type":"text","text":"### Funzioni \n- Iniettività, suriettività, biunivocità \n- Funzioni composte \n- Funzione identità \n- Funzioni invertibili\n### Principio di induzione\n- Dimostrazioni (con sommatorie, uguaglianze, disequazioni, divisibilità...)\n- Principio di gauss"},
-		{"id":"936fee4105c19d76","x":-880,"y":720,"width":250,"height":60,"color":"5","type":"text","text":"## 13 gennaio\n"}
+		{"id":"e638b91834350ba4","x":-1316,"y":-559,"width":771,"height":821,"type":"file","file":"Esami.md"},
+		{"id":"45d8a930b7266f0c","x":-504,"y":-495,"width":597,"height":693,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/"},
+		{"id":"4839ad5c7fabc7ef","x":-1900,"y":-286,"width":485,"height":162,"type":"text","text":" \n1. [ ] Parziale algebra **13 Gennaio**\n2. [ ] Tecnologie Web **16 Gennaio**\n3. [ ] Programmazione e laboratorio **19 Gennaio**\n4. [ ] Architettura elaboratori **24 Gennaio**\n5. [ ] Analisi **6 febbraio** "}
 	],
 	"edges":[
 		{"id":"207c83431ce9838c","fromNode":"421aed98a1b9155c","fromSide":"bottom","toNode":"99576eb50bf6dcd2","toSide":"top"},
@@ -65,6 +65,7 @@
 		{"id":"349dafd19a687c88","fromNode":"41895abf1fb3f91b","fromSide":"left","toNode":"da5276210a66cd76","toSide":"right"},
 		{"id":"2489345f1a352e71","fromNode":"55a33879851a42e0","fromSide":"top","toNode":"c800cf6fbee77342","toSide":"bottom"},
 		{"id":"5873c7add8f00b42","fromNode":"55a33879851a42e0","fromSide":"top","toNode":"2840e0536abdf66f","toSide":"bottom"},
-		{"id":"7431d286215afc14","fromNode":"d396c8dea3d51428","fromSide":"top","toNode":"55a33879851a42e0","toSide":"bottom"}
+		{"id":"7431d286215afc14","fromNode":"d396c8dea3d51428","fromSide":"top","toNode":"55a33879851a42e0","toSide":"bottom"},
+		{"id":"9b57eb2bf56c0a75","fromNode":"e638b91834350ba4","fromSide":"left","toNode":"4839ad5c7fabc7ef","toSide":"right"}
 	]
 }

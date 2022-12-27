@@ -1,7 +1,4 @@
 ###  [[Programmazione e laboratorio-info]]
-### [[Programmazione e laboratorio-pdf]]
-
-
 # [[Laboratorio-Scheme]]
 
 # Scheme $\lambda$

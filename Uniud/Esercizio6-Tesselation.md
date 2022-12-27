@@ -1,3 +1,4 @@
+[[esercizio6scheme.pdf]]
 > `L-tesselation` restituisce l'immagine della regione tassellata dato in input la lunghezza del lato piìù corto della regione da coprire (si assume sia potenza di due)
 
 ![[tessellation.png|500]]
