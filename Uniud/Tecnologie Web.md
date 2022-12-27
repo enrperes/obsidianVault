@@ -1,25 +1,16 @@
 
----
-cssclass: list-lines
----
-
-### [[Tecnologie Web-info]]
+##### [[Tecnologie Web-info]]
 
 ---
-
-
 
 # [[Etica&Tecnologia]]
+# [[Internet-UD]]
+ # [[XML]]
+ # [[HTML5]]
+ # [[CSS]]
+ # [[JavaScript]]
  
 ---
-[[Internet-UD]]
-# [[Internet]]
-
-
-
-
----
-
 
 # Risorse Multimediali - Parte 1
 2022-10-20 10:30
