@@ -52,6 +52,7 @@ Un audio digitale è ottenuto partendo da un segnale analogico attraverso le fas
 
 ##### Campionamento
 > discretizzazione del ==segnale== analogico nel tempo. 
+> Secondo il teorema di **Nyquist-Shannon**, la frequenza di campionamento deve essere almeno il doppio di quella da campionare, per non avere una perdita di segnale. 
 
 ![[FAD9FB1F-171D-4BAB-BB24-B3A2C3600804.jpeg|500]]
 ###### Aliasing 

@@ -27,7 +27,7 @@ non 8 perchè i primi 32 codici numerici sono per i caratteri di controllo:
 Unicode Transformation Format è la codifica principale di **Unicode** per internet e W3C. 
 Assegna un numero univoco ad ogni carattere usato per la scrittura di testi. 
 www.home.unicode.org
-Usa da **1 a 6 byte** per rappresentare un carattere.  è retrocompatibile con la codifica ASCII 
+Usa da **1 a 4 byte** per rappresentare un carattere.  è retrocompatibile con la codifica ASCII 
 UTF-8: 127 caratteri (ASCII standard)
 UTF-16: 2^11 caratteri (estensioni ASCII, alcuni ideogrammi)
 I primi 128 sono lo standard ASCII.
