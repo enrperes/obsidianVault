@@ -5,7 +5,13 @@
 https://rogerdudler.github.io/git-guide/
 
 
-
+## Auth:
+Le password sono deprecate; usare **GCM** (https://github.com/GitCredentialManager/git-credential-manager/releases/tag/v2.0.886)
+1. scaricare il file `.deb` dal link sopra 
+2. `sudo dpkg -i [path-to-file]` 
+3. `git-credential-manager configure`
+4. Al prossimo comando `git push` si aprirà la schermata di login 
+5. Done
 ____
  
 ## Git basics
@@ -90,7 +96,8 @@ Con un `>` **sovrascrive** il contenuto. Con `>>` giustappone
 `git cat .obsidiangit` per visualizzare il contenuto del file 
 
 ----
-In caso di problemi: 
+# In caso di problemi: 
+
 	`git reset --hard`
 	`git pull`
 	

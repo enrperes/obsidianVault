@@ -18,6 +18,7 @@
 ### [[Video]]
 ---
 ## Web development
+[[Modello di un Sito Web.pdf]]
 ### [[Web dev]]
 ## [[XML]]
 ## [[HTML5]]
