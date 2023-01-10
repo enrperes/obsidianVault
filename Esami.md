@@ -10,8 +10,8 @@
 ## [[Analisi-info]]
 - [ ] Parziale 1/2 2023/02/06
 ## [[Tecnologie Web-info]]
-- [ ] Primo appello 2023/01/16
-- [ ] Secondo appello 2023/02/18
+- [ ] Primo appello 2023/01/18
+- [ ] Secondo appello 2023/02/08
 ## [[Architettura degli elaboratori-info]]
 - [ ] Primo appello 2023/01/24
 - [ ] Secondo appello 2023/02/14

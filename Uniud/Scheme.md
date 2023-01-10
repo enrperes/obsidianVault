@@ -1,7 +1,7 @@
 ###  [[Programmazione e laboratorio-info]]
 # [[Laboratorio-Scheme]]
-
 # Scheme $\lambda$
+https://it.wikipedia.org/wiki/Scheme
 
 >[!tldr]+  Documentation: 
 >>[!example]- `(define)`
