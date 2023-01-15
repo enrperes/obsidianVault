@@ -15,10 +15,7 @@
 		{"id":"1b0810be3778e617","x":-4845,"y":2156,"width":128,"height":29,"color":"2","type":"text","text":"14/30 :("},
 		{"id":"f4286a0c5171d36f","x":-4507,"y":2028,"width":98,"height":30,"color":"2","type":"text","text":"20/30"},
 		{"id":"1b042c01ddfe2643","x":-4132,"y":1902,"width":98,"height":29,"color":"2","type":"text","text":"xx/30"},
-		{"id":"4839ad5c7fabc7ef","x":-2236,"y":-82,"width":815,"height":186,"type":"text","text":" \n1. [ ] Parziale algebra **13 Gennaio**\n2. [ ] Tecnologie Web **18 Gennaio**  **08 Febbraio**\n3. [ ] Programmazione e laboratorio **19 Gennaio**\n4. [ ] Architettura elaboratori ~~**24 Gennaio**~~ **14 Febbraio**\n5. [ ] Analisi **6 febbraio** "},
-		{"id":"e638b91834350ba4","x":-1316,"y":-559,"width":771,"height":821,"type":"file","file":"Esami.md"},
 		{"id":"45d8a930b7266f0c","x":-453,"y":-1027,"width":597,"height":693,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/"},
-		{"id":"727ac56727c861b5","x":-2480,"y":280,"width":1955,"height":1167,"color":"4","type":"group","label":"Algebra Lineare"},
 		{"id":"5d3127076e4568f5","x":-1508,"y":848,"width":318,"height":380,"type":"text","text":"### Funzioni \n- Iniettività, suriettività, biunivocità \n- Funzioni composte \n- Funzione identità \n- Funzioni invertibili\n### Principio di induzione\n- Dimostrazioni (con sommatorie, uguaglianze, disequazioni, divisibilità...)\n- Principio di gauss"},
 		{"id":"06042f6190799b1b","x":-1170,"y":848,"width":355,"height":252,"type":"text","text":"### Combinatoria\n- Permutazioni semplici e con ripetizione\n- Disposizioni semplici e con ripetizione\n- Combinazioni semplici e con ripetizione\n"},
 		{"id":"dde590bc709860fd","x":-992,"y":498,"width":250,"height":126,"color":"3","type":"text","text":"## Scritto completo\n\n### 10/02/2023"},
@@ -33,10 +30,13 @@
 		{"id":"85528da27d7a950b","x":-2460,"y":939,"width":498,"height":449,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/elementi-di-matematica-e-algebra-lineare/"},
 		{"id":"e8a001fe9b59dd78","x":-398,"y":1434,"width":418,"height":606,"color":"6","type":"file","file":"Uniud/esameScheme122022.pdf"},
 		{"id":"da5276210a66cd76","x":-505,"y":1159,"width":316,"height":63,"color":"6","type":"text","text":"- Appunti cartacei ammessi\n- No calcolatrici o computer"},
-		{"id":"b6a4860c2e321471","x":-1869,"y":300,"width":732,"height":66,"color":"1","type":"text","text":"# Elementi di matematica e algebra lineare\n"},
 		{"id":"f8b8501180f1348a","x":-1690,"y":720,"width":250,"height":60,"color":"5","type":"text","text":"## 10 novembre"},
+		{"id":"ea524680af5e6d08","x":-1922,"y":848,"width":385,"height":540,"type":"text","text":"### Insiemi\n- Notazioni, operazioni, Pow(A), partizioni, prodotto cartesiano\n### Logica proposizionale\n- Tavole di verità \n- Equivalenza logica, conseguenza logica\n### Logica predicativa \n- Traduzioni da linguaggio naturale e viceversa\n- Negazione di una formula e semplificazione\n### Relazioni di equivalenza\n- Classi di equivalenza e insiemi di rappresentanti "},
+		{"id":"e638b91834350ba4","x":-1316,"y":-559,"width":771,"height":821,"type":"file","file":"Esami.md"},
+		{"id":"727ac56727c861b5","x":-2480,"y":280,"width":1955,"height":1167,"color":"4","type":"group","label":"Algebra Lineare"},
+		{"id":"b6a4860c2e321471","x":-1869,"y":300,"width":732,"height":66,"color":"1","type":"text","text":"# Elementi di matematica e algebra lineare\n"},
 		{"id":"5bdeb6efba32f3e2","x":-2460,"y":366,"width":498,"height":404,"type":"file","file":"Uniud/Elementi di matematica e algebra lineare-info.md"},
-		{"id":"ea524680af5e6d08","x":-1922,"y":848,"width":385,"height":540,"type":"text","text":"### Insiemi\n- Notazioni, operazioni, Pow(A), partizioni, prodotto cartesiano\n### Logica proposizionale\n- Tavole di verità \n- Equivalenza logica, conseguenza logica\n### Logica predicativa \n- Traduzioni da linguaggio naturale e viceversa\n- Negazione di una formula e semplificazione\n### Relazioni di equivalenza\n- Classi di equivalenza e insiemi di rappresentanti "}
+		{"id":"4839ad5c7fabc7ef","x":-2312,"y":-346,"width":815,"height":297,"type":"text","text":" \n1. [ ] Parziale algebra **13 Gennaio**\n2. [ ] Tecnologie Web **18 Gennaio**  **08 Febbraio**\n3. [ ] Programmazione e laboratorio **19 Gennaio**\n4. [ ] Architettura elaboratori ~~**24 Gennaio**~~ **14 Febbraio**\n5. [ ] Analisi **6 febbraio** \n6. [ ] Orale algebra lineaere **16 Febbraio**\n"}
 	],
 	"edges":[
 		{"id":"207c83431ce9838c","fromNode":"421aed98a1b9155c","fromSide":"bottom","toNode":"99576eb50bf6dcd2","toSide":"top"},
