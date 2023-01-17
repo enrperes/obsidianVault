@@ -1,7 +1,17 @@
 ###  [[Programmazione e laboratorio-info]]
 # [[Laboratorio-Scheme]]
 # Scheme $\lambda$
-https://it.wikipedia.org/wiki/Scheme
+
+>[!info]- LINKs
+> - https://gustavus.edu/mcs/max/concrete-abstractions-pdfs/index.html
+> 	- *Concrete Abstractions* book
+> - https://gustavus.edu/mcs/max/concabs/code/
+> 	- code for the book
+> 
+> - [Lezioni](http://users.dimi.uniud.it/~claudio.mirolo/teaching/programmazione/pages/lectures.txt)
+> - https://it.wikipedia.org/wiki/Scheme
+
+---
 
 >[!tldr]+  Documentation: 
 >>[!example]- `(define)`

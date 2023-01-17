@@ -340,18 +340,18 @@ Nella creazione di siti con layout a colonna bisogna impostare bene le dimension
 
 ---
 
-ESAME
+#### **ESAME**
 
-- 1 Esercizio XML:
+- Un esercizio **XML**:
 	- correggere errori 
-	- oppure dato XML fare DTD oppure dire se: dati XML e DTD, i due funzionano insieme o ci sono errori. 
-- CSS
+	- oppure: dato XML fare DTD; oppure dire se: dati XML e DTD, i due funzionano insieme o ci sono errori. 
+- **CSS**
 	- solo un esercizio: fornito HTML, scrivere CSS per rispettare le regole date. 
 	- ci saranno selettori e proprietà tra le meno usate e più complicate 
-- HTML 
-	- roba di Salvati
-- JavaScript
-	- Sempre Salvati
+- **HTML** 
+	- Salvati si inventerà qualche esercizio 
+- **JavaScript**
+	- Altri misteri di Salvati 
 
 Il punteggio delle varie parti è proporzionato alle ore di lezione dei vari argomenti. (XML conta poco, CSS di più)
 
