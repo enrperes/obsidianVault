@@ -45,7 +45,7 @@ i ==commenti== hanno la forma: `<!-- commento --> `
 - I valori degli attributi sono delimitati da apici o doppi apici 
 - Un elemento non può avere due attributi con lo stesso nome
 - Gli elementi sono correttamente annidati
-- **C'è un solo** "elemento radice"
+- **C'è un solo** "==elemento radice=="
 	- Radice = primo elemento del documento 
 	- Rami = sottoelementi che hanno elementi figli 
 	- Foglie = elementi che non contengono altri elementi 

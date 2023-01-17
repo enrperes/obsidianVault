@@ -90,7 +90,7 @@ Visualizzato in una nuova linea, ogni elemento che lo segue è visualizzato su u
 - `<section>`
 - `<table>`
 - `<p>`
-- `<header>
+- `<header>`
 #### In linea 
 [...]
 
