@@ -18,7 +18,7 @@ I Programmi e i dati risiedono nella memoria principale (RAM). In caso di inatti
 I *programmi applicativi* sono sotto il controllo del sistema operativo durante la loro esecuzione, per garantire un utilizzo delle risorse efficiente. 
 
 #### Macchine virtuali 
-Il computer viene visto come un astratificazione di *livelli*. Ciascun livello fors isce delle funzionalità di calcolo. Le *macchine virtuali*  forniscono una serie di funzionalità ulteriori. 
+Il computer viene visto come un astratificazione di *livelli*. Ciascun livello fornisce delle funzionalità di calcolo. Le *macchine virtuali*  forniscono una serie di funzionalità ulteriori. 
 ![[Pasted image 20220930112436.png|300]]
 
 ### Storia dei sistemi di calcolo
