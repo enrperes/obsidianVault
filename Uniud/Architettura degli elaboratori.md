@@ -384,4 +384,4 @@ Distanza minima tra le coppie di codifiche valide distinte #todo ?????????????
 
 # [[Memoria fisica]]
 
-#[[Arduino]]
+# [[Arduino]]
