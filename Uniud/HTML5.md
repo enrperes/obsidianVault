@@ -113,6 +113,43 @@ Visualizzato in una nuova linea, ogni elemento che lo segue è visualizzato su u
 ## Collegamenti ipertestuali
 ## Immagini
 ## Moduli
+
+    <input type="button">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text"> (default value)
+    <input type="time">
+    <input type="url">
+    <input type="week">
+
+---
+
+Attributo `name` al posto di `id` nei tag `<input>`.
+tag `<strong>` al posto di `<b>`
+![[Pasted image 20230130164907.png|300]]
+`<label for="name_id"> Nome: </label>`
+`<label for ="cap_id">CAP:</label>` 
+
+
+
+
+
+
 ## Audio e video
 
 
