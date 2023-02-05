@@ -111,6 +111,10 @@ Si può solo inserire uno dei tre elementi.
 è possibile usare le parentesi per raggruppare elementi in expr: 
 `<!ELEMENT name (Lname, (Fname | title))>`
 
+#### ATTRIBUTI
+`<!ATTLIST nome_el nome_att tipo_att uso_attr>`
+Esempio: `<!ATTLIST book isbn CDATA #required`
+
 --- 
 Scrivere .dtd per XML di address-book. 
 ## XML
