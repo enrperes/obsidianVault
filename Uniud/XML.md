@@ -66,6 +66,11 @@ Se un documento rispetta le regole di un DTD si dice ==valido== rispetto al DTD.
 ##### Dichiarazione elementi 
 ` <!ELEMENT nome_elemento contenuto_elemento> ` Contenuto_elemento specifica il tipo del contenuto: **vuoto, testo o altri elementi.** La parola chiave **ANY** permette di avere qualunque altro elemento dichiarato. Testo o EMPTY non valgono. 
 (expr) dichiara un elemento che deve contenere altri elementi in un certo ordine e numero definiti dall'**espressione regolare** ==expr==
+**expr=** can contains constants or other variables, and operations. 
+
+`<assign name="a" expr="yes" />`
+`<assign name = "b" expr = "a + 2" />`
+
 
 ```xml
 --- dtd
@@ -87,13 +92,13 @@ Gli indicatori di occorrenza sono:
 > ?
 
 Se il nome di un elemento è senza simboli di occorrenza deve apparire **una sola volta:** 
-`<!ELEMENT addres-book (entry)>` 
-Un elemento seguito da ==+== deve apparire **una o più volte:** 
-`<!ELEMENT address-book (entry+)>`
-Un elemento seguito da ==*==  deve apparire **zero o più volte:** 
-`<!ELEMENT address-book (entry*)>`
-Un elemento seguito da ==?== deve apparire **zero o una volta:** 
-`<!ELEMENT address-book (entry?)>` 
+		`<!ELEMENT addres-book (entry)>` 
+- Un elemento seguito da ==+== deve apparire **una o più volte:** 
+		`<!ELEMENT address-book (entry+)>`
+- Un elemento seguito da ==`*`== deve apparire **zero o più volte:** 
+		`<!ELEMENT address-book (entry*)>`
+- Un elemento seguito da ==?== deve apparire **zero o una volta:** 
+		`<!ELEMENT address-book (entry?)>` 
 
 #### Indicatori d'ordine 
 
