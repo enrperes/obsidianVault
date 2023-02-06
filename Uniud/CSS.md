@@ -280,11 +280,11 @@ Nella creazione di siti con layout a colonna bisogna impostare bene le dimension
 > consente di posizionare precisamente elementi sulla pagina
 
 `position` permette di indicare quale metodo utilizzare: 
-- `static`: default 
-- `relative`: posizionamento **relativo** rispetto al normale flusso
+- ==static==: default 
+- ==relative==: posizionamento **relativo** rispetto al normale flusso
 	- Muove un elementi rispetto al posto che avrebbe normalmente avuto nel flusso degli elementi. Lo spazio che l'elemento avrebbe normalmente occupato viene mantenuto
 	- L'elemento nella **nuova** posizione può andare a sovrapporsi con altri elementi
-- `absolute`: posizione in modo **assoluto** rispetto al primo antenato **non statico**.
+- ==absolute==: posizione in modo **assoluto** rispetto al primo antenato **non statico**.
 	- Lo spazio nel flusso viene ignorato. 
 	- `absolute` fa riferimento al più vicino antenato che utilizza position con valore diverso da `static`. se non c'è antenato di questo tipo, `absolute` fa riferimento alla radice `<html>` (quindi alla finestra del browser)
 	- L'antenato può essere: 
@@ -293,7 +293,7 @@ Nella creazione di siti con layout a colonna bisogna impostare bene le dimension
 		- Inline
 			- posizionamento calcolato rispetto all'area del contenuto.
 	- un inline con position `absolute` si comporta come un block.
-- `fixed`: posiziona in modo **fisso** rispetto alla finestra del browser. La posizione viene mantenuta anche durante lo scrolling. 
+- ==fixed==: posiziona in modo **fisso** rispetto alla finestra del browser. La posizione viene mantenuta anche durante lo scrolling. 
 	- La differenza con absolute è che lo spostamento degli elementi è relativo alla finestra del browser. Gli elementi posizionati restano fissi nello schermo anche durante lo scrolling. 
 
 ### Sovrapposizioni
@@ -333,9 +333,16 @@ Nella creazione di siti con layout a colonna bisogna impostare bene le dimension
 	> Combina aree fisse ee aree ibride
 	
 	- Ad esempio si realizzano con colonne *float* e *position*. 
-- **Flexbx**
-> il più usato 
-
+- **Flexbox**
+> Think in terms of two axes: `row` and `column`. 
+```css
+body{
+	display:flex; /* usa il layout flex */
+	flex-direction: row; /* in direzione orizzontale */
+	flex-wrap: wrap; /* possibilità di andare a capo */
+}
+```
+Con Layout `flex` si usa `flex` al posto di `width` con `direction:row` e al posti di `height` con `direction:height`
 
 
 ---
