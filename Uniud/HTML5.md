@@ -142,8 +142,8 @@ Visualizzato in una nuova linea, ogni elemento che lo segue è visualizzato su u
 Attributo `name` al posto di `id` nei tag `<input>`.
 tag `<strong>` al posto di `<b>`
 ![[Pasted image 20230130164907.png|300]]
-`<label for="name_id"> Nome: </label>`
-`<label for ="cap_id">CAP:</label>` 
+`<label for="Nome_id"> Nome: </label>`
+`<label for ="CAP_id">CAP:</label>` 
 
 
 

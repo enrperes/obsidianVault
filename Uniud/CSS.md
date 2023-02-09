@@ -311,6 +311,7 @@ Nella creazione di siti con layout a colonna bisogna impostare bene le dimension
 	
 	- Dimensioni degli elementi e relazioni tra elementi, allineamenti sono decisi e impostati in **pixel**. 
 	- Gli elementi venivano collocati dentro in `<div>` per distribuire spazio extra laterale equamente.
+	- Per posizionare la pagina con layout fisso al centro orizzontale della finestra: `margin: auto;`
 	- Svantaggi: 
 		- Non si adatta alla dimensione della finestra che può essere più piccola o più grande. 
 		- Pensato solo per gli schermi 1024x768 pixel. 
