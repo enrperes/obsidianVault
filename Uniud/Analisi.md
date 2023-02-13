@@ -72,7 +72,7 @@ ovvero: $$\Large \forall a_1 ,a_2 \in A (a_1 = a_2 \to f(a_1) = f(a_2) \land \fo
 
 ### Suriettività (surgettività)
 $\large f : X \to Y$ è detta suriettiva se: $$\Large \forall y \in Y \;\; \exists x \in X \;|\; f(x)=y$$
-> Una funzione si dice **suriettiva** quando ogni elemento del **codominio** è immagine di almeno un elemento del **dominio.** Si ha che l'immagine coincide con il 
+> Una funzione si dice **suriettiva** quando ogni elemento del **codominio** è immagine di almeno un elemento del **dominio.** Si ha che l'immagine coincide con il codominio 
 
 ovvero:
 $$\Large f(a)=B \lor \forall b \in B f^{-1}(b) \neq \emptyset$$
