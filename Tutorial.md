@@ -28,3 +28,13 @@ Icon=
 
 >[!info]- # Git common tasks 
 > ![[Git]]
+
+
+>[!info]- # HowTo: Leggere metadati da immagini
+> ### Da terminale Linux
+> Navigare nella directory con l'immagine. 
+> `exif image.png`
+> oppure: 
+> `identify -verbose image.png`
+> ![[exif_example]]
+
