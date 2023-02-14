@@ -86,7 +86,7 @@ Data $f:A \to B$ e un elemento $b \in B$, è detta *controimmagine di* $\large b
 > La controimmagine di un insieme è l'insieme degli elementi del dominio che vengono mandati nell'insieme dalla funzione. 
 
 ## Composizione
-Siano $A, B, C$ insiemi e siano $f: A \to B$ e $g: B \to C$. La funzione $g \circ f: A \to C$ è detta "*g composto f* " ed è  definita tramite la legge: $$\Large \forall a \in A \;\; g\;  \circ f(a) = {g(f(a))}$$
+	Siano $A, B, C$ insiemi e siano $f: A \to B$ e $g: B \to C$. La funzione $g \circ f: A \to C$ è detta "*g composto f* " ed è  definita tramite la legge: $$\Large \forall a \in A \;\; g\;  \circ f(a) = {g(f(a))}$$
 ## Inversa 
 ### Inversa Destra o Sezione
 Data $f: A \to B$ è detta **inversa Destra** una funzione $g: B \to A$ se vale che: $$\Large \forall b \in B \;\;\; f \circ g_{(b)} = b = id_B$$

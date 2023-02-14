@@ -1,16 +1,5 @@
 {
 	"nodes":[
-		{"id":"b6a4860c2e321471","x":-1869,"y":300,"width":732,"height":66,"color":"1","type":"text","text":"# Elementi di matematica e algebra lineare\n"},
-		{"id":"5bdeb6efba32f3e2","x":-2460,"y":366,"width":498,"height":404,"type":"file","file":"Uniud/Elementi di matematica e algebra lineare-info.md"},
-		{"id":"4839ad5c7fabc7ef","x":-1918,"y":-238,"width":328,"height":413,"color":"2","type":"text","text":" \n1. [x] Parziale algebra **13 Gennaio**\n2. [x] Tecnologie Web **18 Gennaio**\n3. [ ] Programmazione e laboratorio **19 Gennaio**\n4. [ ] Tecnologie Web ~~**18 Gennaio**~~  **08 Febbraio**\n5. [x] Architettura elaboratori ~~**24 Gennaio**~~ **14 Febbraio**\n6. [ ] Orale algebra lineaere **16 Febbraio**\n7. [ ] Analisi **6 febbraio** \n"},
-		{"id":"727ac56727c861b5","x":-2480,"y":280,"width":1955,"height":1167,"color":"4","type":"group","label":"Algebra Lineare"},
-		{"id":"421aed98a1b9155c","x":-1469,"y":498,"width":187,"height":67,"color":"3","type":"text","text":"## 4 parziali\n"},
-		{"id":"b51ca102977cf720","x":-1620,"y":498,"width":112,"height":50,"color":"6","type":"text","text":"**Risorse**"},
-		{"id":"e638b91834350ba4","x":-1316,"y":-559,"width":771,"height":821,"type":"file","file":"Esami.md"},
-		{"id":"95266f96a8aa35cf","x":-1262,"y":498,"width":250,"height":90,"color":"3","type":"text","text":"## Orale\n### 16/02/2023\n"},
-		{"id":"dde590bc709860fd","x":-992,"y":498,"width":250,"height":126,"color":"3","type":"text","text":"## Scritto completo\n\n### 10/02/2023"},
-		{"id":"dcaeb89942ed3ef1","x":-525,"y":280,"width":1989,"height":1783,"color":"6","type":"group","label":"Programmazione"},
-		{"id":"45d8a930b7266f0c","x":-453,"y":-1027,"width":597,"height":693,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/"},
 		{"id":"9a9f8f446a619ff4","x":-1150,"y":720,"width":250,"height":60,"color":"5","type":"text","text":"## 22 dicembre"},
 		{"id":"99576eb50bf6dcd2","x":-1420,"y":720,"width":250,"height":60,"color":"5","type":"text","text":"## 1 dicembre "},
 		{"id":"936fee4105c19d76","x":-880,"y":720,"width":250,"height":60,"color":"5","type":"text","text":"## 13 gennaio\n"},
@@ -36,7 +25,18 @@
 		{"id":"1b042c01ddfe2643","x":-4132,"y":1902,"width":98,"height":29,"color":"2","type":"text","text":"xx/30"},
 		{"id":"f4286a0c5171d36f","x":-4507,"y":2028,"width":98,"height":30,"color":"2","type":"text","text":"20/30"},
 		{"id":"821ee47c893412d0","x":-5250,"y":2316,"width":96,"height":29,"color":"2","type":"text","text":"21/30"},
-		{"id":"1b0810be3778e617","x":-4845,"y":2156,"width":128,"height":29,"color":"2","type":"text","text":"14/30 :("}
+		{"id":"1b0810be3778e617","x":-4845,"y":2156,"width":128,"height":29,"color":"2","type":"text","text":"14/30 :("},
+		{"id":"e638b91834350ba4","x":-1316,"y":-559,"width":771,"height":821,"type":"file","file":"Esami.md"},
+		{"id":"b6a4860c2e321471","x":-1869,"y":300,"width":732,"height":66,"color":"1","type":"text","text":"# Elementi di matematica e algebra lineare\n"},
+		{"id":"4839ad5c7fabc7ef","x":-1918,"y":-238,"width":328,"height":413,"color":"2","type":"text","text":" \n1. [x] Parziale algebra **13 Gennaio**\n2. [x] Tecnologie Web **18 Gennaio**\n3. [x] Programmazione e laboratorio **19 Gennaio**\n4. [x] Tecnologie Web ~~**18 Gennaio**~~  **08 Febbraio**\n5. [x] Architettura elaboratori ~~**24 Gennaio**~~ **14 Febbraio**\n6. [ ] Orale algebra lineaere **16 Febbraio**\n7. [x] Analisi **6 febbraio** \n"},
+		{"id":"727ac56727c861b5","x":-2480,"y":280,"width":1955,"height":1167,"color":"4","type":"group","label":"Algebra Lineare"},
+		{"id":"421aed98a1b9155c","x":-1469,"y":498,"width":187,"height":67,"color":"3","type":"text","text":"## 4 parziali\n"},
+		{"id":"b51ca102977cf720","x":-1620,"y":498,"width":112,"height":50,"color":"6","type":"text","text":"**Risorse**"},
+		{"id":"95266f96a8aa35cf","x":-1262,"y":498,"width":250,"height":90,"color":"3","type":"text","text":"## Orale\n### 16/02/2023\n"},
+		{"id":"dde590bc709860fd","x":-992,"y":498,"width":250,"height":126,"color":"3","type":"text","text":"## Scritto completo\n\n### 10/02/2023"},
+		{"id":"5bdeb6efba32f3e2","x":-2460,"y":366,"width":498,"height":404,"type":"file","file":"Uniud/Elementi di matematica e algebra lineare-info.md"},
+		{"id":"dcaeb89942ed3ef1","x":-525,"y":280,"width":1989,"height":1783,"color":"6","type":"group","label":"Programmazione"},
+		{"id":"45d8a930b7266f0c","x":-453,"y":-1027,"width":597,"height":693,"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/"}
 	],
 	"edges":[
 		{"id":"207c83431ce9838c","fromNode":"421aed98a1b9155c","fromSide":"bottom","toNode":"99576eb50bf6dcd2","toSide":"top"},
