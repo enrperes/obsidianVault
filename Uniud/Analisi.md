@@ -75,7 +75,7 @@ $\large f : X \to Y$ è detta suriettiva se: $$\Large \forall y \in Y \;\; \exis
 > Una funzione si dice **suriettiva** quando ogni elemento del **codominio** è immagine di almeno un elemento del **dominio.** Si ha che l'immagine coincide con il codominio 
 
 ovvero:
-$$\Large f(a)=B \lor \forall b \in B f^{-1}(b) \neq \emptyset$$
+$$\Large f(a)=B \;\; \land \;\; \forall b \in B \;\;\; f^{-1}(b) \neq \emptyset$$
 ![[7839874C-F0EA-4D7D-9098-5186D65E648D.png|200]] non esiste alcun elemento di $Y$ che non sia puntato da un elemento di $X$ 
 
 ### Biiettività (Biunivocità)
