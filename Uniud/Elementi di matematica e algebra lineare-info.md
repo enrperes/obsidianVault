@@ -1,16 +1,13 @@
 ##### Giovanna d'agostino
 giovanna.dagostino@uniud.it -> per ricevimento / correzione esercizi
 
-
 https://elearning.uniud.it/moodle/course/view.php?id=3746 (2021-2022)
 
 https://elearning.uniud.it/moodle/course/view.php?id=4398 (2022-2023)
-	Anche per avvisi / messaggi
-	
-
 #### Esame
+- Diviso in 4 parziali + orale facoltativo a fine semestre. Senza fare l'orale il voto viene troncato a 25. 
+
 Febbraio e giugno (5 appelli)
-Orale facoltativo in base al voto dello scritto. (Voto massimo 25 senza orale)
 
 >[!attention]- Esame (Aggiornato 2021-2022)
 > L’esame di Elementi di Matematica e Algebra Lineare si divide in due moduli.  Per registrare  l’esame bisogna superare entrambi i moduli. 
@@ -24,72 +21,8 @@ Per sostenere   un modulo  bisogna iscriversi su esse 3  all’esame scritto. L�
 Nel caso B) l’ordine di svolgimento dei moduli è  libero (ovvero è possibile svolgere prima il secondo modulo e poi il primo, anche se si consiglia l’ordine naturale).
 ADDENDUM IMPORTANTE: Come più volte ripetuto in classe, per svolgere  l’esame è  necessario aver svolto tutti i quiz sulla pagina e-learning con una votazione 
 superiore a 8/10.   In caso contrario, anche se lo studente ha superato lo scritto e l’orale il voto non verra’ registrato. 
-
-Proposta: esame diviso in 5: un esame dopo un paio di argomenti -> allo scritto a Gennaio ci sarà solo un esercizio. 
-
+e
 Quiz obbligatori da svolgere in autonomia (no limite ripetizione) 8/10 voto minimo 
 
 
 
-
-# Immagini
-
-Immagine **analogica**: rappresenta oggetto riprodotto mantenendo un'analogia formale con l'immagine originale. 
-### $I = f(x,y)$
-I = valore di luminosità / colore 
-P = punto di coordinate x/y
-
-### Digitalizzazione immagini
-Attraverso due processi: 
-- **Campionamento**
-	-  Immagine suddivisa in griglia di celle: pixel logici. 
-- **Quantizzazione**
-	- ogni pixel assume un valore di colore, facendo la media dei valori all'interno del pixel. 
-
-#### Rappresentazione del colore
-Monocromatica: il valore indica l'intensità del grigio 
-Colore: definizione di spazio geometrico astratto. 
-
-- **RGB**
-	- Sintesi *additiva* di tre colori primari. Ogni colore occupa **8 bit**. Usato per monitor e scanner
-- **CMYK**
-	- Sintesi *sottrattiva* di quattro colori: Cyan, Magenta, Yellow, Black. Usato nelle stampanti
-- **HSL**
-	- Hue Saturation Value. 8 bit per canale. Usato in campo artistico.
-	- Hue: Parte dal rosso (0°), verde (120°), blu (240°)
-	- Saturation: intensità e purezza del colore. Percentuale
-	- Value: luminosità, brillantezza. Percentuale 
-- **YUV**
-	- Basato sulla separazione della luminanza (Y) dalla crominanza (UV). Usato in alcune tecniche di compressione (JPEG)
-
-##### Sintesi Additiva  (RGB) e sottrattiva (CMYK)
-
-![[440F1071-A755-43DC-8365-A6228966F226.png|300]]
-
->[!palette]- CLUT 
->Color LookUp Table
-
-##### Altre caratteristiche immagine: 
-- Dimensione (logica) di immagine bitmap = numero di pixel che compongono l'immagine. 
-- Risoluzione di immagine: risoluzione del dispositivo di acquisizione o visualizzazione. 
-- Profondità del colore: n. bit usati per la quantizzazione (2, 8, 16...)
-- Scala tonale: gamma di colori visualizzabili (8bit, 10bit...)
-**PPI** = pixel per inch 
-
-##### Spazio occupato da immagine raster: 
-	Spazio = Dimensione (pixel) x profondità (bit/pixel)
-
-
-### Grafica vettoriale
-
-Gestite alla base da **Curve di Bezier**. 1962.
-- sono curve parametriche che definiscono elementi 
-
-*Vantaggi*: compatte, facilmente manipolabili. 
-*Svantaggi*: Complessità nella progettazione di immagini articolate, devono subire un processo di rasterizzazione per essere visualizzate. 
-
-#### Uso delle immagini nel Web 
-- Non figurative: Astratte. Non rappresentano entità del mondo 
-- Figurative: rappresentano entità riconoscibili (persone, oggetti, ambienti)
-	- Concettuali: Concetti astratti 
-	- Narrative: eventi, monumenti del mondo. 
