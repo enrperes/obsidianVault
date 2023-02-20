@@ -15,5 +15,16 @@ Più formalmente:
 $$\large P(0) \land \forall n (P(n) \to P(n+1)) \to \forall n P(n)$$
 Il principio di induzione è valido per qualsiasi $\LARGE n$ se riusciamo a verificare la base $\large P(0)$ e il passo induttivo $\large \forall n(P(n) \to P(n+1))$
 
+#### Dimostrazione teorema di Gauss per induzione $\forall n \geqslant 1$
+> La somma dei primi n numeri naturali = $\Large \frac{n (n+1)}{2}$ 
+##### Base induttiva: 
+$$P(1) = \frac{1 \cdot 2}{2}= 1$$
+##### Passo induttivo: 
+Ipotesi = $P(n)$ = somma dei primi $n$ numeri = $\LARGE \frac{n (n+1)}{2}$ 
+Tesi = $P(n+1)$ = somma dei primi $n+1$ numeri = $\LARGE \frac{n+1 (n+2)}{2}$
+Verificare la tesi con l'ipotesi: 
 
-
+$$\LARGE \frac{n(n+1)}{2} + (n+1) = n+1 \; (\frac n 2 +1) = 
+(n+1) (\frac{n+2}{2}) = 
+\frac{(n+1)(n+2)}{2}
+$$

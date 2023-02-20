@@ -31,7 +31,7 @@ La frequenza (1/t) indica quante volte la funzione si ripete ogni secondo.
 Ad esempio per rappresentare un'approssimazione dell'onda quadra attraverso i primi quattro termini della corrispondente della **Trasformata di Fourier**
 Formula: 
 
-## $$ f(x) = a_0 + \sum_{n=1}^{\infty} (a_n cos \dfrac{n \pi x}{T} + b_n sin \dfrac {n\pi x}{T})$$
+	## $$ f(x) = a_0 + \sum_{n=1}^{\infty} (a_n cos \dfrac{n \pi x}{T} + b_n sin \dfrac {n\pi x}{T})$$
 ![[7CD31827-7882-405B-9157-ECCF52C15BDF.jpeg|500]]
 
 

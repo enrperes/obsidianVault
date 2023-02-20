@@ -97,3 +97,7 @@ CSS snippet found in `.obsidian\snippets\snip.css`
 - `echo` to create file 
 - `echo "body.obsidian-app {--background-primary: #333333;}" > snip.css"`  -> `>`  sovrascrive, `>>` giustappone. 
 - `cat snip.css` per vedere il contenuto del file. 
+
+
+
+`,tex \hsize=60em \newcount\a \a=1000 \loop\ifnum\a>0 AAAAAAA \advance\a-1\repeat`

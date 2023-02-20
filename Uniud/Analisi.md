@@ -72,10 +72,10 @@ ovvero: $$\Large \forall a_1 ,a_2 \in A (a_1 = a_2 \to f(a_1) = f(a_2) \land \fo
 
 ### Suriettività (surgettività)
 $\large f : X \to Y$ è detta suriettiva se: $$\Large \forall y \in Y \;\; \exists x \in X \;|\; f(x)=y$$
-> Una funzione si dice **suriettiva** quando ogni elemento del **codominio** è immagine di almeno un elemento del **dominio.** Si ha che l'immagine coincide con il 
+> Una funzione si dice **suriettiva** quando ogni elemento del **codominio** è immagine di almeno un elemento del **dominio.** Si ha che l'immagine coincide con il codominio 
 
 ovvero:
-$$\Large f(a)=B \lor \forall b \in B f^{-1}(b) \neq \emptyset$$
+$$\Large f(a)=B \;\; \land \;\; \forall b \in B \;\;\; f^{-1}(b) \neq \emptyset$$
 ![[7839874C-F0EA-4D7D-9098-5186D65E648D.png|200]] non esiste alcun elemento di $Y$ che non sia puntato da un elemento di $X$ 
 
 ### Biiettività (Biunivocità)
@@ -86,7 +86,7 @@ Data $f:A \to B$ e un elemento $b \in B$, è detta *controimmagine di* $\large b
 > La controimmagine di un insieme è l'insieme degli elementi del dominio che vengono mandati nell'insieme dalla funzione. 
 
 ## Composizione
-Siano $A, B, C$ insiemi e siano $f: A \to B$ e $g: B \to C$. La funzione $g \circ f: A \to C$ è detta "*g composto f* " ed è  definita tramite la legge: $$\Large \forall a \in A \;\; g\;  \circ f(a) = {g(f(a))}$$
+	Siano $A, B, C$ insiemi e siano $f: A \to B$ e $g: B \to C$. La funzione $g \circ f: A \to C$ è detta "*g composto f* " ed è  definita tramite la legge: $$\Large \forall a \in A \;\; g\;  \circ f(a) = {g(f(a))}$$
 ## Inversa 
 ### Inversa Destra o Sezione
 Data $f: A \to B$ è detta **inversa Destra** una funzione $g: B \to A$ se vale che: $$\Large \forall b \in B \;\;\; f \circ g_{(b)} = b = id_B$$
