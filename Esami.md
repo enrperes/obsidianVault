@@ -3,7 +3,7 @@
 - [x] Parziale 2022/12/01
 - [x] Parziale 2022/12/22
 - [x] Parziale 2023/1/13
-- [ ] Orale 2023/02/16
+- [x] Orale 2023/02/16
 ## [[Programmazione e laboratorio-info]]
 - [ ] Prima prova scritta 2023/01/19
 - [ ] Recupero scritto 2023/01/19 
