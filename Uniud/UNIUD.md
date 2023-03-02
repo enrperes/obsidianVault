@@ -20,4 +20,6 @@ banner: "![[uniudlogo.png]]"
 ### [[Scheme]]
 ### [[Elementi di matematica e algebra lineare]]
 
+## Secondo semestre 2023
 [[Data Science]]
+[[Java]]
