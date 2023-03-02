@@ -2,3 +2,7 @@
 
 ---
 
+
+# Librerire per R studio
+- tidyverse
+- 
