@@ -38,3 +38,10 @@ Icon=
 > `identify -verbose image.png`
 > ![[exif_example]]
 
+
+>[!info]- # HowTo: Read RAM info from Ubuntu terminal
+> `sudo lshw -C memory`
+> Expected output: 
+> ![[memoryinfo]]
+> oppure 
+> `sudo dmidecode --type 17`
