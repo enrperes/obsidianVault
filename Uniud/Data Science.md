@@ -1,17 +1,15 @@
 [[Fondamenti di Scienza dei Dati e Laboratorio-info]]
 
 ---
-# [[R basics]]
-# [[R cheatsheet]]
+# [[R Guide]]
+# [[R language]]
 
-
-- [ ] Installare R studio
 ## Packages 
 - [ ] Tidyverse
 - [ ] R Markdown 
+	- il codice finale sarà un insieme di codice R e MarkDown
 
 ---
-Il codice finale sarà un insieme di R markdown e R normale. 
 
 [[EsempioRmarkdownSlide]]
 
