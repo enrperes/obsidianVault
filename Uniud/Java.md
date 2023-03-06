@@ -43,6 +43,8 @@ public static String PluraleF( String sf ){
 ```java
 public static boolean femminile (String s){
 	return (s.charAt(s.length()-1) == 'a');
+	// oppure
+	return (s.substring (s.length()-1).equals ("a")); //equals per confrontare il contenuto delle stringhe 
 }
 
 ```
@@ -63,3 +65,7 @@ public static String Plurale (String s ){
 }
 
 ```
+
+---
+
+- `public static` == const 
