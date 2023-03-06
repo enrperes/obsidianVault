@@ -419,8 +419,7 @@ l[[3]][[3]][[1]]
 
 Write a list containing the information of the Porphyrian Tree. Then select the insensitive part of the tree.  
 
-
-<div style="text-align:center"><img src ="PorphyrianTree.png"/></div>
+![[indexRlist.png]]
 
 ## Solution
 ```{r}

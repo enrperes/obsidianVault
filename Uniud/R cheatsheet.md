@@ -183,3 +183,21 @@ l[[1]]
 l[c("thing", "size")]
 l[c(1, 2)]
 ```
+
+[...] 
+
+# Play 
+Consider the list:
+
+```{r}
+l = list(1, list(1, 2, 3), list("a", 1, list("TRUE", "FALSE")))
+```
+
+Find:
+
+> * the list `list(1, 2, 3)`
+> 	* `l[[2]]` --> elemento lista posizione 2 
+> * the element `1` of list `list(1, 2, 3)`
+> 	* `l[[2]][[1]]` --> dalla lista in posizione 2, prende elemento in posizione 1 
+> * the element `TRUE` of list `list("TRUE", "FALSE")`
+> 	* `l[[3]][[3]][[1]]` -> il primo elemento del terzo elemento del terzo elemento della lista 
