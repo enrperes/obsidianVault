@@ -201,3 +201,22 @@ Find:
 > 	* `l[[2]][[1]]` --> dalla lista in posizione 2, prende elemento in posizione 1 
 > * the element `TRUE` of list `list("TRUE", "FALSE")`
 > 	* `l[[3]][[3]][[1]]` -> il primo elemento del terzo elemento del terzo elemento della lista 
+
+## Matrices
+A **matrix** is a 2-dimensional vector, that is a vector of vectors of the **same type and length.** 
+```R
+# by row
+M = matrix(data = 1:9, nrow = 3, byrow = TRUE)
+```
+![[Pasted image 20230306120316.png]]
+
+
+```
+# by column (the default)
+N = matrix(data = 1:9, ncol = 3)
+N
+
+nrow(M)
+ncol(M)
+dim(M)
+```
