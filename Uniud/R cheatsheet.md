@@ -216,7 +216,20 @@ M = matrix(data = 1:9, nrow = 3, byrow = TRUE)
 N = matrix(data = 1:9, ncol = 3)
 N
 
-nrow(M)
-ncol(M)
-dim(M)
+nrow(M) # restituisce il numero di righe della matrice
+ncol(M) # numero di colonne 
+dim(M) # numero di righe e colonne ## [1] 3 3 
 ```
+
+`M[1, 2]` -> element in riga 1 e colonna 2
+`M[ ,1]` -> tutti gli elementi della prima colonna
+`M[1:2, 1:2]` -> sottomatrice di 2x2
+`M[-3, -3]` -> sottomatrice per differenza, scartando terza riga e terza colonna. 
+`diag(M)` diagonale principale 
+
+## Add rows and columns 
+`runif(9)` 9 valori estratti in maniera uniforme casuale tra 0 e  1
+`cbind` -> col bind (aggiunge colonne)
+`rbind` -> row bind (aggiunge righe)
+
+	
