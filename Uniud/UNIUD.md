@@ -23,3 +23,4 @@ banner: "![[uniudlogo.png]]"
 ## Secondo semestre 2023
 [[Data Science]]
 [[Java]]
+[[FisicaIoT]]
