@@ -232,4 +232,79 @@ dim(M) # numero di righe e colonne ## [1] 3 3
 `cbind` -> col bind (aggiunge colonne)
 `rbind` -> row bind (aggiunge righe)
 
-	
+---
+### Funzione per generare n numeri random (distribuzione uniforme)
+`runif(n, min, max)`
+`runif(5, min=50, max=60)`
+
+## Matrix Operations
+### Sum
+Due matrici che hanno la stessa dimensione: `M + N`
+
+### Element-wise sum
+`M * N`
+### Matrix Product
+= prodotto vettoriale di righe per colonne: 
+Moltiplicazione egli elementi della prima riga per gli elementi della prima colonna. 
+` M %*% N` 
+### Matrix Transpose
+`t(M)`
+Cambia indice di riga con indice di colonna 
+### Matrix Inverse
+`solve(M)` -> si ottiene la matrice inversa
+`solve(5)` -> $\dfrac 1 5$
+
+### Linear systems
+Termini noti: Vettore di partenza (C) e termine noto b
+$C  x = b$ -> `b = c`
+
+### Autovettori, Autovalori 
+`spectrum = eigen (C)` 
+Per prendere gli autovalori: `(v = eigen(C)$values)`
+Lo spectrum è la composizione di autoettori e autovalori
+`spectrum$vectors`
+#todo 
+
+## Play
+[...]
+
+### Data Frames
+A **data frame** is a **list** of vectors (called columns). A data frame is like a **database table**:
+
+```R
+name = c("John", "Samuel", "Uma", "Bruce", "Tim")
+age = c(23, 31, 17, 41, 25)
+married = c(TRUE, FALSE, FALSE, TRUE, TRUE)
+
+pulp = data.frame(name, age, married)
+pulp
+```
+
+### Filters: 
+first row
+`pulp[1, ]`
+
+first column
+`pulp[ ,1]`
+
+Solo colonna "name" (Matrix version)
+`pulp[, "name"]`
+
+Solo colonna "name" (List style)
+`pulp$name` 
+
+
+# filtering
+
+`pulp[pulp$name == "Uma", ]`
+
+`pulp[pulp$age < 18, ]`
+
+`pulp[married == TRUE, "name"]`
+
+
+#### Play:
+Extract from the `pulp` data frame the names of adult people that are not married.
+> `pulp[married == FALSE & age >= 18, "name"]`
+
+# [[R programming]]
