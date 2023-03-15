@@ -208,7 +208,7 @@ A **matrix** is a 2-dimensional vector, that is a vector of vectors of the **sam
 # by row
 M = matrix(data = 1:9, nrow = 3, byrow = TRUE)
 ```
-![[Pasted image 20230306120316.png]]
+![[Pasted image 20230306120316.png|300]]
 
 
 ```

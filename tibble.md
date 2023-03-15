@@ -1,7 +1,20 @@
 https://tibble.tidyverse.org/
 
-- [ ] `tibble` vs `data.frame`?
+Load with `library(tibble)`
 
+##  `tibble` vs `data.frame`?
+Tibble is an improvment of dataframe: 
+- Never changes an input's type
+- Never adjust variables names 
+- Evaluates arguments sequentially
+The three main differences: 
+1. Printing 
+	- ...
+1. Subsetting
+2. Recycling 
+
+
+---
 ```R
 library(tibble)
 
