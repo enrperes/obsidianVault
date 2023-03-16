@@ -4,18 +4,21 @@
 1. https://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/R/R.html#1
 2. https://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/import/import.html#1
 ### [[R Guide]]
+### [CheatSheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
 
 ---
 # [[R language]]
 # [[R programming]]
 # [[R visualization]]
 # [[R import]]
+# [[Tidy]]
+# [[Dplyr]]
 
 ---
 
 ## Packages 
 (check installed ones)
-- [x] [[Tidyverse]]
+- [ ] [[Tidyverse]]
 - [ ] R Markdown 
 	- il codice finale sarà un insieme di codice R e MarkDown
 	- `install.packages("rmarkdown)"` 
