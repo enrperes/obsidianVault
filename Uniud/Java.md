@@ -2,6 +2,8 @@
 
 Ambiente di sviluppo: [BlueJ]([https://www.bluej.org](https://www.bluej.org/))
 
+# Traduzione programmi Scheme --> Java
+
 ```java
 /
  * Write a description of class Prova here.
@@ -68,4 +70,22 @@ public static String Plurale (String s ){
 
 ---
 
+# Java doc
 - `public static` == const 
+-  `public static main (String [] args) {}`
+## Liste nello stile di Scheme 
+([[Scheme#Documentation]])
+- null
+- null? 
+- car 
+- cdr
+- cons
+---
+```Java
+IntSList sl;
+new IntSlist() //type: InsSList - Scheme: [ null]
+sl.isNull()    //type: boolean  - Scheme: [null?]
+sl.car()       //type: int      - Scheme: [car]
+sl.cdr()       //type: IntSList - Scheme: [cdr]
+sl.cons(n)     //type: IntSList - Scheme: [cons]
+```
