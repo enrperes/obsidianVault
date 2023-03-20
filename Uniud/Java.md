@@ -81,6 +81,8 @@ public static String Plurale (String s ){
 - cdr
 - cons
 ---
+
+Ogni metodo viene riscritto in Java
 ```Java
 IntSList sl;
 new IntSlist() //type: InsSList - Scheme: [ null]
@@ -88,4 +90,12 @@ sl.isNull()    //type: boolean  - Scheme: [null?]
 sl.car()       //type: int      - Scheme: [car]
 sl.cdr()       //type: IntSList - Scheme: [cdr]
 sl.cons(n)     //type: IntSList - Scheme: [cons]
+
+sl.length()    //type: int      - Scheme: [length]
+sl.equals(il)  //type: boolean  - Scheme: [equal]
+sl.listRef(i)  //type: int      - Scheme: [list-ref]
+sl.append(il)  //type: intSList - Scheme: [append]
+sl.reverse()   //type: intSList - Scheme: [reverse]
 ```
+
+#todo 
