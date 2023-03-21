@@ -2,7 +2,7 @@
 ![[Pasted image 20230313105619.png|400]]
 ### Barplot 
 `barplot(M[1, ])`
-![[Pasted image 20230313105907.png|400]]
+![[Pasted image 20230313105907.png|900]]
 
 ---
 ### BoxPlot
