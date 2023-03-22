@@ -54,7 +54,10 @@ Contesto Teorico:
 
 %%In fisica, i circuiti elettrici sono sistemi di componenti elettrici interconnessi utilizzati per trasmettere, controllare e distribuire l'energia elettrica. Nel loro funzionamento, i circuiti elettrici si basano sulle proprietà elettriche di alcuni elementi come le resistenze, le batterie, i condensatori, le bobine, i diodi e i transistor.%%
 
+
 ---
+
+[[Relazione-temp-gpt]]
 ## intro
 L'esperienza di laboratorio consiste nel verificare l'accuratezza del valore teorico della resistenza nei limiti della tolleranza attraverso le misurazioni dell'intensità di corrente al variare della tensione sfruttando le leggi di Ohm. 
 ## Contesto teorico 
@@ -95,3 +98,4 @@ Procedura:
 Risultati:
 
 I risultati dell'esperimento mostrano che le leggi di Kirchhoff sono valide per i circuiti elettrici contenenti resistenze. In particolare, la somma delle correnti che entrano in un nodo è uguale alla somma delle correnti che escono dal nodo e la somma delle differenze di potenziale lungo qualsiasi percorso chiuso in un circuito è uguale a zero.
+
