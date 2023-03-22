@@ -101,6 +101,8 @@ I dati sono stati registrati in una tabella.
 
 
 
+
+---
 1.  Si è creato un circuito elettrico utilizzando le resistenze, l'alimentatore elettrico e il filo di collegamento.
     
 2.  Si è verificato che tutte le resistenze fossero connesse in modo appropriato e che non ci fossero interruzioni o cortocircuiti nel circuito.
