@@ -59,24 +59,47 @@ Contesto Teorico:
 
 [[Relazione-temp-gpt]]
 ## intro
-L'esperienza di laboratorio consiste nel verificare l'accuratezza del valore teorico della resistenza nei limiti della tolleranza attraverso le misurazioni dell'intensità di corrente al variare della tensione sfruttando le leggi di Ohm. 
+Questa esperienza di laboratorio è stata divisa in due parti: 
+- Misurare la resistenza di un resistore con l' Ohmetro
+- Raccogliere dati attraverso la misurazione di intensità di corrente al variare della tensione costruendo un grafico corrente-tensione per una resistenza, sfruttando le leggi di Ohm.  
+
+
+%%L'esperienza di laboratorio consiste nel verificare l'accuratezza del valore teorico della resistenza nei limiti della tolleranza attraverso le misurazioni dell'intensità di corrente al variare della tensione sfruttando le leggi di Ohm. %%
 ## Contesto teorico 
-Le resistenze sono componenti elettriche che limitano il flusso di corrente in un circuito. 
+I resistori sono componenti elettrici passivi che limitano il flusso di corrente in un circuito. Un resistore ideale è un bipolo passivo che conserva una resistenza elettrica costante per ogni valore di tensione e corrente. Sono caratterizzati da un valore di resistenza espresso in Ohm ($\Large \Omega$) e da un valore di massima potenza che possono dissipare, espresso in Watt ($\Large W$). 
+La resistenza utilizzata in laboratorio ha un valore teorico di 10k $\Omega$, con una tolleranza dell'1%, indicata dalla banda color marrone nel corpo del resistore.  
+
+
 
 %%Le leggi di Kirchhoff sono importanti principi teorici utilizzati per analizzare i circuiti elettrici. La prima legge di Kirchhoff, chiamata anche la legge dei nodi, afferma che la somma delle correnti che entrano in un nodo è uguale alla somma delle correnti che escono dal nodo. La seconda legge di Kirchhoff, chiamata anche la legge delle maglie, afferma che la somma delle differenze di potenziale lungo qualsiasi percorso chiuso in un circuito è uguale a zero.
 %%
 La legge di Ohm descrive la relazione tra la tensione elettrica V (V), l'intensità di corrente I (A) e la resistenza R ($\Omega$). 
 ## Principio di misura
-La legge di Ohm utilizzata $V = I \cdot R$, dove V rappresenta [....] 
+L'equazione caratteristicha dedotta dalla legge di Ohm è: $\Large V = R \cdot I$, dove V rappresenta la tensione misurata in Volt; R rappresenta il valore di resistenza in Ohm; I rappresenta la corrente misurata in Ampere. 
 ## Materiali Utilizzati:
+- Resistore 
+	- 10k ohm, tolleranza....
+-   Alimentatore DC 
+	- Fornisce al circuito corrente elettrica. Per questo esperimento è stato impostato a una corrente costante (0.5A) e una tensione variabile, tra 0 e 25V. 
+-  Multimetro 
+	- Voltmetro
+		- per misurare la tensione
+	- Amperometro
+		- Per misurare la corrente. 
+	- Ohmetro 
+-   Filidi collegamento
 
--   Alimentatore elettrico
--   Voltmetro
--   Amperometro
--   Resistenze con diverse resistenze
--   Filo di collegamento
+## Procedura di misura
+Per la prima parte dell'esperimento l'obiettivo è misurare il valore di resistenza del resistore da 10k Ohm tramite l'Ohmetro: ![[Pasted image 20230322204242.png|300]] 
+Abbiamo inserito il resitore nella breadboard, collegando i terminali del multimetro ad esso, come in figura [1]. 
 
-Procedura:
+Per la seconda parte, era necessario misurare corrente e tensione attraverso una resistenza. 
+Per prima cosa abbiamo impostato l'alimentatore con l'obiettivo di effettuare cinque misurazioni a valori di tensione  diversi (4V, 8V, 12V, 16V, 20V). 
+Abbiamo proceduto con la misurazione della corrente attraverso il resistore, collegando i terminali dell'alimentatore come in figura. La resistenza è collegata in serie tra l'alimentatore e il multimetro. 
+Per misurare la tensione, abbiamo collegato i terminali del resistore in parallelo con il multimetro impostato su V, come in figura. 
+I dati sono stati registrati in una tabella. 
+
+
 
 1.  Si è creato un circuito elettrico utilizzando le resistenze, l'alimentatore elettrico e il filo di collegamento.
     
