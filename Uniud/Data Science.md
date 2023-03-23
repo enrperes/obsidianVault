@@ -1,11 +1,15 @@
-[[Fondamenti di Scienza dei Dati e Laboratorio-info]]
+[[Fondamenti di Scienza dei Dati e Laboratorio-info|Course info]]
+
+---
 
 ### Slide usate a lezione: 
-1. https://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/R/R.html#1
-2. https://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/import/import.html#1
-### [[R Guide]]
-### [CheatSheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
+1. [Hasty tour inside R](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/R/R.html#1)
+2. [READR](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/import/import.html#1)
+3. [Tidy](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/tidyr/tidyr.html#1)
+4. [DPLYR](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/dplyr/dplyr.html#1)
+5. [ggplot2](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/ggplot/ggplot.html#1)
 
+### [[R Guide|R Guide markdown file]]
 ---
 # [[R language]]
 # [[R programming]]
