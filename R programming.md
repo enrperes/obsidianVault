@@ -101,6 +101,8 @@ foo_foo %>%
  `%>%` operatore usato per concatenare. 
  Vantaggio grafico (più facile da leggere, eseguire solo alcune istruzioni) e di efficacia.
 
+## Unary verbs
+
 ### Filter
 `filter()` picks cases based on values: (picks rows)
 ```R
@@ -217,3 +219,47 @@ Busy days (flights > 1000):
 count(flights, month, day) %>%
 	filter (n>1000)
 ```
+
+
+
+## Binary verbs
+
+To manipulate multiple tables at once. 
+> First two arguments: tables. Output = new table. 
+
+### Set operations
+Get rows that are both in x and y tables (also union, diff...)
+example: 
+```R
+df1 = tibble(x = c(1, 2), y=c("a", "b"))
+df2 = tibble(x = c(1, 1), y=c("a", "b"))
+
+setdiff(df1, df2) # --> 2  a
+setdiff(df2, df1) # --> 1  b
+```
+
+### Joins ⚠
+-   **mutating joins** ==add== new variables to one table from matching rows in another
+    -   **inner join** includes observations that match in both tables
+	    - ![[Pasted image 20230323105103.png|400]]
+	    - `inner_join(x, y)`
+    - **outer join** (left, right, full) includes also observations that do not match in one of the tables
+    - Left Join
+	    - ![[Pasted image 20230323105401.png|400]]
+	- Right Join
+	    - ![[Pasted image 20230323105413.png|400]]
+	- **Full** Join
+	    - ![[Pasted image 20230323105429.png|400]]
+    
+-   **filtering joins** ==filter== observations from one table from matching rows in another
+    -   **semi-join** filter observations from one table based on whether they match an observation in the other table
+		- keeps only first table with rows that match the second. Does not create a new table (=filtering join)
+		- ![[Pasted image 20230323105442.png|400]]
+    -   **anti-join** filter observations from one table based on whether they do not match an observation in the other table
+		- Opposite of semi-join. Keeps only rows that are not in common between two tables. 
+		- ![[Pasted image 20230323105451.png|400]]
+
+---
+
+## Data transformation with DPLYR : : cheat sheet 
+https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf

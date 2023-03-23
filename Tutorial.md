@@ -45,3 +45,11 @@ Icon=
 > ![[memoryinfo]]
 > oppure 
 > `sudo dmidecode --type 17`
+
+
+>[!info]- # HowTo: Reset dataset to default values after editing
+> dataset: `nycflights13`
+> edit: `flights = flights %>% select (year) [...]`
+> 
+> To reset it, just delete the variable: `rm(flights)`
+
