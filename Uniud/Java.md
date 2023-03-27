@@ -101,3 +101,6 @@ sl.reverse()   //type: intSList - Scheme: [reverse]
 #todo 
 23 mar 2023
 Corrispondenza ricorsione di coda - iterazione con `reverselist`
+
+---
+https://roytuts.com/solving-josephus-problem-using-java/

@@ -1,4 +1,5 @@
 [[Fondamenti di Scienza dei Dati e Laboratorio-info]]
+[[R in vscode]]
 
 ### Slide usate a lezione: 
 1. https://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/R/R.html#1
