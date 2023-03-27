@@ -6,6 +6,8 @@
 ---
 
 ### Slide usate a lezione: 
+[Course Log](https://users.dimi.uniud.it/~massimo.franceschet/ds/plugandplay/log.html)
+
 1. [Hasty tour inside R](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/R/R.html#1)
 2. [READR](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/import/import.html#1)
 3. [Tidy](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/tidyr/tidyr.html#1)
@@ -21,7 +23,11 @@
 # [[Dplyr]]
 
 ---
+### Projects
+[[WHO_dataset]]
+[[ItalianSoccer]]
 
+---
 ## Packages 
 (check installed ones)
 - [ ] [[Tidyverse]]

@@ -307,4 +307,8 @@ Solo colonna "name" (List style)
 Extract from the `pulp` data frame the names of adult people that are not married.
 > `pulp[married == FALSE & age >= 18, "name"]`
 
+---
+
+`stringr::str_replace()` = utilizza la funzione `str_replace()` della libreria `stringr`, senza importare tutta la libreria 
+
 # [[R programming]]
