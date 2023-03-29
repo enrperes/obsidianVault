@@ -2,7 +2,7 @@
 ![[Pasted image 20230327155447.png]]
 ![[Pasted image 20230327154250.png]]
 ![[Pasted image 20230327154311.png]]
-![[Pasted image 20230327154317.png]]
+
 
 2. Resistenze in parallelo
 ![[Pasted image 20230327154952.png]]
