@@ -1,3 +1,9 @@
+# [[ggplot2]]
+
+Da 5 a 9 dati 
+
+---
+
 ## Plot 
 ![[Pasted image 20230313105619.png|400]]
 ### Barplot 

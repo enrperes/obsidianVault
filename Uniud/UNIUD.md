@@ -17,6 +17,7 @@ banner: "![[uniudlogo.png]]"
 
 ---
 # Primo anno 
+[[Erasmus-info]]
 ## Primo semestre 2022/2023
 - [x] ## [[Architettura degli elaboratori]]
 - [ ] ## [[Analisi]]
@@ -28,3 +29,4 @@ banner: "![[uniudlogo.png]]"
 - [ ] ## [[Data Science]]
 - [ ] ## [[Java]]
 - [ ] ## [[FisicaIoT]]
+
