@@ -13,6 +13,7 @@
 3. [Tidy](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/tidyr/tidyr.html#1)
 4. [DPLYR](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/dplyr/dplyr.html#1)
 5. [ggplot2](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/ggplot/ggplot.html#1)
+6. [Elo - chess](https://users.dimi.uniud.it/~massimo.franceschet/ds/plugandplay/challenges/elo/elo.html)
 
 ---
 # [[R language]]
@@ -21,11 +22,16 @@
 # [[R import]]
 # [[Tidy]]
 # [[Dplyr]]
+# [[chess]]
+# [[Animated graphics]]
+
 
 ---
 ### Projects
 [[WHO_dataset]]
 [[ItalianSoccer]]
+[[chess]]
+[[animated-lifeexp]]
 
 ---
 ## Packages 
