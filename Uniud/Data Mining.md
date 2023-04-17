@@ -6,3 +6,4 @@ Example of task:
 - Grouping together similar documents returned by search engine according to their context
 - Searching for the most relevant numbers within a phone directory 
 
+Slides su teams prossimamente
