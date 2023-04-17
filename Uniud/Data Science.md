@@ -3,6 +3,7 @@
 [[Fondamenti di Scienza dei Dati e Laboratorio-info|Course info]]
 [[R Guide|R Guide markdown file]]
 
+# [[Data Mining]]
 ---
 
 ### Slide usate a lezione: 
