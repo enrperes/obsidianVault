@@ -10,5 +10,9 @@ Dimensione tipica: da 3 a 6 facciate.
 
 # [[Primo esperimento, 17 marzo]]
 # [[Secondo esperimento, 27 marzo]]
+<<<<<<< HEAD
 
 # [[Terzo esperimento, 14 Aprile]]
+=======
+# [[terzotemp]]
+>>>>>>> 9428cc4ac8c307c936c7186850f96f4a89aa54de
