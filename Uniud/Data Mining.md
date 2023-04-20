@@ -18,3 +18,21 @@ Given input $x$, find: $$\large f, \theta : f(x, \theta) \to x$$
 ### What is and isn't 
 ![[Pasted image 20230418120757.png]]
 
+---
+
+
+2023-04-20 10:34
+
+# Regression Analysis 
+
+> Regression = statistical method that shows relationship between two or more variables. Usually expressed in a graph, the method tests the relationship between a dependent variable against independent variables. 
+
+Example of $\Theta$: line in a 2D space: $y = mx + q \rightarrow \Theta = \{m, q\}$ 
+
+Regression $\neq$ interpolation 
+
+$R^2$ che tende a 1 indica una buona stima di regressione. La stima di regressione lineare consiste nel trovare i coefficienti $a$ e $b$ tali che la retta $\hat{y} = a + bx$ sia l'equazione della retta che approssima al meglio i dati. Il valore di $R^2$ misura l'adeguatezza del modello di regressione: è definito come il coefficiente di determinazione e indica la proporzione di varianza dei dati di $y$ che può essere spiegata dal modello di regressione lineare. 
+
+Quindi $R^2$ misura quanto bene il modello si adatta ai dati: Se tende a 1 allora la linea di tendenza è più vicina ai dati. 
+
+
