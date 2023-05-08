@@ -57,3 +57,16 @@ $$\huge p(x_j |c) = \frac{|\{x[j]=x, y=c \; | \;x \in X, y \in Y \}|}{|\{ y=c \;
 Density Based Scan clustering algorithm 
 it determines cluster assignments based on the density of data points in a region. 
 ![[Pasted image 20230504121725.png]]
+
+2023-05-08 10:39
+# K-means in R 
+Demo dataset "USArrest"
+The data must contain only continuous variables: the k-means algorithm uses variable means. 
+We scale the data using the R function *scale*: $$\Large scale(x) = \frac{x-mean(x)}{std(x)}$$
+$\Large std(x)$ è la deviazione standard. Rappresenta i due punti dove cambia la concavità in una funzione. Rappresenta la regione dove ci sono la maggior parte dei dati.
+Permette di posizionare i la maggior parte dei dati nella regione di spazio compresa tra -1 e 1. 
+```R
+data("USArrests")
+df <- scale("USArrests")
+```
+
