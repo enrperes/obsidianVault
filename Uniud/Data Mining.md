@@ -70,3 +70,34 @@ data("USArrests")
 df <- scale("USArrests")
 ```
 
+
+# Churn Analysis 
+
+> Strategie di predizione basandosi su analisi di dati. 
+
+## Data Scheme 
+- State [categorical]
+- Account length [integer]
+- Area Code [integer]
+- Phone number [= customer ID]
+- International plan [bool]
+- VoiceMail Plan [bool]
+- Number of voice messages [integer]
+- Total day, evening, night minutes [integer]
+- Total day, evening, night calls [integer]
+- Total day, evening, night charge [integer]
+- Total international minutes [continuous]
+- Total international calls [integer]
+- Total international charge [continuous]
+- Number of calls to customer service  [integer]
+- **Churn** [bool, Class attribute] <-- attributo target: Se utente lascia o meno la compagnia. 
+
+
+>[!bug]- Churn Analysis example code
+>![[Churn-Analysis-code]]
+
+Alcuni attributi hanno correlazione con il churn, altri no. Quelli che non hanno correlazione vanno rimossi. 
+Attribute "Area code" ha solo 3 valori -> possibile valore anomalo, con dati mancanti, quindi va rimosso 
+
+Attribute "Phone" ha un attributo per ogni tupla (ogni valore appare una sola volta) -> **Key**. Se venisse usata per analizzare il churn sarebbe un problema di overfitting. Non aggiunge informazioni ulteriori a una colonna ID, quindi va rimossa. 
+
