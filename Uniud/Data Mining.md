@@ -101,3 +101,5 @@ Attribute "Area code" ha solo 3 valori -> possibile valore anomalo, con dati man
 
 Attribute "Phone" ha un attributo per ogni tupla (ogni valore appare una sola volta) -> **Key**. Se venisse usata per analizzare il churn sarebbe un problema di overfitting. Non aggiunge informazioni ulteriori a una colonna ID, quindi va rimossa. 
 
+
+[[Classification]]
