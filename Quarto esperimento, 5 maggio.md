@@ -1,5 +1,7 @@
-![[Pasted image 20230505104709.png]]
-![[Pasted image 20230505105323.png]]
+
+![[Esercitazione-4.pdf]]
+![[Pasted image 20230505104709.png|400]]
+![[Pasted image 20230505105323.png|400]]
 
 Nella relazione spiegare la curva ottenuta dai dati 
 (8V)
@@ -16,6 +18,6 @@ Nella relazione spiegare la curva ottenuta dai dati
 
 CH1 
 
-![[Pasted image 20230505112249.png]]
-![[Pasted image 20230505112258.png]]
+![[Pasted image 20230505112249.png|400]]
+![[Pasted image 20230505112258.png|400]]
 
