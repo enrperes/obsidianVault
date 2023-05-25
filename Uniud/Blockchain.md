@@ -1,4 +1,6 @@
-Francesco Santoro 
+
+
+![[Blockchain-pdf.pdf]]
 
 Tech
 > Blockchain is a peer to peer distributed ledger that is cryptographically secure, append-only, immutable (extremely hard to change) and update able 

@@ -3,6 +3,7 @@
 # [[Git]]
 # [[HOME]]
 
+[[testpage1]]
 
 FOOTNOTE [^1]
 

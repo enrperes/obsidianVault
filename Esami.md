@@ -14,8 +14,8 @@
 - [ ] ~~Prima prova scritta 2023/01/19~~
 - [ ] ~~Recupero scritto 2023/01/19~~ 
 #### Secondo semestre: 
-- [ ] Prova scritta di recupero [12 Giugno]
-	- [ ] Orale e laboratorio [20 Giugno]
+- [ ] ~~Prova scritta di recupero [12 Giugno]~~
+	- [ ] ~~Orale e laboratorio [20 Giugno]~~
 - [ ] Prova scritta di recupero [7 Luglio]
 	- [ ] Orale e laboratorio [26 Luglio]
 - [ ] Prova scritta di recupero [1 Settembre]
@@ -25,8 +25,8 @@
 
 ## [[Analisi-info| Analisi Matematica]]
 - [ ] ~~Parziale 1/2 2023/02/06~~
-- [ ] Completo [15 Giugno]
-	- [ ] Orale [16 Giugno]
+- [ ] ~~Completo [15 Giugno]~~
+	- [ ] ~~Orale [16 Giugno]~~
 - [ ] Completo [3 Luglio]
 	- [ ] Orale [4 Luglio]
 - [ ] Completo [8 Settembre]
@@ -35,7 +35,7 @@
 	- [ ] Orale [22 Settembre]
 
 ##  [[Data Science]]
-- [ ] Orale 1 [26 Giugno]
+- [ ] ~~Orale 1 [26 Giugno]~~
 - [ ] Orale 2 [14 Luglio]
 - [ ] Orale 3 [12 Settembre]
 - [ ] Orale 4 [27 Settembre]

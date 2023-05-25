@@ -1,5 +1,5 @@
 ---
-banner: "![[uniudlogo.png]]"
+banner: "![[uniud_banner_v2.png]]"
 ---
 
 ```ActivityHistory
