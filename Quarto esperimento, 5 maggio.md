@@ -1,5 +1,20 @@
 
 ![[Esercitazione-4.pdf]]
+
+### Misurazioni oscilloscopio: 
+##### CH1
+Tensione fornita dal generatore
+##### CH2
+Tensione ai capi del resistore 
+##### CH1 - CH2
+Tensione ai capi del condensatore
+
+
+
+
+
+---
+
 ![[Pasted image 20230505104709.png|400]]
 ![[Pasted image 20230505105323.png|400]]
 

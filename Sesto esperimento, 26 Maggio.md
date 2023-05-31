@@ -1,3 +1,5 @@
+![[Esercitazione-6.pdf]]
+
 La tensione letta nel grafico è quella ai capi del condensatore (e quindi ai capi del tubo)
 
   

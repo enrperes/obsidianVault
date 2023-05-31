@@ -8,7 +8,8 @@
 #### Secondo semestre:
 - [x] Parziale 2023/03/29
 - [x] Parziale 2023/04/26
-- [ ] Parziale 2023/05/30
+- [x] Parziale 2023/05/30
+- [ ] Completo II modulo 2023/06/19
 - [ ] ~~Orale~~
 ## [[Programmazione e laboratorio-info | Programmazione e Laboratorio]]
 - [ ] ~~Prima prova scritta 2023/01/19~~

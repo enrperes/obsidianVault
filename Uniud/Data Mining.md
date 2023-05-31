@@ -47,7 +47,7 @@ $$\Huge p(c | x_1, ..., x_m) = \frac{p(c) \prod_{j=1}^M p(x_j |c)}{\sum_{k \in c
 **Where:**
 
 $$\huge p(c) = \frac{|\{y=c \;|\; y\in Y\}|}{|Y|} \; ,$$
-$$\huge p(x_j |c) = \frac{|\{x[j]=x, y=c \; | \;x \in X, y \in Y \}|}{|\{ y=c \; | \; y \in Y
+$$\Huge p(x_j |c) = \frac{|\{x[j]=x, y=c \; | \;x \in X, y \in Y \}|}{|\{ y=c \; | \; y \in Y
 \}|} = \frac{1}{\sqrt{2 \pi \cdot Var[x[j]\: |\:c]}}\; e^{-\frac{(x_j - E[x[j] | c])^2}{Var[x[j]|c]}}$$ 
 # Clustering 
 > process of assigning elements of a domain to unknown gropus according to some features. 
