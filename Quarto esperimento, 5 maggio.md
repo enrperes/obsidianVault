@@ -15,7 +15,7 @@ Tensione ai capi del condensatore
 
 ---
 
-![[Pasted image 20230505104709.png|400]]
+![[Pasted image 20230505104709.png|900]]
 ![[Pasted image 20230505105323.png|400]]
 
 Nella relazione spiegare la curva ottenuta dai dati 
@@ -36,3 +36,4 @@ CH1
 ![[Pasted image 20230505112249.png|400]]
 ![[Pasted image 20230505112258.png|400]]
 
+$\Omega$

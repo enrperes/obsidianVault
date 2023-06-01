@@ -16,4 +16,3 @@
 - [ ] Equazione parametrica di un piano nello spazio
 - [ ] Posizioni reciproche di due rette nello spazio
 - [ ] Equazioni parametriche e cartesiane di rette e piani 
-- [ ] 
