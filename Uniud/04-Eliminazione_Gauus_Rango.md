@@ -1,0 +1,5 @@
+- [ ] Eliminazione di Gauss
+- [ ] Soluzioni per sistemi a scala
+	- [ ] Esempi
+- [ ] Matrici a scalini e rango
+- [ ] 

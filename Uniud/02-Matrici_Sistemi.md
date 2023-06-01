@@ -1,0 +1,19 @@
+- [ ] Risoluzione di sistemi lineari
+- [ ] Equazioni numeriche e matriciali 
+- [ ] Matrici e spazio delle colonne
+- [ ] Moltiplicazione matrice x vettore colonna
+- [ ] Prodotto Ax e sistemi lineari 
+- [ ] Spazio delle colonne 
+- [ ] Spazio delle righe
+- [ ] Studio di sistema Ax 
+- [ ] Somma di matrici
+- [ ] Matrice opposta 
+- [ ] Moltiplicazione matrice per scalare
+- [ ] Moltiplicazione fra matrici
+- [ ] Matrici identirà
+- [ ] Distributività della moltiplicazione sulla somma
+- [ ] Divisione a blocchi di una matrice
+- [ ] Prodotto di matrici divise a blocchi
+- [ ] Rango di una matrice
+- [ ] Fattorizzazione $\Large A = CR$ di una matrice
+- [ ] Rango per righe = Rango per colonne

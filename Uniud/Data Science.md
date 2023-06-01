@@ -5,8 +5,9 @@
 
 # [[Data Mining]]
 # [[Blockchain]]
-
 # [[DAO]]
+# [[Data-Science-Esame|Per l'esame]]
+
 ---
 
 ### Slide usate a lezione: 
