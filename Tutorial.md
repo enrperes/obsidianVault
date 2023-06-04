@@ -2,6 +2,12 @@
 
 ---
 
+>[!info]- # Access NAS from terminal (Ubuntu) 
+> `cd /run/user/1000/gvfs/sftp:host=192.168.1.10`
+> insert password 
+> ### GVfs = "Gnome Virtual file system"
+
+
 >[!info]- # HowTo: Creare file .desktop su Linux per linkare eseguibile 
 > ### Step 1: 
 > Installare file `.appimage` nella cartella `/Downloads`. Il path completo è `/home/enrperes/Downloads/`
