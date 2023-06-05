@@ -100,5 +100,6 @@ CSS snippet found in `.obsidian\snippets\snip.css`
 - `cat snip.css` per vedere il contenuto del file. 
 
 
-
 `,tex \hsize=60em \newcount\a \a=1000 \loop\ifnum\a>0 AAAAAAA \advance\a-1\repeat`
+
+[[CSS-snippets-tests]]

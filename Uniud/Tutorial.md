@@ -45,7 +45,8 @@ Icon=
 > ![[exif_example]]
 
 
->[!info]- # HowTo: Read RAM info from Ubuntu terminal
+>[!info]- # HowTo: Read RAM info from Ubuntu terminal #ubuntu
+>
 > `sudo lshw -C memory`
 > Expected output: 
 > ![[memoryinfo]]
@@ -53,7 +54,7 @@ Icon=
 > `sudo dmidecode --type 17`
 
 
->[!info]- # HowTo: Reset dataset to default values after editing
+>[!info]- # HowTo: Reset dataset to default values after editing #uniud 
 > dataset: `nycflights13`
 > edit: `flights = flights %>% select (year) [...]`
 > 
