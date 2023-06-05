@@ -1,4 +1,4 @@
 [[PDFs]]
-[[SCUOLA]]
+[[LICEO]]
 [[Informatica]]
 #todo
