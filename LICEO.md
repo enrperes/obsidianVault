@@ -1,0 +1,15 @@
+#SCUOLA
+## [[Fisica]]
+## [[Inglese]]
+## [[Storia]]
+## [[Chimica]]
+## [[Informatica]]
+## [[Italiano]]
+## [[Esame]]
+## [[FIlosofia]]
+## [[Agenda]]
+## [[Arte]]
+## [[Matematica]]
+## [[PCTO]]
+
+# [[Esame]]
