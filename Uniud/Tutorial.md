@@ -42,6 +42,8 @@ Icon=
 > `exif image.png`
 > oppure: 
 > `identify -verbose image.png`
+> oppure: 
+> `jpeginfo -C image.jpg`
 > ![[exif_example]]
 
 
