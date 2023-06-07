@@ -2,6 +2,7 @@
 
 # [[Git]]
 # [[HOME]]
+# [[CSS-snippets-tests|CSS Obsidian Snippets]]
 
 [[testpage1]]
 
@@ -50,13 +51,32 @@ https://notes.nicolevanderhoeven.com/Obsidian+Callouts
 	-   bug
 	-   example
 	-   quote, cite
+>[!example]- Callouts Icons
+>>[!info]
+>
+>>[!note]-
+>
+>
+>>[!tip]
+>
+>>[!abstract]
+>
+>>[!success]
+>
+>>[!help]
+>
+>>[!warning]
+>
+>>[!fail]
+>
+>>[!error]
+>
+>>[!bug]
+>
+>>[!example]
+>
+>>[!quote]
 
-
-> [!BUG]+ Bug Test
->  Very important Bug
-
->[!Attention]- ATTENTION
-> eheh
 
 ---
 
@@ -101,5 +121,3 @@ CSS snippet found in `.obsidian\snippets\snip.css`
 
 
 `,tex \hsize=60em \newcount\a \a=1000 \loop\ifnum\a>0 AAAAAAA \advance\a-1\repeat`
-
-[[CSS-snippets-tests]]
