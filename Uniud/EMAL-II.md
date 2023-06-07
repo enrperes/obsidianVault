@@ -7,7 +7,7 @@
 ## [[04-Eliminazione_Gauus_Rango]]
 ## [[05-Spazi-Sottospazi-dimensione]]
 ## [[06-Sottospazi_Fondamentali_RC]]
-## [[07-Ortogonalità-proiezioni]]
+## [[07-Ortogonalità_proiezioni]]
 ## [[08-Determinante]]
 ## [[09-Trasformazioni_lineari]]
 ## [[10-Cambiamento_base_trasformazione]]
