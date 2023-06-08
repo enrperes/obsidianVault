@@ -1,3 +1,5 @@
+
+![[01.VETTORI_EQ_RETTE_PIANI.pdf]]
 - [ ] Matrici
 - [ ] Vettori
 - [ ] Somma algebrica fra vettori

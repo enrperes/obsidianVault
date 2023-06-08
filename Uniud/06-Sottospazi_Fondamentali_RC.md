@@ -1,3 +1,5 @@
+![[06_SOTTOSPAZI_FONDAMENTALI_ROUCHE_CAPELLI (versione definitiva).pdf]]
+
 - [ ] Trasposta di una matrice
 - [ ] Operazioni e trasposta
 - [ ] Inner product

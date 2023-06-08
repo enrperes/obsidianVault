@@ -1,3 +1,4 @@
+![[02_ MATRICI E SISTEMI LINEARI (versione del 14.03.23).pdf]]
 - [ ] Risoluzione di sistemi lineari
 - [ ] Equazioni numeriche e matriciali 
 - [ ] Matrici e spazio delle colonne

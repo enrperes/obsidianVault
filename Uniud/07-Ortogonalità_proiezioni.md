@@ -1,3 +1,6 @@
+![[07.ORTOGONALITA_PROIEZIONI.pdf]]
+
+
 - [ ] Ortogonalità fra vettori in $\Large \mathbb{R^n}$
 - [ ] Basi ortonormali
 - [ ] Proiezioni ortogonali e PCA

@@ -1,3 +1,5 @@
+![[11_DIAGONALIZZAZIONE_SVD_(versione del 19_05_23).pdf]]
+
 - [ ] Diagonalizzare 
 - [ ] Sommario matrici, trasformazioni rispettto a una base
 - [ ] Trasformazioni diagonalizzabili
