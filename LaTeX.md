@@ -1,3 +1,8 @@
+
+# $\Huge\LaTeX$
+
+
+
 $$
 c = \frac{f(a+h) - f(a)}{h} - \frac{r(h)}{h}\\ \Rightarrow \\
 \lim_{h \to 0} c = \lim_{h \to 0}\left(\frac{f(a+h) - f(a)}{h} - \frac{r(h)}{h}\right) \Rightarrow \\
@@ -10,7 +15,7 @@ $$
 \usetikzlibrary{arrows.meta}
 \usepackage{pgfplots} 
 \begin{document} 
-\begin{tikzpicture}[scale=2]
+\begin{tikzpicture}[scale=1.5]
 Grid \draw[very thin] (0,0) grid (8,5); 
 Arrows 
 \draw[very thick, -{>[scale=2, width=7, length=10]}] (0,1)--(8,1) node[right, scale=2] {$x$}; 
