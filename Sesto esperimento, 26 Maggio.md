@@ -16,6 +16,6 @@ passare da scala temporale più corta a più lunga per il tempo di acquisizione,
 
 **Errore nel laboratorio** Il led rosso si comporta come il led ultravioletto, quindi è da scartare. 
 
-  
+  ![[screenshot.jpg|500]]
 
 ![[Valori-exp6-v2.png]]
