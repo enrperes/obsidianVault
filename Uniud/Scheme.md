@@ -208,6 +208,9 @@ LLCS = Lenght Longest Common Subsequence
 >
 >>[!example]- `cdr`
 >>Ritorna la lista **senza** il primo elemento
+>
+>>[!example]- `(list-ref *lst* *pos*)`
+>>Returns the element of *lst* at position *pos*. Starting from position 0. 
 
 
 
