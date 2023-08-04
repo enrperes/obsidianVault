@@ -17,4 +17,6 @@ Dimensione tipica: da 3 a 6 facciate.
 
 # [[Quinto esperimento, 19 maggio]]
 
-[[Sesto esperimento, 26 Maggio]]
+# [[Sesto esperimento, 26 Maggio]]
+
+# [[Settimo esperimento, 9 Giugno]]

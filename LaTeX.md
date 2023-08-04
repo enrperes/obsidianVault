@@ -29,3 +29,15 @@ Arrows
 \draw node[scale=2] at (4,-1.25) {$\mathrm{Tvm}(f[a,b])=\frac{f(b)-f(a)}{b-a}$}; \end{tikzpicture} 
 \end{document}
 ```
+
+ $$\Huge \color{yellow}\LaTeX $$
+ $$\Huge \color{green}\LaTeX $$
+ $$\Huge \color{red}\LaTeX $$
+ $$\Huge \color{blue}\LaTeX $$
+ $$\Huge \color{cyan}\LaTeX $$
+ $$\Huge \color{lime}\LaTeX $$
+ $$\Huge \color{teal}\LaTeX $$
+ $$\Huge \color{orange}\LaTeX $$
+ $$\Huge \color{olive}\LaTeX $$
+ $$\Huge \color{black}\LaTeX $$
+![[Pasted image 20230804193327.png]]
