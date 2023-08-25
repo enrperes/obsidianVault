@@ -1,3 +1,2 @@
-Hotel
-trasporto 
-documentazione
+# Hotel
+**Borgo de Varano Hotel i Duchi**, Morro

@@ -41,8 +41,8 @@
 ---
 ## Packages 
 (check installed ones)
-- [ ] [[Tidyverse]]
-- [ ] R Markdown 
+- [x] [[Tidyverse]]
+- [x] R Markdown 
 	- il codice finale sarà un insieme di codice R e MarkDown
 	- `install.packages("rmarkdown)"` 
 	- Usage
@@ -50,8 +50,8 @@
 		- Estensione `.rmd` 
 		- Render and preview output with `Ctrl + Shift + K` 
 		- Add code chunks with `Ctrl + Alt + I`
-- [ ] [[tibble]]
-- [ ] `View()` function used to invoke a spreadsheet-style data viewer in Rstudio
+- [x] [[tibble]]
+- [x] `View()` function used to invoke a spreadsheet-style data viewer in Rstudio
 ---
 
 # Definizioni 
