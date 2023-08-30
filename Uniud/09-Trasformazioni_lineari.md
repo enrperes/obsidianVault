@@ -1,3 +1,5 @@
+![[09_TRASFORMAZIONI_LINEARI.pdf]]
+
 - [ ] Matrici come trasformazioni 
 - [ ] Proiezioni ortogonali
 - [ ] Rotazioni nel piano

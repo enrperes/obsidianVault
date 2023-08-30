@@ -266,12 +266,12 @@ gli altri argomenti sono trattati nelle sezioni 2.1 e 3.1.1-3.1.2
 
           new IntSList(n,s)             // costruttore equivalente
 
-   2.4. Concetto di classe.
+   ## 2.4. Concetto di classe.
 
-        - Classe = schema;
+	- Classe = schema;
 
-        - Rappresenta le caratteristiche comuni a tutti gli oggetti
-          che sono creati come istanze della classe stessa;
+	- ==Rappresenta le caratteristiche comuni a tutti gli oggetti
+          che sono creati come istanze della classe stessa;==
 
         - Protocollo e relativo comportamento: entita' procedurali;
 

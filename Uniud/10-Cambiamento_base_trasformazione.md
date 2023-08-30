@@ -1,3 +1,5 @@
+![[10_CAMBIAMENTO_BASE_TRASFORMAZIONI.pdf]]
+
 - [ ] Coordinate rispetto a una base
 - [ ] Cambiamento di coordinate
 - [ ] Matrici e Trasformazioni Diagonali

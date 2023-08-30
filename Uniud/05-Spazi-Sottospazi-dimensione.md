@@ -1,3 +1,5 @@
+![[05_SPAZI_SOTTOSPAZI_DIMENSIONE (versione definitiva).pdf]]
+
 - [ ] Spazi vettoriali su $\Large R$
 - [ ] Combinazioni lineari
 - [ ] Combinazioni lineari e base canonica

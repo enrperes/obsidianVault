@@ -1,3 +1,5 @@
+![[08.DETERMINANTE.pdf]]
+
 - [ ] Determinante di matrice quadrata
 - [ ] Determinante di matrici $\Large 2 \times 2$
 - [ ] Determinante nel piano

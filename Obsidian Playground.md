@@ -3,7 +3,7 @@
 # [[Git]]
 # [[HOME]]
 # [[CSS-snippets-tests|CSS Obsidian Snippets]]
-
+# [[LaTeX]]
 [[testpage1]]
 
 FOOTNOTE [^1]

@@ -1,3 +1,5 @@
+![[03. SISISTEMI QUADRATI E MATRICI INVERTIBILI (versione definitiva, salvo errori).pdf]]
+
 - [ ] Soluzione di sistemi lineari con n equazioni e n incognite 
 - [ ] Matrici invertibili
 - [ ] Risoluzione di sistemi quadrati

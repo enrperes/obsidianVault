@@ -62,3 +62,9 @@ Icon=
 > 
 > To reset it, just delete the variable: `rm(flights)`
 
+>[!info]- # HowTo: AutoHotKey
+> ![[Pasted image 20230725214139.png|300]]
+> Todo: 
+> - [ ] Revert Ctrl shift v function for clipboard management
+> - [ ] 
+

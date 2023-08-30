@@ -208,6 +208,11 @@ LLCS = Lenght Longest Common Subsequence
 >
 >>[!example]- `cdr`
 >>Ritorna la lista **senza** il primo elemento
+>
+>>[!example]- `(list-ref *lst* *pos*)`
+>>Returns the element of *lst* at position *pos*. Starting from position 0. 
+>>![[Pasted image 20230714223845.png|400]]
+>>`list-ref`ritorna un numero, `cdr` una lista. 
 
 
 

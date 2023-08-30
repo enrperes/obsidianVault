@@ -74,6 +74,12 @@ public static String Plurale (String s ){
 # Java doc
 - `public static` == const 
 -  `public static main (String [] args) {}`
+`static` : un componente, membro o classe statico è condiviso da tutte le istanze della classe. Quindi una variabile `static` condivisa da tutte le istanze dela classe è globale comune a tutti gli oggetti di quella classe. 
+Quindi se un'istanza modifica una variabile `static` questa sarà visibile a tutte le altre istanze di questo tipo. 
+
+
+
+
 ## Liste nello stile di Scheme 
 ([[Scheme#Documentation]])
 - null
