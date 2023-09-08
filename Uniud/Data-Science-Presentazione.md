@@ -83,3 +83,12 @@ I punti sul 40 pari invece, sono importanti perchè se vinti conferiscono una ch
 
 In questi punti Nadal è in netto vantaggio, totalizzando 17 vincenti  e solo 7 errori non forzati, costringendo Djokovic a 17 errori forzati e solamente 9 vincenti con 13 errori non forzati. 
 Speso le partite di tennis si decidono su una manciata di punti importanti, quindi tenere mentalmente in questi punti è proprio fondamentale. 
+
+## Points 
+
+Questi grafico offrono un'interessante spunto di riflessione: Nadal 56 vincenti, djokovic 48. Nadal 25 errori non forzati, Djokovic 36. Nadal totale di 148 punti vinti, Djokovic 130. Le differenze non sono enormi, ma come abbiamo visto prima conta più **quando** si vincono i punti e Nadal è riuscito a vincere nei momenti di pressione.
+
+## Conclusioni
+
+In conclusione: Nadal è riuscito a mantenere un livello molto alto durante tutta la partita e soprattutto nei momenti cruciali, concedendo appunto solo 25 errori gratuiti in quasi 900 colpi totali. Questa vittoria è ancora più speciale perchè poche settimane prima, in una conferenza stampa, ha dichiarato di essere preoccupato per la sua futura carriera, per il problema al piede, e che forse sarebbe stata la sua "ultima partita". 
+E invece ha vinto il quattordicesimo Roland Garros. 
