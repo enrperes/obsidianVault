@@ -95,8 +95,6 @@ Più il coefficiente $R^2$ si avvicina a 1,  più il modello è affidabile.
 
 L'obiettivo è creare un modello che possa apprendere automaticamente e distinguere le diverse classi da dati di addestramento 
 
-
-
 Tre principali algoritmi di classificazione: 
 - ### Decision tree
 	composto da un *root node*, *decision nodes* (splitting points) e *terminal nodes* (prediction points)
@@ -134,4 +132,129 @@ Viene usato per scoprire relazioni nascoste nei dati, identificare gruppi omogen
 Principali algoritmi di Clustering: 
 
 - ### K-Means
+	Algoritmo di clustering usato per dividere un insieme di dati in cluster basati sulla somiglianza tra le osservazioni. 
+	**K** rappresenta il numero di cluster desiderati; viene deciso a priori. Un valore troppo alto porta a cluster troppo piccoli e complesi (*overfitting*) mentre se è troppo basso si rischia di raggruppare cluster eterogenei. 
+	
+	Non è deterministico: può produrre due diversi risultati con lo stesso input. 
+	Funzionamento: 
+	1. Vengono selezionati casualmente **K** punti come centroidi iniziali del cluster. 
+	2. Per ciascuna osservazione nel dataset, l'algoritmo calcola la distanza Euclidea tra l'osservazione e ciascuno dei centroidi del cluster. 
+	3. Una volta assegnate le osservazioni ai cluster, i centroidi vengono aggiornati. Il centroide viene calcolato come punto medio di tutte le osservazioni assegnate a quel cluster. 
+	4. I punti 2 e 3 vengono ripetuti, finché i centroidi rimangono invariati. 
+	##### CODE
+	`kmeans(x, centers, iter.max = 10, nstart = 1)`
+	
+	`x` = dataset, `centers` = number of clusters, `iter.max` = max number of iterations, `nstart` = number of random starting position (seed)
+
+
 - ### DBSCAN
+	> Density-Based Spatial Clustering of Applications with Noise
+	
+	Per identificare cluster di punti in uno spazio in base alla densità dei dati. A differenza del  *clustering* non richiede di impostare il numero di cluster a priori.  Sono richiesti due parametri: 
+		1. *Distance treshold* = $\Large \varepsilon$
+		2. *minimum cluster size* = $\Large min$
+	I cluster vengono assegnati dove ci sono aree di alta densità di punti, separati da aree di bassa densità. 
+	Funzionamento: 
+	Viene selezionato casualmente un punto. Se ci sono almeno $min$ punti all'interno di una distanza $\varepsilon$ dal punto selezionato, allora viene considerato un **core point**.  Dopo aver identificato un core point, il cluster include tutti i punti vicini entro una distanza $\varepsilon$
+	L'algoritmo si ripete finché non rimangono punti non assegnati a cluster o **core points**.
+	I punti che non possono essere assegnati a nessun cluster vengono considerati **rumore**. 
+
+	Vantaggi principali di DBSCAN: 
+	- identificare cluster con forme complesse e dimensioni variabili
+	- Gestire bene dati rumorosi
+	##### CODE
+	Requires the library `fpc` -> `install.packages("fpc")`
+	
+```r
+set.seed(123)
+dbs.res <- dbscan(iris, eps = 0.4, MinPts = 5)
+dbs.res
+
+dbscan Pts = 150 MinPts = 5 eps = 0.4
+
+		0    1    2   # 3 clusters found
+
+border  24   4    13
+seed    0    44   65
+total   24   48   78
+```
+
+# Evaluation
+
+1. Selezionare un training set (e magari un validation set)
+2. Mining model 
+3. Scegliere un parametro di qualità
+4. Selezionare il test set
+5. Applicare il modello nel test set
+6. Calcolare il valore del parametro di qualità 
+
+### Training set e test set 
+Il training set è un sottoinsieme del dataset complessivo. Contiene dati rappresentativi che coprono tutte le caratteristiche del problema. Durante l'addestramento, il modello impara dalle osservazioni del training set, identificando pattern nei dati. 
+La valutazione del modello viene fatta sul test set, perché per il training set si conosce già la qualità dei dati. 
+- **Training set**
+	- Utilizzato per addestrare il modello di apprendimento automatico
+	- Contiene dati con cui il modello impara dalle osservazioni e cerca di identificare pattern e relazioni nei dati. 
+- **Validation set**
+	- Utilizzato per regolare i parametri del modello e selezionare il miglior modello tra le varie configurazioni
+	- Aiuta a prevenire l'*overfitting* e ottimizzare le prestazioni del modello. 
+- **Test Set**
+	- Utilizzato per valutare le prestazioni finali del modello dopo che è stato addestrato e validato. 
+	- Contiene dati che il modello non ha mai visto. 
+	
+##### Problemi: 
+- **Underfitting**
+	- Il modello è troppo semplice, la valutazione sarà carente sia nel training set che nel test set
+- **Overfitting**
+	- Il modello è troppo complesso: la valutazione sarà ottima nel training set ma non nel test set
+### Evaluation methods
+
+#### Confusion Matrix 
+> tabella che mostra il numero di previsioni corrette e errate fatte da un modello di classificazione
+
+Divisa in:
+1. **TP** True positives
+2. **TN** True negatives
+3. **FP** False Positives
+4. **FN** False Negatives 
+
+#### Global Accuracy
+> L'accuratezza globale rappresenta la percentuale di previsioni corrette fatte dal modello rispetto al numero totale di previsioni. 
+
+Calcolata come: $$\Large accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
+Può essere ingannevole se le classi sono sbilanciate. 
+#### Cost Matrix 
+> Simile a confusion matrix. Assegna costi diversi agli errori di classificazione in base alla loro gravità. Aiuta a valutare il modello in modo più sensibile rispetto ai costi reali delle decisioni di classificazione. 
+#### Hold-Out e Repeated Hold-Out
+Divide il dataset in training e test set. Il modello viene addestrato con il training set e valutato con il test set. Non è molto affidabile perché ha solo un test. 
+Repeated Hold-Out with random Sub-Sampling introduce maggiore rilevanza statistica ma rallenta il processo di test. 
+#### K-Fold
+Il dataset viene diviso in **K** parti (*fold*) e il modello viene addestrato e testato K volte, utilizzando **K-1** fold come training set e **K** come test set. 
+Pro: valore statistico significativo
+Contro: valutazione molto lenta
+
+#### ROC Curve
+> Receiver Operating Characteristic Curve. 
+> Visualizza il *trade-off* tra il tasso di vero positivo (sensibilità) e il tasso di falso positivo, al variare del punto di decisione (soglia)
+
+**True Positive Rate = Recall =** $$\frac{TP}{TP+ FN}$$
+**False Positive Rate =** $$\frac{FP}{TN+ FP}$$
+La forma della curva ROC determina la prestazione del modello. 
+- Curva vicina all'angolo in alto a sinistra indica una buona capacità di separare le classi positive da quelle negative. 
+- Curva diagonale $x = y$ il modello non riesce a separare le classi
+![[Pasted image 20230910152411.png|500]]
+L'area sotto la curva (**AUC-ROC**) è direttamente proporzionale alla qualità del modello. 
+
+#### Precision-Recall Curve
+> Evidenzia il trade-off tra precisione  e richiamo. Utile quando le classi sono sbilanciate e il numero di casi positivi è minore rispetto ai casi negativi. 
+
+La **precisione** rappresenta la proporzione di previsioni positive corrette rispetto al totale di previsioni positive fatte dal modello, ovvero: $$Precision = \frac{TP}{TP + FP}$$ Il **recall o TPR** si indica con: $$TPR = \frac{TP}{TP+ FN}$$
+Una curva che si avvicina all'angolo in alto a destra (1, 1) indica una buona capacità di separare classi positive da quelle negative. 
+![[Pasted image 20230910153111.png|500]]
+
+---
+# Churn Analysis 
+
+> Processo di analisi dei dati che si concentra sul "churn rate" ovvero la perdita di utenti da un servizio nel tempo, in base a certe caratteristiche. 
+> L'obiettivo è quello di analizzare le metriche di utilizzo dei clienti e scoprire i motivi che portano ad abbandonare il servizio. 
+
+
