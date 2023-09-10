@@ -1,3 +1,9 @@
+---
+tags:
+  - uniud
+---
+
+
 # Blockchain 
 
 1. Intro
@@ -42,6 +48,7 @@
 
 ## Smart contracts
 > Accordi autonomi e auto-eseguibili, pubblici e trasparenti.
+> Sono programmi che eseguono codice quando si verificano certe condizioni: 
 
 - Automation
 - Trustless
@@ -51,3 +58,106 @@
 
 ## Blockchain components 
 
+- **Address**
+	- Identificatori unici usati nella blockchain per indicare sender e receiver. 
+- **Transaction**
+	- Unità fondamentale della blockchain. Transazione = trasferimento di valore da un indirizzo a un altro 
+
+### Hash Functions
+Un hash è un valore ottenuto da una funzione di hash, ovvero una procedura che trasforma dati in una sequenza di caratteri di lunghezza fissa. 
+- Determinismo: Lo stesso input produrrà lo stesso output. 
+- Lunghezza fissa
+- Un cambiamento anche piccolo nell'input produce un hash completamente diverso
+- Da un hash è praticamente impossibile risalire all'input originale
+
+#### Public & Private keys
+Il mittente firma la transazione con la chiave privata. Il destinatario usa la chiave pubblica del mittente per verificare la firma. Se è verificato, la transazione viene aggiunta alla blockchain. 
+
+### Crypto Wallet
+> tool che permette di interagire con la rete blockchain
+
+- **Software wallets**
+	- Browser interface
+	- more risk: private keys are managed by third parties
+- **Hardware wallets**
+	- dispositivi fisici per conservare le chiavi private offline 
+- **Paper wallets**
+	- pezzo di carta con l'indirizzo e chiave privata. 
+
+### Proof of Work (PoW)
+
+Algoritmo usato nella blockchain per validare le transazioni e creare nuovi blocchi. Sono richiesti **miners** che risolvono funzioni hash per validare le transizioni e aggiungerle alla blockchain. 
+
+
+## Blocks
+
+![[Pasted image 20230910180521.png|500]]
+
+- **Nonce** = unique number generated and used only once. 
+- **Timestamp** = creation time of the block
+- **Merkle root** = [...]
+
+
+### Blockchain PROS
+- Decentralization
+	- no need for trusted third party to validate transactions. 
+- Transparency and trust
+	- Everyone can see what is on the B. so Trust is established. 
+- Immutability
+	- once data is on the blockchain, it's hard to change it back. 
+- High availability
+	- The system is based on thousands of nodes in a P2P network. Each node has a replica of the data. Even if some nodes become offline, the network continues to work 
+- Security
+	- Advanced cryptographic algorithms 
+- Simplified
+	- Multiple entities maintain their own database -> data sharing can be difficult. The blockchain is one single shared register. 
+- Fast
+	- quick trades
+- Cost efficient
+	- no third party gains money. 
+
+### Blockchain CONS
+- Scalability
+- Adoption
+	- Perceived as an emerging tech and not user friendly
+- Regulation
+	- no sense of security as no one regulates
+- Privacy
+	- Public blockchain (Bitcoins) allow anyone to view transactions. Undesirable for many industries. 
+
+## Blockchain trilemma
+
+Can't have these three together: 
+- **Decentralization**
+	- PRO
+		- Open to everyone
+		- You own the data 
+	- CONS
+		- Reaching *consensus* takes time and limits TPS (Transactions per second). 
+- **Scalability**
+	- PRO
+		- Cryptgraphy-protected data cannot be compromised 
+	- CONS
+		- Energy /  work intensive, low TPS
+		- Fewer validations with more efficient consensus make the network more vulnerable
+- **Security**
+	- PRO
+		- More TPS, allowing increase in adoption
+	- CONS
+		- Less nodes would mean weaker blockchain security
+
+---
+
+# Decentralized Autonomous Organization 
+
+> Forma di organizzazione basata su **blockchain** che opera in modo autonomo senza bisogno di un'organizzazione centralizzata. 
+
+- PRO
+	- Easy access
+	- Speed
+	- Smart contracts 
+- CONS
+	- Legal uncertainty
+	- Security vulnerabilities 
+
+le **DAO** sono un quindi un modo innovativo per gestire organizzazione decentralizzate autonome. 
