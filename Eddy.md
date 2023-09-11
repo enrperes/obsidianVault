@@ -65,8 +65,11 @@ can be recursive. Can be applied to each element of a vector:
 # Plot 
 
 - Barplot
+	- ![[Pasted image 20230911200943.png|300]]
 - Histogram
+	- ![[Pasted image 20230911201008.png|300]]
 - BoxPlot
+- ![[Pasted image 20230911201657.png|300]]
 	- Per visualizzare la distribuzione dei dati. Include dati come mediana, variabilità, presenza di outlier e simmetria dati. 
 	- Asse orizzontale che rappresenta la variabile di interesse
 	- Il box copre il secondo e terzo quartile dei dati. La linea nel box rappresenta la mediana. 
@@ -92,7 +95,7 @@ Some of the improvements include:
 ![[Pasted image 20230909015838.png|600]]
 
 ### Gathering
-`gather(table4a, `1999`, `2000`, key = "year", value = "cases")`
+`gather(table4a, "1999", "2000", key = "year", value = "cases")`
 ![[Pasted image 20230909015951.png|500]]
 
 ### Spreading
