@@ -161,3 +161,96 @@ Can't have these three together:
 	- Security vulnerabilities 
 
 le **DAO** sono un quindi un modo innovativo per gestire organizzazione decentralizzate autonome. 
+
+# DeFi
+> Blockchain based decentralized applications (Dapps) for **financial** services. 
+
+### Decentralized finance vs centralized finance
+
+CeFI:
+![[Pasted image 20230911125110.png]]
+DeFi:
+![[Pasted image 20230911125140.png|500]]
+
+I pagamenti possono essere ricevuti in pochi secondi, invece di giorni. Non ci sono banche intermediarie quindi non ci sono costi. 
+Il sistema è operabile 24/7, basta che la rete blockchain sia online. 
+
+Alcuni esempi: 
+- Ethereum
+- Solana
+
+ ![[Pasted image 20230911161347.png|500]]
+
+### DeFi components
+
+- **Transactions and smart contracts**
+	- Elementi alla base delle operazioni DeFi
+- **Keepers**
+	- External Owned Accounts (EOAs), account o bot che ricevono ricompense per incentivare attività DeFi e svolgere task
+- **Tokens**
+	- Forma digitale di una rappresentazione di un asset o di un valore du una blockchain. 
+- **Custody**
+- **Incentive**
+	- Can be negative or positive rewards 
+- **Oracle**
+	- Importa dati esterni del mondo reale nella blockchain, ad esempio per avere info in tempo reale. 
+- **Governance**
+	- Often [[Santoro#Decentralized Autonomous Organization|DAOs]]. 
+- **Bridge**
+	- Connessione attraverso due reti blockchain diverse. Servono a garantire interoperabilità attraverso DeFi diverse. 
+
+## DEX
+> Decentralized Cryptocurrency Exchange in a Blockchain 
+
+- Direct P2P Crypto exchange 
+- Transparency
+- No need for centralized custody of assets, unlike CEX
+
+In caso un Dex venga compromesso non c'è nessuna tutela per i clienti. 
+
+### Yield Farming
+
+> Metodo per generare passive income tramite interessi e ricompense. 
+
+## Benefits of DeFi
+- **Reduction in risk**
+- **Decentralized**
+- **Open and inclusive**
+	- Non ci sono limiti minimi di capitale. 
+- **Transparent**
+- **Interoperable**
+- **Self-Custodial**
+- **Low cost**
+- **Programmability**
+	- Smart contracts allow automation
+
+Il futuro della finanza dovrebbe vedere cooperare DeFi e CeFi. 
+
+---
+
+# NFT
+
+> Non Fungible Tokens
+
+Ovvero tokens non "copiabili", che non possono essere sostituiti da altro. Una criptovaluta può essere scambiata con un'altra, ma un NFT è unico. 
+Ogni NFT contiene i dati del creatore originale e dell'acquirente, quindi è facile risalire alle sue origini. Creare NFT contraffatti è pertanto impossibile. 
+
+Il valore degli NFT deriva dalla loro scarsa quantità. 
+
+### Indestructability 
+Gli NFT sono salvati nella blockchain con gli smart contracts, quindi contengono un riferimento al blocco precedente, rendendoli immuni a modifiche o eliminazioni. 
+
+### Ethereum 
+> Multi Token Network 
+
+A differenza di Bitcoin, ha la capacità di creare altri token diversi. (ERC-721, ERC-1155...)
+**ERC-721** è lo standard più usato per NFT nella rete Ethereum
+
+NFT are not stored on the Blockchain: a reference link is. 
+
+## PROS
+- assicurano la proprietà dei lavori, evitando plagio 
+- Offre un controllo assoluto ai content creators
+## CONS
+- Il loro valore è speculativo, volatile e non prevedibile
+- Investitori poco esperti potrebbero rischiare di fare investimenti sbagliati
