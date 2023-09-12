@@ -92,3 +92,13 @@ Questi grafico offrono un'interessante spunto di riflessione: Nadal 56 vincenti,
 
 In conclusione: Nadal è riuscito a mantenere un livello molto alto durante tutta la partita e soprattutto nei momenti cruciali, concedendo appunto solo 25 errori gratuiti in quasi 900 colpi totali. Questa vittoria è ancora più speciale perchè poche settimane prima, in una conferenza stampa, ha dichiarato di essere preoccupato per la sua futura carriera, per il problema al piede, e che forse sarebbe stata la sua "ultima partita". 
 E invece ha vinto il quattordicesimo Roland Garros. 
+
+---
+
+# Considerazioni post esame
+
+- Slide introduttiva da separare, intro e dataset. 
+- Slide conclusioni troppo scura e non risponde alle domande
+- Manca un modello sofisticato, clustering o classification 
+- Slide **Points** da sistemare il titolo 
+

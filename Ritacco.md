@@ -132,7 +132,7 @@ Viene usato per scoprire relazioni nascoste nei dati, identificare gruppi omogen
 Principali algoritmi di Clustering: 
 
 - ### K-Means
-	Algoritmo di clustering usato per dividere un insieme di dati in cluster basati sulla somiglianza tra le osservazioni. 
+	Algoritmo di clustering ==non supervisionato== usato per dividere un insieme di dati in cluster basati sulla somiglianza tra le osservazioni. 
 	**K** rappresenta il numero di cluster desiderati; viene deciso a priori. Un valore troppo alto porta a cluster troppo piccoli e complesi (*overfitting*) mentre se è troppo basso si rischia di raggruppare cluster eterogenei. 
 	
 	Non è deterministico: può produrre due diversi risultati con lo stesso input. 

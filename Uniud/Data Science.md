@@ -4,6 +4,8 @@
 # [[Ritacco]]
 # [[Santoro]]
 
+# [[Data-Science-Presentazione|Presentazione]]
+
 ---
 
 [[R in vscode]]
