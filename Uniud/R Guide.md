@@ -9,6 +9,8 @@ editor_options:
   chunk_output_type: inline
 ---
 
+[[R in vscode]]
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, message = FALSE, warning = FALSE)
 ```

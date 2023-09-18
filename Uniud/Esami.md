@@ -39,7 +39,7 @@
 ##  [[Data Science]]
 - [ ] ~~Orale 1 [26 Giugno]~~
 - [ ] Orale 2 [14 Luglio]
-- [ ] Orale 3 [12 Settembre]
+- [x] Orale 3 [12 Settembre]
 - [ ] Orale 4 [27 Settembre]
 
 ##  ~~[[Tecnologie Web-info | Tecnologie Web]]~~

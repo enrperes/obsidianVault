@@ -1,14 +1,9 @@
-Eddy Maddalena sostituisce Franceschet 
+(Eddy Maddalena sostituisce Franceschet)
 <-- [[Data Science]]
 ----
-
-- Plug
-- Play
-- Solution
-
-Data challenges
-
 # Esame
+
+[[Data-Science-Esame]]
 -   ﻿﻿Discussione del progetto e in alcune domande di teoria sul programma del corso o Iscrizione all'appello su ESSE3 obbligatoria
 -   ﻿﻿Mancata iscrizione = Esclusione dall'esame (si può assistere alla prova degli altri)
 -   ﻿﻿Ogni studente: 12 minuti per presentare il progetto + 8 minuti per le domande

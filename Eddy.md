@@ -1,4 +1,35 @@
-# R language 
+# [[R language]]
+
+### Slide usate a lezione: 
+[Course Log](https://users.dimi.uniud.it/~massimo.franceschet/ds/plugandplay/log.html)
+
+1. [Hasty tour inside R](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/R/R.html#1)
+2. [READR](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/import/import.html#1)
+3. [Tidy](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/tidyr/tidyr.html#1)
+4. [DPLYR](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/dplyr/dplyr.html#1)
+5. [ggplot2](http://users.dimi.uniud.it/~massimo.franceschet/ns/plugandplay/ggplot/ggplot.html#1)
+6. [Elo - chess](https://users.dimi.uniud.it/~massimo.franceschet/ds/plugandplay/challenges/elo/elo.html)
+
+[[R Guide|R Guide markdown file]]
+
+---
+
+## Definizioni 
+
+### Media
+> Rapporto tra la somma dei dati numerici e il numero dei dati. 
+
+Gli *outlayers* influenzano molto la media, ma è generalmente pià accurata per rappresentare il valore medio di un insieme di dati. 
+### Mediana
+> Valore centrale tra i dati numerici disposti in ordine crescente o decrescente.
+
+In caso di numero pari di dati, la median è data dalla media aritmetica dei due valori centrali. 
+La presenza di *outlayers* (=valori distanti dalla media) non influenza necessariamente la mediana. 
+
+### Moda
+> Valore che si presenta con maggiore frequenza
+
+Quindi, se ogni valore è presente una volta, non esiste una moda. 
 
 ## Data structures
 >[!info]- Atomic Vectors
@@ -49,7 +80,7 @@
 >```
 >Data frames can be nested. 
 
-# R programming
+# [[R programming]]
 ## loops
 `for`, `while` loops. 
 `ifelse` statements
@@ -62,7 +93,7 @@ can be recursive. Can be applied to each element of a vector:
 `sapply(df, mean)` -> apply mean to each col of dataframe, return atomic vector.
 `apply(mtx, 1, mean)` -> apply mean to each row of matrix, return atomic vector. 
 
-# Plot 
+# Plot [[R visualization]]
 
 - Barplot
 	- ![[Pasted image 20230911200943.png|300]]
@@ -78,7 +109,7 @@ can be recursive. Can be applied to each element of a vector:
 	- Outlier: i dati che cadono fuori dai "baffi" sono considerati Outlier. Solitamente sono dati anomali o errori. 
 	- Simmetria dei dati: se la mediana è al centro del box e i baffi sono uguali in distanza dal box, i dati sono distribuiti simmetricamente. 
 
-# Data import
+# Data import [[R import]]
 ## Tibbles
 > Tibbles are data frames with some improvements. They are defined in the `tibble` package. 
 
@@ -107,7 +138,7 @@ Some of the improvements include:
 ### Uniting
 ![[Pasted image 20230909020312.png|500]]
 
-# `dplyr` : Data manipulation
+# `dplyr` : Data manipulation [[Dplyr]]
 
 ## Unary verbs
 - `select()` pick variables based on names (it's a filter on columns of the data frame)
@@ -145,4 +176,6 @@ when many tables contribute to analysis, tools to combine them exist:
 ggplot(data = df)+
 	geom_obj(mapping = aes())
 ```
+
+
 

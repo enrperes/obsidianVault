@@ -4,7 +4,7 @@ tags:
 ---
 
 
-# Blockchain 
+# [[Blockchain]]
 
 1. Intro
 2. Blockchain architecture
@@ -148,7 +148,7 @@ Can't have these three together:
 
 ---
 
-# Decentralized Autonomous Organization 
+# Decentralized Autonomous Organization [[DAO]]
 
 > Forma di organizzazione basata su **blockchain** che opera in modo autonomo senza bisogno di un'organizzazione centralizzata. 
 

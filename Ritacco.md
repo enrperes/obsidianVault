@@ -1,4 +1,10 @@
+---
+aliases:
+  - Data mining, clustering, classification, evaluation
+---
 # Data Mining
+[[Data Mining]]
+
 > Processo analitico che consiste nell'estrarre informazioni significative, modelli e conoscenze utili da grandi basi di dati. 
 > L'obiettivo principale è di scoprire pattern, relazioni e tendenze nascoste nei dati. 
 

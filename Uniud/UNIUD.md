@@ -1,8 +1,11 @@
 ---
 banner: "![[uniud_banner_v2.png]]"
+aliases:
+  - UNI, UNIUD, home
+tags:
+  - uniud
+banner_y: 0.5
 ---
-
-#uniud 
 
 ```ActivityHistory
 /
@@ -20,11 +23,11 @@ banner: "![[uniud_banner_v2.png]]"
 - [x] ### [[Tecnologie Web]]
 - [ ] ### [[Programmazione]]
 	- [ ] ### [[Scheme]]
-- [ ] ### [[Elementi di matematica e algebra lineare]]
+- [x] ### [[Elementi di matematica e algebra lineare]]
 
 # Secondo semestre 2022/2023
-- [ ] ### [[Data Science]]
+- [x] ### [[Data Science]]
 - [ ] ### [[Programmazione]]
 	- [ ] ### [[Java]]
-- [ ] ## [[FisicaIoT]]
+- [x] ## [[FisicaIoT]]
 
