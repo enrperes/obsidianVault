@@ -36,7 +36,7 @@
 - [ ] Completo [21 Settembre]
 	- [ ] Orale [22 Settembre]
 
-##  [[Data Science]]
+##  ~~[[Data Science]]~~
 - [ ] ~~Orale 1 [26 Giugno]~~
 - [ ] Orale 2 [14 Luglio]
 - [x] Orale 3 [12 Settembre]

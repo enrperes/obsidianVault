@@ -12,22 +12,15 @@ banner_y: 0.5
 ```
 
 ---
-# Primo anno 
-## [[Esami]]
 
 
-[[Erasmus-info]]
-# Primo semestre 2022/2023
-- [x] ### [[Architettura degli elaboratori]]
-- [ ] ### [[Analisi]]
-- [x] ### [[Tecnologie Web]]
-- [ ] ### [[Programmazione]]
-	- [ ] ### [[Scheme]]
-- [x] ### [[Elementi di matematica e algebra lineare]]
+>[!example]- ## Primo Anno
+>
+> ### [[Esami-1|Esami]]
+> ### [[Erasmus-info]]
 
-# Secondo semestre 2022/2023
-- [x] ### [[Data Science]]
-- [ ] ### [[Programmazione]]
-	- [ ] ### [[Java]]
-- [x] ## [[FisicaIoT]]
+>[!example]+ ## Secondo anno 
+>
+> ### [[Esami-2]]
+
 
