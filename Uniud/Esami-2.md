@@ -1,1 +1,3 @@
-[...]
+- ## [[OOP]]
+- ## [[Algoritmi e strutture dati]]
+- ## [[Statistica]]

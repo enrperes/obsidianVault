@@ -19,8 +19,8 @@ banner_y: 0.5
 > ### [[Esami-1|Esami]]
 > ### [[Erasmus-info]]
 
->[!example]+ ## Secondo anno 
+>[!example]- ## Secondo anno 
 >
-> ### [[Esami-2]]
+> ### [[Esami-2|Esami]]
 
 
