@@ -23,4 +23,5 @@ banner_y: 0.5
 >
 > ### [[Esami-2|Esami]]
 
-
+---
+# [[Tirocinio]]
