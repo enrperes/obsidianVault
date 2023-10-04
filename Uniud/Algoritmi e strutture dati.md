@@ -13,25 +13,8 @@ Per:
 
 ## Ordinamento 
 
-### Insertion sort 
-[[insertion-sort.gif]]
-> Si divide l'array in due parti, di cui una ordinata. 
-
-Dopo `i` passi la parte ordinata è lunga `i-1`.
-```clike
-insertionSort(A){
-	for(i=2 to A.length){
-		key = A[i] // elemento da confrontare 
-		j = i-1 // j = indice precedente a i
-		while(j>0 && A[j]>k){ // continua a spostarsi a sinistra (nella parte ordinata) finchè j>0 e a[j] è maggiore dell'elemento da confrontare 
-			A[j+1] = A[j] // sposta l'elemento maggiore a destra 
-			j = j-1} // decremento j per continuare con gli elementi precedenti
-		}
-		A[j+1] = key // assegna key nel posto giusto 
-}
-```
-
-### Merge sort 
+### [[insertion-sort|Insertion Sort]] 
+## [[Merge Sort]]
 
 # Strutture dati 
 ## Array 
