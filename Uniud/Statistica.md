@@ -15,3 +15,89 @@
 ### Statistica  Inferenziale
 > Metodo per ricavare dai dati informazioni sulla popolazione di riferimento per quantificare la fiducia da accordare a tali informazioni
 
+---
+
+## Analisi esplorativa 
+> - Esplorazione del dataset, per capire come i dati sono stati raccolti (osservazione o sperimentazione)
+> - individuare unità statistiche 
+> - Riorganizzare i dati nella forma più conveniente 
+> - Utilizzare metodi grafici per ricavare info sui dati osservati 
+
+>[!info]- Variabili statistiche 
+> - **Variabili qualitative categorali**
+> 	- Sconnesse
+> 		- non è possibile individuare un ordinamento naturale (Genere, colore occhi)
+> 	- ordinali
+> 		- possibile individuare un ordinamento delle modalità (livello istruzione)
+> - **Variabili quantitative numeriche**
+> 	- Discrete
+> 		- Con insiemi finiti o al più numerabili (numero di figli)
+> 	- Continue
+> 		- boh
+> 
+
+### Frequenze assolute 
+> è utile passare dai dati in forma grezza ad una tabella di frequenza che fornisca una sintesi dei dati in un formato semplice da capire 
+
+La **frequenza assoluta** indica il numero di volte che una variabile risulta osservata 
+![[Pasted image 20231005085903.png|500]]
+
+>[!info]+ Serie statistica
+>Una tabella di frequenza riferita a una variabile statistica qualitativa è detta serie statistica. 
+>Se la variabile statistica è **quantitativa continua**, si osservano tante modalità distinte quante sono le unità statistiche, quindi è conveniente definire **classi di modalità** e contare le unità che appartengono a ciascuna classe. 
+
+### Frequenze relative 
+> Proporzione di unità statistiche portatrici di tale modalità o classe di modalità. 
+
+Corrisponde a: $$\Large P_j = \frac{f_j}{\sum^J_{j=1}f_j}=\frac{f_j}{n}$$
+Le frequenze relative sono utili per percepire il peso delle modalità e per operare confronti tra diverse popolazioni. 
+
+>[!example]+ Esempio - Perni
+>Ci sono tre macchinari per la produzione di perni, che devono rispettare le specifiche di diametro. 
+>Per valutare l'efficacia del procedimento si analizzano $n = 400$ perni, classificati in: `fine, ok, spesso`
+>Ogni perno viene classificato in base al macchinario che lo ha prodotto. 
+>
+>**Dati grezzi:**
+>![[Pasted image 20231005091129.png|300]]
+>**Tabella delle frequenze assolute**
+>![[Pasted image 20231005091219.png|300]]
+>**Tabella frequenze relative**
+>![[Pasted image 20231005091249.png|300]]
+> Si nota con le frequenze relative la distribuzione di perni Fini/ok/spessi in base al macchinario. 
+
+### Frequenze cumulate
+> Definisce la frequenza assoluta o relativa di modalità o classi di modalità non superiori alla j-esima 
+
+
+## Rappresentazioni grafiche 
+
+[...]
+
+### Istogrammi 
+![[Pasted image 20231005093142.png|400]]
+> Per rappresentare distribuzioni di frequenza assoluta o relativa con modalità raggruppate in classi. 
+> è un insieme di rettangoli adiacenti, ognuno rappresentativo di una classe. Posti su piano cartesiano. 
+
+Le basi dei rettangoli coincidono con le classi. 
+Solo se i rettangoli hanno la stessa base, l'altezza è proporzionale 
+
+#### Poligoni di frequenza e Stima della densità 
+
+>[!info]+ Poligoni di frequenza
+>Smussa mento locale dell' istogramma 
+>Per costruirlo si introducono due classi adiacenti alle classi esterne, ognuna con **ampiezza uguale** alla classe vicina e **frequenza assoluta pari a 0**
+>Il poligono si ottiene unendo i punti di mezzo dei lati superiori dei rettangoli con una linea spezzata. 
+>![[Pasted image 20231005095143.png|400]]
+
+>[!info]+ Stima della densità 
+>Tramite una curva smussata. Date le osservazioni $\Large y_1 ... y_n$ la stima della densità con il metodo del nucleo è definita come: 
+>$$\Large f_n(y) = \frac{1}{nb} \sum^n_{i=1}K (\frac{y-y_i}{b}, y \in \mathbb{R}$$
+>Dove $\Large K$ è detto **kernel**, $\Large b>0$ è la **banda**. Ad ogni dato si sovrappone una curva. La sua altezza è proporzionale alla frequenza dei punti e la sua ampiezza dipende dalla banda $\Large b$. 
+>Si possono scegliere diversi **kernel** che devono soddisfare alcune proprietà.
+>
+>![[Pasted image 20231005095554.png|400]]
+
+### Funzione di ripartizione empirica
+> Rappresentazione per dati **quantitativi**. Il valore del punto $\Large y \in \mathbb{R}$ corrisponde al rapporto tra il numero di osservazioni minori o uguali a $y$. Si calcola con: $$\Large F_n(y) = \frac{n.oss \leq y}{n. tot. oss}$$
+> Fornisce la proporzione cumulata di unità statistiche 
+> ![[Pasted image 20231005101342.png|400]]
