@@ -41,3 +41,6 @@ Arrows
  $$\Huge \color{olive}\LaTeX $$
  $$\Huge \color{black}\LaTeX $$
 ![[Pasted image 20230804193327.png]]
+
+---
+$$\texttt{monospace yay}😎$$
