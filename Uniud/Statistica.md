@@ -149,6 +149,31 @@ Disponendo dei **dati grezzi** ordinati, per individuare $y_0$ si calcola: $\lar
 --- 
 ### BOX Plot
 
-![[R visualization#BoxPlot]]
+[[R visualization#BoxPlot]]
 
 ---
+
+## Indice di vairbilità 
+### Varianza
+> Media fatta sui dati trasformati secondo il criterio: $$\large V(Y) = E[(Y-E(Y))^2]$$
+> Quindi è una media degli scarti^2. Misura la dispersione dei dati attorno alla media. 
+
+- Proprietà di non negatività
+- Formula per il calcolo⚠️
+	- ![[Pasted image 20231006115404.png]]
+- Proprietà di in varianza per traslazioni.
+	- Aggiungendo una costante a tutti i dati, la varianza non cambia (la media sì)
+- Proprietà di omogeneità di secondo grado 
+
+> Una variabile statistica con media nulla e varianza unitaria è detta standardizzata 
+
+Per rendere la varianza = 1 bisogna moltiplicare i dati per il reciproco di $\large \sigma$ 
+
+### Simmetria e asimmetria 
+![[Pasted image 20231006121616.png]]
+
+### Curtosi
+> corrisponde a un allontanamento dalla distribuzione di frequenza normale o gaussiana che viene considerata come riferimento. 
+
+![[Pasted image 20231006122422.png]]
+
