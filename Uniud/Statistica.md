@@ -1,29 +1,35 @@
 ## [[Statistica-info]]
 ---
+
+# DATI
+> Si ottengono sia tramite osservazione che tramite sperimentazione
+
+Rappresentano l'informazione su certe caratteristiche di una **popolazione**: la collezione di unità statistiche
 ### Censimento e Campionamento 
 - **Censimento**
 	- Si esaminano tutte le unità di una *popolazione reale*. Anche per popolazioni reali i censimenti sono rari 
 - **Campionamento**
-	- Si esamina un campione
+	- Si esamina un campione = sottoinsieme finito di unità statistiche selezionate mediante l'*esperimento di campionamento*.
+		- 
 
 ###  Statistica descrittiva
-> Metodo per la descrizione, presentazione e sintesi dei dati disponibili. 
+> Metodo per la descrizione, presentazione e sintesi dei dati disponibili al fine di individuare la **struttura essenziale**
 > Finalità di tipo descrittivo. 
-
-### Calcolo della probabilità 
-
 ### Statistica  Inferenziale
 > Metodo per ricavare dai dati informazioni sulla popolazione di riferimento per quantificare la fiducia da accordare a tali informazioni
 
----
+Ovvero trae conclusioni su una popolazione basandosi su un campione rappresentativo di dati -> estrapola info generali sulla base di dati limitati. 
 
+---
 ## Analisi esplorativa 
-> - Esplorazione del dataset, per capire come i dati sono stati raccolti (osservazione o sperimentazione)
-> - individuare unità statistiche 
-> - Riorganizzare i dati nella forma più conveniente 
-> - Utilizzare metodi grafici per ricavare info sui dati osservati 
+
+> 1.  Esplorazione del dataset, per capire come i dati sono stati raccolti (osservazione o sperimentazione)
+> 2.  individuare unità statistiche 
+> 3.  Riorganizzare i dati nella forma più conveniente 
+> 4.  Utilizzare metodi grafici per ricavare info sui dati osservati 
 
 >[!info]- Variabili statistiche 
+>> Variabile = caratteristica delle unità statistiche che può assumere diversi valori. Le **modalità** di una variabile sono i valori che essa può assumere. 
 > - **Variabili qualitative categorali**
 > 	- Sconnesse
 > 		- non è possibile individuare un ordinamento naturale (Genere, colore occhi)
@@ -33,23 +39,30 @@
 > 	- Discrete
 > 		- Con insiemi finiti o al più numerabili (numero di figli)
 > 	- Continue
-> 		- boh
-> 
+> 		- Se $\Large y$ è un insieme continuo. (es. distanza)
+>
+ 
 
 ### Frequenze assolute 
-> è utile passare dai dati in forma grezza ad una tabella di frequenza che fornisca una sintesi dei dati in un formato semplice da capire 
+> Una tabella di frequenza fornisce una sintesi dei dati in forma grezza. 
 
-La **frequenza assoluta** indica il numero di volte che una variabile risulta osservata 
-![[Pasted image 20231005085903.png|500]]
+>[!example]- Esempio: 
+> misurato il livello di colesterolo a $n=2294$ soggetti, discriminando i pazienti in due classi di età. Come verificare il gruppo con il valore medio maggiore? 
+> Definire una tabella dove si considerano le frequenze con cui le diverse modalità sono state osservate. La lista delle modalità osservate accompagnate dalle rispettive frequenze assolute è detta **distribuzione di frequenza assoluta**
+
+La **frequenza assoluta** indica il numero di volte che una variabile risulta osservata. Si indica con $\Large f_j$ 
+![[Pasted image 20231005085903.png|300]]
+
 
 >[!info]+ Serie statistica
 >Una tabella di frequenza riferita a una variabile statistica qualitativa è detta serie statistica. 
 >Se la variabile statistica è **quantitativa continua**, si osservano tante modalità distinte quante sono le unità statistiche, quindi è conveniente definire **classi di modalità** e contare le unità che appartengono a ciascuna classe. 
 
 ### Frequenze relative 
-> Proporzione di unità statistiche portatrici di tale modalità o classe di modalità. 
+> Proporzione di unità statistiche portatrici di tale modalità o classe di modalità. Utili per percepire il peso delle varie modalità e per operare confronti tra diverse popolazioni. 
 
 Corrisponde a: $$\Large P_j = \frac{f_j}{\sum^J_{j=1}f_j}=\frac{f_j}{n}$$
+Se $\large S_Y = \{y_1\}$ allora $\large J = 1, \; f_1 = n,\; p_1 = 1$ e la variabile statistica $\Large Y$ è detta **degenere**.
 Le frequenze relative sono utili per percepire il peso delle modalità e per operare confronti tra diverse popolazioni. 
 
 >[!example]+ Esempio - Perni
@@ -68,6 +81,7 @@ Le frequenze relative sono utili per percepire il peso delle modalità e per ope
 ### Frequenze cumulate
 > Definisce la frequenza assoluta o relativa di modalità o classi di modalità non superiori alla j-esima 
 
+Si ottiene cumulando progressivamente le frequenze. 
 
 ## Rappresentazioni grafiche 
 
