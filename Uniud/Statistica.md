@@ -101,3 +101,54 @@ Solo se i rettangoli hanno la stessa base, l'altezza è proporzionale
 > Rappresentazione per dati **quantitativi**. Il valore del punto $\Large y \in \mathbb{R}$ corrisponde al rapporto tra il numero di osservazioni minori o uguali a $y$. Si calcola con: $$\Large F_n(y) = \frac{n.oss \leq y}{n. tot. oss}$$
 > Fornisce la proporzione cumulata di unità statistiche 
 > ![[Pasted image 20231005101342.png|400]]
+
+
+---
+
+## Indici sintetici 
+Metodo alternativo alle tabelle di frequenza e diagrammi statici per descrivere e presentare dati. 
+- **Posizione**
+- **Variabilità**
+- **Simmetria e curtosi**
+
+### Indici di posizione: media aritmetica 
+> si indica co $\Large E(Y)$ o $\Large \mu$. 
+
+La media aritmetica risente dalla presenza di osservazioni anomale (è sensibile)
+
+>[!example]- Proprietà di Cauchy
+>Sia $S_y = \{y_1, ..., y_n\}$ ordinato, allora $$y_1 \leq E(Y) \leq y_n$$ 
+>Ovvero la media sta dentro l'intervallo dei valori. 
+
+>[!example]- Proprietà di Baricentro 
+> Sia $\large Y-E(Y)$ la variabile scarto di $Y$ dalla sua media $E(Y)$, allora $$\large E(Y - E(Y)) = 0$$
+
+>[!example]- Proprietà di linearità 
+>...
+
+### Indici di posizione: mediana
+> Valore che divide le osservazioni ordinate in modo crescente in due parti uguali. 
+
+Quando i dati sono pari, si prendono i due valori centrali. Se i due valori centrali coincidono, la mediana è unica. 
+
+Se sono note solo le **frequenze relative**, quindi la dimensione della popolazione non risulta nota, la **mediana** corrisponde alla modalità $y_i$ che presenta frequenza relativa cumulata più piccola tale che $\large P_j \geq 0.5$ 
+
+La mediana è più robusta della media. 
+
+### Quantili 
+> Come la mediana, ma la soglia è $\large \alpha$ variabile, lasciando $\alpha \%$ dei dati a destra e $\alpha -1 \%$ dei dati a sinistra. 
+
+Disponendo dei **dati grezzi** ordinati, per individuare $y_0$ si calcola: $\large \alpha(n+1)$ 
+- Se si ottiene un valore intero, $Y_0$ è la modalità che si trova nella posizione $\alpha(n+1)$
+- Valore non intero: quantile non unico. 
+
+#### Curve di crescita 
+
+![[Pasted image 20231006111738.png|500]]
+
+--- 
+### BOX Plot
+
+![[R visualization#BoxPlot]]
+
+---

@@ -26,6 +26,7 @@ Per:
 		- `A[1..5]` = elementi da 1  a 5
 		- `A[5...1]` = insieme vuoto 
 	- Accesso diretto 
+		- Costo di accesso costante: $\Large \Theta (1)$, non dipende dall'indice del vettore. 
 
 ---
 
@@ -49,4 +50,16 @@ Si assume che ognuna impieghi un tempo costante $\Large c$, che varia in base al
 Il costo di ogni operazione di base è $\Large c$ **indipendentemente** dalla grandezza dei numeri. (Confrontare 0 con 1 equivalente a confrontare due numeri molto grandi e vicin)
 = *Modello di calcolo con criterio di costo uniforme*
 
+# Correttezza
+[...]
 
+---
+
+## Divide et impera
+
+- Dividere in sottoproblemi 
+- Risolvere i sottoproblemi
+- Ricomporre le soluzioni 
+-> Spesso il modo più semplice per applicare questo metodo è la ricorsione 
+
+# Merge Sort

@@ -1,5 +1,19 @@
 
 [E-Learning](https://elearning.uniud.it/moodle/course/view.php?id=4989)
+
+- Ordinamento 
+	- basato su scambi e confronto 
+	- Lineari
+- Selezione
+- Strutture dati dinamiche
+	- Hash tables
+	- Binary search tree
+	- RB-tree
+	- B-tree
+	- Strutture dati per insiemi disgiunti
+- Grafi
+	- [...e]
+
 # Esame
 1. Scritto 
 2. Orale
