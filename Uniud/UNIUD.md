@@ -1,9 +1,7 @@
 ---
 banner: "![[uniud_banner_v2.png]]"
 aliases:
-  - UNI, UNIUD, home
-tags:
-  - uniud
+  - UNIUD, home, esami
 banner_y: 0.5
 ---
 
