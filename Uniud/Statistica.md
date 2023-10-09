@@ -5,6 +5,9 @@
 > Si ottengono sia tramite osservazione che tramite sperimentazione
 
 Rappresentano l'informazione su certe caratteristiche di una **popolazione**: la collezione di unità statistiche
+
+>[!e]- Modalità 
+> Rappresenta il valore all'interno di un insieme di dati che compaiono più frequentemente. è il valore che si verifica con la maggiore frequenza in un set di dati. Equivalente alla moda. 
 ### Censimento e Campionamento 
 - **Censimento**
 	- Si esaminano tutte le unità di una *popolazione reale*. Anche per popolazioni reali i censimenti sono rari 
@@ -105,7 +108,7 @@ Solo se i rettangoli hanno la stessa base, l'altezza è proporzionale
 
 >[!info]+ Stima della densità 
 >Tramite una curva smussata. Date le osservazioni $\Large y_1 ... y_n$ la stima della densità con il metodo del nucleo è definita come: 
->$$\Large f_n(y) = \frac{1}{nb} \sum^n_{i=1}K (\frac{y-y_i}{b}, y \in \mathbb{R}$$
+>$$\Large f_n(y) = \frac{1}{nb} \sum^n_{i=1}K (\frac{y-y_i}{b}), y \in \mathbb{R}$$
 >Dove $\Large K$ è detto **kernel**, $\Large b>0$ è la **banda**. Ad ogni dato si sovrappone una curva. La sua altezza è proporzionale alla frequenza dei punti e la sua ampiezza dipende dalla banda $\Large b$. 
 >Si possono scegliere diversi **kernel** che devono soddisfare alcune proprietà.
 >
@@ -121,34 +124,41 @@ Solo se i rettangoli hanno la stessa base, l'altezza è proporzionale
 
 ## Indici sintetici 
 Metodo alternativo alle tabelle di frequenza e diagrammi statici per descrivere e presentare dati. 
-- **Posizione**
-- **Variabilità**
-- **Simmetria e curtosi**
+- **Posizione** -> il centro dei dati 
+- **Variabilità** -> dispersione dei dati 
+- **Simmetria e curtosi** -> distribuzione della frequenza 
 
 ### Indici di posizione: media aritmetica 
-> si indica co $\Large E(Y)$ o $\Large \mu$. 
+> si indica co $\Large E(Y)$: $$= \Large \frac{1}{n}\sum^n_{i=1}y_i$$
 
-La media aritmetica risente dalla presenza di osservazioni anomale (è sensibile)
+La media aritmetica risente dalla presenza di osservazioni anomale (è **sensibile**). Non si calcola per variabili categoriali, ad eccezione delle variabili dicotomiche (booleane). 
 
 >[!example]- Proprietà di Cauchy
 >Sia $S_y = \{y_1, ..., y_n\}$ ordinato, allora $$y_1 \leq E(Y) \leq y_n$$ 
->Ovvero la media sta dentro l'intervallo dei valori. 
+>Ovvero la media è compresa tra il più piccolo e più grande valore osservato. 
 
 >[!example]- Proprietà di Baricentro 
 > Sia $\large Y-E(Y)$ la variabile scarto di $Y$ dalla sua media $E(Y)$, allora $$\large E(Y - E(Y)) = 0$$
+> La somma delle differenze tra i valori e la loro media aritmetica è pari a zero. 
 
 >[!example]- Proprietà di linearità 
->...
-
+>> La media aritmetica di una combinazione lineare di più insiemi è uguale alla stessa combinazione lineare delle medie aritmetiche dei singoli insiemi dati. 
+>
+>> La media aritmetica di $\large Y$, ottenuto da una trasformazione lineare $\large Y = \alpha X + \beta$ di $\large X$ con media $\large $
 ### Indici di posizione: mediana
-> Valore che divide le osservazioni ordinate in modo crescente in due parti uguali. 
+> Valore che divide le osservazioni ordinate in modo crescente in due parti uguali. Calcolabile per variabili qualitative ordinali o quantitative. Si indica con $$\large Y_{0.5}$$
 
 Quando i dati sono pari, si prendono i due valori centrali. Se i due valori centrali coincidono, la mediana è unica. 
+Conoscendo soltanto **distribuzione di frequenza relativa o assoluta**: 
+>[!example]- Frequenza assoluta
+> Siano le frequenze assolute $\large f_j, \; j = 1, ..., J$ e $n$ la dimensione della popolazione, la mediana corrisponde a: 
+> - $n$ dispari
+> 	- 
 
-Se sono note solo le **frequenze relative**, quindi la dimensione della popolazione non risulta nota, la **mediana** corrisponde alla modalità $y_i$ che presenta frequenza relativa cumulata più piccola tale che $\large P_j \geq 0.5$ 
+>[!example]- Frequenza relativa
+> Se sono note solo le **frequenze relative**, quindi la dimensione della popolazione non risulta nota, la **mediana** corrisponde alla modalità $y_i$ che presenta frequenza relativa cumulata più piccola tale che $\large P_j \geq 0.5$ 
 
-La mediana è più robusta della media. 
-
+La mediana è più **robusta** della media. 
 ### Quantili 
 > Come la mediana, ma la soglia è $\large \alpha$ variabile, lasciando $\alpha \%$ dei dati a destra e $\alpha -1 \%$ dei dati a sinistra. 
 
