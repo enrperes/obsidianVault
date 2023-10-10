@@ -1,5 +1,7 @@
 ## [[Statistica-info]]
----
+
+## [[Statistica-formulario]]
+--- 
 
 # DATI
 > Si ottengono sia tramite osservazione che tramite sperimentazione
@@ -184,7 +186,7 @@ Disponendo dei **dati grezzi** ordinati, per individuare $y_0$ si calcola: $\lar
 
 - Proprietà di non negatività
 - Formula per il calcolo⚠️
-	- ![[Pasted image 20231006115404.png]]
+	- ![[Pasted image 20231006115404.png|400]]
 - Proprietà di in varianza per traslazioni.
 	- Aggiungendo una costante a tutti i dati, la varianza non cambia (la media sì)
 - Proprietà di omogeneità di secondo grado 
@@ -194,12 +196,12 @@ Disponendo dei **dati grezzi** ordinati, per individuare $y_0$ si calcola: $\lar
 Per rendere la varianza = 1 bisogna moltiplicare i dati per il reciproco di $\large \sigma$ 
 
 ### Simmetria e asimmetria 
-![[Pasted image 20231006121616.png]]
+![[Pasted image 20231006121616.png|400]]
 
 ### Curtosi
 > corrisponde a un allontanamento dalla distribuzione di frequenza normale o gaussiana che viene considerata come riferimento. 
 
-![[Pasted image 20231006122422.png]]
+![[Pasted image 20231006122422.png|400]]
 
 ---
 
