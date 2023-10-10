@@ -201,3 +201,37 @@ Per rendere la varianza = 1 bisogna moltiplicare i dati per il reciproco di $\la
 
 ![[Pasted image 20231006122422.png]]
 
+---
+
+# 3. Statistica descrittiva: analisi multivariate
+
+> Studio congiunto di due o più variabili statistiche per scoprire le relazioni esistenti. 
+
+Considerando due variabili $X$ e $Y$ la loro osservazione su $n$ unità statistiche fornisce i **dati grezzi**: $(x_i, y_i)=1, ..., n$ 
+A partire dai dati grezzi si può determinare la distribuzione di frequenza assoluta e relativa: 
+- **Distribuzione congiunta**
+- **Distribuzione marginale**
+- **Distribuzione condizionata**
+
+## Rappresentazioni grafiche 
+**Dati grezzi**
+- Scatterplot
+**Frequenza congiunta**
+- Istogrammi o diagrammi a bastoncini, in spazio 3D
+**Frequenza marginale o condizionata**
+- Tutte le rappresentazioni viste per il caso con una variabile (istogrammi, bo plot, bastoncini, rettangoli...)
+
+## Studio della dipendenza
+Non sempre le variabili $X$ e $Y$ vengono trattate in modo simmetrico. In certi casi si individua una variabile dipendente (risposta) e una variabile indipendente (esplicativa). 
+
+Es: lunghezza della molla (variabile **risposta**) dipende dall'entità del peso applicativo (variabile **esplicativa**). 
+Il peso influenza la lunghezza della molla, non viceversa. 
+
+Situazioni tipiche: 
+- Due variabili qualitative: **analisi di dipendenza**
+- Una variabile qualitativa e una quantitativa: **analisi di dipendenza in media**
+- Due variabili quantitative: **analisi di correlazione e analisi di regressione**. 
+
+
+### Analisi di dipendenza (variabili qualitative)
+

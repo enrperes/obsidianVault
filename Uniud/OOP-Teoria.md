@@ -1,4 +1,6 @@
-# ![[Concepts]]
+# [[Concepts]]
 
 ---
 ### [[Decomposition]]
+
+## [[Abstaction]]
