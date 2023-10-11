@@ -1,6 +1,3 @@
-<div class = "row">
-<div class = "column">
-
 >[!info]-  **Automazione dei test**
 >> Processo per eseguire automaticamente una serie di test su software per verificane il corretto funzionamento. 
 >
@@ -11,7 +8,6 @@
 >5. Report e analisi dei risultati 
 >6. Manutenzione dei test 
 
-
 >[!info]- **Sviluppo agile** 
 >> Approccio allo sviluppo di software basato sulla distribuzione continua di software efficienti creati in modo rapido e iterativo. 
 >
@@ -19,7 +15,6 @@
 > - Collaborazione e comunicazione 
 > - Adattabilità e flessibilità 
 > - Coinvolgimento del cliente
-
 
 >[!info]-  **DevOps**
 >> Approccio all' ingegneria software che mira a migliorare la collaborazione tra team di sviluppo (**dev**) e team operativi (**Ops**) al fine di accelerare il ciclo di sviluppo. 
@@ -54,7 +49,6 @@
 >3. Fase $\Large \color{gray} \texttt{grigia}$ 
 >	1. Il programmatore esegue il refactoring del codice per adeguarlo a determinati standard di qualità 
 
-
 >[!info]-  **JUnit**
 >> **Framework** di testing per Java
 >
@@ -74,14 +68,11 @@
 >5. Iterazione 
 >Molti IDE offrono supporto nativo per il refactoring, automatizzando alcuni processi. 
 
-</div>
-<div class = "column">
-
 >[!info]-  **Principi SOLID di programmazione** 
 >> Insieme di 5 principi di progettazione software formulati per creare codice pulito, di facile manutenzione e flessibile. 
 >
 >1. **Single Responsibility Principle**
->	1. Una classe dovrebbe avere una sola ragione per essere modificata: ovvero deve avere un solo compito. Se una classe ha troppe responsabilità, diventa difficile da comprendere. 
+>	1. Una classe, funzione, metodo deve svolgere solo un compito. Se una classe ha troppe responsabilità, diventa difficile da comprendere. (applicare questo principio ai **metodi**). La responsabilità di un metodo è la sua postcondizione (quello che fa)
 >2. **Open-Closed Principle**
 >	1. Le classi dovrebbero essere aperte all'estensione ma chiuse alla modifica. 
 >3. **Liskov Substitution Principle**
@@ -145,6 +136,3 @@
 >- Automatizzazione delle build
 >
 >Particolarmente utile per progetti software complessi con molte dipendenze e file sorgente. Aiuta a mantenere il processo di build organizzato, rendendo efficiente la compilazione. 
-
-</div>
-</div>
