@@ -1,7 +1,10 @@
-## [[Statistica-info]]
+##### [[Statistica-info]]
 
-## [[Statistica-formulario]]
+### [[Statistica-formulario]]
+### [[Statistica-laboratorio]]
 --- 
+
+
 
 # DATI
 > Si ottengono sia tramite osservazione che tramite sperimentazione
