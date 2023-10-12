@@ -63,3 +63,11 @@ Il costo di ogni operazione di base è $\Large c$ **indipendentemente** dalla gr
 -> Spesso il modo più semplice per applicare questo metodo è la ricorsione 
 
 # Merge Sort
+# Notazione asintotica
+
+# Equazioni ricorsive di complessità 
+
+,d if 
+
+
+

@@ -10,3 +10,8 @@
 > ![[Pasted image 20231003184243.png|500]]
 >
 
+>[!done]- Astrazione - Insertion sort
+> ## D.R.Y. 
+>  Don't Repeat Yourself -> evitare codice ridondante. 
+>  [[Esercizio_Astrazione-insertionsort]]
+
