@@ -11,6 +11,8 @@
 2. (25%) Laboratorio: analisi dataset con R 
 ### Orale
 **Facoltativo**.
+### Laboratorio
+[[Statistica-laboratorio-info]]
 
 ---
 #### Date provvisorie parziali
