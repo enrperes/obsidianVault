@@ -240,3 +240,35 @@ Situazioni tipiche:
 
 ### Analisi di dipendenza (variabili qualitative)
 
+Considerando due variabili statistiche $X$ e $Y$ **qualitative (categorali)** si analizza l'esistenza di associazione (**dipendenza**) tra le modalità corrispondenti. 
+
+#### Tabella di contingenza 
+> Descrive la frequenza con la quale le modalità di due variabili vengono *congiuntamente* osservate 
+
+![[Pasted image 20231013105359.png|400]]
+
+### Distribuzione di frequenza 
+[...]
+
+### Indipendenza statistica 
+[...]
+
+c'è indipendenza quando $\Large n_{rs} = \frac{n_r+n_s}{n}$  
+### Indice di connessione 
+Indica "livello" di dipendenza tra $X$ e $Y$. 
+
+
+---
+
+## Covarianza
+> Misurare intensità del **legame lineare** tra due **variabili quantitative** e la direzione della relazione. 
+
+$$\Large Cov(X, Y) = E[(X-E(X))(Y-E(Y))] = \frac{1}{n}\sum_{i=1}^n(x_i-E(X))(Y_i - E(Y))$$
+In alternativa, si può calcolare con la **formula per il calcolo:**
+$$\Large Cov(X, Y) = E(XY) - E(X)E(Y) = \frac{1}{n}\sum_{i=1}^nx_iy_i-E(X)E(Y)$$
+![[Pasted image 20231013120429.png|400]]
+La covarianza può essere negativa: 
+
+Covarianza positiva: dipendenza lineare crescente
+Covarianza nulla: no dipendenza lineare
+Covarianza negativa: dipendenza decrescente 

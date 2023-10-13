@@ -2,6 +2,10 @@
 
 # Esame 
 
+>[!attention]- Accesso PC laboratorio
+> **username**: esse163503
+> **password**: PRSNRC03M19G888V
+
 ### Scritto
 1. (75%) Teoria e esercizi
 	1. Oppure 3 parziali durante l'anno: tutte e 3 devono avere voto positivo (una delle tre può essere recuperata)
