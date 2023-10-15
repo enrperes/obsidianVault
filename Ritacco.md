@@ -226,7 +226,7 @@ Divisa in:
 #### Global Accuracy
 > L'accuratezza globale rappresenta la percentuale di previsioni corrette fatte dal modello rispetto al numero totale di previsioni. 
 
-Calcolata come: $$\Large accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
+Calcolata come: $$\Large \texttt{accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$$
 Può essere ingannevole se le classi sono sbilanciate. 
 #### Cost Matrix 
 > Simile a confusion matrix. Assegna costi diversi agli errori di classificazione in base alla loro gravità. Aiuta a valutare il modello in modo più sensibile rispetto ai costi reali delle decisioni di classificazione. 
@@ -253,7 +253,7 @@ L'area sotto la curva (**AUC-ROC**) è direttamente proporzionale alla qualità 
 #### Precision-Recall Curve
 > Evidenzia il trade-off tra precisione  e richiamo. Utile quando le classi sono sbilanciate e il numero di casi positivi è minore rispetto ai casi negativi. 
 
-La **precisione** rappresenta la proporzione di previsioni positive corrette rispetto al totale di previsioni positive fatte dal modello, ovvero: $$Precision = \frac{TP}{TP + FP}$$ Il **recall o TPR** si indica con: $$TPR = \frac{TP}{TP+ FN}$$
+La **precisione** rappresenta la proporzione di previsioni positive corrette rispetto al totale di previsioni positive fatte dal modello, ovvero: $$\texttt{Precision} = \frac{TP}{TP + FP}$$ Il **recall o TPR** si indica con: $$TPR = \frac{TP}{TP+ FN}$$
 Una curva che si avvicina all'angolo in alto a destra (1, 1) indica una buona capacità di separare classi positive da quelle negative. 
 ![[Pasted image 20230910153111.png|500]]
 

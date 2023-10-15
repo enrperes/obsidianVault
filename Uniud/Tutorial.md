@@ -2,13 +2,14 @@
 
 ---
 
->[!info]- # Access NAS from terminal (Ubuntu) 
+>[!info]- Access NAS from terminal #ubuntu 
 > `cd /run/user/1000/gvfs/sftp:host=192.168.1.10`
 > insert password 
 > ### GVfs = "Gnome Virtual file system"
 
 
->[!info]- # HowTo: Creare file .desktop su Linux per linkare eseguibile 
+
+>[!info]-  HowTo: Creare file .desktop su Linux per linkare eseguibile #ubuntu 
 > ### Step 1: 
 > Installare file `.appimage` nella cartella `/Downloads`. Il path completo è `/home/enrperes/Downloads/`
 > ### Step 2
@@ -32,11 +33,12 @@ Icon=
 > Creare un file `nomeapp.desktop` con il comando: `echo "[pasted .desktop file text] > nomeapp.desktop"`. Per verificare il contenuto del file: 
 > `cat nomeapp.desktop`. 
 
->[!info]- # Git common tasks 
+>[!info]-  Git common tasks 
 > ![[Git]]
 
 
->[!info]- # HowTo: Leggere metadati da immagini
+
+>[!info]-  HowTo: Leggere metadati da immagini #ubuntu 
 > ### Da terminale Linux
 > Navigare nella directory con l'immagine. 
 > `exif image.png`
@@ -47,7 +49,9 @@ Icon=
 > ![[exif_example]]
 
 
->[!info]- # HowTo: Read RAM info from Ubuntu terminal #ubuntu
+
+
+>[!info]-  HowTo: Read RAM info from Ubuntu terminal #ubuntu
 >
 > `sudo lshw -C memory`
 > Expected output: 
@@ -56,15 +60,21 @@ Icon=
 > `sudo dmidecode --type 17`
 
 
->[!info]- # HowTo: Reset dataset to default values after editing #uniud 
+>[!info]-  HowTo: Reset dataset to default values after editing #uniud 
 > dataset: `nycflights13`
 > edit: `flights = flights %>% select (year) [...]`
 > 
 > To reset it, just delete the variable: `rm(flights)`
 
->[!info]- # HowTo: AutoHotKey
+>[!info]-  HowTo: AutoHotKey
 > ![[Pasted image 20230725214139.png|300]]
 > Todo: 
 > - [ ] Revert Ctrl shift v function for clipboard management
-> - [ ] 
+
+
+
+> [!info]- HowTo: show file tree view (PowerShell)
+> `cd` to desired folder
+> `tree /F` 
+
 
