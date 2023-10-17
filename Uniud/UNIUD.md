@@ -12,14 +12,14 @@ banner_y: 0.5
 ---
 
 
->[!example]- ## Primo Anno
+>[!done]-  Primo Anno
 >
 > ### [[Esami-1|Esami]]
 > ### [[Erasmus-info]]
 
->[!example]- ## Secondo anno 
+>[!example]- Secondo anno 
 >
 > ### [[Esami-2|Esami]]
 
----
-# [[Tirocinio]]
+>[!abstract]- Tirocinio
+> ## [[Tirocinio]]
