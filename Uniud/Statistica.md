@@ -208,7 +208,7 @@ Per rendere la varianza = 1 bisogna moltiplicare i dati per il reciproco di $\la
 
 ---
 
-# 3. Statistica descrittiva: analisi multivariate
+# 3. Statistica descrittiva: analisi ==multivariate==
 
 > Studio congiunto di due o più variabili statistiche per scoprire le relazioni esistenti. 
 
@@ -272,3 +272,51 @@ La covarianza può essere negativa:
 Covarianza positiva: dipendenza lineare crescente
 Covarianza nulla: no dipendenza lineare
 Covarianza negativa: dipendenza decrescente 
+
+[[Ritacco#Regressione lineare|Regressione lineare]]
+
+[...]
+
+- Criterio dei minimi quadrati 
+- Valori stimati dal modello e residui stimati 
+	- $\Large \hat y = \hat a + \hat b x$ = retta di regressione stimata. 
+- Coefficiente di determinazione 
+	- $\Large V(Y) = V(\hat Y) + V(\hat \varepsilon)$
+	- $\hat Y$ sono i valori stimati dalla retta 
+	- Un modello è affidabile quando: 
+		- Variznza di $\hat Y$ è grande e varianza di $\large \hat \varepsilon$ è piccola. == ==
+
+[...]
+
+---
+
+--- Fine argomenti primo compitino ---
+
+---
+
+# 4.  Introduzione al calcolo delle probabilità 
+
+> Strumenti matematici per lo studio degli esperimenti **aleatori** (casuali). 
+
+>[!info]- Definizione classica probabilità 
+>> Probabilità di evento = rapporto tra numero di casi favorevoli e numero di casi possibili. 
+>
+> è una definizione applicabile solo in contesti specifici. (casi finiti e equiprobabili)
+
+>[!info]- Approccio assiomatico per la definizione di probabilità
+>> Probabilità di evento = *misura* della possibilità che un evento si realizzi
+> \- A. N. Kolmogorov 
+
+### Esperimenti aleatori 
+Fenomeni in riferimento ai quali le conoscenze inducono a ritenere possibile una pluralità di esiti. 
+#### Spazio fondamentale
+L'insieme di tutti i possibili risultati di un esperimento aleatorio ($\Huge \Omega$) è detto **spazio fondamentale o spazio campionario**. 
+I singoli risultati vengono chiamati **eventi elementari**. 
+$\Omega$ è **discreto** se costituito da un numero finito o da un'infinità numerabile di punti. è **continuo** se costituito da insieme continuo di punti. 
+
+Un **evento** è un sottoinsieme dello spazio fondamentale $\Omega$, cioè ogni elemento dell'insieme delle parti di $\Omega$, ovvero $\Huge P(\Omega)$
+
+### Assiomi di Kolmogorov 
+
+[...]
+
