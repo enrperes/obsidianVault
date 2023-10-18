@@ -21,4 +21,15 @@
 
 ---
 
-I campi di classe hanno `static`
+I campi di classe hanno `static` (da evitare)
+
+## Classes
+
+>[!example]- Parole chiave
+> - `extends`
+> 	- Utilizzato per creare una relazione di ereditarietà tra le classi (sottoclassi)
+> 	- Le sottoclassi ereditano campi e metodi della classe parent. 
+> - `implements`
+> 	- Per dichiarare che una classe sta implementando un' [[interfaccia-java|interfaccia]]
+> - `this`
+> 	- [[this-java]]
