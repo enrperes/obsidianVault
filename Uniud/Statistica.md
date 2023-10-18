@@ -273,9 +273,29 @@ Covarianza positiva: dipendenza lineare crescente
 Covarianza nulla: no dipendenza lineare
 Covarianza negativa: dipendenza decrescente 
 
-[[Ritacco#Regressione lineare|Regressione lineare]]
+### [[Ritacco#Regressione lineare|Regressione lineare]]
 
-[...]
+Studia la media condizionata di una variabile risposta $Y$ in funzione di una o più variabili esplicative $X$. 
+Si considera regressione lineare semplice dove tra la variabile risposta Y e la variabile esplicativa X c'è una relazione lineare. 
+
+Il modello di regressione lineare semplice è definito dall'equazione: 
+$$\Large y_i=a+bx_i+\varepsilon_i, \;\;\;\; i=1, ..., n$$
+Dove: 
+ $x_i, y_i$ sono i valori osservati per la variabile dipendente $Y$ e per la variabile esplicativa $X$. I valori di $\varepsilon_i$ indicano gli errori, mentre $a, b$ sono i coefficienti di regressione: $a$ = intercetta e $b$ = coefficiente angolare della retta di regressione $\large y = a + bx$ 
+
+#### Metodo dei minimi quadrati 
+Per stimare i coefficienti di regressione si cercano i valori per $a, b$ che minimizzano la somma dei quadrati dei residui. 
+$$\Large Q(a,b)=\sum_{i=1}^n \varepsilon_i^2 = \sum_{i=1}^n(Y_i - a - bx_i)^2$$
+Le stime ottenute dal metodo dei minimi quadrati sono indicate con $\Large \hat a = E(Y) - \hat b E(X)$ e $\Large \hat b = \frac{Cov(X,Y)}{V(X)}$ 
+
+La retta $\Large y = \hat a + \hat b x$ è detta **retta di regressione stimata (retta dei minimi quadrati)** 
+
+>[!example]- Analisi regressione vs analisi correlazione
+>Nella correlazione c'è simmetria tra le variabili, mentre nella regressione c'è asimmetria: si suppone di fissare i valori $x_i$ per vedere come variano i valori di $y_i$. 
+>Nella regressione si opera come se i valori $x_i$ fossero stati fissati a priori e ottenuti senza errori. 
+>Il coefficiente angolare stimato dalla retta di regressione ($\hat b$) è direttamente proporzionale al coefficiente di correlazione lineare $\rho XY$. Infatti: $$\Large \hat b = \frac{Cov(X,Y)}{V(X)} = \rho XY = \frac{\sigma Y}{\sigma x}$$ 
+
+
 
 - Criterio dei minimi quadrati 
 - Valori stimati dal modello e residui stimati 
@@ -287,6 +307,10 @@ Covarianza negativa: dipendenza decrescente
 		- Variznza di $\hat Y$ è grande e varianza di $\large \hat \varepsilon$ è piccola. == ==
 
 [...]
+
+
+
+
 
 ---
 
