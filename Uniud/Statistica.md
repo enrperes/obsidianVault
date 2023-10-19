@@ -344,3 +344,17 @@ Un **evento** è un sottoinsieme dello spazio fondamentale $\Omega$, cioè ogni 
 
 [...]
 
+#### Conseguenze sugli assiomi 
+1. Probabilità evento $\Large \emptyset$ = $\Large 0$ 
+2. Probabilità evento complementare = $\Large P(A^c)=1-P(A)$
+3. Se $\Large A \subseteq B$ allora $\Large P(A) \leq P(B)$ e $\Large P(B-A) = P(B) - P(A)$
+4. $\Large P(A\cap B) = P(A)+(B)-P(A\cap B)$
+5. Dato un evento $\large B$ e una partizione $A_i \in I \subseteq N$ di $\large \Omega$ allora $\Large P(B) = \sum_{i\in I}P(B\cap A_i)$. Dato che gli eventi di $A_i$ sono incompatibili e la loro unione da $\Omega$, anche gli eventi di $B \cap A_i$ sono incompatibili, per il terzo assioma si ha che [...]
+
+---
+
+### Probabilità condizionata 
+
+Dati due eventi $A$, $B$, con $P(A) > 0$ la probabilità di $B$ nel caso sia noto il realizzarsi di $A$ è la probabilità dell'evento condizionato $B|A$ . Definita da $$\large P(B|A) = \frac{P(B\cap A)}{P(A)}$$
+
+![[Pasted image 20231019101856.png|300]]

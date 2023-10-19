@@ -83,3 +83,5 @@ Gli oggetti nell'Heap hanno una durata più lunga rispetto allo Stack. Devono es
 ## Identity and equality 
 
 #todo 
+
+### Shallow and deep equality 
