@@ -2,9 +2,9 @@
 
 # Esame 
 
->[!attention]- Accesso PC laboratorio
-> **username**: esse163503
-> **password**: PRSNRC03M19G888V
+>[!attention]+ Accesso PC laboratorio
+> **username**: `esse163503` (probabilmente `s163503`)
+> **password**: `PRSNRC03M19G888V`
 
 ### Scritto
 1. (75%) Teoria e esercizi
