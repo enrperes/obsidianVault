@@ -20,9 +20,9 @@
 > [!help]- Variabili quantitative (numeriche)
 > Se le modalità sono espresse in forma numerica
 > - Discrete
-> 	- se $\mathbb{y}$ è un insieme finito o al più numerabile (età)
+> 	- se $\mathbb{Y}$ è un insieme finito o al più numerabile (età)
 > - Continue 
-> 	- Se $\mathbb{y}$ è un insieme continuo (distanza)
+> 	- Se $\mathbb{Y}$ è un insieme continuo (distanza)
 
 ---
 
@@ -31,11 +31,14 @@
 
 > [!help]- Frequenza assoluta $\large f_j$
 > Il numero di volte che $y_j$ risulta osservata. 
-
+> Spesso è conveniente (per variabili quantitative continue) raggruppare in **classi di modalità**. Di solito $\sqrt n$ numero di classi. 
 
 > [!help]- Frequenza relativa
-> La proporzione $p_j$ di unità statistiche portatrici di tale modalità o classe di modalità. Corrisponde a: $$\Large p_j = \frac{f_j}{\sum_{j=1}^J f_j} = \frac{f_j}{n}$$
-> Notare che $$\Large \sum_{j=1}^J p_j = 1$$
+> La proporzione $p_j$ di unità statistiche portatrici di tale modalità o classe di modalità. Corrisponde a: 
+> $$\Large p_j = \frac{f_j}{\sum_{j=1}^J f_j} = \frac{f_j}{n}$$
+> (ovvero $\frac{\texttt{freq. assoluta}}{n}$)
+> Notare che 
+> $$\Large \sum_{j=1}^J p_j = 1$$
 > Le frequenze relative sono utili per percepire il peso delle varie modalità. 
 
 > [!abstract] Frequenze cumulate
@@ -46,10 +49,14 @@
 > >$$\Large P_j = \sum_{i=1}^j p_i$$
 
 ---
+# Rappresentazioni grafiche
 
->[!info]- Diagrammi a barre (a rettangoli)
+>[!info]- Diagrammi a barre e a barre multiple 
 >![[Pasted image 20231010180735.png|500]]
-> Utili per rappresentare **serie statistiche sconnesse**. Le altezze sono proporzionali alla frequenza delle modalità, considerando le **Frequenze relative**. I rettangoli sono raggruppati secondo il criterio di classificazione. 
+> Utili per rappresentare **serie statistiche sconnesse**. Le altezze sono proporzionali alla frequenza delle modalità, considerando le ==**Frequenze relative==**. I rettangoli sono raggruppati secondo il criterio di classificazione. 
+> Le basi hanno la stessa dimensione. 
+> I diagrammi a **barre multiple** sono utili per rappresentare serie statistiche sconnesse dove la distribuzione di frequenza è suddivisa secondo un criterio di classificazione. 
+> ![[Pasted image 20231023134620.png|500]]
 
 >[!info]- Diagrammi a bastoncini
 >![[Pasted image 20231010181009.png|500]]
@@ -60,3 +67,12 @@
 >Rappresentare distribuzioni di **frequenza assoluta o relativa** con modalità raggruppate in classi, riferite a dati **quantitativi continui**. 
 >L'istogramma consiste in un insieme di rettangoli adiacenti, ognuno rappresentante una classe. 
 > Il rettangolo corrisponde alla classe $j-$esima $y_{j-1} \dashv y_j, \;\; j=1, ..., J$ ha come base l'intervallo $\large [y_{j-1}, y_j]$
+> Se i rettangoli hanno la stessa base, l'altezza è proporzionale alla frequenza. 
+> Può anche essere usato per rappresentare **variabili statistiche quantitative discrete.**
+> 
+
+>[!info]- Poligoni di frequenza
+>Smussamento locale dell'istogramma
+>Ottenuto unendo i punti di mezzo dei lati superiori dei rettangoli dell'istogramma con una linea spezzata. ![[Pasted image 20231023223922.png|500]]
+>Se i rettangoli hanno la stessa base, l'area
+> 

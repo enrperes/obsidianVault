@@ -1,6 +1,6 @@
 ##### [[Statistica-info]]
 
-### [[Statistica-formulario]]
+### [[Statistica - riassunto]]
 ### [[Statistica-laboratorio]]
 --- 
 
