@@ -85,3 +85,35 @@ Gli oggetti nell'Heap hanno una durata più lunga rispetto allo Stack. Devono es
 #todo 
 
 ### Shallow and deep equality 
+
+---
+
+## Enumeration (`enum`)
+
+```java
+public enum MyDay{
+	MON, TUE, WED, THU, FRI, SAT, SUN
+}
+switch(day){
+	case MON: 
+		System.out.println("Mondays are bad");
+		break;
+	case FRI:
+		System.out.println("Fridays are better");
+		break;
+}
+```
+
+## Type checking 
+Java is **Strongly Statistically typed**
+- Every variable must have a type. 
+- Every method has its signature 
+- Compiler checks type correctness of each assignment and call
+Compiler deduces the **apparent type** of an expression. 
+- at compile time
+- `List<Stydent> theBestOnes = new ArrayList<Studen>();`
+- `List<Student>` è il tipo apparente di `theBestOnes`
+- `ArrayList<Student>` è il tipo reale di `theBestOnes`
+### Type Hierarchy
+Il tipo a sinistra dell' assegnamento può essere uguale o un sovra-tipo. Non può essere più specifico. 
+

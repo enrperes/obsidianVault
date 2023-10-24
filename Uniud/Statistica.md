@@ -358,3 +358,12 @@ Un **evento** è un sottoinsieme dello spazio fondamentale $\Omega$, cioè ogni 
 Dati due eventi $A$, $B$, con $P(A) > 0$ la probabilità di $B$ nel caso sia noto il realizzarsi di $A$ è la probabilità dell'evento condizionato $B|A$ . Definita da $$\large P(B|A) = \frac{P(B\cap A)}{P(A)}$$
 
 ![[Pasted image 20231019101856.png|300]]
+
+
+
+## Teorema di Bayes 
+Afferma che: dato un evento $B$ non trascurabile e una partizione $A_i, \; i \in I \subseteq N$ di $\Omega$ costituita da eventi non trascurabili, si ha che, $\forall i \in I$, 
+$$\Large P(A_i | B) = \frac{P(A_i)P(B|A_i)}{P(B)}$$
+Se $P(B)$ non è nota, si può utilizzare la formula delle probabilità totali $P(B) = \sum_{j \in I}P(A_j)P(B|A_j)$ 
+[...]
+
