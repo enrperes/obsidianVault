@@ -1,7 +1,8 @@
 
 ## [[Algoritmi e strutture dati-info]]
 
-[[Esercizi-ASD]]
+## [[Algoritmi e strutture dati - lab]]
+## [[Esercizi-ASD]]
 ---
 
 # Modello di calcolo 
