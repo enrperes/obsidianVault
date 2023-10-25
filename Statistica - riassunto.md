@@ -155,10 +155,34 @@ Indicano la posizione, variabilità, simmetria, curtosi di una variabile statist
 > $$\Large SI_Y = Y_{0.75} -  y_{0.25}$$
 > Ovvero alla differenza tra il terzo e il primo quartile. Esprime la lunghezza dell'intervallo comprendente il 50% centrale della distribuzione di frequenza (la scatola del boxplot)
 
-Si indica con $\large V(Y)$ o con $\large \sigma ^2$. Data una variabile statistica $Y$ con media $E(Y)$, si ha: 
-$$\large V(Y) = E[(Y-E(Y))^2]$$
-Quindi è la media aritmetica della variabile scarto $Y - E(Y)$ elevata al quadrato. Misura la dispersione dei dati attorno alla media. L'unità di misura è pari a quella dei dati elevata al quadrato. 
-Lo **scarto quadratico medio** di $Y$ indicato con $\large \sigma$ è la radice quadrata della varianza: (stessa unità di misura di Y)
-$$\large \sigma = \sqrt{V(Y)}$$
-Corrisponde a: 
-[---]
+> [!example]+ Varianza
+> Si indica con $\large V(Y)$ o con $\large \sigma ^2$. Data una variabile statistica $Y$ con media $E(Y)$, si ha: 
+> $$\large V(Y) = E[(Y-E(Y))^2]$$
+> Quindi è la media aritmetica della variabile scarto $Y - E(Y)$ elevata al quadrato. Misura la dispersione dei dati attorno alla media. L'unità di misura è pari a quella dei dati elevata al quadrato. 
+> Lo **scarto quadratico medio** di $Y$ indicato con $\large \sigma$ è la radice quadrata della varianza: (stessa unità di misura di Y)
+> $$\large \sigma = \sqrt{V(Y)}$$
+> Avendo a disposizione dati grezzi, corrisponde a: 
+> $$\Large V(Y) = \frac{1}{n}\sum_{i=1}^n (y_i - E(Y))^2$$ 
+> Quindi la somma delle modalità meno la media, tutto al quadrato e fratto n. 
+> Soddisfa la **proprietà di non negatività** e la **formula per il calcolo**: 
+> $$\Large V(Y) = E(Y^2) - (E(Y))^2$$
+> Proprietà di invarianza per traslazioni
+> Proprietà di omogeneità di secondo grado
+
+---
+- [ ] Coefficiente di variazione
+- [ ] Simmetria / Asimmetria
+	- [ ] Indice di asimmetria
+- [ ] Curtosi
+	- [ ] indice di curtosi
+- [ ] Indipendenza statistica
+- [ ] Indice di connessione
+- [ ] Dipendenza in media
+- [ ] Covarianza
+- [ ] Coefficiente di correlazione lineare
+- [ ] Regressione lineare 
+- [ ] Metodo minimi quadrati
+- [ ] Valori stimati dal modello + residui stimati 
+- [ ] Coefficiente di determinazione
+
+
