@@ -7,8 +7,6 @@
 > insert password 
 > ### GVfs = "Gnome Virtual file system"
 
-
-
 >[!info]-  HowTo: Creare file .desktop su Linux per linkare eseguibile #ubuntu 
 > ### Step 1: 
 > Installare file `.appimage` nella cartella `/Downloads`. Il path completo è `/home/enrperes/Downloads/`
@@ -36,8 +34,6 @@ Icon=
 >[!info]-  Git common tasks 
 > ![[Git]]
 
-
-
 >[!info]-  HowTo: Leggere metadati da immagini #ubuntu 
 > ### Da terminale Linux
 > Navigare nella directory con l'immagine. 
@@ -48,9 +44,6 @@ Icon=
 > `jpeginfo -C image.jpg`
 > ![[exif_example]]
 
-
-
-
 >[!info]-  HowTo: Read RAM info from Ubuntu terminal #ubuntu
 >
 > `sudo lshw -C memory`
@@ -58,7 +51,6 @@ Icon=
 > ![[memoryinfo]]
 > oppure 
 > `sudo dmidecode --type 17`
-
 
 >[!info]-  HowTo: Reset dataset to default values after editing #uniud 
 > dataset: `nycflights13`
@@ -71,10 +63,22 @@ Icon=
 > Todo: 
 > - [ ] Revert Ctrl shift v function for clipboard management
 
-
-
 > [!info]- HowTo: show file tree view (PowerShell)
 > `cd` to desired folder
 > `tree /F` 
+ù
+
+> [!info]- HowTo: create symbolic link in home dir #ubuntu 
+> ```
+> ln -s path/to/deep/nested/folder ~/my-project
+> cd my-project 
+> ```
+
+> [!info]- HowTo: Compile and run `.cpp` files in terminal #ubuntu 
+> ```bash
+> nano source.cpp # create/edit file 
+> g++ source.cpp -o source-exec # compile file into executable
+> ./source-exec # run executable
+> ```
 
 
