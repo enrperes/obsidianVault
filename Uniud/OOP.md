@@ -1,6 +1,5 @@
 [[OOP-info]]
-
-### [[IntelliJ info]]
+[[IntelliJ info]]
 
 ---
 
