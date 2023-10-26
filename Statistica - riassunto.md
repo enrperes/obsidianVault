@@ -147,7 +147,7 @@ Indicano la posizione, variabilità, simmetria, curtosi di una variabile statist
 
 > [!example] Campo di variazione
 > Sia $Y$ una variabile statistica quantitativa. Il **campo di variazione (range)** corrisponde a: 
-> $$\large R_Y = y_{(n)} - y_{(1)}$$
+> $$\Large R_Y = y_{(n)} - y_{(1)}$$
 > ovvero alla differenza tra l'osservazione più grande e l'osservazione più piccola. 
 
 > [!example] Scarto interquartilico
@@ -157,10 +157,10 @@ Indicano la posizione, variabilità, simmetria, curtosi di una variabile statist
 
 > [!example]+ Varianza
 > Si indica con $\large V(Y)$ o con $\large \sigma ^2$. Data una variabile statistica $Y$ con media $E(Y)$, si ha: 
-> $$\large V(Y) = E[(Y-E(Y))^2]$$
+> $$\Large V(Y) = E[(Y-E(Y))^2]$$
 > Quindi è la media aritmetica della variabile scarto $Y - E(Y)$ elevata al quadrato. Misura la dispersione dei dati attorno alla media. L'unità di misura è pari a quella dei dati elevata al quadrato. 
 > Lo **scarto quadratico medio** di $Y$ indicato con $\large \sigma$ è la radice quadrata della varianza: (stessa unità di misura di Y)
-> $$\large \sigma = \sqrt{V(Y)}$$
+> $$\Large \sigma = \sqrt{V(Y)}$$
 > Avendo a disposizione dati grezzi, corrisponde a: 
 > $$\Large V(Y) = \frac{1}{n}\sum_{i=1}^n (y_i - E(Y))^2$$ 
 > Quindi la somma delle modalità meno la media, tutto al quadrato e fratto n. 
@@ -169,12 +169,75 @@ Indicano la posizione, variabilità, simmetria, curtosi di una variabile statist
 > Proprietà di invarianza per traslazioni
 > Proprietà di omogeneità di secondo grado
 
+> [!info]+ Coefficiente di variazione
+> Indice adimensionale per variabili statistiche che assumono solo valori positivi. 
+> Misura la variabilità dei dati tenendo conto dell'ordine di grandezza del fenomeno. 
+> $$\Large CV_Y = \frac{\sigma_Y}{\mu_Y}$$
+> Per variabili non necessariamente positive si considera il valore assoluto della media. 
+> 
+
+> [!info]- Asimmetria
+> Istogramma asimmetrico positivo presenta una coda di destra più lunga. Coda sinistra più lunga: asimmetria negativa. 
+
+> [!info] Indice di simmetria
+> Data una variabile $Y$ con media $E(Y)$ l'indice di simmetria è: 
+> $$\Large \gamma_Y = \frac{E[(Y-E(Y))^3]}{\sigma^3_Y}$$
+> Dove $\sigma_Y = \sqrt{V(Y)}$ = scarto quadratico medio di $Y$. 
+> Disponendo dei dati grezzi, la formula è 
+> $$\Large \gamma_Y = \frac{1/n \sum_{i=1}^n(y_i-E(Y))^3}{\sigma_Y^3}$$
+
+> [!info] Curtosi
+> Corrisponde ad un allontanamento dalla distrubuzione di frequenza normale, considerata il riferimento 
+> - Distribuzione **normocurtica** (normale) = distribuzione di frequenza normale, gaussiana
+> 	- Indice di curtosi $\approx 3$ 
+> - Distribuzione **platicurtica** (iponormale) = maggiore appiattimento e code leggere
+> 	- Indice di curtosi $\lt 3$  
+> - Distribuzione **leptocurtica** (ipernormale) = maggiore allungamento e code pesanti. 
+> 	- Indice di curtosi $\gt 3$ 
+> ### Indice di curtosi
+> $$\Large \beta_Y = \frac{E[(Y-E(Y))^4]}{\sigma_Y^4}$$
+> dove $\large \sigma_Y = \sqrt{V(Y)}$ è lo scarto quadratico medio di $Y$. 
+> Disponendo di dati grezzi, la formula è: 
+> $$\Large \beta_Y = \frac{(1/n)\sum_{i=1}^n(y_i - E(Y))^4}{\sigma_Y^4}$$
+> 
+
+# 3. Statistica descrittiva: analisi multivariate
+Partendo dai dati grezzi, si possono determinare distribuzioni di frequenza assoluta e relativa, distinguibili in: 
+- **Distribuzione congiunta**
+	- Rappresenta la probabilità congiunta di due variabili 
+	- Fornisce info su come le variabili si comportano insieme inclusi tutti i casi possibili. 
+- **Distribuzione marginale**
+	- Ottenuta dalla distribuzione congiunta ma concentrandosi solo su una delle variabili. 
+- **Distribuzione condizionata**
+	- Si concentra su una variabile mentre si tiene conto di uno specifico valore (o intervallo di valori)
+
+Per evidenziare le relazioni esistenti tra due variabili statistiche: 
+1. **Due variabili qualitative**
+	1. Analisi di dipendenza 
+2. **Una variabile qualitativa e una quantitativa**
+	1. Analisi di dipendenza media
+3. **Due variabili quantitative**
+	1. Analisi di correlazione e regressione 
+
+Si considerano due variabili qualitative e si vuole scoprire l'esistenza o meno di associazione (dipendenza) tra le modalità corrispondenti. 
+
+
+
+
+
+
+
+
+
+
+
+
 ---
-- [ ] Coefficiente di variazione
-- [ ] Simmetria / Asimmetria
-	- [ ] Indice di asimmetria
-- [ ] Curtosi
-	- [ ] indice di curtosi
+- [x] Coefficiente di variazione
+- [x] Simmetria / Asimmetria
+	- [x] Indice di asimmetria
+- [x] Curtosi
+	- [x] indice di curtosi
 - [ ] Indipendenza statistica
 - [ ] Indice di connessione
 - [ ] Dipendenza in media
