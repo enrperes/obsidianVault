@@ -232,6 +232,19 @@ Si considerano due variabili qualitative e si vuole scoprire l'esistenza o meno 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 - [x] Coefficiente di variazione
 - [x] Simmetria / Asimmetria
