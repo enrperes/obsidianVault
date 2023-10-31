@@ -44,7 +44,7 @@
 
 > [!abstract] Frequenze cumulate
 > >[!help]- Frequenza assoluta cumulata $F_j$
-> >definisce la frequenza assoluta di modalità o classi di modalità non superiori alla j-esima, con $j = 1, ..., J$. Si ottiene cumulando progressivamente le frequenze: $$Large F_, = \sum_{i=1}^jf_i$$
+> >definisce la frequenza assoluta di modalità o classi di modalità non superiori alla j-esima, con $j = 1, ..., J$. Si ottiene cumulando progressivamente le frequenze: $$\Large F_, = \sum_{i=1}^jf_i$$
 > 
 > >[!help]- Frequenza relativa cumulata $P_j$
 > >$$\Large P_j = \sum_{i=1}^j p_i$$
@@ -159,7 +159,7 @@ Indicano la posizione, variabilità, simmetria, curtosi di una variabile statist
 > Si indica con $\large V(Y)$ o con $\large \sigma ^2$. Data una variabile statistica $Y$ con media $E(Y)$, si ha: 
 > $$\Large V(Y) = E[(Y-E(Y))^2]$$
 > Quindi è la media aritmetica della variabile scarto $Y - E(Y)$ elevata al quadrato. Misura la dispersione dei dati attorno alla media. L'unità di misura è pari a quella dei dati elevata al quadrato. 
-> Lo **scarto quadratico medio** di $Y$ indicato con $\large \sigma$ è la radice quadrata della varianza: (stessa unità di misura di Y)
+> Lo ==scarto quadratico medio== di $Y$ indicato con $\large \sigma$ è la radice quadrata della varianza: (stessa unità di misura di Y)
 > $$\Large \sigma = \sqrt{V(Y)}$$
 > Avendo a disposizione dati grezzi, corrisponde a: 
 > $$\Large V(Y) = \frac{1}{n}\sum_{i=1}^n (y_i - E(Y))^2$$ 
