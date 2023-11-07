@@ -68,7 +68,7 @@ Il costo di ogni operazione di base è $\Large c$ **indipendentemente** dalla gr
 
 # Equazioni ricorsive di complessità 
 
-,d if 
+[[Quick Sort]]
 
 
 

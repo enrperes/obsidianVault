@@ -6,4 +6,10 @@
 ## [[Abstaction]]
 
 ## [[Java-ABC]]
-## [[Notes-oop|Notes]]
+
+## [[Java-Exceptions]]
+
+## [[Java-Assertions]]
+
+
+## ![[Notes-oop|Notes]]
