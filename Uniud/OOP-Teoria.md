@@ -12,4 +12,7 @@
 ## [[Java-Assertions]]
 
 
-## ![[Notes-oop|Notes]]
+
+## Notes
+Scrivendo pre e post condizioni -> scrivere funzioni parziali 
+

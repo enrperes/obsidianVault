@@ -4,7 +4,6 @@ aliases:
   - UNIUD, home, esami
 banner_y: 0.5
 ---
-
 ```ActivityHistory
 /
 ```
