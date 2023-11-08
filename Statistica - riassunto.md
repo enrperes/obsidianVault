@@ -29,7 +29,6 @@
 
 # Formule 
 
-
 > [!help]- Frequenza assoluta $\large f_j$
 > Il numero di volte che $y_j$ risulta osservata. 
 > Spesso è conveniente (per variabili quantitative continue) raggruppare in **classi di modalità**. Di solito $\sqrt n$ numero di classi. 
