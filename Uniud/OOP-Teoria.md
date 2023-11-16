@@ -11,7 +11,7 @@
 
 ## [[Java-Assertions]]
 
-
+# [[Abstract Data Types]]
 
 ## Notes
 Scrivendo pre e post condizioni -> scrivere funzioni parziali 
