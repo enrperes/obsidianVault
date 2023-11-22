@@ -1,4 +1,15 @@
-## Python 
-![[Pasted image 20231025120339.png|400]]
-Esercizi con stellina sono obbligatori per passare laboratorio 
-
+# TEST PASS? 
+- [x] 1
+- [x] 2
+- [x] 3
+- [x] 4
+- [x] 5
+- [x] 6
+- [x] 7
+- [ ] 8 #todo 
+- [ ] 9 #todo 
+- [ ] 10 #todo 
+- [ ] 11 
+- [ ] 12 #star
+- [ ] 13
+- [ ] ....
