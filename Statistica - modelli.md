@@ -180,3 +180,81 @@ $$
     \end{array}\right. 
  \end{align*}
 $$
+
+Si ha che: 
+$$
+E(X) = \frac{1}{\lambda}, \;\;\;\;\;\;\; V(X) = \frac{1}{\lambda^{2}}
+$$
+# Modello normale o Gaussiano
+> il più importante. Usato in vari contesti, in particolare per descrivere presenza di caratteri antropometrici (struttura e peso) e per approssimare diverse distribuzioni di probabilità discrete e continue. 
+
+$$
+\Large
+X \sim N(\mu, \sigma^{2})
+$$
+Con $S_{X}=\mathbb{R}$. La funzione di densità: 
+$$ \Huge
+f_{X}(x; \mu, \sigma) =  \frac{1}{\sqrt{ 2\pi }\sigma}^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}} 
+$$
+Il parametro $\mu$ è sia la moda che la mediana. Inoltre: 
+$$
+\Large
+\begin{align}
+E(X) = \mu \\ 
+V(X) = \sigma^{2}
+\end{align}   
+$$
+Se $\mu = 0$ e $\sigma^{2}=1$ si ottiene la **distribuzione normale standard**: $\Large N(0,1)$. 
+
+# Modello $\chi^{2}$
+$$
+\Large
+Y \sim \chi^{2}(n)
+$$
+è una variabile casuale continua con supporto $S_{Y} = [0, +\infty[$ e: 
+$$
+\Large
+\begin{align}
+E(Y) = n \\
+V(Y) = 2n
+\end{align}
+$$
+Per $n \to +\infty$ la distribuzione di probabilità tende alla distribuzione normale
+
+# Modello t-student
+$$
+\Large
+T \sim t(n)
+$$
+Variabile casuale continua con supporto $S_{t} = \mathbb{R}$ e: 
+$$
+\Large
+\begin{align}
+E(T) = 0 \\
+V(T) = \frac{n}{n-2}
+\end{align}
+$$
+Anche questo tende alla dist. normale per $n$ grande. 
+La funzione di densità ha formula: 
+$$\Large
+f(t) = \frac{\Gamma \left( \frac{g+1}{2} \right)}{\sqrt{ \pi \cdot g }\;\;\Gamma\left( \frac{g}{2} \right)} (1+ \frac{t^{2}}{g})^{-\frac{g+1}{2}}
+$$
+
+
+# Modello F-fisher
+$$
+\Large
+F \sim F(n,m)
+$$
+Supporto $S_{F} = [0, +\infty[$ e: 
+$$
+\Large
+E(F) = \frac{m}{m-2}
+$$
+La funzione di densità ha formula: 
+$$
+\Large
+f(x) = \frac{\nu_{1}^{\nu_{1}/2}\;\;\nu_{2}^{\nu_{2}/2}\;\; \Gamma\left( \frac{\nu_{1}+\nu_{2}}{2} \right)}{\Gamma \left( \frac{\nu_{1}}{2}\right)\Gamma\left( \frac{\nu_{2}}{2} \right)} \frac{x^{\frac{\nu_{1}}{2}-1}}{(\nu_{1}x+\nu_{2})^{(\nu_{1}+\nu_{2})/2}}
+$$
+Con parametri $\nu_{1}, \nu_{2}$ positivi. 
+
