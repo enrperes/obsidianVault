@@ -2,7 +2,7 @@
 
 > Descrive esperimenti con numero finito di esiti equiprobabili
 
-$$
+$$ \color{orange} 
 \Large X\sim Ud(x_{1},\dots,x_{n})
 $$
 Funzione di densità
@@ -30,7 +30,7 @@ $$
 > Esperimenti che possono essere rappresentati come estrazioni con reinserimento da un'urna di composizione nota (esperimento bernoulliano)
 
 $$
-\Large
+\Large \color{orange}
 X \sim Bi(n, p) 
 $$
 Con $S_{X}=\{0, \dots, n\}$ e $n$ che indica il numero di prove indipendenti, $p$ la probabilità comune di successo. 
@@ -58,7 +58,7 @@ $$
 > Descrive problemi di conteggio quando non c'è una limitazione superiore per il supporto o problemi in cui tale limitazione è irrilevante. 
 
 $$
-\Large
+\Large \color{orange} 
 X \sim P(\lambda)
 $$
 Con $S_{X} = \mathbb{N}$
@@ -86,7 +86,7 @@ Quindi media e varianza coincidono a $\lambda$
 > Descrive il tempo di attesa, espresso come il numero di replicazioni indipendenti di un esperimento bernoulliano, con probabilità di successo $p$ per osservare per la prima volta un successo. 
 
 $$
-\Large
+\Large \color{orange}
 X \sim Ge(p)
 $$
 con $S_{X} = \mathbb{N}^+$ 
@@ -114,7 +114,7 @@ Modello caratterizzato dall'assenza di memoria
 > Descrive esperimenti aleatori rappresentabili come un'estrazione casuale di un numero dall'intervallo $[a,b]$
 
 $$
-\Large
+\Large \color{orange}
 X \sim U(a,b)
 $$
 Con $S_{X} = [a,b]$
@@ -153,7 +153,7 @@ $$
 > Utilizzato per rappresentare durate e tempi di vita o funzionamento, nel caso in cui sia plausibile assumere la proprietà di assenza di memoria o usura. 
 
 $$
-\Large
+\Large \color{orange}
 X \sim Esp(\lambda)
 $$
 Con $S_{X} = [0, +\infty[$
@@ -188,7 +188,7 @@ $$
 # Modello normale o Gaussiano
 > il più importante. Usato in vari contesti, in particolare per descrivere presenza di caratteri antropometrici (struttura e peso) e per approssimare diverse distribuzioni di probabilità discrete e continue. 
 
-$$
+$$\color{orange}
 \Large
 X \sim N(\mu, \sigma^{2})
 $$
@@ -207,7 +207,7 @@ $$
 Se $\mu = 0$ e $\sigma^{2}=1$ si ottiene la **distribuzione normale standard**: $\Large N(0,1)$. 
 
 # Modello $\chi^{2}$
-$$
+$$\color{orange}
 \Large
 Y \sim \chi^{2}(n)
 $$
@@ -223,7 +223,7 @@ Per $n \to +\infty$ la distribuzione di probabilità tende alla distribuzione no
 
 # Modello t-student
 $$
-\Large
+\color{orange} \Large
 T \sim t(n)
 $$
 Variabile casuale continua con supporto $S_{t} = \mathbb{R}$ e: 
@@ -243,6 +243,7 @@ $$
 
 # Modello F-fisher
 $$
+\color{orange}
 \Large
 F \sim F(n,m)
 $$
