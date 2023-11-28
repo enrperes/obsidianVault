@@ -26,3 +26,12 @@
 
 > Su E-learning. (portare portatile, no appunti). 2 Domande di teoria e 2 esercizi
 
+---
+
+## Secondo parziale
+
+#todo 
+```r
+
+```
+

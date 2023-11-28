@@ -13,6 +13,8 @@
 
 # [[Abstract Data Types]]
 
+# [[Type Families]]
+
 ## Notes
 Scrivendo pre e post condizioni -> scrivere funzioni parziali 
 
