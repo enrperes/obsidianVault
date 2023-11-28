@@ -107,7 +107,8 @@ $$
 E(X) = \frac{1}{p}  \\
 V(X) =  \frac{1-p}{p^{2}}
 \end{align}
-$$Modello caratterizzato dall'assenza di memoria
+$$
+Modello caratterizzato dall'assenza di memoria
 
 # Modello uniforme continuo 
 > Descrive esperimenti aleatori rappresentabili come un'estrazione casuale di un numero dall'intervallo $[a,b]$
