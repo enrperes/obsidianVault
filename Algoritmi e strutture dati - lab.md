@@ -1,4 +1,4 @@
-# TEST PASS? 
+# TEST PASSED? 
 - [x] 1
 - [x] 2
 - [x] 3
@@ -7,14 +7,18 @@
 - [x] 6
 - [x] 7
 - [x] 8 
-- [ ] 9 #todo 
-- [ ] 10 #todo 
-- [ ] 11 
-- [ ] 12 
-- [ ] 13
-- [ ] ....
-
-
-```
-
-```
+- [ ] 9 Fatto in $O(n^{3})$. Da fare in $O(n)$. 
+- [ ] 10 
+- [ ] 11 **Majority element** (Programma che riceva in input array non ordinato di lunghezza $n$, con interi non necessariamente positivi. Output = elemento maggioritario, ovvero l'elemento che occorre un numero di volte $\Large > \frac{n}{2}$. Se tale elemento non esiste, stampa "No majority"
+	- [ ] $O(n^{2})$
+	- [ ] $O(n\log(n))$
+	- [ ] $\Theta(n+k)$ nell'ipotesi aggiuntiva che tutti i valori dell'array siano nel range $[0,k]$. 
+	- [ ] $\Theta(n)$ Senza alcuna ipotesi aggiuntiva
+- [ ] **12** - Spiegato nella lezione di 29 novembre, da rivedere. 
+- [ ] 13 - Tutti gli algoritmi di ordinamento. Implementare anche Quicksort_fast con complessità $O(n \log (m))$ con $n$ = lunghezza array e $m$ numero di valori distinti in esso.  
+- [ ] 14
+- [ ] 15
+- [ ] 16
+- [ ] 17
+- [ ] 18
+---
