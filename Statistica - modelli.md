@@ -259,3 +259,28 @@ f(x) = \frac{\nu_{1}^{\nu_{1}/2}\;\;\nu_{2}^{\nu_{2}/2}\;\; \Gamma\left( \frac{\
 $$
 Con parametri $\nu_{1}, \nu_{2}$ positivi. 
 
+----
+# Teorema del limite centrale 
+
+> Data una successione di V.C. $X_{i}$ indipendenti con media $\mu$ e varianza $\sigma^{2}$, allora la somma e media campionaria standardizzate coincidono. 
+
+$$
+\Large
+\frac{\bar{X}-\mu}{\sqrt{ \frac{\sigma^{2}}{n} }} = \frac{S_{n}-n\mu}{\sqrt{ n\sigma^{2} }} \to Z \sim N(0,1)
+$$
+ Le distribuzioni gaussiane approssimate si possono usare anche per le V.C. **non gaussiane**
+ Per $\Large n$ **elevato** si usano le distribuzioni approssimate: 
+$$
+\Large
+\begin{align}
+\bar{X_{n}}\sim \left( \mu, \frac{\sigma^{2}}{n} \right)  &  &;  &  & S_{n} \sim (n\mu, n\sigma^{2})
+\end{align}
+$$
+Inoltre, per $\Large n$ elevato, vale che: 
+$$
+\Large
+\begin{align}
+ P(a<\bar{X_{n}}\leq b) \doteq \Phi\left( \frac{b-\mu}{\left(\sigma / \sqrt{ n } \right)} \right)- \Phi\left( \frac{a-\mu}{(\sigma/\sqrt{ n })} \right)  \\ \\ \\
+P(a<S_{n}\leq b) \doteq \Phi\left( \frac{b-n\mu}{\sigma \sqrt{ n }} \right) - \Phi \left( \frac{a-n\mu}{\sigma \sqrt{ n }} \right)
+\end{align}
+$$
