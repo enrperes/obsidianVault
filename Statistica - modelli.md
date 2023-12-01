@@ -266,7 +266,11 @@ Con parametri $\nu_{1}, \nu_{2}$ positivi.
 
 $$
 \Large
-\frac{\bar{X}-\mu}{\sqrt{ \frac{\sigma^{2}}{n} }} = \frac{S_{n}-n\mu}{\sqrt{ n\sigma^{2} }} \to Z \sim N(0,1)
+\begin{align}
+Z_{n } = \frac{\bar{X}-\mu}{\sqrt{ \frac{\sigma^{2}}{n} }} = \frac{S_{n}-n\mu}{\sqrt{ n\sigma^{2} }}  \to Z \sim N(0,1)  \\ \\
+Z_{n} = \frac{(\bar{X}_{n}-\mu)\sqrt{ n }}{\sigma} \to Z \sim N(0,1)
+
+\end{align}
 $$
  Le distribuzioni gaussiane approssimate si possono usare anche per le V.C. **non gaussiane**
  Per $\Large n$ **elevato** si usano le distribuzioni approssimate: 
