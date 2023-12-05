@@ -71,4 +71,18 @@ Il costo di ogni operazione di base è $\Large c$ **indipendentemente** dalla gr
 [[Quick Sort]]
 
 
+---
 
+# Binary trees 
+## Binary search tree 
+$\Large T$ è un $\Large\texttt{BST}$ $sse$ `InOrder(T)` stampa le chiavi in ordine crescente senza ripetizioni. 
+*dimostrazione:*
+- Per induzione sul numero di chiavi di $\Large T$. 
+- **Base**:
+- $n = 1$
+- **Passo**:
+	- HPind:
+		- $m$ chiavi con $m<n$, ordine crescente
+	- Tesi: 
+		- $\Large T$ è un $\Large \texttt{BST}$ con $n$ chiavi, `InOrder(T)` stampa in ordine crescente 
+		- 
