@@ -14,7 +14,7 @@
 	- [ ] $O(n\log(n))$
 	- [ ] $\Theta(n+k)$ nell'ipotesi aggiuntiva che tutti i valori dell'array siano nel range $[0,k]$. 
 	- [ ] $\Theta(n)$ Senza alcuna ipotesi aggiuntiva
-- [ ] **12** - Spiegato nella lezione di 29 novembre, da rivedere. 
+- [ ] **12** - Spiegato nella lezione di 29 novembre e 6 dicembre, da rivedere. 
 - [x] 13 - (fatto solo quicksort) Tutti gli algoritmi di ordinamento. Implementare anche Quicksort_fast con complessità $O(n \log (m))$ con $n$ = lunghezza array e $m$ numero di valori distinti in esso.  
 - [ ] 14 - Implementare una struttura dati min-heap, albero binario quasi completo in cui valore di un nodo è sempre minore o uguale ai valori dei figli. Programma interattivo: ad ogni iterazione deve essere possibile indicare un'operazione. 
 	- [ ] `build x1, x2, x3, ...`
@@ -29,3 +29,30 @@
 - [ ] 17
 - [ ] 18
 ---
+
+# Progetto lab - Algoritmi di selezione
+_spiegato lezione 6 dicembre_
+
+
+```py
+import time
+start = time.monotonic() # tempo monotonico di sistema. Risoluzione = 1ms
+algoritmo(a)
+end = time.monotonic()
+t = end - start
+```
+
+Per misurazioni più precise con algoritmi veloci si esegue l'algoritmo $n$ volte senza fermare il clock, dividendo poi per il $n$. 
+
+![[Pasted image 20231206120333.png|800]]
+
+$x$ = tempo di esecuzione da stimare  
+$\tilde{x}$ = tempo misurato
+$\Lambda$ = risoluzione del clock / errore osservato
+$$
+\Large
+\begin{align}
+|\tilde{x}-x| \leq \Delta   \\
+\epsilon = \text{errore relativo} = \frac{\Delta}{x} < 0.001? 
+\end{align}
+$$
