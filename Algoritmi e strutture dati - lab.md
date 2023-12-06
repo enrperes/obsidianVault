@@ -7,7 +7,7 @@
 - [x] 6
 - [x] 7
 - [x] 8 
-- [ ] 9 Fatto in $O(n^{3})$. Da fare in $O(n)$. 
+- [x] 9 Fatto in $O(n^{3})$. Da fare in $O(n)$. 
 - [ ] 10 
 - [ ] 11 **Majority element** (Programma che riceva in input array non ordinato di lunghezza $n$, con interi non necessariamente positivi. Output = elemento maggioritario, ovvero l'elemento che occorre un numero di volte $\Large > \frac{n}{2}$. Se tale elemento non esiste, stampa "No majority"
 	- [ ] $O(n^{2})$
@@ -15,9 +15,16 @@
 	- [ ] $\Theta(n+k)$ nell'ipotesi aggiuntiva che tutti i valori dell'array siano nel range $[0,k]$. 
 	- [ ] $\Theta(n)$ Senza alcuna ipotesi aggiuntiva
 - [ ] **12** - Spiegato nella lezione di 29 novembre, da rivedere. 
-- [ ] 13 - Tutti gli algoritmi di ordinamento. Implementare anche Quicksort_fast con complessità $O(n \log (m))$ con $n$ = lunghezza array e $m$ numero di valori distinti in esso.  
-- [ ] 14
-- [ ] 15
+- [x] 13 - (fatto solo quicksort) Tutti gli algoritmi di ordinamento. Implementare anche Quicksort_fast con complessità $O(n \log (m))$ con $n$ = lunghezza array e $m$ numero di valori distinti in esso.  
+- [ ] 14 - Implementare una struttura dati min-heap, albero binario quasi completo in cui valore di un nodo è sempre minore o uguale ai valori dei figli. Programma interattivo: ad ogni iterazione deve essere possibile indicare un'operazione. 
+	- [ ] `build x1, x2, x3, ...`
+	- [ ] `length`
+	- [ ] `getmin`
+	- [ ] `extract`
+	- [ ] `insert x`
+	- [ ] `change i x`
+	- [ ] 
+- [ ] 15 - Selezione: calcolare il k-esimo elemento più piccolo in un array dato ( senza ordinare il vettore prima, magari)
 - [ ] 16
 - [ ] 17
 - [ ] 18
