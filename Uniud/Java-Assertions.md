@@ -21,12 +21,37 @@ throws NotFoundException{
 - to check all preconditions of methods: they can be disabled in production (especially public methods)
 - When boolean expressions have side effects: 
 	- When the expression is an invocation of a method that has effects on some object. 
+### When to use assertions
+- To check preconditions of arguments and objects of private methods
+	- The context of use is restricted, once the class is tested the assertions are not useful anymore. 
+- To check **invariants** of any method
+	- Useful only in development
+- Check post conditions of methods 
 
-## Exceptions vs Assertions 
+> [!bug]  **A violated assertion is a bug** 
 
-![[Pasted image 20231107111238.png|500]]
 
-#todo 
-[...]
+##### Example
+```java
+void foo(){
+	for(){
+		if()
+			return;
+	}
+	// execution should never reach this point. 
+}
+```
 
-Libreria [Lombok]([https://projectlombok.org](https://projectlombok.org/))
+The comment is an **invariant**. So it should become an assertion: 
+
+```java
+void foo(){
+	for(){
+		if()
+			return;
+	}
+	assert false: "Execution should not reach here"
+}
+```
+
+Now the code is executable and has built in tests.
