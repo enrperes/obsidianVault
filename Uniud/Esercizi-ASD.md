@@ -4,3 +4,4 @@
 
 Contare solo le operazioni di confronto che vengono fatte. Scrivere codice che esegue meno operazioni di confronto possibili. 
 
+[[Delete-BST]]
