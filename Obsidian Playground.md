@@ -51,7 +51,7 @@ https://notes.nicolevanderhoeven.com/Obsidian+Callouts
 	-   bug
 	-   example
 	-   quote, cite
->[!example]- Callouts Icons
+>[!example] Callouts Icons
 >>[!info]
 >
 >>[!note]-
