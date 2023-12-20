@@ -27,6 +27,9 @@
 ## Notes
 Scrivendo pre e post condizioni -> scrivere funzioni parziali 
 
+`List<Map<String, Integer>> var` -> `var` Lista di mappe con Integer e String  (esempio: elenco nomi studenti e voti ottenuti)
+`List <VotiCorso> var` è un tipo di dato astratto con classe `VotiCorso`. Fa la stessa cosa ma nel primo caso manipolando `var` è chiaro come è fatto il tipo di dato. Nel secondo caso si può non conoscere l'implementazione di `VotiCorso`
+
 ---
 - [x] **Procedural abstraction**
 	- [x] Decomposition
