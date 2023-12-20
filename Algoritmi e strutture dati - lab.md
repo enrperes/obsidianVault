@@ -22,9 +22,11 @@
 	- [ ] `getmin`
 	- [ ] `extract`
 	- [ ] `insert x`
-	- [ ] `change i x`
-	- [ ] 
+	- [ ] `change i x` 
 - [ ] 15 - Selezione: calcolare il k-esimo elemento più piccolo in un array dato ( senza ordinare il vettore prima, magari)
+	- [ ] Per k volte: 
+		- [ ] Estrarre il minimo dalla heap ausiliaria
+		- [ ] Introdurre nuovi elementi, ovvero i figli della heap 
 - [ ] 16
 - [ ] 17
 - [ ] 18
