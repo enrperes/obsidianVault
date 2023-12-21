@@ -1,7 +1,7 @@
 ---
 aliases:
-  - ASD
   - Java
+  - ADT
 ---
 
 > High level descriptions of data structures with operations that can be performed on them. 

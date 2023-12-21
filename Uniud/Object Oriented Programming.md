@@ -24,6 +24,8 @@
 
 # [[Type Families]]
 
+# [[Object Oriented Design]]
+
 ## Notes
 Scrivendo pre e post condizioni -> scrivere funzioni parziali 
 
@@ -57,32 +59,32 @@ Scrivendo pre e post condizioni -> scrivere funzioni parziali
 	- [x] Overloading 
 	- [x] Method dispatching
 - [x] **Specifications**
-	- [ ] Procedure / function
-	- [ ] Contract of a method 
-	- [ ] Type abstraction
-	- [ ] Abstraction benefits
-	- [ ] Partial abstractions
-- [ ] **Exceptions**
-	- [ ] Syntax
-	- [ ] Advantages
-	- [ ] Specification example
-	- [ ] Throwing exceptions
-	- [ ] Handling exceptions
+	- [x] Procedure / function
+	- [x] Contract of a method 
+	- [x] Type abstraction
+	- [x] Abstraction benefits
+	- [x] Partial abstractions
+- [x] **Exceptions**
+	- [x] Syntax
+	- [x] Advantages
+	- [x] Specification example
+	- [x] Throwing exceptions
+	- [x] Handling exceptions
 	- [ ] Exceptions as classes 
 	- [ ] Methods of exceptions
 	- [ ] Masking, reflecting
-- [ ] **Assertions**
-	- [ ] How to enable them
-	- [ ] When to use / not to use
+- [x] **Assertions**
+	- [x] How to enable them
+	- [x] When to use / not to use
 	- [ ] Deal with preconditions 
-	- [ ] Assertive programming as opposed to defensive programming 
+	- [x] Assertive programming as opposed to defensive programming 
 - [ ] **Abstract Data Types**
 	- [ ] `IntSet` example
-	- [ ] Implementing an ADT 
-	- [ ] cloning, equality: the issue
-	- [ ] Specification of ADT
+	- [x] Implementing an ADT 
+	- [x] cloning, equality: the issue
+	- [x] Specification of ADT
 	- [ ] The abstraction invariant 
-	- [ ] The abstraction function
+	- [x] The abstraction function
 - [ ] **Iterators** 
 	- [ ] `IntSet` example
 	- [ ] Defining, creating, implementing iterators
@@ -99,3 +101,25 @@ Scrivendo pre e post condizioni -> scrivere funzioni parziali
 	- [ ] Examples
 - [ ] **Interfaces** 
 - [ ] **Abstract classes**
+- [ ] **Anonymous classes**
+	- [ ] Functional programming 
+	- [ ] `lambda-example.pdf` 
+- [ ] **Generic Types**
+	- [ ] Generic classes
+	- [ ] Generic methods
+	- [ ] Type erasure
+	- [ ] Bounded generic types
+	- [ ] Subtyping  generic types
+	- [ ] Wildcards
+- [ ] **Object Oriented design**
+	- [ ] Design patterns
+		- [ ] Factory 
+		- [ ] Builder 
+		- [ ] Observer 
+		- [ ] Decorator
+		- [ ] Composite
+		- [ ] Bridge
+	- [ ] Responsibility
+	- [ ] Design principles
+	- [ ] **CRC** technique
+	- [ ] `design pattern example pdf`
