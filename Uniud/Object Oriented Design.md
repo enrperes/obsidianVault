@@ -1,14 +1,8 @@
-- Build
-- [[Observer]]
-- Decorator
-
----
 # Design Patterns
 
-- Factory 
-- Abstract Factory 
+- [[Factory method example | Factory and Abstract Factory Method]]
 - Builder
-- Observer
+- [[Observer]]
 - Decorator
 - Composite
 - Bridge

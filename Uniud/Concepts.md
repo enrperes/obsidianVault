@@ -69,18 +69,7 @@
 >Molti IDE offrono supporto nativo per il refactoring, automatizzando alcuni processi. 
 
 >[!info]-  **Principi SOLID di programmazione** 
->> Insieme di 5 principi di progettazione software formulati per creare codice pulito, di facile manutenzione e flessibile. 
->
->1. **Single Responsibility Principle**
->	1. Una classe, funzione, metodo deve svolgere solo un compito. Se una classe ha troppe responsabilità, diventa difficile da comprendere. (applicare questo principio ai **metodi**). La responsabilità di un metodo è la sua postcondizione (quello che fa)
->2. **Open-Closed Principle**
->	1. Le classi dovrebbero essere aperte all'estensione ma chiuse alla modifica. 
->3. **Liskov Substitution Principle**
->	1. Gli oggetti di una classe derivata dovrebbero essere sostituibili senza influire sul comportamento corretto del programma. Quindi le sottoclassi dovrebbero estendere e specializzare il comportamento della classe base senza modificarlo. 
->4. **Interface segregation Principle**
->	1. Le interfacce dovrebbero essere specifiche per il cliente: una classe non deve essere costretta ad implementare metodi che non usa. 
->5. **Dependency Inversion Principle**
->	1. I moduli di alto livello non devono dipendere dai moduli di basso livello. Entrambi devono dipendere da astrazioni. Ovvero, le classi dipendono da interfacce o astrazioni invece di altre classi concrete. Rende il codice più flessibile e facile da testare. 
+[[SOLID programming]]
 
 >[!info]-  **Clean code**
 > - Nomi significativi 
