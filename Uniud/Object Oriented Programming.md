@@ -1,3 +1,10 @@
+---
+aliases:
+  - Programming
+  - OOP
+  - Programmazione
+  - Oggetti
+---
 [[OOP-info]]
 [[IntelliJ info]]
 
