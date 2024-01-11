@@ -3,7 +3,7 @@
 ### [[Statistica - riassunto primo parziale]]
 ### [[Statistica - modelli]]
 
-# [[Formulario, 2]]
+# [[Statistica inferenziale in R]]
 
 ---
 ### [[Statistica-laboratorio]]
