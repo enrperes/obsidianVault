@@ -2,26 +2,26 @@
 # Alfabeto greco 
 | Lettera minuscola | Lettera maiuscola | Nome 
 :--------:|:---------:|:-----------------:
-$\alpha$ | $A$ | Alfa
-$\beta$ | $B$ | Beta
-$\gamma$|$\Gamma$|Gamma
-$\delta$|$\Delta$|Delta
-$\varepsilon$|$E$|Epsilon
-$\zeta$|$Z$|Zeta
-$\eta$|$H$|Eta
-$\vartheta$|$\Theta$|Theta
-$\iota$|$I$|Iota
-$\kappa$|$K$|Kappa
-$\lambda$|$\Lambda$|Lambda
-$\mu$|$M$|Mu
-$\nu$|$N$|Nu
-$\xi$|$\Xi$|Xi
-$o$|$O$|O
-$\pi$|$\Pi$|Pi
-$\varrho$|$P$|Rho
-$\sigma$|$\Sigma$|Sigma
-$\tau$|$T$|Tau
-$\upsilon$|$\Upsilon$|Upsilon
-$\varphi$|$\Phi$|Phi
-$\chi$|$X$|Chi
-$\omega$|$\Omega$|Omega
+$\Large \alpha$ | $A$ | Alfa
+$\Large \beta$ | $B$ | Beta
+$\Large \gamma$|$\Gamma$|Gamma
+$\Large \delta$|$\Delta$|Delta
+$\Large \varepsilon$|$E$|Epsilon
+$\Large \zeta$|$Z$|Zeta
+$\Large \eta$|$H$|Eta
+$\Large \vartheta$|$\Theta$|Theta
+$\Large \iota$|$I$|Iota
+$\Large \kappa$|$K$|Kappa
+$\Large \lambda$|$\Lambda$|Lambda
+$\Large \mu$|$M$|Mu
+$\Large \nu$|$N$|Nu
+$\Large \xi$|$\Xi$|Xi
+$\Large o$|$O$|O
+$\Large \pi$|$\Pi$|Pi
+$\Large \varrho$|$P$|Rho
+$\Large \sigma$|$\Sigma$|Sigma
+$\Large \tau$|$T$|Tau
+$\Large \upsilon$|$\Upsilon$|Upsilon
+$\Large \varphi$|$\Phi$|Phi
+$\Large \chi$|$X$|Chi
+$\Large \omega$|$\Omega$|Omega

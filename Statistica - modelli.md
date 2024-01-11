@@ -26,6 +26,35 @@ E(X) = \sum_{i=1}^{n} \frac{x_{i}}{n} = \frac{n+1}{2}\\ \\
 V(X) = \sum_{i=1}^{n}\frac{(x_{i}-E(X))^{2}}{n} = \frac{n^{2}-1}{12}
 \end{align*}
 $$
+
+# Modello di Bernoulli 
+> Esperimenti nei quali si vuole solamente verificare se un evento si è verificato o meno. 
+
+(esempio $n$ articoli, $x$ difettosi)
+
+$$
+\Large \color{orange} 
+X \sim Ber(\pi)
+$$
+$$
+\Large
+\begin{align}
+
+f_{x}(X) = \pi^{x}(1-\pi)^{1-x}  \\
+
+\text{con x = 0, 1}
+\end{align}
+$$
+
+Inoltre: 
+$$
+\Large
+\begin{align}
+E(X) = \pi \\ \\
+V(X) = \pi(1-\pi)
+\end{align}
+$$
+
 # Modello binomiale 
 > Esperimenti che possono essere rappresentati come estrazioni con reinserimento da un'urna di composizione nota (esperimento bernoulliano)
 
@@ -220,6 +249,11 @@ V(Y) = 2n
 \end{align}
 $$
 Per $n \to +\infty$ la distribuzione di probabilità tende alla distribuzione normale
+Funzione di densità: 
+$$
+\Large
+f(x) = \frac{1}{2^{\frac{g}{2}} \displaystyle \int_{0}^{+ \infty} e^{-x}x^{(\frac{g}{2})-1}\, dx } x^{\frac{g}{2}-1}e^{-\frac{x}{2}}
+$$
 
 # Modello t-student
 $$
@@ -239,7 +273,10 @@ La funzione di densità ha formula:
 $$\Large
 f(t) = \frac{\Gamma \left( \frac{g+1}{2} \right)}{\sqrt{ \pi \cdot g }\;\;\Gamma\left( \frac{g}{2} \right)} (1+ \frac{t^{2}}{g})^{-\frac{g+1}{2}}
 $$
-
+Dove $\Gamma\left( \frac{g}{2} \right)$ indica l'integrale: 
+$$
+\Large \Gamma\left( \frac{g}{2} \right) = \displaystyle \int_{0}^{+\infty} e^{-x}x^{\frac{g}{2}-1} \, dx  
+$$
 
 # Modello F-fisher
 $$
