@@ -4,7 +4,7 @@
 ### [[Statistica - modelli]]
 
 # [[Statistica inferenziale in R]]
-
+# [[Definizioni principali 3 parziale]]
 ---
 ### [[Statistica-laboratorio]]
 --- 
