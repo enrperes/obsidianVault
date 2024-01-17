@@ -17,4 +17,4 @@
 
 > [!done]-  **IntSet**, ADT 
 >  Implementazione dell'ADT `IntSet`, set di interi. 
->  [[IntSet_Example]]
+>  ![[IntSet_Example]]
