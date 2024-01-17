@@ -15,3 +15,6 @@
 >  Don't Repeat Yourself -> evitare codice ridondante. 
 >  [[Esercizio_Astrazione-insertionsort]]
 
+> [!done]-  **IntSet**, ADT 
+>  Implementazione dell'ADT `IntSet`, set di interi. 
+>  [[IntSet_Example]]

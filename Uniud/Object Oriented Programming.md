@@ -17,7 +17,7 @@ aliases:
 
 # Teoria
 
-### [[Decomposition]]
+## [[Decomposition]]
 
 ## [[Abstaction]]
 
@@ -27,17 +27,48 @@ aliases:
 
 ## [[Java-Assertions]]
 
-# [[Abstract Data Types]]
+## [[Abstract Data Types]]
 
-# [[Type Families]]
+## [[Type Families]]
 
-# [[Object Oriented Design]]
+## [[Object Oriented Design]]
 
 ## Notes
 Scrivendo pre e post condizioni -> scrivere funzioni parziali 
 
 `List<Map<String, Integer>> var` -> `var` Lista di mappe con Integer e String  (esempio: elenco nomi studenti e voti ottenuti)
 `List <VotiCorso> var` è un tipo di dato astratto con classe `VotiCorso`. Fa la stessa cosa ma nel primo caso manipolando `var` è chiaro come è fatto il tipo di dato. Nel secondo caso si può non conoscere l'implementazione di `VotiCorso`
+
+
+#### `Int[]` vs `Vector<Integer>`
+
+| `Int[]` | `Vector<Integer>` |
+| :--- | ---- |
+| Array of primitive data types "int". Arrays can only store primitive data types. | Part of Java Collections Framework. Holds objects of type "Integer". Uses the wrapper class "Integer" to store integer values. Collections in Java can only store Objects, not primitive data types. |
+| Arrays have a fixed size, cannot be changed later | Dynamically resizable. |
+|  |  |
+
+#### Type Casting 
+
+`(dataType) value;`
+```java
+this.elements = (Vector<Integer>) s.elements.clone();
+```
+
+#### Equals || == 
+|  | `equals()` | `==` |
+| ---- | ---- | ---- |
+| **Purpose** | Compares the **value** of Objects | Compares the reference of Objects |
+| **Overridden** | Typically overridden by classes | Not  |
+| **Comparison** | Allows for flexible comparison | Only checks if objects are the same object in memory.  |
+
+#### .elementAt() vs .get()
+| Feature | .elementAt() | .get() |
+| ---- | ---- | ---- |
+| Access type | Position-based | Value-based |
+| Collection type | Supports direct index access | Stores elements by value |
+| Example usage | Accessing an element by its index in an array or list  | Accessing an element with a specific valu in a Set or Map |
+
 
 ---
 - [x] **Procedural abstraction**
@@ -74,7 +105,7 @@ Scrivendo pre e post condizioni -> scrivere funzioni parziali
 - [x] **Exceptions**
 	- [x] Syntax
 	- [x] Advantages
-	- [x] Specification example
+	- [x] Specification example 
 	- [x] Throwing exceptions
 	- [x] Handling exceptions
 	- [ ] Exceptions as classes 
