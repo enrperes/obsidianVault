@@ -29,6 +29,7 @@ aliases:
 
 ## [[Abstract Data Types]]
 
+# [[Iterators]]
 ## [[Type Families]]
 
 ## [[Object Oriented Design]]
@@ -55,109 +56,110 @@ Scrivendo pre e post condizioni -> scrivere funzioni parziali
 this.elements = (Vector<Integer>) s.elements.clone();
 ```
 
-#### Equals || == 
+#### `Equals` || `==` 
 |  | `equals()` | `==` |
 | ---- | ---- | ---- |
 | **Purpose** | Compares the **value** of Objects | Compares the reference of Objects |
 | **Overridden** | Typically overridden by classes | Not  |
 | **Comparison** | Allows for flexible comparison | Only checks if objects are the same object in memory.  |
 
-#### .elementAt() vs .get()
+#### `.elementAt()` vs `.get()`
 | Feature | .elementAt() | .get() |
 | ---- | ---- | ---- |
 | Access type | Position-based | Value-based |
 | Collection type | Supports direct index access | Stores elements by value |
-| Example usage | Accessing an element by its index in an array or list  | Accessing an element with a specific valu in a Set or Map |
+| Example usage | Accessing an element by its index in an array or list | Accessing an element with a specific value in a Set or Map |
 
 
----
-- [x] **Procedural abstraction**
-	- [x] Decomposition
-	- [x] Parametrization
-	- [x] Specification
-	- [x] Data Abstraction
-	- [x] Categorization
-- [x] **Java ABC**
-	- [x] Style rules
-	- [x] syntax 
-		- [x] classes, variables, specification
-	- [x] Packages
-	- [x] Visibility 
-	- [x] Mutability
-	- [x] Objects
-	- [x] Method and calls
-- [x] **Types**
-	- [x] primitive types
-	- [x] Conversions
-	- [x] Autoboxing
-	- [x] Strings
-	- [x] Enumeration
-	- [x] Type checking 
-	- [x] Type Hierarchy 
-	- [x] Overloading 
-	- [x] Method dispatching
-- [x] **Specifications**
-	- [x] Procedure / function
-	- [x] Contract of a method 
-	- [x] Type abstraction
-	- [x] Abstraction benefits
-	- [x] Partial abstractions
-- [x] **Exceptions**
-	- [x] Syntax
-	- [x] Advantages
-	- [x] Specification example 
-	- [x] Throwing exceptions
-	- [x] Handling exceptions
-	- [ ] Exceptions as classes 
-	- [ ] Methods of exceptions
-	- [ ] Masking, reflecting
-- [x] **Assertions**
-	- [x] How to enable them
-	- [x] When to use / not to use
-	- [ ] Deal with preconditions 
-	- [x] Assertive programming as opposed to defensive programming 
-- [ ] **Abstract Data Types**
-	- [ ] `IntSet` example
-	- [x] Implementing an ADT 
-	- [x] cloning, equality: the issue
-	- [x] Specification of ADT
-	- [ ] The abstraction invariant 
-	- [x] The abstraction function
-- [ ] **Iterators** 
-	- [ ] `IntSet` example
-	- [ ] Defining, creating, implementing iterators
-	- [ ] Common problems
-- [ ] **Principio Liskov**
-	- [ ] Type hierarchy, inheritance 
-	- [ ] Liskov substitution principle
-	- [ ] Java type safety 
-	- [ ] Problems 
-	- [ ] Methods rule
-	- [ ] Properties rule
-	- [ ] Polymorphism 
-- [ ] **Dependency inversion** 
-	- [ ] Examples
-- [ ] **Interfaces** 
-- [ ] **Abstract classes**
-- [ ] **Anonymous classes**
-	- [ ] Functional programming 
-	- [ ] `lambda-example.pdf` 
-- [ ] **Generic Types**
-	- [ ] Generic classes
-	- [ ] Generic methods
-	- [ ] Type erasure
-	- [ ] Bounded generic types
-	- [ ] Subtyping  generic types
-	- [ ] Wildcards
-- [ ] **Object Oriented design**
-	- [ ] Design patterns
-		- [ ] Factory 
-		- [ ] Builder 
-		- [ ] Observer 
-		- [ ] Decorator
-		- [ ] Composite
-		- [ ] Bridge
-	- [ ] Responsibility
-	- [ ] Design principles
-	- [ ] **CRC** technique
-	- [ ] `design pattern example pdf`
+> [!info]- Index
+>
+> - [x] **Procedural abstraction**
+> 	- [x] Decomposition
+> 	- [x] Parametrization
+> 	- [x] Specification
+> 	- [x] Data Abstraction
+> 	- [x] Categorization
+> - [x] **Java ABC**
+> 	- [x] Style rules
+> 	- [x] syntax 
+> 		- [x] classes, variables, specification
+> 	- [x] Packages
+> 	- [x] Visibility 
+> 	- [x] Mutability
+> 	- [x] Objects
+> 	- [x] Method and calls
+> - [x] **Types**
+> 	- [x] primitive types
+> 	- [x] Conversions
+> 	- [x] Autoboxing
+> 	- [x] Strings
+> 	- [x] Enumeration
+> 	- [x] Type checking 
+> 	- [x] Type Hierarchy 
+> 	- [x] Overloading 
+> 	- [x] Method dispatching
+> - [x] **Specifications**
+> 	- [x] Procedure / function
+> 	- [x] Contract of a method 
+> 	- [x] Type abstraction
+> 	- [x] Abstraction benefits
+> 	- [x] Partial abstractions
+> - [x] **Exceptions**
+> 	- [x] Syntax
+> 	- [x] Advantages
+> 	- [x] Specification example 
+> 	- [x] Throwing exceptions
+> 	- [x] Handling exceptions
+> 	- [ ] Exceptions as classes 
+> 	- [ ] Methods of exceptions
+> 	- [ ] Masking, reflecting
+> - [x] **Assertions**
+> 	- [x] How to enable them
+> 	- [x] When to use / not to use
+> 	- [ ] Deal with preconditions 
+> 	- [x] Assertive programming as opposed to defensive programming 
+> - [ ] **Abstract Data Types**
+> 	- [ ] `IntSet` example
+> 	- [x] Implementing an ADT 
+> 	- [x] cloning, equality: the issue
+> 	- [x] Specification of ADT
+> 	- [ ] The abstraction invariant 
+> 	- [x] The abstraction function
+> - [ ] **Iterators** 
+> 	- [ ] `IntSet` example
+> 	- [ ] Defining, creating, implementing iterators
+> 	- [ ] Common problems
+> - [ ] **Principio Liskov**
+> 	- [ ] Type hierarchy, inheritance 
+> 	- [ ] Liskov substitution principle
+> 	- [ ] Java type safety 
+> 	- [ ] Problems 
+> 	- [ ] Methods rule
+> 	- [ ] Properties rule
+> 	- [ ] Polymorphism 
+> - [ ] **Dependency inversion** 
+> 	- [ ] Examples
+> - [ ] **Interfaces** 
+> - [ ] **Abstract classes**
+> - [ ] **Anonymous classes**
+> 	- [ ] Functional programming 
+> 	- [ ] `lambda-example.pdf` 
+> - [ ] **Generic Types**
+> 	- [ ] Generic classes
+> 	- [ ] Generic methods
+> 	- [ ] Type erasure
+> 	- [ ] Bounded generic types
+> 	- [ ] Subtyping  generic types
+> 	- [ ] Wildcards
+> - [ ] **Object Oriented design**
+> 	- [ ] Design patterns
+> 		- [ ] Factory 
+> 		- [ ] Builder 
+> 		- [ ] Observer 
+> 		- [ ] Decorator
+> 		- [ ] Composite
+> 		- [ ] Bridge
+> 	- [ ] Responsibility
+> 	- [ ] Design principles
+> 	- [ ] **CRC** technique
+> 	- [ ] `design pattern example pdf`

@@ -24,15 +24,18 @@
 	{trigger: "dm", replacement: "$$\n$0\n$$", options: "tAw"},
 	{trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
 
-    // Custom Snippets 
+    // Custom Math Snippets 
     {trigger: "big", replacement: "\\Large", options:"mA"},
     {trigger: "mono", replacement: "\\texttt{$0}", options: "mA"},
     {trigger: "hgli", replacement: "\\color{orange} $0", options: "mA"},
-    {trigger: "cal", replacement: "> [!attention]  **$0** \n > $1", options:"t"},
+    
+	// Custom Text Snippets
+	{trigger: "cal", replacement: "> [!attention]  **$0** \n > $1", options:"t"},
     {trigger: "h4", replacement: "#### $0", options: "tA"},
     {trigger: "h5", replacement: "##### $0", options: "tA"},
     {trigger: "h6", replacement: "###### $0", options: "tA"},
     {trigger: "h3", replacement: "### $0", options: "tA"},
+    {trigger: "oo", replacement: "`$0` $1", options: "tA"},
 
 	// Dashes
 	// {trigger: "--", replacement: "–", options: "tA"},

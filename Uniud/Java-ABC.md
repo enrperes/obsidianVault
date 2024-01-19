@@ -34,7 +34,7 @@ class MyClass extends MySuperClass implements YourInterface{
 > 	- Utilizzato per creare una relazione di ereditarietà tra le classi (sottoclassi)
 > 	- Le sottoclassi ereditano campi e metodi della classe parent. 
 > - `implements`
-> 	- Per dichiarare che una classe sta implementando un' [[interfaccia-java|interfaccia]]
+> 	- Per dichiarare che una classe sta implementando un' [[Interface|interfaccia]]
 > - `this`
 > 	- [[this-java]]
 
