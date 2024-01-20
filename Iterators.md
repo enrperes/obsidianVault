@@ -26,8 +26,16 @@ ResettableIntSetIterator it = s4.iterator();
 #### Defining Iterators
 
 ```java
-public class IntSetIterator implements Iterator<Integer>
+// MISSION is to provide an iterator over the elements of an IntSet. 
+public class IntSetIterator implements Iterator<Integer>{
+	/**
+	"elements" contains a copy of the elements of the IntSet when this iterator is created. The data that have yet to be visited are elements[current, ...].
+	**/
+	private int current;
+	final private Vector<Integer> elements;
+}
 ```
+Once the iterator is created, if the original set changes the iterator continues to work with the original copy. 
 
 `Iterator<Integer>` is an [[Interface]] that specifies:
 ```java
@@ -51,7 +59,7 @@ class IntSet...
 ```
 
 #### Using the iterator
-```java
+```java 
 // Print all items
 ResettableIntSetIterator it = s4.iterator();
 for (int i=0; it.hasNext(); i++){
@@ -77,4 +85,22 @@ for (int i=0; it.hasNext(); i++){
 	}
 }
 System.out.format("\n tot2= %d", tot2);
+```
+
+#### Implementing methods for the new class
+```java
+/**
+Initialize the iterator 
+with current index = 0 and store a copy of the elements. 
+@param s the source of data to initialize this iterator
+@throws NullPointerException if s is null
+**/
+
+ResettableIntSetIterator(IntSet s){
+	if (s == null){
+		throw new NullPointerException("s cannot be null");	
+	}
+	this.elements = (Vector<Integer>) s.elements.clone();
+	this.current = 0;
+}
 ```
