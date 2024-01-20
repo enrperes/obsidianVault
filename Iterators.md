@@ -18,7 +18,7 @@ IntSet s4;
 // list items of s4
 ResettableIntSetIterator it = s4.iterator();
 	for (int i=0; it.hasNext(); i++){
-		System.out.format("\ns4[%d]=%d", i, it.next());
+		System.out.format("\n s4[%d] = %d", i, it.next());
 	}
 ```
 
@@ -33,5 +33,48 @@ public class IntSetIterator implements Iterator<Integer>
 ```java
 public boolean hasNext()   // Are there more elements to iterate over?
 public Integer next()      // Moves the iterator to the next value and returns its *value*  
-public void remove()       //
+public void remove()       // Removes the element last returned by next()
+```
+(The contract for these methods is already defined by the interface)
+
+#### Creating Iterators
+```java
+class IntSet...
+
+	/** Create an iterator Object. 
+	@return an iterator over this set. The iterator is not sensible to mutations of this set. 
+	**/
+	public ResettableIntSetIterator iterator(){
+		assert (this.elements!=null);
+		return (new ResettableIntSetIterator(this));
+	}
+```
+
+#### Using the iterator
+```java
+// Print all items
+ResettableIntSetIterator it = s4.iterator();
+for (int i=0; it.hasNext(); i++){
+	System.out.format("\n s4[%d] = %d", i, it.next());
+}
+
+// compute the sum
+int tot = 0;
+it.reset();
+for (int i=0; it.hasNext(); i++){
+	tot = tot + it.next();
+}
+System.out.format("\n tot= %d", tot);
+
+// Compute the sum of x^2 for each x: x<k
+int tot2 = 0;
+int k = 10;
+it.reset();
+for (int i=0; it.hasNext(); i++){
+	Integer x = it.next();
+	if(x<k){
+		tot2 = tot2+x*x;
+	}
+}
+System.out.format("\n tot2= %d", tot2);
 ```

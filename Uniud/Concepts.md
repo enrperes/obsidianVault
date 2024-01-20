@@ -1,3 +1,7 @@
+> [!attention]  **Terminology** 
+ > Decomposition, Parametrization, Specification. Data Abstraction, Categorization, Packages, Visibility, Mutability, Objects, Methods, Calls, Types, Primitives, Conversions, Autoboxing, Strings, Enum, Type checking, Type Hierarchy, Overloading, Overriding, Method dispatching, Contracts, Type abstraction, Partial abstractions, Exceptions, Throw/Catch, Masking, Reflecting, Assertions, Preconditions, Abstract Data Types, Cloning, Equality, Iterators, Inheritance, Substitution, Type safety, Polymorphism, Dependency inversion, Interfaces, Abstract classes, Anonymous classes, Generic types, Generic methods, Type erasure, Bounded generic types, Subtyping, Wildcards, Factory, Builder, Observer, Decorator, Composite, Bridge, Responsibility, CRC, Design Patterns.  
+
+
 >[!info]-  **Automazione dei test**
 >> Processo per eseguire automaticamente una serie di test su software per verificane il corretto funzionamento. 
 >
