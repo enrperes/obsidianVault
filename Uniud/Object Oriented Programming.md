@@ -125,10 +125,10 @@ this.elements = (Vector<Integer>) s.elements.clone();
 > 	- [x] Specification of ADT
 > 	- [ ] The abstraction invariant 
 > 	- [x] The abstraction function
-> - [ ] **Iterators** 
-> 	- [ ] `IntSet` example
-> 	- [ ] Defining, creating, implementing iterators
-> 	- [ ] Common problems
+> - [x] **Iterators** 
+> 	- [x] `IntSet` example
+> 	- [x] Defining, creating, implementing iterators
+> 	- [x] Common problems
 > - [ ] **Principio Liskov**
 > 	- [ ] Type hierarchy, inheritance 
 > 	- [ ] Liskov substitution principle
@@ -139,7 +139,7 @@ this.elements = (Vector<Integer>) s.elements.clone();
 > 	- [ ] Polymorphism 
 > - [ ] **Dependency inversion** 
 > 	- [ ] Examples
-> - [ ] **Interfaces** 
+> - [x] **Interfaces** 
 > - [ ] **Abstract classes**
 > - [ ] **Anonymous classes**
 > 	- [ ] Functional programming 

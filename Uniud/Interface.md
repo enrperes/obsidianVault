@@ -1,7 +1,14 @@
+> Template that defines a set of methods that a class must implement. It describes the behavior of a class without specifying *how* that is implemented. 
+
+---
+
 Un'interfaccia in a java è una collezione di metodi astratti senza implementazione. Quando una classe implementa un'interfaccia, deve fornire l'implementazione per tutti i metodi dichiarati nell'interfaccia. Esempio: 
 
-
 ```java
+
+// esempio discutibile, da rivedere
+
+
 interface Drawable{
 	void draw();
 }
