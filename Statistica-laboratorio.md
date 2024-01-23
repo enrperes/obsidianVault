@@ -1,48 +1,33 @@
-```r
-groups = cut(data, breaks = breaks, ordered_result = TRUE, right = TRUE)     # raggruppa dati in base a 'breaks'
-abs_freq = table(groups)                                                     # frequenza assoluta
-rel_freq = prop.table(count)                                                 # frequenza relativa
-cum_abs_freq = cumsum(abs_freq)                                              # frequenza assoluta cumulata
-cum_rel_freq = cumsum(rel_freq)                                              # frequenza relativa cumulata
-```
-
+[[Labotatorio_lezione]]
 
 ---
-## ES 1.2 - Qualitative
 
-![[Pasted image 20231020105320.png|400]]
+# Riassunto 
+ 
+`summary(data)`
+
+Tabella frequenze relative di diametro per macchinario: 
 ```r
-# absolute frequency
-abs_freq_PESTICIDA = table(pesticide)
-# relative frequency
-rel_freq_PESTICIDA = prop.table(abs_freq_PESTICIDA)
-# cumulative frequency
-cum_freq_PESTICIDA = cumsum(abs_freq_PESTICIDA)
-cum_rel_freq_PESTICIDA = cumsum(rel_freq_PESTICIDA)
-
-#print results
-print("Absolute frequency")
-print(abs_freq_PESTICIDA)
-print("Relative frequency")
-print(rel_freq_PESTICIDA)
-print("Cumulative frequency")
-print(cum_freq_PESTICIDA)
-print("Cumulative relative frequency")
-print(cum_rel_freq_PESTICIDA)
+req.rel = freq.ass/apply(freq.ass, 1, sum)
+barplot(freq.rel, beside=T, names.arg=c("fine", "ok", "spesso"), legend.text = c("M1", "M2", "M3"), cex.axis=2, cex.names=2)
 ```
-### Plots
-```r
-# barplot ordered by relative frequency
-barplot(rel_freq_PESTICIDA[order(rel_freq_PESTICIDA)], main="Relative frequency", xlab="pesticida", ylab="Relative frequency")
-# pie chart
-pie(rel_freq_PESTICIDA, main="Relative frequency")
-```
-![[Pasted image 20231020110844.png|500]]
-
-## ES 1.4 - Qualitative
-[...] file rmd 
 
 ---
-La funzione `sd` (standard deviation) usa $n-1$ al posto di $n$ nella funzione: $$\Large \sigma = \sqrt  {\sigma^2} = \sqrt{\frac 1 n\sum_{i=1}^n (X_i-x)^2}$$ Quindi può variare un po'
 
-20 ottobre 12:15 registrazione :D
+1. **Skewness:**
+    
+    - Skewness measures the asymmetry of a distribution. In a symmetrical distribution, the mean, median, and mode are all equal, and the skewness is close to zero.
+    - A positive skewness indicates that the distribution has a longer right tail, meaning that the right side of the distribution is stretched out more than the left.
+    - Conversely, a negative skewness indicates a longer left tail, implying that the left side of the distribution is stretched out more than the right.
+2. **Kurtosis:**
+    
+    - Kurtosis measures the "tailedness" of a distribution. It describes the distribution's tail extremeness or the degree of outliers.
+    - A high kurtosis value indicates a distribution with heavy tails and a peak that is sharper and narrower than a normal distribution. This is called leptokurtic.
+    - Low kurtosis indicates light tails and a flatter, more spread-out peak than a normal distribution. This is called platykurtic.
+    - A normal distribution has a kurtosis of 3. A distribution with kurtosis less than 3 is called platykurtic, and a distribution with kurtosis greater than 3 is called leptokurtic.
+
+* Si studi la relazione tra le due variabili.
+```r
+cor(Peso_corporeo,Peso_cervello)
+plot(log(Peso_corporeo),log(Peso_cervello))
+```
