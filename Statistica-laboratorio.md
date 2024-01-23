@@ -31,3 +31,21 @@ barplot(freq.rel, beside=T, names.arg=c("fine", "ok", "spesso"), legend.text = c
 cor(Peso_corporeo,Peso_cervello)
 plot(log(Peso_corporeo),log(Peso_cervello))
 ```
+
+---
+Per: 
+- Analisi delle variabili 
+- Studio della relazione tra le due variabili 
+- interpretazione dei risultati
+Si usa: 
+- `summary` 
+- `skewness()` 
+- `kurtosis()` 
+- `par()`
+- `qqnorm()` 
+- `qqline()` 
+- `mod = lm()` 
+- `summary(mod)` 
+- `abline()` 
+Per: 
+	
