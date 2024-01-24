@@ -129,14 +129,14 @@ this.elements = (Vector<Integer>) s.elements.clone();
 > 	- [x] `IntSet` example
 > 	- [x] Defining, creating, implementing iterators
 > 	- [x] Common problems
-> - [ ] **Principio Liskov**
-> 	- [ ] Type hierarchy, inheritance 
-> 	- [ ] Liskov substitution principle
-> 	- [ ] Java type safety 
-> 	- [ ] Problems 
-> 	- [ ] Methods rule
-> 	- [ ] Properties rule
-> 	- [ ] Polymorphism 
+> - [x] **Principio Liskov**
+> 	- [x] Type hierarchy, inheritance 
+> 	- [x] Liskov substitution principle
+> 	- [x] Java type safety 
+> 	- [x] Problems 
+> 	- [x] Methods rule
+> 	- [x] Properties rule
+> 	- [x] Polymorphism 
 > - [ ] **Dependency inversion** 
 > 	- [ ] Examples
 > - [x] **Interfaces** 
