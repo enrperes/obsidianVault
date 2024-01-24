@@ -30,7 +30,7 @@ Objects of subclasses should behave the same way as objects of superclasses.
 High level modules should not depend on low-level modules. Both should depend on abstractions. 
 Abstraction should not depend on details. Details should depend on abstractions. 
 
-> [!Attention]- Wiki
+> [!Attention]- Da Wiki
 > When following this principle, the conventional [dependency](https://en.wikipedia.org/wiki/Dependency_(computer_science) "Dependency (computer science)") relationships established from high-level, policy-setting modules to low-level, dependency modules are reversed, thus rendering high-level modules independent of the low-level module implementation details. The principle states:
 > 
 > 1. High-level modules should not import anything from low-level modules. Both should depend on abstractions (e.g., interfaces).
@@ -45,8 +45,18 @@ Abstraction should not depend on details. Details should depend on abstractions.
 > When the discovered abstract interaction schema(s) between two modules is/are generic and the generalization makes sense, this design principle also leads to the following dependency inversion coding pattern.
 > 
 
+> [!example]  **Simple(er) explaination** 
+ > 	In traditional OOP thinking, high level modules (containing business logic) depend on low level modules (containing implementation details). This creates tight coupling between high and low level modules. Changes in low level modules may impact high level modules, making the system less flexible and harder to maintain. 
+ >
+ > Now with DIP, instead of HL modules depending on LL modules, we introduce an abstraction (which can be an interface or abstract class) that both HL and LL modules depend on. In doing this the control of the flow is inverted. HL modules depend on abstractions, LL modules implement those abstractions. 
+ > Allows for flexibility and decoupling. 
+ > [[DIP-Example]]
+ >
+ > *Business logic* -> RegistrazioneAppello
+ > *Dominio* -> Appello, Docente, Corso, Studente. (boh)
 
-
+ 
+ 
 
 
 ---

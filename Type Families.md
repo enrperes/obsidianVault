@@ -65,4 +65,5 @@ Objects and Methods can be polymorphic:
 
 # Dependency inversion 
 
-[[SOLID programming]]
+[[SOLID programming#Dependency Inversion Principle (DIP)]]
+
