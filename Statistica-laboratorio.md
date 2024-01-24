@@ -48,4 +48,9 @@ Si usa:
 - `summary(mod)` 
 - `abline()` 
 Per: 
-	
+	campione popolazione
+si usa: 
+```r
+	camp_size = 1000
+	campione <- sample(popolazione, size = camp_size)
+```
