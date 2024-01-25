@@ -28,7 +28,10 @@ class DatabaseConnector {
     }
 }
 ```
-The high level module (`ReportGenerator`) depends on a lower level module
+
+> [!attention] \
+> The high level module (`ReportGenerator`) depends on a lower level module so it's difficult to reuse
+
 
 ####  Dependency Inversion 
 ```java
@@ -66,8 +69,13 @@ Here the abstraction (`DataFetcher`) has a method; serves as an abstraction that
 
 by introducing the abstraction, the code decouples the high level module from the specifics of the low level module. So we can easily replace `DatabaseConnector` with a different class that implements `DataFetcher` without needing to modify `ReportGenerator`. 
 
+> [!attention]  **** 
+ > 
+
 > [!done]  **Advantages** 
  > Flexibility
  > Maintainability
  > Testability
  > G00d object oriented design   
+ 
+ 

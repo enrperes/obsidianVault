@@ -50,7 +50,7 @@ Abstraction should not depend on details. Details should depend on abstractions.
  >
  > Now with DIP, instead of HL modules depending on LL modules, we introduce an abstraction (which can be an interface or abstract class) that both HL and LL modules depend on. In doing this the control of the flow is inverted. HL modules depend on abstractions, LL modules implement those abstractions. 
  > Allows for flexibility and decoupling. 
- > [[DIP-Example]]
+ > [[DIP-Example]] and [[DIP-Example-simple]]
  >
  > *Business logic* -> RegistrazioneAppello
  > *Dominio* -> Appello, Docente, Corso, Studente. (boh)
