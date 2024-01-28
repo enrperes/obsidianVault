@@ -16,6 +16,7 @@ public class Restaurant {
 ```
 
 This code lacks flexibility: it directly instantiates *specific* burgers types within the `orderBurger` method. 
+
 To enhance flexibility we can create a `BurgerFactory` interface and implement it for each specific type of burger: 
 
 ```java
@@ -25,7 +26,7 @@ public abstract class Restaurant {
 		burger.prepare()
 		return burger;
 	}
-	public abstract Burger createBurger();
+	public abstract Burger createBurger(); // 
 }
 ```
 

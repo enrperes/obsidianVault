@@ -29,16 +29,33 @@ aliases:
 
 ## [[Abstract Data Types]]
 
-# [[Iterators]]
+## [[Iterators]]
 ## [[Type Families]]
 
-## [[Object Oriented Design]]
+## [[Object Oriented Design| OO Design and Design Patterns]]
+
 
 ## Notes
 Scrivendo pre e post condizioni -> scrivere funzioni parziali 
 
 `List<Map<String, Integer>> var` -> `var` Lista di mappe con Integer e String  (esempio: elenco nomi studenti e voti ottenuti)
 `List <VotiCorso> var` è un tipo di dato astratto con classe `VotiCorso`. Fa la stessa cosa ma nel primo caso manipolando `var` è chiaro come è fatto il tipo di dato. Nel secondo caso si può non conoscere l'implementazione di `VotiCorso`
+
+- **Setters**
+	- Setter methods are used to **set** the value of the attributes. Each setter returns the builder instance `this` to allow method chaining. 
+```java
+	public Builder setName(String name){
+		person.name = name;
+		return this;
+	}
+```
+- **Getters**
+	- Getter methods are used to **retrieve** the values of attributes. They allow external code to access the values of private fields indirectly
+```java
+	public String getName(){
+		return name;	
+	}
+```
 
 
 #### `Int[]` vs `Vector<Integer>`

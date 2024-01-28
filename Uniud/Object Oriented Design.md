@@ -1,11 +1,5 @@
-# Design Patterns
+# [[Design Patterns]]
 
-- [[Factory method example | Factory and Abstract Factory Method]]
-- Builder
-- [[Observer]]
-- Decorator
-- Composite
-- Bridge
 
 ## Creational Design Patterns
 Provide various object creation mechanisms, which increase flexibility and reuse of existing code. 
