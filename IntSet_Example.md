@@ -49,7 +49,7 @@ public class IntSet {
 			throw new NullPointerException("elts should not be a null");
 		}
 		this.elements = new Vector<Integer>(); //initialize elements field to a new ampty Vector of Integer. 
-		for (int x:elts){ // iterate throug elts array
+		for (int x:elts){ // iterate through elts array
 			Integer y = new Integer(x); 
 			if (!this.elements.contains(y)){
 				this.elements.addElement(y);

@@ -5,17 +5,15 @@
 ## [[Esercizi-ASD]]
 ---
 
+# [[Ordinamento]]
+
+
 # Modello di calcolo 
 Per: 
 - **Valutare la complessità**
 	- Tempo
 	- Spazio
 - **Dimostrare la correttezza**
-
-## Ordinamento 
-
-### [[insertion-sort|Insertion Sort]] 
-## [[Merge Sort]]
 
 # Strutture dati 
 ## Array 
@@ -28,7 +26,6 @@ Per:
 		- `A[5...1]` = insieme vuoto 
 	- Accesso diretto 
 		- Costo di accesso costante: $\Large \Theta (1)$, non dipende dall'indice del vettore. 
-
 ---
 
 # Complessità 

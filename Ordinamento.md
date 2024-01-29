@@ -1,0 +1,7 @@
+## [[insertion-sort|Insertion Sort]] 
+## [[Merge Sort]]
+## [[Heap sort]]
+## [[Quick Sort]]
+## [[Counting Sort]]
+## [[Radix Sort]]
+## [[Bucket Sort]]

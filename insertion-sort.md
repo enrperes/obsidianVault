@@ -1,4 +1,7 @@
-![[insertion-sort.gif]]
+![[insertion-sort.gif|200]]
+
+**Input:** una sequenza di n numeri $a_{1}\dots a_{n}$
+**Output:** una permutazione dell'input tale che $a_{1}<a_{2}<\dots<a_{n}$
 
 > L'array viene diviso in due parti, di cui una è ordinata. 
 > 1. Si parte dall'elemento con indice 2, da inserire nella parte ordinata. `key`
