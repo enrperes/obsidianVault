@@ -4,9 +4,9 @@
 **Output:** una permutazione dell'input tale che $a_{1}<a_{2}<\dots<a_{n}$
 
 > L'array viene diviso in due parti, di cui una è ordinata. 
-> 1. Si parte dall'elemento con indice 2, da inserire nella parte ordinata. `key`
-> 2. Si confronta con gli elementi della parte ordinata, partendo dall'ultimo
-> 3. Quando `key` è minore di un elemento della parte ordinata, viene spostato a destra. 
+> 1. Si parte dall'elemento con indice 2 (`key`), da inserire nella parte ordinata.
+> 2. Si confronta con gli elementi della parte ordinata, partendo dall'ultimo elemento della parte ordinata.
+> 3. Quando `key` è **minore** di un elemento della parte ordinata, viene spostato a destra. 
 > 4. Si ripete con l'elemento successivo nella parte non ordinata, fino alla fine. 
 
 ```java
@@ -51,9 +51,10 @@ Quindi per le tre istruzioni dentro al while, la complessità si calcola con:
 - $\Large 2c \sum_{i=2}^{n}(t_1 -1)$
 
 Sommando tutto e semplificando, si ottiene: 
-$$\Large -2c + 4cn +7c (\frac{n + (n+1)}{2}) = \Theta(n^2)$$ (quadratica)
+$$T(n) = \Large -2c + 4cn +7c (\frac{n + (n+1)}{2}) = \Theta(n^2)$$ (quadratica)
 
 Questo vale **solo** per il caso peggiore, in cui $\Large t_1$ vale i (lista ordinata al contrario)
-Per il caso **migliore** (quando $\Large t_1 = 1$ e quando la lista +è già ordinata) si ottiene $\LARGE \Theta (n)$ (linare)
+Per il caso **migliore** (quando $\Large t_1 = 1$ e quando la lista +è già ordinata) si ottiene $\LARGE \Theta (n)$ (lineare)
 
 ## Verifica correttezza
+(File ASD-es pag 9)
