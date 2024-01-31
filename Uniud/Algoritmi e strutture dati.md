@@ -1,3 +1,9 @@
+---
+aliases:
+  - ASD
+  - Algoritmi
+  - Strutture dati
+---
 
 ## [[Algoritmi e strutture dati-info]]
 
@@ -31,7 +37,11 @@ Per:
 # Complessità 
 
 ### Spazio 
-Non viene considerato l'input. 
+Per determinare se in place o meno, 
+##### In Place
+Se l'algoritmo opera direttamente sui dati di input senza richiedere memoria significativa aggiuntiva. Spazio costante rispetto all'input
+##### Non in Place
+Spazio allocato cresce al crescere dell'input. Ad esempio Merge sort non è in place perchè usa due array ausiliari, ciascuno di dimensione $\frac{n}{2}$. 
 
 $\Huge \Theta$ rappresenta una notazione asintotica, definisce un limite stretto superiore e inferiore per il comportamento di un algoritmo in termini del suo input. 
 ### Tempo 
@@ -49,8 +59,16 @@ Il costo di ogni operazione di base è $\Large c$ **indipendentemente** dalla gr
 = *Modello di calcolo con criterio di costo uniforme*
 
 # Correttezza
-[...]
+#### Invariante ciclo for 
+1. Inizializzazione
+	1. L'invariante è vera prima di iniziare il ciclo
+2. Conservazione
+	1. Se l'invariante è vera prima, rimane vera prima della successiva iterazione
+3. Terminazione
+	1. Quanto il ciclo termina, l'invariante prova che l'algoritmo è corretto
 
+> [!example]  **Esempio Insertion Sort** 
+ > ![[insertion-sort#Verifica correttezza]]
 ---
 
 ## Divide et impera
@@ -59,6 +77,11 @@ Il costo di ogni operazione di base è $\Large c$ **indipendentemente** dalla gr
 - Risolvere i sottoproblemi
 - Ricomporre le soluzioni 
 -> Spesso il modo più semplice per applicare questo metodo è la ricorsione 
+
+### Top down vs Bottom up approach
+1. Top-Down 
+	- Start by defining the overall problem at a high level and then break it down into smaller tasks. 
+1. Bottom-Up
 
 # Merge Sort
 # Notazione asintotica

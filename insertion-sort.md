@@ -57,4 +57,16 @@ Questo vale **solo** per il caso peggiore, in cui $\Large t_1$ vale i (lista ord
 Per il caso **migliore** (quando $\Large t_1 = 1$ e quando la lista +è già ordinata) si ottiene $\LARGE \Theta (n)$ (lineare)
 
 ## Verifica correttezza
+
+- Inizializzazione:
+	- inizialmente, $i=2$. Il subarray dato da $A[1\dots i-1]$ è quindi formato da un elemento, ed è ordinato. 
+- Conservazione:
+	- (dimostrazione informale, in quanto una formale richiederebbe la definizione di invariante per il ciclo while)
+	- Sappiamo che il subarray $A[1\dots i-1]$ è ordinato. 
+	- Il ciclo while sposta tutti gli elementi maggiori di $A[j]$ fino a una posizione $key$ di una posizione verso destra, preservandone l'ordine e duplicando il valore in posizione $key$. 
+	- Tutti i valori precedenti a $key$ sono quindi maggiori di $A[j]$ e ordinati. 
+	- Inserendo $A[j]$ in posizione $key$ l'invariante viene dimostrata. 
+- Terminazione:
+		- Alla fine del ciclo, quando $i = n+1$, l'invariante dice che l'intero array $A[1\dots j-1] = A[1\dots n]$ è ordinato.  
+
 (File ASD-es pag 9)
