@@ -83,12 +83,7 @@ Il costo di ogni operazione di base è $\Large c$ **indipendentemente** dalla gr
 	- Start by defining the overall problem at a high level and then break it down into smaller tasks. 
 1. Bottom-Up
 
-# Merge Sort
-# Notazione asintotica
 
-# Equazioni ricorsive di complessità 
-
-[[Quick Sort]]
 
 
 ---
