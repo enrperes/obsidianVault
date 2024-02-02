@@ -11,7 +11,6 @@
 		{"type":"text","text":"21/30","id":"821ee47c893412d0","x":-3602,"y":580,"width":96,"height":50,"color":"2"},
 		{"type":"text","text":"20/30\n","id":"9048e6e5f70b7cde","x":-2251,"y":-558,"width":98,"height":50,"color":"2"},
 		{"type":"file","file":"Uniud/Esami-1.md","id":"e638b91834350ba4","x":-1680,"y":-1536,"width":771,"height":821},
-		{"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/","id":"45d8a930b7266f0c","x":-780,"y":-1472,"width":597,"height":693},
 		{"type":"text","text":"## 4 parziali\n","id":"421aed98a1b9155c","x":-3149,"y":-310,"width":187,"height":67,"color":"#1c691b"},
 		{"type":"text","text":"**Risorse**","id":"b51ca102977cf720","x":-3300,"y":-310,"width":112,"height":50,"color":"6"},
 		{"type":"text","text":"### Divisibilità \n- Divisibilità tra naturali \n- Combinazioni lineari\n- MCD\n\t- Fattorizzazione \n\t- Euclide\n\t\t- Teorema\n\t\t- Algoritmo\n\t- Identità di Bezout\n- Congruenze mod $\\Large n$\n- Operazioni mod $\\Large n$\n- Opposti e inversi mod $\\Large n$\n### RSA\n- chiavi\n- Funzione di Eulero $\\Large \\phi(n)$\n- Correttezza RSA\n  \n\n\n\n","id":"f0cd45469cb7a98b","x":-2475,"y":40,"width":322,"height":515},
@@ -42,7 +41,8 @@
 		{"type":"file","file":"Scheme_Primo_semestre.md","id":"45f5aa9e1e257ec3","x":-1202,"y":580,"width":535,"height":609,"color":"6"},
 		{"type":"link","url":"http://users.dimi.uniud.it/~claudio.mirolo/teaching/programmazione/","id":"2840e0536abdf66f","x":-601,"y":-531,"width":550,"height":400},
 		{"type":"text","text":"## Esame orale\n#todo \n","id":"f87dad5c92acb7a6","x":-101,"y":417,"width":230,"height":131,"color":"3"},
-		{"id":"0cf0074e57098ccd","x":-3836,"y":-1908,"width":250,"height":60,"type":"text","text":"# Analisi "}
+		{"id":"0cf0074e57098ccd","type":"text","text":"# Analisi ","x":-3836,"y":-1908,"width":250,"height":60},
+		{"type":"link","url":"https://www.dmif.uniud.it/triennale/ibml/piano-di-studio/","id":"45d8a930b7266f0c","x":-359,"y":-2520,"width":616,"height":1805}
 	],
 	"edges":[
 		{"id":"207c83431ce9838c","fromNode":"421aed98a1b9155c","fromSide":"bottom","toNode":"99576eb50bf6dcd2","toSide":"top"},
