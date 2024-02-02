@@ -63,3 +63,20 @@ background-color: var(--text-accent-hover);
 /* change main background color (app only, I think) */
 body.obsidian-app {--background-primary: #1b1b1e;}
 ```
+
+```css
+/* Invert image color based on theme */
+/* Use sintax: ![[img.png#invert|300]]*/
+
+.theme-dark div[src$="#invert"] img,
+.theme-dark span[src$="#invert"] img {
+  filter: invert(1) hue-rotate(180deg);
+  mix-blend-mode: screen; }
+
+.theme-dark div[src$="#invert"] {
+  background-color: var(--background-primary); }
+
+.theme-light div[src$="#invertW"] img,
+.theme-light span[src$="invertW"] img {
+  filter: invert(1) hue-rotate(180deg); }
+```

@@ -1,2 +1,2 @@
 Ricorsivo
-![[Pasted image 20240202113704.png]]
+![[Pasted image 20240202113704.png#invert|300]]
