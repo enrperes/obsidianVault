@@ -32,10 +32,10 @@ Defensive programming relies on Error Handling. Three main ways:
 # Extend the function
 (don't use, not safe) 
 
-# [[Java-Exceptions]]
+# [[Exceptions]]
 
 
-# [[Java-Assertions]]
+# [[Assertions]]
 
 
 ## Exceptions vs Assertions 

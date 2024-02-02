@@ -23,9 +23,9 @@ aliases:
 
 ## [[Java-ABC]]
 
-## [[Java-Exceptions]]
+## [[Exceptions]]
 
-## [[Java-Assertions]]
+## [[Assertions]]
 
 ## [[Abstract Data Types]]
 

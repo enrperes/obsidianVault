@@ -1,5 +1,5 @@
 Ricorsivo 
-![[Pasted image 20240202113704.png#invert|300]]
+![[Pasted image 20240202113704.png#invert|400]]
 Fino ad arrivare a vettori da un elemento. 
 Per unire i due subarray ordinati si usa la procedura `merge(A, p, r, q)`. 
 Vengono effettuati circa n confronti, quindi la complessità di merge è $\Large \Theta(n)$. L'idea di merge si basa su: 
