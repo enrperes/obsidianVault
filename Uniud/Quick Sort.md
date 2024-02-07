@@ -1,4 +1,5 @@
 Divide and conquer sorting algorithm with complexity of $\Large O(n\log n)$, so highly efficient. 
+![[Pasted image 20240207123002.png#invert|300]]
 > [!example] Divide
 > Partitioning the array `a[p:r]` into two sub arrays `a[p, q-1]` and `a[q+1, r]` such that each element in the low side is **less than or equal to** the *pivot* `a[q]`, which is $\large \leq$ than each element in the high side. 
 
