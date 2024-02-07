@@ -1,7 +1,7 @@
 
 # $\Huge\LaTeX$
 
-
+[[LaTeX-test]]
 
 $$
 c = \frac{f(a+h) - f(a)}{h} - \frac{r(h)}{h}\\ \Rightarrow \\
