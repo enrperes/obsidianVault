@@ -86,3 +86,6 @@ Con heapify iterativo è **in-place**.
 
 Invariante ciclo for (sapendo che buildHeap è corretto): 
 - All'inizio dell'i-esima iterazione del ciclo for: 
+- ![[Pasted image 20240207120241.png]]
+- test
+- 
