@@ -86,7 +86,10 @@ Con heapify iterativo è **in-place**.
 
 Invariante ciclo for (sapendo che buildHeap è corretto): 
 - All'inizio dell'i-esima iterazione del ciclo for: 
-- ![[Pasted image 20240207120241.png]]
-- test
-
-![[Pasted image 20240207120512.png]]
+- ![[Pasted image 20240207120241.png#invert|300]]
+- Quindi la parte a sinistra è una heap, a destra c'è il vettore ordinato. 
+- Dimostrazione per induzione in i: 
+- BASE: 
+	- i = A.length --> Vero, per correttezza di buildHeadp
+- PASSO: 
+	- ![[Pasted image 20240207120512.png#invert|200]] X è in prima posizione quindi è il più grande degli elementi a sinistra di HeapSize. X e Y vengono scambiati, quindi viene chiamato MaxHeapify per ripristinare la Heap property. 
