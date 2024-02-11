@@ -77,6 +77,7 @@ HeapSort(A){
 $$
 \Large O(n \log n)
 $$
+[[Dimostrazione-complessità-HeapSort|Dimostrazione...]]
 Come heapify. 
 Con heapify iterativo è **in-place**. 
 **non stabile**: elementi ripetuti non mantengono lo stesso ordine di partenza. 

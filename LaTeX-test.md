@@ -6,3 +6,4 @@ $$
 \vdash_{M} [r,\textvisiblespace\: \textvisiblespace\dots, 2]
 \end{align}
 $$
+
