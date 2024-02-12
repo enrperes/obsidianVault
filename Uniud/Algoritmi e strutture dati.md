@@ -12,7 +12,7 @@ aliases:
 ---
 
 # [[Ordinamento]]
-
+[[Algoritmi da sapere]]
 
 # Modello di calcolo 
 Per: 
