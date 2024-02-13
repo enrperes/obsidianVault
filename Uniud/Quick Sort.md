@@ -36,7 +36,8 @@ Partitioning
 > 	return i + 1                 // New index of the pivot 
 > }
 > ```
-> 
+
+
 
 ### Complessità 
 - Caso peggiore: $\Large \Theta(n^2)$, con $m = 0$
