@@ -48,6 +48,7 @@ public void remove()       // Removes the element last returned by next()
 (The contract for these methods is already defined by the interface)
 
 #### Creating Iterators
+
 ```java
 class IntSet...
 
@@ -61,6 +62,7 @@ class IntSet...
 ```
 
 #### Using the iterator
+
 ```java
 // Print all items
 ResettableIntSetIterator it = s4.iterator();
@@ -90,6 +92,7 @@ System.out.format("\n tot2= %d", tot2);
 ```
 
 #### Implementing methods for the new class
+
 ```java
 /**
 Initialize the iterator with current index = 0 

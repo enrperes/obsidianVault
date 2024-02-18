@@ -50,12 +50,14 @@ Select(A, p, q){
 
 # Complessità
 
+
+
+
 $$
-\begin{align*}
     f_{X}(x; x_{1}, \dots, x_{n})=\left\{
     \begin{array}{rrr}
      \frac{1}{n} & \text{se} & x=x_{1}, \dots, x_{n}\\ \\
      0 & &\text{altrimenti}\\
     \end{array}\right.
-\end{align*}
 $$
+ 
