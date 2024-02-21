@@ -115,7 +115,7 @@ In Scheme i numeri possono essere Interi, Razionali, Double, Complessi, Costanti
 
 
 ----
-#todo 
+#todo
 ## 2022-10-21 8:30
 
 [[50DED43C-55D1-4D7C-B703-7955B62D2BD8.jpeg|codice 20221021]]

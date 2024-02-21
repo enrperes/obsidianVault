@@ -1,3 +1,7 @@
+---
+title: Selection Algorithm
+author: Enrico
+---
 > Dato un vettore A trova l'elemento che finirebbe in posizione i-esima se A fosse ordinato 
 
 Ordinando il vettore la complessità sarebbe $\Large \Omega(n \log n)$

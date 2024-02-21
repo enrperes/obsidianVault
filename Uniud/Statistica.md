@@ -1,3 +1,7 @@
+---
+tags:
+  - materia
+---
 ##### [[Statistica-info]]
 
 ### [[Statistica - riassunto primo parziale]]

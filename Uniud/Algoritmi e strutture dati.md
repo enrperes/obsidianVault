@@ -3,6 +3,8 @@ aliases:
   - ASD
   - Algoritmi
   - Strutture dati
+tags:
+  - materia
 ---
 
 ## [[Algoritmi e strutture dati-info]]

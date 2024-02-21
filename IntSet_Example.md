@@ -1,3 +1,8 @@
+---
+listings-no-page-break: "false"
+title: IntSet Example
+titlepage: "true"
+---
 ### Breakdown: 
 - `public IntSet()` constructor that creates an empty set
 - `public IntSet(int[] elts)` constructor that creates an IntSet from an array of integers, elts. 

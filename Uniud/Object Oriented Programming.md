@@ -4,6 +4,8 @@ aliases:
   - OOP
   - Programmazione
   - Oggetti
+tags:
+  - materia
 ---
 [[OOP-info]]
 [[IntelliJ info]]
