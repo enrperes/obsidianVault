@@ -1,3 +1,9 @@
+---
+title: Modelli Statistici
+author: Enrico
+titlepage: "true"
+toc-own-page: "true"
+---
 # Modello uniforme discreto 
 
 > Descrive esperimenti con numero finito di esiti equiprobabili

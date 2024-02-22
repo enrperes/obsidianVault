@@ -5,7 +5,7 @@ tags:
 ##### [[Statistica-info]]
 
 ### [[Statistica - riassunto primo parziale]]
-### [[Statistica - modelli]]
+### [[Statistica-modelli]]
 
 # [[Statistica inferenziale in R]]
 # [[Definizioni principali 3 parziale]]
