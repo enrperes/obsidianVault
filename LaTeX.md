@@ -34,6 +34,7 @@ Arrows
  $$\Huge \color{green}\LaTeX $$
  $$\Huge \color{red}\LaTeX $$
  $$\Huge \color{blue}\LaTeX $$
+ $$\Huge \color{midnightblue}\LaTeX $$
  $$\Huge \color{cyan}\LaTeX $$
  $$\Huge \color{lime}\LaTeX $$
  $$\Huge \color{teal}\LaTeX $$
