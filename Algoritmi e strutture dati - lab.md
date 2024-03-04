@@ -27,7 +27,7 @@
 	- [ ] Per k volte: 
 		- [ ] Estrarre il minimo dalla heap ausiliaria
 		- [ ] Introdurre nuovi elementi, ovvero i figli della heap 
-- [ ] 16
+- [ ] [[Esercizio-16-ASD|16]]
 - [ ] 17
 - [ ] 18
 ---
