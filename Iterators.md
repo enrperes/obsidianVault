@@ -1,3 +1,7 @@
+---
+title: Iterators
+date:
+---
 Related: [[Ex-poly-iterator]], [[Ex-iterator-IntSet]]
 
 > [!bug]  **The problem** 
