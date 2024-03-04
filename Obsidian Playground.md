@@ -4,6 +4,8 @@ S#risorsa
 # [[HOME]]
 # [[CSS-snippets-tests|CSS Obsidian Snippets]]
 # [[LaTeX]]
+# [[Tables]]
+
 [[testpage1]]
 
 FOOTNOTE [^1]
