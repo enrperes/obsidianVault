@@ -264,9 +264,15 @@ Definisce la struttura dei messaggi e la modalità di comunicazione tra Client e
 - Classificato come **Stateless protocol**: senza memoria di stato.
 	- Invia i file al client senza informazioni sul client. 
 
+Composta da due parti: 
+1. Header
+	- Priam riga: metodo (GET, HEAD, POST...), l'url cui si riferisce la richiesta e la versione del protocollo utilizzata
+	- 
+2. Body
+	- 
 
 #### Formato messaggi HTTP
-
+##### Richiesta
 - Riga di richiesta
 	- Campo Metodo
 		- GET (browser richiede un oggetto)
@@ -288,7 +294,18 @@ User-agent: Mozilla/5.0
 Accept-language: en 
 ```
 
+#####  Risposta
 Formato messaggi HTTP di *risposta*
+
+- Struttura identica alla richiesta: 
+- Header
+	- Codice di esito (3 cifre)
+		- 2XX = successo
+		- 4XX = errore 
+	- Altri metadati da server a client
+- Body
+	- La risorsa richiesta, in caso di successo 
+
 ```HTTP
 HTTP/1.1 200 OK
 Connection: close
@@ -315,6 +332,7 @@ Utilizzati per:
 - Autenticare gli utenti 
 - Limitarne l'accesso
 - Fornire contenuti in funzione della loro identità
+= Salvare temporaneamente variabili e restituirle alla sessione successiva
 
 >[!info]- Esempio sui cookie
 >• L'utente A accede al sito S (es. Amazon) per la prima volta (S usa i cookie).
