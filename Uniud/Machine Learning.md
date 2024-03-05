@@ -17,7 +17,7 @@
 
 ---
 
-## Supervised Learning
-
+# Supervised Learning
+## [[Classification]]
 Positive examples vs Negative examples 
 
