@@ -5,3 +5,4 @@
 ---
 
 - # [[Machine Learning]]
+- # [[Sistemi Operativi]]
