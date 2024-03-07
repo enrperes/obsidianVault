@@ -3,7 +3,6 @@
 [[Sistemi operativi - info]]
 
 ---
-Slide su e-learning 
 
 > Un sistema operativo è un insieme di programmi che operano sull'hardware di un sistema di calcolo. 
 > Per l'utente è un'interfaccia verso l'hardware che renda facile risolvere problemi. Per il sistema di calcolo, è il "programma" più strettamente correlato ai dispositivi fisici. Funge da assegnatole di risorse e controllore del loro utilizzo. 
