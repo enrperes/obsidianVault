@@ -6,6 +6,6 @@
 
 - # [[Machine Learning]]
 - # [[Tecnologie Web Cloud]]
-- # [[Sistemi Operativi]]
+- # [[Sistemi_Operativi]]
 
 
