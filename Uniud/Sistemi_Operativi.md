@@ -222,4 +222,29 @@ Efficienza? Dipende:
 
 # 3. Processi e Thread
 - programma = entità statita
-- processo = entità dinamica 
+- processo = unità di elaborazione che viene eseguita sequenzialmente. Proprietà che lo caratterizzano: 
+	- Programma (=code region, che rimane invariata)
+	- Program counter
+	- Contenuto dei registri
+	- Data region
+	- Stack region
+	- Attributi vari (PID (Process Id), privilegi, limiti...)
+
+## Ciclo di vita di un processo
+Ogni processo evolve durante la sue esistenza: in ogni istante si trova in un determinato stato: 
+- New
+	- Appena creato
+- Ready
+	- Pronto per essere eseguito
+- Running
+	- In esecuzione
+- Waiting / Blocked / Sleeping 
+	- In attesa di qualche evento (terminazione di I/O...)
+- Terminated / zombie 
+	- Esecuzione finita, processo non ancora "eliminabile"
+
+
+[...]
+
+
+
