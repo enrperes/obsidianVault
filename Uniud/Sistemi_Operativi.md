@@ -149,3 +149,77 @@ Introduce uno spazio di indirizzamento logico svincolando i processi dalla memor
 	- Si impiegano **user IDs**, **Grop IDs** assegnati a utenti e processi. 
 
 
+---
+
+# Struttura e servizi dei sistemi operativi 
+
+##  Tipi di system call
+[...]
+
+
+## Struttura di un sistema operativo 
+- Struttura monolitica
+- Struttura stratificata
+- Struttura a micro-kernel
+- Struttura modulare 
+
+### Struttura monolitica
+- L'OS è costituito da un **unico programma**, composto da un insieme di procedure che realizzano i vari componenti. 
+- Presente nei primi (semplici) sistemi operativi 
+- Il Kernel contiene tutte le componenti dell'OS che interagiscono tra loro tramite chiamate a procedure / funzioni 
+- Progettazione, realizzazione, debugging, manutenzione sono operazioni complesse
+- Le componenti del kernel operano in modalità privilegiata -> sistema più vulnerabile a errori SW.
+Un esempio di OS monolitico è **MS-DOS**
+![[Pasted image 20240311154423.png|400]]
+Anche i primi sistemi UNIX possono essere considerati quasi monolitici, essendoci solo due livelli: programmi di sistema e kernel 
+
+### Struttura stratificata
+- l'OS viene partizionato in una gerarchia di livelli 
+- Ogni livello raggruppa funzionalità omogenee
+- Ogni livello può invocare solo funzioni di livelli inferiori 
+- Maggiore modularità (implementazione, debugging, sono indipendenti dal resto dell'OS)
+- Minore efficienza: a causa del forzato utilizzo di interfacce tra i livelli 
+![[Pasted image 20240311155142.png|400]]
+
+###  Struttura  MicroKernel
+L'idea è di mantenere il kernel più essenziale possibile. 
+Il MicroKernel include Memory management di basso livello, primitive di sincronizzazione e comunicazione inter-processo. 
+Le altre funzionalità sono esterne al kernel: 
+- Gestione processi
+- file system
+- networking 
+- gestione dispositivi 
+Vantaggi: 
+- Modularità: non necessita di tutte le funzionalità esterne per funzionare 
+- Portabilità: supporto per nuovo HW si ottiene con poche modifiche
+- Sicurezza: meno codice viene eseguito in modalità privilegiata
+![[Pasted image 20240311155902.png|400]]
+
+###  Struttura modulare 
+Combina i vantaggi della struttura a livelli con l'approccio del microkernel 
+- Si adottano i principi di OOP
+- Il kernel implementa e fornisce solo le funzioni essenziali 
+- Le altre funzioni vengono aggiunte dinamicamente caricando moduli opportuni 
+- Ogni modulo è interfacciabile con gli altri 
+- Le funzionalità essenziali sono accessibili in modo protetto e controllato
+- Flessibilità, portabilità, efficienza: i moduli comunicano tra loro senza il kernel 
+![[Pasted image 20240311160158.png|300]] ![[Pasted image 20240311160213.png|300]]
+
+### Struttura Ibrida
+I sistemi operativi reali solitamente usano una struttura ibrida, prevalentemente monolitica ma arricchita da possibilità di caricare moduli (Linux, Solaris, Windows)
+Mac OS X, iOS, iPadOS combinano caratteristiche da microkernel, stratificata, modulare... (kernel derivato da UNIX)
+Android: il kernel è derivato da Linux, applicazioni Java girano su macchina virtuale Linux 
+
+##  Macchine Virtuali 
+> Applicazione che emula le funzionalità di un sistema di elaborazione
+
+![[Pasted image 20240311160945.png|400]]
+Efficienza? Dipende: 
+- Per task che usano pesantemente la CPU -> non emulato è più efficiente 
+- Per operazioni su I/O e su disco, i dispositivi emulati sono più veloci. 
+
+---
+
+# 3. Processi e Thread
+- programma = entità statita
+- processo = entità dinamica 
