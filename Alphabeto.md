@@ -9,7 +9,7 @@ $\Large \delta$|$\Delta$|Delta
 $\Large \varepsilon$|$E$|Epsilon
 $\Large \zeta$|$Z$|Zeta
 $\Large \eta$|$H$|Eta
-$\Large \vartheta$|$\Theta$|Theta
+$\Large \theta$|$\Theta$|Theta
 $\Large \iota$|$I$|Iota
 $\Large \kappa$|$K$|Kappa
 $\Large \lambda$|$\Lambda$|Lambda
