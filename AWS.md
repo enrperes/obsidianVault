@@ -98,3 +98,15 @@ Ogni istanza ha un indirizzo IP e voce DNS
 ![[Pasted image 20240312162430.png#invert|500]]
 ##### NOMI DELLE ISTANZE
 ![[Pasted image 20240312162512.png#invert|500]]
+
+## Database: SQL o NoSQL
+3 generi di database nel cloud
+- Aurora
+	- DB relazionale ad altre prestazioni
+- RDS
+	- MySQL o Oracle
+- DynamoDB
+	- NoSQL (storage strutturato ma non relazionale)
+
+[...]
+
