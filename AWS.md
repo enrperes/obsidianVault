@@ -7,6 +7,8 @@ aliases:
 ---
 PDF 04, 05 
 
+# [[Laboratorio-AWS]]
+
 ---
 
 - L'insieme dei servizi è costituito da una serie di blocchi relativamente indipendenti e combinabili tra loro: Loose coupling
