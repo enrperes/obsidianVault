@@ -1,7 +1,7 @@
 
 
 [[Sistemi operativi - info]]
-
+# [[Sistemi_Operativi-lab]]
 ---
 
 > Un sistema operativo è un insieme di programmi che operano sull'hardware di un sistema di calcolo. 
