@@ -62,3 +62,90 @@ Le variabili possono essere locali o globali.
 </html>
 ```
 
+```php
+<?php 
+echo phpinfo() // non lasciare online la pagina output
+?>
+```
+
+## Esercizio 5
+```php
+<html>
+	<head><title>Esercizio 5</title></head>
+	<body>
+	<h2>Test</h2>
+<?php
+	if($_GET['psw']=="abcd")
+		echo "<p>Access Granted</p>";
+	else echo "<p>Access Denied</p>";
+	echo "<h2>Ciclo \"FOR\"</h2>\n<ul>";
+	for($i=1;$i<=7; $i=$i+1)
+		echo "\t<li>$i</li>\n";//cambiare in apici singoli per non interpretare 
+?>
+</ul></body></html>
+```
+
+## Esercizio 6
+
+```php
+<body>
+<h1>Calcolatrice</h1>
+
+<?php
+if (isset($_GET['op1']) && isset($_GET['op2'])) {
+    $op1 = $_GET['op1'];
+    $op2 = $_GET['op2'];
+
+    switch (strtolower($_GET['operazione'])) {
+        case '+': 
+            $res = $op1 + $op2; 
+            break;
+        case '-': 
+            $res = $op1 - $op2; 
+            break;
+        case '*': 
+            $res = $op1 * $op2; 
+            break;
+        case '/': 
+            if ($op2 == 0) {
+                $res = "Cannot divide by zero";
+            } else {
+                $res = $op1 / $op2;
+            }
+            break;
+        default:
+            $res = "Invalid operation";
+    };
+
+    echo "<h2>Risultato</h2>\n<p>$op1 " . $_GET['operazione'] . " $op2 = $res</p>";
+    $script = $_SERVER['PHP_SELF'];
+    echo "<p><a href=\"$script\">Calcolatrice</a></p>";
+    echo "<p>" . $_SERVER['REMOTE_ADDR'] . "</p>";
+    exit; 
+} else { 
+?>
+
+<form method="get" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+    <p>
+    <input type="text" name="op1" />
+    <select name="operazione">
+        <option value="+" selected="selected">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="text" name="op2" />
+    <input type="submit" value="=" />
+    </p>
+</form>
+
+<?php 
+} 
+?>
+</body>
+
+```
+
+#  Funzioni
+
+
