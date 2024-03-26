@@ -33,7 +33,7 @@ Programma che ha il completo controllo su tutti i componenti del sistema, respon
 Solitamente si definisce il sistema operativo come quel programma sempre in esecuzione nel sistema di calcolo: si usa il termine **Kernel**. Tutto il "resto" è costituito da programmi di sistema o applicativi. 
 
 ##  Gestione delle **interrupt** 
-- CPU e device operano concorrentemente. 
+- CPU e device operano insieme. 
 - Un **controller** gestisce uno specifico device e usa un **buffer** locale per interagire con la CPU 
 - Il controller legge e scrive i dati nel suo buffer locale
 - La CPU legge e scrive nel buffer locale del controller 
@@ -247,4 +247,5 @@ Ogni processo evolve durante la sue esistenza: in ogni istante si trova in un de
 [...]
 
 
+# Thread
 
