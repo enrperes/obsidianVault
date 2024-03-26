@@ -220,7 +220,7 @@ Efficienza? Dipende:
 
 ---
 
-# 3. Processi e Thread
+# 3. Processi
 - programma = entità statita
 - processo = unità di elaborazione che viene eseguita sequenzialmente. Proprietà che lo caratterizzano: 
 	- Programma (=code region, che rimane invariata)
@@ -244,8 +244,60 @@ Ogni processo evolve durante la sue esistenza: in ogni istante si trova in un de
 	- Esecuzione finita, processo non ancora "eliminabile"
 
 
+> [!attention]  **Dispatching** 
+> 	Assegnamento di un processore ad un processo (ready -> Running)
+
+> [!attention]  **PCB: Process Control Block** 
+ > Struttura che contiene le informazioni su un processo nell'OS: 
+ > - PID (= identificatore del processo, un numero intero)
+ > - Lo stato 
+ > - Il valore del program counter
+ > - IL contenuto dei registri della CPU
+ > - Info utili allo scheduling CPU
+ > - Info su gestione memoria
+ > - Info su accounting 
+ > - Info su stato I/O
+ > Descrive l'execution context del processo. Tutti i PCB sono raccolti in una process table. 
+ 
+##  Code di processi
+I processi competono per le risorse. L'OS gestisce le richieste dei processi con: 
+- Code di Scheduling
+- Politiche di Scheduling
+Esistono diverse code: 
+- Job Queue, la coda dei processi, che raccoglie i PCB dei processi presenti nel sistema
+- Ready Queue, raccoglie i PCB dei processi ready
+- Device Queue, raccoglie i PCB dei processi in attesa di un dispositivo I/O
+
+Quando una risorsa è disponibile, l'OS sceglie uno dei processi in attesa nella corrispondente coda (FIFO). I due scheduler principali sono: 
+- Job Scheduler (Long Term) che decide quali processi non ancora iniziati devono essere caricati in RAM e inseriti nella Ready Queue. 
+- Scheduler CPU (Short Term): sceglie quale processo tra quelli nella ready queue assegnare alla CPU. 
+
+Lo Scheduler Medium Term modula il carico a cui è soggetto il sistema: sposta i processi dalla memoria principale alla memoria secondaria. (Swap IN / Swap OUT)
+
+###  Creazione di processi
+Ogni processo può creare altri processi, con apposite sys calls.
+Il processo creatore è **parent** di quello creato, **child**, che avrà un proprio PID e PCB -> si formano gerarchie di processi
+
+In UNIX tutti i processi discendono dal processi `init` che ha PID = 1. 
+Solitamente in UNIX il processo figlio è una copia identica del padre con le stesse risorse assegnate.
+
+Ogni processo ha un padre: è sempre possibile trasmettere lo status di uscita di un processo che termina al processo padre, tramite la sys call `wait()`
+La disallocazione completa delle risorse avviene solo se il padre esegue `wait()`, altrimenti i processi rimangono nello stato zombie. 
+
+###  Comunicazione tra processi concorrenti (IPC)
+- Shared Memory
+	- Prevede l'esistenza di un ambiente globale accessibile dai processi. Alcune risorse sono condivise. 
+	- Il blocco di memoria condiviso viene concesso dall'OS come risposta ad un'invocazione da parte di un processo 
+- Message Passing 
+	- Non prevede l'esistenza di un ambiente globale, ma scambio di messaggi. 
+	- Un canale di comunicazione e due operazioni di base: 
+		- Send
+		- Receive 
+	- Caratteristiche della comunicazione
+		- Naming 
+		- Sincronizzazione
+		- Buffering
+
 [...]
 
-
-# Thread
-
+# Threads
