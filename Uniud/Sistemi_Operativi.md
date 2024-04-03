@@ -303,3 +303,40 @@ La disallocazione completa delle risorse avviene solo se il padre esegue `wait()
 [...]
 
 # Threads
+
+[...]
+
+---
+
+### Scheduling in sistemi multiprocessore
+
+Multiprocessore può indicare: 
+- CPU Multicore
+- Core MultiThread
+- Architetture NUMA (Non Uniform Memory Access)
+- Sistemi operativi eterogenei
+....
+
+####  Scheduling Real time (cenni)
+
+
+da file scheduling_new.pdf
+E1) Si consideri uno scheduler che riceve 4 cpu-burst con le seguenti caratteristiche: 
+
+
+| JOB | Durata stimata | Tempo di inizio | Priorità |
+| --- | -------------- | --------------- | -------- |
+| p1  | 15             | 0               | 2        |
+| p2  | 21             | 5               | 1        |
+| p3  | 4              | 9               | 3        |
+| p4  | 8              | 10              | 1        |
+
+Calcolare il tempo di completamento, tempo di risposta, tempo di attesa, di ogni job a seconda che lo scheduling impiegato sia: 
+1. FCFS con latenza di dispatch nulla (ok)
+2. Round Robin con quanto di tempo pari a 8 e latenza di dispatch nulla
+3. FCFS con latenza di dispatch pari a 1 (ok, qualsiasi job prima di partire deve aspettare 1ms)
+4. Round robin con quanto di tempo pari a 8 e latenza di dispatch pari a 1
+5. Round Robin con quanto di tempo pari a 4 e latenza di dispatch pari a 1
+6. SJF con latenza di dispatch nulla
+7. SRTF con latenza di dispatch nulla
+8. HRRF
