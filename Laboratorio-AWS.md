@@ -16,22 +16,6 @@ Per collegarsi via SSH si usa l'IP pubblico, che cambia ogni volta che si accend
 `sudo apt-get install php libapache2-mod-php`
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # S3
 
 
@@ -42,3 +26,13 @@ Per collegarsi via SSH si usa l'IP pubblico, che cambia ogni volta che si accend
 
 
 # Lambda
+
+
+---
+
+###  Esercizio 8
+Trasferire file da locale a remoto con connessione SSH e SCP: 
+
+```bash
+scp -r -i /home/enrperes/twc24key.pem CubeRenders ec2-16-16-128-147.eu-north-1.compute.amazonaws.com:/var/www/html/media
+```

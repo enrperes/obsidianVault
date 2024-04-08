@@ -74,11 +74,10 @@ Icon=
 > cd my-project 
 > ```
 
-> [!info]- HowTo: Compile and run `.cpp` files in terminal #ubuntu 
+> [!info]- HowTo: Compile and run `.cpp` or `.c` files in terminal #ubuntu 
+> `g++` per C++ e `gcc` per C
 > ```bash
 > nano source.cpp # create/edit file 
 > g++ source.cpp -o source-exec # compile file into executable
 > ./source-exec # run executable
 > ```
-
-

@@ -4,6 +4,7 @@
 # [[Sistemi_Operativi-lab]]
 
 ## [[Linux-commands]]
+
 ---
 
 > Un sistema operativo è un insieme di programmi che operano sull'hardware di un sistema di calcolo. 
