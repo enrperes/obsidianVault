@@ -341,3 +341,54 @@ Calcolare il tempo di completamento, tempo di risposta, tempo di attesa, di ogni
 6. SJF con latenza di dispatch nulla
 7. SRTF con latenza di dispatch nulla
 8. HRRF
+
+---
+
+# Sincronizzazione
+
+## Processi concorrenti 
+In un OS moderno vengono gestiti più processi in contemporanea. Possono essere indipendenti o cooperanti. 
+In generale si avranno processi che compiono le loro azioni inframezzandole e usando risorse condivise (**interleaving e overlapping**). 
+Si necessita di: 
+- Sincronizzazione
+- comunicazione 
+- accesso a dati e informazioni condivise
+
+### Esecuzione concorrente 
+Accesso contemporaneo da parte di processi a dati condivisi può portare a problemi: 
+- modifiche di dati in modo incoerente (lo switch di contesto può avvenire prima che il processo abbia completato tutte le modifiche)
+- Non si devono verificare attese infinite 
+
+#### Concetti essenziali 
+> [!attention]  **Sezione Critica** 
+> una sezione di codice che legge / scrive dati condivisi
+
+> [!attention]  **Race Condition** 
+ > Una situazione in cui l'esecuzione concorrente di una sezione critica da parte di più processi porta a risultati dipendenti dall'ordine in cui i processi alternano l'esecuzione delle loro istruzioni -> potenziale inconsistenze dei dati 
+ 
+ > [!attention]  **Mutua Esclusione** 
+ > Meccanismo con cui si evitano le race condition assicurando l'accesso esclusivo ai dati: i processi vanno autorizzati ad entrare in una sezione critica. 
+ 
+ > [!attention]  **Deadlock** 
+ > Situazione in cui dei processi sono permanentemente bloccati perchè in attesa del rilascio di risorse
+ 
+ > [!attention]  **Starvation** 
+ > Situazione in cui ad un processo che ha richiesto l'accesso ad una sezione critica NON viene permesso di evolvere perchè vengono servite le richieste di altri processi 
+ 
+#### Esempio
+Due processi collaborano nello svolgere un compito: un processo **produttore** produce dei dati che vengono utilizzati dal processo **consumatore**. Lo scambio dei dati avviene tramite un buffer condiviso. 
+
+Anche se il codice dei due processi preso singolarmente è corretto, non funzionano in contemporanea: 
+- Si possono generare inconsistenze nei dati
+	- La gestione della variabile condivisa `counter` non è adeguata; possono essere eseguite `counter++` e `counter--` allo stesso tempo. 
+- Le due istruzioni sono **sezioni critiche**
+- Siamo in presenza di **race condition**. 
+
+##### Soluzione: 
+
+---
+
+Un'istruzione **atomica** fa più cose ma è un'unica istruzione e non può essere interrotta. 
+
+Uso di TestAndSet
+
