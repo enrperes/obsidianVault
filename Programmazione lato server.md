@@ -148,4 +148,19 @@ if (isset($_GET['op1']) && isset($_GET['op2'])) {
 
 #  Funzioni
 
+[...]
 
+### Configurazione di PHP 
+I parametri di funzionamento PHP sono impostati in un file `php.ini` che contiene direttive (mem. massima utilizzabile dallo script, dimensione massima di corpo HTTP, file di log...)
+PHP consente di sovrascrivere alcune direttive nel `php.ini` nello script con `ini_set()`. Le modifiche saranno valide solo in quello script. 
+
+## Sessioni e autenticazione
+
+Alla creazione di una sessione, il server genera 
+
+- Autenticazione
+	- proteggere più pagine che diventano accessibili solo ad un utente che si è registrato solo con username e password
+- Pagine a contenuto differenziato
+	- Per utenti anonimi, registrati, amministratori...
+- Form multipagina:
+	- I dati inseriti in un form vengono inseriti in sessione e salvati solo al completamento del form 
