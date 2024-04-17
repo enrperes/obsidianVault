@@ -81,3 +81,5 @@ Icon=
 > g++ source.cpp -o source-exec # compile file into executable
 > ./source-exec # run executable
 > ```
+> UPDATE: 
+> I created an alias, so now it's: `c file.c` which compiles and executes the file.
