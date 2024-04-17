@@ -17,6 +17,9 @@
 
 ---
 
+[[Machine Learning Esercizi]]
+
+---
 # Supervised Learning
 ## [[Classification]]
 Positive examples vs Negative examples 
@@ -151,8 +154,21 @@ Bias and Variane inversely represent model accuracy on training and test set res
 
 > Regularization decreases model variance at the cost of increased bias. 
 
-### Ridge Regression 
+### Ridge Regression (L2)
 Penalizes high-value coefficients by introducing a penalty t term in the SSE loss function. 
+
+RSS = Residual Sum of Squares: measures how well a lineare regression model matches training data. If RSS = 0, the model fits perfectly to the training data, which is not always desirable (overfitting)
+
+$$
+\Large RSS= \sum_{i=1}^{n}(y_{i}-\hat{y}_{l})^{2}
+$$
+OLS = Ordinary Least squares, matrix coefficient estimator: 
+$$
+\Large B = (X^{T}X)^{-1}X^{T}y
+$$
+The L2 penalty is inserted at the end of the RSS function, resulting in the **ridge regression estimator**. 
+
+
 
 Minimization problem: 
 $$
@@ -162,4 +178,16 @@ $$
 \Large min_{(\theta)} \;\;\;\; J(\theta)
 $$
 
+The penalty term in Ridge Regression is the squared sum of coefficients rather than the absolute value. It also only shrinks feature weights towards zero but never to zero. 
 
+#### Ridge Regression in machine learning 
+
+Helps reduce overfitting that comes from model complexity, that can be due to: 
+- Too many features (parameters)
+- Features possessing too much weight
+	- Feature weight refers to a given predictor's effect on the model output.
+
+#### Real Estate example
+Many predictors determine a house's sale price: number of bedrooms, bathrooms, location... 
+Highly correlated features lead to high regression coefficients and overfitting on training data. 
+Ridge regression corrects this form of model complexity by reducing the number of total feature weights on the model final predicted value. 
