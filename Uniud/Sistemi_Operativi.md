@@ -1,3 +1,9 @@
+---
+aliases:
+  - sistemi
+  - os
+  - operativi
+---
 
 
 [[Sistemi operativi - info]]
