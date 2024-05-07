@@ -191,3 +191,7 @@ Helps reduce overfitting that comes from model complexity, that can be due to:
 Many predictors determine a house's sale price: number of bedrooms, bathrooms, location... 
 Highly correlated features lead to high regression coefficients and overfitting on training data. 
 Ridge regression corrects this form of model complexity by reducing the number of total feature weights on the model final predicted value. 
+
+
+# Neural Networks
+
