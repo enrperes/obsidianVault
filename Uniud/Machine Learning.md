@@ -195,3 +195,29 @@ Ridge regression corrects this form of model complexity by reducing the number o
 
 # Neural Networks
 
+> A machine learning program that makes decisions similarly to human brains by using a process that mimics the way biological neurons work together to identify features, weigh options and arrive at conclusions
+
+A neural network consists of layers of nodes: 
+- Input layers
+	- information from the outside world is processed (analyzed or categorized) by the input nodes. 
+- Hidden layers
+	- Take their input from the input layer or other hidden layers. Each hidden layer analyzes the output from the previous layer, processes it further and passes it onto the next layer. 
+- Output layer 
+	- Gives the final result of all the data processing by the artificial neural network. It can have more than one node. 
+
+![[IMG_3522.png#invert|350]]
+
+Each node connects to others and has its own weight and threshold value. 
+
+Each node is like its own linear regression model 
+Weights are assigned to help determine the importance of each variable. 
+
+
+> [!attention]  **Neural Network vs Deep Learning** 
+ > A neural network that consists of more than three layers (including input and output) can be considered a deep learning algorithm. A neural network that only has 2 or 3 layers is just a basic neural network. 
+ 
+
+
+
+https://youtu.be/_YPScrckx28?si=of3zrwX65ajeb5sv
+
