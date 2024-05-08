@@ -29,6 +29,13 @@ Positive examples vs Negative examples
 # Linear Regression
 [...]
 
+# Logistic Regression
+(da usare quando la variabile dipendente è binaria). L'obiettivo è stabilire la probabilità con cui un'osservazione può generare uno o l'altro valore della variabile dipendente. 
+
+> Estimates the probability of an event occurring based on a given dataset of independent variables. 
+
+The outcome is a probability so the dependent variable is between 0 and 1. 
+
 
 
 # Overfitting
