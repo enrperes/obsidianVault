@@ -15,3 +15,5 @@ aliases:
 # [[Cloud Computing]]
 
 # [[AWS]]
+
+#[[Service Oriented Architecture]]
