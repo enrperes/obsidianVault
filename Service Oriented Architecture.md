@@ -48,3 +48,77 @@ Del servizio, in modo che sia reperibile in base alle sue caratteristiche:
 - Informazioni tecniche (come invocare, dettagli implementativi)
 ##### Registrazione 
 Presso un registry
+### Operazioni: find
+##### Reperimento
+Di servizi dal registry tramite **query** che comprendono vari aspetti (tipo di servizio, categoria, prezzo...)
+#####  Selezione 
+Dello specifico servizio. Può essere manuale o automatica in base a qualche proprietà
+
+### Operazioni: bind
+Il client per invocare il servizio utilizza i dettagli trovati tra le informazioni tecniche nella descrizione del servizio. 
+Può avvenire direttamente (con connessione al provider) o tramite intermediario (registry o broker)
+
+## Esempio: 
+> Azienda che fornisce parti in plastica speciali, sulla base di un contratto o una tantum. 
+> - Agisce da intermediario tra produttori di parti e altre aziende che utilizzano tali parti in prodotti più vasti. 
+> - Interagisce quindi con molteplici attori. 
+
+Il processo di interesse riguarda l'invio di un ordine di acquisto da parte di un'altra azienda. 
+- Potrebbe coinvolgere: Ricezione ordine, controllo in magazzino, verifica del credito, fatturazione automatica, aggiornamento del magazzino, spedizione. 
+Semplificando: Un servizio "aggregatore" riceve l'ordine, richiede a un servizio di magazzino se i pezzi ci sono e in caso affermativo richiede una spedizione a un servizio corriere, calcola il prezzo e fattura. 
+![[Pasted image 20240514135915.png#invert|500]]
+
+# Livelli di adozione 
+1. Adozione di SOA nell'organizzazione
+	- Adattando applicazioni esistenti e orchestrandone il funzionamento per la realizzazione di alcuni processi
+2. Organizzazione basata su SOA
+	- Definizione di servizi comuni e standardizzati per l'organizzazione, consistenti tra di loro e rispettosi delle policy aziendali.
+3. Realizzazione di SOA inter-organizzazioni
+	- Processi collaborativi progettati pensando anche ad organizzazioni esterne. 
+
+# QoS (affidabilità)
+> Capacità di un servizio di rispondere alle invocazioni ad un certo livello commensurato alle aspettative del client 
+
+Dato che è previsto che possano coesistere più fornitori dello stesso servizio la QoS è molto importante. Insieme ovviamente al costo. 
+
+## Elementi della qualità nei servizi: 
+- Disponibilità
+	- Assenza di downtime e misure TTR (Time To Repair)
+- Accessibilità
+	- Probabilità di successo dell'invocazione
+- Conformità agli standard
+- Integrità
+	- Conformità alla descrizione formale del servizio (es: WSDL o SLA)
+- Performance
+	- Throughput e latency
+- Affidabilità
+	- Capacità di un servizio di funzionare correttamente anche in presenza di problemi di server o di rete. 
+- Scalabilità
+	- Capacità di servire le richieste anche a fronte di forti variazioni nel loro volume
+- Sicurezza
+	- Autenticazione, autorizzazione, integrità, confidenzialità 
+- Transazionalità 
+		- Quando serve, deve essere descritta nella SLA e rispettata 
+
+
+## SLA
+
+> Service-Level Agreement
+
+Descrizione formale del livello di servizio fornito, in forma di contratto. Include descrittori di qualità da rispettare  nel contratto tra provider e client. Possono esserci penalità in caso di mancato rispetto. 
+Può essere statica o dinamica. 
+
+### Elementi SLA: 
+- Scopo 
+- Attori (provider e requestor)
+- Periodo di validità 
+- Ambito di competenza (i servizi forniti)
+- Vincoli 
+- Penalità
+- Servizi opzionali 
+- Esclusioni
+- Amministrazione 
+
+Due approcci: 
+- Web Services "standard" basati su SOAP e WSDL
+- Web Services di tipo **REST**
