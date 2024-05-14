@@ -178,3 +178,80 @@ Tipicamente, il formato dei messaggi segue specifiche SOAP (Simple Object Access
 
 Usato spesso per comunicazioni di tipo RPC, ma non solo. 
 
+### SOAP:  Richiesta
+![[Pasted image 20240514151303.png#invert|300]] 
+L'Header è opzionale. Il Body contiene procedura da chiamare e parametri da passare. 
+
+### Richiesta SOAP: Esempio
+```xml
+<?xml version="1.0"?>
+<Envelope
+	  xmlns:SOAPNS="http://schemas.xmlsoap.org/soap/envelope"/>
+	  <Body>
+		  <getRate>
+			  xmlns:procns="urn:cambiovaluta">
+		  <country1>Italy</country1>
+		  <country2>USA</country2>
+		  </getRate>
+	  </Body>
+  </Envelope>
+
+=getRate("Italy", "USA")
+
+```
+### Risposta SOAP: Esempio
+```xml
+<?xml version="1.0"?>
+<SOAPNS:Envelope
+	xmlns:SOAPNS="http://schemas.xmlsoap.org/soap/envelope"/>
+	<SOAPNS:Body>
+		<procns:getRateResponse xmlns:procns="urn:cambiovaluta">
+			<return>1.41</return>
+		</procns:getRateResponse>
+	</SOAPNS:Body>
+</SOAPNS:Envelope>
+```
+
+### Header
+Contiene informazioni opzionali esterne al messaggio vero e proprio. Non formalizzato da SOAP ma da altri linguaggi. 
+Esempio: 
+```xml
+<SOAPNS:Header>
+	<PROCNS:messageHeader xmlns:PROCNS="urn:cambiovaluta">
+		<From>Me</From>
+		<To>You</You>
+		<MessageId>9999</MessageId>
+	</PROCNS:MessageHeader>
+</SOAP-ENV:Header>
+```
+
+In caso di errori, il Web Service può restituire un particolare messaggio di risposta detto Fault: `<faultcde> <faultstring> <faultactor> <detail>`
+
+### Modelli di comunicazione: 
+#### RPC-Style
+Come negli esempi. Il client vede il servizio come fosse un oggetto/procedura remota. 
+	Sincrono. 
+	Le librerie tipicamente serializzano / deserializzano la rappresentazione dei parametri con la sintassi propria del linguaggio usato. 
+#### Document-style
+SOAP può anche scambiare messaggi il cui contenuto è un frammento di XML. 
+es: il client spedisce un documento che contiene l'intero ordine di acquisto, invece che alcuni parametri individuali. 
+
+è responsabilità di client e provider accordarsi sul significato del documento scambiato.
+
+## SOAP: Vantaggi
+- Semplicità 
+- Portabilità
+- Firewall-friendly
+- Standard aperto
+- Interoperabilità
+- Riconoscimento universale
+- Relativa indipendenza dai cambiamenti nell'infrastruttura
+
+## SOAP: Svantaggi
+- Progettato per HTTP, quindi il modello sarebbe `request/response`, non sempre appropriato. 
+- Senza Stati: il requestor si presenta ogni volta come nuovo (autenticazione...) cosa non sempre desiderabile. 
+- Serializzazione per valore e non per riferimento: non si può puntare direttamente a oggetti esterni, ma si finisce per duplicare valori
+- XML è ridondante --> pesante. 
+
+# WSDL 
+> Web Services Description Language 
