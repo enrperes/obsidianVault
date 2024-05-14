@@ -122,3 +122,59 @@ Può essere statica o dinamica.
 Due approcci: 
 - Web Services "standard" basati su SOAP e WSDL
 - Web Services di tipo **REST**
+
+# Web Services
+Definizione ufficiale: 
+> Applicazione software identificata da un URI in cui le interfacce e le connessioni si possono definire, descrivere e ricercare attraverso artefatti XML. Supportano l'interazione diretta con altri applicativi software usando messaggi basati su XML attraverso protocolli di base di internet. 
+
+Quindi è:
+- una componente software che effettua delle operazioni messe a disposizione da remoto tramite linguaggi basati su XML su uno strato di trasporto costituito dai protocolli di base di internet. Esempio: ricerche su motori di ricerca. 
+
+## XML
+- Definizioni 
+- messaggistica
+## Protocolli di base internet 
+- Comunicazione 
+- http, smtp, ftp...
+
+I principali attori coinvolti sono quelli definiti da SOA:
+- Service provider
+- Service Client
+- Service registry 
+
+### Possibili applicazioni di base
+- B2B
+- Integrazione di sistemi
+- Adozione di funzioni Web in altre applicazioni
+- Ricerca e visualizzazione di informazioni complesse in agenti utente
+- Ogni cosa che ora si realizza anche con tecniche di *screen scraping*. 
+
+### Le tecnologie dei WS: 
+![[Pasted image 20240514144436.png#invert|500]]
+## Gli standard: 
+- **Standard abilitanti:**
+	- HTTP(SMTP), XML
+- **Standard di base:**
+	- SOAP, WSDL, WSMO
+- **Standard per composizione e collaborazione**: 
+	- BPEL, WS-CDL
+- **Coordinamento e transazione:** 
+	- WS-Coordination, WS-Transaction
+- **Altro:**
+	- WS-Security, WS-Policy, WS-Management
+
+### Web Services e XML 
+- XML per la comunicazione tra fornitore e richiedente del servizio
+- XML per la descrizione dell'interfaccia pubblica 
+- XML per la descrizione dei servizi forniti 
+### La comunicazione
+In generale, avviene tramite messaggi codificati XML e trasportati da HTTP (SMTP, FTP). 
+Tipicamente, il formato dei messaggi segue specifiche SOAP (Simple Object Access Protocol)
+
+![[Pasted image 20240514145028.png#invert|500]]
+
+## SOAP
+> Simple Object Access Protocol
+
+Usato spesso per comunicazioni di tipo RPC, ma non solo. 
+
