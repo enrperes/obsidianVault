@@ -113,15 +113,19 @@ Principali algoritmi di Clustering:
 	**K** rappresenta il numero di cluster desiderati; viene deciso a priori. Un valore troppo alto porta a cluster troppo piccoli e complesi (*overfitting*) mentre se è troppo basso si rischia di raggruppare cluster eterogenei. 
 	
 	Non è deterministico: può produrre due diversi risultati con lo stesso input. 
-	Funzionamento: 
+	
+	**Funzionamento:** 
 	1. Vengono selezionati casualmente **K** punti come centroidi iniziali del cluster. 
 	2. Per ciascuna osservazione nel dataset, l'algoritmo calcola la distanza Euclidea tra l'osservazione e ciascuno dei centroidi del cluster. 
 	3. Una volta assegnate le osservazioni ai cluster, i centroidi vengono aggiornati. Il centroide viene calcolato come punto medio di tutte le osservazioni assegnate a quel cluster. 
 	4. I punti 2 e 3 vengono ripetuti, finché i centroidi rimangono invariati. 
-	##### CODE
-	`kmeans(x, centers, iter.max = 10, nstart = 1)`
 	
-	`x` = dataset, `centers` = number of clusters, `iter.max` = max number of iterations, `nstart` = number of random starting position (seed)
+#### CODE (R)
+```R
+	kmeans(x, centers, iter.max = 10, nstart = 1)
+```
+	
+`x` = dataset, `centers` = number of clusters, `iter.max` = max number of iterations, `nstart` = number of random starting position (seed)
 
 
 - ### DBSCAN
