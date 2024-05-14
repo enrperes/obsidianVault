@@ -16,4 +16,6 @@ aliases:
 
 # [[AWS]]
 
+# [[AWS - LAB]]
+
 #[[Service Oriented Architecture]]

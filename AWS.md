@@ -65,8 +65,12 @@ Servizi applicativi
 		- Si richiama tramite richiesta HTTP 
 - Gli oggetti sono organizzati in *bucket*
 	- max 100 bucket per account 
-	- Il bucket ha un nome universale e univoco (una parte di url)
+	- Il bucket ha un nome universale e univoco (una parte di URI[^1])
 	- http://sitepoint-aws-cloud-book.s3.amazonaws.com/maggie.jpg
+
+
+
+[^1]: Uniform Resource Identifier
 
 ## S3 Glacier 
 - Archiviazione sicura di grandi quantità di dati 
