@@ -119,7 +119,16 @@ Principali algoritmi di Clustering:
 	2. Per ciascuna osservazione nel dataset, l'algoritmo calcola la distanza Euclidea tra l'osservazione e ciascuno dei centroidi del cluster. 
 	3. Una volta assegnate le osservazioni ai cluster, i centroidi vengono aggiornati. Il centroide viene calcolato come punto medio di tutte le osservazioni assegnate a quel cluster. 
 	4. I punti 2 e 3 vengono ripetuti, finché i centroidi rimangono invariati. 
-	
+
+*Aggiornamento* 2024-05-14: 
+Una volta scelto K, vengono generati in maniera random K centroidi, posizionati all'interno dello spazio cartesiano. 
+Due fasi: 
+1. Assegnazione
+	1. Per ogni punto del dataset viene calcolata la distanza tra il punto e i due centroidi. Il punto viene associato al centroide con distanza minore. 
+2. Aggiornamento 
+	1. Si considerano tutti i punti assegnati a un cluster e viene calcolato il punto medio di questi punti, che poi sostituisce il centroide. 
+	2. 
+
 #### CODE (R)
 ```R
 	kmeans(x, centers, iter.max = 10, nstart = 1)
