@@ -127,7 +127,18 @@ Due fasi:
 	1. Per ogni punto del dataset viene calcolata la distanza tra il punto e i due centroidi. Il punto viene associato al centroide con distanza minore. 
 2. Aggiornamento 
 	1. Si considerano tutti i punti assegnati a un cluster e viene calcolato il punto medio di questi punti, che poi sostituisce il centroide. 
-	2. 
+### Cost Function
+> La somma delle distanze dei punti dai centroidi. 
+
+Si prende il clustering finale che ha il costo minore: 
+
+```clike
+for i=1 to 100{
+	# randomly initialize K-means
+	run k-means and compute the cost function
+	Pick the clustering with lowest cost 
+}
+```
 
 #### CODE (R)
 ```R
@@ -136,24 +147,57 @@ Due fasi:
 	
 `x` = dataset, `centers` = number of clusters, `iter.max` = max number of iterations, `nstart` = number of random starting position (seed)
 
+### Hierarchical Agglomerative Clustering 
+Modello di classificazione iterativo: 
+Si parte con un cluster su ogni punto e ad ogni iterazione si uniscono i punti *più vicini*, fino ad arrivare a un unico cluster. 
+= bottom-up method
 
+La distanza tra punti può essere calcolata in [[Ritacco#Cluster Distance measures|modi diversi.]]
+In questo modo si forma un albero binario, con il cluster finale radice. 
+
+Solitamente viene rappresentato con l'altezza dei link in relazione con la distanza dei punti 
+![[Pasted image 20240516102408.png#invert|400]]
+#### Cluster Distance measures
+- Single Link
+	- Distanza minima da un elemento di un cluster e un elemento di un altro cluster
+- Complete Link
+	- Maggiore distanza tra un elemento di un cluster e un elemento di un altro cluster
+- Average
+	- Distanza media tra tutti gli elementi di un cluster e gli elementi dell'altro cluster
+- 
+
+---
 - ### DBSCAN
 	> Density-Based Spatial Clustering of Applications with Noise
-	
-	Per identificare cluster di punti in uno spazio in base alla densità dei dati. A differenza del  *clustering* non richiede di impostare il numero di cluster a priori.  Sono richiesti due parametri: 
-		1. *Distance treshold* = $\Large \varepsilon$
-		2. *minimum cluster size* = $\Large min$
-	I cluster vengono assegnati dove ci sono aree di alta densità di punti, separati da aree di bassa densità. 
-	Funzionamento: 
-	Viene selezionato casualmente un punto. Se ci sono almeno $min$ punti all'interno di una distanza $\varepsilon$ dal punto selezionato, allora viene considerato un **core point**.  Dopo aver identificato un core point, il cluster include tutti i punti vicini entro una distanza $\varepsilon$
-	L'algoritmo si ripete finché non rimangono punti non assegnati a cluster o **core points**.
-	I punti che non possono essere assegnati a nessun cluster vengono considerati **rumore**. 
 
-	Vantaggi principali di DBSCAN: 
+
+Per identificare cluster di punti in uno spazio in base alla densità dei dati. A differenza del  *clustering* non richiede di impostare il numero di cluster a priori.  Sono richiesti due parametri: 
+	1. *Distance treshold* = $\Large \varepsilon$
+	2. *minimum cluster size* = $\Large min$
+
+I cluster vengono assegnati dove ci sono aree di alta densità di punti, separati da aree di bassa densità. 
+Funzionamento: 
+Viene selezionato casualmente un punto. Se ci sono almeno $min$ punti all'interno di una distanza $\varepsilon$ dal punto selezionato, allora viene considerato un **core point**.  Dopo aver identificato un core point, il cluster include tutti i punti vicini entro una distanza $\varepsilon$
+- Un **border point** è un punto con $x<min$ punti nel raggio $\varepsilon$, ma nelle vicinanze di un core point. 
+- Un **Noise Point** è un punto che non è core o border. Viene scartato. 
+Due punti che sono vicini tra loro, a distanza $\varepsilon$, sono inseriti nello stesso cluster. 
+
+L'algoritmo si ripete finché non rimangono punti non assegnati a cluster o **core points**.
+I punti che non possono essere assegnati a nessun cluster vengono considerati **rumore**. 
+
+Vantaggi principali di DBSCAN: 
 	- identificare cluster con forme complesse e dimensioni variabili
 	- Gestire bene dati rumorosi
-	##### CODE
-	Requires the library `fpc` -> `install.packages("fpc")`
+Svantaggi DBSCAN: 
+- Quando la densità dei punti è variabili non si ottiene un buon risultato. 
+
+Aggiornamento: 
+- Discover clusters of arbitrary shape
+- Handle noise
+- Only one scan
+- Density parameters required 
+##### CODE (R)
+Requires the library `fpc` -> `install.packages("fpc")`
 	
 ```r
 set.seed(123)

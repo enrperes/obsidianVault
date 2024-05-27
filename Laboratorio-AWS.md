@@ -17,8 +17,31 @@ Per collegarsi via SSH si usa l'IP pubblico, che cambia ogni volta che si accend
 
 
 # S3
+> Simple Storage Service 
 
+Simile a un file system virtuale accessibile via Web. 
+Gli oggetti sono organizzati in ==bucket==. 
+ - Max 100 buckets per account
+ - il bucket ha nome universale e univoco (è una parte di url)
 
+Esistono vari tier di S3, tra cui: 
+ - Standard
+ - Intelligent Tiering
+ - Standard IA
+ - One Zone-IA
+ - Glacier 
+ - Glacier Deep Archive 
+
+**Glacier** è ottimizzato per dati a cui si accede raramente (costa poco lo storage ma più il recupero) --> Backups
+
+Esiste un SDK per PHP. 
+
+### SDK, installazione
+Utilizzando **composer:**
+- Creare una directory 
+- eseguire: `composer require .phar /urs/local/bin/composer`
+
+... esercizi ...
 # DynamoDB
 
 
