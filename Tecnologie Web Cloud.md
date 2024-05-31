@@ -20,4 +20,6 @@ aliases:
 
 # [[Service Oriented Architecture]]
 
+# [[Laravel]]
+
 # [[Docker]]
