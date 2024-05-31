@@ -57,3 +57,24 @@ Esempio, per un'app Python includerà il runtime Python, il codice dell'app, tut
 #### Registro Docker
 Memorizza le immagini Docker (come un GitHub per le immagini Docker)
 - Docker Hub è un registro pubblico per cercare 
+
+## Docker 🤝 AWS
+
+Due servizi: 
+- EC2: Quello che useremo  
+- ECS: il servizio pensato per l'utilizzo di Docker su AWS
+	- Amazon Elastic Container Service
+	- Orchestrazione di container che aiuta a gestire, distribuire, eseguire le applicazioni container. 
+	- Tre livelli: 
+	- 1. Provisioning 
+		- Strumenti per interfacciarmi con lo scheduler 
+	- 2. Controller
+		- Distribuire e gestire le applicazioni che girano sui container 
+	- 3. Capacità 
+		- Infrastruttura su cui girano i container 
+
+
+### Installazione su EC2
+
+(file con istruzioni su notability)
+

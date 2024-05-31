@@ -15,6 +15,10 @@ Per collegarsi via SSH si usa l'IP pubblico, che cambia ogni volta che si accend
 
 `sudo apt-get install php libapache2-mod-php`
 
+- Servizio che permette di ottenere infrastruttura di calcolo sotto forma di server virtuale 
+- è possibile avviare quanti server virtuali si ha bisogno (istanze)
+- Ogni istanza è di fatto un server virtuale. 
+- 
 
 # S3
 > Simple Storage Service 
