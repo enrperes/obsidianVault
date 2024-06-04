@@ -20,6 +20,13 @@ Per collegarsi via SSH si usa l'IP pubblico, che cambia ogni volta che si accend
 
 
 # DynamoDB
+AWS > DynamoDB > Tabelle > Crea Tabella 
+
+| Nome                                | twc24   |         |
+| ----------------------------------- | ------- | ------- |
+| Chiave di partizione                | nome    | Stringa |
+| Chiave di ordinamento - facoltativo | Cognome | Stringa |
+| Impostazioni tabella:               | Default |         |
 
 
 # Elasic Container Service
