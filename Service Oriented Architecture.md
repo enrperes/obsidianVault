@@ -255,3 +255,97 @@ es: il client spedisce un documento che contiene l'intero ordine di acquisto, in
 
 # WSDL 
 > Web Services Description Language 
+
+
+# REST in PHP
+#### Representational State Transfer
+è un paradigma generico non esclusivo ai Web services. 
+Principio di base: lo stato dell'applicazione e la funzionalità sono rappresentati da risorse, accessibili tramite **identificatori** univoci = ==URI==
+
+> [!attention]  **Riassunto:** 
+ > - URI significative
+ > - Pieno utilizzo della semantica dei metodi HTTP GET POST PUT DELETE, e delle risposte HTTP 
+ > - Risposta in XML o JSON 
+ > - NON serve WSDL, ma serve una documentazione scritta, esempio con Swagger
+
+### RESTful Web Services
+Le funzionalità di un web service sono rappresentate da risorse identificate da URI diverse: 
+- motore.com/cerca/web
+- motore.com/cerca/immagini
+è necessario specificare: 
+- Il tipo MIME di dati scambiati: text/xml
+- Le operazioni supportate tramite metodi di HTTP, POST, GET, PUT, DELETE.
+
+REST sfrutta il significato specifico per i metodi HTTP:
+- Creare una risorsa sul server: POST
+- Reperire: GET
+- Modificare una risorsa: PUT
+- Rimuovere o cancellare: DELETE
+
+### Risultato invocazione
+Può essere qualsiasi risorsa, tipicamente XML o JSON con contenuto da interpretare a cura del client 
+
+### JSON
+JavaScript Object Notation
+Formato standard di scambio dati basato su un subset di javascript, ma è utilizzabile con altri linguaggi. 
+Variabili e liste ordinate. in JavaScript si interpreta con `eval()`
+
+Ci sono due strutture per rappresentare le strutture dati: 
+- Object
+	- Insieme di coppie nome/valore
+- Array
+	- Elenco ordinato di valori 
+
+#### Come procedere
+Si identificano le risorse da descrivere (cliente, ordine, spedizione..)
+- Si mappano ==URI== comprensibili: 
+	- compro.it/ordine
+	- I metodi HTTP corrispondono alle operazioni da compiere sulle risorse: 
+		- Per creare un ordine, un POST su: 
+			- compro.it/ordine/oggetto/?id=45
+	- Il risultato viene interpretato dal client 
+
+#### Esempio PHP Requestor: 
+https://currencies.app.grandtrunk.net 
+Restituisce testo. 
+
+```php
+<?php
+	$endpoint='http://currencies.apps.grandtrunk.net/getlatest/';
+	$risultato='file_get_contents($endpoint."EUR/USD");
+	print_r($risultato);
+?>
+```
+
+## REST vs SOAP 
+- JSON è più leggero
+- REST sfrutta la semantica dei metodi di HTTP, mentre in SOAP vanno ricreati (`newOrder(cliente)`) -> maggiore varietà semantica possibile al costo di essere più pesante. 
+- REST: sicurezza basata su HTTP 
+- SOAP: Più standardizzato e inserito in un sistema di standard 
+- SOAP: gestisce gli attachments. 
+- SOAP: in REST no contratto formale: dipendenza da documentazione scritta 
+
+#### Swagger
+Permette una documentazione dei servizi web REST praticamente equivalente a WSDL. Si basa su specifiche OpenAPI. 
+Esempio: https://id.who.int/swagger/index.html
+
+## Caso di studio: sistema informativo aziendale 
+
+![[Pasted image 20240529110259.png|400]]
+
+#### Servizi: CRUD
+Create, Read, Update, Delete
+
+#### REST: struttura delle risorse
+Idealmente: 
+- azienda.it/cliente/123
+- è il cliente 123. Leggere i dati con GET, modificare con PUT, eliminare con DELETE. Un POST dei dati su azienda.it/cliente permette di creare uno nuovo.
+- Similmente per magazzino e ordine 
+
+#### Problemi in PHP 
+Gestione di PUT e DELETE: non sempre configurati per default in Apache: vanno aggiunti nel .conf di Apache. 
+
+#### Funzionamento: 
+`service.php` riceverà le richieste che arrivano su URI comprensibili, organizzate per risorse che vengono mappate sull'URI stessa. 
+Deciderà cosa fare in base al metodo con cui l'URI è stata chiamata, senza bisogno di un parametro esplicito sull'URI. 
+Infine, risponderà con un header apposito, es. 201 dopo una creazione. 

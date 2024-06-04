@@ -228,3 +228,8 @@ Weights are assigned to help determine the importance of each variable.
 
 https://youtu.be/_YPScrckx28?si=of3zrwX65ajeb5sv
 
+# Clustering
+
+Unsupervised Learning. 
+
+![[Ritacco#Clustering]]
