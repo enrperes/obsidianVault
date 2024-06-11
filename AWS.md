@@ -105,7 +105,7 @@ Ogni istanza ha un indirizzo IP e voce DNS
 ##### NOMI DELLE ISTANZE
 ![[Pasted image 20240312162512.png#invert|500]]
 
-## Database: SQL o NoSQL
+# Database: SQL o NoSQL
 3 generi di database nel cloud
 - Aurora
 	- DB relazionale ad altre prestazioni
@@ -114,5 +114,71 @@ Ogni istanza ha un indirizzo IP e voce DNS
 - DynamoDB
 	- NoSQL (storage strutturato ma non relazionale)
 
-[...]
+
+
+## DynamoDB 
+> Dato = insieme di simboli. Quando un dato viene interpretato come risultato di una query, diventa informazione
+
+I DataBase: 
+- Contengono una grande quantità di dati
+- Sono condivisi 
+- Sono persistenti 
+I DBMS: 
+- Sono affidabili 
+- Forniscono un meccanismo di autenticazione 
+- Sono efficienti 
+- Incrementano la produttività degli utenti
+
+Un modello di dati fornisce un insieme di costrutti per l'organizzazione dei dati: 
+- Gerarchico 
+- a grafo
+- [[modello relazionale]]
+- a oggetti
+- [[NoSQL (Not Only SQL)]]
+I modelli dei dati sono chiamati modelli logici: i loro costrutti riflettono una particolare struttura 
+
+### AWS e i database 
+RDS: Relational Data Services 
+DynamoDB: NoSQL
+
+#### Relazionale: RDS
+- insieme di soluzioni costituite da: 
+	- Istanza stile EC2 (evitabile in modalità serverless)
+	- Motore di DBMS
+		- Amazon Aurora, MySQL, PostGresSQL, MariaDB, Oracle, SQLServer...
+#### NoSQL:DynamoDB
+- Serverless, con scalabilità automatica 
+- Alto throughput possibile
+- Dimensioni virtualmente illimitate 
+
+[Esercizio Rubrica]
+
+# Lambda
+
+## Serverless computing 
+> Paradigma di esecuzione su cloud che porta la computazione da Iaas a Paas (da infrastructure as a service a Product as a service)
+
+
+- Il provider gestisce completamente il server, inclusa allocazione dinamica di risorse secondo necessità 
+- Il client si limita a definire il codice da mandare in esecuzione
+
+Il meccanismo di funzione è basato su eventi, esempio: 
+- Avvenuto caricamento di immagini o dati su un sistema -> trigger per far partire una funzione di elaborazione
+- Click su sito web -> trigger 
+- Reazione a qualche sensore IoT...
+### FaaS
+
+Function as a Service. 
+
+Implementazione del meccanismo serverless basato su esecuzione di funzioni in ambienti realtime predefiniti. 
+- Google App Engine 
+- AWS Lambda
+
+## AWS Lambda
+- Event Driven 
+- Piccole applicazioni attivabili on demand in risposta ad eventi 
+- Risposta parallelizzabile
+- Performance scalata automaticamente
+
+[Esercizio Lambda miniatura immagini]
 

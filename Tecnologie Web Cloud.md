@@ -7,6 +7,8 @@ aliases:
 [[Tecnologie Web Cloud-info]]
 
 ---
+[[Esercizi-cloud]]
+
 
 [[Internet-UD#Protocollo HTTP]]
 
@@ -16,10 +18,16 @@ aliases:
 
 # [[AWS]]
 
-# [[AWS - LAB]]
+### [[AWS - LAB]]
 
 # [[Service Oriented Architecture]]
 
 # [[Laravel]]
 
 # [[Docker]]
+
+---
+
+# [[Cloud-Altro]]
+
+# [[Cloud e IoT, BigData]]
