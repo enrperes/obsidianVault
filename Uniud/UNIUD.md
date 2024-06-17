@@ -2,14 +2,6 @@
 banner: "![[uniud_banner_v2.png]]"
 ---
 
----
-```ActivityHistory
-/
-```
-
----
-
-
 >[!done]-  Primo Anno
 >
 > ### [[Esami-1|Esami]]
@@ -21,3 +13,8 @@ banner: "![[uniud_banner_v2.png]]"
 
 >[!abstract]- Tirocinio
 > ## [[Tirocinio]]
+
+> [!attention]  **Extra info** 
+ ># Accesso PC laboratorio 
+> Username: `s163503`
+> key: `[...]edu!`

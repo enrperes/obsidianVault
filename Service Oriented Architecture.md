@@ -1,3 +1,7 @@
+---
+aliases:
+  - SOA
+---
 > Servizio = entità **autonoma**, indipendente, in grado di assolvere funzioni di varia complessità (risposta a richiesta, esecuzione di processi complessi...)
 
 ## Service Orientation
