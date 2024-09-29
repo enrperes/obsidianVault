@@ -1,4 +1,4 @@
-## ~~[[Elementi di matematica e algebra lineare-info | Elementi di matematica e Algebra lineare]]~~
+## [[Elementi di matematica e algebra lineare-info | Elementi di matematica e Algebra lineare]]
 #### Primo semestre:
 - [x] Parziale 2022/11/10 
 - [x] Parziale 2022/12/01

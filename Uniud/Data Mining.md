@@ -1,3 +1,4 @@
+
 > The process of automatically discovering knowledge, models and **patterns** in large datasets
 
 Patterns are discernible regularities within data. 
