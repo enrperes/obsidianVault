@@ -1,4 +1,8 @@
-[[Social Computing Info]]
+---
+tags:
+  - materia
+---
+[[info - social computing]]
 
 ---
 
@@ -7,10 +11,13 @@
 
 Argomenti del corso: 
 
-# 1. Social Media
+# [[1. Social Media]]
 
-> [!example]- Esempi: 
+> [!example] Argomenti: 
 > - Social media mining
+> - Modelli delle reti
+> - Misure delle reti
+> - Dinamica
 > - Social media analysis
 > - Network science
 > - NLP, Text mining
@@ -31,9 +38,15 @@ Argomenti del corso:
 	- misure e modelli
 - Applicazioni
 # 2. Crowdsourcing
+
+> [!attention]  **Argomenti** 
+ > - Crowdsourcing 
+ > - Amazon Mechanical Turk
+ > - Human computation
+ > e LAB
+ 
 - Human-In-The-Loop
 - Artificial Intelligence
 - Labeling for ML
+---
 
-
-  

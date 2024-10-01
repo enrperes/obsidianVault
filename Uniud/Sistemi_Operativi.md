@@ -3,6 +3,8 @@ aliases:
   - sistemi
   - os
   - operativi
+tags:
+  - materia
 ---
 
 

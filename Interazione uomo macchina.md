@@ -1,3 +1,7 @@
-[[Interazione uomo macchina info]]
+---
+tags:
+  - materia
+---
+[[Info - Interazione uomo macchina]]
 
 ---

@@ -3,6 +3,8 @@ aliases:
   - Cloud
   - AWS
   - Server
+tags:
+  - materia
 ---
 [[Tecnologie Web Cloud-info]]
 

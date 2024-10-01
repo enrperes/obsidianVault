@@ -1,5 +1,6 @@
 ---
-banner: "![[uniud_banner_v2.png]]"
+tags:
+  - uniud
 ---
 # Primo anno 
 ![[Esami Primo Anno]]
