@@ -13,30 +13,22 @@ Argomenti del corso:
 
 # [[1. Social Media]]
 
-> [!example] Argomenti: 
-> - Social media mining
-> - Modelli delle reti
-> - Misure delle reti
-> - Dinamica
-> - Social media analysis
-> - Network science
-> - NLP, Text mining
-> 	- Tecniche per distinguere i contenuti di post, review...
+> [!example] Argomenti
+> - Intro 
+> 	- Esempi di SM
+> 	- Importanza per la scienza dei dati 
+> - Concetti
+> 	- Definizioni
+> 	- Esempi 
+> 	- Classificazione (Generalisti, verticali, privati)
+> - Fondamenti
+> 	- Cenni storici 
+> 	- Analisi reti sociali
+> 	- Grafi e reti
+> 	- Scienza delle reti
+> 	- misure e modelli
+> - Applicazioni
 
-- Intro 
-	- Esempi di SM
-	- Importanza per la scienza dei dati 
-- Concetti
-	- Definizioni
-	- Esempi 
-	- Classificazione (Generalisti, verticali, privati)
-- Fondamenti
-	- Cenni storici 
-	- Analisi reti sociali
-	- Grafi e reti
-	- Scienza delle reti
-	- misure e modelli
-- Applicazioni
 # 2. Crowdsourcing
 
 > [!attention]  **Argomenti** 
