@@ -52,10 +52,17 @@ Esempio: applicazione in ambito bancario:
 ## Rappresentazione dei dati 
 Due modi: 
 - Modello entità - Relazioni (ER)
-	- Grafico 
+	- Grafico, basato sui valori 
+	- Rappresentato con schemi concettuali 
 - Modello Relazionale 
 
 Progettazione DB = passaggio da modello ER a modello relazionale 
 
 NB: Nella descrizione non compare mai il contesto (es: filiale di una banca) ma solo le entità ⚠️ (?)
 
+Per ogni entità introdotta ci dev'essere almeno una **chiave**: 
+
+> [!attention]  **Chiave** 
+ > Sottoinsieme minimale di attributi che identifica univocamente le istanze di una data entità. 
+ > Negli schemi concettuali si indicano annerendo l'attributo. 
+ 
