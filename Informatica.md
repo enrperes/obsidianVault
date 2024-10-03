@@ -18,8 +18,3 @@
 [[Computer Networks]]
 [[Transmission Media]]
 
----
-
-[[Pc vs Mainframes]]
-[[Computer Networks]]
-[[IP]]

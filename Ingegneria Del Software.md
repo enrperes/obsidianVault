@@ -32,4 +32,5 @@ tags:
 - Mantenibilità 
 	- Deve poter evolvere per soddisfare le nuove richieste dei clienti 
 
+---
 
