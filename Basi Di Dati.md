@@ -53,17 +53,41 @@ Esempio: applicazione in ambito bancario:
 Due modi: 
 - Modello entità - Relazioni (ER)
 	- Grafico, basato sui valori 
-	- Rappresentato con schemi concettuali 
-- Modello Relazionale 
+	- Rappresentato con [[schemi concettuali]] 
+- [[Modello Relazionale]] 
 
 Progettazione DB = passaggio da modello ER a modello relazionale 
 
-NB: Nella descrizione non compare mai il contesto (es: filiale di una banca) ma solo le entità ⚠️ (?)
+NB: Nella descrizione non compare mai il contesto (es: filiale di una banca) ma solo le entità ⚠️ 
 
 Per ogni entità introdotta ci dev'essere almeno una **chiave**: 
 
 > [!attention]  **Chiave** 
  > Sottoinsieme minimale di attributi che identifica univocamente le istanze di una data entità. 
  > Negli schemi concettuali si indicano annerendo l'attributo. 
- 
-![[Pasted image 20241003155003.png]]
+
+# Base di dati 
+> Collezione di dati usata per rappresentare informazione di interesse per un dato sistema informativo 
+
+Supportano **astrazione sui file**
+- Livello fisico 
+- Livello logico / concettuale
+- Livello delle viste
+
+# DBMS
+> DataBase Management System
+> Collezione di file interconnessi e insieme di programmi che consentono di accedere e modificare tali file 
+
+# Modelli dei dati 
+
+> Collezione di strumenti concettuali per descrivere i dati, le loro relazioni e i vincoli di consistenza sui dati. 
+
+In ordine: 
+1. Modelli reticolare e gerarchico
+2. Modelli relazionale ed entità/relazioni
+3. Modello orientato agli oggetti
+4. Modelli basati sulla programmazione logica
+5. Modelli ibridi relazionali e orientati agli oggetti
+6. Modelli dei dati basati su XML
+
+
