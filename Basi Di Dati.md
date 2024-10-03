@@ -66,3 +66,4 @@ Per ogni entità introdotta ci dev'essere almeno una **chiave**:
  > Sottoinsieme minimale di attributi che identifica univocamente le istanze di una data entità. 
  > Negli schemi concettuali si indicano annerendo l'attributo. 
  
+![[Pasted image 20241003155003.png]]
