@@ -63,3 +63,48 @@ A *layered architecture* is adopted.
 
 ### Proxy
 
+# Application Programming Interface
+> Referring to the interface the OS provides to the networking subsystems. 
+
+## Socket Interface 
+Dove un processo di un'applicazione si collega alla rete
+Lavora al livello 4, usando TCP / UDP
+L'interfaccia definisce le operazioni per: 
+- Creare un socket
+- Collegare un socket alla rete
+- Mandare e ricevere messaggi attraverso la rete
+- Chiudere il socket 
+
+### Client-Server Model with TCP 
+```c
+ int sockfd = socket(address_family, type, protocol); 
+
+ // TCP example
+ int sockfd = socket(PF_INET, SOCK_STREAM, 0);
+
+ // UDP example
+ int sockfd = socket(PF_INET, SOCK_DGRAM, 0);
+
+```
+The socket number returned is the socket descriptor for the newly created socket
+
+# Performance
+Measured in two ways:
+- **Throughput**
+	- Number of `bits/s` that can be transmitted over a communication link
+- **Latency**
+	- Time between sending a message and its reception
+
+## Frequency band
+Basic, stationary (periodic) signals are **sinusoids**, defined by: 
+- Amplitude
+	- $\Large A$
+	- volt, pascal....
+- Frequency
+	- $\Large f$ 
+	- Hertz = $1/s$ 
+- Phase
+	- $\Large \varphi$ [rad]
+
+Dominio del tempo vs dominio delle frequenze
+[...]
