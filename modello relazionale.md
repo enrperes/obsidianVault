@@ -3,8 +3,12 @@ Concetti fondamentali:
 - Entità 
 - Attributo 
 	- Semplice e composto 
-
-
+	- ![[Sketch-3.png#invert|300]]
+- A singolo valore o multivalore
+- ![[Sketch-4.png#invert|200]]
+- Opzionale o obbligatorio
+- 
+- 
 Rappresentazione più usata: 
 - Righe = record
 - Colonne = attributi / campi

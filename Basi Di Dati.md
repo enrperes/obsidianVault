@@ -94,3 +94,47 @@ In ordine:
 - Modelli basati sull'identità degli oggetti vs sui valori 
 	- 
 - Modelli basati sugli oggetti vs basati sui record 
+
+$\color{orange}\large\text{Schema:}$ Descrizione formale della struttura di un database, è la chiave di lettura dei dati
+$\color{orange}\large\text{Istanza:}$ insieme dei valori
+
+$\color{orange}\large\text{Database Manager}$ supporta le seguenti funzionalità: 
+- Interazione con file system
+- Gestione dei vincoli di integrità 
+- Gestione della sicurezza
+- Backup e recovery 
+- Controllo della concorrenza
+Il $\color{orange}\large\text{Database administrator}$ è il responsabile dei dati e delle relative procedure di accesso
+Svolge le seguenti funzioni: 
+- Definizione dello schema
+- Definizione strutture di memorizzazione e dei relativi metodi di accesso 
+- Modifica schema logico e organizzazione fisica
+- Assegnazione autorizzazioni di accesso 
+- Specifica vincoli di integrità 
+
+Esistono più classi di utenti in base alle modalità di interazione: 
+- Naïve: interazione trasparente tramite interfacce
+- Sviluppatori: Usano linguaggi di alto livello per sviluppare applicativi, usano DML all'interno di linguaggi host
+- Sofisticati: usano DML
+
+## Struttura di un DBMS
+### Componenti funzionali: 
+#### Storage Manager: 
+Costituisce l'interfaccia tra i dati memorizzati e i comandi / programmi dell'utente
+Gestisce l'interazione con il gestore del file traducendo i comandi in un linguaggio per la manipolazione in comandi per il file system
+è responsabile della memorizzazione, recupero e aggiornamento dati. 
+Componenti: 
+- Gestore autorizzazioni e integrità 
+- Gestore delle transazioni
+- Gestore dei buffer
+- Gestore dei file
+#### Query processor:
+Interprete dei comandi DDL, compilatore di quelli DML e il query evaluation engine sono i suoi componenti. 
+### Strutture dati 
+File e indici 
+Dizionario dei dati 
+Dati statici 
+
+## Architetture Client / Server
+$\color{orange}\large\text{A due strati:}$  Applicazione suddivisa in due componenti, una risiede sul client e invoca le funzionalità dell'altra che risiede nel server. Interazione tramite interfaccia. 
+$\color{orange}\large\text{A tre strati}$: Client agisce come front-end e non effettua chiamate dirette al DMBS. Comunica con il server, responsabile dell'interazione con il DMBS, tramite form. 
