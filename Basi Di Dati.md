@@ -90,4 +90,7 @@ In ordine:
 5. Modelli ibridi relazionali e orientati agli oggetti
 6. Modelli dei dati basati su XML
 
-
+## Classificazioni dei dati: 
+- Modelli basati sull'identità degli oggetti vs sui valori 
+	- 
+- Modelli basati sugli oggetti vs basati sui record 
