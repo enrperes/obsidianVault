@@ -1,4 +1,9 @@
-Prevede un costrutto di relazione che permette di organizzare i dati in insiemi di **record** a struttura fissa. 
+Prevede un costrutto di relazione che permette di organizzare i dati in insiemi di **record** a struttura fissa. è di alto livello e svolge un ruolo fondamentale nella progettazione di una base di dati. 
+Concetti fondamentali: 
+- Entità 
+- Attributo 
+	- Semplice e composto 
+
 
 Rappresentazione più usata: 
 - Righe = record
