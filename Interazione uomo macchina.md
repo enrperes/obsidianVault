@@ -18,3 +18,7 @@ tags:
 
 ![[Pasted image 20241004144214.png#invert|500]]
 
+---
+07/10/2024
+
+Tastiere in ordine alfabetico negli aerei: gli input sono di poche lettere

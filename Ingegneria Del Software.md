@@ -166,11 +166,11 @@ La descrizione deve includere
 
 ## Modelli Plan-Driven
 ### Modelli a cascata
+Adatto solo se i requisiti sono ben chiari fin dall'inizio ed è difficile che cambino durante lo sviluppo. Ciascuna fase segue quella successiva. Bisogna pianificare tutte le attività di processo prima di iniziare lo sviluppo software. 
+Gli output di una fase sono gli input della fase successiva. 
+Le fasi riflettono in modo diretto le attività di sviluppo fondamentali del software. 
  ![[Pasted image 20241007110148.png#invert|500]]
- Ciascuna fase segue quella successiva
- Bisogna pianificare tutte le attività di processo prima di iniziare lo sviluppo software
- Gli **output** di una fase sono gli **input** della fase successiva
- Le fasi riflettono direttamente le attività di sviluppo fondamentali del software. 
+
 
 $\color{orange}\large\text{Document Centric}$: guidato dalla produzione di documentazione
 $\color{orange}\large\text{Rigido}$: I prodotti di una fase non sono più modificabili se non con processi formali e sistematici di modifica. 
@@ -180,14 +180,23 @@ $\color{orange}\large\text{Monolitico:}$ Il cliente vede il software solo al com
 > [!done]  **Vantaggi** 
  > Fasi ben definite
  > Output di ciascuna fase sono precisamente individuati 
+ > Documentazione ben dettagliata per sistemi critici o grossi sistemi sviluppati da più società
 
 > [!fail]  **Svantaggi** 
  > Richiede conoscenza immediata e stabilità dei requisiti. Difficile avere requisiti congelati dall'inizio del progetto. Spesso poco chiari anche al cliente. 
  > Sviluppo di eccessiva documentazione non richiesta
  > Poco flessibile, difficile gestire necessità di modifiche che emergono durante l'esecuzione (nuove richieste)
+ > Non adatto quando i requisiti cambiano velocemente o in piccoli team con comunicazione informale 
  > 
 
-Estensione del modello: $\color{orange}\large\text{Modello a V}$ 
+#### Estensione del modello: V
+Il progetto si divide in due rami collegati (sup e inf).
+In ogni fase del progetto il team definisce il corrispondente piano di test della fase di V&V
+![[Pasted image 20241007154642.png#invert|450]]
+
+Un esempio di modello a V in ambito automotive: 
+![[Pasted image 20241007154741.png#invert|450]]
+
 ### Modelli evolutivi
 Adatti a contesti in cui i requisiti **non** sono chiari fin dall'inizio. 
 Due modelli fondamentali: 
