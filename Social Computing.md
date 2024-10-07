@@ -42,3 +42,5 @@ Argomenti del corso:
 - Labeling for ML
 ---
 
+# Grafi 
+> Nodi collegati da archi 

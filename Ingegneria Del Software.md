@@ -143,3 +143,86 @@ L'attività può essere soggetta a standard aziendali e convenzioni condivise
 - Correggere difetti non rilevati prima
 - migliorare la qualità del software (prestazioni)
 - Adattare il software a cambiamenti del Sistema Operativo
+
+# Modelli di processi software 
+![[Pasted image 20241007110002.png#invert|500]]
+
+> Un modello del ciclo di vita del software è una caratterizzazione descrittiva o prescrittiva di come un sistema software viene o dovrebbe essere sviluppato. 
+
+> software Life Cycle:  a framework containing the process, activities and tasks in the development, operation and maintenance of a software product, spanning the life of the system from the definition of its requirements to the termination of its use. 
+
+### Descrizione di processi
+- Architetturale
+	- Descrive la sequenza di attività senza fornire dettagli sulle specifiche attività (★)
+- Data-Flow
+	- Evidenzia le trasformazioni dei dati operate dalle attività del processo
+- Role/Action
+	- I ruoli delle persone coinvolte nel processo e le relative responsabilità 
+La descrizione deve includere
+- Attività 
+- Prodotto 
+- Ruoli 
+- Pre / Post condizioni
+
+## Modelli Plan-Driven
+### Modelli a cascata
+ ![[Pasted image 20241007110148.png#invert|500]]
+ Ciascuna fase segue quella successiva
+ Bisogna pianificare tutte le attività di processo prima di iniziare lo sviluppo software
+ Gli **output** di una fase sono gli **input** della fase successiva
+ Le fasi riflettono direttamente le attività di sviluppo fondamentali del software. 
+
+$\color{orange}\large\text{Document Centric}$: guidato dalla produzione di documentazione
+$\color{orange}\large\text{Rigido}$: I prodotti di una fase non sono più modificabili se non con processi formali e sistematici di modifica. 
+La fine di ogni fase è una milestone.
+$\color{orange}\large\text{Monolitico:}$ Il cliente vede il software solo al completamento di tutte le fasi. Un errore nei requisiti viene rilevato solo alla fine, dopo il rilascio --> costi elevati 
+
+> [!done]  **Vantaggi** 
+ > Fasi ben definite
+ > Output di ciascuna fase sono precisamente individuati 
+
+> [!fail]  **Svantaggi** 
+ > Richiede conoscenza immediata e stabilità dei requisiti. Difficile avere requisiti congelati dall'inizio del progetto. Spesso poco chiari anche al cliente. 
+ > Sviluppo di eccessiva documentazione non richiesta
+ > Poco flessibile, difficile gestire necessità di modifiche che emergono durante l'esecuzione (nuove richieste)
+ > 
+
+Estensione del modello: $\color{orange}\large\text{Modello a V}$ 
+### Modelli evolutivi
+Adatti a contesti in cui i requisiti **non** sono chiari fin dall'inizio. 
+Due modelli fondamentali: 
+
+- Modello prototipale
+	- Finalizzato a comprendere i requisiti del sistema. Si parte da requisiti poco chiari e si realizzano prototipi per esplorare i requisiti e chiarirli. 
+
+#### Modello a sviluppo/consegna incrementale
+> Lavorare con il cliente per esaminare i requisiti iniziali e farli evolvere fino al sistema finale
+
+![[Pasted image 20241007114218.png#invert|400]]
+
+##### Modello a consegna incrementale
+Sistema non consegnato direttamente nella sua forma finale. Alcuni degli incrementi sono consegnati ai clienti e installati nel loro ambiente operativo
+Vantaggio: il cliente usa l'incremento nell'ambiente operativo reale, feedback più realistico 
+Svantaggio: Gli utenti / clienti devono avere tempo sufficiente per sperimentare ciascun incremento. 
+
+![[Pasted image 20241007114904.png#invert|450]]
+
+
+| Sviluppo incrementale                                                                                                                                                                                        | Consegna incrementale                                                                                                                                                                                    |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Valutazione della prima versione effettuata da <br>un proxy degli utenti finali in un ambiente operativo <br>diverso da quello target. Le versioni intermedie <br>non sono solitamente rilasciate al cliente | Permette una valutazione più realistica e <br>rappresentativa dell'utilizzo reale del software. <br>Ciascun incremento può essere rilasciato agli utenti finali nell'ambiente <br>operativo del sistema. |
+
+
+
+#### Modello prototipale
+>Finalizzato a comprendere i requisiti del sistema. Si parte da requisiti poco chiari e si realizzano prototipi per esplorare i requisiti e chiarirli. 
+
+Il prototipo è usa e getta, deve essere scartato dopo la sua validazione. Non è una buona base per sviluppare il sistema finale. 
+Le funzionalità richieste hanno la priorità su prestazioni e documentazione completa. 
+
+
+La prototipazione può essere combinata con altri cicli di vita classici. Ad esempio durante la fase di progettazione in un modello a cascata, la prototipazione può essere usata per valutare opzioni alternative nella progettazione. 
+### Modelli orientati al riuso 
+### Modelli trasformazionali 
+## Modelli Agili
+
