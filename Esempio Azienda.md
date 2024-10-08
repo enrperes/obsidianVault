@@ -1,0 +1,18 @@
+![[Pasted image 20241008164043.png#invert]]
+
+Contesto: Azienda. 
+
+Metodologia di progettazione: bottom up:
+1. Identificare entità 
+2. definire attributi che definiscono le entità 
+
+![[Sketch 3.png#invert]]
+
+il loop Dipartimento - Gestisce - Impiegato - Afferisce introduce un problema: 
+un impiegato può gestire un dipartimento ma non afferire a quel dipartimento (?)
+Possibile correzione: Sostituire Afferisce - impiegato con (0, 1). Soluzione che non funziona: 
+- impiegati che non sono manager 
+- impiegato 
+
+Vincoli di integrità 
+Regole di derivazione

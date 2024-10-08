@@ -162,3 +162,24 @@ Dati statici
 ## Architetture Client / Server
 $\color{orange}\large\text{A due strati:}$  Applicazione suddivisa in due componenti, una risiede sul client e invoca le funzionalità dell'altra che risiede nel server. Interazione tramite interfaccia. 
 $\color{orange}\large\text{A tre strati}$: Client agisce come front-end e non effettua chiamate dirette al DMBS. Comunica con il server, responsabile dell'interazione con il DMBS, tramite form. 
+
+---
+
+## [[modello relazionale]]
+
+Modello ER
+
+## Le relazioni
+(es: "possiede")
+
+- Tipi di relazione
+	- Molti a molti
+	- Uno a molti / molti a uno
+	- uno a uno
+- Attributi di relazione
+- Partecipazione dei tipi di entità ai tipi di relazione
+- [[Relazioni ricorsive]]
+
+[[Esempio Offerta Alberghiera Udine]]
+
+[[Esempio Azienda]]
