@@ -5,6 +5,7 @@ tags:
 [[info - Reti di calcolatori]]
 
 ---
+# Chapter 1 - Foundations
 
 ## Connectivity 
 - Link
@@ -107,4 +108,70 @@ Basic, stationary (periodic) signals are **sinusoids**, defined by:
 	- $\Large \varphi$ [rad]
 
 Dominio del tempo vs dominio delle frequenze
-[...]
+
+## Latency 
+
+> [!info] Delay=
+> Latency = Propagation time + Transmit time + Queue time
+
+**Propagation time** = Distance / speed of signal. Dipende dalle leggi della fisica, solitamente costante
+**Transmit time** = time spent transmitting the message. Depends on its size.
+**Queue time** = time spent inside computers, switches, routers. 
+
+Small messages (few bytes) -> propagation is important
+Large messages -> throughput is important 
+
+$\color{orange}\large\text{Velocity Factor}$ = $\Large\frac{\text{speed of light in medium}}{\text{speed of light in void}}$ 
+
+The lower the $\Large VF$, the slower the signal propagates, the greater the delay introduced by signal propagation. 
+
+![[Pasted image 20241008100837.png#invert|300]]
+Quindi un cavo in rame di alta qualità (Cat-7+) può essere meglio di un cavo in fibra ottica. 
+
+## Jitter
+> Delay Variance 
+
+Introdotto solitamente nelle code variabili di switch e router. Irrilevante per FTP, SMTP. Crea problemi nelle trasmissioni audio/video realtime. 
+
+## Delay vs Throughput 
+Per avere grande throughput è necessario mantenere i canali pieni -> la coda diventa più grande -> il delay aumenta.
+
+Per avere un delay ridotto la coda dovrebbe essere vuota o molto corta -> low throughput. 
+
+Channel between a pair of processes as a hollow pipe.
+Delay: length of pipe
+Throughput: width of pipe
+![[Pasted image 20241008105013.png#invert|300]]
+
+Es: 
+Delay: $50 ms$
+Throughput: $45 Mbps$ 
+$50*10^{-3}s * 45 * 10^{6}\;\text{bits/second} = 2.25*10^{6}\;\text{bits}=280KB \;\text{data}$   
+
+# Chapter 2 - Connections
+Electromagnetic radiations propagating through a medium: 
+- Copper wire
+- Optical fiber
+- Air
+![[Pasted image 20241008110648.png#invert|600]]
+FM: 88-108 MHz
+Microonde: 2.4GHz
+
+## Encoding - Signals and Symbols 
+
+Placing binary data on a signal = **encoding**
+Done by **Modulation** = modificare il segnale di base (**carrier**) in termini di:
+- frequenza (FSK)
+	- Frequency Modulation (FM)
+- amplitude (ASK) 
+	- Amplitude Modulation (AM)
+- fase (PSK)
+	- Phase Modulation 
+
+**Demodulation** è il contrario: si estraggono bit da un segnale modulato. 
+
+Il dispositivo responsabile di modulation / demodulation è il ==modem==
+
+![[Pasted image 20241008111739.png#invert|600]]
+
+Una modulazione può variare ampiezza, fase e frequenza allo stesso tempo, codificando più bit alla volta. Su un canale è possibile usare più di una frequenza portante --> più larghezza di banda.
