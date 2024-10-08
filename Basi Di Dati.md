@@ -65,6 +65,7 @@ Per ogni entità introdotta ci dev'essere almeno una **chiave**:
 > [!attention]  **Chiave** 
  > Sottoinsieme minimale di attributi che identifica univocamente le istanze di una data entità. 
  > Negli schemi concettuali si indicano annerendo l'attributo. 
+ > 
 
 # Base di dati 
 > Collezione di dati usata per rappresentare informazione di interesse per un dato sistema informativo 
@@ -74,15 +75,15 @@ Supportano **astrazione sui file**
 - Livello logico / concettuale
 - Livello delle viste
 
-# DBMS
+### DBMS
 > DataBase Management System
 > Collezione di file interconnessi e insieme di programmi che consentono di accedere e modificare tali file 
 
 # Modelli dei dati 
 
-> Collezione di strumenti concettuali per descrivere i dati, le loro relazioni e i vincoli di consistenza sui dati. 
+> Modello dei dati = collezione di strumenti concettuali per descrivere i dati, le loro relazioni e i vincoli di consistenza sui dati. 
 
-In ordine: 
+In ordine cronologico: 
 1. Modelli reticolare e gerarchico
 2. Modelli relazionale ed entità/relazioni
 3. Modello orientato agli oggetti
@@ -90,15 +91,16 @@ In ordine:
 5. Modelli ibridi relazionali e orientati agli oggetti
 6. Modelli dei dati basati su XML
 
-L'istanza varia nel tempo, lo schema rimane solitamente invariato. 
+Esistono due possibili $\color{orange}\large\text{classificazioni}$: 
 
-## Classificazioni dei dati: 
-- Modelli basati sull'identità degli oggetti vs sui valori 
-	- Scegliere gli attributi di ogni tabella in modo che vi sia **almeno** una chiave: non ci devono essere due istanze concrete che sono diverse ma non distinguibili in base agli attributi scelti. 
-- Modelli basati sugli oggetti vs basati sui record  
+- Modelli basati sull'**identità degli oggetti** (reticolare, gerarchico, orientato agli oggetti) vs modelli basati sui **valori** (entità / relazioni, relazionale, XML)
+- Modelli basati sugli **oggetti** vs basati sui **record**  
 
 $\color{orange}\large\text{Schema:}$ Descrizione formale della struttura di un database, è la chiave di lettura dei dati
 $\color{orange}\large\text{Istanza:}$ insieme dei valori
+L'istanza varia nel tempo, lo schema rimane solitamente invariato. 
+
+ Scegliere gli attributi di ogni tabella in modo che vi sia **almeno** una chiave: non ci devono essere due istanze concrete che sono diverse ma non distinguibili in base agli attributi scelti. 
 
 $\color{orange}\large\text{Database Manager}$ supporta le seguenti funzionalità: (il software)
 - Interazione con file system
@@ -165,20 +167,11 @@ $\color{orange}\large\text{A tre strati}$: Client agisce come front-end e non ef
 
 ---
 
-## [[modello relazionale]]
+## - [[modello relazionale]]
 
-Modello ER
+## - [[Modello Entità-Relazioni ]]
 
-## Le relazioni
-(es: "possiede")
 
-- Tipi di relazione
-	- Molti a molti
-	- Uno a molti / molti a uno
-	- uno a uno
-- Attributi di relazione
-- Partecipazione dei tipi di entità ai tipi di relazione
-- [[Relazioni ricorsive]]
 
 [[Esempio Offerta Alberghiera Udine]]
 
