@@ -1,3 +1,5 @@
+Usato solo in fase di progettazione. Contiene soltanto lo schema della base di dati.
+
 Prevede un costrutto di relazione che permette di organizzare i dati in insiemi di **record** a struttura fissa. è di alto livello e svolge un ruolo fondamentale nella progettazione di una base di dati. 
 Concetti fondamentali: 
 - Entità 

@@ -175,3 +175,5 @@ Il dispositivo responsabile di modulation / demodulation è il ==modem==
 ![[Pasted image 20241008111739.png#invert|600]]
 
 Una modulazione può variare ampiezza, fase e frequenza allo stesso tempo, codificando più bit alla volta. Su un canale è possibile usare più di una frequenza portante --> più larghezza di banda.
+
+

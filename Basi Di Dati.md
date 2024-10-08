@@ -90,21 +90,24 @@ In ordine:
 5. Modelli ibridi relazionali e orientati agli oggetti
 6. Modelli dei dati basati su XML
 
+L'istanza varia nel tempo, lo schema rimane solitamente invariato. 
+
 ## Classificazioni dei dati: 
 - Modelli basati sull'identità degli oggetti vs sui valori 
-	- 
-- Modelli basati sugli oggetti vs basati sui record 
+	- Scegliere gli attributi di ogni tabella in modo che vi sia **almeno** una chiave: non ci devono essere due istanze concrete che sono diverse ma non distinguibili in base agli attributi scelti. 
+- Modelli basati sugli oggetti vs basati sui record  
 
 $\color{orange}\large\text{Schema:}$ Descrizione formale della struttura di un database, è la chiave di lettura dei dati
 $\color{orange}\large\text{Istanza:}$ insieme dei valori
 
-$\color{orange}\large\text{Database Manager}$ supporta le seguenti funzionalità: 
+$\color{orange}\large\text{Database Manager}$ supporta le seguenti funzionalità: (il software)
 - Interazione con file system
 - Gestione dei vincoli di integrità 
 - Gestione della sicurezza
 - Backup e recovery 
 - Controllo della concorrenza
-Il $\color{orange}\large\text{Database administrator}$ è il responsabile dei dati e delle relative procedure di accesso
+
+Il $\color{orange}\large\text{Database administrator}$ è il responsabile dei dati e delle relative procedure di accesso (figura umana responsabile di:)
 Svolge le seguenti funzioni: 
 - Definizione dello schema
 - Definizione strutture di memorizzazione e dei relativi metodi di accesso 
@@ -112,10 +115,31 @@ Svolge le seguenti funzioni:
 - Assegnazione autorizzazioni di accesso 
 - Specifica vincoli di integrità 
 
+$\color{orange}\large\text{Utenti base di dati:}$ 
 Esistono più classi di utenti in base alle modalità di interazione: 
-- Naïve: interazione trasparente tramite interfacce
+- Naïve: interazione trasparente tramite interfacce (non consapevoli di stare interagendo con un database)
 - Sviluppatori: Usano linguaggi di alto livello per sviluppare applicativi, usano DML all'interno di linguaggi host
-- Sofisticati: usano DML
+- Sofisticati: usano DML come SQL
+
+## Linguaggi per basi di dati: 
+#### DDL 
+Linguaggi per la Definizione dei Dati. 
+Creazione del dizionario dei dati e eventuale definizione delle strutture di memorizzazione e dei metodi di accesso ai dati 
+
+#### DML
+Linguaggio per la manipolazione dei dati 
+Fanno riferimento alle istanze. 
+- Di interrogazione ★
+	- Linguaggi procedurali
+	- Linguaggi non procedurali
+		- SQL
+		- Ma poi l'ottimizzatore traduce in linguaggio procedurale, le distinzioni non sono ben definite. 
+- Di aggiornamento 
+
+![[Pasted image 20241008131544.png#invert|600]]
+
+Storage Manager si interfaccia con i dati 
+Query processor interagisce con gli utenti 
 
 ## Struttura di un DBMS
 ### Componenti funzionali: 
