@@ -1,19 +1,19 @@
-Usato solo in fase di progettazione. Contiene soltanto lo schema della base di dati.
+è un modello logico che si basa sulla rappresentazione dei dati sotto forma di tabelle (relazioni) 
+- Ogni tabella contiene righe e colonne: 
+	- Righe = record specifici 
+	- Colonne = attributi dei dati 
 
-Prevede un costrutto di relazione che permette di organizzare i dati in insiemi di **record** a struttura fissa. è di alto livello e svolge un ruolo fondamentale nella progettazione di una base di dati. 
+Le chiavi primarie e le chiavi esterne sono usate per definire le relazioni tra tabelle e garantire l'integrità referenziale. 
+Viene poi implementato nel DBMS (MySQL, PostgreSQL...)
+
+
+
 Concetti fondamentali: 
 - Entità 
-- Attributo 
-	- Semplice e composto 
-	- ![[Sketch-3.png#invert|300]]
-- A singolo valore o multivalore
-- ![[Sketch-4.png#invert|200]]
-- Opzionale o obbligatorio
-- 
-- 
-Rappresentazione più usata: 
-- Righe = record
-- Colonne = attributi / campi
+
+
+ 
+
 
 ![[Pasted image 20240610141153.png#invert|400]]
 

@@ -51,7 +51,7 @@ Esempio: applicazione in ambito bancario:
 
 ## Rappresentazione dei dati 
 Due modi: 
-- Modello entità - Relazioni (ER)
+- [[Modello Entità-Relazioni]]
 	- Grafico, basato sui valori 
 	- Rappresentato con [[schemi concettuali]] 
 - [[Modello Relazionale]] 

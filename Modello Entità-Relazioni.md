@@ -1,5 +1,10 @@
 Il modello concettuale dei dati Entità/Relazioni è un modello di alto livello (astratto)
 
+è un modello concettuale usato per rappresentare la struttura logica dei dati
+- Si focalizza su entità (oggetti concreti) e sulle relazioni tra di esse. 
+- Utilizza diagrammi per mostrare come le entità sono collegate tra loro, con attributi per descrivere le caratteristiche delle entità e delle relazioni
+
+Viene usato nella fase di progettazione di un database per ottenere una rappresentazione ad alto livello dei dati 
 
 > [!attention]  **Chiave** 
 > Insieme di uno o più attributi che identificano in modo **univoco** una singola occorrenza di un'entità o di una relazione. 
@@ -16,8 +21,10 @@ Il modello concettuale dei dati Entità/Relazioni è un modello di alto livello 
 > è una proprietà o caratteristica di un'entità che descrive o specifica l'entità in dettaglio. Gli attributi memorizzano i valori che descrivono le istanze delle entità. 
 > 
  > - Semplice (atomico) o composto 
+ >   ![[Sketch-3.png#invert|300]]
  > - A singolo valore o multivalore
  > - Opzionale o obbligatorio
+ >   ![[Sketch-4.png#invert|200]]
  > - Primitivo o derivato 
  
  > [!attention]  **Relazioni** 
