@@ -27,7 +27,7 @@ tags:
 > or
 > - 2 or more networks connected by a node
 
-> [!attention]  **** 
+> [!attention]  **Def** 
  > A Network is a hierarchy of networks (often different)
  
 ## Cost Effective Resource Sharing
@@ -175,5 +175,155 @@ Il dispositivo responsabile di modulation / demodulation è il ==modem==
 ![[Pasted image 20241008111739.png#invert|600]]
 
 Una modulazione può variare ampiezza, fase e frequenza allo stesso tempo, codificando più bit alla volta. Su un canale è possibile usare più di una frequenza portante --> più larghezza di banda.
+
+### Nyquist-Shannon theorem
+on a channel of bandwitdh B we can transmit symbols at a rate no more than 2B: 
+$$
+R = 2B
+$$
+
+= Baud Rate = symbol / s
+
+![[Audio#Campionamento]]
+
+
+L'**alfabeto** è l'insieme di simboli che il canale può rappresentare. 
+Avendo un alfabeto di **M** simboli, il numero di bit che ogni simbolo può rappresentare è $\log_{2}(M)$ 
+
+Es: 2 livelli: 2 simboli, 1 bit per simbolo. 4 livelli, 4 simboli, 2 bit per simbolo. 
+![[Pasted image 20241010100308.png#invert|450]]
+
+
+
+Es2: Range $-V \sim +V$ divided into 8 levels.
+
+Symbols are the 8 possible voltage levels. Each carries 3 bit. 
+![[Pasted image 20241010100914.png#invert|350]]
+
+### Noise on the channel 
+Random signal $N(t)$ caused by: 
+- Thermal noise (on cables)
+- Distortions
+- Interferences
+- Technological limits 
+If the noise is too powerful, a symbol can be changed in the channel. 
+
+The important factor is the **signal to noise ratio**: $\Large \frac{S}{N}$: the ratio between the average signal power $\Large S$ and the avg noise power: $\Large N$ 
+Entrambi misurati in W (mW)
+Ratio expressed in decibel (dB) and called SNR (Signal to Noise Ratio) = Noise Level
+
+$$
+\Large SNR (dB) = 10\log_{10}\left( \frac{S}{N} \right)
+$$
+Incremento di 3dB = triplicare il S/N. Incremento di 10dB = decuplicare S/N
+Potrebbe anche essere negativo. 
+
+S/N alto --> rumore piccolo --> possibile suddividere il canale in tanti livelli. 
+S/N basso --> rumore alto --> meno livelli nel canale --> meno bit / simbolo 
+
+Da cui si ricava il: 
+
+## Shannon - Hartley Theorem 
+Lega banda di frequenze (utilizzabili), S/N e le capacità di canale. 
+
+$$
+\Large C = B \log_{2}\left( 1+\frac{S}{N} \right) \;\;\;[bps]
+$$
+C = capacità di segnale 
+B = larghezza di banda utilizzabile
+
+più è grande S/N, maggiori saranno le capacità del canale. S/N basso: capacità più bassa
+
+Per aumentare il bitrate: o aumentare S/N, o aumentare la bandwidth. 
+
+Es: Phone link
+
+B = 3300 - 300 = 3000Hz
+S = avg signal power 
+N = avg noise power
+
+Con 30dB di noise --> S/N = $10^{30/10}=1000$ 
+$C=3000 \cdot \log_{2}(1001)=30kbps$ 
+
+## Encoding
+NRZ, Manchester, NRZI , MLT, 4B/5B
+
+## Encoding Techniques
+
+- These encoding techniques are used at the **physical layer** of the network architecture. The physical layer handles the transmission of raw bits over a communication link.
+- **Encoding** is the process of placing binary data onto a signal, which is accomplished through **modulation**. Modulation modifies a basic signal, called the **carrier**, by adjusting its frequency (FSK), amplitude (ASK), and/or phase (PSK).
+- **Demodulation** is the reverse process: retrieving the bits from the modulated signal.	
+- A **modem** is a device that performs both modulation and demodulation.
+
+
+### NRZ Encoding
+- **NRZ (Non-Return-to-Zero)** encoding is a straightforward technique where a **high signal level represents a '1' bit and a low signal level represents a '0' bit**.
+
+#### Problems with NRZ
+- **Baseline wander:**
+    - The receiver calculates an average of the signals it has received to differentiate between high and low signals.
+    - Long sequences of consecutive '0's or '1's can shift this average, hindering detection.
+- **Clock recovery:**
+    - Both the sender and receiver rely on a clock for transmitting and receiving bits.
+    - Frequent signal transitions (from high to low or vice versa) are crucial for synchronizing the sender and receiver clocks.
+    - NRZ encoding can struggle with this if there are long sequences of the same bit value.
+
+### NRZI Encoding
+- **NRZI (Non-Return-to-Zero Inverted)** addresses the consecutive '1's issue in NRZ.
+    
+- In NRZI:
+    
+    - The sender **transitions from the current signal level to encode a '1'**.
+    - The sender **stays at the current signal level to encode a '0'**.
+- While NRZI solves the problem of consecutive '1's, it doesn't handle long sequences of '0's effectively.
+    
+
+### Manchester Encoding
+- **Manchester encoding** merges the clock signal with the data signal.
+- This is achieved by transmitting the **XOR (exclusive OR) of the NRZ-encoded data and the clock signal**.
+- The clock signal internally alternates between low and high, forming a clock cycle.
+- In Manchester encoding:
+    - A **low-to-high transition represents a '0'**.
+    - A **high-to-low transition represents a '1'**.
+
+#### Problem with Manchester Encoding
+- Manchester encoding **doubles the rate of signal transitions** compared to NRZ and NRZI.
+- This means the receiver has **half the time to detect each signal pulse**, potentially impacting the reliability of data recovery.
+- The rate at which the signal changes state is known as the **baud rate**.
+- Since Manchester uses two signal transitions to represent one bit, its **bit rate is half its baud rate**.
+
+### MLT-3 Encoding
+- **MLT-3 (Multi-Line Transmission, 3-level)** is an encoding technique that shares similarities with NRZI but utilizes **three signal levels: -1, 0, and +1**.
+- **Encoding Rules:**
+    - The signal **transitions to the next level at the beginning of a '1' bit.**
+    - **No transition occurs at the beginning of a '0' bit.**
+    - Upon reaching either extreme level (+1 or -1), the signal **changes direction.**
+- **Advantages:**
+    - MLT-3 **reduces the baud rate**, as it can represent multiple bits with a single transition.
+    - It helps **mitigate baseline wander** because the average signal level tends to stay closer to zero due to the three levels and alternating direction changes.
+- **Applications:**
+    - MLT-3 is often **used in combination with 4B/5B encoding in 100 Mbps Ethernet (100BASE-TX)**, which uses twisted pairs for transmission.
+
+### 4B/5B Encoding
+
+- **4B/5B encoding is a technique to break up long sequences of '0's and '1's, which can cause problems with clock recovery and baseline wander.**
+- In 4B/5B encoding, **every 4 bits of data are encoded as a 5-bit code before transmission.**
+- **The 5-bit codes are chosen so that there's never more than one leading '0' and no more than two trailing '0's.** This prevents three consecutive '0's from occurring, even between different 5-bit codes.
+- **Characteristics:**
+    - **Efficiency: 80%** (4 data bits transmitted for every 5 bits sent)
+    - **Delay: 5 bits** (the receiver needs to receive 5 bits to decode 4 data bits)
+- **Special Codes:**
+    - Out of the 32 possible 5-bit codes, 16 are used for data, and the remaining 16 are reserved for special functions.
+    - Some special codes **violate the rule of limiting consecutive '0's**.
+    - **Examples of special codes:**
+        - **00000:**  the line is dead.
+        - **11111:**  the line is idle.
+        - **00100:**  halt signal.
+        - **00111:**  reset signal.
+- **MLT-3 and 4B/5B in Ethernet:**
+    - The combination of 4B/5B encoding and MLT-3 helps to achieve reliable data transmission in 100BASE-TX Ethernet.
+    - When the line is idle (11111 in 4B/5B), MLT-3 maintains a constant signal level, providing a clear indication of line status.
+
+By using MLT-3 with 4B/5B encoding, Ethernet systems can transmit data efficiently and reliably over twisted-pair cabling.
 
 
