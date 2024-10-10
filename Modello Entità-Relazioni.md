@@ -39,3 +39,4 @@ Viene usato nella fase di progettazione di un database per ottenere una rapprese
 [[Esempio Offerta Alberghiera Udine]]
 
 [[Esempio Azienda]]
+[[Esempio Aeroporto]]
