@@ -8,6 +8,8 @@ Metodologia di progettazione: bottom up:
 
 ![[Sketch 3.png#invert]]
 
+Quando c'è un loop bisogna sempre prestare attenzione alle inconsistenze.
+
 il loop Dipartimento - Gestisce - Impiegato - Afferisce introduce un problema: 
 un impiegato può gestire un dipartimento ma non afferire a quel dipartimento (?)
 Possibile correzione: Sostituire Afferisce - impiegato con (0, 1). Soluzione che non funziona: 
@@ -16,3 +18,8 @@ Possibile correzione: Sostituire Afferisce - impiegato con (0, 1). Soluzione che
 
 Vincoli di integrità 
 Regole di derivazione
+
+
+
+
+

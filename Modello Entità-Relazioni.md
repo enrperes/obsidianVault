@@ -33,3 +33,9 @@ Viene usato nella fase di progettazione di un database per ottenere una rapprese
  > - Attributi di relazione
  > - Partecipazione dei tipi di entità ai tipi di relazione (rapporti di cardinalità, vincoli di partecipazione)
  > - Relazioni ricorsive e nomi dei ruoli 
+ > [[Relazioni di grado superiore al secondo]]
+ 
+
+[[Esempio Offerta Alberghiera Udine]]
+
+[[Esempio Azienda]]

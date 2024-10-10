@@ -173,6 +173,3 @@ $\color{orange}\large\text{A tre strati}$: Client agisce come front-end e non ef
 
 
 
-[[Esempio Offerta Alberghiera Udine]]
-
-[[Esempio Azienda]]
