@@ -233,5 +233,138 @@ Le funzionalità richieste hanno la priorità su prestazioni e documentazione co
 La prototipazione può essere combinata con altri cicli di vita classici. Ad esempio durante la fase di progettazione in un modello a cascata, la prototipazione può essere usata per valutare opzioni alternative nella progettazione. 
 ### Modelli orientati al riuso 
 ### Modelli trasformazionali 
-## Modelli Agili
+
+# Modelli Agili
+
+> [!fail]  **Problema** 
+ > Molti progetti hanno requisiti non chiari, instabili, variabili
+ > Numerose prescrizioni, eccessiva documentazione, eccessiva rigidità, rendono "pesante" il processo di sviluppo plan-driven.
+ > è richiesto un approccio più flessibile. 
+ > I modelli plan-driven si adattano poco al contesto dinamico e alla rapidità di consegna. 
+ 
+## Sviluppo rapido del software
+il software:
+- deve evolvere rapidamente per riflettere i cambiamenti nelle necessità dei committenti e utenti finali. 
+- deve essere consegnato presto per essere competitivo sul mercato. 
+
+> [!tip]  **Rapidità** 
+ > La rapidità dello sviluppo e consegna è spesso il requisito più critico per i sistemi software. 
+ 
+ Alla fine degli anni 90 sono emersi i metodi agili per lo sviluppo software. Obiettivo = ridurre il tempo di consegna del prodotto. 
+
+> [!quote]  **Agilemanifesto.org** 
+ > Individuals and interactions over processes and tools
+ > Working software over comprehensive documentation
+ > Customer collaboration over contract negotiation
+ > Responding to change over following a plan.
+ 
+ 
+## Caratteristiche principali dei metodi agili
+
+1. Documentazione minima
+	- focus sul codice invece che progettazione
+	- Non vi sono specifiche dettagliate
+	- Overhead di documentazione limitati 
+2. Consegna rapida e incrementale
+	- Sistema sviluppato in incrementi frequenti
+	- Stakeholder coinvolti nella specifica e valutazione di ogni incremento. 
+		- valutano e validano l'interazione
+		- Forniscono nuovi requisiti del sistema o propongono modifiche alle iterazioni
+3. Strumenti di supporto 
+	- Utilizzo di strumenti al supporto del processo di sviluppo (automatizzazione dei test)
+4. Accettare i cambiamenti
+	- Non si deve pianificare rigidamente
+	- Prevedere che i requisiti cambieranno
+5. Mantenere la semplicità 
+	- Sia il prodotto che il processo di sviluppo devono essere più semplici possibili
+	- Lavorare attivamente per semplificare il sistema
+
+> [!done]  **Vantaggi** 
+ > Consegne rapide, prevedibili
+ > Rapidità di risposta ai cambiamenti 
+ > Rischi attenuati (cicli di consegna brevi)
+ > Alta produttività 
+ 
+
+
+
+| Plan Driven                                                                                                                                                                                                                                                   | Agili                                                                                                                                                                                                                                                         |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Processi dove tutte le attività sono pianificate in anticipo e il loro avanzamento è misurato rispetto a quanto previsto dal piano. Le fasi del processo software sono distinte tra loro e gli output di ciascuna fase sono necessari per la fase successiva. | La pianificazione è incrementale e continua durante lo sviluppo del software. Quindi è più facile modificare il processo per adeguarsi alle modifiche dei requisiti del cliente o del prodotto. Requisiti, progettazione e implementazione avvengono insieme. |
+
+Plan Driven e agili possono coesistere nello stesso processo: 
+- Processi agili producono documentazione di progettazione quando necessario, possono includere attività pianificate. Lo scopo dei documenti è supportare comunicazione e comprensione. 
+- Processi plan-driven possono essere incrementali 
+
+### Applicabilità dei metodi agili
+- Prodotti di piccole / medie dimensioni
+- Prodotti personalizzati --> chiaro impegno del cliente nell'essere coinvolto
+- Prodotti con pochi stakeholder --> non bisogna rispettare rigidi regolamenti
+- Team fisicamente vicini (per facilitare comunicazioni)
+
+
+## Extreme Programming (XP)
+Il metodo agile più conosciuto. 
+![[Pasted image 20241010145642.png#invert|450]]
+Approccio iterativo *estremo*. Piccoli e frequenti incrementi rilasciati al cliente. I requisiti sono espressi come storie utente (?)
+
+Storie utente = semplici scenari utilizzati come base per decidere quale funzionalità deve essere inclusa in un incremento del sistma
+
+Scenari divisi in **task** di sviluppo più semplici. Implementati direttamente senza progettazione e documentazione
+
+Non vuol dire assenza di progettazione, ma flessibile e con poca documentazione essenziale. 
+I programmatori lavorano in coppie e sviluppano test per ogni task prima di scrivere il codice. Tutti i test devono essere superati prima di integrare il codice.
+
+Il cliente è coinvolto nello sviluppo. Convalida la release corrente, fornisce requisiti nuovi.....
+
+### Storie utente + esempio di story card
+
+pro e contro 
+
+##  Refactoring 
+> Processo di miglioramento del codice che viene riorganizzato e riscritto per renderlo più efficiente e comprensibile senza cambiare le funzionalità
+
+Il team di sviluppo cerca aspetti del software da migliorare e implementa i miglioramenti immediatamente. 
+Il miglioramento può riguardare anche situazioni in cui non ci sono immediate necessità. 
+Un codice di alta qualità riduce la necessità di documentazione e facilita le modifiche future. 
+
+#### PRO
+Lo sviluppo incrementale e rapido tende a portare al deterioramento del codice. Il Refactoring continuo mitiga il deterioramento, migliora la struttura e leggibilità del codice. 
+Esistono tool per automatizzare alcune operazioni di refactoring
+
+#### CONTRO
+Talvolta non basta per supportare un cambiamento, è necessaria una modifica dell'intera architettura che è più costosa. 
+Bisogna trovare un compromesso tra tempo dedicato allo sviluppo e refactoring 
+
+## Test Driven Development 
+
+in XP il testing è fondamentale. il software è testato dopo ciascun cambiamento. 
+- Sviluppo Test Driven. i casi di test da soddisfare sono scritti prima del codice e quindi guidano lo sviluppo 
+- Automatizzazione dei test - strumenti degli IDE eseguono automaticamente tutti i test quando viene rilasciata una nuova versione.
+- Coinvolgimento del cliente
+
+Scrivere i test prima del codice chiarisce i requisiti da implementare. 
+I test sono scritti come programmi, per essere eseguiti automaticamente. Ogni test simula l'invio degli input e controlla l'output. è possibile eseguire i test mentre si programma in modo da scoprire subito eventuali problemi del codice. 
+Lo sviluppo non può procedere finché tutti i test non sono stati superati. 
+
+### Automazione dei test 
+Vengono scritti come programmi eseguibili, invece che essere forniti come un insieme di dati. Il programma di test simula gli input  e valuta l'output. Framework come JUnit facilitano la scrittura e esecuzione dei test automatica. 
+
+#### PRO
+Implicano la definizione di un'interfaccia e di una specifica comportamentale della funzionalità da sviluppare, riducendo le possibili incomprensioni, ambiguità e omissioni. 
+
+#### CONTRO
+Pratica onerosa/costosa per il cliente 
+Sforzo per tenere aggiornati i test interessati dalle modifiche del codice
+I test potrebbero essere incompleti, non verificando tutti i possibili scenari
+
+## Pair Programming
+#### PRO
+Aiuta a sviluppare il senso di proprietà del codice nel team e a diffondere la conoscenza nel team. Permette un processo di revisione informale. Riduce i rischi di fallimento dovuti al turn-over.
+
+#### CONTRO
+Può essere meno efficiente per programmatori esperti o quando c'è troppa differenza di esperienza. 
+
+
+
 
