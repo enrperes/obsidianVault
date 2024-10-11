@@ -395,3 +395,9 @@ Other approaches include: Parity, Two dimensional Parity, Checksum.
 
 ---
 
+
+
+$$
+\Large
+A_{sup}= 2(H-r\cdot w)+w(l-2r)+\frac{1}{2}\pi r
+$$
