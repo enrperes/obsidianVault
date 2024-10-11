@@ -327,3 +327,71 @@ NRZ, Manchester, NRZI , MLT, 4B/5B
 By using MLT-3 with 4B/5B encoding, Ethernet systems can transmit data efficiently and reliably over twisted-pair cabling.
 
 
+## Framing
+
+Al livello Data-Link (2) i messaggi scambiati sono i **frame.**
+#### Byte-oriented protocols:
+- BISYNC (Binary Synchronous Communication) protocol 
+	- Sentinel based 
+	- Developed by IMB
+- DDCMP (Digital Data Communication Protocol)
+	- Byte Count based 
+	- Used in DECNet
+
+#### BISYNC
+https://book.systemsapproach.org/direct/framing.html#byte-oriented-protocols-ppp
+
+In ASCII: 
+SYN = 22 (Synchronize)
+SOH = 1 (Start of Header)
+STX = 2 (Start of Text)
+EXT = 3 (End of Text)
+DLE = 16 (Data Link Escape)
+CRC (Cyclic Redundancy Check)
+Sono caratteri sentinella che precedono e segnalano l'header. 
+![[Pasted image 20241011094228.png#invert|450]]
+
+#### DDCMP 
+Byte counting approach. Intestazione di 16 bit fissi. Count: indica la lunghezza totale del body.  Se *count* è corrotto -> **Framing error**
+![[Pasted image 20241011095829.png#invert|450]]
+#### HDLC (IBM)
+Bit oriented protocol. 
+Una sequenza di bit indica l'inizio e la fine del frame: `01111110` 
+Header, Body, poi sequenza finale. 
+![[Pasted image 20241011100221.png#invert|450]]
+
+#### PPP
+Point to Point Protocol 
+[...]
+
+### Error Detection
+Introdotti da interferenze elettromagnetiche, rumore termico...
+Il riconoscimento degli errori avviene nel livello 2 Data Link.
+Soluzioni: 
+#### DROP the frame
+Come non fosse mai stato inviato. 
+Livelli superiori possono riconoscere la perdita del pacchetto e richiederla. 
+#### NOTIFY the sender
+Se il messaggio è corrotto, viene notificato il sender che lo rispedisce. Se l'errore è occasionale, ritrasmettere risolverà il problema. 
+#### Forward Error Correction
+Usando algoritmi di correzione errore, il receiver ricostruisce il messaggio 
+Tipicamente usata quando non c'è possibilità di re-invio messaggi. (es: digitale terrestre)
+La ridondanza necessaria per la correzione è pesante e richiede tanta banda. 
+
+Frequency of wrong bits is called **Bit Error Rate** (BER)
+
+Idea generale: 
+- n bits message
+- k redundant bits 
+Usually k is constant and << n
+In Ethernet un frame con anche 12000 bit richiede solo 32-bit CRC
+
+### Cyclic Redundancy Check
+Used in DDCMP, HDLC, CSMA/CD, Token Ring...
+Other approaches include: Parity, Two dimensional Parity, Checksum. 
+7 bit + 1 bit di parità per raggiungere un numero pari di `1`.
+![[Pasted image 20241011104744.png#invert|150]]
+
+
+---
+
