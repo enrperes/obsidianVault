@@ -97,4 +97,42 @@ $\Large \sigma_{st}$ = numero di cammini più corti dal nodo s al nodo t (inform
 [...]
 
 #### Centralità di vicinanza
+[...]
 
+Confrontando i tre valori di centralità: 
+
+
+### Degree centrality 
+- High Degree: Un nodo (persona o entità) ha molte connessioni o collegamenti diretti con altri nodi 
+- Low Degree: Un nodo ha poche connessioni
+
+### Closeness centrality 
+- High: Un nodo è relativamente vicino agli altri nodi della rete: può raggiungere altri nodi con pochi step
+- Low: Quando un nodo è più lontano dagli altri e per raggiungere il resto della rete servono tanti step. 
+
+### Betweenness Centrality 
+- High: Un nodo fa da tramite tra parti diverse della rete, facilitando la comunicazione tra nodi che non sono connessi direttamente. 
+- Low: Un nodo non ha una posizione centrale nella rete e le comunicazioni lo bypassano. 
+![[Pasted image 20241014190335.png#invert|800]]
+
+
+---
+
+## PageRank
+> PageRank of page $u$ is high if $u$ is linked from pages with high PageRank. 
+> - From many pages
+> - From pages with high Page Rank
+> - Both: many high PageRank pages
+
+![[Pasted image 20241015002532.png#invert|500]]
+Dove: 
+$r(v)$ = PageRank of $v$ 
+$I(v)$ = set of pages that link $v$ 
+$O(v)$ = set of pages linked from $v$
+
+Each page $u$ has its PageRank value $r(u)$. 
+Page $v$ receives from page $u$ a portion of $u$'s PageRank equal to the portion received by any other page linked from $u$: 
+$$
+\Large \frac{r(u)}{|O(u)|}
+$$
+Each page $u$ distributes its PageRank value $r(u)$ to the linked pages (quelle in $O(u)$ ). 
