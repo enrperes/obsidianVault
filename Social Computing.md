@@ -124,15 +124,71 @@ Confrontando i tre valori di centralità:
 > - From pages with high Page Rank
 > - Both: many high PageRank pages
 
+
 ![[Pasted image 20241015002532.png#invert|500]]
 Dove: 
 $r(v)$ = PageRank of $v$ 
 $I(v)$ = set of pages that link $v$ 
 $O(v)$ = set of pages linked from $v$
 
+Quindi il PageRank del nodo **V** è dato dalla sommatoria dei PageRank (primo insieme) diviso il numero di outlink di ogni pagina (cardinalità del secondo insieme)
+
 Each page $u$ has its PageRank value $r(u)$. 
 Page $v$ receives from page $u$ a portion of $u$'s PageRank equal to the portion received by any other page linked from $u$: 
 $$
 \Large \frac{r(u)}{|O(u)|}
 $$
-Each page $u$ distributes its PageRank value $r(u)$ to the linked pages (quelle in $O(u)$ ). 
+Each page $u$ distributes its PageRank value $r(u)$ to the linked pages (quelle in $O(u)$ ).
+PageRank values of all pages $u_{i}$ are collected in a vector $r$. 
+
+Serve una normalizzazione del PageRank, altrimenti cresce all'infinito: 
+$$
+\Large r(v)= c \cdot \sum_{u \in I(v)} \frac{r(u)}{|O(u)|}
+$$
+### Random Walks 
+Pensare a "each page distributes its PageRank value to the linked pages" come: 
+- User che nel browser naviga a caso nelle pagine web. 
+- parte da una pagina a caso 
+- Ad ogni step, sceglie un link a caso e lo segue. Ogni link ha la stessa probabilità. 
+Il PageRank si può quindi pensare come la *probabilità* che l'utente navighi su quella pagina durante un cammino random. 
+
+### Markov chain
+> Modo formale per rappresentare le Random Walks
+
+Definita da una matrice $P$, $n \times n$ con $n$ stati con delle probabilità di transizione. 
+Ovvero: è un grafo pesato con $n$ nodi (stati)
+
+![[Pasted image 20241015125730.png#invert|350]]
+
+$P_{ij}$ indica la probabilità che dal nodo $i$ si passi al nodo $j$. 
+
+Esempio:
+
+![[Pasted image 20241015125850.png#invert]]
+
+Probabilità che dal nodo 1 vado al nodo 2: $\Large \frac{3}{4}$
+Dal nodo 2 è più probabile stare nel nodo 2 ($\Large \frac{3}{4}$) che andare in 1. 
+
+### Probability Vector
+invece di rappresentare la posizione con il numero dello stato, si rappresenta con un vettore: 
+tutti 0, 1 in corrispondenza della posizione corrente. 
+
+Vantaggi: generalizzabile a posizioni con probabilità: valori da 0 a 1 in base alla probabilità di essere in quella posizione (la somma deve fare 1)
+
+### Step of the walk
+Quindi avendo la matrice e il vettore di probabilità si può rappresentare un passo della camminata con la moltiplicazione matrice x vettore. 
+
+![[Pasted image 20241015130851.png#invert]]
+Il vettore risultante indica le probabilità di passare da $i$ a $1\dots n$ (nel caso base, quando la probabilità è 1). 
+Avendo ad esempio 2 valori da 0.5 "sommano" il loro contributo nel risultato finale. 
+
+Si cerca $x$ tale che $\Large x = x \cdot P$ --> convergenza
+### Eigenvectors
+Quindi, per definizione, $x$ è l'autovettore di $P$. 
+Non sempre esiste: 
+
+### Ergodic Markov Chains
+> - A path exists from any state to any other state. (=grafo fortemente connesso)
+> - Ad ogni passo della camminata ci dev'essere una probabilità > 0
+> - Aperiodica: non devono esserci loop "infiniti"
+
