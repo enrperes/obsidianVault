@@ -36,10 +36,12 @@ Viene usato nella fase di progettazione di un database per ottenere una rapprese
  > [[Relazioni di grado superiore al secondo]]
  
 
-[[Esempio Offerta Alberghiera Udine]]
+# Esempi
 
+[[Esempio Offerta Alberghiera Udine]]
 [[Esempio Azienda]]
 [[Esempio Aeroporto]]
+[[Esempio Paleontologi]]
 
 ### Generalizzazione: 
 
@@ -52,9 +54,10 @@ Esistono diversi tipi di generalizzazione:
 
 > [!attention]  **Parziale / Totale** 
  > ![[Pasted image 20241015162058.png#invert|240]]
+ > Totale / parziale è in riferimento al contesto, non all'universo mondo (reale). 
  
 > [!attention]  **Disgiunta / Sovrapposta** 
- > Si indica accanto alla doppia freccia. 
+ > Si indica accanto alla doppia freccia scrivendo "disgiunta" o "sovrapposta"
 
 Es: uomo - donna: totale e disgiunta
 persona - disoccupato / lavoratore: parziale e disgiunta
