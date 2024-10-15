@@ -115,6 +115,7 @@ Confrontando i tre valori di centralità:
 - Low: Un nodo non ha una posizione centrale nella rete e le comunicazioni lo bypassano. 
 ![[Pasted image 20241014190335.png#invert|800]]
 
+![[Pasted image 20241015155002.png#invert]]
 
 ---
 

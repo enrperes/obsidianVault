@@ -40,3 +40,49 @@ Viene usato nella fase di progettazione di un database per ottenere una rapprese
 
 [[Esempio Azienda]]
 [[Esempio Aeroporto]]
+
+### Generalizzazione: 
+
+![[Pasted image 20241015154857.png#invert|450]]
+Se $E$ è una generalizzazione di $E_{1}, E_{2}\dots$: 
+- Ogni proprietà di $E$ è anche proprietà dei figli
+- Ogni istanza di $E_{i}$ è anche un'istanza di $E$ , non vale viceversa 
+
+Esistono diversi tipi di generalizzazione: 
+
+> [!attention]  **Parziale / Totale** 
+ > ![[Pasted image 20241015162058.png#invert|240]]
+ 
+> [!attention]  **Disgiunta / Sovrapposta** 
+ > Si indica accanto alla doppia freccia. 
+
+Es: uomo - donna: totale e disgiunta
+persona - disoccupato / lavoratore: parziale e disgiunta
+Persona - studente / lavoratore: parziale e con sovrapposizioni
+
+L'appartenenza di un'istanza dell'entità genitore ad una o più entità figlio può essere: 
+- Definita dall'utente: **user-defined**
+- **Attribute-defined / predicate-defined**: sulla base di certi attributi si definisce a quale figlio attribuire l'istanza. 
+
+#### Complicazioni: 
+Entità possono avere più specializzazioni. Una specializzazione può avere a sua volta delle ulteriori specializzazioni. 
+Ci possono essere entità che appartengono a più gerarchie di specializzazione (reticoli, invece che alberi)
+Il problema: diventa complicato il meccanismo di ereditarietà: **Ereditarietà multipla**. 
+- Non ereditare più volte stesse cose
+- Potenziali conflitti di attributi
+
+
+Le generalizzazioni vengono eliminate in fase di ristrutturazione, quando si traduce da ER a Modello relazionale. 
+
+
+### Tipi unione (o categorie)
+> Un genitore e uno o più figli
+
+Un figlio può essere coinvolto in più relazioni di generalizzazione 
+
+
+![[Pasted image 20241015161838.png#invert|500]]
+
+Insieme dei proprietari: sottoinsieme dell'unione di Persona, Banca, Azienda. 
+
+
