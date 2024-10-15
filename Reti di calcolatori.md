@@ -386,14 +386,30 @@ Idea generale:
 Usually k is constant and << n
 In Ethernet un frame con anche 12000 bit richiede solo 32-bit CRC
 
-### Cyclic Redundancy Check
-Used in DDCMP, HDLC, CSMA/CD, Token Ring...
-Other approaches include: Parity, Two dimensional Parity, Checksum. 
-7 bit + 1 bit di parità per raggiungere un numero pari di `1`.
+## Error Detection
+
+
+### One-dimensional parity
+7 bit + 1 bit di parità per raggiungere un numero pari di 1. Un numero pari di errori non è detected. 
 ![[Pasted image 20241011104744.png#invert|150]]
+### Two-dimensional parity
+Extra parity byte per tutto il frame, in aggiunta al parity bit per ogni byte. 1, 2, 3, 4(quasi) errori di bit vengono riconosciuti. Può anche essere usato per correggere la maggior parte di 1 e 2 bit errors. 
+Gli errori da 4 bit non sono riconosciuti se sono allineati nella stessa riga e colonna. 
+![[Pasted image 20241015094603.png#invert|200]]
 
+### Checksum
 
----
+1. Consider data as sequence of 16 bit integers
+2. Add them together using 16-bit (complemento a uno) and take the ones complement of the result. 
+3. The resulting 16-bit number is the **checksum**. 
+4. Transmit the checksum together with the message. 
+5. The receiver performs the same calculation on the received data and compares the result. 
+
+Used only in Network and Transport Layer. 
+
+### CRC
+Used in DDCMP, HDLC, CSMA/CD, Token Ring...
+
 
 
 
@@ -401,3 +417,41 @@ $$
 \Large
 A_{sup}= 2(H-r\cdot w)+w(l-2r)+\frac{1}{2}\pi r
 $$
+
+
+CRC is used to *detect* errors, not correct them. Corrupt frames are discarded and must be resent. 
+An **unreliable** link-level protocol leaves to higher level protocols the decision to retransmit messages. 
+- Ethernet, WiFi. 
+A **reliable** link-level protocol must recover from the discarded frames
+- PPP
+
+## Reliable Transmission
+Il 
+### ACK (Acknowledgment)
+> Small control frame sent from receiver to sender saying that it has received the earlier frame. 
+> It's a frame with header only, no data. 
+
+If the sender doesn't receive the ACK after some time, it resends the original frame. 
+The action of waiting for the ACK is called **timeout**. 
+Using ACK and timeouts to implement reliable delivery is called **Automatic Repeat Request (ARQ)**. 
+
+![[Pasted image 20241015104053.png#invert|450]]
+a) ACK received before the timer expires
+b) Original frame is lost
+c) ACK is lost ⚠️
+d) timeout fires too soon. ⚠️
+
+
+Problema caso C: 
+- Sender times out and retransmits the original frame. Receiver will think it's the next frame, since it has already sent the ACK. 
+- Duplicate copies of frames will be delivered. 
+Soluzione: 
+- Use 1 bit sequence. Each frame numbered (0 or 1). In case of timeout a frame is resent with the same number. The receiver can determine if it's a copy based on the number compared to the previous one. 
+
+![[Pasted image 20241015110755.png#invert]]
+
+### Sliding Window Protocol 
+
+The sender sends many frames during a RTT, even before receiving the first ACK, in order to fill the link capacity. Used sometimes at link level, more often transport Level. 
+TCP lo sfrutta a 16-bit. 
+![[Pasted image 20241015110836.png#invert|450]]
