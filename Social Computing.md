@@ -61,28 +61,38 @@ Di solito per rappresentare i problemi su una rete si usano grafi e risultati de
 ## Misura delle reti 
 
 ### Degree centrality 
-più è alto il grado di un nodo, più è centrale. 
-$$
-\Large C_{d}(v_{i})=d_{i}
-$$
-$d_{i}$ è il grado (numero di amici) del nodo $v_{i}$ 
-Esempio: 
+> più è alto il grado di un nodo, più è centrale. 
 
+
+> [!abstract]+ Definizione
+> $d_{i}$ è il grado (numero di amici) del nodo $v_{i}$ 
+> Nei grafi diretti (le connessioni hanno direzione), degree centrality si divide in grado uscente e entrante: **in-degree**, **out-degree**. 
+> $$
+> \Large C_{d}(v_{i})=d_{i}
+> $$
+
+*Esempio:* 
 Degree centrality di $v_{i}$ è $d_{1} = 8$ 
 Per gli altri $d_{j}=1, j\neq 1$ 
-![[Pasted image 20241008150018.png#invert|310]]
+
+![[Pasted image 20241008150018.png#invert|300]]
+
 
 #### Centralità di grado nei grafi diretti 
-
-[...]
-
+**in-degree:** numero di archi entranti 
+**out-degree**: numero di archi uscenti. 
 #### Centralità di grado normalizzata
+Consente di confrontare nodi di grafi di dimensioni diverse. 
+$$
+\Large C_{D}(v) = \frac{deg(v)}{N-1}
+$$
+Dove N-1 è il massimo di connessioni possibili per un nodo: non può connettersi a tutti gli altri N-1 nodi del grafo. 
+Stessa cosa vale per in e out degree. 
 
-[...]
+### Betweenness centrality 
+Altro modo di esprimere la centralità "quanto uno è in mezzo ai piedi". Identifica i nodi che agiscono come ponti tra altre coppie di nodi. 
 
-#### Betweenness centrality 
-Altro modo di esprimere la centralità "quanto uno è in mezzo ai piedi"
-*Quanto un nodo è importante nel connettere altri nodi tramite cammini* (si guardano solo gli shortest path)
+> *Quanto un nodo è importante nel connettere altri nodi tramite cammini* (si guardano solo gli shortest path)
 $$
 \Large C_{b}(v_{i}) = \sum_{{s\neq t\neq v_{i}}} \frac{\sigma_{st}(v_{i})}{\sigma_{st}}
 $$
@@ -91,17 +101,33 @@ $\Large \sigma_{st}(v_{i})$ = numero di cammini più corti da s a t che passano 
 
 $\Large \sigma_{st}$ = numero di cammini più corti dal nodo s al nodo t (information pathways)
 
+> [!abstract]+  **Betweenness centrality** 
+ > Alta B.C. è fondamentale per il flusso di info nella rete. Tante interazioni tra nodi devono passare tra di esso: intermediario cruciale
+ > Bassa B.C. ha poca influenza sui cammini tra altri nodi. è periferico o ridondante rispetto alla connessione globale della rete. 
+
 ![[Pasted image 20241008150747.png#invert|650]]
+Nell'esempio infattti V₂ ha Betweenness Centrality maggiore. 
+
 #### Betweenness centrality normalizzata
+Il numero massimo di cammini possibili tra qualsiasi coppia di nodi $s$ e $t$ è: $\frac{(N-1)(N-2)}{2}$ per i grafi non diretti. Per i grafi diretti non dividere per 2. 
+Quindi il valore normalizzato: 
+$$
+\Large C_{b}^{n}= \frac{C_{b}(v)}{\frac{(N-1)(N-2)}{2}}
+$$
+(Per i grafi non diretti)
+### Closeness Centrality 
 
-[...]
+> [!abstract]+  **** 
+ > Misura quanto un nodo è vicino agli altri, la sua accessibilità all'interno del grafo considerando la somma delle distanze tra quel nodo e tutti gli altri. 
+ > Definita come l'inverso della somma delle distanze più brevi dal nodo v a tutti gli altri nodi del grafo. 
+ > $$
+> C_{c}(v)=\frac{1}{\sum_{u\neq v}d(v,u)}
+> $$
 
-#### Centralità di vicinanza
-[...]
+Un nodo con alta C.C. è *vicino* in termini di cammini minimi a molti altri nodi. 
+Un nodo con bassa C.C. necessita di più passaggi per raggiungere la maggior parte degli altri nodi. 
 
-Confrontando i tre valori di centralità: 
-
-
+Riassumendo: 
 ### Degree centrality 
 - High Degree: Un nodo (persona o entità) ha molte connessioni o collegamenti diretti con altri nodi 
 - Low Degree: Un nodo ha poche connessioni
@@ -120,6 +146,11 @@ Confrontando i tre valori di centralità:
 ---
 
 ## PageRank
+> [!info]+  **Fortuna di Google?** 
+ > Non è la principale ragione per cui Google ha preso il monopolio: 
+ > - non era l'unica innovazione 
+ > - PageRank è solo il primo rudimentale algoritmo 
+
 > PageRank of page $u$ is high if $u$ is linked from pages with high PageRank. 
 > - From many pages
 > - From pages with high Page Rank
@@ -127,6 +158,7 @@ Confrontando i tre valori di centralità:
 
 
 ![[Pasted image 20241015002532.png#invert|500]]
+
 Dove: 
 $r(v)$ = PageRank of $v$ 
 $I(v)$ = set of pages that link $v$ 
