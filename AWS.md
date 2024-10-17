@@ -132,7 +132,7 @@ I DBMS:
 Un modello di dati fornisce un insieme di costrutti per l'organizzazione dei dati: 
 - Gerarchico 
 - a grafo
-- [[modello relazionale]]
+- [[Modello relazionale]]
 - a oggetti
 - [[NoSQL (Not Only SQL)]]
 I modelli dei dati sono chiamati modelli logici: i loro costrutti riflettono una particolare struttura 

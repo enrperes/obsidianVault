@@ -1,29 +1,25 @@
-è un modello logico che si basa sulla rappresentazione dei dati sotto forma di tabelle (relazioni) 
-- Ogni tabella contiene righe e colonne: 
-	- Righe = record specifici 
-	- Colonne = attributi dei dati 
+> Modello dei dati basato sui **record** e sui **valori**. 
+
+
+Record: spazio a disposizione per definire i valori è predefinito. 
+
+Modello logico che si basa  sulla rappresentazione dei dati sotto forma di *tabelle* (relazioni) 
+Ogni tabella contiene righe e colonne: 
+- Righe = record specifici 
+- Colonne = attributi dei dati 
 
 Le chiavi primarie e le chiavi esterne sono usate per definire le relazioni tra tabelle e garantire l'integrità referenziale. 
 Viene poi implementato nel DBMS (MySQL, PostgreSQL...)
 
-
-
-Concetti fondamentali: 
-- Entità 
-
-
+> [!failure]  **** 
+ > No attributi composti 
+ > No attributi multivalore
  
 
-
-![[Pasted image 20240610141153.png#invert|400]]
-
----
-
-1 costrutto fondamentale: Relazione (=Tabella)
-Anche il modello relazionale è basato sui valori 
-
-> [!info]+ Esempio
+> [!info]- Esempio
 > ###  Esempio: 
+>
+> ![[Pasted image 20240610141153.png#invert|400]]
 > **Tabella cliente:** 
 > 
 >
@@ -94,4 +90,19 @@ Anche il modello relazionale è basato sui valori
 > | NRE     | 24  | 03/10/2023 |
 > 
 > Data, Cliente, CC sono **chiavi esterne** di *Possiede*
+
+---
+
+## Costrutti fondamentali
+
+- **Dominio (di un attributo)**
+	- Insieme di valori atomici in prima forma normale 
+	- Valore `NULL` (non noto o non si applica)
+	- Possibilità di definizione *globale*
+- **Attributo (o colonna)**
+	- Può avere o meno un *nome*. Avere un nome può creare complicazioni: Se due tabelle hanno un attributo con lo stesso nome e vengono joinate: *clash* (?)
+	- Operazione *rinomina* consente di rinominare attributi in caso di Join. 
+	- 
+- **Relazione (o tabella)**
+- **Tupla (o riga)**
 

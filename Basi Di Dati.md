@@ -54,7 +54,7 @@ Due modi:
 - [[Modello Entità-Relazioni]]
 	- Grafico, basato sui valori 
 	- Rappresentato con [[schemi concettuali]] 
-- [[Modello Relazionale]] 
+- [[Modello relazionale]] 
 
 Progettazione DB = passaggio da modello ER a modello relazionale 
 
@@ -167,7 +167,7 @@ $\color{orange}\large\text{A tre strati}$: Client agisce come front-end e non ef
 
 ---
 
-## - [[modello relazionale]]
+## - [[Modello relazionale]]
 
 ## - [[Modello Entità-Relazioni ]]
 
