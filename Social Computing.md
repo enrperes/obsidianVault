@@ -165,19 +165,25 @@ $I(v)$ = set of pages that link $v$
 $O(v)$ = set of pages linked from $v$
 
 Quindi il PageRank del nodo **V** è dato dalla sommatoria dei PageRank (primo insieme) diviso il numero di outlink di ogni pagina (cardinalità del secondo insieme)
-
-Each page $u$ has its PageRank value $r(u)$. 
-Page $v$ receives from page $u$ a portion of $u$'s PageRank equal to the portion received by any other page linked from $u$: 
+Ogni pagina $u$ contribuisce al PageRank delle pagine successive. 
+Quindi $v$ riceve da $u$ una parte del PageRank di $u$.
 $$
 \Large \frac{r(u)}{|O(u)|}
 $$
-Each page $u$ distributes its PageRank value $r(u)$ to the linked pages (quelle in $O(u)$ ).
-PageRank values of all pages $u_{i}$ are collected in a vector $r$. 
 
 Serve una normalizzazione del PageRank, altrimenti cresce all'infinito: 
 $$
-\Large r(v)= c \cdot \sum_{u \in I(v)} \frac{r(u)}{|O(u)|}
+\Large \forall v,  r(v)= c \cdot \sum_{u \in I(v)} \frac{r(u)}{|O(u)|}
 $$
+Tutti i valori PageRank delle pagine $u_{i}$ sono raccolti in un vettore $\Large r$, calcolato in modo iterativo, fino alla convergenza. Per aggiornare $\Large r$ si moltiplica per la matrice $\Large P$, che rappresenta i valori di probabilità di transizione tra pagine. (vedi sotto)
+Si ottiene: 
+$$
+\Large r_{i+1}=r_{i}\cdot P
+$$
+Il processo viene ripetuto fino a quando si soddisfa la condizione di terminazione, che può essere: 
+- $r_{i+1}=r_{i}$ 
+- $|r_{i+1} - r_{i}| < \varepsilon$ 
+Quando la convergenza è raggiunta, il vettore $r$ contiene i valori di PageRank finali di tutte le pagine. 
 ### Random Walks 
 Pensare a "each page distributes its PageRank value to the linked pages" come: 
 - User che nel browser naviga a caso nelle pagine web. 

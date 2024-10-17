@@ -534,4 +534,3 @@ Star Topology: Hub (ripetitore multiporta), da non confondere con lo Switch.
 ogni twisted pair può essere visto come un singolo segmento Ethernet: uno dei due trasmette e l'altro riceve. 
 - One pair from hub to host, one form host to hub. Independent, so full duplex. 
 - The other 2 pairs are unused in 10BaseT, used in 100 and 1000BaseT
-- 
