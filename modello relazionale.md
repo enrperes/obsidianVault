@@ -99,10 +99,33 @@ Viene poi implementato nel DBMS (MySQL, PostgreSQL...)
 	- Insieme di valori atomici in prima forma normale 
 	- Valore `NULL` (non noto o non si applica)
 	- Possibilità di definizione *globale*
-- **Attributo (o colonna)**
+- **Attributo (o colonna)** $A$  
 	- Può avere o meno un *nome*. Avere un nome può creare complicazioni: Se due tabelle hanno un attributo con lo stesso nome e vengono joinate: *clash* (?)
 	- Operazione *rinomina* consente di rinominare attributi in caso di Join. 
-	- 
+		- `AS` in SQL
+		- Oppure `nometabella.nome` 
 - **Relazione (o tabella)**
+	- istanza = insieme di tuple (es. clienti concreti)
+		- $r(R)$ o $r \in R$ 
+	- Schema = insieme degli attributi $R(A_{1},\dots,A_{2})$ 
+		- Grado di relazione = numero degli attributi
 - **Tupla (o riga)**
+	-  Tupla $t = \langle v_{1}, \dots, v_{n} \rangle$ 
 
+
+### Caratteristiche delle relazioni
+#### Schema di una base di dati relazionale
+> insieme di schemi di relazione + insieme di vincoli di integrità 
+
+#### Istanza di una base di dati relazionale
+> Insieme di istanze di relazione che soddisfano i vincoli di integrità. 
+
+I **Vincoli di integrità** possono essere: 
+- [[Vincoli intra-relazionali]]
+	- Che coinvolgono una o più tuple di una singola relazione
+- [[Vincoli inter-relazionali]]
+	- Coinvolgono tuple appartenenti a relazioni diverse 
+
+Per relazioni molti-a-molti si crea una tabella per la relazione
+
+[[Esempio Azienda]]

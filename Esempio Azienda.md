@@ -6,6 +6,8 @@ Metodologia di progettazione: bottom up:
 1. Identificare entità 
 2. definire attributi che definiscono le entità 
 
+
+### E/R
 ![[Sketch 3.png#invert]]
 
 Quando c'è un loop bisogna sempre prestare attenzione alle inconsistenze.
@@ -19,7 +21,12 @@ Possibile correzione: Sostituire Afferisce - impiegato con (0, 1). Soluzione che
 Vincoli di integrità 
 Regole di derivazione
 
+### Relazionale
 
+![[Pasted image 20241017170329.png#invert]]
 
+*Manager* = chiave esterna di **dipartimento**, che va in **impiegato**
+*Dip* = chiave esterna di **Impiegato** che finisce su **Dipartimento** 
 
+Situazione conflittuale che va risolta (?)
 
