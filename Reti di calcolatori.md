@@ -426,12 +426,12 @@ A **reliable** link-level protocol must recover from the discarded frames
 - PPP
 
 ## Reliable Transmission
-Il 
+
 ### ACK (Acknowledgment)
 > Small control frame sent from receiver to sender saying that it has received the earlier frame. 
 > It's a frame with header only, no data. 
-
 If the sender doesn't receive the ACK after some time, it resends the original frame. 
+
 The action of waiting for the ACK is called **timeout**. 
 Using ACK and timeouts to implement reliable delivery is called **Automatic Repeat Request (ARQ)**. 
 
@@ -452,6 +452,86 @@ Soluzione:
 
 ### Sliding Window Protocol 
 
+Usato da PPP. Affidabile. Mantiene l'ordine dei frame (che sono numerati). Usato a livello 4, meno spesso al livello 2. Il receiver può fermare o rallentare il sender, se non manda gli ACK. 
+
 The sender sends many frames during a RTT, even before receiving the first ACK, in order to fill the link capacity. Used sometimes at link level, more often transport Level. 
 TCP lo sfrutta a 16-bit. 
+L'idea è di spedire i frame durante il RTT, che parte dalla spedizione del primo frame fino al suo ACK. 
 ![[Pasted image 20241015110836.png#invert|450]]
+- **RWS**: Receiving windows size.
+- **LAF**: Largest Acceptable Frame (sequence number)
+- **LFR**: Last Frame Received (sequence number)
+
+![[Pasted image 20241017093752.png#invert|450]]
+
+
+- Negative Acknowledgment (**ACK**)
+	- es: Arriva frame n.7, receiver non ha ricevuto il n.6: invia NAK del n.6
+- Additional Acknowledgement
+- Selective Acknowledgement 
+
+**SWS** si calcola con: $\text{Delay}\times \text{Bandwidth}$. 
+**RWS** può essere variabile: 
+- RWS = 1: no buffer al receiver per frame che arrivano fuori ordine
+- RWS > SWS: il buffer non verrà mai riempito 
+- RWS < SWS
+- RWS = SWS = 1: è lo stop and wait ARQ 
+	- If RWS = SWS then: SWS <= (MaxSeqNum +1)/2 = $2^{n-1}$ 
+	- 
+
+(pag 76+)
+
+
+## Ethernet - IEEE 802.3
+
+Mid 1970s by Bob Metcalfe at Palo Alto Research Centers (PARC)
+Standard defines both: 
+- Physical layer (lvl 1): medium, signals, encoding...
+- DataLink layer (lvl 2): Frame format, error handling, media access control (MAC)
+
+### CSMA/CD
+> Carrier Sense Multiple Access with Collision Detection. 
+
+Nodes can distinguish between idle and busy link. 
+Multiple Link means that all nodes can access the link at the same time. 
+
+## 10Base5
+> 10Mbps, Baseband(digital), 5=500m (max length)
+
+Manchester Encoding System: 
+- 0V when idle
+- +- 0.85V when transmitting 
+- Onda quadra a 10MHz --> 10Mbps
+#### Transceiver 
+
+
+![[Pasted image 20241017105309.png#invert|350]]
+![[Pasted image 20241017110951.png#invert|450]]
+
+A livello Ethernet non si usa più questa tecnologia, obsoleta già negli anni 80. 
+
+Un segnale viene propagato lungo tutto il cavo in entrambe le direzioni. Per evitare "eco" un resistore è posizionato alle estremità, in modo da assorbire il segnale. 
+
+
+Segmenti Ethernet possono essere collegati da Repeater: dispositivo che decodifica e ri-codifica segnali digitali da entrambe le direzioni. Bit-by-bit, non c'è il concetto di frame, CRC....
+Numero massimo di repeater = 4: 10Base5 Ethernet ha lunghezza massima 2500m. 
+
+
+![[Pasted image 20241017110833.png#invert|450]]
+### 10Base2, 10BaseT
+
+10Base2: Thinner, cheaper, coaxial cable. 10Mbps, no longer than 200m. 
+10BaseT: T = Twisted pair. Limitato a 100m. 4B/5B Encoding and MLT-3. 
+![[Pasted image 20241017111332.png#invert|150]]
+
+![[Pasted image 20241017111411.png]]
+
+## 10BaseT
+Quando riceve un Frame in una porta, l'Hub lo inoltra a tutte le sue porte, dopo un CRC check, usando lo store-and-forward. Non opera bit-by-bit come il Transceiver. Questo comporta un tempo di trasmissione doppio (+ il tempo di elaborazione dell'HUB)
+Star Topology: Hub (ripetitore multiporta), da non confondere con lo Switch.
+![[Pasted image 20241017111835.png#invert]]
+
+ogni twisted pair può essere visto come un singolo segmento Ethernet: uno dei due trasmette e l'altro riceve. 
+- One pair from hub to host, one form host to hub. Independent, so full duplex. 
+- The other 2 pairs are unused in 10BaseT, used in 100 and 1000BaseT
+- 
