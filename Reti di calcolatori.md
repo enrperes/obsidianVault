@@ -534,3 +534,60 @@ Star Topology: Hub (ripetitore multiporta), da non confondere con lo Switch.
 ogni twisted pair può essere visto come un singolo segmento Ethernet: uno dei due trasmette e l'altro riceve. 
 - One pair from hub to host, one form host to hub. Independent, so full duplex. 
 - The other 2 pairs are unused in 10BaseT, used in 100 and 1000BaseT
+
+### Ethernet Frame Format
+
+![[Pasted image 20241018094500.png#invert|800]]
+- Il *Preamble* (7 bytes `10101010` ) in 10Base-5 e 10Base-2 genera un'onda quadra a 10MHz. Permette al ricevitore di sincronizzarsi con il segnale. 
+- *SFD* = Start of Frame Delimiter è composto da 8 bit (`10101011`) e indica l'inizio di un frame. 
+- *Host and Destination Address*: 48 bit each
+- *VLAN* tag (optional, 4 bytes)
+- *Packet Type* (2 byte): demux key to identify the higher level protocol 
+- *Data*: 64~1500 bytes. 
+- *CRC-32* (32 bit)
+- End of frame is implicit with loss of carrier. 
+
+Overall: 14(+4) bytes header, 4 bytes trailer + 8 bytes of preamble and SFD (not part of the frame)
+
+#### Ethernet Addresses 
+
+Ogni scheda Ethernet ha un numero **Ethernet Address**, composto da 48 bit. 
+Limite teorico di $2^{48}$ indirizzi
+L'indirizzo appartiene alla scheda di rete, non l'host. Memorizzata nella memoria della scheda di rete. 
+Es: `8:0:2b:e4:b1:2` , dove i primi 3 byte sono assegnati alla Digital Equipment Corporation (DEC)
+
+
+### Ethernet Receiver Algorithm 
+Ogni frame inviato viene ricevuto da tutti gli adaptor connessi a Ethernet. 
+Ogni scheda di rete riconosce i frame indirizzati al suo address, controlla CRC e poi lo passa all'host --> **unicast frames**. (quelli con indirizzo diverso vengono ignorati)
+Gli indirizzi **broadcast**, tutti 1, vengono passati all'host da tutte le schede di rete. 
+
+### Ethernet Transmitter Algorithm 
+Commonly called **MAC: Media Access Control**. 
+Implementato nell'hardware della scheda di rete. 
+Quando deve spedire un frame: 
+1. Se la linea è in *idle*, transmette il frame subito 
+	1. Il limite di 1500bytes indica the la linea può essere occupata per un certo limite di tempo
+2. Se la linea è *occupata*, aspetta che vada in idle, poi trasmette subito. 
+
+#### CSMA/CD
+3 Stati: 
+- **Idle**: non ci sono frame da trasmettere
+- **Contention**: Un frame sta venendo trasmesso e qualcuno è in attesa di trasmettere
+- **Transmission**: una (o più) stazioni stanno trasmettendo. 
+è possibile che due dispositivi inizino a trasmettere allo stesso tempo: *collisione*. I segnali sono sovrapposti e non possono essere decodificati correttamente. 
+
+*collision detection*: differenza tra segnale che ricevo e trasmetto = 0. Altrimenti viene segnalata una collisione e il frame viene abortito. (minimo 96 bits)
+Viene spedita una *jamming sequence*, per segnalare. 
+
+Il caso peggiore è quando i due host sono agli estremi opposti del cavo ethernet (max 2500m) e il tempo minimo di ascolto per accorgersi di una collisione è = 2* tempo di propagazione del segnale (andata e ritorno): motivo della lunghezza minima di 64 byte 
+RTD (Round Trip Delay) = $25.6\mu s$ 
+
+### Ethernet Transmitter Algorithm 
+![[Pasted image 20241018104323.png#invert]]
+[...]
+
+### Ethernet efficiency 
+
+Pacchetti più grandi aumentano l'efficienza del canale
+
