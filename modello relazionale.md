@@ -122,10 +122,15 @@ Viene poi implementato nel DBMS (MySQL, PostgreSQL...)
 
 I **Vincoli di integrità** possono essere: 
 - [[Vincoli intra-relazionali]]
-	- Che coinvolgono una o più tuple di una singola relazione
+	- Relativi a un singolo valore di una singola tupla
+		- Vincolo di dominio
+		- Vincolo di `NOT NULL` 
+	- Vincoli che coinvolgono più valori di una singola tupla
+		- Es: la `LODE` può essere assegnata solo con `VOTO=30` . 
 - [[Vincoli inter-relazionali]]
 	- Coinvolgono tuple appartenenti a relazioni diverse 
 
 Per relazioni molti-a-molti si crea una tabella per la relazione
 
 [[Esempio Azienda]]
+

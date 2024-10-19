@@ -11,3 +11,8 @@ $\forall t_{1} \in r_{1}$ = tutte le tuple di un'istanza
 
  = Gli impiegati possono stare solo nei dipartimenti elencati nella tabella dipartimento 
  Vale solo quando tutte le tuple sono $\neq$ `NULL` 
+
+
+Operazioni di cancellazione possono violare vincoli inter-relazionali: 
+Es: un dipartimento fa riferimento a un impiegato che non c'è più. A volte non è un problema: Es: Persona a carico di impiegato che se ne va 
+

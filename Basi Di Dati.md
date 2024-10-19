@@ -167,9 +167,11 @@ $\color{orange}\large\text{A tre strati}$: Client agisce come front-end e non ef
 
 ---
 
-## - [[Modello relazionale]]
+### - [[Modello relazionale]]
 
-## - [[Modello Entità-Relazioni ]]
+### - [[Modello Entità-Relazioni ]]
 
+![[Pasted image 20241018160048.png#invert|400]]
 
+## [[Logical Design]]
 

@@ -8,3 +8,7 @@ es: la LODE può essere assegnata solo se VOTO = 30
 Vincoli che coinvolgono più tuple di una singola tabella 
 - Vincolo di chiave: specifica delle chiavi candidate 
 - vincolo di integrità dell'entità: il valore della chiave primaria non può essere NULL
+
+Possono essere violati con operazione di inserimento. 
+
+Operazioni di cancellazione non violano nessun vincolo intra relazionale
