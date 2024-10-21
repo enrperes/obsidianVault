@@ -5,4 +5,3 @@ Cap. 7 di **Basi di dati**, Atzeni e Ceri 6th ed.
 
 ---
 
-
