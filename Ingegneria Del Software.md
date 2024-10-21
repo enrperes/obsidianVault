@@ -366,5 +366,68 @@ Aiuta a sviluppare il senso di proprietà del codice nel team e a diffondere la 
 Può essere meno efficiente per programmatori esperti o quando c'è troppa differenza di esperienza. 
 
 
+# Gestione agile della progrmmazione
+
+## SCRUM
+> Metodo agile che offre un framework per organizzare agilmente progetti e fornire una visibilità *esterna* su ciò che accade dentro il team di sviluppo del prodotto software. 
+
+![[Pasted image 20241021104247.png#invert]]
+
+Ogni sprint parte dal product backlog: lista degli elementi, requisiti e miglioramento dell'ingegnerizzazione. La versione iniziale è derivata da un documento dei requisiti. 
+All'inizio di ogni ciclo, il *product owner* stabilisce le priorità del product backlog per definire gli elementi più importanti da sviluppare. Product Owner può essere un cliente, product manager o altro stakeholder. Tutti i membri del team sono coinvolti nella scelta degli elementi con priorità più alta che dovranno essere completati. Il tempo richiesto per completare questi elementi è in base alla **velocità**, una stima basata sul backlog di quanto lavoro può essere svolto in uno sprint. 
+Il team deve avere un dialogo continuo e un numero di componenti tra 5-7
+Lo ScrumMaster guida il team nell'uso efficiente di Scrum. Interfaccia con il resto della società, diverso da un project manager classico. Una riunione giornaliera esamina l'avanzamento del lavoro e stabilisce le priorità. Si usano whiteboard (digitali come Trello, Slack...)
+Al termine di uno sprint, il software dovrebbe essere rilasciabile, almeno per il testing. Nella pratica non succede. 
+Alla fine di ogni sprint c'è una riunione di verifica: migliorare il processo e input sullo stato per la revisione del product backlog. 
+
+# Requisiti 
+
+> Descrizione di qualcosa che il sistema dovrà fare oppure una proprietà o vincolo operativo che si desidera per il sistema. 
+
+Può essere una formulazione astratta, di alto livello, in linguaggio naturale oppure una specifica dettagliata, in linguaggio formale matematico. 
+
+L'ingegneria dei requisiti è il processo di ricerca, analisi, documentazione e verifica dei requisiti. 
+
+### Requisiti utente
+- Frasi in linguaggio naturale (+eventuali diagrammi) relative alle funzionalità che il sistema deve fornire + vincoli operativi. 
+- Alto livello, comprensibile a tutti gli utenti, anche stupidi. 
+### Requisiti di sistema
+- Documento strutturato con descrizione dettagliata delle funzionalità + vincoli operativi. 
+- Definisce cosa va sviluppato 
+- Può essere parte del contratto fra cliente e sviluppatore
 
 
+### Requisiti funzionali 
+> Descrizione di ciò che il sistema dovrebbe fare, come reagisce agli input (le *funzionalità*)
+
+Anche questi espressi in due livelli di astrazione:  utente e di sistema. 
+Le specifiche dei requisiti devono essere complete e consistenti: 
+- Tutti i requisiti richiesti devono essere presenti
+- Non devono esserci definizioni contradditorie o in conflitto. 
+
+### Requisiti non funzionali 
+> Vincoli sulle funzionalità offerte dal sistema o vincoli sul processo di sviluppo 
+> Includono i requisiti di qualità 
+
+Non riguardano le funzionalità offerte dal sistema, definiscono le proprietà e i vincoli del sistema
+- Proprietà del sistema (affidabilità, tempi di risposta, uso memoria...)
+- Vincoli del sistema (capacità dispositivi I/O)
+- Vincoli processo di sviluppo (Uso di particolari standard per la documentazione, linguaggi di prog. specifici...)
+Possono essere difficili da definire precisamente, quindi da verificare. Dovrebbero essere verificabili in modo oggettivo. 
+
+Misure per verificare requisiti non funzionali: 
+
+![[Pasted image 20241021115018.png#invert|700]]
+
+### Requisiti di dominio
+Possono essere funzionali o non funzionali, derivano dal dominio applicativo del sistema. (norme e standard del dominio medico, ferroviario...)
+Talvolta sono informazioni ovvie per gli esperti ma non per gli sviluppatori. 
+
+---
+
+L'ingegneria dei requisiti è formata quindi da tre attività chiave: 
+1. **Deduzione e analisi dei requisiti** (comprensione con interazione con stakeholder)
+2. **Specifica dei requisiti** (traduzione in specifiche in un formato coerente)
+3. **Convalida dei requisiti** (controllo che corrispondano alle richieste del cliente)
+
+ 
