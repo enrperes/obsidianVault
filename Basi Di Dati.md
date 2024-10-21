@@ -3,6 +3,7 @@ tags:
   - materia
 ---
 [[info - Basi di dati]]
+[[Lab - Basi di dati]]
 
 ---
 ## Argomenti del corso

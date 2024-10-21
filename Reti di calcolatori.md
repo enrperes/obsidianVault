@@ -520,16 +520,18 @@ Numero massimo di repeater = 4: 10Base5 Ethernet ha lunghezza massima 2500m.
 ![[Pasted image 20241017110833.png#invert|450]]
 ### 10Base2, 10BaseT
 
+![[Pasted image 20241017111332.png#invert|left|150]]
+
 10Base2: Thinner, cheaper, coaxial cable. 10Mbps, no longer than 200m. 
 10BaseT: T = Twisted pair. Limitato a 100m. 4B/5B Encoding and MLT-3. 
-![[Pasted image 20241017111332.png#invert|150]]
 
-![[Pasted image 20241017111411.png]]
+![[Pasted image 20241017111411.png|400]]
+
 
 ## 10BaseT
 Quando riceve un Frame in una porta, l'Hub lo inoltra a tutte le sue porte, dopo un CRC check, usando lo store-and-forward. Non opera bit-by-bit come il Transceiver. Questo comporta un tempo di trasmissione doppio (+ il tempo di elaborazione dell'HUB)
 Star Topology: Hub (ripetitore multiporta), da non confondere con lo Switch.
-![[Pasted image 20241017111835.png#invert]]
+![[Pasted image 20241017111835.png#invert|left|400]]
 
 ogni twisted pair può essere visto come un singolo segmento Ethernet: uno dei due trasmette e l'altro riceve. 
 - One pair from hub to host, one form host to hub. Independent, so full duplex. 
@@ -584,7 +586,7 @@ Il caso peggiore è quando i due host sono agli estremi opposti del cavo etherne
 RTD (Round Trip Delay) = $25.6\mu s$ 
 
 ### Ethernet Transmitter Algorithm 
-![[Pasted image 20241018104323.png#invert]]
+![[Pasted image 20241018104323.png#invert|500]]
 [...]
 
 ### Ethernet efficiency 
