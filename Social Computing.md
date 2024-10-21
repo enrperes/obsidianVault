@@ -365,7 +365,115 @@ Relevant: [The Strength of weak ties](https://www.jstor.org/stable/pdf/2776392.p
 
 
 ## Transitività e Reciprocità 
-Transitività = Se A amico di B e B amico di C, A amico di C
-Reciprocità = A amico di B, B amico di A
+Misurano proprietà di un insieme di nodi.
+**Transitività** = Se A amico di B e B amico di C, A amico di C
+
+![[Pasted image 20241021083827.png#invert|100]]  
+
+Nei grafi diretti può avere senso chiedersi se vale $cRa$ o $aRc$. 
+Grafo completo != Transitività, però più o completo più è vicino alla transitività. 
+
+Ci sono due indici di transitività: 
+- ★ Coefficiente di clustering *locale*
+	- Misura la transitività a livello dei singoli nodi: quanto i vicini di un nodo $v$ sono a loro volta connessi. 
+$$
+\large c(v_{i}) = \frac{\text{coppie di vicini di v che sono connesse}}{\text{Coppie di vicini di v}}
+$$
+Fornisce un modo per determinare i "buchi strutturali", dove mancano archi e quindi i nodi non comunicano. 
+[[Esempio coefficiente clustering locale]]
+
+- Coefficiente di clustering *globale* 
+	- Relativo a tutta la rete 
+Misura la transitività in grafi indiretti. 
+
+Siccome ogni triangolo ha 6 cammini chiusi di lunghezza 2: 
+$$
+\large C = \frac{\text{(number of Triangles)}\times 6}{\mid\text{Paths of Length 2}\mid}
+$$
+
+
+
+**Reciprocità** = A amico di B, B amico di A 
+
+![[Pasted image 20241021083755.png#invert|100]]
+
+è una versione semplificata della transitività, considera cicli di lunghezza 2. 
+Per calcolarla: contare il numero di coppie reciproche nel grafo, usando la matrice di adiacenza. 
+
+$$
+\large R = \frac{\sum_{i,j,i<j}A_{i,j}A_{j,i}}{\frac{\mid E\mid}{2}}
+$$
+![[Pasted image 20241021090930.png#invert|600]]
+
+Dopo aver calcolato il quadrato della matrice, si sommano gli elementi della diagonale e si divide per $\frac{1}{m}$, il numero totale di archi possibili. 
+
+
+## Bilanciamento 
+### Bilanciamento sociale
+X e Y sono amici, Y e Z sono amici, X e Z sono nemici. 
+(reti indirette)
+
+La teoria del bilanciamento sociale modella la **coerenza** nelle relazioni amico / nemico. 
+- Amico di mio amico è mio amico
+- Amico di mio nemico è nemico
+- Nemico di mio nemico è amico
+- Nemico di mio amico è nemico 
+Si modella in reti e grafi con "+" e "-" (signed graph)
+Un triangolo di nodi è bilanciato sse: 
+$\Large w_{ij}w_{jk}w_{ki}\geq 0$ 
+### Status sociale
+(reti dirette)
+Se X è superiore a Y e Y è superiore a Z
+E Z è superiore a Y --> Problema. 
+
+# Distribuzioni
+## Power law
+(polinomio inverso)
+Molti reti "reali" mostrano una distribuzione dei gradi power law. 
+In una distribuzione Power Law: 
+- i valori piccoli sono comuni
+- I valori grandi sono estremamente rari (non impossibili, diverso da una distribuzione gaussiana)
+
+![[Pasted image 20241021094814.png#invert|500]]
+$$
+\Large f(k) \approx \frac{1}{k^{\alpha}}
+$$
+
+```functionplot
+---
+title: Power Law
+xLabel: 
+yLabel: 
+bounds: [-1,8,-1,8]
+disableZoom: true
+grid: true
+---
+f(x) = 1/x
+g(x) = 1/x^2
+h(x) = 1/2.71^x^2
+```
+
+
+In un grafico con scala log/log diventa una retta. 
+
+Es: 
+- Popolarità siti web: 
+	- Molti siti visitati meno di 1000 volte al mese
+	- Pochi siti visitati milioni di volte al giorno
+- Amicizia
+	- Tanti individui con pochi amici 
+	- Pochi individui con migliaia di amici 
+- Distribuzione dei gradi
+	- Molti nodi con grado basso 
+	- Pochi nodi con grado alto
+### PL - Degree Distribution 
+La frequenza di un evento cambia in funzione della potenza di un attributo 
+$$
+\Large p_{d} = ad^{-b}
+$$
+Pd = Fraction of users with degree d
+a = Power law intercept 
+d = node degree
+-b = esponente, range tipico [2, 3]
 
 
