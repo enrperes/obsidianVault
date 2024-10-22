@@ -366,38 +366,35 @@ Relevant: [The Strength of weak ties](https://www.jstor.org/stable/pdf/2776392.p
 
 ## Transitività e Reciprocità 
 Misurano proprietà di un insieme di nodi.
-**Transitività** = Se A amico di B e B amico di C, A amico di C
 
-![[Pasted image 20241021083827.png#invert|100]]  
-
+### Transitività
+![[Pasted image 20241021083827.png#invert|left|100]] 
+Se A amico di B e B amico di C, A amico di C
 Nei grafi diretti può avere senso chiedersi se vale $cRa$ o $aRc$. 
 Grafo completo != Transitività, però più o completo più è vicino alla transitività. 
 
 Ci sono due indici di transitività: 
-- ★ Coefficiente di clustering *locale*
-	- Misura la transitività a livello dei singoli nodi: quanto i vicini di un nodo $v$ sono a loro volta connessi. 
+#### Coefficiente di clustering LOCALE
+> Misura la transitività a livello dei singoli nodi: quanto i vicini di un nodo $v$ sono a loro volta connessi. 
+$$C(v_{i}) = \frac{\text{coppie di vicini di v che sono connesse}}{\text{Coppie di vicini di v}}
 $$
-\large c(v_{i}) = \frac{\text{coppie di vicini di v che sono connesse}}{\text{Coppie di vicini di v}}
-$$
+
 Fornisce un modo per determinare i "buchi strutturali", dove mancano archi e quindi i nodi non comunicano. 
-[[Esempio coefficiente clustering locale]]
+[[Esempio coefficiente clustering locale|Esempio]]
 
-- Coefficiente di clustering *globale* 
-	- Relativo a tutta la rete 
-Misura la transitività in grafi indiretti. 
+#### Coefficiente di clustering GLOBALE
+> Relativo a tutta la rete, misura la transitività in grafi indiretti. 
 
+Un modo per calcolarla: 
 Siccome ogni triangolo ha 6 cammini chiusi di lunghezza 2: 
 $$
 \large C = \frac{\text{(number of Triangles)}\times 6}{\mid\text{Paths of Length 2}\mid}
 $$
+### Reciprocità
+ Se A amico di B, B amico di A 
 
-
-
-**Reciprocità** = A amico di B, B amico di A 
-
-![[Pasted image 20241021083755.png#invert|100]]
-
-è una versione semplificata della transitività, considera cicli di lunghezza 2. 
+![[Pasted image 20241021083755.png#invert|left|100]]
+Versione semplificata della transitività, considera cicli di lunghezza 2. 
 Per calcolarla: contare il numero di coppie reciproche nel grafo, usando la matrice di adiacenza. 
 
 $$
@@ -420,11 +417,17 @@ La teoria del bilanciamento sociale modella la **coerenza** nelle relazioni amic
 - Nemico di mio amico è nemico 
 Si modella in reti e grafi con "+" e "-" (signed graph)
 Un triangolo di nodi è bilanciato sse: 
-$\Large w_{ij}w_{jk}w_{ki}\geq 0$ 
+$\Large w_{ij} \cdot w_{jk} \cdot w_{ki}\geq 0$ 
+Dove $w_{ij}$ indica il valore dell'arco fra i nodi $i$ e $j$. Un "+" vale 1 e un "-" vale -1.
+
 ### Status sociale
-(reti dirette)
-Se X è superiore a Y e Y è superiore a Z
-E Z è superiore a Y --> Problema. 
+> Quanto un individuo è *prestigioso* all'interno della società. 
+#### Teoria dello status sociale: 
+Quanto sono consistenti gli individui nell'assegnare lo status ai loro vicini? 
+Se status: 
+- X > Y e Y > Z, allora: 
+- X > Z
+Altrimenti si crea una configurazione instabile (nelle reti dirette)
 
 # Distribuzioni
 ## Power law
@@ -434,7 +437,7 @@ In una distribuzione Power Law:
 - i valori piccoli sono comuni
 - I valori grandi sono estremamente rari (non impossibili, diverso da una distribuzione gaussiana)
 
-![[Pasted image 20241021094814.png#invert|500]]
+![[Pasted image 20241021094814.png#invert|400]]
 $$
 \Large f(k) \approx \frac{1}{k^{\alpha}}
 $$
@@ -442,9 +445,9 @@ $$
 ```functionplot
 ---
 title: Power Law
-xLabel: 
-yLabel: 
-bounds: [-1,8,-1,8]
+xLabel: Degree
+yLabel: P_k
+bounds: [-1,8,-1,4]
 disableZoom: true
 grid: true
 ---
@@ -471,9 +474,21 @@ La frequenza di un evento cambia in funzione della potenza di un attributo
 $$
 \Large p_{d} = ad^{-b}
 $$
-Pd = Fraction of users with degree d
-a = Power law intercept 
-d = node degree
--b = esponente, range tipico [2, 3]
+$P_{d}$  = Fraction of users with degree d
+$a$  = Power law intercept 
+$d$  = node degree
+$-b$  = esponente, range tipico [2, 3]
 
+> [!abstract]+  **Reti sociali** 
+ > La frazione di utenti che hanno in-degree $k$ è approx proporzionale a $\Large \frac{1}{k^{2}}$ 
+
+![[Pasted image 20241022123932.png#invert|right|400]]
+Per capire se una rete ha una degree distribution power law: 
+1. calcolare il grado $k$ di ogni nodo. 
+2. Calcolare $p_{k}$ la frazione di nodi con grado $k$ 
+3. Disegnare il grafico su scala log-log, con $k$ su asse X e $p_{k}$ su asse Y. 
+4. Se è power law sarà una retta. 
+Non è un approccio sistematico, ci sarà rumore nella coda (pochi dati) e altre distribuzioni potrebbero avere lo stesso pattern. 
+
+## Esperimento di Milgram 
 

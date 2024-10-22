@@ -639,5 +639,5 @@ Rappresenta ogni bit nel frame con multipli del segnale trasmesso.
  > - Bluetooth (802.15.1)
  > - WiMAX (802.16)
  > - 3G / 4G / 5G cellular wireless
- 
- 
+
+
