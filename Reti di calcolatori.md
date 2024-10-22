@@ -505,8 +505,8 @@ Manchester Encoding System:
 #### Transceiver 
 
 
-![[Pasted image 20241017105309.png#invert|350]]
-![[Pasted image 20241017110951.png#invert|450]]
+![[Pasted image 20241017105309.png#invert|center|350]]
+![[Pasted image 20241017110951.png#invert|center|450]]
 
 A livello Ethernet non si usa più questa tecnologia, obsoleta già negli anni 80. 
 
@@ -586,10 +586,58 @@ Il caso peggiore è quando i due host sono agli estremi opposti del cavo etherne
 RTD (Round Trip Delay) = $25.6\mu s$ 
 
 ### Ethernet Transmitter Algorithm 
-![[Pasted image 20241018104323.png#invert|500]]
+![[Pasted image 20241018104323.png#invert|left|500]]
 [...]
 
 ### Ethernet efficiency 
 
 Pacchetti più grandi aumentano l'efficienza del canale
 
+[pag 111 chapter 2]
+
+### N equal stations competing 
+In ogni slot, ogni stazione vuole trasmettere un frame, con probabilità $P$. 
+$Np$ è il numero medio di stazioni che vogliono trasmettere ad ogni slot: è il *global load* della rete. 
+probabilità che uno slot venga usato per la trasmissione di un frame: 
+$$
+P(\text{1 out of N transmits)}=Np(1-p)^{N-1}
+$$
+La massima probabilità c'è quando $p = \frac{1}{N}$, quindi $Np = 1$ 
+Quindi, per evitare collisioni e ottimizzare il throughput globale, più host ci sono, meno spesso dovrebbero trasmettere. 
+
+37% degli slot vengono presi senza collisioni
+
+![[Pasted image 20241022100340.png#invert|600]]
+
+Reti piccole o frame grandi >>
+
+
+# Wireless Links
+
+### ISM 2.4 GHz band
+![[Pasted image 20241022104526.png#invert|center]]
+Suddiviso in 14 canali da 20MHz. 
+
+![[Pasted image 20241022105233.png#invert]]
+
+### FHSS
+> Frequency Hopping Spread Spectrum
+
+Tecnica per trasmettere segnale su uno spettro "random" di frequenze. 
+
+![[Pasted image 20241022110049.png#invert|600]]
+Il ricevitore usa lo stesso algoritmo del sender, per cambiare frequenza in sync. 
+Tecnica usata anche oggi nel Bluetooth. 
+
+### DSSS
+Rappresenta ogni bit nel frame con multipli del segnale trasmesso. 
+![[Pasted image 20241022110425.png#invert|500]]
+
+
+> [!example]+  **Wireless technologies** 
+ > - Wi-Fi (802.11)
+ > - Bluetooth (802.15.1)
+ > - WiMAX (802.16)
+ > - 3G / 4G / 5G cellular wireless
+ 
+ 
