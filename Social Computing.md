@@ -490,5 +490,86 @@ Per capire se una rete ha una degree distribution power law:
 4. Se è power law sarà una retta. 
 Non è un approccio sistematico, ci sarà rumore nella coda (pochi dati) e altre distribuzioni potrebbero avere lo stesso pattern. 
 
-## Esperimento di Milgram 
+## Mondo piccolo
+Un *rumor* si diffonde su una rete sociale. Tutti gli utenti che lo ricevono lo passano subito a tutti i loro amici. 
+Quanto tempo passa prima che raggiunga (quasi) tutti i nodi della rete? Tempo medio? 
+**= numero di hops**. 
+
+L'**esperimento di Milgram** conferma questa teoria: Selezionate 296 persone tra Nebraska e Boston che devono spedire una lettera via intermediari che conoscono, 64 sono arrivate con numero medio di intermediari = 6. 
+[Six Degrees of Separation](https://en.wikipedia.org/wiki/Six_degrees_of_separation)
+
+**Dodds** ha replicato lo stesso esperimento via mail, ottenendo conferma del risultato. 
+
+Numero di Erdös: numero di cammini contando le pubblicazioni scritte 
+www.csauthors.net/
+# Modelli delle reti 
+
+Modelli matematici / stocastici di costruzione di reti, usati per studiare in modo più efficiente le reti. 
+
+1. Regolari 
+2. Reti casuali
+3. Piccolo mondo
+4. Scale-Free
+
+## Reti Regolari 
+> Con una topologia regolare, costruita a tavolino, Non casuale. 
+
+Es: Completa, a stella, ad anello, a reticolo...
+![[Pasted image 20241022141443.png#invert|left|400]]
+- Avg path length e diametro spesso grandi
+- Coefficiente di clustering spesso alto
+- Distribuzione dei gradi spesso con un picco
+- Connettività: spesso completamente connesse
+- Nel mondo reale raramente sono così.
+
+## Reti Casuali
+Studi di Erdös-Rényi
+
+Un grado con $n$ nodi e archi a caso. Fenomeni studiati: 
+- Connettività, Diametro, Formazione Giant component 
+
+*Le amicizie si formano a caso*. 
+2 modelli:  $G(n,m)$ , $G(n, p)$ 
+### Modello $G(n, m)$ 
+Il grafo ha $n$ nodi fissi e $m$ archi piazzati a caso fra i nodi. Senza multiarchi o auto archi, di solito indiretto. 
+
+![[Pasted image 20241022144434.png#invert|left|200]]
+ $\tiny G(4, 2)$ 
+
+
+Si studia il caso $n \to \infty$, "limite termodinamico". 
+Si studia il caso medio: quello che succede in media su in insieme di tanti (∞) grafi casuali. 
+Motivazioni: 
+- Si ottengono proprietà tipiche che tendono a valere per tutti i grafi grandi. 
+- Comodo analiticamente, almeno per $n \to \infty$ 
+
+### Modello $G(n, p)$ 
+Si usa questo invece di $G(n, m)$, è più "maneggiabile" matematicamente e analiticamente. 
+
+- $n$ nodi
+- $p$ = probabilità che un arco esista 
+Quindi, invece di fissare il numero di archi, si stabilisce la probabilità $p$ indipendentemente di esistenza archi. 
+
+#### Grado medio?
+Il numero medio di archi è $\Large m=p\left( \frac{n(n-1)}{2} \right)$ 
+Quindi il grado medio sarà: 
+$$
+\Large c= \frac{2m}{n}=(n-1)p
+$$
+$c$ = grado medio 
+$C$ = coefficiente di clustering 
+
+#### Distribuzione dei gradi? 
+Distribuzione di Poisson, quando le reti "reali" hanno una distribuzione a coda lunga. 
+![[Pasted image 20241022145821.png#invert|300]]
+Media = 5
+
+####  Distanza fra nodi? (Coefficiente di clustering C)
+Probabilità che i vicini di un nodo siano vicini fra di loro?
+
+$$
+\Large C = \frac{c}{n-1}
+$$
+è un valore molto basso che per $n \to \infty$ tende a 0. 
+####  Giant component? 
 
