@@ -573,3 +573,4 @@ $$
 è un valore molto basso che per $n \to \infty$ tende a 0. 
 ####  Giant component? 
 
+  

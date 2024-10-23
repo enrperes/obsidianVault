@@ -641,3 +641,7 @@ Rappresenta ogni bit nel frame con multipli del segnale trasmesso.
  > - 3G / 4G / 5G cellular wireless
 
 
+
+#  WiFi
+
+Test
