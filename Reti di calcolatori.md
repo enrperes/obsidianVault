@@ -615,10 +615,11 @@ Reti piccole o frame grandi >>
 # Wireless Links
 
 ### ISM 2.4 GHz band
-![[Pasted image 20241022104526.png#invert|center]]
+![[Pasted image 20241022104526.png#invert|500]]
 Suddiviso in 14 canali da 20MHz. 
 
-![[Pasted image 20241022105233.png#invert]]
+
+![[Pasted image 20241022105233.png#invert|500]]
 
 ### FHSS
 > Frequency Hopping Spread Spectrum
@@ -640,8 +641,3 @@ Rappresenta ogni bit nel frame con multipli del segnale trasmesso.
  > - WiMAX (802.16)
  > - 3G / 4G / 5G cellular wireless
 
-
-
-#  WiFi
-
-Test
