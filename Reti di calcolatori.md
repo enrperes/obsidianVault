@@ -669,7 +669,7 @@ OFDM
 ## IEEE 802.11 - Collision Avoidance
 
 La portata del segnale spesso non è sufficiente per raggiungere tutte le stazioni. 
-![[Pasted image 20241024100740.png#invert|left|200]]
+![[Pasted image 20241024100740.png#invert|left|250]]
 In questo esempio, B può raggiungere A e C, non D. C può raggiungere B e D ma non A. 
 
 **Hidden Node Problem**
@@ -697,3 +697,38 @@ Key idea:
 
 Questo avviene per ogni frame inviato nel WiFi: causa di inefficienze. 
 
+#### Intervals 
+![[Pasted image 20241024105223.png#invert|left|400]]
+Sifs < Pifs < Difs
+**SIFS**: Short Inter Frame Space. Tempo usato per processare e rispondere a un frame 
+**PIFS**: Point Control Function InterFrame Space: il tempo che l'access point deve aspettare prima di mandare un RTS (Request To Send)
+**DIFS**: Distributed Control Function InterFrame Space
+
+![[Pasted image 20241024105324.png#invert|center|500]]
+(tempi in $\mu s$ )
+
+## IEEE 802.11 - Frame Format 
+
+DATA, RTS, CTS, ACK, BEACON. 
+(in Ethernet there was just one.)
+
+![[Pasted image 20241024110322.png#invert|left|500]]
+**Data Frame**
+Non c'è il problema della lunghezza minima: da 0 a 2312B. Eventuali collisioni sono già state risolte prima. 
+Address 1, 2, 3, 4 sono i 24Byte del MAC address. + gli altri 6Byte: 30Byte totali di intestazione (fissi) + 2Byte CRC (FCS = Frame Check Sequence)
+
+![[Pasted image 20241024111247.png#invert|left|350]]
+Gli altri frame hanno dimensione fissa. Vengono riconosciuti dai primi due byte. Per questo la trasmissione di un frame ha: 30+4+14+20+14 = 82 byte di overhead in ogni intestazione, + il tempo DIFS iniziale e 3 SIFS. 
+
+.
+## Efficiency of Transmission
+$$
+\Large 76 \%
+$$
+(Senza tenere conto delle collisioni)
+Ethernet arriva a 97%. 
+
+### Frame Fragmentation 
+![[Pasted image 20241024112309.png#invert|600|center]]
+A Data unit is sent in more than one DATA segment, within the same transaction. Each segment is called a *Fragment*. All fragments but the last one have the *MoreFrag* bit in the header set to 1, each frag is acknowledged on its own. 
+(usato poco)
