@@ -3,8 +3,8 @@ tags:
   - materia
 ---
 [[info - Reti di calcolatori]]
-
 ---
+
 # Chapter 1 - Foundations
 
 ## Connectivity 
@@ -640,4 +640,60 @@ Rappresenta ogni bit nel frame con multipli del segnale trasmesso.
  > - Bluetooth (802.15.1)
  > - WiMAX (802.16)
  > - 3G / 4G / 5G cellular wireless
+
+
+# Wi-Fi (802.11)
+
+Designed for LAN; primary challenge is to mediate access to a shared cmmunication medium (space)
+
+- Power management
+- Security features
+	- A differenza di un cavo ethernet, non si può "controllare" lo spazio fisico dove viene propagato il segnale 
+
+
+![[Pasted image 20241024095057.png#invert|left|400]]
+In origine, 802.11 usava FHSS in una banda da 79Mhz.  
+Successivamente: 802.11b, 11Mbps
+Poi 802.11a, che usava 5GHz, up to 54Mbps usando OFDM
+802.11g, usa 2.4GHz band 
+802.11n, usa sia 5GHz e 2.4GHz. Mimo = multiple in, multiple out antennas 
+802.11ac, usa 5GHz, up to 1300Mbps. 
+Il bitrate effettivo può variare parecchio, dipende dalla qualità del segnale, coding rate, channel width...
+
+### OFDM
+Orthogonal Frequency Division Multiplexing 
+
+![[Pasted image 20241024095803.png#invert|left|400]]
+
+OFDM
+## IEEE 802.11 - Collision Avoidance
+
+La portata del segnale spesso non è sufficiente per raggiungere tutte le stazioni. 
+![[Pasted image 20241024100740.png#invert|left|200]]
+In questo esempio, B può raggiungere A e C, non D. C può raggiungere B e D ma non A. 
+
+**Hidden Node Problem**
+![[Pasted image 20241024101403.png#invert|left|150]]
+A e C vogliono comunicare con B; inviano un frame. La collisione avviene a B senza che A e C lo sappiano. 
+
+**Exposed Node Problem**
+![[Pasted image 20241024101519.png#invert|left|150]]
+B sta inviando ad A. C lo sa perché riceve la trasmissione di B. 
+
+.
+### CSMA/CA 
+Multiple Access with Collision Avoidance 
+Key idea: 
+- Sender e receiver comunicano con i due control frame prima di iniziare la trasmissione, per verificare che il canale sia libero. 
+- I nodi vicini sono informati che una trasmissione sta per avvenire, quindi rimangono in idle per la durata necessaria ()
+
+![[Pasted image 20241024101700.png#invert|left|400]]
+**RTS:** Request To Send, frame ausiliario. è indicato l'indirizzo del sender e receiver. 
+**CTS:** Clear To Send
+(sempre con CRC-32)
+**ACK:** Acknowledge per comunicare la corretta ricezione del frame. 
+**SIFS** = Short InterFrame Space, il tempo necessario in $\mu s$ per processare il frame ricevuto e rispondere. 
+**NAV** = Network Allocation Vector (tempo di silenzio degli altri nodi) 
+
+Questo avviene per ogni frame inviato nel WiFi: causa di inefficienze. 
 
