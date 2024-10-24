@@ -93,7 +93,7 @@ Non esiste un processo software applicabile universalmente
 > Specificare **cosa** il software dovrà fare (non come) e le funzionalità e qualità che deve possedere. 
 > Definisce funzioni, vincoli, prestazioni, interfacce che il sistema deve soddisfare. 
 
-1. **Deduzione e analisi dei requisiti**: comprensione di cosa richiedono o si aspettano dal software gli stakeholders. 
+1. **Deduzione e analisi dei requisiti**: comprensione di cosa richiedono o si aspettano dal software gli [[stakeholders]]. 
 	1. Richiede spirito critico. Include osservazione di sistemi già esistenti e discussione con possibili utenti
 	2. Durante l'analisi viene sviluppato un prototipo di modello 
 2. **Specifica dei requisiti**: Traduzione delle info acquisite in specifiche che descrivono più in dettaglio i requisiti
@@ -381,18 +381,21 @@ Al termine di uno sprint, il software dovrebbe essere rilasciabile, almeno per i
 Alla fine di ogni sprint c'è una riunione di verifica: migliorare il processo e input sullo stato per la revisione del product backlog. 
 
 # Requisiti 
-
 > Descrizione di qualcosa che il sistema dovrà fare oppure una proprietà o vincolo operativo che si desidera per il sistema. 
 
+![[Pasted image 20241024133737.png#invert|left|300]]
 Può essere una formulazione astratta, di alto livello, in linguaggio naturale oppure una specifica dettagliata, in linguaggio formale matematico. 
-
 L'ingegneria dei requisiti è il processo di ricerca, analisi, documentazione e verifica dei requisiti. 
 
+.
+
 ### Requisiti utente
-- Frasi in linguaggio naturale (+eventuali diagrammi) relative alle funzionalità che il sistema deve fornire + vincoli operativi. 
+- Frasi in *linguaggio naturale* (+eventuali diagrammi) relative alle funzionalità che il sistema deve fornire + vincoli operativi. 
+- dovrebbero specificare solo il comportamento del sistema visto dall'*esterno*. 
 - Alto livello, comprensibile a tutti gli utenti, anche stupidi. 
 ### Requisiti di sistema
 - Documento strutturato con descrizione dettagliata delle funzionalità + vincoli operativi. 
+	- Possono essere scritti nel linguaggio naturale, ma anche altre  notazioni basate su moduli, grafici o modelli matematici. Solitamente espansione dei requisiti utente. 
 - Definisce cosa va sviluppato 
 - Può essere parte del contratto fra cliente e sviluppatore
 
@@ -430,4 +433,72 @@ L'ingegneria dei requisiti è formata quindi da tre attività chiave:
 2. **Specifica dei requisiti** (traduzione in specifiche in un formato coerente)
 3. **Convalida dei requisiti** (controllo che corrispondano alle richieste del cliente)
 
+
+
+## Processo di deduzione e analisi dei requisiti
+
+![[Pasted image 20241024134847.png#invert|left|400]]
+è un processo **iterativo** che termina quando il documento dei requisiti è completo. 
+La comprensione dei requisiti parte dall'ingegnere del software, migliora con ogni iterazione. 
+(di solito né committente né fornitore sono in grado di estrarre in maniera efficace i requisiti di un sistema.)
+
+1. **Scoperta e comprensione**
+	1. interazione analisti - stakeholder per scoprire i requisiti 
+	2. Tra le tecniche usate: Interviste, [[Etnografia]], Storie Utente e scenari. 
+2. **Classificazione e organizzazione**
+	1. i requisiti raccolti vengono raggruppati in modo coerente, eliminando i duplicati 
+3. **Negoziazione e priorità**
+	1. Dare una priorità ai requisiti 
+4. **Documentazione**
+	1. I requisiti vengono documentati e diventano l'input della successiva iterazione. 
+
+### Linguaggi per la specifica
+
+#### Linguaggio naturale (NL)
+
+> [!done]+  **Pro** 
+ > Espressivo, intuitivo, universale. Compreso da clienti e utenti. 
  
+> [!failure]+  **Contro** 
+ > Mancanza di chiarezza, precisione e incline a ambiguità 
+ > Difficile distinguere le varie tipologie di requisiti. Diversi requisiti potrebbero essere espressi in una singola frase. 
+ 
+Linee guida: 
+- Formato standard coerente e conciso 
+- Uso coerente del linguaggio. 
+- Formattazione coerente del testo 
+- No linguaggio troppo tecnico 
+- Spiegare perché un requisito è necessario (logica del requisito) 
+
+Esempio: 
+
+> [!NOTE]- Esempio
+> Req 3.2: Il sistema deve misurare il livello degli zuccheri nel sangue e
+> rilasciare lʼinsulina, ogni 10 minuti (variazioni degli zuccheri nel sangue
+> sono relativamente lente, quindi non sono necessarie misure più
+> frequenti; misure meno frequenti potrebbero portare a livelli di
+> zuccheri inutilmente elevati).
+
+
+#### Specifiche Strutturate in Template
+> utilizzo di NL con una struttura predefinita, per garantire maggiore uniformità. 
+
+![[Pasted image 20241024142748.png#invert|400]]
+
+## Documento di Specifica dei Requisiti (SRS)
+
+[...]
+
+### Standard IEEE/ANSI 830-1998
+
+## convalida
+
+- Correzione
+- Completezza
+- Realistico 
+- Consistente / non ambiguo
+- Verificabile
+- Tracciabilità
+
+
+

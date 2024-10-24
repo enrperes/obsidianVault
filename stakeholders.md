@@ -1,0 +1,3 @@
+Qualsiasi individuo, gruppo o organizzazione che ha un interesse nel progetto di sviluppo del software. 
+
+- Clienti, utenti finali, membri del team di sviluppo, finanziatori...
