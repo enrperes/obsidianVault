@@ -500,5 +500,4 @@ Esempio:
 - Verificabile
 - Tracciabilità
 
-
-
+[[Esercitazione su ingegneria dei requisiti]]
