@@ -176,3 +176,55 @@ $\color{orange}\large\text{A tre strati}$: Client agisce come front-end e non ef
 
 ## [[Logical Design]]
 
+---
+
+# Normalization
+
+### Normal form and normalization 
+La forma normale è una proprietà di un DB relazionale. Quando non è in forma normale sono presenti ridondanze che creano inconsistenze in fase di aggiornamento 
+
+La **Normalizzazione** è una procedura che trasforma tabelle di un DB in forma normale (evoluta) --> *Decomposizione*. 
+Meno si decompone, meglio è := meno tabelle si hanno, meglio è. 
+
+Esempio: 
+![[Pasted image 20241024164419.png#invert|left|450]]
+- Ogni `impiegato` ha sempre lo stesso stipendio. Non serve ripeterlo ogni istanza
+- Ogni `progetto` ha sempre lo stesso budget. 
+- Non è detto che fissato il progetto, tutti gli impiegati vi partecipino con lo stesso ruolo 
+La chiave della tabella è la coppia `impiegato - progetto`. 
+
+Attributi che non fanno parte della chiave ma dipendono da una parte della chiave: ⚠️
+
+
+## Dipendenza Funzionale 
+(formalizzazione)
+Funzioni che legano attributi ad attributi. 
+
+`employee` $\Large \to$ `salary` 
+`project` $\Large \to$ `budget` 
+`employee_project` $\Large \to$ `function` 
+
+$$
+\begin{align}
+\Large Y \to Z \text{ con } Y, Z \subseteq X  \\
+\Large \forall r \in , \forall t_{1}, t_{2} \in r \\ 
+\text{se }  t_{1}[Y]=t_{2}[Y]  \;\;  \text{allora}  \;\; t_{1}[Z] = t_{2}[Z]
+\end{align}
+$$
+
+Una dipendenza funzionale tra Y e Z è indicata da: 
+$$
+\Large Y \to Z
+$$
+Y è superchiave. 
+
+### Assiomi di Armstrong
+
+[assioma di riflessività e transitività]
+[regola dell'aumento]
+
+Da usare per ragionare sulle dipendenze funzionali. 
+
+
+ 
+#todo 
