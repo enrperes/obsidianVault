@@ -224,7 +224,8 @@ Y è superchiave.
 [regola dell'aumento]
 
 Da usare per ragionare sulle dipendenze funzionali. 
-
-
  
 #todo 
+
+
+# [[Algebra Relazionale]]
