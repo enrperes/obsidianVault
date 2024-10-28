@@ -522,11 +522,18 @@ Es: Completa, a stella, ad anello, a reticolo...
 - Connettività: spesso completamente connesse
 - Nel mondo reale raramente sono così.
 
+.
 ## Reti Casuali
 Studi di Erdös-Rényi
 
 Un grado con $n$ nodi e archi a caso. Fenomeni studiati: 
 - Connettività, Diametro, Formazione Giant component 
+
+> [!attention]+  **Grafi casuali per modellare reti reali?** 
+ > **Average Path Length** = OK. I grafi casuali modellano bene la lunghezza media dei cammini minimi (bassa)
+ > **Coefficiente di Clustering** = NO. Sottostimano drasticamente il coeff di clustering
+ > **Degree Distribution** = NO. non hanno una distribuzione dei gradi di tipo Power law, ma Poisson. 
+
 
 *Le amicizie si formano a caso*. 
 2 modelli:  $G(n,m)$ , $G(n, p)$ 
@@ -571,6 +578,71 @@ $$
 \Large C = \frac{c}{n-1}
 $$
 è un valore molto basso che per $n \to \infty$ tende a 0. 
+(da non confondere con $c$ , il grado medio di un grafo)
 ####  Giant component? 
+[...]
+La GC si forma quando $C = np = 1$ , quindi quando in media ogni nodo ha un arco. 
+![[Pasted image 20241028085114.png#invert|right|300]]
+Quindi
+- per c<1 ci sono cluster piccoli e isolati. 
+- Per c = 1 appare la **giant component**
+- per c>1 quasi tutti i nodi sono connessi
 
-  
+Con $s$ passi, $c^{s}$ nodi raggiungibili. 
+
+
+## Watts - Strogatz Small Wold (WSSW)
+
+Reti piccolo mondo: Distanza piccola fra nodi e diametro basso, clustering alto. 
+![[Pasted image 20241028091346.png#invert|600]]
+
+### Procedura
+- Si parte dalla rete regolare
+- Si considera ogni arco 
+- Con probabilità $p$ lo si ricollega casualmente (stando attenti a non creare loop o archi già esistenti)
+- con $p=0$ --> rete casuale (ordine)
+- con $p=1$ --> Rete casuale (disordine)
+
+#### Due misure: L, C. 
+
+L = Lunghezza media del cammino minimo fra due nodi della rete. = "quanti amici devo passare per raggiungere una persona"
+C = Coefficiente di clustering (locale). Decresce in funzione di P. = "quanto gli amici di una persona sono amici fra di loro."
+
+L è globale, C è locale.  
+
+### WSSW: Distribuzione dei gradi
+- Picco, cutoff inferiore
+- Diversa da reti reali. 
+- Simile a Poisson, media abbastanza stretta. 
+- No power-law, no coda lunga, no hub...
+- non spiegano la distribuzione dei gradi che si "trova in natura"
+
+---
+Riassunto: 
+
+|          | Geodesiche | C      | Degree distribution |
+| -------- | ---------- | ------ | ------------------- |
+| Regolari | *NO*       | **OK** | *NO*                |
+| Casuali  | **OK**     | *NO*   | *NO*                |
+| WSSW     | **OK**     | **OK** | *NO*                |
+
+## Reti Scale-Free
+> con distribuzione dei gradi **power law**. 
+
+Studio di Barabási e Albert, 1999: *Attaccamento Preferenziale*: 
+- Distribuzione di indegree e outdegree è **power law**, non Poisson. 
+- Il Web è una rete piccolo mondo, ma non WSSW (ma dati limitati, solo con archi indiretti)
+
+Distanza media fra nodi: `<d>` = lunghezza media del cammino minimo fra 2 nodi della rete
+C'è una crescita logaritmica, anche aumentando di molto il numero di nodi, la distanza media rimane bassa. Se N = $8 \cdot 10^{8}$ -> d = 19, con un incremento del 1000%, d = 21, incremento piccolo. 
+--> Rete piccolo mondo 
+
+è solo il web che ha distribuzione power law? *no*
+3 esempi: collaborazione attori, reti elettriche...
+Quale altro modello può generare una distribuzione dei gradi power law? **
+
+
+Barabasi e Albert propongono un nuovo modello stocastico, **Preferential attachment**. 
+*Crescita rete con probabilità non uniforme:* 
+ad ogni passo si aggiunge un nuovo nodo e un arco che lo collega ad un nodo pre esistente, con una probabilità proporzionale al grado del nodo. (quindi è più probabile che l'arco si formi con un nodo con grado alto) --> si forma una rete con pochi nodi con grado molto alto (HUB) 
+
