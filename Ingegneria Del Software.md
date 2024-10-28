@@ -563,3 +563,63 @@ Nasce come linguaggio grafico standard per modellare software OOP.
 	- più semplice descrivere parti complesse 
 - Comprensione di software pre esistente
 	- Evoluzione o reverse engineering 
+
+
+## Diagrammi dei casi d'uso
+
+*Diagramma comportamentale* 
+- Modella il comportamento esterno del sistema, senza specificare come viene realizzato. 
+- Modella interazione tra sistema e agenti esterni 
+- può essere usato nella fase di definizione dei requisiti 
+- Identifica i requisiti funzionali del sistema
+- Descrive in modo grafico le interazioni tra utenti e sistema 
+- Comportamento del sistema analizzato dal punto di vista dei possibili utenti. 
+
+**[[Ingegneria Del Software#Scenari|Scenari]]** = sequenza di azioni che caratterizzano un'interazione tra utente e sistema
+**caso d'uso** = sequenza di azioni che un sistema può eseguire interagendo con attori esterni. 
+**attori** = possibili utenti nello scenario 
+
+
+### Diagramma dei casi d'uso
+
+![[Pasted image 20241028115036.png#invert|500]]
+> [!example]-  **Esempio** 
+ > Un cliente arriva alla cassa con alcuni articoli da acquistare. Il cassiere
+usa un POS per registrare ogni articolo acquistato. Il sistema mostra il
+totale e i dettagli per ogni articolo. Il cliente inserisce i dati della propria
+carta di credito, che il sistema convalida e registra. Il sistema aggiorna
+l’inventario. Il cliente ottiene una ricevuta e se ne va
+
+**Subject** rappresenta il limite tra ciò che è interno al sistema da sviluppare e ciò che è esterno ad esso. Il rettangolo è il perimetro che delimita il sistema. Quello che è dentro dovrà essere progettato, realizzato, verificato, validato. 
+
+**Attore** definisce un ruolo che l'utente del caso d'uso svolge. Tutti gli attori sono esterni al sistema. 
+- Una classe di persone fisiche (es. cassiere)
+- Un altro sistema software (contabilità)
+- Dispositivo hardware esterno (sensore)
+Può essere : 
+- Primario ha come obiettivo quello che il caso d'uso cerca di soddisfare (cliente)
+- Secondario: il sistema ci interagisce per svolgere il caso d'uso (cassiere)
+
+**Caso d'uso**: unità di lavoro utile che il sistema esegue. Stimolato dall'attore primario per eseguire un compito che l'attore deve eseguire. (Acquista prodotti). Astrazione massima. 
+
+![[Pasted image 20241028120042.png#invert|center|650]]
+
+Un attire può partecipare a più casi d'uso: ovvero una persona fisica può ricoprire più ruoli. 
+Uno stesso attore rappresenta più istanze di utenti e sistemi. 
+
+### Scenari 
+[...]
+
+#### Stili di descrizione: 
+- Testuali, con un flusso chiaro di eventi da seguire
+- Diagrammatici, diagrammi UML di stato, di sequenza, di interazione. 
+
+(esempio di effettua ordine, pre condizioni, flusso di eventi, post condizioni )
+
+`WHILE, FOR, IF` possono essere usati per racchiudere gruppi di azioni che devono essere ripetute 
+
+#### Linee guida per la descrizione degli scenari
+- Stile essenziale, no riferimenti a implementazione
+- Descrizione di casi d'uso concisi e completi
+- Descrivere casi d'uso a scatola nera (NO riferimenti all'implementazione)
+- Nella descrizione del caso d'uso non devono essere indicati dettagli che rivelano scelte del progetto software. 
