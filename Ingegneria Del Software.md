@@ -501,3 +501,65 @@ Esempio:
 - Tracciabilità
 
 [[Esercitazione su ingegneria dei requisiti]]
+
+---
+
+28/10/2024 - Lezione 7
+# UML
+
+![[Pasted image 20241028105325.png#invert|right|200]]
+> Unified Modeling Language (rappresentazione grafica tramite diagrammi)
+
+
+
+### Modellazione di un sistema: 
+> Processo che sviluppa modelli astratti di un sistema. Mantiene tutte le informazioni. Un'astrazione semplifica un sistema evidenziando alcune caratteristiche, tralasciandone altre. 
+
+> [!abstract]+  **Modello** 
+ > Astrazione che descrive un sistema o sottosistema
+ 
+ > [!abstract]+  **Vista o prospettiva** 
+ > Descrizione di aspetti specifici di un sistema in cui si omettono dettagli non rilevanti 
+ 
+ > [!abstract]+  **Notazione** 
+ > Insieme di elementi grafici o testuali e regole per rappresentare le viste
+ 
+ **UML** si sta affermando come linguaggio unificato standard, ma non è l'unico. SysML è una variante spesso usata per sistemi IoT. 
+Nasce come linguaggio grafico standard per modellare software OOP. 
+
+è una famiglia di *notazioni grafiche* basate su un singolo *meta modello*: modello che definisce i concetti stessi del linguaggio di modellazione. 
+
+#### Regole: 
+- **Prescrittive**
+	- stabilite da organismi standardizzati. Lessico, sintassi, semantica sono definiti. 
+- **Descrittive**
+	- Stabilite per convenzione comune. 
+
+#### Usi: 
+- **Sketch**
+	- Modello informale per un sistema da realizzare (*forward engineering*)
+	- Descrivere un sistema esistente: *reverse engineering*
+- **Progetto dettagliato**
+	- Modello completo della soluzione architetturale del sistema
+- **Linguaggio di programmazione** (modellazione)
+	- Modella in maniera completa e precisa il sistema software. 
+	- MDA = Model Driven Architecture. Vantaggio = generare codice per diverse piattaforme. 
+	- 
+
+### Tipi di diagrammi UML: 
+
+> [!abstract]+  **Diagrammi Strutturali** 
+ > Modellano l'organizzazione del sistema 
+ 
+ > [!abstract]+  **Diagrammi comportamentali** 
+ > Modellano le interazioni tra entità del sistema. (use-case diagrams, activity diagrams, state machine diagrams)
+ 
+ #### Integrazione di UML nel processo di sviluppo
+- Analisi dei requisiti
+	- Facilita la deduzione dei requisiti
+- Progettazione
+	- Modelli più tecnici e dettagliati descrivono il sistema agli ingegneri
+- Documentazione 
+	- più semplice descrivere parti complesse 
+- Comprensione di software pre esistente
+	- Evoluzione o reverse engineering 
