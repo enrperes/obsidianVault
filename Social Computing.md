@@ -511,6 +511,8 @@ Modelli matematici / stocastici di costruzione di reti, usati per studiare in mo
 3. Piccolo mondo
 4. Scale-Free
 
+Nessuno dei 4 modelli spiega completamente le reti reali...
+
 ## Reti Regolari 
 > Con una topologia regolare, costruita a tavolino, Non casuale. 
 
@@ -625,7 +627,7 @@ Riassunto:
 | Regolari | *NO*       | **OK** | *NO*                |
 | Casuali  | **OK**     | *NO*   | *NO*                |
 | WSSW     | **OK**     | **OK** | *NO*                |
-
+(Con Geodesiche si intende la lunghezza media dei cammini minimi)
 ## Reti Scale-Free
 > con distribuzione dei gradi **power law**. 
 
@@ -645,4 +647,89 @@ Quale altro modello può generare una distribuzione dei gradi power law? **
 Barabasi e Albert propongono un nuovo modello stocastico, **Preferential attachment**. 
 *Crescita rete con probabilità non uniforme:* 
 ad ogni passo si aggiunge un nuovo nodo e un arco che lo collega ad un nodo pre esistente, con una probabilità proporzionale al grado del nodo. (quindi è più probabile che l'arco si formi con un nodo con grado alto) --> si forma una rete con pochi nodi con grado molto alto (HUB) 
+
+|            | Geodesiche | C      | Degree distribution |
+| ---------- | ---------- | ------ | ------------------- |
+| Regolari   | *NO*       | **OK** | *NO*                |
+| Casuali    | **OK**     | *NO*   | *NO*                |
+| WSSW       | **OK**     | **OK** | *NO*                |
+| Scale Free | **OK**     | *NO*   | **OK**              |
+
+Quindi, degree distribution è power law, **ok**. La lunghezza media geodesica è basa quindi **OK**, il coefficiente di clustering è basso quindi *NO.*
+### Varianti dell'attaccamento preferenziale
+Per i primi 3 modelli cambia solo il modo in cui viene calcolata la probabilità 
+#### NON LINEARE
+$$
+\Large P(v_{i})=\frac{d_{i}^{\alpha}}{\sum_{j}d_{j}^{\alpha}}
+$$
+Se $\alpha = 1$ è l'attaccamento preferenziale originale
+$\alpha < 1$ il vantaggio di avere un grado alto è inferiore: non long tail, no hubs
+$\alpha > 1$ il vantaggio di avere grado alto è maggiore: Winner takes it all, un singolo nodo connesso a tutti
+
+#### ATTRATTIVITA' 
+$$
+\Large P(v_{j})= \frac{A+d_{j}}{\sum_{j}(A+d_{j})}
+$$ 
+> Idea: aggiungere al grado una certa costante $A$, per permettere ai nodi con grado 0 di ricevere collegamenti
+
+Se $A=0$ è come l'originale
+Evita che nodi con grado = 0 non ricevano link. è un problema soprattutto per i grafi diretti
+Tutti i nodi hanno la stessa attrattività; 
+Si ottiene sempre una power law, con pendenza che varia con A. Reti reali diverse hanno code pendenze diverse -> ✔
+
+#### FITNESS
+$$
+\Large P(v_{j})= \frac{\eta_{i}d_{i}}{\sum_{j}(\eta_{i}d_{i})}
+$$
+Fitness = Capacità di adattarsi all'ambiente. 
+
+> Idea: la fitness di un nodo è il suo nodo; più è alto più "prospera" nella rete. 
+
+$\eta_{i}$ rappresenta la fitness del nodo $i$ 
+Se i valori di fitness sono in un intervallo limitato: 
+- Rete con Hub multipli
+- Si elimina la dipendenza dal rich-get-richer dei nodi più vecchi. Anche i nodi giovani con fitness alta competono. 
+(Si ottiene sempre una power law)
+
+
+Il coefficiente di clustering continua a rimanere basso per queste 3 varianti ⚠️
+
+#### RANDOM WALK
+![[Pasted image 20241029142035.png#invert|right|400]]
+Simile all'attaccamento preferenziale: si parte da una piccola rete qualsiasi. Ad ogni passo si aggiunge un nuovo nodo $i$, con $m>1$ archi attaccati. Il primo di questi archi è collegato con un nodo vecchio ($j$ ) scelto a caso, probabilità uniforme. 
+Ogni altro arco degli $m-1$ viene collegato: 
+- Con probabilità $\Large p$ *a un vicino* di $j$ scelto a caso
+- Con probabilità $\Large 1-p$ a *un nodo vecchio qualsiasi* scelto a caso. 
+Quindi $\Large p$ è la probabilità che si formi un triangolo. 
+
+La presenza di triangoli implica un $\Large C$ alto --> "funziona". Crea una rete con: 
+- Degree distribution = Power law
+	- Si formano Hub
+- Cammini brevi
+- C alto
+
+# Facebook 
+
+### Studio: [[10a.Ugander2011.pdf]]
+Nodi (utenti): 720 milioni
+Archi (amicizie): 70 miliardi, 190 / utente in media
+
+![[Pasted image 20241029145036.png#invert|center|600]]
+- Monotona decrescente
+- Cutoff a 5000
+- Assomiglia a una power law ma non lo è
+- Con la CCDF si vede come il rumore scompare nella coda. 
+
+**Facebook Components size:** 
+![[Pasted image 20241029145821.png#invert|center|500]]
+Questa è una power law. C'è una giant component, dove il 99.1% dei nodi sono. 
+Ecco perchè la media in una power law ha poco senso: sarà intorno al 100, ma non è una info "utile". 
+
+**Facebook avg distance:** 
+![[Pasted image 20241029150157.png#invert|center|400]]
+[...]
+
+**Coefficiente di clustering**
+
+**Paradosso degli amici**
 
