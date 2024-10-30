@@ -169,6 +169,7 @@ La descrizione deve includere
 Adatto solo se i requisiti sono ben chiari fin dall'inizio ed è difficile che cambino durante lo sviluppo. Ciascuna fase segue quella successiva. Bisogna pianificare tutte le attività di processo prima di iniziare lo sviluppo software. 
 Gli output di una fase sono gli input della fase successiva. 
 Le fasi riflettono in modo diretto le attività di sviluppo fondamentali del software. 
+ 
  ![[Pasted image 20241007110148.png#invert|500]]
 
 
@@ -371,8 +372,7 @@ Può essere meno efficiente per programmatori esperti o quando c'è troppa diffe
 ## SCRUM
 > Metodo agile che offre un framework per organizzare agilmente progetti e fornire una visibilità *esterna* su ciò che accade dentro il team di sviluppo del prodotto software. 
 
-![[Pasted image 20241021104247.png#invert]]
-
+![[Pasted image 20241021104247.png#invert|right|700]]
 Ogni sprint parte dal product backlog: lista degli elementi, requisiti e miglioramento dell'ingegnerizzazione. La versione iniziale è derivata da un documento dei requisiti. 
 All'inizio di ogni ciclo, il *product owner* stabilisce le priorità del product backlog per definire gli elementi più importanti da sviluppare. Product Owner può essere un cliente, product manager o altro stakeholder. Tutti i membri del team sono coinvolti nella scelta degli elementi con priorità più alta che dovranno essere completati. Il tempo richiesto per completare questi elementi è in base alla **velocità**, una stima basata sul backlog di quanto lavoro può essere svolto in uno sprint. 
 Il team deve avere un dialogo continuo e un numero di componenti tra 5-7

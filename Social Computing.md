@@ -75,7 +75,7 @@ Di solito per rappresentare i problemi su una rete si usano grafi e risultati de
 Degree centrality di $v_{i}$ è $d_{1} = 8$ 
 Per gli altri $d_{j}=1, j\neq 1$ 
 
-![[Pasted image 20241008150018.png#invert|300]]
+![[Pasted image 20241008150018.png#invert|200]]
 
 
 #### Centralità di grado nei grafi diretti 
@@ -139,9 +139,9 @@ Riassumendo:
 ### Betweenness Centrality 
 - High: Un nodo fa da tramite tra parti diverse della rete, facilitando la comunicazione tra nodi che non sono connessi direttamente. 
 - Low: Un nodo non ha una posizione centrale nella rete e le comunicazioni lo bypassano. 
-![[Pasted image 20241014190335.png#invert|800]]
+![[Pasted image 20241014190335.png#invert|center|700]]
 
-![[Pasted image 20241015155002.png#invert]]
+![[Pasted image 20241015155002.png#invert|center|700]]
 
 ---
 
@@ -157,7 +157,7 @@ Riassumendo:
 > - Both: many high PageRank pages
 
 
-![[Pasted image 20241015002532.png#invert|500]]
+![[Pasted image 20241015002532.png#invert|400]]
 
 Dove: 
 $r(v)$ = PageRank of $v$ 
@@ -197,13 +197,13 @@ Il PageRank si può quindi pensare come la *probabilità* che l'utente navighi s
 Definita da una matrice $P$, $n \times n$ con $n$ stati con delle probabilità di transizione. 
 Ovvero: è un grafo pesato con $n$ nodi (stati)
 
-![[Pasted image 20241015125730.png#invert|350]]
+![[Pasted image 20241015125730.png#invert|300]]
 
 $P_{ij}$ indica la probabilità che dal nodo $i$ si passi al nodo $j$. 
 
 Esempio:
 
-![[Pasted image 20241015125850.png#invert]]
+![[Pasted image 20241015125850.png#invert|500]]
 
 Probabilità che dal nodo 1 vado al nodo 2: $\Large \frac{3}{4}$
 Dal nodo 2 è più probabile stare nel nodo 2 ($\Large \frac{3}{4}$) che andare in 1. 
@@ -219,7 +219,7 @@ Vantaggi: generalizzabile a posizioni con probabilità: valori da 0 a 1 in base 
 ### Step of the walk
 Quindi avendo la matrice e il vettore di probabilità si può rappresentare un passo della camminata con la moltiplicazione matrice x vettore. 
 
-![[Pasted image 20241015130851.png#invert]]
+![[Pasted image 20241015130851.png#invert|500]]
 Il vettore risultante indica le probabilità di passare da $i$ a $1\dots n$ (nel caso base, quando la probabilità è 1). 
 Avendo ad esempio 2 valori da 0.5 "sommano" il loro contributo nel risultato finale. 
 
@@ -284,7 +284,7 @@ Per calcolare l'*hubness* di $u_{i}$:
 - sommare tutti i valori di authority delle pagine linkate da $u_{i}$, ovvero: 
 - Sommare tutti i valori di authority, moltiplicando per 1 quelli linkati e per 0 gli altri: 
 
-![[Pasted image 20241015134846.png#invert]]
+![[Pasted image 20241015134846.png#invert|500]]
 
 = moltiplicazione del vettore riga per la colonna a. 
 Il vettore riga è dato dalla i-esima riga della matrice di adiacenza $A$: 
@@ -327,7 +327,7 @@ Cons: easily spammable (on the hubs), complex computation (on small graphs
 ## Terminology 
 Actor, Relation, Strength, Weight, Ties...
 
-![[Pasted image 20241015144528.png#invert]]
+![[Pasted image 20241015144528.png#invert|center|700]]
 
 - **Local Bridge**
 	- Arco fra due nodi che sarebbero più lontani senza di esso. 
