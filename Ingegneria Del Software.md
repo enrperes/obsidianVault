@@ -574,6 +574,17 @@ Nasce come linguaggio grafico standard per modellare software OOP.
 - Identifica i requisiti funzionali del sistema
 - Descrive in modo grafico le interazioni tra utenti e sistema 
 - Comportamento del sistema analizzato dal punto di vista dei possibili utenti. 
+### Costruzione
+1. Definire i confini del sistema
+	1. Quali responsabilità rientrano nei confini del sistema che stiamo modellando? 
+2. Identificare gli attori
+	1. Coloro che interagiscono con il sistema per eseguire qualche compito 
+3. Identificare i casi d'uso
+	1. Per ogni attore, identificare compiti e funzioni, poi raggruppare compiti e funzioni in casi d'uso. 
+4. Definire il diagramma
+	1. il diagramma contiene le relazioni tra attori e casi d'uso, 
+5. Descrivere i casi d'uso 
+6. Strutturare i casi d'uso
 
 **[[Ingegneria Del Software#Scenari|Scenari]]** = sequenza di azioni che caratterizzano un'interazione tra utente e sistema
 **caso d'uso** = sequenza di azioni che un sistema può eseguire interagendo con attori esterni. 
@@ -599,14 +610,20 @@ l’inventario. Il cliente ottiene una ricevuta e se ne va
 Può essere : 
 - Primario ha come obiettivo quello che il caso d'uso cerca di soddisfare (cliente)
 - Secondario: il sistema ci interagisce per svolgere il caso d'uso (cassiere)
+è possibile generalizzare gli attori, in *specializzato* e *generale*. Lo specializzato conserva le proprietà del generale oltre a possedere nuove caratteristiche. 
+La freccia va da utente specializzato $\Large \to$ utente generale. 
 
 **Caso d'uso**: unità di lavoro utile che il sistema esegue. Stimolato dall'attore primario per eseguire un compito che l'attore deve eseguire. (Acquista prodotti). Astrazione massima. 
 
-![[Pasted image 20241028120042.png#invert|center|650]]
-
 Un attire può partecipare a più casi d'uso: ovvero una persona fisica può ricoprire più ruoli. 
 Uno stesso attore rappresenta più istanze di utenti e sistemi. 
+Esistono relazioni tra i casi d'uso, usate per strutturare ulteriormente il diagramma dei casi d'uso tra generalizzazioni e specializzazioni.
+- Generalizzazione 
+- Inclusione
+- Estensione
 
+![[Pasted image 20241031140708.png#invert|center|400]]
+Nel caso d'uso esteso (base) si agganciano a uni o più punti di estensione (eXtension Points - XP), le condizioni che fanno scattare l'estensione. 
 ### Scenari 
 [...]
 
@@ -623,3 +640,28 @@ Uno stesso attore rappresenta più istanze di utenti e sistemi.
 - Descrizione di casi d'uso concisi e completi
 - Descrivere casi d'uso a scatola nera (NO riferimenti all'implementazione)
 - Nella descrizione del caso d'uso non devono essere indicati dettagli che rivelano scelte del progetto software. 
+
+### Esempio completo di caso d'uso: 
+
+![[Pasted image 20241031141028.png#invert|center|600]]
+### Errori tipici con i casi d'uso 
+- Diagrammi troppo complessi (troppi casi d'uso: rappresentano sequenza di azioni, non azioni singole) 
+- Ripetere il nome dello stesso caso d'uso più volte nello stesso diagramma 
+- Le frecce delle relazioni di estensione o inclusione non sono tratteggiate, etichettate con `<<extend>>` o `<<include>>`, o verso sbagliato: 
+	- `<<extend>>` : la freccia va dal caso che descrive l'evento alternativo al caso base
+	- `<<include>>` : la freccia va dal caso base al caso che descrive le azioni incluse. 
+
+## Tracciabilità Requisiti / Casi d'uso
+Si crea la **matrice di tracciabilità**: 
+![[Pasted image 20241031141526.png#invert|left|400]]
+Importante incrociare i requisiti funzionali e i casi d'uso per verificare la reciproca copertura: ogni requisito deve essere coperto da almeno un caso e viceversa
+Ogni requisito funzionale può dare origine a più casi d'uso. Ogni caso d'uso può soddisfare più requisiti funzionali. A ogni caso d'uso possono essere associati più requisiti non funzionali. 
+
+## Output finale
+**L'analisi dei casi d'uso produce:** 
+1. Diagramma dei casi d'uso
+	1. Dove è contenuto solo un piccolo sottoinsieme delle info contenute nelle descrizioni degli scenari. 
+2. **Descrizione di tutti gli scenari di tutti i casi d'uso.** 
+	1. Contiene tutte le informazioni contenute nel diagramma dei casi d'uso. 
+
+
