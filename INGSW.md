@@ -1,7 +1,0 @@
-Si vuole realizzare un sistema informatico in grado di gestire in maniera automatizzata le prove di esame tenute da un docente di un corso universitario. Il docente registra preventivamente i dati relativi alla prova, ossia il nome del corso, la data della prova, la durata (espressa in minuti), e l’insieme delle prove da sottoporre agli studenti.
-
-In sede di esame, lo studente deve preventivamente iscriversi, indicando il proprio nome, cognome, numero di matricola e indirizzo e-mail. Il sistema fornisce allo studente iscritto il testo di una prova individuale (scegliendola dall’insieme delle prove registrate dal docente) e calcola il tempo limite entro il quale deve essere consegnata la soluzione. Il tempo limite di consegna è stabilito in base alla durata prevista per la prova e l’ora di assegnazione allo studente. Il sistema dovrà registrare tutti questi dati in apposito archivio. 
-
-Lo studente deve completare il proprio elaborato e consegnarlo tramite l’interfaccia del sistema entro il tempo limite. Il sistema invia inoltre una mail di conferma dell’avvenuta ricezione o ritiro di mancata consegna a tutti gli studenti che non hanno consegnato entro il tempo limite.
-
-Il docente corregge ogni compito, indicando se é sufficiente o meno, inserendo un voto (numerico, compreso tra 18 e 30 oppure insufficiente) e compilando un giudizio testuale. Al termine dell’inserimento dei giudizi di tutti i compiti, un messaggio di e-mail viene recapitato ad ogni studente, con il risultato del suo compito e data, ora e luogo delle registrazioni.

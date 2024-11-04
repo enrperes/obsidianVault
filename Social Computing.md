@@ -733,3 +733,42 @@ Ecco perchè la media in una power law ha poco senso: sarà intorno al 100, ma n
 
 **Paradosso degli amici**
 
+
+---
+
+## Diffusione delle informazioni
+> Processo per cui un'informazione si diffonde e raggiunge altri individui 
+
+
+
+### 4 modelli
+- Herd behavior
+- Information cascade
+- Epidemics (+ social contagion)
+- Morris (benefici diretti)
+
+#### Sender
+uno o pochi mittenti che iniziano il processo
+#### Receivers
+Uno o molti destinatari che ricevono l'informazione
+L'insieme dei destinatari è molto più grande dei mittenti 
+#### Medium
+Mezzo tramite cui la diffusione avviene
+Ad es: per i rumor il mezzo è la comunicazione personale fra le persone.
+
+![[Pasted image 20241104092644.png#invert|center|500]]
+### Herd behavior
+Comportamento di gregge
+
+> [!example]+  **Esempi** 
+ > #### Ristorante
+ > Area metropolitana. Ristorante A con ottime recensioni, ma vuoto. Ristorante B accanto, stessa cucina, ma tavoli pieni. Si decide di andare da B, credendo che altri abbiano avuto l'occasione di provare A --> comportamento di gregge
+ >
+ > #### Esperimento di Milgram
+ > A New York è stato chiesto a una persona di fermarsi e guardare nel cielo. 4% dei passanti si fermano a guardare. 5 persone -> 20%. 18 persone -> 50%. 
+ > 
+ > #### Asch's Lines and Elevator experiments
+ > Sotto pressione gli individui tendono a uniformarsi agli altri 
+ 
+ Gli individui prendono decisioni osservando il comportamento degli altri. 
+
