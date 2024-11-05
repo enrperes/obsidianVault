@@ -782,4 +782,34 @@ Comportamento di gregge
 Esperimento delle urne ...
 
 
- 
+### Information Cascade
+![[Pasted image 20241105134022.png#invert|right|150]]
+Quando gli utenti repostano contenuto postato da altri utenti nella rete. 
+A differenza del comportamento di gregge, gli utenti hanno meno informazione disponibile: si basano solo sulle decisioni degli utenti vicini a loro.
+Es: Hotmail, appendeva un link di invito ad ogni mail inviata.
+
+Rete diretta. I nodi (attori) sono binari: attivi se hanno adottato il comportamento/decisione, inattivi se non ancora. 
+
+#### Independent Cascade Model (ICM)
+Nodi attivi = senders, nodi inattivi = receivers 
+$v$ = nodo attivo al tempo $t$. Per ogni vicino $w$ di $v$ c'è una probabilità $\Large p_{vw}$ che il nodo $w$ venga attivato al tempo $t+1$. La probabilità può variare per diverse coppie di nodi. 
+$v$ al tempo $t$ ha solo una chance per attivare i suoi vicini, a $t+1$, non dopo.
+
+Per massimizzare lo spread delle informazioni equivale a trovare l'insieme di nodi in una rete sociale tali che il loro spread aggregato nella rete sia massimizzato ❔
+
+Formalizzazione del problema:
+- Dati un budget limitato per adv e una stima dello spread tra individui
+- Goal: avviare uno spread di grandi dimensioni 
+- Quale set di individui conviene selezionare all'inizio? 
+
+$k=$ budget = numero di nodi scelti inizialmente. 
+
+> Nodi con centralità alta che siano abbastanza distanti nella rete, per iniziare lo spread in parti diverse della rete. 
+
+$$
+\Large f:2^{N} \mapsto \mathbb{Q}
+$$
+N: nodi, Q = rational numbers. 
+**Problema (ottimizzazione)**: dato il budget (k), trovare il set iniziale $\Large S$, $\Large |S| = k$ che massimizza $\Large f(S)$ 
+
+Soluzione: generare i numeri random una volta, all'inizio del processo ICM. non deterministico $\longrightarrow$ deterministico 
