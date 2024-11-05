@@ -739,24 +739,31 @@ Ecco perchè la media in una power law ha poco senso: sarà intorno al 100, ma n
 ## Diffusione delle informazioni
 > Processo per cui un'informazione si diffonde e raggiunge altri individui 
 
-
-
-### 4 modelli
+### 4 "modelli"
 - Herd behavior
 - Information cascade
 - Epidemics (+ social contagion)
 - Morris (benefici diretti)
 
-#### Sender
-uno o pochi mittenti che iniziano il processo
-#### Receivers
-Uno o molti destinatari che ricevono l'informazione
-L'insieme dei destinatari è molto più grande dei mittenti 
-#### Medium
-Mezzo tramite cui la diffusione avviene
-Ad es: per i rumor il mezzo è la comunicazione personale fra le persone.
+> [!note]- Lessico
+> 
+> #### Sender
+> uno o pochi mittenti che iniziano il processo
+> #### Receivers
+> Uno o molti destinatari che ricevono l'informazione
+> L'insieme dei destinatari è molto più grande dei mittenti 
+> #### Medium
+> Mezzo tramite cui la diffusione avviene
+> Ad es: per i rumor il mezzo è la comunicazione personale fra le persone.
 
 ![[Pasted image 20241104092644.png#invert|center|500]]
+Come vengono diffuse le informazioni, relazione tra visibilità della rete e disponibilità delle informazioni. 
+
+- **Herd Behavior (Comportamento di Gregge):** si verifica quando le persone seguono il comportamento degli altri basandosi sull'informazione globale e in una rete esplicita.
+- **Information Cascades:** fenomeno dove gli individui prendono decisioni basate sull'informazione locale osservata, tipicamente in una rete esplicita.
+- **Epidemics:** modelli di diffusione associati alle reti implicite dove l'informazione si propaga in modo simile alle epidemie.
+
+
 ### Herd behavior
 Comportamento di gregge
 
@@ -772,3 +779,7 @@ Comportamento di gregge
  
  Gli individui prendono decisioni osservando il comportamento degli altri. 
 
+Esperimento delle urne ...
+
+
+ 
