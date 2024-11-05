@@ -36,3 +36,20 @@ Stacked Switches act as a single one. They are connected via dedicated, propriet
 ![[Pasted image 20241025112640.png#invert|right|150]]
 (forwarding table for switch 2)
 
+### Connectionless
+
+### Virtual Circuit (VC)
+Anche chiamato Connection-oriented model: 
+> Prima creare una connessione virtuale dall'host sender all'host destinazione e poi inviare i dati. 
+
+![[Pasted image 20241105094338.png#invert|center|700]]
+Es: Switch 1 ha 4 interfacce. Può ricevere e inviare pacchetti su ogni interfaccia. 
+Se arriva un pacchetto su interfaccia 2, associato al VC 5 allora verrà spedito su interfaccia 1, vc = 11. 
+
+#### PVC vs SVC
+Permanent vs Switched by signaling. il primo è permanente e configurato dall'amministratore di rete. il secondo va in base ai pacchetti che arrivano. 
+
+#### Vantaggi
+- Sapere a priori le caratteristiche del canale: avere la conferma che esiste un percorso tra host e receiver, che è pronto a ricevere i dati. 
+- + garanzie sulla latenza, + costo per configurare la rete. 
+
