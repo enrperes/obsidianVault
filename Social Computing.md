@@ -813,3 +813,19 @@ N: nodi, Q = rational numbers.
 **Problema (ottimizzazione)**: dato il budget (k), trovare il set iniziale $\Large S$, $\Large |S| = k$ che massimizza $\Large f(S)$ 
 
 Soluzione: generare i numeri random una volta, all'inizio del processo ICM. non deterministico $\longrightarrow$ deterministico 
+
+
+### Epidemics
+
+- implicit network 
+- Unknown connections between users
+Suitable for global patterns: Trends, ratios of people getting infected...
+
+#### 4 basic epidemics models
+- SI, SIR, SIS, SIRS
+
+Susceptible - Infected (SI) 
+![[Pasted image 20241105145944.png#invert|right|100]]
+**Susceptible** users can potentially get infected by the disease
+*Infected*  users have the chance to infect susceptible individuals. 
+
