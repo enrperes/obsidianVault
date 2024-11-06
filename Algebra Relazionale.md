@@ -7,3 +7,5 @@
 	1. 
 2. Solo informazione positiva (non si può assumere la completezza)
 3. Non si possono esprimere chiusure ricorsive / transitive
+
+
