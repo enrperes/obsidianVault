@@ -32,11 +32,13 @@ Stacked Switches act as a single one. They are connected via dedicated, propriet
 	- Ogni pacchetto contiene la destinazione completa
 - Per stabilire come inoltrare un pacchetto, lo switch consulta la *tabella di forwarding*, con una colonna "destinazione" e una "porta". 
 
+(forwarding table for switch 2)
 ![[Pasted image 20241025112618.png#invert|left|450]]
 ![[Pasted image 20241025112640.png#invert|right|150]]
-(forwarding table for switch 2)
 
+.
 ### Connectionless
+...
 
 ### Virtual Circuit (VC)
 Anche chiamato Connection-oriented model: 
@@ -52,4 +54,30 @@ Permanent vs Switched by signaling. il primo è permanente e configurato dall'am
 #### Vantaggi
 - Sapere a priori le caratteristiche del canale: avere la conferma che esiste un percorso tra host e receiver, che è pronto a ricevere i dati. 
 - + garanzie sulla latenza, + costo per configurare la rete. 
+
+### Spanning Tree Algorithm 
+
+## Internetworking
+> Arbitrary collection of networks interconnected to provide host to host packet delivery service. 
+
+![[Pasted image 20241107094743.png#invert|left|400]]
+Esempio di (inter)network. 
+
+A livello 3 si usano gli indirizzi IP 
+![[Pasted image 20241107100139.png#invert|left|500]]
+Host5 per comunicare con Host8 deve passare per i 3 Router, usando protocolli diversi (802.11, ETH, PPP)...
+IP, al livello 3, ha il compito di passare da un protocollo all'altro. 
+
+L'intestazione a livello 2 non ha come destinatario l'host finale, ma il salto successivo. 
+
+### IPv4
+![[Pasted image 20241107104226.png#invert|center|700]]
+Intestazione pacchetto IPv4. 
+
+[...] 
+
+`ifconfig en0` su terminale per info sulla connessione, ip, mtu...
+
+**MTU** = maximum Transmission Unit: depends on the technology. 
+Transport level doesn't know about MTU: can cause problems if the path from sender to destination crosses a link with a smaller MTU. 
 
