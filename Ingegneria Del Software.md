@@ -660,3 +660,49 @@ Ogni requisito funzionale può dare origine a più casi d'uso. Ogni caso d'uso p
 
 
 [[Diagramma UML delle classi]]
+
+07/11/2024
+
+## Associazioni riflessive e classi associative
+
+Le *associazioni riflessive* collegano una classe con sé stessa. 
+![[Pasted image 20241107134902.png#invert|center|400]]
+- Una cartella può contenere 0 o più sottocartelle, indicato da:`[0...*]` 
+- Una cartella può essere contenuta al massimo in una sola altra cartella. 
+
+ Le **Classi associative** sono attributi che caratterizzano un'associazione: (collegata con linea tratteggiata)
+ ![[Pasted image 20241107135102.png#invert|center|400]]
+ - Può avere attributi, metodi, altre associazioni. Utilizzate in genere per associazioni molti a molti 
+ - La classe associativa connette due classi e definisce un insieme di caratteristiche proprie dell'associazione stessa. 
+ - Ciascuna istanza di classe associativa rappresenta un'associazione tra due istanze delle classi. Contiene valori degli attributi 
+
+
+[...] 
+
+## Generalizzazione
+
+concetti Generalizzazione - Specializzazione analoghi a OOP. 
+![[Pasted image 20241107135941.png#invert|center|500]]
+Indica legami di tipo *is-a* tra le **sottoclassi** e la **superclassse**. (cliente is a persona)
+Freccia va dalla classe specializzata alla classe generale. Buona pratica: info comuni stanno nella classe più generale (no ridondanza.). Classi del livello più basso hanno tutti gli attributi e operazioni delle classi generali, aggiungono operazioni e attributi più specifici. 
+ 
+ 
+ 
+A livello di dettaglio può essere interpretato come relazione di ereditarietà tra due classi concrete, o come relazione di realizzazione tra una classe astratta e una classe concreta. 
+
+## Contenimento
+
+Tipo di associazione tra classi: rappresenta il legame tra un insieme ("tutto") e le sue parti: Ad esempio legame tra stato, regioni, province. 
+Contenimento può essere:
+- **Aggregazione**
+	- La parte mantiene la sua identità quando entra a far parte del tutto (auto - motore)
+	- ![[Pasted image 20241107140741.png#invert||200]]
+	- A è detto *aggregato.* Le parti possono esistere indipendentemente da esso. 
+	- possibile che più aggregati condividano la stessa parte. 
+- **Composizione**
+	- La parte perde la sua entità quando entra a far parte del tutto (pane - farina )
+	- ![[Pasted image 20241107140808.png#invert|200]]
+	- Le parti non esistono senza il tutto. 
+Quando il confine tra i due concetti non è chiaro -> rombo vuoto, aggregazione. 
+
+![[Pasted image 20241107141854.png#invert|center|500]]
