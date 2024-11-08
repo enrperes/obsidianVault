@@ -81,3 +81,56 @@ Intestazione pacchetto IPv4.
 **MTU** = maximum Transmission Unit: depends on the technology. 
 Transport level doesn't know about MTU: can cause problems if the path from sender to destination crosses a link with a smaller MTU. 
 
+
+## Global Addresses
+- Globally unique: 
+	- Host can have many addresses, but an address cannot be assigned to more than one host. 
+	- First part: network, assigned uniquely to a single entity. 
+	- Second part: host within the network.
+#### 3 + 1  CLASSES: 
+- Class **A**: addresses beginning with `0`. Next 7 bits are network number. Remaining 24 bits are host number within the network. 
+	- Primo byte inizia per: 0 ~ 127
+	- $\Large 2^{7}$ reti, $\Large 2^{24}$ indirizzi ciascuna
+- Class **B**: begins with `10`, next 14 bits are network number, remaining 16 are host number 
+	- 128 ~ 191
+	- $\Large 2^{14}$ reti, $\Large2^{16}$ indirizzi ciascuna
+- Class **C**: begins with `110`, next 21 bits are network number, remaining 8 bits are host number 
+	- 192 ~ 223
+	- $\Large2^{21}$ reti, $\Large2^{8}$ indirizzi
+- Class **D**: begins with `111`, not used for host addressing but for multicast. Class E is unused. 
+	- 224+ 
+
+Numero totale di indirizzi possibili: $\huge 3.75\times 10^{9}$ (non bastano)
+#### Indirizzi speciali (2)
+- Tutti `0` nella parte dell'host: `158.110.0.0` --> rappresenta semplicemente la rete
+- Tutti `1` nella parte host: 158.110.255.255 --> broadcast within the network
+
+### IP Datagram Forwarding
+Unlike level 2 switches, cannot use destination addresses: tables would take too much memory, order or $10^{9}$ ...
+Instead, forwarding is by *destination network* where the destination address belongs to.
+The forwarding table maps network number into next  hop. 
+
+### Subnetting
+
+![[Pasted image 20241108102749.png#invert|left|300]]
+Class A and B networks can be too large for a single physical network, so we add another level to address / routing hierarchy: **subnet**.
+Subnet **mask** define variable partition of host part of class A and B addresses, according to physical nets. 
+Subnet are only visible within the network. (AS)
+ES: network `158.110.1.0` allows addresses from `158.110.1.1` to `158.110.1.254`. Broadcast is now `158.110.1.255`. 
+
+Notazione per la netmask:
+`192.168.0.0/16 = 255.255.0.0` --> primi 16 bit sono `1`, i rimanenti sono `0`. (=CIDR)
+
+Esercizio: 
+rete`192.168.0.0/16`, si vogliono definire tre sottoreti contigue, a partire dall'indirizo 192.168.0.0. 
+Le tre sottoreti devono essere le più piccole necessarie per contenere rispettivamente 50, 60, 70 indirizzi. Si diano gli indirizzi di tali sottoreti, completi di CIDR
+
+| Network | Indirizzi | Bit necessari | IP range                        | CIDR               |
+| ------- | --------- | ------------- | ------------------------------- | ------------------ |
+| N1      | 50        | 6             | `192.168.0.1 ~ 192.168.0.62`    | `192.168.0.0/26`   |
+| N2      | 60        | 6             | `192.168.0.65 ~ 192.168.0.126`  | `192.168.0.64/26`  |
+| N3      | 70        | 7             | `192.168.0.129 ~ 192.168.0.254` | `192.168.0.128/25` |
+|         |           |               |                                 |                    |
+
+
+
