@@ -132,5 +132,5 @@ Le tre sottoreti devono essere le più piccole necessarie per contenere rispetti
 | N3      | 70        | 7             | `192.168.0.129 ~ 192.168.0.254` | `192.168.0.128/25` |
 |         |           |               |                                 |                    |
 
-
+#### Classless Inter-Domain Routing
 
