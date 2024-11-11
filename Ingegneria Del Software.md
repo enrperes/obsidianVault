@@ -706,3 +706,42 @@ Contenimento può essere:
 Quando il confine tra i due concetti non è chiaro -> rombo vuoto, aggregazione. 
 
 ![[Pasted image 20241107141854.png#invert|center|500]]
+
+11/11/2024 - 11 esima lezione
+
+#### System Domain Model vs System Model
+Il primo modella le **entità** del dominio del problema, presenti nel sistema. Il secondo include anche le classi usate per **costruire** il sistema completo. Classi per UI, classi associate alla parte di architettura (client, server, file, database..), classi di utilità...
+Contiene metodi e informazioni sulla navigabilità. 
+
+### System Domain Model - costruzione
+> [!example]+  **Processo di astrazione** 
+ > 1. Identificare un primo insieme di **classi** candidate
+ > 2. Aggiungere associazioni e attributi a queste classi
+ > 3. Trovare **generalizzazioni**
+ > 4. Trovare le principali **responsabilità** di ogni classe
+ > 5. Iterare il processo 
+ 
+#### Identificare le CLASSI
+Una buona classe: 
+- ha un nome sensato 
+- è un'astrazione. modella un elemento del dominio del problema. 
+	- Occhio alle ridondanze: Es: un utente può iscriversi al sistema e creare un profilo per accedere al carrello. Profilo e utente sono due classi ridondanti. Meglio creare una classe **ProfiloUtente**. 
+- Ha un insieme di responsabilità, ridotto e ben definito. 
+
+> [!example]+  **Esempio libri** 
+ > Il **sistema** consente agli utenti di cercare libri per titolo, autore e genere. Gli utenti possono prendere in prestito e restituire i **libri**. Gli **amministratori** del sistema possono aggiungere, modificare e rimuovere libri dal **catalogo**. Il **sistema** traccia lo strato di disponibilità di ciascun **libro**. Gli utenti possono iscriversi al sistema, creare un **profilo** e accedere alla **lista** dei **libri** in prestito.
+ 
+![[Pasted image 20241111105932.png#invert|center|500]]
+
+Bisogna includere classi solo se occorre salvare o manipolare informazioni (Profilo Utente). Altrimenti sono esterni al sistema (Amministratore)
+Errore comune: considerare il sistema e tutti gli utenti del sistema come se fossero classi. 
+
+#### Identificare ATTRIBUTI
+
+
+
+[...] 
+
+##### Esempio di System Domain Model di Azienda Alimentare: 
+
+
