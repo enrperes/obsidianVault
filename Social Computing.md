@@ -824,8 +824,30 @@ Suitable for global patterns: Trends, ratios of people getting infected...
 #### 4 basic epidemics models
 - SI, SIR, SIS, SIRS
 
-Susceptible - Infected (SI) 
+#### Susceptible - Infected (SI) 
 ![[Pasted image 20241105145944.png#invert|right|100]]
 **Susceptible** users can potentially get infected by the disease
 *Infected*  users have the chance to infect susceptible individuals. 
 
+#### Susceptible - Infected - Recovered
+![[Pasted image 20241111083818.png#invert|right|200]]
+Alcuni individui infetti passano allo stato *recovered* (o guariscono o muoiono). Una volta in questo stato, non possono più infettare ed essere infetti. 
+![[Pasted image 20241111084004.png#invert|center|500]]
+è possibile che dopo la stabilizzazione il numero di R sia < 100%, perchè alcuni possono non aver mai contratto la malattia. S ed R decrescono / crescono monotonicamente. 
+
+Dati $\beta, \gamma$ si calcola il valore $\Large R_{0}$: *Basic reproduction number.*  = numero medio di individui che un **I** infetta prima di guarire. Ad esempio, se $\Large R_{0}$ = 2 --> crescita esponenziale (1, 2, 4, 8...) e l'epidemia **esplode**.
+Se $\Large R_{0} = \frac{1}{2}$, epidemia si estingue quasi subito. 
+
+è possibile calcolare come l'epidemia si comporta per $t \longrightarrow \infty$:
+- $\Large R_{0} = \frac{\beta}{\gamma}=1$ indica la soglia epidemica. C'è epidemia se $\Large \geq 1$ 
+
+Come per la componente gigante c'è una transizione di fase brusca, in base al valore di $\Large \frac{\beta}{\gamma}$ 
+
+#### Susceptible - Infected - Susceptible
+![[Pasted image 20241111084235.png#invert|right|200]]
+Same as SI model with the addiiton of infected nodes recovering and becoming susceptible again. 
+-  Caso 1: $\Large \beta N \leq \gamma$ 
+	- Si guarisce più in fretta di quanto ci si ammali
+	- Ci si mette di più ad ammalarsi che a guarire
+- Caso 2: $\Large \beta N>\gamma$ 
+	- Logistic growth function, come nel modello SI. 
