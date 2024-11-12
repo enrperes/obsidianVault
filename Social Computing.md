@@ -11,7 +11,7 @@ tags:
 
 Argomenti del corso: 
 
-# [[1. Social Media]]
+### [[1. Social Media]]
 
 > [!example] Argomenti
 > - Intro 
@@ -29,7 +29,7 @@ Argomenti del corso:
 > 	- misure e modelli
 > - Applicazioni
 
-# 2. Crowdsourcing
+### 2. Crowdsourcing
 
 > [!attention]  **Argomenti** 
  > - Crowdsourcing 
@@ -436,8 +436,7 @@ Molti reti "reali" mostrano una distribuzione dei gradi power law.
 In una distribuzione Power Law: 
 - i valori piccoli sono comuni
 - I valori grandi sono estremamente rari (non impossibili, diverso da una distribuzione gaussiana)
-
-![[Pasted image 20241021094814.png#invert|400]]
+![[Pasted image 20241021094814.png#invert|left|300]]
 $$
 \Large f(k) \approx \frac{1}{k^{\alpha}}
 $$
@@ -783,7 +782,7 @@ Esperimento delle urne ...
 
 
 ### Information Cascade
-![[Pasted image 20241105134022.png#invert|right|150]]
+![[Pasted image 20241105134022.png#invert|right|180]]
 Quando gli utenti repostano contenuto postato da altri utenti nella rete. 
 A differenza del comportamento di gregge, gli utenti hanno meno informazione disponibile: si basano solo sulle decisioni degli utenti vicini a loro.
 Es: Hotmail, appendeva un link di invito ad ogni mail inviata.
@@ -826,14 +825,43 @@ Suitable for global patterns: Trends, ratios of people getting infected...
 
 #### Susceptible - Infected (SI) 
 ![[Pasted image 20241105145944.png#invert|right|100]]
-**Susceptible** users can potentially get infected by the disease
-*Infected*  users have the chance to infect susceptible individuals. 
+**Susceptible** : individui che possono venire infettati 
+*Infected*  : individui che hanno la possibilità di infettare i suscettibili. 
+
+$\Large N = S(t)+I(t)$ 
+Dove: 
+$N$ = dimensione della popolazione (costante)
+$S(t)$ = numero di individui suscettibili al tempo t
+$I(t)$ = numero di infetti al tempo t
+$\beta$ = probabilità di contatto. Se = 1, tutti vengono in contatto con tutti. Se = 0, nessuno incontra nessuno. 
+
+Ad ogni istante di tempo, un individuo incontra $\beta N$ individui in media e ne infetta $\beta N$. 
+Ad ogni step, la variazione del numero di individui in $S$ e $I$ è di $\beta IS$ 
+Si ottiene: 
+$$
+\begin{gather} 
+\frac{dS}{dt}= -\beta IS \\
+
+\\ 
+
+\Large \frac{NI_{0}e^{\beta tN}}{N+I_{0}(e^{\beta tN}-1)} 
+
+\end{gather}
+$$
+
+![[Pasted image 20241112122754.png#invert|center|450]]
 
 #### Susceptible - Infected - Recovered
 ![[Pasted image 20241111083818.png#invert|right|200]]
 Alcuni individui infetti passano allo stato *recovered* (o guariscono o muoiono). Una volta in questo stato, non possono più infettare ed essere infetti. 
-![[Pasted image 20241111084004.png#invert|center|500]]
-è possibile che dopo la stabilizzazione il numero di R sia < 100%, perchè alcuni possono non aver mai contratto la malattia. S ed R decrescono / crescono monotonicamente. 
+![[Pasted image 20241111084004.png#invert|center|450]]
+> è possibile che dopo la stabilizzazione il numero di R sia < 100%, perchè alcuni possono non aver mai 
+> contratto la malattia. S ed R decrescono / crescono monotonicamente. 
+
+Ci sono 3 equazioni principali: 
+- $\Large \frac{dS}{dt}=-\beta IS$ --> rate of change dei suscettibili. Negativo perché decrescono
+- $\Large \frac{dI}{dt}=\beta IS-\gamma I$ --> rate of change degli infetti
+- $\Large \frac{dR}{dt}=\gamma I$ --> rate of change dei recovered. 
 
 Dati $\beta, \gamma$ si calcola il valore $\Large R_{0}$: *Basic reproduction number.*  = numero medio di individui che un **I** infetta prima di guarire. Ad esempio, se $\Large R_{0}$ = 2 --> crescita esponenziale (1, 2, 4, 8...) e l'epidemia **esplode**.
 Se $\Large R_{0} = \frac{1}{2}$, epidemia si estingue quasi subito. 
