@@ -879,3 +879,129 @@ Same as SI model with the addiiton of infected nodes recovering and becoming sus
 	- Ci si mette di più ad ammalarsi che a guarire
 - Caso 2: $\Large \beta N>\gamma$ 
 	- Logistic growth function, come nel modello SI. 
+
+
+### Traduzione sulle reti 
+
+Un'assunzione fatta fin'ora è che tutti i nodi avessero grado simile. Ogni individuo viene a contatto con lo stesso numero di individui ---> si può ridefinire il **Basid Reproduction Number**
+
+#### $\Large R_{0}$ su rete omogenea
+Tutti i nodi hanno grado simile alla media $\langle k \rangle$ = grado medio 
+Ogni I infetta un vicino S con probabilità $\beta$, come prima. 
+Quindi $\Large R_{0} = \langle k \rangle \frac{\beta}{\gamma}$
+
+Come diminuire $\Large R_{0} \langle k \rangle \frac{\beta}{\gamma}$? 
+1. $\beta$ : diminuire la contagiosità (mascherine, vaccino)
+2. $\gamma$ : aumentare la velocità di guarigione (cure)
+3. $\langle k \rangle$ diminuire il grado medio (lockdown)
+
+#### $\Large R_{0}$ su rete eterogenee
+Gli hub si contagiano facilmente e contagiano molti altri nodi. 
+Intervention = strategia di vaccinazione mirata, paradosso degli amici (amico ha più amici di me)
+
+- è facile che un rumor raggiunga un hub, a quel punto la diffusione è molto alta. Se hub diventano spreader, allora ci saranno interazioni spreader - spreader frequenti ---> portano a stifler, quindi molte interazioni spreader-stifler...
+
+
+### Modello Direct Benefit
+Le persone vengono influenzate da altre persone sulla base di: 
+- **Informazioni**
+	- fare qualcosa perchè altri lo fanno, herd behavior
+- **Benefici**
+	- Fare qualcosa perché *conviene* rispetto a non farlo. 
+
+Per un nodo, li **beneficio** di adottare un comportamento cresce al crescere del numero di vicini che lo adottano. (come adozione di tecnologie simili (whatsapp), interazioni sociali con chi ha opinioni simili.)
+
+### Teoria dei giochi
+
+![[Pasted image 20241112135213.png#invert|center|500]]
+Ogni nodo sceglie fra due possibili comportamenti A e B. Se due nodi sono collegati da un arco c'è un incentivo (*payoff*) ad adottare comportamenti uguali. 
+
+
+![[Pasted image 20241112135402.png#invert|left|200]]
+**Matrice dei Payoff**. il guadagno quando si adotta il comportamento uguale è segnato nello slot corrispondente, per v e w.
+
+La domanda è: se alcuni vicini adottano A e altri B, quale comportamento conviene adottare? 
+Dipende da *payoff a* e *payoff b*, numero di vicini che adottano A e B. 
+
+#### Regola di decisione
+
+![[Pasted image 20241112135842.png#invert|right|200]]
+$p$ = % di vicini che adottano A, $1-p$ = % di vicini che adottano B, $d$ = numero di vicini. 
+
+Se $v$ adotta A --> payoff = $\Large pda$  
+Se $v$ adotta B --> payoff = $\Large (1-p)db$ 
+Regola di decisione
+$$
+\Large
+\begin{gather}
+p\geq \frac{b}{a+b}\\ \\
+q= \frac{b}{a+b}
+\end{gather}
+$$
+> Se almeno una frazione q dei miei vicini adotta A, allora lo faccio anche io. Se q è piccolo, payoff A >> payoff di B --> A è più attraente. 
+
+2 ovvi equilibri: tutti adottano A, tutti adottano B.  
+
+> [!abstract]+  Esempio
+> Tutti stanno adottando B --> B è il default
+> Alcuni early adopters passano ad A e possono convincere a catena gli altri B a cambiare. 
+> È un processo monotono, se un nodo passa ad A, non torna indietro. 
+> Il processo si ferma quando o tutti sono passati ad A o nessun nodo vuole più cambiare e c'è una coesistenza tra A e B. 
+> ---
+> Es:
+> $\large a=3, b=2 \longrightarrow q=\frac{b}{(a+b)}=\frac{2}{5}$
+> Quindi lo switch da B ad A avviene se almeno 2/5 dei *vicini* adottano A.
+> è una reazione a catena: alcuni nodi inizialmente non sono in grado di cambiare ma ci riescono dopo con l'aiuto di altri nodi. 
+
+![[Pasted image 20241112143023.png#invert|left|250]] 
+Qui si ferma: nessun nodo ha almeno 2/5 dei vicini che adottano A. Per far ripartire la "cascata" (intervention) basterebbe convertire 12 e 13. Convertire nodi lontani non servirebbe a nulla. 
+Se tutti i nodi passano ad A --> cascata completa. 
+
+A differenza dell'ICM (Independent Cascade Model), dove ogni nodo prova indipendentemente a convincere i suoi vicini, qui è l'insieme di vicini. ICM è stocastico, questo modello è deterministico. 
+
+#### INTERVENTION
+
+Strategie che possono essere usate per far passare ad A: 
+- migliorare il payoff di A
+	- abbassare il prezzo, migliorarne le caratteristiche...
+- Convincere i nodi chiave a convertirsi, per far ripartire la catena 
+	- Regali, omaggi...
+
+Quindi: 
+- Per far *ripartire* una cascade
+	- Aggiungere archi fra cluster diversi per rinforzare i legami deboli
+	- Togliere archi all'interno di un cluster
+- Per *bloccare* una cascade
+	- Togliere archi fra cluster diversi, indebolendo i legami deboli
+	- Aggiungere archi all'interno dei cluster per rafforzare le comunità 
+### Cluster
+![[Pasted image 20241112144347.png#invert|left|350]]
+#### Risultato di Morris: 
+Un **cluster** è una comunità coesa (sottografo quasi completo, molti legami interni e pochi esterni). 
+I cluster fermano le cascate: una cascata si ferma SSE c'è un cluster. 
+
+> un insieme di nodi è un cluster di densità $p$ se ogni nodo che vi appartiene ha almeno una frazione $p$  dei suoi vicini nel cluster. 
+
+#### Teorema di Morris
+1. Se il resto della rete contiene un cluster di densità $> 1-q$, allora non ci sarà una cascata completa (blocking cluster)
+2. Se non c'è una cascata completa, allora c'è un cluster di densità $> 1-q$ 
+
+> [!abstract]+  Dimostrazione per assurdo di 1. e 2.
+>  
+ > 
+
+[...] 
+
+### Awareness != Adoption
+
+Weak ties: conoscenza non intime sono utili per diffusione di informazioni (o malattie!) --> Awareness
+Sono inutili per la diffusione di mode e innovazione --> adoption
+
+> Facile raccontare una barzelletta a uno sconosciuto, difficile convincerlo a fare una rivoluzione. 
+
+#### Movimenti Sociali 
+Hanno una diffusione lenta e locale. **Adoption**. hanno una soglia alta e non sfruttano i weak ties. 
+
+#### Meme
+Hanno una diffusione rapida e diffusa. **awareness**. hanno soglia bassa e sfruttano i weak ties. 
+
