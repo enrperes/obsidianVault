@@ -135,3 +135,74 @@ Le tre sottoreti devono essere le più piccole necessarie per contenere rispetti
 #### Classless Inter-Domain Routing
 
  
+## Host Configuration
+Indirizzi IP devono essere unici in ogni rete e devono rispecchiare la struttura della rete stessa. 
+è possibile assegnarli manualmente, ma: 1) tanto lavoro manuale per reti grandi. 2) facile commettere errori. 
+
+Processo automatico: 
+### Dynamic Host Configuration Protocol (DHCP)
+
+> Responsible for providing configuration info to hosts. 
+
+il server DHCP mantiene una pool con gli indirizzi IP disponibili, che verranno assegnati agli host.
+Due metodi di assegnazione: 
+- Statically (based on MAC)
+- Dynamically (time-limited "leases")
+![[Pasted image 20241115095424.png#invert|left|500]]
+1. Newly booted host sends `DHCPDISCOVER` message (to broadcast). Ignored by routers. The source IP is irrelevant, could be all 0s. could also include MAC address. 
+2. DHCP Servers'a answer contains the offered IP address for the host. This is also broadcasted or delivered using its MAC. 
+3. The client asks the server for confirmation 
+4. If confirmed, the DHCP client sets the local IP address, gateway, DNS...
+
+A DHCP Server can serve multiple networks at once, even remotely. DHCP relay agent needed for each network in order to listen for DHCP requests. 
+
+## Private IP Networks and NAT
+
+Typical private IP ranges: 
+![[Pasted image 20241115101024.png#invert|left|500]]
+**NAT** (Network Address Translation) allows hosts on a private network to communicate with the internet. Connectivity is not seamless 
+
+![[Pasted image 20241115101505.png#invert|center|400]]
+
+> [!done]+ Vantaggi NAT
+> Un vantaggio del NAT è che permette a un indirizzo IP pubblico di essere usato da più indirizzi IP privati. 
+> Facilita la migrazione tra ISP. Solo l'IP pubblico del router cambia. 
+> Load Balancing: inoltra il traffico da un singolo IP pubblico a diversi host privati. 
+
+#### Natural FIREWALL
+
+Le porte del router NAT vanno esplicitamente configurate per accettare pacchetti dall'esterno, altrimenti bloccano tutte le richieste di collegamento.
+
+#### Hole punching 
+Problema: come permettere la connessione tra due NAT che si bloccano a vicenda?
+Soluzione: STUN, TURN
+
+**STUN**: Session Traversal Utilities for NAT
+Il client con IP privato usa un servizio di terze parti per scoprire il suo indirizzo IP pubblico.
+Problema: spesso i NAT Sono annidati, quindi l'indirizzo ricevuto dal provider STUN è sempre un indirizzo privato. 
+
+**TURN**: Traversal Using Relays around NAT
+
+Router NAT apre una porta. Con STUN scopre l'IP pubblico associato. Con TURN 
+
+## Routing
+
+> [!example]+  **Forwarding** 
+ > - To select an output port for each packet, based on destination address and forwarding table. 
+ > - Must be simple and fast
+ > - Can be implemented in Hardware
+ > 
+ > Forwarding table: 
+ > - used when a packet is being forwarder and must contain enough information to accomplish the forwarding function
+ > - Each row in the f.t. contains the mapping from a network number to an outgoing interface and some MAC information (ETH address of the next hop)
+ 
+> [!example]+  **Routing** 
+ > - Process by which routing table is built
+ > - Routing table = precursor of forwarding table
+ > - Process run in the background
+ > - Can be complex
+ > 
+ > Routing Table
+ > - Built by the routing algorithm as a precursor to build the forwarding table. 
+ > - Generally contains mapping from network numbers to next hops
+ 
