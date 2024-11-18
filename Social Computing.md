@@ -1005,3 +1005,87 @@ Hanno una diffusione lenta e locale. **Adoption**. hanno una soglia alta e non s
 #### Meme
 Hanno una diffusione rapida e diffusa. **awareness**. hanno soglia bassa e sfruttano i weak ties. 
 
+
+
+# Information disorder
+
+### Misinformation
+Informazioni false ma diffuse in buona fede
+> 
+### Disinformation
+Fake news, diffuse volontariamente 
+> Disinformation is not a piece of content. It's a strategy. 
+### Malinformation
+Leaks di informazioni private, media... (revenge porn)
+
+## Truthfulness is multidimensional 
+Non solo `TRUE / FALSE`. Su www.politifact.com ci sono 6 livelli: 
+==True, Mostly true, Half true, Mostly false, False, Pants on fire==
+
+But also more than one dimension: 7. 
+Ognuno ha una scala da -2 a +2
+1. **Correctness**
+	1. Informazione espressa in modo corretto 
+2. **Neutrality**
+	1. Info espressa in modo oggettivo 
+3. **Comprehensibility**
+	1. Understandable / readable as opposed to difficult to understand
+4. **Precision**
+	1. Informazioni specifiche e precise, non vaghe
+5. **Completeness**
+	1. Completezza delle informazioni
+6. **Speaker's trustworthiness**
+	1. Credibilità delle fonti 
+7. **Informativeness**
+	1. L'utilità delle informazioni 
+
+### Modelli epidemici per le Fake News
+Combinazione tra modello SIR e ISR:
+- Susceptible: chi non ha ricevuto fake news
+- Spreader: chi l'ha ricevuta e la distribuisce 
+- Recovered: chi non la distribuisce più
+Modello più completo:
+![[Pasted image 20241118094526.png#invert|center|600]]
+Similarità con modello SIR:
+**S**: susceptible
+**I**: Exposed, Believer, Spreader
+**R**: Not believer, Not spreader, debunker
+
+Modello analogo: SEDPNR (Susceptible - Exposed - Doubtful - Positively Infected - Negatively Infected - Restrained) 
+
+Non ci sono studi esaustivi sull'argomento. 
+
+## Tre studi sperimentali sulla diffusione delle disinformazioni
+
+### *The spread of true and false news online*, Science
+https://science.sciencemag.org/content/359/6380/1146
+
+Presi in considerazione 126000 rumors, su twitter, fact checked. 
+- Fake News vengono diffuse di più, più velocemente e più in profondità
+- Notizie false più recenti di quelle vere
+- I bot diffondono notizie false e fake allo stesso modo ---> utenti reali "colpevoli"
+
+4 Misure per quantificare la diffusione: 
+- Depth
+	- Numero di retweet 
+- Unique users
+	- Totale di utenti raggiunti che retweettano
+- Structural Visibility
+- Max breadth
+
+Sulla base di queste misure, si diffondono più le fake news? 
+![[Pasted image 20241118100556.png#invert|center|500]]
+Sì, ma di poco. 
+- Le news politiche si comportano "peggio"
+- Fake News nuove si diffondono di più
+- Bot: non fanno differenza tra fake/true news.
+
+### *The spreading of misinformation online*, PNAS
+https://doi.org/10.1073/pnas.1517441113
+
+Facebook. 67 pagine pubblicate: metà notizie scientifiche e metà teorie cospirazionali.
+
+![[Pasted image 20241118101437.png#invert|left|400]]
+Il pattern di condivisione è simile per le due categorie. La maggior parte dei post ha **alta omogeneità**: misura di quanto due nodi sono nella stessa comunità. 
+Si tendono a formare comunità separate, segregate. 
+

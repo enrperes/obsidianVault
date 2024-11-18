@@ -206,3 +206,4 @@ Router NAT apre una porta. Con STUN scopre l'IP pubblico associato. Con TURN
  > - Built by the routing algorithm as a precursor to build the forwarding table. 
  > - Generally contains mapping from network numbers to next hops
  
+
