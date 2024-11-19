@@ -207,3 +207,41 @@ Router NAT apre una porta. Con STUN scopre l'IP pubblico associato. Con TURN
  > - Generally contains mapping from network numbers to next hops
  
 
+Per una semplice rete si calcolano gli shortest paths e si salvano in ogni nodo. Problemi: non resistente a problemi o aggiunte di nodi e non è possibile aggiornare le distanze dei percorsi nel tempo. 
+
+Soluzione: protocollo distribuito e dinamico per costruire tabelle di routing in ogni nodo. 
+Tre classi principali di protocolli:
+- **Distance Vector** (protocolli come RIP)
+- **Link State** (OSPF and IS-IS)
+- **Path Vector** (BGP)
+
+### Distance Vector
+Assunzione: non serve conoscere la rete, ma ogni nodo conosce la distanza del link ai suoi vicini diretti. 
+Ogni nodo costruisce un array con i costi a tutti i suoi vicini e distribuisce questo vettore ai suoi vicini. 
+
+Routing table iniziale:
+![[Pasted image 20241119094504.png#invert|center|700]]
+Routing table finale: 
+![[Pasted image 20241119095642.png#invert|center|700]]
+
+#### Procedimento
+
+Bellman-Ford algorithm: 
+
+Ogni T secondo ogni router invia il suo vettore ai suoi vicini. 
+Quando un router riceve il vettore, aggiorna la sua tabella con le nuove informazioni: 
+- Per ogni entry, se c'è una strata migliore di quella corrente, viene aggiornata
+- Se la strada migliore passa comunque per il router vicino, il costo viene aggiornato. 
+
+
+Non deterministico: Ad es. da B a G può stabilizzarsi il percorso per A in un verso e per C nell'altro verso. 
+
+Split horizon technique to improve time to stabilize routing 
+
+
+### Link State Routing 
+Approccio diverso: ogni nodo ha una visione completa e possibilmente aggiornata (non è detto) di tutti i collegamenti della rete (grafo).
+Avendo il grafo completo in memoria si possono usare gli algoritmi di ricerca del path minore per costruire l'albero di copertura minimo.
+
+
+
