@@ -213,7 +213,7 @@ Soluzione: protocollo distribuito e dinamico per costruire tabelle di routing in
 Tre classi principali di protocolli:
 - **Distance Vector** (protocolli come RIP)
 - **Link State** (OSPF and IS-IS)
-- **Path Vector** (BGP)
+	- **Path Vector** (BGP)
 
 ### Distance Vector
 Assunzione: non serve conoscere la rete, ma ogni nodo conosce la distanza del link ai suoi vicini diretti. 
@@ -243,5 +243,57 @@ Split horizon technique to improve time to stabilize routing
 Approccio diverso: ogni nodo ha una visione completa e possibilmente aggiornata (non è detto) di tutti i collegamenti della rete (grafo).
 Avendo il grafo completo in memoria si possono usare gli algoritmi di ricerca del path minore per costruire l'albero di copertura minimo.
 
+### Shortest Path Routing
 
+
+[...] 
+
+### Open Shortest Path First (OSPF)
+
+Priorità: QoS (Quality of Service). Alcuni router distinguono automaticamente il tipo di contenuto da trasmettere e instradano su percorsi con maggiore throughput ad es per file grandi, con latenza minore per altri dati. 
+wn
+[...] 
+
+
+# Advanced Internetworking - 4
+
+## Border Gateway Protocol  (BGP)
+Assumes that: 
+> internet is an arbitrarily interconnected set of AS. Today's internet = interconnection of multiple backbone networks. 
+
+Traffico BGP è globale --> alta responsabilità 
+
+Local Traffic = originates at or terminates on nodes within an AS. 
+Transit Traffic = passes through an AS. 
+
+AS can be classified into: 
+- Stub AS: Ha solo una connessione in entrata e uscita. 
+- Multihomed AS: Collegato a più di un AS ma non fa da provider.
+- Transit AS:  collegato a più di un AS e permette il collegamento tra AS
+
+
+#### BGP Speakers 
+Ogni AS ne ha almeno uno. Annuncia ai suoi peers: 
+- Local networks
+- Altre reti raggiungibili tramite **transit AS**.
+- Path information 
+
+#### Border gateways
+not the same as the speakers. Are the routers through which packets enter and leave the AS. 
+
+![[Pasted image 20241121105830.png#invert|center|500]]
+iBGP = Internal BGP, usato tra router dello stesso AS; eBGP = external BGP, tra router di AS diversi. 
+
+BGP uses a different protocol than distance vectors or link state protocols. It stores (advertises) complete paths as an enumerated list of ASs to reach a particular network. 
+
+ES: 
+```
+ 7.7.0.0/16   300 100 700 
+```
+è il path per arrivare all'AS 700 con rete `7.7.0.0/16` passando per gli AS 300 e 100. 
+
+#### BGP loop prevention and polity routing 
+path ignored by BGP if: 
+- its AS appears in it (avoids loops)
+- it violates some policy of the AS 
 

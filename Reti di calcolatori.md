@@ -8,4 +8,4 @@ tags:
 # [[Chapter 1 - Foundations]]
 # [[Chapter 2 - Connections]]
 
-# [[Chapter 3 - Internetworking]]
+# [[Chapter 3-4 - Internetworking]]
