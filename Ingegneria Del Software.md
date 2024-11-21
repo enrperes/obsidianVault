@@ -745,3 +745,37 @@ Errore comune: considerare il sistema e tutti gli utenti del sistema come se fos
 ##### Esempio di System Domain Model di Azienda Alimentare: 
 
 
+# Altri diagrammi strutturali
+21/11/2024
+
+## Object diagram
+> Rappresenta uno snapshot di un **class diagram** (o una sua parte) in un determinato istante in cui il software è utilizzato. 
+> Al posto delle classi, compaiono le istanze di oggetti di quella classe, con la notazione `nomeoggetto:nomeclasse`. 
+
+Si potrebbe disegnare un diagramma degli oggetti per ogni scenario di ogni caso d'uso. 
+Scopo: chiarire relazioni tra classi che possono istanziarsi durante uno scenario di esecuzione. 
+
+![[Pasted image 20241121135205.png#invert|center|500]]
+Cardinalità omesse. 
+
+## Package diagram
+Package = contenitore di elementi di modello UML. Può contenere sia elementi (classi) che altri package (gerarchia di package)
+Una classe fa parte di un solo package, usato per raggruppare elementi semanticamente correlati o creare confini semantici all'interno del modello. 
+
+![[Pasted image 20241121140118.png#invert|left|450]]
+Un *package* rappresenta un *namespace* al cui interno ogni classe deve avere un nome distinto. 
+Sintassi: `Nomepackage::nomeclasse`, per package annidati si parte dal più esterno. 
+
+[...] 
+
+
+
+Utili nella progettazione di grandi sistemi per poter suddividere la progettazione in sotto-problemi più semplici. Sono diagrammi di architettura, quindi utili nella fase di progettazione e implementazione. 
+
+ 
+
+[...] 
+
+esercitazione lezione 14 #todo 
+
+
