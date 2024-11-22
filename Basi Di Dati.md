@@ -230,3 +230,6 @@ Da usare per ragionare sulle dipendenze funzionali.
 
 # [[Algebra Relazionale]]
 
+## [[Database Server]]
+
+## [[Buffer]]
