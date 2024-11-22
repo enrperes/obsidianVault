@@ -297,3 +297,120 @@ path ignored by BGP if:
 - its AS appears in it (avoids loops)
 - it violates some policy of the AS 
 
+# IPv6 
+- ==128-bit== addresses ($3\times 10^{38}$) 
+- Multicast
+- Real time service
+- Authentication & security (IPv4 non ha meccanismi di sicurezza per i pacchetti IP)
+- Auto configuration
+- E2E fragmentation
+- Enhanced routing functionality, mobile hosts (possibile mantenere stesso IP su reti diverse)
+- Extensible (modulare, possibile aggiungere funzionalità in futuro)
+- Generalmente non compatibile con IPv4 (solo un piccolo sottoinsieme)
+
+Es: `47CD:0000:0000:0000:0000:0000:A456:0124`
+Contiguous 0s are compressed: `47CD::A456:124`
+
+LocalHost: $\Large \texttt{::1}$ 
+
+Addresses are assigned either geographically or provider-based
+
+## IPv6 Header
+
+![[Pasted image 20241122095553.png#invert|right|300]]
+- 40 Byte base header
+- 64Kbyte payload 
+- Extensions include: 
+	- Fragmentation
+	- Source Routing
+	- Auth & security 
+	- and more
+
+### Priority
+*Traffic class* defines the priority of a datagram. Useful to determine which datagrams to drop in case of congestion. 
+
+ Possible values:
+- 0 = generic traffic
+- 1 = background traffic (NNTP)
+- 2 = Traffic without waiting (SMTP)
+- 3, 5 = reserved
+- 4 = Traffic with waiting (FTP, HTTP) (si aspetta una risposta)
+- 6 = Interactive traffic (SSH)
+- 7 = Control traffic (OSPF, RIP, SNMP)
+- 8-15 = Traffic not dependent on congestion (should not be dropped) (audio/video)
+
+### Flow Label
+
+20 but casual number assigned by source to the datagrams belonging to the same flow. 
+Used by routers for implementing a coherent service to the datagrams of the same flow: 
+- Same routing 
+
+
+IPv4 to IPv6 Transition: 
+- Non compatibili tra di loro
+- IPv4 dovrà essere sostituito da IPv6 eventualmente
+- Molto difficile:
+	- Non può essere fatto tutto in una volta
+	- Non può essere forzato dalla legge
+- 3 tecniche per la transizione: 
+1. Dual procotol stack 
+2. Tunneling
+3. Header translation
+
+#### Dual protocol Stack 
+Sistemi che implementano entrambi i protocolli al livello 3. 
+Usato negli OS moderni. Le applicazioni devono gestire esplicitamente entrambi gli indirizzi. 
+
+#### Tunneling
+![[Pasted image 20241122102522.png#invert|center|500]]
+Creates *tunnels* or *bridges* from one IPv6 region to another, incapsulating IPv6 datagrams in IPv4 datagrams --> gli host possono comunicare in IPv6, ma i benefici di IPv6 sono persi nella regione IPv4.
+Gestito autonomamente dai router. Indirizzo destinazione e sorgente nell'intestazione IPv4 sono quelli dei router del tunnel. 
+
+#### Header Translation
+![[Pasted image 20241122103224.png#invert|center|500]]
+Permette di trasmettere datagramma IPv6 a un IPv4-only host. 
+Simile al NAT, ma la traduzione è da IPv4 a IPv6. 
+
+# Multicast
+
+> possibility of sending a message to a group of receiving hosts, without knowing or specifying them. 
+
+One-to-many: source specific multicast (SSM)
+- Receiving host specifies a multicast group where a specific host is sending. Eg:
+	- Radio station
+	- Transmitting news, stock price
+	- Software updates to many hosts
+
+Many to many any source multicast (ASM)
+- Multimedia teleconferencing 
+- Online multiplayer games
+- Distributed simulations
+
+Without multicast, a host would need to send separate packets with the same data to each member of the group. This redundancy will consume more bandwidth and will introduce delays between clients. 
+
+### Multicast IP 
+A host sends a single copy of the packet, addressed to the group's multicast address. Each host members of that group receives a copy of the packet. 
+
+L'insieme dei router in maniera distribuita sa l'insieme degli host destinatari. 
+
+Ogni classe di indirizzi IPv4 ha il proprio indirizzo multicast. Per la classe D: (`224.0.0.0 – 239.255.255.255`)
+
+un host può unirsi e togliersi da gruppi multicast. Può essere in più di un gruppo allo stesso tempo. 
+
+
+![[Pasted image 20241122110624.png#invert|center|800]]
+
+
+Usato ad esempio dai server principali ai server di distribuzione in servizi di streaming
+
+#### Source Based Multicast Routing 
+
+#### Group Shared Tree Multicast Routing 
+
+#### DVMRP
+
+Usa il Reverse Path Flooding. I pacchetti arrivano a tutta la rete, ignorati da chi non è il destinatario. 
+![[Pasted image 20241122112602.png#invert|left|300]]
+R1 riceve un pacchetto dalla sorgente. Guarda l'indirizzo di sorgente S. Inoltra il pacchetto SSE il pacchetto è arrivato dal Next Hop in direzione di S. In questo modo: 
+- Tutti i pacchetti arrivano una volta sola
+- Non ci sono loops
