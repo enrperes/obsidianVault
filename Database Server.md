@@ -14,16 +14,16 @@ unità elementare = unità atomica, quindi può comprendere diverse interrogazio
  
  Eseguite in modo concorrente, non seriale. 
 
-Due comandi per incapsulamento: 
+Due comandi per incapsulamento della transazione: 
 `bot` = begin of transaction
 `eot` = end of transaction
 
 Se `bot` viene omesso, si assume che ogni istruzione costituisca una transazione (**autocommit**).
 
-Una sola di queste due può comparire in una transazione: 
+In ogni transazione compare uno tra commit e abort: 
 `commit` = commit work $\approx$ garanzia del cambiamento dei dati. Forza una conclusione positiva della transazione con la registrazione **permanente** di tutti gli aggiornamenti nel DB. 
 
-`abort` = abort / rollback work.  
+`abort` = abort / rollback work. Utile ad esempio quando una transazione va annullata a causa di una condizione non soddisfatta (saldo insufficiente) 
 
 ```sql
 begin transaction;
@@ -50,18 +50,19 @@ update ContoCorrente
 ```
 
 ## ACID
-
-
-[...] 
-
-
+Insieme di caratteristiche che garantiscono la gestione affidabile delle transazioni nei DBMS. 
 ### Atomicità
+Una transazione deve essere eseguita completamente o non deve essere eseguita affatto. 
+Es: in caso di transazioni con più operazioni (trasferimento di soldi) la transazione deve essere completata con successo o deve essere abortita per tornare al punto di partenza (rollback)
 
 ### Consistenza
-
+Una transazione non altera la consistenza (definita da regole di integrità) del DB.
 ### Isolamento
+Le operazioni di una transazione devono essere isolate dalle altre transazioni in esecuzione contemporanea. 
+Quindi il risultato di una transazione non deve essere visibile ad altra transazioni fino al completamento della stessa. 
+Per questo non ci possono essere transazioni all'interno di transazioni. 
+
 l'ordine di esecuzione è vincolato alle operazioni interne alla transazione. L'ordine di esecuzione di transazioni diverse non è controllabile.
 ### Persistenza
-
-
-
+Una volta completata, una transazione deve essere permanete e le modifiche al DB devono essere salvate in modo duraturo. 
+o
