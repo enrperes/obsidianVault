@@ -1,5 +1,3 @@
-# Psicologia delle folle
-
 ## Per l'esame
 "contagio" > iniziare a credere all'opinione più sentita. 
 "polarizzazione delle informazioni" > informazioni false, incomplete, 
