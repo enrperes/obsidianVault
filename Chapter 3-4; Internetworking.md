@@ -407,10 +407,32 @@ Usato ad esempio dai server principali ai server di distribuzione in servizi di 
 
 #### Group Shared Tree Multicast Routing 
 
-#### DVMRP
+### DVMRP
+> Distance Vector Multicast Routing Protocol
+
+Protocollo di routing multicast, basato su distance vector e *flood & prune*
 
 Usa il Reverse Path Flooding. I pacchetti arrivano a tutta la rete, ignorati da chi non è il destinatario. 
 ![[Pasted image 20241122112602.png#invert|left|300]]
 R1 riceve un pacchetto dalla sorgente. Guarda l'indirizzo di sorgente S. Inoltra il pacchetto SSE il pacchetto è arrivato dal Next Hop in direzione di S. In questo modo: 
 - Tutti i pacchetti arrivano una volta sola
 - Non ci sono loops
+
+In fase di flooding iniziale c'è spreco notevole di banda $\longrightarrow$ non scala bene su reti grandi. Adeguato solo a poche decine di router (un AS). 
+Pensato come estensione di RIP. 
+In reti moderne è stato sostituito con PIM. 
+
+### PIM
+> Protocol Independent Multicast
+
+Progettato per essere indipendente dal protocollo di routing unicast usato nella rete. 
+Due modalità: 
+
+#### PIM-DM
+Dense Mode. Adatto per reti con gruppi multicast densi e diffusione locale
+
+
+
+#### PIM-SM
+Sparse Mode. Adatto per reti con gruppi multicast sparsi e diffusioni selettive
+Introduce il concetto di RP (rendez-vous, incontro): la radice dell'albero. Funge da punto di riferimento iniziale. ò

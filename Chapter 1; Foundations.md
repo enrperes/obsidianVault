@@ -1,5 +1,3 @@
-# Chapter 1 - Foundations
-
 ## Connectivity 
 - Link
 - Nodes 
