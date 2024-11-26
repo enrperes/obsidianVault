@@ -6,7 +6,9 @@ tags:
 
 ---
 
-> Cosa succede quando i sistemi computazionali vengono a contatto con i sistemi sociali 
+## [[Social -  LAB]]
+
+---
 
 
 Argomenti del corso: 
@@ -43,6 +45,6 @@ Argomenti del corso:
 ---
 
 # [[Social Networks]]
-
 # [[CrowdSourcing]]
+
 
