@@ -85,3 +85,9 @@ Se una porta non è associata a una coda, il pacchetto è scartato
 
 [...] 
 
+### State diagram of TCP
+
+
+
+[...] 
+
