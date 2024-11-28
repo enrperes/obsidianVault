@@ -228,8 +228,10 @@ Da usare per ragionare sulle dipendenze funzionali.
 #todo 
 
 
-# [[Algebra Relazionale]]
+## [[Algebra Relazionale]]
 
 ## [[Database Server]]
 
 ## [[Buffer]]
+
+## [[Concorrenza]]
