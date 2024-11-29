@@ -88,6 +88,22 @@ Se una porta non è associata a una coda, il pacchetto è scartato
 ### State diagram of TCP
 
 
+#### Phase 1: Handshake
+Three way handshake: 
+(sync and acknowledge)
+1. `syn` 
+2. `syn+ack` 
+3. `ack` 
+![[Pasted image 20241129095730.png#invert|center|700]]
+il primo numero di sequenza è casuale e indipendente per ogni direzione. Nell'esempio sopra: da Initiator a Responder: a partire da 8000, nell'altro verso da 15000
 
-[...] 
+Il client non può sapere se il server è in `Passive open`: riceve un `RST` in caso negativo. 
+
+
+#### Phase 2: Data transfer
+![[Pasted image 20241129102019.png#invert|center|500]]
+*piggyback*: quando risponde con `ack: 10001` = ha ricevuto correttamente i dati fino a quel numero di byte e può continuare ad inviare. 
+
+#### Phase 3: Closing
+
 
