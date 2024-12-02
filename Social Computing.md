@@ -44,7 +44,11 @@ Argomenti del corso:
 - Labeling for ML
 ---
 
+
+
 # [[Social Networks]]
 # [[CrowdSourcing]]
 
+> Social Media + Crowdsourcing = Social computing
 
+![[Pasted image 20241202110003.png#invert|center|500]]
