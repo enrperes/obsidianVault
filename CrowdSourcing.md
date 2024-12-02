@@ -37,7 +37,7 @@ Non sempre funziona:
 - Emotività 
 
 
-## Crowdsourcing
+## Crowdsourcing - Definizione
 
 > Social Media + Crowdsourcing = Social computing
 
@@ -93,3 +93,65 @@ La progettazione del task spesso non è banale --> framework
 - Difficile verificare che il lavoro svolto dai worker sia di buona qualità 
 
 ![[Pasted image 20241202113216.png]]
+
+
+## Tipi di task 
+
+![[Pasted image 20241202114540.png#invert|center|500]]
+
+![[Pasted image 20241202134031.png#invert|right|150]]
+**CROWDSOURCING - Brabham** 
+Ne propone 4: 
+### Knowledge discovery and management
+- Scoprire e organizzare le conoscenze già disponibili ma disorganizzate
+- Simile a wikipedia con un organizzazione che sponsorizza
+
+### Broadcast search
+- Trovare uno specialista che svolga il compito, trovi la risposta e dia la soluzione. 
+- Spesso al di fuori del settore --> mente fresca
+Utile per problemi tecnico scientifici con soluzioni misurabili. 
+
+### Peer-vetted creative production
+- Il crowd produce e seleziona idee creative (contest design..)
+Utile per problemi in cui la soluzione dipende dai gusti o dal mercato 
+
+### Distributed Human Intelligence task
+- Large Data processing divided into small tasks, requires human intelligence. 
+(Mturk, reCAPTCHA)
+Utile per analisi di dati su larga scala in cui intelligenza umana > computer 
+
+![[Pasted image 20241202134140.png#invert|right|150]]
+ **Crowdsourcing for Dummies - Grier** 
+Propone una classificazione più articolata con 5 categorie: 
+
+### Crowdcontest
+Dare in outsourcing un compito, senza scomporlo.
+Contest: si seleziona (e paga) la risposta migliore
+Es: logo design
+
+### Macrotasking
+Dare in outsourcing a un consulete / libero professionista, pagato con tariffa oraria
+es: creare app, tradurre capitoli
+
+### Microtasking
+Compito viene suddiviso in piccole parti poi unite
+il "vero" CS
+
+### Self-Organised crowds
+Crowdcontest: richiesta di svolgimento di un lavoro, il crowd coopera invece di competere. 
+
+### Crowdfunding
+No lavoro, solo soldi (kickstarter, indiegogo..)
+
+Classificazione finale in base al tipo di pagamento e di mercato:
+![[Pasted image 20241202134754.png#invert|center|500]]
+## Motivazioni & incentivi
+
+### Estrinseche
+- Se un compito è noioso, pericoloso, inutile....
+- Serve una ricompensa estrinseca aggiuntiva al compito (€, fama...)
+### Intrinseche
+- Se l'attività può essere interessante o divertente la ricompensa è intrinseca
+- GWAP (Game With A Purpose)
+
+![[Pasted image 20241202141018.png#invert|center|500]]
