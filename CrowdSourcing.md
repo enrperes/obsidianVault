@@ -99,6 +99,8 @@ La progettazione del task spesso non è banale --> framework
 
 ![[Pasted image 20241202114540.png#invert|center|500]]
 
+---
+
 ![[Pasted image 20241202134031.png#invert|right|150]]
 **CROWDSOURCING - Brabham** 
 Ne propone 4: 
@@ -119,6 +121,8 @@ Utile per problemi in cui la soluzione dipende dai gusti o dal mercato
 - Large Data processing divided into small tasks, requires human intelligence. 
 (Mturk, reCAPTCHA)
 Utile per analisi di dati su larga scala in cui intelligenza umana > computer 
+
+---
 
 ![[Pasted image 20241202134140.png#invert|right|150]]
  **Crowdsourcing for Dummies - Grier** 
@@ -143,6 +147,8 @@ Crowdcontest: richiesta di svolgimento di un lavoro, il crowd coopera invece di 
 ### Crowdfunding
 No lavoro, solo soldi (kickstarter, indiegogo..)
 
+---
+
 Classificazione finale in base al tipo di pagamento e di mercato:
 ![[Pasted image 20241202134754.png#invert|center|500]]
 ## Motivazioni & incentivi
@@ -155,3 +161,37 @@ Classificazione finale in base al tipo di pagamento e di mercato:
 - GWAP (Game With A Purpose)
 
 ![[Pasted image 20241202141018.png#invert|center|500]]
+> [!example]+  **Altri esempi** 
+ > - **ImageNet** usa crowdsourcing per image labeling. Viene prima costruito un dataset di "etichette", poi il crowd viene usato per assegnarle alle immagini. 
+ > - **ESP Game:** Usa gli utenti per identificare oggetti da immagini. Foldit similarmente usa gli utenti per identificare strutture delle proteine. 
+ > - **reCAPTCHA:** "nasconde" le task dagli utenti, ma usa il crowdsourcing per addestrare un modello di digitalizzazione giornali. 
+ 
+
+## Tipi di risposte
+
+### Single choice
+- sì/no 
+- Positivo / Neutro / Negativo
+### Multiple choice
+Una o più risposte *fra alcune opzioni*
+- *Scegliere* etichetta per un'immagine
+- Categorie di un testo 
+### Fill-in-the-blank
+- Numerico
+	- Peso della mucca
+	- numero abitanti città 
+- Testuale
+	- mail di qualcuno
+	- Proporre etichetta per un'immagine
+### Collection
+Raccolta di dati: 
+- Top n giocatori di tennis in italia
+- Traduzione di un brano...
+
+## Real world tasks 
+- Sentiment analysis (opinioni) $\Large \longrightarrow$ single choice
+- Search Relevance (data una domanda, dire se un documento è pertinente) $\Large \longrightarrow$ Single choice
+- Moderazione dei contenuti (immagini, siti web) $\Large \longrightarrow$ Single choice
+- Raccolta dati (coordinate geo) $\Large \longrightarrow$ Collection
+- Categorizzazione (attore vs cantante) $\Large \longrightarrow$ multiple choice
+- Trascrizione di audio / immagini (digitalizzazione) $\Large \longrightarrow$ Fill-in-the-blank

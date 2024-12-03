@@ -107,3 +107,9 @@ Il client non può sapere se il server è in `Passive open`: riceve un `RST` in 
 #### Phase 3: Closing
 
 
+
+[...] 
+
+
+## Sliding Window Revisited
+
