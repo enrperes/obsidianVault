@@ -195,3 +195,20 @@ Raccolta di dati:
 - Raccolta dati (coordinate geo) $\Large \longrightarrow$ Collection
 - Categorizzazione (attore vs cantante) $\Large \longrightarrow$ multiple choice
 - Trascrizione di audio / immagini (digitalizzazione) $\Large \longrightarrow$ Fill-in-the-blank
+
+
+## Progettazione Task - *Mturk*
+
+### Notazione
+
+`()` Radio button
+`[]` Scelta multipla
+`[InputBox]` input Text
+`$VARIABLE$` Variabile
+
+> [!question]+  **Es** 
+ > How do you feel about `$TOPIC$`?
+ > `()` Love it
+ > `()` Hate it 
+ 
+ 
