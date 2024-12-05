@@ -113,3 +113,5 @@ Il client non può sapere se il server è in `Passive open`: riceve un `RST` in 
 
 ## Sliding Window Revisited
 
+
+## Adaptive Retransmission: Timeout Calculation
