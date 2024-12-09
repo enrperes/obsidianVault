@@ -211,4 +211,32 @@ Raccolta di dati:
  > `()` Love it
  > `()` Hate it 
  
- 
+
+## Qualità 
+
+**Scaletta:**
+- Metodologiche
+	- Design dei task
+- In itinere
+	- Qualification tests
+		- Se un worker vuole svolgere il task deve prima superare dei test (espliciti)
+		- Da piattaforma o interno al task 
+	- Controlli sintattici
+		- Parsing dell'input, scartando risposte non date o controllo plagio / copia incolla
+	- Test nascosti
+		- "gold questions", "honey pots", "gold nuggets"
+		- Domande facili a cui si sa già la risposta
+		- Confronto di cui si sa la risposta 
+		- Domande ripetute dopo un po' per verificare coerenza
+		- Se l qualità del lavoro è troppo bassa il worker viene scartato o pesato meno. 
+	- Monitoraggio del comportamento
+		- Tempo
+			- Per leggere le istruzioni e completare il task 
+			- Se troppo veloce o troppo lento $\Large \to$ scartato 
+		- Azioni
+			- Spostamenti del mouse, scrolling, ordine di inserimento dati 
+- Ridondanza
+- Ex-post
+	- Pulizia dei dati 
+	- Aggregazione sofisticata
+	- Sfruttare l'accordo 
