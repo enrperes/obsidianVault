@@ -240,3 +240,26 @@ Raccolta di dati:
 	- Pulizia dei dati 
 	- Aggregazione sofisticata
 	- Sfruttare l'accordo 
+
+
+## Teoria della misurazione
+
+*Stevens*, Scale di misurazione (1946)
+1. **Nominal**
+	1. Qualitativa. Assegna oggetti a categorie. 
+	2. Gender, Nationality, color...
+	3. Trasformazioni: $f(x)$ deve essere iniettiva. 
+2. **Ordinal**
+	1. La misura non è un ammontare ma un rank 
+	2. Trasformazioni: $y=f(x)$ $\Large \to$ funzione monotona crescente che preserva l'ordinamento ($\Large \log$) 
+3. **Interval**
+	1. Intervalli (temperatura, date): non ha senso dire oggi fa il doppio più caldo di ieri.
+	2. Si ragiona sugli intervalli, differenze: 
+	3. Trasformazioni permesse: $y=f(x)$ dove $f(x) = ax+b$ = moltiplicazione per costante (a) + aggiunta di valore (b)
+4. **Ratio**
+	1. Scala rapporti.
+	2. Indipendente dall'unità di misura (doppio di...)
+	3. Valori discreti e continui
+	4. Trasformazioni permesse: $y=f(x)$ dove $f(x) = a \cdot x$ 
+
+![[Pasted image 20241210150334.png#invert|center|500]]
