@@ -14,6 +14,40 @@ tags:
 5. Transazioni
 6. Strutture di indicizzazione
 
+### Indice (Azteni - Ceri)
+1. Introduzione
+2. Modello ER
+3. Modello Relazionale
+	1. Relazioni e tabelle
+	2. Vincoli integrità
+4. Algebra relazionale
+	1. Unione, intersezione
+	2. Selezione, Proiezione
+	3. Join
+5. Calcolo Relazionale
+	1. Sui domini
+	2. Su tuple con dichiarazione di range
+6. SQL
+	1. Query
+
+### Slide usate: 
+1. Introduzione
+2. Modello ER
+3. Progettazione Logica
+4. Mapping of 1 - 1 relationships
+5. Normalizzazione
+6. Algebra Relazionale
+7. Calcolo Relazionale
+8. SQL
+9. Viste
+10. Introduzione DB server
+11. Gestione buffer
+12. SQL - DDL slides
+13. Gestione concorrenza
+14. Gestione Affidabilità
+15. Modello Relazionale
+16.  
+
 ---
 
 # Introduzione
