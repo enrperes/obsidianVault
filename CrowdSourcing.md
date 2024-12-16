@@ -303,3 +303,7 @@ Miglioramenti vicino alla perfezione sono più difficili.
 
 
 ---
+
+
+![[23.Q3-Accordo.pdf]] ^^ Fino pag ~34
+
