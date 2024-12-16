@@ -244,7 +244,7 @@ Raccolta di dati:
 
 ## Teoria della misurazione
 
-*Stevens*, Scale di misurazione (1946)
+*Stevens*, Scale di misurazione (1946) **N.O.I.R.**
 1. **Nominal**
 	1. Qualitativa. Assegna oggetti a categorie. 
 	2. Gender, Nationality, color...
@@ -263,3 +263,43 @@ Raccolta di dati:
 	4. Trasformazioni permesse: $y=f(x)$ dove $f(x) = a \cdot x$ 
 
 ![[Pasted image 20241210150334.png#invert|center|500]]
+
+### Differenziale Semantico
+Tipologia di sondaggio. 
+![[Pasted image 20241216083800.png#invert|center|500]]
+Per analizzare i dati: 
+1. Media dei valori associati (1, 2, 3...) $\Large \to$ funziona, anche se è preferibile la mediana. 
+
+Esempio di scala nominale a 6 categorie (*politifact*)
+![[Pasted image 20241216085034.png#invert|center|500]]
+Calcolando la moda: 
+P, P, F $\Large \longrightarrow$ P
+P, P, T $\Large \longrightarrow$ P 
+
+Una soluzione può essere assegnare un valore ad ogni misura e calcolare la media. 
+Il problema è quali valori assegnare: l'unico vincolo è che venga rispettato l'ordine. La distanza tra intervalli non è importante. (trasformazioni monotone permissibili)
+
+#### Le etichette 
+![[Pasted image 20241216090248.png#invert|center|500]]
+Giocano un ruolo importante nell'influenzare chi vota.
+
+## Aggregazione
+
+![[Pasted image 20241216091601.png#invert|center|500]]
+
+In molti casi la media geometrica è equivalente alla media aritmetica dei logaritmi 
+
+![[Pasted image 20241216092048.png#invert|left|400]]
+AM considera i due casi uguali. GM premia il caso *A*. $| \log(0.2) - \log(0.1)| > |\log(0.9) - \log(0.8)|$ 
+
+GM è utile per i problemi "difficili": Appiattisce lo spazio sui valori più bassi. 
+Miglioramenti vicino alla perfezione sono più difficili. 
+
+### Media Armonica (HM)
+
+
+
+[...] 
+
+
+---
