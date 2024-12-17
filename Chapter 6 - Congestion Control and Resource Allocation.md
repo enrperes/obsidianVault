@@ -17,3 +17,23 @@ La congestione è il motivo principale per la perdita di pacchetti.
 
 #### Fast Retransmit
 
+### TCP Congestion Avoidance 
+
+#### Random Early Detection (RED)
+![[Pasted image 20241217095436.png#invert|right|400]]
+Probabilità calcolata in funzione della coda. Più è lunga, più e alta la probabilità di scartare un pacchetto. 
+
+$$
+AvgLen = (1-w) \times AvgLen + w \times SampleLen
+$$
+$0<w<1$ e $SampleLen$ = lunghezza della coda quando viene misurata
+
+
+
+[...] 
+
+Se non specificato, MaxP = 1. 
+
+![[Pasted image 20241217100926.png#invert|center|500]]
+![[Pasted image 20241217100935.png#invert|center|500]]
+
