@@ -83,3 +83,12 @@ Icon=
 > ```
 > UPDATE: 
 > I created an alias, so now it's: `c file.c` which compiles and executes the file.
+
+> [!info]+  **Change ZSH theme (MacOS terminal)** 
+ > `nano .zshrc` e modificare la riga: 
+ > `ZSH_THEME="..."`
+ > Aggiungendo un tema tra quelli elencati qui: https://github.com/ohmyzsh/ohmyzsh/wiki/themes
+ > Alcuni carini: 
+ > - frisk
+ > - jtriley
+ > - 
