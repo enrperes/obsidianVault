@@ -106,3 +106,36 @@ Il payload del frame viene cifrato, l'intestazione no.
 [...] 
 
 
+## Encryption
+- Symmetric = private key
+	- Tutti i sistemi classici di encryption sono simmetrici. 
+	- Sender e recipient hanno una chiave privata
+	- Non sostituibile da Asymmetric
+- Asymmetric = public key
+	- 
+
+| Plaintext          | original message                                             |
+| ------------------ | ------------------------------------------------------------ |
+| Ciphertext         | Coded message                                                |
+| Cipher             | Algoritmo per criptare                                       |
+| Key                | Info usata nel cipher. Accessibile solo da sender / receiver |
+| Encipher (encrypt) | convert plaintext to cipher                                  |
+| Decipher (decrypt) | recover ciphertext from plaintext                            |
+| Cryptography       | studio dei principi della crittografia                       |
+| Cryptanalysis      | Studio dei principi e metodi di decrypt senza sapere la key  |
+| Cryptology         | Cryptography e cryptanalysis                                 |
+#### Symmetric Cipher Model
+![[Pasted image 20241220094859.png#invert|center|500]]
+- Senza sapere la chiave è impossibile risalire al plaintext
+
+> [!quote]+  **Kerckhoff's principle** 
+> Security of the message must depend only on the secrecy of the key, not on the secrecy of the encryption algorithm
+
+> Never trust closed source encryption algorithms and protocols
+
+Si assume che l'attaccante conosca l'architettura di cipher ma  non la chiave. 
+
+![[Pasted image 20241220100307.png#invert|center|500]]
+
+
+### Stream Ciphers
