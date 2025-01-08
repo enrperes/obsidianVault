@@ -3,8 +3,12 @@ tags:
   - materia
 ---
 
+## [[Laboratorio-Scheme]]
+## [[Laboratorio-Java]]
 
->[!tldr]- Appunti
+
+
+>[!tldr]+ Appunti
 > # ![[Scheme]]
 > # ![[Java]]
 
