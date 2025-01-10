@@ -139,3 +139,19 @@ Si assume che l'attaccante conosca l'architettura di cipher ma  non la chiave.
 
 
 ### Stream Ciphers
+
+
+
+[...] 
+
+
+# Public-Key Digital Signature
+
+## RSA
+To encrypt a message M: 
+- Sender obtains public key of recipient: `PU = {e, n}`
+- $\Large C= M^{e} \bmod(n)$ 
+To decrypt the ciphertext C, the owner: 
+- Uses private key `PR = {d, n}`
+- $\Large M= C^{d} \bmod(n)$ 
+Message M must be smaller than n
