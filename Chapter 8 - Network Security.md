@@ -155,3 +155,7 @@ To decrypt the ciphertext C, the owner:
 - Uses private key `PR = {d, n}`
 - $\Large M= C^{d} \bmod(n)$ 
 Message M must be smaller than n
+
+---
+
+https://www.ssllabs.com/ssltest/
