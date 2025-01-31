@@ -4,7 +4,7 @@ tags:
 ---
 [[info - Basi di dati]]
 [[Lab - Basi di dati]]
-
+[[Esercizi - Basi di dati]]
 ---
 ## Argomenti del corso
 1. Introduzione
