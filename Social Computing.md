@@ -6,16 +6,11 @@ tags:
 
 ---
 
-## [[Social -  LAB]]
-
-## [[Social - Crowd_Frame]]
-
----
-
-
 Argomenti del corso: 
 
-### [[Social Networks]]
+Social media + CrowdSourcing = Social Computing 
+
+### 1. [[Social Media]]
 
 > [!example] Argomenti
 > - Intro 
@@ -33,24 +28,14 @@ Argomenti del corso:
 > 	- misure e modelli
 > - Applicazioni
 
-### 2. Crowdsourcing
+### 2. [[Crowdsourcing]]
 
-> [!attention]  **Argomenti** 
+> [!example]  Argomenti 
  > - Crowdsourcing 
  > - Amazon Mechanical Turk
  > - Human computation
- > e LAB
- 
-- Human-In-The-Loop
-- Artificial Intelligence
-- Labeling for ML
----
-
-
-
-# [[Social Networks]]
-# [[CrowdSourcing]]
-
-> Social Media + Crowdsourcing = Social computing
+>- Human-In-The-Loop
+>- Artificial Intelligence
+>- Labeling for ML
 
 ![[Pasted image 20241202110003.png#invert|center|500]]
