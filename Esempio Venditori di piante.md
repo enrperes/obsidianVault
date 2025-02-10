@@ -2,6 +2,10 @@
 
 ![[Pasted image 20241016012316.png#invert]]
 
+---
+---
+---
+
  ![[Pasted image 20241015171251.png#invert]]
 
 Non ci sono entità deboli ma tante specializzazioni. 
