@@ -2,26 +2,66 @@
 
 
 # Grafi 
-[...]
-- Lista di archi 
-- Lista di adiacenza
-- Matrice di adiacenza ★
+Composti da nodi e archi. 
+Nodi: $V=\{v_{1}, v_{2}\dots\}$ con grandezza del grafo: $|V| = n$
+Archi: $E = \{e_{1}, e_{2}, \dots \}$ con numero di archi: $|E|=m$
+Grafi rappresentati con la coppia $\Large G(V,E)$
 
-Una **componente** di un grafo indiretto è un sottografo connesso. C'è un cammino indiretto fra ogni coppia di nodi della componente. 
-Nei grafi diretti si ha una componente fortemente connessa (SCC) quando per ogni coppia di nodi $u$ e $v$ della SCC c'è un cammmino diretto da $u$ a $v$ e viceversa. 
+> [!abstract]+  **Vicinato (di un nodo)** 
+ > Indicato con $N(v)$. Per ogni nodo in grafo indiretto è l'insieme dei nodi collegati con un arco a $v$. Nei grafi diretti si distingue in incoming e outcoming. 
+ 
+ > [!abstract]+  **Grado** 
+ > Numero di archi collegati a quel nodo (= grandezza insieme Vicinato)
+ > Indicato con $\Large d_{i}$
+ > Nei grafi diretti si distingue in In-degree e Out-degree. 
+ > 
+
+> [!abstract]+  **Degree Distribution** 
+ > Per ogni grado, quanti nodi hanno quel grado 
+ > Indica la distribuzione di frequenza dei gradi (assoluta e relativa)
+ > ![[Pasted image 20250212122137.png#invert|left|300]]
+
+> [!quote]+  **Teorema** 
+ > La somma dei gradi in un grafo indiretto è 2 volte il numero degli archi
+ > $\sum_{i}d_{i}=2|E|$
+ >
+ > Il numero di nodi con grado dispari è pari
+ > In ogni grado diretto, la somma degli in-degree è uguale alla somma degli out-degree
+
+#### Rappresentazione degli archi
+- Lista di archi 
+	- Ogni elemento della lista è un arco, rappresentato con $(u, v)$ 
+	- Non può rappresentare i nodi isolati 
+- Lista di adiacenza
+	- Per ogni nodo, c'è una lista di tutti i nodi a cui è connesso. 
+- Matrice di adiacenza ★
+	- Scelta da preferire. 1 se c'è arco, 0 se no. 
+	- ![[Pasted image 20250212122911.png#invert|100]]
+	- Sulla diagonale: self-link
+
+> [!abstract]+  **cammino** 
+ > Sequenza di archi t.c. ogni arco è incidente allo stesso nodo del successivo
+> ![[Pasted image 20250212123122.png#invert|left|300]]
+
+- Un nodo è connesso a un altro nodo se esiste un cammino tra i due. 
+- Un grafo è connesso se esiste un cammino fra ogni coppia di nodi. 
+	- In un grafo diretto: **fortemente connesso** se esiste un cammino diretto fra ogni coppia di nodi 
+	- Grafo diretto: **debolmente connesso** se esiste un cammino indiretto fra ogni coppia di nodi
+- Componente di un grafo = sottografo connesso. 
+
+Nei grafi diretti si ha una componente fortemente connessa (SCC) quando per ogni coppia di nodi $u$ e $v$ della SCC c'è un cammino diretto da $u$ a $v$ e viceversa. 
 
 # Reti 
 > Rete (network) = grafo (grande) con nodi e archi che esistono nel mondo reale.
 
 Mondo reale nel seno che le conclusioni hanno conseguenze non solo teoriche. 
-
-Di solito per rappresentare i problemi su una rete si usano grafi e risultati della teoria deli grafi. 
+Es: Internet, Grafo del Web, Rete ferroviaria..
+Di solito per rappresentare i problemi su una rete si usano grafi e risultati della teoria dei grafi.  
 
 ## Misura delle reti 
 
 ### Degree centrality 
 > più è alto il grado di un nodo, più è centrale. 
-
 
 > [!abstract]+ Definizione
 > $d_{i}$ è il grado (numero di amici) del nodo $v_{i}$ 
