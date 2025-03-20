@@ -105,3 +105,63 @@ Il broker usato è Eclipse Mosquitto, ideale per piccoli progetti e prototipi.
 mosquitto.org/download
 
 ## Lezione 5 - Architettura e Protocolli
+
+Le "cose" si riferiscono a dispositivi con ID univochi in grado di acquisire dati da sensori, azionare attuatori e monitorare. 
+**Sense** $\Large \longrightarrow$ **Infer** $\Large \longrightarrow$ **Act**
+
+### Diagramma a blocchi 
+Dispositivi IoT integrano varie interfacce per collegarsi ad altri dispositivi: 
+- I/O per sensori 
+- Connessione a Internet
+- Memorizzazione / storage
+- Audio / video
+
+![[Pasted image 20250320115600.png#invert|center|500]]
+
+`UART` = Universal Async Receiver - Transmitter
+`SPI` = Serial Peripheral Interface
+`I2C` = Inter-Integrated Circuit 
+`CAN` = Controller Area Network 
+
+### Protocolli per l'IoT
+
+![[Pasted image 20250320115808.png#invert|left|300]]
+A livello data link: 
+- IEEE 802.3 = Ethernet con cavo coassiale o duplex o fibra ottica
+- IEEE 802.11 = WiFi
+- IEEE 802.16 = WiMax
+- 2G/3G/4G/5G = Mobile communications
+
+#### LoRaWAN
+Long Range WAN basata su bande ISM (Industrial, Scientific, Medical) = bande libere quindi diverse da 2.4GHz, 5GHz, 433MHz...
+
+Usato per comunicazioni a lungo raggio e basso consumo 
+
+Una rete LoRaWAN è costituita da: 
+- *End nodes*: i dispositivi IoT
+- *Gateway*: Antenne intermediarie che ricevono e inviano i dati da End Nodes a Network Server. 
+- *Network Server*: Gestisce la rete
+- *Application Server*: le applicazioni finali che processano i dati. 
+
+Esistono 3 classi di dispositivi: 
+- **Classe A (All)**
+	- Alimentati a batteria, basso consumo. 
+	- Dopo l'invio dei dati al gateway viene aperta una piccola finestra per eventuale ricezione di comandi da parte del server. 
+	- Es: Sensori ambientali
+- **Classe B (Beacon)**
+	- Alimentati a batteria, offre finestre sincronizzate per la ricezione di comandi 
+- **Classe C (Continuous)**
+	- Sempre in ascolto 
+	- Alimentati da rete elettrica 
+	- ES: sistema di allarme 
+
+#### Protocolli a livello di rete
+IPv4: 32 bit
+IPv6: 128bit
+6LoWPAN: 2.4GHz in combinazione con il protocollo di livello data link (=algoritmi di compressione per IPv6)
+
+
+#### Protocolli a livello di trasporto
+**TCP:** orientato alla connessione con stato, garantisce ordinamento dei pacchetti eliminazione dei duplicati e ritrasmissione di pacchetti persi. 
+**UDP:** Adatto per applicazioni che necessitano di comunicazioni veloci, senza necessità di setup del canale. 
+
