@@ -165,3 +165,7 @@ IPv6: 128bit
 **TCP:** orientato alla connessione con stato, garantisce ordinamento dei pacchetti eliminazione dei duplicati e ritrasmissione di pacchetti persi. 
 **UDP:** Adatto per applicazioni che necessitano di comunicazioni veloci, senza necessità di setup del canale. 
 
+
+---
+
+
