@@ -169,3 +169,21 @@ IPv6: 128bit
 ---
 
 
+# InfluxDB
+
+API Token: 
+
+```
+NNptjHb0Itkq5VTQSQd7HEx8rQPulbOWxxXj-mOdz4aRcXDcNcIw7qflY2rsgmcoZ42bJSUnTC1vjjydKIkwwQ==
+```
+
+API Token clonato: 
+```
+-C-HVISKeMNEdqj0GLcgvp5bn5yoKpPz3fQKxUHn3vl_kw1mqzwUhRCa6K4HSLFfA3EaSntvgEIqIHmhNrb66A==
+```
+
+
+# RaspberryPI
+
+Utente: `progetto`
+Psw: `progetto`
