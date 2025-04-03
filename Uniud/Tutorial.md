@@ -91,4 +91,14 @@ Icon=
  > Alcuni carini: 
  > - frisk
  > - jtriley
- > - 
+
+> [!info]+  **Git workflow in a shared repo** 
+ > 1. Tutti fanno `git pull` regolarmente
+>  2. Dopo un cambiamento in locale: `git add .` e `git commit -m "messaggio commit"`. 
+>  3. `git pull origin main --rebase` nuovamente. 
+>  4. `git push origin main` 
+>  
+>  Altro:
+>  `git checkout main` imposta la branch su main. Direi che non ci complichiamo troppo la vita e lavoriamo solo sul main. 
+>  `git fetch && git status` per vedere se ci sono aggiornamenti fatti in remoto
+
