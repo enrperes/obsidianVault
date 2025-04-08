@@ -170,6 +170,30 @@ IPv6: 128bit
 
 
 # InfluxDB
+è un TSDB, Time Series DataBase, ottimizzato per la gestione efficiente di dati organizzati come serie temporali, ideale per op. IoT. 
+è un DB **NoSQL** e memorizza i dati come punti. 
+Ogni punto è un insieme di coppie chiave-valore e un timestamp. 
+*serie* = insieme di punti raggruppati in base a un target (= insieme di coppie chiave-valore). Sono raggruppate da un identificatore di misurazione. 
+
+- Misurazione
+	- simile al concetto di tabella nei DB classici. Contenitore per tag e campi. 
+- Tag
+	- Indicano come i dati vengono indicizzati e ricercati
+	- `source = 'Arduino Uno'` 
+- Field
+	- Indicano i dati che vengono memorizzati
+- Retention Policy
+	- Per quanto tempo conservare i dati e cosa farne quando invecchiano. 
+	- es: "on_day_by_hour": durata di 1 giorno con frammento di 1h. 
+- Series
+	- Raccolta di dati che condividono una misurazione, un tag set e una chiave di campo. 
+- Set
+	- Contiene campioni con timestamp univoci e dati di campo arbitrari. 
+
+## Installazione InfluxDB 
+Seguire step nelle slide 8. 
+Per accedere alla webapp: `localhost:8086` 
+
 
 API Token: 
 
@@ -182,8 +206,91 @@ API Token clonato:
 -C-HVISKeMNEdqj0GLcgvp5bn5yoKpPz3fQKxUHn3vl_kw1mqzwUhRCa6K4HSLFfA3EaSntvgEIqIHmhNrb66A==
 ```
 
+> [!bug]+  **Bug** 
+> Il file weather-monitor.py non compila perchè non riconosce la librerie `serial_port`. Provare a usare pyserial e riscrivere il codice 
 
 # RaspberryPI
 
+Versione usata: `Raspberry Pi 3 Mod. B+` 
 Utente: `progetto`
 Psw: `progetto`
+
+## Setup
+1. Preparazione micro-SD con Raspberry Pi Imager. Selezionare il modello di Raspberry e il tipo di OS. Poi impostare nome utente, psw, hotspot WiFi, abilitare SSH. 
+2. Setup Software del sistema: 
+	1. GUI
+		1. Avendo a disposizione connessione HDMI e periferiche
+	2. Headless
+		1. Inserire SD, collegare alimentazione, connettersi via SSH 
+		2. Primo setup
+			1. Trovare IP del Rasp. guardando i dispositivi connessi nel dispositivo dell'hotspot. 
+			2. `ssh pi@<IP-Raspberry_pi>` 
+			3. Al primo accesso con utente `pi` e pws `raspberry` verrà eseguito uno script di setup. 
+
+Per vedere il pinout del Raspberry: `pinout` 
+Gli script si scrivono in Python e vengono eseguiti direttamente dalla shell via SSH: `python file.py`. 
+
+```py
+import RPI.GPIO as GPIO
+GPIO.setmode(GPIO.BCM) # Broadcom SOC Channel Number, ci si riferisce ai pin con quei numeri. 
+GPIO.setup(18, GPIO.OUT)
+GPIO.output(18, True) # accende il led
+GPIO.output(18, False) # spegne il led
+GPIO.cleanup()
+```
+
+![[Pasted image 20250408164717.png#invert|left|300]]
+### PWM 
+I pin utilizzabili sono GPIO12/GPIO18 o GPIO13/GPIO19. 
+
+# Docker
+Piattaforma che consente la distribuzione di software e dell'ambiente utile ad esso in unità dette *container*. 
+
+### Virtualizzazione
+> possibilità di astrarre le componenti hardware degli elaboratori al fine di renderle disponibili al software in forma di risorsa virtuale. 
+
+Quindi è possibile installare sistemi operativi su hardware virtuale $\Large \longrightarrow$ macchine virtuali. 
+
+Per gestire le macchine virtuali serve un HyperVisor (VMware, Virtual Box...)
+Ogni VM richiede tante risorse ed è lenta ad avviarsi. 
+### Containerization
+> virtualizzazione a livello di sistema operativo. Il kernel consente l'esistenza di più istanze isolate dello spazio utente (i container). 
+
+Questi container, partizioni, ambienti virtuali, jail, possono apparire come veri computer dal punto di vista dei programmi in esecuzione. 
+I programmi in esecuzione dentro un container possono vedere solo i contenuti e i dispositivi assegnati ad esso. 
+
+I container: 
+- Condividono lo stesso OS dell'host.
+- Sono leggeri, occupano poche risorse e si avviano velocemente. 
+
+### Docker Image 
+Immagine = modello di sola lettura contenente le specifiche per la *creazione* di un container. 
+(template)
+Di solito si crea con un Dockerfile, un file di testo tipo: 
+```dockerfile
+FROM python:3.11-slim
+COPY app.py /app/app.py
+CMD ["python", "/app/app.py"]
+```
+
+Da cui si crea il container con: 
+```bash
+docker build -t immagine .
+```
+### Docker Engine 
+Composto da 3 parti: 
+#### Docker Daemon 
+Esegue i container, gestisce le immagini, reti, volumi. è un *processo* che in background ascolta le richieste. 
+#### Docker CLI
+Interfaccia da terminale
+#### Rest API
+Il modo in cui la CLI comunicano con il daemon. Usata da strumenti esterni per controllare Docker via codice. 
+
+### Docker Registry
+Dove vengono memorizzate le immagini Docker.  
+https://hub.docker.com/ è quello usato di default nei comandi tipo `docker pull | docker run` 
+
+Esempio: 
+
+`docker run ubuntu echo Hello World` $\Large \to$ "hello world"
+Altri comandi utili: `docker images` `docker ps -a` 
