@@ -101,4 +101,6 @@ Icon=
 >  Altro:
 >  `git checkout main` imposta la branch su main. Direi che non ci complichiamo troppo la vita e lavoriamo solo sul main. 
 >  `git fetch && git status` per vedere se ci sono aggiornamenti fatti in remoto
+>  
+>  Messaggio carino per git log: ` git --no-pager log --pretty=format:"%ar: [%h] %s by %an" -n 5 --stat`
 
