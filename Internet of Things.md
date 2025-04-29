@@ -294,3 +294,15 @@ Esempio:
 
 `docker run ubuntu echo Hello World` $\Large \to$ "hello world"
 Altri comandi utili: `docker images` `docker ps -a` 
+
+# Node-RED
+
+https://nodered.org
+
+Framework per collegare flusso informativo di dispositivi e servizi software riducendo la quantità di codice necessario usando un editor node based che gira su browser web. 
+Incluso di default nelle immagini di Raspbian. 
+
+è possibile collegare Arduino al Raspberry o al PC per usarlo con Node-RED, usando la libreria StandardFirmata
+`npm install node-red-node-arduino` 
+
+
