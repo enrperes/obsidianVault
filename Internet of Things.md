@@ -306,3 +306,46 @@ Incluso di default nelle immagini di Raspbian.
 `npm install node-red-node-arduino` 
 
 
+# Sistemi Autonomi e Droni 
+
+![[Pasted image 20250506140327.png#invert|center|500]]
+![[Pasted image 20250506140506.png#invert|center|500]]
+- Beccheggio = Pitch
+- Rollio = Roll
+- Imbardata = Yaw
+
+## Struttura di un Drone
+- Telaio 
+	- Alcuni hanno una PDB (Power Distribution Board)
+- Motori 
+	- Brushless, hanno un verso di rotazione. 
+- ESC
+	- Electronic Speed Controller
+	- Da collegare alla PDB e alla centralina di volo. Fornisce ai motori la giusta potenza regolando V e A
+- Eliche 
+	- Passo = Pitch = distanza percorsa con una singola rotazione
+	- Eliche lunghe con passo maggiore spostano più aria $\Large \to$ sono più efficienti ma generano più attrito 
+	- Eliche corte $\Large \to$ motori ad alto RPM
+- MCU (centralina)
+- Power Module
+- Batteria 
+	- Solitamenete LiPo
+	- Numero di celle
+		- ogni cella da 3V a 4.2V
+		- Tensione per stoccaggio: 3.8V
+	- Capacità in mAh
+	- Fattore di scarica (30-40C) = moltiplicatore massimo della capacità con cui è possibile scaricare la batteria in sicurezza. 
+- Radiocomando / ricevitore
+- Sensori / accessori
+	- Barometro
+	- IMU
+	- Bussola
+	- GPS
+	- LIDAR
+	- Camera + gimbal
+
+## Software di controllo
+
+### MAVLink
+Protocollo di comunicazione 
+
