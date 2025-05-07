@@ -27,6 +27,10 @@ Viene valutato:
 ### Materiali
 - Alcuni PBR altri procedurali 
 
+### Eventuale Animazione
+- Video to rig (AI) di un movimento di servizio 
+- [[tennisanimationtest.mov]]
+- 
 ### Composizione
 #### [Ispirazione](insp.pur)
 
