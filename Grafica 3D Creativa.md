@@ -15,7 +15,8 @@ Viene valutato:
 ### Idee
 - Campo / stadio da tennis (con eventuale focus su modellazione racchetta / palline)
 - Ricreare la mia camera / scrivania
-- 
+
+
 ### Modelli 
 - Modellazione tradizionale Hard Surface 
 - Modellazione procedurale tramite GN 
@@ -30,7 +31,6 @@ Viene valutato:
 ### Eventuale Animazione
 - Video to rig (AI) di un movimento di servizio 
 - [[tennisanimationtest.mov]]
-- 
 ### Composizione
 #### [Ispirazione](insp.pur)
 
