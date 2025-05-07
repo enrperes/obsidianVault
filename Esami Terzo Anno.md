@@ -8,3 +8,4 @@ cssclasses:
 - [ ] 🛰️[[Internet of Things]]
 - [ ] 👨‍💻[[Interazione uomo macchina]]
 - [ ] 🌐[[Reti di calcolatori]]
+- [ ] 🧊[[Grafica 3D Creativa]]
