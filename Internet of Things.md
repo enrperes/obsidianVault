@@ -3,6 +3,7 @@ tags:
   - materia
 ---
 [[info - Internet of Things]]
+[[progetto - Internet of Things]]
 
 ## Lezione 1 - Intro
 ### Origini
