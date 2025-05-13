@@ -9,3 +9,4 @@ cssclasses:
 - [ ] 👨‍💻[[Interazione uomo macchina]]
 - [ ] 🌐[[Reti di calcolatori]]
 - [ ] 🧊[[Grafica 3D Creativa]]
+- [ ] [[Realtà Aumentata]]

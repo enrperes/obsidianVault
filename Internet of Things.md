@@ -349,3 +349,8 @@ Incluso di default nelle immagini di Raspbian.
 ### MAVLink
 Protocollo di comunicazione 
 
+### Pilotare un drone tramite software
+
+![[Pasted image 20250508135400.png]]
+I comandi python vengono tradotti in messaggi MAVLink e inviati a MAVProxy che li inoltra al drone. 
+
