@@ -1,5 +1,9 @@
-[[info - Realtà aumentata]]
+---
+title: Augmented Reality
+author: Enrico
+---
 
+[[info - Realtà aumentata]]
 [[Domande per esame]]
 # Intro to basic AR concepts
 
@@ -8,21 +12,23 @@
  > Obiettivo = arricchire la percezione sensoriale senza sostituire l'ambiente fisico ma integrandolo. 
  > > **Interactive**, experience of a real-world environment where the objects are enhanced by CGI, including visual, auditory, haptic sensory.
  
-| AR  | Augmented Reality | Sovrappone contenuti digitali al mondo reale che rimane visibile                            |
-| --- | ----------------- | ------------------------------------------------------------------------------------------- |
-| VR  | Virtual Reality   | Sostituisce completamente il mondo reale con un ambiente simulato. Immersivo e interattivo. |
-| MR  | Mixed Reality     | Combina elementi reali e virtuali che interagiscono tra loro in real-time                   |
-| ER  | Extended Reality  | Include AR, VR, MR.                                                                         |
+| AR  | Augmented Reality | Sovrappone contenuti digitali al mondo reale che rimane visibile                            | App IKEA che posiziona elementi virtuali nel mondo reale      |
+| --- | ----------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| VR  | Virtual Reality   | Sostituisce completamente il mondo reale con un ambiente simulato. Immersivo e interattivo. | Studio televisivo virtuale con conduttore reale               |
+| MR  | Mixed Reality     | Combina elementi reali e virtuali che interagiscono tra loro in real-time                   | Visori che sostituiscono informazioni visive in dati termici  |
+| ER  | Extended Reality  | Include AR, VR, MR.                                                                         |                                                               |
 
 L'esperienza può essere: 
 - Diretta (Occhiali smart, visori, HUD)
 - Indiretta (attraverso schermi, tablet, smartphone)
+
+
 ### Milgram's Virtuality Continuum (1994)
 Il modello Virtuality Continuum di Milgram rappresenta uno spettro continuo tra il mondo reale e il mondo virtuale. Ogni esperienza si colloca su questo asse in base alla quantità di contenuto digitale che incorpora. 
-![[Pasted image 20250513164253.png#invert|center|700]]
+![[Pasted image 20250513164253.png#invert|center|500]]
 Modella solo la quantità di elementi virtuali aggiunti alla scena. Non tiene conto della rimozione di modelli o altre alterazioni. 
 Viene quindi riformulato aggiungendo una seconda dimensione (mediality) che tiene conto del numero di modifiche effettuate. 
-![[Pasted image 20250513164508.png#invert|center|500]]
+![[Pasted image 20250513164508.png#invert|center|300]]
 Asse x (V): realtà <-> virtualità 
 Asse y (M): medialità: quanto il sistema interviene o filtra la percezione del mondo. 
 
@@ -73,7 +79,7 @@ Due progetti demo:
 1. usando `jsartoolkit.js`, una libreria JS da usare con Fiducial Markers. 
 2. Usando AI per trovare le natural features con MediaPipe library. 
 
-![[Pasted image 20250514103432.png#invert|center|800]]
+![[Pasted image 20250514103432.png#invert|center|500]]
 
 
 #  Simple web based AR application
@@ -130,8 +136,9 @@ rappresentazione matematica di una curva basandosi su:
 - Tangent direction of the curve in those points. 
 ![[Pasted image 20250514112134.png#invert|center|500]]
 
-![[Pasted image 20250514112416.png#invert|right|300]]
-![[Pasted image 20250514112459.png#invert|left|300]]
+![[Pasted image 20250514112416.png#invert|300]]
+
+![[Pasted image 20250514112459.png#invert|300]]
 
 
 #### 3D polygons 
@@ -213,3 +220,145 @@ L'ordine di applicazione delle rotazioni è:
 3. z
 
 ## 3D Maths
+- Somma: vettori o matrici con stessa dimensione, operazione fatta element by element 
+- Moltiplicazione per scalare: ogni elemento moltiplicato per lo scalare
+- Dot product: moltiplicazione tra vettori, ritorna uno scalare 
+- Matrix multiplication: n. di colonne della prima = numero di righe della seconda
+	- Metodo righe per colonne: elemento in posizione $i,j$ della matrice risultante è dato dal dot product della i-esima riga della prima matrice e j-esima colonna della seconda matrice
+
+Un punto nello spazio 3D è un vettore con 3 elementi: x, y, z. 
+Le trasformazioni di base (traslazione, rotazione, scala) sono esprimibili tramite moltiplicazione matrice-vettore. 
+
+#### Traslazione
+Si somma al punto il vettore di traslazione 
+$$
+\large
+\begin{bmatrix}
+s_x & 0 & 0 \\
+0 & s_y & 0 \\
+0 & 0 & s_z
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y \\
+z
+\end{bmatrix}
+=
+\begin{bmatrix}
+s_x x \\
+s_y y \\
+s_z z
+\end{bmatrix}
+
+$$
+
+#### Scale
+Espressa con una moltiplicazione matrice-vettore
+Per scalare in un punto generico: traslare prima il punto all'origine, scalare, traslare al contrario per riportarlo dov'era. 
+
+#### Rotation
+Rotazione 2D: 
+$$
+\begin{bmatrix}
+\cos \theta & -\sin \theta \\
+\sin \theta & \cos \theta
+\end{bmatrix}
+$$
+
+
+
+$$
+\text{Rotation around } x\text{-axis: }
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & \cos\theta & -\sin\theta \\
+0 & \sin\theta & \cos\theta
+\end{bmatrix}
+$$
+
+$$
+\text{Rotation around } y\text{-axis: }
+\begin{bmatrix}
+\cos\theta & 0 & \sin\theta \\
+0 & 1 & 0 \\
+-\sin\theta & 0 & \cos\theta
+\end{bmatrix}
+$$
+$$
+
+\text{Rotation around } z\text{-axis: }
+\begin{bmatrix}
+\cos\theta & -\sin\theta & 0 \\
+\sin\theta & \cos\theta & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+$$
+Per la direzione di rotazione: 
+![[Pasted image 20250514142716.png#invert|center|500]]
+
+![[Pasted image 20250514142742.png#invert|center|500]]
+![[Pasted image 20250514142847.png#invert|center|500]]
+#### Combining Transformations 
+Rotazione e scala possono essere raggruppate in una matrice usando la moltiplicazione tra matrici
+La traslazione non è esprimibile tramite una singola moltiplicazione di matrice. 
+#### Coordinate Omogenee
+Estensione delle coordinate cartesiane per rappresentare punti nello spazio e applicare trasformazioni geometriche tramite moltiplicazione di metrici. 
+Si aggiunge una dimensione in più (componente omogenea)
+
+Con le coordinate omogenee ogni possibile trasformazione è rappresentabile con una singola matrice 4x4. 
+
+##### Esempio: 
+Scrivere la matrice che trasla un punto di [1, 2, 0] e poi lo ruota di 90° su asse X. 
+
+##### Soluzione: 
+C'è una traslazione quindi sono richieste coordinate omogenee. 
+
+$$
+\text{Traslazione: }
+\begin{bmatrix}
+1&0&0&1 \\
+0&1&0&2 \\
+0&0&1&0 \\
+0&0&0&1
+\end{bmatrix}
+$$
+$$
+\text{Rotazione:}
+\begin{bmatrix}
+1&0&0&0 \\
+0&0&-1&0 \\
+0&1&0&0 \\
+0&0&0&1
+\end{bmatrix}
+$$
+$$
+\text{Matrice finale: }
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & -1 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 & 1 \\
+0 & 1 & 0 & 2 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & 0 & 0 & 1 \\
+0 & 0 & -1 & 0 \\
+0 & 1 & 0 & 2 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+
+
+#### JSARToolkit marker matrix
+La matrice calcolata da JSARToolkit per il marker indica la trasformazione che serve per passare da un oggetto nel sistema di riferimento della fotocamera a una posizione equivalente nel sistema di riferimento del marker. 
+
+![[Pasted image 20250514150242.png#invert|center|500]]
+
+#### Camera projection matrix
+

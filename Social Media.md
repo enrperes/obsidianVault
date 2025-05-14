@@ -1,5 +1,3 @@
-![[1. Social Media]]
-
 
 # Grafi 
 Composti da nodi e archi. 
@@ -946,11 +944,11 @@ $$
 > Alcuni early adopters passano ad A e possono convincere a catena gli altri B a cambiare. 
 > È un processo monotono, se un nodo passa ad A, non torna indietro. 
 > Il processo si ferma quando o tutti sono passati ad A o nessun nodo vuole più cambiare e c'è una coesistenza tra A e B. 
-> ---
 > Es:
 > $\large a=3, b=2 \longrightarrow q=\frac{b}{(a+b)}=\frac{2}{5}$
 > Quindi lo switch da B ad A avviene se almeno 2/5 dei *vicini* adottano A.
 > è una reazione a catena: alcuni nodi inizialmente non sono in grado di cambiare ma ci riescono dopo con l'aiuto di altri nodi. 
+
 
 ![[Pasted image 20241112143023.png#invert|left|250]] 
 Qui si ferma: nessun nodo ha almeno 2/5 dei vicini che adottano A. Per far ripartire la "cascata" (intervention) basterebbe convertire 12 e 13. Convertire nodi lontani non servirebbe a nulla. 
@@ -1084,11 +1082,12 @@ https://doi.org/10.1073/pnas.1517441113
 
 Facebook. 67 pagine pubblicate: metà notizie scientifiche e metà teorie cospirazionali.
 
-![[Pasted image 20241118101437.png#invert|left|400]]
+![[Pasted image 20241118101437.png#invert|left|300]]
 Il pattern di condivisione è simile per le due categorie. La maggior parte dei post ha **alta omogeneità**: misura di quanto due nodi sono nella stessa comunità. 
 Si tendono a formare comunità separate, segregate. 
 Utenti di comunità scientifiche tendono a leggere solo contenuti scientifici e viceversa. 
 
+<hr>
 
 ### *Debunking in a world of tribes*, PLoS ONE
 https://doi.org/10.1371/journal.pone.0181821
