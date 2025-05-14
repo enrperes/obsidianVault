@@ -297,13 +297,8 @@ Miglioramenti vicino alla perfezione sono più difficili.
 
 ### Media Armonica (HM)
 
+$\Large H = \frac{n}{\displaystyle \sum_{i=1}^n \frac{1}{x_i}}$
 
-
-[...] 
-
-
----
-
-
-![[23.Q3-Accordo.pdf]] ^^ Fino pag ~34
-
+Proprietà:
+1. $H \leq G \leq A$, dove $G$ è la media geometrica e $A$ la media aritmetica.
+2. È sensibile ai valori estremamente piccoli: se uno dei $x_i$ tende a zero, anche $H$ tende a zero.

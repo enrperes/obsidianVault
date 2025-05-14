@@ -104,7 +104,7 @@ $\Large \sigma_{st}$ = numero di cammini più corti dal nodo s al nodo t (inform
  > Alta B.C. è fondamentale per il flusso di info nella rete. Tante interazioni tra nodi devono passare tra di esso: intermediario cruciale
  > Bassa B.C. ha poca influenza sui cammini tra altri nodi. è periferico o ridondante rispetto alla connessione globale della rete. 
 
-![[Pasted image 20241008150747.png#invert|650]]
+![[Pasted image 20241008150747.png#invert|500]]
 Nell'esempio infattti V₂ ha Betweenness Centrality maggiore. 
 
 #### Betweenness centrality normalizzata
@@ -138,9 +138,9 @@ Riassumendo:
 ### Betweenness Centrality 
 - High: Un nodo fa da tramite tra parti diverse della rete, facilitando la comunicazione tra nodi che non sono connessi direttamente. 
 - Low: Un nodo non ha una posizione centrale nella rete e le comunicazioni lo bypassano. 
-![[Pasted image 20241014190335.png#invert|center|700]]
+![[Pasted image 20241014190335.png#invert|center|500]]
 
-![[Pasted image 20241015155002.png#invert|center|700]]
+![[Pasted image 20241015155002.png#invert|center|500]]
 
 ---
 
@@ -326,7 +326,7 @@ Cons: easily spammable (on the hubs), complex computation (on small graphs
 ## Terminology 
 Actor, Relation, Strength, Weight, Ties...
 
-![[Pasted image 20241015144528.png#invert|center|700]]
+![[Pasted image 20241015144528.png#invert|center|500]]
 
 - **Local Bridge**
 	- Arco fra due nodi che sarebbero più lontani senza di esso. 
@@ -399,7 +399,7 @@ Per calcolarla: contare il numero di coppie reciproche nel grafo, usando la matr
 $$
 \large R = \frac{\sum_{i,j,i<j}A_{i,j}A_{j,i}}{\frac{\mid E\mid}{2}}
 $$
-![[Pasted image 20241021090930.png#invert|600]]
+![[Pasted image 20241021090930.png#invert|500]]
 
 Dopo aver calcolato il quadrato della matrice, si sommano gli elementi della diagonale e si divide per $\frac{1}{m}$, il numero totale di archi possibili. 
 
