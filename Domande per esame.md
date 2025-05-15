@@ -23,3 +23,18 @@
 - Differenza tra una proiezione prospettica e una assonometrica
 - Perchè l'uso di effetti speciali nei film non è un esempio di realtà aumentat
 - Collocare sull'asse della virtualità di Milgram le applicazioni: AR, AV, VR, 
+
+- Differenza tra realtà virtuale e realtà aumentata
+	- La realtà virtuale si riferisce a un sistema in cui l'utente può immergersi e interagire in un ambiente totalmente virtuale. è un'esperienza che coinvolge soprattutto vista e udito ma anche il tatto, ad esempio nei simulatori di guida. 
+	- Il livello di immersione può essere diviso in 3 cat: 
+		- Basso: attraverso uno schermo del pc (videogame)
+		- Parziale: sempre attraverso schermo ma con feedback tattile (simulatore)
+		- Totale: HMD
+	- La realtà aumentata è un sistema in cui l'utente interagisce con il mondo reale, che viene "aumentato" in tempo reale dall'aggiunta di elementi digitali. 
+- Architettura di un sistema AR: In che senso l'interazione può essere diretta o indiretta? 
+	- La fase di interazione utente-sistema prevede la rilevazione di input tramite controller o sensori. 
+	- è considerata diretta quando l'utente interagisce con GUI, joystick...  e indiretta quando i segnali arrivano al sistema tramite rilevamento di sensori come  giroscopio, accelerometro... Quindi quando l'utente interagisce prima con il mondo reale e indirettamente con quello virtuale. 
+- Differenza tra sistemi di riferimento Left handed e right handed
+- In cosa consiste una proiezione assonometrica? A che distanza è posizionato l'osservatore dall'oggetto osservato? 
+	- Consente di rappresentare oggetti 3D in 2D senza alcuna distorsione prospettica. Le linee parallele nell'oggetto 3D rimangono parallele nella sua rappresentazione 2D. L'osservatore è posizionato a distanza infinita dal piano di proiezione e le linee di proiezione (i raggi di luce) sono paralleli. 
+- Collocare sull'asse di Milgram le applicazioni di realtà aumentata, virtualità aumentata, realtà virtuale. 

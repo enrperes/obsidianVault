@@ -126,13 +126,16 @@ Dispositivi IoT integrano varie interfacce per collegarsi ad altri dispositivi:
 
 ### Protocolli per l'IoT
 
-![[Pasted image 20250320115808.png#invert|left|300]]
+![[Pasted image 20250320115808.png#invert|right|300]]
 A livello data link: 
 - IEEE 802.3 = Ethernet con cavo coassiale o duplex o fibra ottica
 - IEEE 802.11 = WiFi
 - IEEE 802.16 = WiMax
 - 2G/3G/4G/5G = Mobile communications
 
+
+
+---
 #### LoRaWAN
 Long Range WAN basata su bande ISM (Industrial, Scientific, Medical) = bande libere quindi diverse da 2.4GHz, 5GHz, 433MHz...
 
@@ -169,13 +172,21 @@ IPv6: 128bit
 
 ---
 
+# Grafana
+Soluzione open source per gestire analisi e monitoraggio dei dati provenienti da un database. 
+Si creano dashboard definendo le query, sia con SQL che con il query builder. 
+
+
+
+
 
 # InfluxDB
 è un TSDB, Time Series DataBase, ottimizzato per la gestione efficiente di dati organizzati come serie temporali, ideale per op. IoT. 
-è un DB **NoSQL** e memorizza i dati come punti. 
+è un DB **NoSQL** e memorizza i dati come punti, ognuno identificato da un timestamp unico. 
 Ogni punto è un insieme di coppie chiave-valore e un timestamp. 
 *serie* = insieme di punti raggruppati in base a un target (= insieme di coppie chiave-valore). Sono raggruppate da un identificatore di misurazione. 
 
+#### Concetti chiave InfluxDB: 
 - Misurazione
 	- simile al concetto di tabella nei DB classici. Contenitore per tag e campi. 
 - Tag
@@ -210,6 +221,13 @@ API Token clonato:
 > [!bug]+  **Bug** 
 > Il file weather-monitor.py non compila perchè non riconosce la librerie `serial_port`. Provare a usare pyserial e riscrivere il codice 
 
+
+Per questo caso di studio InfluxDB è spropositato: Arduino manda una lettura ogni 5 secondi, InfluxDB permette di gestire dati temporale nell'ordine dei ns. 
+
+### Telegraf 
+Possibile usarlo come sorgente id dati. 
+
+![[Pasted image 20250515123334.png#invert|center|500]]
 # RaspberryPI
 
 Versione usata: `Raspberry Pi 3 Mod. B+` 
@@ -240,7 +258,8 @@ GPIO.output(18, False) # spegne il led
 GPIO.cleanup()
 ```
 
-![[Pasted image 20250408164717.png#invert|left|300]]
+![[Pasted image 20250408164717.png#invert|300]]
+
 ### PWM 
 I pin utilizzabili sono GPIO12/GPIO18 o GPIO13/GPIO19. 
 
@@ -354,4 +373,6 @@ Protocollo di comunicazione
 
 ![[Pasted image 20250508135400.png]]
 I comandi python vengono tradotti in messaggi MAVLink e inviati a MAVProxy che li inoltra al drone. 
+
+# Robot Operating System - ROS
 

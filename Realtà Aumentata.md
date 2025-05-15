@@ -12,22 +12,39 @@ author: Enrico
  > Obiettivo = arricchire la percezione sensoriale senza sostituire l'ambiente fisico ma integrandolo. 
  > > **Interactive**, experience of a real-world environment where the objects are enhanced by CGI, including visual, auditory, haptic sensory.
  
-| AR  | Augmented Reality | Sovrappone contenuti digitali al mondo reale che rimane visibile                            | App IKEA che posiziona elementi virtuali nel mondo reale      |
-| --- | ----------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| VR  | Virtual Reality   | Sostituisce completamente il mondo reale con un ambiente simulato. Immersivo e interattivo. | Studio televisivo virtuale con conduttore reale               |
-| MR  | Mixed Reality     | Combina elementi reali e virtuali che interagiscono tra loro in real-time                   | Visori che sostituiscono informazioni visive in dati termici  |
-| ER  | Extended Reality  | Include AR, VR, MR.                                                                         |                                                               |
+|     | Nome              | Caratteristiche                                                                             | Esempio                                                      |
+| --- | ----------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| AR  | Augmented Reality | Sovrappone contenuti digitali al mondo reale che rimane visibile                            | App IKEA che posiziona elementi virtuali nel mondo reale     |
+| VR  | Virtual Reality   | Sostituisce completamente il mondo reale con un ambiente simulato. Immersivo e interattivo. | Studio televisivo virtuale con conduttore reale              |
+| MR  | Mixed Reality     | Combina elementi reali e virtuali che interagiscono tra loro in real-time                   | Visori che sostituiscono informazioni visive in dati termici |
+| ER  | Extended Reality  | Include AR, VR, MR.                                                                         |                                                              |
 
 L'esperienza può essere: 
 - Diretta (Occhiali smart, visori, HUD)
 - Indiretta (attraverso schermi, tablet, smartphone)
 
+![[Pasted image 20250515104243.png#invert|left|300]]
+1. Interfaccia grafica: realtà e computer interagiscono con l'utente ma non c'è contatto
+2. (VR) Realtà virtuale: l'utente è completamente immerso nella virtualità e non interagisce con la realtà
+3. Ubiquitous Computer: L'utente interagisce con i computer e con la realtà (i computer sono integrati nella realtà)
+4. (AR) Interazione Aumentata: Utente e realtà interagiscono tramite il computer, che fa da filtro.
+
+
+Per la realtà virtuale esistono 3 livelli di immersione: 
+- Basso
+	- Tra utente e mondo virtuale c'è lo schermo del pc
+- Parziale
+	- Feedback tattile (simulatori di guida, volo)
+- Totale 
+	- HDM (Head Mounted Display)
 
 ### Milgram's Virtuality Continuum (1994)
 Il modello Virtuality Continuum di Milgram rappresenta uno spettro continuo tra il mondo reale e il mondo virtuale. Ogni esperienza si colloca su questo asse in base alla quantità di contenuto digitale che incorpora. 
 ![[Pasted image 20250513164253.png#invert|center|500]]
-Modella solo la quantità di elementi virtuali aggiunti alla scena. Non tiene conto della rimozione di modelli o altre alterazioni. 
-Viene quindi riformulato aggiungendo una seconda dimensione (mediality) che tiene conto del numero di modifiche effettuate. 
+L'ambiente tra il reale e il virtuale è definito come "realtà mixata", dove si identifica la realtà realtà aumentata (elementi virtuali aggiunti alla realtà) e la virtualità aumentata (virtualità con aggiunta di elementi reali). 
+
+Questo asse modella solo la quantità di elementi virtuali aggiunti alla scena. Non tiene conto della rimozione di modelli o altre alterazioni. 
+Viene quindi riformulato aggiungendo una seconda dimensione (*mediality*) che tiene conto del numero di modifiche effettuate. 
 ![[Pasted image 20250513164508.png#invert|center|300]]
 Asse x (V): realtà <-> virtualità 
 Asse y (M): medialità: quanto il sistema interviene o filtra la percezione del mondo. 
@@ -38,23 +55,55 @@ Mediated Reality | Mediated Virtuality
 Augmented Reality | Augmented Virtuality 
 
 Stessi concetti si possono applicare all'audio: 
-
 Audio Augmented Reality (AAR): Active Noise Canceling 
 
 ## Architecture of an AR system
 
-L'user interagisce in qualche modo con il sistema AR (proprietà fondamentale)
+L'user **interagisce** in qualche modo con il sistema AR (proprietà fondamentale)
 - Direttamente: GUI, Gestures, Vocal...
-- Indirettamente: Motion, Orientation...
+- Indirettamente, quando interagisce con il mondo reale (posizione, orientamento...)
 
-Le interazioni con il mondo reale vanno rilevate in qualche modo usando sensori: 
-- Movimento: GPS, accellerometro 
+Le interazioni con il mondo reale vanno **rilevate** in qualche modo usando sensori: 
+- Movimento: GPS, accelerometro 
 - Orientamento: bussola, giroscopio. 
 
+Il problema è la bassa precisione e il ritardo.
+
+Un sistema AR prevede: 
+1. Interazione
+2. Rilevamento
+3. Monitoraggio
+4. Contenuto AR
+5. Elaborazione 
+6. Rendering
+7. Display
+
+### Markers
 ![[Pasted image 20250513170256.png#invert|right|300]]
 Fiducial Markers: pattern specifici usati come placeholder per l'AR. (contrasto alto, forme nette). Interazione indiretta spostando la telecamera nello spazio. 
+- Pattern Markers
+	- Bordo nero spesso intorno, su sfondo bianco con un'immagine BW dentro.
+	- Necessario generare Marker Descriptor files (patt)
+- Matrix Markers
+	- Simile ai QR, contengono un ID numerico codificato in una griglia
+- NFT Markers
+	- Basati su immagini reali, non codificati in modo binario. 
+	- Più adatti a esperienze AR realistiche 
 
 Stesso concetto in situazioni "markerless" dove il sistema riconosce feature naturali nei pattern delle immagini catturate. 
+
+
+### Monitoraggio (tracking)
+Il sistema che tiene in riferimento l'input per capire il rapporto tra utente e mondo reale. Segnala che il marker che si trova in posizioni diverse in frame diversi è lo stesso, che ha compiuto un movimento. 
+
+### Contenuto AR
+L'insieme di tutti i contenuti che possono essere aggiunti all'ambiente reale per renderlo aumentato. 
+
+### Processing
+Preleva i dati del mondo reale (stream video) e li aumenta con il contenuto AR
+
+### Rendering 
+Creare l'immagine aumentata finale 
 
 ### Displays
 Head Mounted Displays (HMD) possono essere diretti o indiretti: 
@@ -62,6 +111,7 @@ Head Mounted Displays (HMD) possono essere diretti o indiretti:
 - Indiretti: see through attraverso camera + display (Apple Vision Pro)
 
 Gli smart glasses: RayBan Stories: integrano una fotocamera ma nessun display. 
+
 # AR web applications 
 
 Vari AR SDK: 
@@ -73,7 +123,7 @@ Vari AR SDK:
 
 Per semplici applicazioni web si usano tecniche standard web dev. 
 
-Il video viene simulato oppure catturato in diretta con la webcam, con WebRTC API. 
+Il video viene simulato oppure catturato in diretta con la webcam, con ==WebRTC== API. 
 
 Due progetti demo: 
 1. usando `jsartoolkit.js`, una libreria JS da usare con Fiducial Markers. 
@@ -85,11 +135,11 @@ Due progetti demo:
 #  Simple web based AR application
 
 ## WebRTC: Real world data
-Tecnologia opensource che permette le comunicazione real time (audio video) nel browser 
+Tecnologia opensource che permette le comunicazione real time (audio video) tra due dispositivi senza ritardi.
 Tra le principali API:
 - ⭐️`getUserMedia()` chiede al browser l'accesso a webcam e microfono e ritorna uno stream media. 
 	- ![[esempio getUserMedia]]
-- `RTCPeerConnection()` crea e gestisce la connessione peer-to-peer. 
+- `RTCPeerConnection()` crea e gestisce la connessione peer-to-peer (per chiamate audio / video)
 - `RTCDataChannel()` crea un canale bidirezionale (simile a TCP / UDP) che permette ai browser di inviare dati via p2p
 
 ## JSARToolkit5: Detection + Tracking
@@ -108,9 +158,9 @@ Libreria Open Source per riconoscere marker fiduciari.
 	- Basati su immagini reali, non codificati in modo binario. 
 	- Più adatti a esperienze AR realistiche 
 
-Step per rilevamento matrix marker: 
+Step per rilevamento matrix marker (da ripetere ogni frame): 
 1. Conversione grayscale
-2. tresholding (contrasto)
+2. tresholding (da scala di grigi a immagine binaria) 
 3. Connected component detection + border detection 
 4. Pattern matching
 5. pose estimation (del marker rispetto alla camera, rappresentato da una matrice di trasformazione) 
@@ -183,15 +233,14 @@ linee che sono parallele nel mondo 3D convergono in un punto (vanishing point)
 Il parallelismo viene preservato solo per linee parallele al projection plane, quindi possono esserci più vanishing points. 
 
 #### Axonometric projections
-L'osservatore è posizionato at infinity e i light rays sono paralleli (Ortographic View)
+L'osservatore è posizionato a distanza infinita e i raggi di luce(linee di costruzione) sono paralleli (Ortographic View)
 Linee parallele nel mondo 3D rimangono parallele, non c'è distorsione.
 Utile per mostrare le relazioni tra oggetti nello spazio, perchè non c'è distorsione. 
 
 ## Canvas e 3D
 
 HTML 5 supporta 2D con `canvas`. il 3D è accessibile con le API wi WebGL. 
-
-WebGL made easy: Three.js. 
+WebGL è la libreria grafica per il web che permette l'inserimento di contenuti 3D senza plugin esterni. Molto di basso livello, quindi si usa Three.js che semplifica tutto 
 
 #### Three.js
 ![[Pasted image 20250514121945.png#invert|center|500]]
