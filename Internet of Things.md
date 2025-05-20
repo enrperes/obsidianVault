@@ -376,3 +376,7 @@ I comandi python vengono tradotti in messaggi MAVLink e inviati a MAVProxy che l
 
 # Robot Operating System - ROS
 
+![[python venv]]
+
+
+Volendo si possono eseguire direttamente gli script Python, bypassando la libreria ROS2. 
