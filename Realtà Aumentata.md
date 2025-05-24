@@ -411,3 +411,15 @@ La matrice calcolata da JSARToolkit per il marker indica la trasformazione che s
 
 #### Camera projection matrix
 
+Matrice 3x4 che modella come raffigurare un oggetto sullo schermo, visto da una camera con distorsione prospettica. 
+
+Trasforma le coordinate 3D di un punto nello spazio in coordinate 2D sul piano immagine. 
+
+Mappa un punto 3D **Omogeneo** $X =  [X, Y, Z, 1]^{T}$ in un punto immagine 2D $x = [x, y, 1]^{T}$ 
+$x$ si ricava con: 
+$$
+\Large x = PX
+$$
+
+$P$ è composta dalla matrice $R$ 3x3 che descrive la rotazione della camera rispetto al sistema di riferimento globale e da $t$ che è il vettore 3x1 che descrive la traslazione (coordinate omogenee)
+
