@@ -1,0 +1,14 @@
+body{
+	--file-line-width: 45%;
+}
+
+.markdown-source-view.mode-cm6.is-readable-line-width :is(.cm-line, .cm-content){
+	max-width: 50%;
+}
+
+.header{
+	--font-text-size: 30px;
+	font-size: var(--font-text-size);
+	--metadata-display-reading: none;
+	--metadata-display-editing: none;
+}

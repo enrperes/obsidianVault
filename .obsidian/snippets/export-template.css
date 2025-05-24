@@ -1,0 +1,160 @@
+@media print {
+    /* Page setup */
+    @page { margin: 1cm 1.5cm !important; }
+  
+    /* Links */
+    a, a:link, a:visited { color: #000 !important; text-decoration: none !important; }
+  
+    /* Root, variables & initialise the top-level counter */
+    body {
+      tab-size: 4 !important;
+      --code-bg: #fff !important;
+      --code-color: #000 !important;
+      counter-reset: h1 !important;   /* seed first level */
+    }
+  
+    /* ---------------------------------------------------------------------------------- */
+    /* HEADINGS AND NUMBERING                                                             */
+    /* ---------------------------------------------------------------------------------- */
+  
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Latin Modern Roman" !important;
+      color: #000 !important;
+      font-weight: bold !important;
+      line-height: 1 !important;
+      margin: 20px 0 0 !important;
+      padding: 0 !important;
+      page-break-inside: avoid !important;
+      page-break-after: avoid !important;
+    }
+  
+    /* ─── H1 ─────────────────────────────────────────────────────────────────────────── */
+    h1 {
+      font-family: "Latin Modern Roman Caps" !important;
+      text-align: center !important;
+      font-size: 18pt !important;
+      font-weight: 900 !important;
+      margin: 5px 0 10px !important;
+  
+      counter-increment: h1 !important; /* bump 1st-level */
+      counter-reset: h2 !important;     /* clear lower levels */
+    }
+    h1::before { content: counter(h1) ". " !important; }
+  
+    /* ─── H2 ─────────────────────────────────────────────────────────────────────────── */
+    h2 {
+      font-size: 16pt !important;
+    }
+  
+    /* ─── H3 ─────────────────────────────────────────────────────────────────────────── */
+    h3 {
+      font-size: 14pt !important;
+    }
+
+  
+    /* ─── H4 (optional fourth level) ─────────────────────────────────────────────────── */
+    h4 {
+      font-size: 13pt !important;
+    }
+  
+    /* H5 & H6 (left un-numbered) */
+    h5 { font-size: 12pt !important; }
+    h6 {
+      font-family: "Latin Modern Roman Caps" !important;
+      text-align: center !important;
+      font-size: 11pt !important;
+      font-weight: normal !important;
+      margin-top: 6px !important;
+    }
+  
+    /* ---------------------------------------------------------------------------------- */
+    /* BODY TEXT & MISC.                                                                  */
+    /* ---------------------------------------------------------------------------------- */
+  
+    p       { font: 10pt/1 "Latin Modern Roman" !important; text-align: justify !important; margin: 5px 0 0 !important; }
+    strong  { font-weight: bold !important; }
+  
+    /* Credits */
+    del {
+      display: block !important;
+      font: 10pt/1 "Latin Modern Roman" !important;
+      text-align: center !important;
+      text-decoration: none !important;
+      margin: 8px 0 0 !important;
+      padding-bottom: 10px !important;
+    }
+  
+    /* Code & Math */
+    pre {
+      background: var(--code-bg) !important;
+      border-top: 1.5px solid #292929 !important;
+      border-bottom: 1.5px solid #292929 !important;
+      border-radius: 0 !important;
+      line-height: 1 !important;
+    }
+    pre code { font-family: "Coutier","Ubuntu Mono",monospace !important; }
+    mjx-math { font-size: 90% !important; }
+  
+    /* Figures */
+    svg, img { display: block !important; margin: 10px auto 5px !important; max-width: 100% !important; }
+    figcaption {
+      font: 8pt/1 "Latin Modern Roman" !important;
+      text-align: center !important;
+      margin-bottom: 16px !important;
+    }
+  
+    /* Tables */
+    table {
+      font: 10pt/1 Times !important;
+      text-align: center !important;
+      margin: 10px auto 5px !important;
+      border-top: 1px solid #292929 !important;
+      border-bottom: 1px solid #292929 !important;
+      border-collapse: collapse !important;
+    }
+    th, td { padding: 2px 5px !important; border: none !important; }
+    th      { border-bottom: 1px solid darkgray !important; font-weight: normal !important; color: #000 !important; }
+  
+    /* Lists */
+    ul, ol, dl { font: 11pt/1.1 "Latin Modern Roman" !important; margin: 0 !important; padding: 0 !important; }
+    ul        { list-style: none !important; }
+    ul li     { position: relative !important; padding-left: 1.15em !important; }
+    ul li::before {
+      content: "•" !important;
+      position: absolute !important;
+      left: 0 !important;
+      top: 0 !important;
+      font-size: 1.1em !important;
+    }
+  
+    /* Horizontal rule */
+    hr { border: none !important; height: 0 !important; }
+  
+    /* Blockquotes */
+    blockquote {
+      display: block !important;
+      font: 10pt/1 "Latin Modern Roman" !important;
+      text-align: center !important;
+      color: #000 !important;
+      margin: 5px auto !important;
+      padding: 0 !important;
+      border: none !important;
+    }
+  
+    /* Mermaid diagrams */
+    .mermaid { color: #000 !important; }
+  
+    /* Callouts */
+    .callout            { margin: 1em !important; padding: 1em !important; }
+    .callout .callout-title {
+      font: 12pt/1 "Latin Modern Roman" !important;
+      font-weight: bold !important;
+      page-break-inside: avoid !important;
+      page-break-after: avoid !important;
+      padding-bottom: 1em !important;
+    }
+    .callout-icon .svg-icon,
+    .callout-fold .svg-icon { display: none !important; }
+  }
+  
+

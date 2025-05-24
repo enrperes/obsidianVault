@@ -1,0 +1,53 @@
+/* change image opacity in edit and reading mode*/
+.theme-dark .markdown-preview-view img {
+    opacity: 1;                   
+}
+
+/* change header size in edit mode */
+body{
+    --h1-size: 2.2em;
+    --h2-size: 1.8em;
+    --h3-size: 1.3em;
+    --h4-size: 1.15em;
+}
+
+/* change header size in preview mode */
+.HyperMD-header-1 {
+    font-size: 2.5em;
+}
+
+/* change header and paragraph spacing */
+body{
+    --heading-spacing: 0em;
+    --p-spacing: 0.8em;
+}
+
+h1, .markdown-rendered h1 {
+    margin-block-end: var(--heading-spacing);
+}
+
+/* change bold text color and increase its font size*/
+body{
+    --bold-color: #81a1c1;
+    /* todo */
+}
+
+/* change italic text color */
+body{
+    --italic-color: #efbd8f;
+}
+
+/* change header color in edit mode - a bit more saturation */
+.cm-header-1 { color: #f2bdbd; }
+.cm-header-2 { color: #f6d2cb; }
+.cm-header-3 { color: #fbead2; }
+.cm-header-4 { color: #e0e5d8; }
+.cm-header-5 { color: #e4dfe5; }
+
+/* change header color in preview mode - a bit more saturation */
+.markdown-preview-view h1 { color: #f2bdbd; }
+.markdown-preview-view h2 { color: #f6d2cb; }
+.markdown-preview-view h3 { color: #fbead2; }
+.markdown-preview-view h4 { color: #e0e5d8; }
+.markdown-preview-view h5 { color: #e4dfe5; }
+
