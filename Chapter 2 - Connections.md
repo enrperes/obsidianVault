@@ -1,4 +1,4 @@
-# Chapter 2 - Connections
+
 Electromagnetic radiations propagating through a medium: 
 - Copper wire
 - Optical fiber
