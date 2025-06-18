@@ -21,14 +21,18 @@ author: Enrico
 > 4. Ripetere al contrario le operazioni di rotazione e traslazione, per riportare l'oggetto nella posizione originale. 
 
 > [!question] Esercizio su matrice che opera traslazione, cambiamento di scala, trasformazione (scrivere le matrici in base alle operazioni date)
->
-
-> [!question] Differenza tra sistemi basati su marker fiduciali e sistemi markerless
 > 
 
-- In che modo è possibile ruotare un oggetto 3D attorno a un asse V giacente nel piano XY e pasante per l'origine, avendo a disposizione le trasf. di base
-- Altro esercizio su matrice che modella una traslazione, cambiamento di scala, trasformazione. 
-- Perché la triangolazione è importante nella grafica 3D?
+> [!question] Differenza tra sistemi basati su marker fiduciali e sistemi markerless
+> I sistemi di realtà aumentata si basano sul riconoscimento di elementi del mondo reale per determinare la posizione della telecamera nello spazio e quindi calcolare la posizione degli elementi virtuali da aggiungere. Può essere fatto con marker fiduciali, delle piccole immagini ad alto contrasto che vengono posizionate appositamente nell'ambiente
+> 
+
+>[!question] In che modo è possibile ruotare un oggetto 3D attorno a un asse V giacente nel piano XY e pasante per l'origine, avendo a disposizione le trasf. di base
+
+>[!question] Altro esercizio su matrice che modella una traslazione, cambiamento di scala, trasformazione. 
+
+>[!question] Perché la triangolazione è importante nella grafica 3D?
+
 >[!question] Perché l'uso di effetti speciali nei film non è un esempio di realtà aumentata
 > Perché pur trattandosi di elementi digitali aggiunti alla realtà, non consiste in un'esperienza interattiva in real-time. 
 
@@ -102,4 +106,85 @@ author: Enrico
 > - Medicina (tool di precisione mostrano dove operare) 
 > - Sport (grafiche overlay mostrano dati e statistiche nel campo)
 > - Navigazione (indicano la strada)
+
+--- 
+
+T = matrice per traslazione $[3, 2, 1]$
+S = mat per scala x4
+$T= \begin{bmatrix}
+1&0&0&3\\
+0&1&0&2\\
+0&0&1&1\\
+0&0&0&1
+\end{bmatrix}$ $S=\begin{bmatrix}
+4&0&0&0\\
+0&4&0&0\\
+0&0&4&0\\
+0&0&0&1\\
+\end{bmatrix}$ 
+
+K = matrice che modella T seguita da S $\Large \to$ $S \times T$ 
+$\begin{bmatrix}
+4&0&0&0\\
+0&4&0&0\\
+0&0&4&0\\
+0&0&0&1\\
+\end{bmatrix}$ 
+$\times$ 
+$\begin{bmatrix}
+1&0&0&3\\
+0&1&0&2\\
+0&0&1&1\\
+0&0&0&1
+\end{bmatrix}$ 
+
+= $\begin{bmatrix}
+
+\end{bmatrix}$ 
+
+---
+Rotazioni
+
+Attorno asse X:
+$$\begin{bmatrix}
+1&0&0&0\\
+0&cos\theta&-\cos \theta&0\\
+0&\sin \theta&\cos \theta&0\\
+0&0&0&1
+\end{bmatrix}$$
+Attorno asse Y: 
+$$
+\begin{bmatrix}
+\cos \theta&0&\sin \theta&0\\
+0&1&0&0\\
+-\sin \theta&0&\cos \theta&0 \\
+0&0&0&1
+\end{bmatrix}
+$$
+Attorno asse Z: 
+$$
+\begin{bmatrix}
+\cos \theta&-\sin \theta&0&0 \\
+\sin \theta&\cos \theta&0&1 \\
+0&0&1&0 \\
+0&0&0&1 \\
+\end{bmatrix}
+$$ 
+Tabella trigonometrica: 
+
+
+| $\alpha$ | $\sin \alpha$          | $\cos \alpha$          |
+| -------- | ---------------------- | ---------------------- |
+| 0        | 0                      | 1                      |
+| 30       | $\frac{1}{2}$          | $\frac{\sqrt{ 3 }}{2}$ |
+| 45       | $\frac{\sqrt{2 }}{2}$  | $\frac{\sqrt{ 2 }}{2}$ |
+| 60       | $\frac{\sqrt{ 3 }}{2}$ | $\frac{1}{2}$          |
+| ==90==   | ==1==                  | ==0==                  |
+| 180      | 0                      | -1                     |
+| 270      | -1                     | 0                      |
+| 360      | 0                      | 1                      |
+
+
+L'ordine di calcolo delle matrici segue ordine da Destra a Sinistra. 
+
 
