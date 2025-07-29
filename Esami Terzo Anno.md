@@ -2,11 +2,11 @@
 cssclasses:
   - header
 ---
-- [ ] 📱 [[Social Computing ]] 
+- [x] 📱 [[Social Computing ]] 
 - [ ] 💾 [[Basi Di Dati]] 
 - [ ] 🔧[[Ingegneria Del Software]] 
-- [ ] 🛰️[[Internet of Things]]
+- [x] 🛰️[[Internet of Things]]
 - [ ] 👨‍💻[[Interazione uomo macchina]]
 - [ ] 🌐[[Reti di calcolatori]]
-- [ ] 🧊[[Grafica 3D Creativa]]
-- [ ] 👓[[Realtà Aumentata]]
+- [x] 🧊[[Grafica 3D Creativa]]
+- [x] 👓[[Realtà Aumentata]]

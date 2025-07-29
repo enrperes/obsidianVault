@@ -1,5 +1,5 @@
 ###  [[Programmazione e laboratorio-info]]
-# [[Laboratorio-Scheme]]
+# [[Laboratorio 24-25]]
 # Scheme $\lambda$
 
 >[!info]- LINKs

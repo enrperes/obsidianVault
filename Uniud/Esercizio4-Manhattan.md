@@ -29,6 +29,10 @@ Generalizzazione del problema dei percordsi di Manhattan in spazio tridimensiona
 (path3d 2 3 3) ; 560
 ```
 
-``(path i j)`` Risolve il problema di Manhattan in 2D. 
+
 Se uno dei due lati del piano è 0 si ottiene un segmento, quindi esiste un unico modo per andare da un punto all'altro. 
-In ricorsione, si somma 
+
+> [!note]+  **spiegazione** 
+ > Conta i numeri di percorsi possibili da 0,0 a i,j su griglia 2D o 3D
+ >``(path i j)`` Risolve il problema di Manhattan in 2D. 
+ >

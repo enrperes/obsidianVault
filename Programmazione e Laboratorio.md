@@ -3,10 +3,14 @@ tags:
   - materia
 ---
 
-## [[Laboratorio-Scheme]]
+## [[Laboratorio 24-25]]
 ## [[Laboratorio-Java]]
 
+---
 
+[[Esami-programmazione]]
+
+---
 
 >[!tldr]+ Appunti
 > # ![[Scheme]]
