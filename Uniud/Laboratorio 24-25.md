@@ -19,12 +19,6 @@
 Spiegazione di IntSList: 
 [[IntSList]]
 
-
-12: codice fatto, manca un po' spiegazione
-13: codice fatto su bluej, manca spiegazione e test 
-
-Manca il 14 e huffman
-
 Poi rivedere teoria generale 
 
 
