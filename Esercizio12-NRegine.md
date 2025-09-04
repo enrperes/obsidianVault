@@ -1,6 +1,6 @@
-> [!example]+  Rompicapo N regine 
- > Posizionare N regine su una scacchiera $N \times N$ in modo tale che nessuna regina possa attaccare un'altra. 
- > 
+
+  Posizionare N regine su una scacchiera $N \times N$ in modo tale che nessuna regina possa attaccare un'altra. 
+ 
 
 > [!attention]+   Regola
  > Due regine si minacciano se: 
@@ -8,16 +8,37 @@
  > - Stessa colonna
  > - Stessa diagonale
 
+> [!question] Cosa fare: 
+> Definisci le variabili di istanza della classe Board e realizza il costruttore e i metodi del protocollo in base alle indicazioni fornite sopra. Sperimenta quindi il programma per determinare il _numero_ di soluzioni del rompicapo delle _n_ regine e verifica che i risultati siano in accordo con la seguente tabella:
+
 
 Queens.java realizza la strategia per contare il numero di soluzioni. 
-
-
 Viene usato il metodo `contains` in Board.java per scorrere la lista e verificare la presenza di altre regine nella stessa
 - Riga 
 - Colonna
 - Diagonali
 
+### `Board.java` 
+1. inizializzazione dei campi 
+2. Costruttori: 
+	1. Board(int n) crea una scacchiera vuota nxn con tutte le liste vuote. pubblico 
+	2. Board(...) usato internamente quando viene aggiunta una regina. 
+3. Metodi principali 
+	1. `size()` ritorna la dimensione n
+	2. `queensOn()` ritorna quante regine ci sono (q)
+	3. `underAttack(i, j)` Controlla se la cella `i, j` è minacciata da una regina, quindi quando c'è in
+		1. Stessa riga
+		2. stessa colonna
+		3. stessa diagonale ascendente (i-j)
+		4. stessa diagonale discendente (i+j)
+		5. `addQueen()` crea una nuova configurazione con una regina in più. Aggiorna le liste con `cons(i)` e `cons(j)`. Ricostruisce la stringa con `pairsString()` e restituisce un nuovo oggetto Board con q+1. Per aggiungerla si esplora l'albero delle possibili configurazioni e con `underAttack` si verificano i vincoli. 
 
+### `Queens.java`
+
+Ogni livello della ricorsione colloca una regina nella riga successiva in tutte le colonne non minacciate e somma le soluzioni dei rami generati. 
+
+
+FILE: 
 > [!code]- Queens.java
 > ```java
 >  
