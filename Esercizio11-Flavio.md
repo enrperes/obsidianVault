@@ -9,6 +9,26 @@ La procedura per servire il sidro è la seguente:
 6. Il processo si ripete finché restano solo due cavalieri seduti.
 Obiettivo: Tu e un amico volete essere tra gli ultimi due cavalieri rimasti, per poter bere tutto il sidro rimanente. Dovete quindi scegliere con attenzione i numeri degli sgabelli da occupare, in modo da essere tra i due superstiti.
 
+#### Classe `GiuseppeFlavio` 
+Contenitore principale con il metodo `josephus` 
+Crea una tavola rotonda che rappresenta i cavalieri con una lista collegata (array next) 
+> lista circolare: l'ultimo nodo non punta a null ma torna al primo
+
+
+Finchè ci sono più di 2 cavalieri viene eseguito t.serve e t.pass per eliminare un cavaliere e spostare la brocca al cavaliere successivo a quello eliminato. 
+
+il main serve solo a testare il metodo con vari n
+
+#### Classe `TavolaRotonda` 
+Modella i cavalieri seduti 
+attributi: next, current, remaining 
+il costruttore crea un cerchio: ogni cavaliere i punta al successivo i+1 tranne l'ultimo che punta al 1. 
+metodo `serve()` elimina il terzo cavaliere a partire dal current
+metodo `pass()` : dopo un'eliminazione, la brocca passa al cavaliere dopo quello eliminato. 
+
+Vengono stampati i due superstiti 
+
+
 ### TavolaRotonda
 
 
