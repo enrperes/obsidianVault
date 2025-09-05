@@ -1,7 +1,29 @@
-- Funzione ricorsiva `delega` che esplora ricorsivamente le liste, riga per riga. 
+Per confrontare due file e rilevarne le differenze. 
+Strategia: rielabora e perfeziona la soluzione del problema della sottosequenza più lunga.
+
+d = delete
+a = add
+
+Le modifiche sono poi rappresentate in una lista del tipo: 
+```rkt
+'(n_riga_t1 operazione n_riga_t2 contenuto)
+```
+
+#### Funzionamento
+
+- `diff` funzione principale che chiama la funzione ricorsiva `delega` 
+- Funzione ricorsiva `delega` che esplora ricorsivamente le liste (testi), riga per riga (riga = elemento atomico indivisibile)
 - `i1, i2` sono gli indici di posizione 
 - `t1, t2` sono il resto del primo e secondo file
 - `result` è una listsa che accumula le modifiche. 
+
+Cond: 
+1. entrambe liste vuote $\Large \to$ finito 
+2. t1 vuoto $\Large \to$ aggiunge le righe rimaste di t2 (e viceversa)
+3. righe correnti uguali $\Large \to$ passa alla prossima senza segnare differenze
+4. righe diverse $\Large \to$ 
+	1. Se t2 non esiste in t1 $\Large \to$ aggiunta
+	2. se t1 non esisgte in t2 $\Large \to$ cancellazione 
 
 
 ```scheme

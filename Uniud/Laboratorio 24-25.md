@@ -19,7 +19,6 @@
 Spiegazione di IntSList: 
 [[IntSList]]
 
-Poi rivedere teoria generale 
-
+[[Soluzione Esame 20250721b]]
 
 
