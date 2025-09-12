@@ -74,7 +74,7 @@ TS ⊂ CSR
 ### Verificare se è CSR
 - Costruire il grafo dei conflitti 
 	- Se c'è un ciclo $\Large \to$ non è CSR
-	- Se c'è ciclo è anche VSR
+	- Se c'è ciclo è CSR e anche VSR
 
 ### Verificare se è VSR ma non CSR 
 - Controllare la relazione legge e le scritture finali 
