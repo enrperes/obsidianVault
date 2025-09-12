@@ -44,6 +44,7 @@ Viene usato nella fase di progettazione di un database per ottenere una rapprese
 [[Esempio Venditori di piante]]
 
 ### Generalizzazione: 
+DIP è la generalizzazione, IMP, FUNZ, DIR sono le specializzazioni 
 
 ![[Pasted image 20241015154857.png#invert|450]]
 Se $E$ è una generalizzazione di $E_{1}, E_{2}\dots$: 
@@ -55,6 +56,13 @@ Esistono diversi tipi di generalizzazione:
 > [!attention]  **Parziale / Totale** 
  > ![[Pasted image 20241015162058.png#invert|240]]
  > Totale / parziale è in riferimento al contesto, non all'universo mondo (reale). 
+ > -  Totale: ogni istanza del super-tipo deve appartenere almeno a un sottotipo.
+ > 	- Pagamento: contanti o carta
+ > 	- per forza o uno o l'altro 
+> - Parziale. Alcune istanze appartengono al super-tipo
+> 	- Persona: lavoratore o studente. 
+> 	- Alcune persone non sono nessuno dei due
+ >
  
 > [!attention]  **Disgiunta / Sovrapposta** 
  > Si indica accanto alla doppia freccia scrivendo "disgiunta" o "sovrapposta"

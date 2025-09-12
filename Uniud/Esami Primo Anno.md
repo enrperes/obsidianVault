@@ -6,7 +6,7 @@ cssclasses:
 
 - [x] [[Elementi di matematica e algebra lineare]]
 - [ ] [[Analisi]]
-- [ ] [[Programmazione e Laboratorio]]
+- [x] [[Programmazione e Laboratorio]]
 - [x] [[Data Science]]
 - [x] [[Tecnologie Web]]
 - [x] [[Architettura degli elaboratori]]
