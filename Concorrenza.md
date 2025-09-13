@@ -47,16 +47,25 @@ Garantisce CSR ma può portare a deadlock
 I lock sono rilasciati solo dopo il commit. Evita letture sporche. Standard nei DBMS. 
 
 ## TS
-Timestamp
+Timestamp = identificatore associato ad ogni evento. Definisce un ordine temporale sugli eventi. 
+
 Ad ogni transazione viene dato un timestamp di inizio. 
-Ad ogni oggetto x si associano: 
+Ad ==ogni oggetto x== si associano: 
 - WTM(x) = timestamp ultima scrittura
-- RTM(x) = timestamp ultima lettura
+- RTM(x) = timestamp più grande (l'ultimo) fra le transazioni che hanno letto x. 
 Regole: 
 - rt(x) accettata solo se $t\geq WTM(x)$ altrimenti abort
 - wt(x) accettata solo se $t\geq WTM(x)$ e $t \geq RTM(x)$ altrimenti abort. 
+Quindi si accetta uno schedule **solo se** riflette l'ordinamento seriale delle transazioni definito dai valori dei loro timestamp rispetto alle singole risorse. 
+
+Quindi quando allo scheduler arrivano richieste di accesso agli oggetti in forma $\Large r_{t}(x)$ e $\Large w_{t}(x)$, concede o meno di eseguire l'operazione seguendo questa politica: 
+- $\Large r_{t}(x)$: se $\Large t<WTM(x)$ allora la transazione viene **Uccisa**. Altrimenti viene accettata e RTM(X) viene aggiornato al massimo fra il valore corrente e t. 
+- $\Large w_{t}(x)$: se $\Large t<WTM(x)  \mid\mid t<RTM(x)$ la transazione viene **Uccisa**. Altrimenti viene accettata e WTM(x) viene aggiornato pari a t.  
+
 Non ci sono attese $\Large \to$ no deadlock 
 Molte transazioni possono essere abortite. 
+
+
 
 ---
 
