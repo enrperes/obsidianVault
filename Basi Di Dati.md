@@ -12,7 +12,12 @@ tags:
 3. Progettazione basi di dati 
 4. Linguaggi
 5. Transazioni
-6. Strutture di indicizzazione
+
+--- start-multi-column: ID_so1f
+```column-settings
+Number of Columns: 2
+Largest Column: standard
+```
 
 ### Indice (Azteni - Ceri)
 1. Introduzione
@@ -30,6 +35,9 @@ tags:
 6. SQL
 	1. Query
 
+
+--- column-break ---
+
 ### Slide usate: 
 1. Introduzione
 2. Modello ER
@@ -46,7 +54,8 @@ tags:
 13. Gestione concorrenza
 14. Gestione Affidabilità
 15. Modello Relazionale
-16.  
+
+--- end-multi-column
 
 ---
 
@@ -173,12 +182,12 @@ Fanno riferimento alle istanze.
 		- Ma poi l'ottimizzatore traduce in linguaggio procedurale, le distinzioni non sono ben definite. 
 - Di aggiornamento 
 
-![[Pasted image 20241008131544.png#invert|600]]
 
 Storage Manager si interfaccia con i dati 
 Query processor interagisce con gli utenti 
 
 ## Struttura di un DBMS
+![[Pasted image 20250925131950.png#invert|center|500]]
 ### Componenti funzionali: 
 #### Storage Manager: 
 Costituisce l'interfaccia tra i dati memorizzati e i comandi / programmi dell'utente
@@ -206,9 +215,8 @@ $\color{orange}\large\text{A tre strati}$: Client agisce come front-end e non ef
 
 ### - [[Modello Entità-Relazioni ]]
 
+Ordine delle operazioni per la progettazione di un DB
 ![[Pasted image 20241018160048.png#invert|400]]
-
-## [[Logical Design]]
 
 ---
 
@@ -256,10 +264,6 @@ Y è superchiave.
 
 [assioma di riflessività e transitività]
 [regola dell'aumento]
-
-Da usare per ragionare sulle dipendenze funzionali. 
- 
-#todo 
 
 
 ## [[Algebra Relazionale]]
