@@ -1,4 +1,6 @@
 Slide su e-learning
+[Elearning aggiornato 25/26](https://elearning.uniud.it/moodle/course/view.php?id=5930)
+
 
 ##  Esame
 
