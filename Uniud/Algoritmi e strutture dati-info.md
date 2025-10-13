@@ -8,6 +8,10 @@ https://elearning.uniud.it/moodle/course/view.php?id=5957 (elearning aggiornato)
 2. Orale
 3. Laboratorio
 
+### Parziali
+[[Programma completo]]
+
+
 ---
 Il corso di ASD prevede una prova di laboratorio, una prova scritta e una prova orale. 
 
