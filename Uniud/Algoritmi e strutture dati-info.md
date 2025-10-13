@@ -9,7 +9,7 @@ https://elearning.uniud.it/moodle/course/view.php?id=5957 (elearning aggiornato)
 3. Laboratorio
 
 ### Parziali
-[[Programma completo]]
+![[Programma completo]]
 
 
 ---
