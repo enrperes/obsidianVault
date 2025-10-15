@@ -1,6 +1,12 @@
 > File dove scrivere guide su come fare cose che altrimenti devo googlare ogni volta
 
 ---
+> [!info]+  **Enable Tailscale funnel on port 2283 on the raspberry to publish Immich** 
+ > 1. SSH into raspberry 
+ > 2. `sudo tailscale funnel 2283`, oppure per eseguire in background: `sudo tailscale funnel -bg 2283`
+ > 3. Per fermare tutto: `sudo tailscale funnel off`
+ > Il link pubblico verrà stampato, del tipo https://raspberrypi.tailae3e4c.ts.net/
+ > 
 
 >[!info]- Access NAS from terminal #ubuntu 
 > `cd /run/user/1000/gvfs/sftp:host=192.168.1.10`
