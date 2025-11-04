@@ -1,16 +1,4 @@
----
-aliases:
-  - cool
-  - commands
-  - terminal
-  - bash
-  - script
-  - cmd
-  - OS
-  - sistemi
-  - documentation
----
-ù
+
 
 | `pwd`             | print working directory                        |
 | ----------------- | ---------------------------------------------- |

@@ -9,7 +9,7 @@ tags:
 
 
 [[Sistemi operativi - info]]
-# [[Sistemi_Operativi-lab]]
+# [[Sistemi Operativi lab]]
 
 ## [[Linux-commands]]
 
@@ -17,6 +17,8 @@ tags:
 
 > Un sistema operativo è un insieme di programmi che operano sull'hardware di un sistema di calcolo. 
 > Per l'utente è un'interfaccia verso l'hardware che renda facile risolvere problemi. Per il sistema di calcolo, è il "programma" più strettamente correlato ai dispositivi fisici. Funge da assegnatole di risorse e controllore del loro utilizzo. 
+> - Permette di realizzare un sistema di calcolo che supporti l'esecuzione dei programmi utente in modo efficace e controllato 
+> - Permette di realizzare le funzionalità per gestire e assegnare risorse agli utilizzatori mentre supervisiona le attività 
 
 Gli **obiettivi principali** di un Sistema Operativo sono: 
 - Semplificare all'utente l'uso e lo sviluppo di programmi
@@ -43,9 +45,10 @@ Programma che ha il completo controllo su tutti i componenti del sistema, respon
 ![[Pasted image 20240307150019.png|200]]
 Solitamente si definisce il sistema operativo come quel programma sempre in esecuzione nel sistema di calcolo: si usa il termine **Kernel**. Tutto il "resto" è costituito da programmi di sistema o applicativi. 
 
+
 ##  Gestione delle **interrupt** 
-- CPU e device operano insieme. 
-- Un **controller** gestisce uno specifico device e usa un **buffer** locale per interagire con la CPU 
+- CPU e device operano concorrentemente. 
+	- Un **controller** gestisce uno specifico device e usa un **buffer** locale (spazio in RAM) per interagire con la CPU 
 - Il controller legge e scrive i dati nel suo buffer locale
 - La CPU legge e scrive nel buffer locale del controller 
 - La sincronizzazione tra controller e CPU avviene tramite le **interrupt**

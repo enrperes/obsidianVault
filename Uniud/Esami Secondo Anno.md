@@ -7,6 +7,6 @@ cssclasses:
 - [x]  [[Statistica]]
 - [x]  [[Machine Learning]]
 - [x]  [[Tecnologie Web Cloud]]
-- [ ]  [[Sistemi_Operativi]]
+- [ ]  [[Sistemi Operativi]]
 
 
