@@ -123,18 +123,20 @@ Introduce uno spazio di indirizzamento logico svincolando i processi dalla memor
 
 # Principali funzionalità di un Sistema Operativo
 
-> [!attention]  **In presenza di più processi che condividono risorse è necessario garantire che ogni processo non danneggi gli altri**
+> [!attention] in presenza di più processi che condividono risorse è necessario garantire che ogni processo non danneggi gli altri
 > Due modalità di funzionamento per l'OS: 
-> - Utente
+> - Utente (modalità solita)
+> 	- più limitato nelle risorse disponibili e privilegi
 > - Kernel (abilità l'esecuzione di istruzioni privilegiate) 
+> 	- Non ha limiti a quello che può fare
 > Nel caso più semplice consiste in un bit di modalità della CPU 
 
- > [!question]  **Gestione di risorse = istruzioni privilegiate. Come fa un processo utente a ottenere risorse?** 
- > **System Calls.**
- > - Il processo richiede un servizio
+ > [!question]  Gestione di risorse = istruzioni privilegiate. Come fa un processo utente a ottenere risorse?
+ > ==System Calls==
+ > - Il processo richiede un servizio tramite una system call
  > - La chiamata genera una ==trap== (interruzione). Il controllo passa alla routine di gestione interna all'OS. 
- > - La richiesta viene analizzata e il servizio richiesto viene fornito
- > - Si torna in modalità utente 
+ > - La richiesta viene analizzata (permessi, disponibilità risorsa...) e il servizio richiesto viene fornito
+ > - Si torna in modalità utente e viene restituito il controllo al programma utente.
  > - ![[Pasted image 20240306172404.png|500]]
 
 ##  Tipi di funzionalità offerte dall'OS: 
@@ -154,9 +156,10 @@ Introduce uno spazio di indirizzamento logico svincolando i processi dalla memor
 	- Gestione / assegnazione di spazio libero
 	- Scheduling del disco 
 - Gestione I/O
+	- L'OS deve nascondere le caratteristiche dei dispositivi hardware 
 	- Gestire i ==buffer== = zone di memoria dove scambiare i dati con i dispositivi 
 	- Gestire il ==caching== = spostamento temporaneo di dati nella cache 
-	- Gestire lo ==spooling== = esecuzione asincrona di processi I/O (lenti)
+	- Gestire lo ==spooling== = esecuzione asincrona di operazioni I/O (lente) e esecuzione di processi in contemporanea
 - Protezione e sicurezza
 	- Protezione = controllo dell'accesso alle risorse di sistema da parte di processi o utenti 
 	- Sicurezza = difesa da accessi / operazioni dannose
