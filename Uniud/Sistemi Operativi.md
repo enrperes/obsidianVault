@@ -280,84 +280,176 @@ Efficienza? Dipende:
 ---
 
 # 3. Processi
-- programma = entità statita
-- processo = (==dinamico==, più difficile da gestire) unità di elaborazione che viene eseguita sequenzialmente. Proprietà che lo caratterizzano: 
-	- Programma (=code region, che rimane invariata)
-	- Program counter
-	- Contenuto dei registri
-	- Data region
-	- Stack region
-	- Attributi vari (PID (Process Id), privilegi, limiti...)
+
+Importante distinguere tra *processo* e *programma*. 
+- *programma* = entità statita
+- *processo* = entità dinamica, unità di elaborazione che viene eseguita sequenzialmente. 
+Ad un processo corrisponde UN solo programma 
+Ad un programma possono corrispondere più processi. 
+
+
+Proprietà che lo caratterizzano: 
+- Programma (=code region, che rimane invariata)
+- Program counter
+- Contenuto dei registri
+- Data region
+- Stack region
+- Attributi vari (PID (Process Id), privilegi, limiti...)
 
 ## Ciclo di vita di un processo
-Ogni processo evolve durante la sue esistenza: in ogni istante si trova in un determinato stato: 
-- New
+
+ In ogni istante si trova in un determinato stato: 
+- **New**
 	- Appena creato
-- Ready
+- **Ready**
 	- Pronto per essere eseguito
-- Running
+- **Running**
 	- In esecuzione
-- Waiting / Blocked / Sleeping 
+- **Waiting / Blocked / Sleeping** 
 	- In attesa di qualche evento (terminazione di I/O...)
-- Terminated / zombie 
+- **Terminated / zombie** 
 	- Esecuzione finita, processo non ancora "eliminabile"
 
+![[Pasted image 20251120110444.png#invert|center|500]]
 
-> [!attention]  **Dispatching** 
-> 	Assegnamento di un processore ad un processo (ready -> Running)
+> [!attention]  Dispatching 
+> Assegnamento di un processore ad un processo (ready -> Running)
+> Viene eseguito da un particolare modulo nel SO detto *Dispatcher*
+
 
 > [!attention]  **PCB: Process Control Block** 
- > Struttura che contiene le informazioni su un processo nell'OS: 
+ > Struttura con cui il sistema operativo rappresenta un processo. Contiene informazioni come: 
  > - PID (= identificatore del processo, un numero intero)
- > - Lo stato 
+ > - Lo stato (running, ready, waiting...)
  > - Il valore del program counter
  > - IL contenuto dei registri della CPU
  > - Info utili allo scheduling CPU
  > - Info su gestione memoria
  > - Info su accounting 
  > - Info su stato I/O
- > Descrive l'execution context del processo. Tutti i PCB sono raccolti in una process table. 
- 
-##  Code di processi
-I processi competono per le risorse. L'OS gestisce le richieste dei processi con: 
-- Code di Scheduling
-- Politiche di Scheduling
+ > Descrive l'*execution context* del processo. Tutti i PCB sono raccolti in una process table. 
+
+I PCB sono raccolti in una process table che assegna il PID al PCB:
+![[Pasted image 20251120111312.png#invert|center|500]]
+
+Nell'execution context si distinguono due porzioni di memoria: 
+- User stack 
+- Kernel stack 
+Corrispondono alle due modalità di esecuzione.
+
+#### Context Switch
+Operazione con cui la CPU passa dall'esecuzione di un processo A a un processo B. 
+1. Salva nel PCB di A tutti i valori essenziali 
+2. Carica dal PCB di B i valori utili 
+3. Imposta lo stato di B da *ready* a *running*
+
+## Code di processi 
+I processi competono per utilizzare le risorse. il SO gestisce le richieste con 
+- Code di scheduling 
+- Politiche di scheduling
+
+L'inserimento in coda è correlato a un qualche evento, si applica il diagramma di accodamento: 
+![[Pasted image 20251120115233.png#invert|center|500]]
+
 Esistono diverse code: 
 - Job Queue, la coda dei processi, che raccoglie i PCB dei processi presenti nel sistema
 - Ready Queue, raccoglie i PCB dei processi ready
 - Device Queue, raccoglie i PCB dei processi in attesa di un dispositivo I/O
 
 Quando una risorsa è disponibile, l'OS sceglie uno dei processi in attesa nella corrispondente coda (FIFO). I due scheduler principali sono: 
-- Job Scheduler (Long Term) che decide quali processi non ancora iniziati devono essere caricati in RAM e inseriti nella Ready Queue. 
-- Scheduler CPU (Short Term): sceglie quale processo tra quelli nella ready queue assegnare alla CPU. 
+- *Job Scheduler* (Long Term) che decide quali processi non ancora iniziati devono essere caricati in RAM e inseriti nella Ready Queue. 
+- *Scheduler CPU* (Short Term): sceglie quale processo tra quelli nella ready queue assegnare alla CPU. 
 
-Lo Scheduler Medium Term modula il carico a cui è soggetto il sistema: sposta i processi dalla memoria principale alla memoria secondaria. (Swap IN / Swap OUT)
+Spesso esiste anche lo Scheduler *Medium Term* che modula il carico a cui è soggetto il sistema: sposta i processi dalla memoria principale alla memoria secondaria. (Swap IN / Swap OUT)
+
+## Operazioni sui processi
+- Creazione
+- Terminazione 
+- Sospensione, riattivazione (swap in / out)
+- modifiche attributi 
+- Scheduling / dispatch
+- Comunicazione 
 
 ###  Creazione di processi
 Ogni processo può creare altri processi, con apposite sys calls.
-Il processo creatore è **parent** di quello creato, **child**, che avrà un proprio PID e PCB -> si formano gerarchie di processi
+Il processo creatore è **parent** di quello creato, **child**, che avrà un proprio PID e PCB -> si formano *gerarchie* di processi
 
 In UNIX tutti i processi discendono dal processi `init` che ha PID = 1. 
 Solitamente in UNIX il processo figlio è una copia identica del padre con le stesse risorse assegnate.
+Un esempio di system call per creazione di processi è `fork()` di UNIX. 
+Ogni nuovo processo avrà nuovo PID e nuovo PCB. 
 
 Ogni processo ha un padre: è sempre possibile trasmettere lo status di uscita di un processo che termina al processo padre, tramite la sys call `wait()`
-La disallocazione completa delle risorse avviene solo se il padre esegue `wait()`, altrimenti i processi rimangono nello stato zombie. 
+La disallocazione completa delle risorse avviene solo se il padre esegue `wait()`, altrimenti i processi rimangono nello stato *zombie*. 
+Se il padre termina prima del figlio, questo viene *adottato* dal processo `init`
+
+![[Pasted image 20251120115959.png#invert|center|500]]
+Schema comune in UNIX: il processo figlio è una copia identica del padre, stesse risorse assegnate. Il figlio eredita l'*execution context* del padre ma cambia il PID. 
+
+#### Terminazione di un processo
+In condizioni normali, avviene in seguito all'esecuzione dell'ultima istruzione del suo programma e richiedendo la sua eliminazione tramite la syscall `exit()`. 
+il SO: diaslloca le risorse concesse al processo terminato e trasmette al processo padre eventuali info relative alla terminazione del figlio. 
+
+In casi anormali: errori o violazioni compiute dal processo $\Large \to$ il SO lo uccide
+
+Es. in Android (risorse più limitate) alcuni processi vengono terminati dal SO, dividendoli in classi: 
+- primo piano
+	- visibile sullo schermo usato dall'utente
+- visibile 
+	- non visibile in primo piano ma funzionale ai processi sopra
+- di servizio
+	- Esegue in background funzioni evidenti all'utente 
+- background
+	- attività non visibile all'utente 
+- vuoto 
+	- non contiene componenti attive associate ad app. 
+
 
 ###  Comunicazione tra processi concorrenti (IPC)
-- Shared Memory
+Due processi in esecuzione possono influenzarsi: detti concorrenti. 
+La riproducibilità non è garantita e l'esito dipende dalla velocità reciproca dei due processi. 
+
+Meccanismo per lo scambio di informazioni e dati: 
+**Inter-Process Communication** 
+implementa due modelli: 
+
+- *Shared Memory*
 	- Prevede l'esistenza di un ambiente globale accessibile dai processi. Alcune risorse sono condivise. 
 	- Il blocco di memoria condiviso viene concesso dall'OS come risposta ad un'invocazione da parte di un processo 
-- Message Passing 
+- *Message Passing* 
 	- Non prevede l'esistenza di un ambiente globale, ma scambio di messaggi. 
 	- Un canale di comunicazione e due operazioni di base: 
 		- Send
 		- Receive 
 	- Caratteristiche della comunicazione
-		- Naming 
+		- Naming
+			- diretto: si indica il nome del processo partner 
+			- indiretto: si mandano i messaggi nelle mailbox, usate da più processi
 		- Sincronizzazione
+			- Sincrone: il processo che invia si blocca in attesa che il messaggio venga ricevuto
 		- Buffering
+			- I messaggi spediti sono accodati in attesa della loro ricezione. 
+			- Coda gestita dal SO. 
 
-[...]
+Esempio in UNIX: 
+```c
+int pipe(int pipefd[2])
+```
+
+definisce un canale monodirezionale, una pipe anonima. 
+pipefd è un array di 2 interi, [0] = lettura, [1] = scrittura. 
+
+```c
+int fd[2];
+pipe(fd);
+write(fd[1], "hello", 5);
+
+char buf[10];
+read(fd[0], buf, 5); 
+```
+
+5= numero di byte 
+char buf[10] è un array di 10 byte usato come buffer di lettura. 
 
 # Threads
 
