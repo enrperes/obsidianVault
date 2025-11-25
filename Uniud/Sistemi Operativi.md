@@ -451,11 +451,104 @@ read(fd[0], buf, 5);
 5= numero di byte 
 char buf[10] è un array di 10 byte usato come buffer di lettura. 
 
+
+
+
 # Threads
 
-[...]
+Unità che detiene le risorse = *process*
+Untià soggetta a dispatching = *task* 
 
----
+## Multithreading 
+> capacità di un SO di supportare più flussi di esecuzione (=thread) all'interno di un singolo processo. 
+
+Sistemi single-threaded supportano un solo thread per processo. Es: MS-DOS
+
+Nel Multithreading il processo viene definito come unità che raccoglie allocazione di risorse e meccanismi d iprotezione. 
+Un *processo* può comporsi di *più thread*, ognuno dei quali possiede un *TCB*, Thread Control Block, che descrive: 
+- Lo stato del thread (Running, ready, blocked, waiting, terminated) 
+- Il thread context 
+- lo stack  
+- Eventuale zona di memoria per variabili locali (accessibili solo al thread) 
+
+![[Pasted image 20251125115922.png#invert|center|500]]
+
+
+- Ogni thread ha accesso alla memoria e alle risorse alocate al suo processo 
+- Queste risorese sono condivise da tutti i thread del processo 
+- Necessario usare meccanismi per controllare l'interferenza tra thread
+
+> [!done]+  Vantaggi Thread 
+ > - maggior parallelismo 
+ > - Creazione di un thread in un processo costa meno che creare un processo intero
+ > - Terminare un thread costa meno che terminare un processo
+ > - Switch di contesto tra thread dello stesso processo è più veloce di quello tra processi
+ > - Comunicazioni tra thread sono più efficienti, senza system call e mediazione del kernel
+ 
+ > [!fail]+  Svantaggi Thread
+ > - Maggiore difficoltà e complessità di progettazione e implementazione delle applicazioni 
+ > - Vanno pensate fin da subito in modo parallelo 
+ > - Facendo in modo che non interferiscano in modo incontrollato 
+ > - Che l'acesso ai dati condivisi sia protetto
+ 
+
+#### Scheduler 
+1. guarda i thread
+2. valuta la priorità 
+3. decide quale thread deve essere il prossimo ad ottenere la CPU
+
+#### Dispatcher
+1. Carica il contesto del thread 
+2. Aggiorna le strutture OS
+3. Passa il controllo alla CPU 
+Viene gestito dal dispatcher nel kernel 
+
+
+Solitamente scheduling e dispatching avvengono al livello del thread quindi le info sono mantenute nel TCB. 
+
+### Thread states
+- Running (uno solo può essere running allo stesso tempo)
+- Ready
+- Blocked
+
+### Thread Operations
+- *Spawn*: creazione di un thread. Solitamente alla creazione di un processo viene creato un singolo thread, che poi crea thread fratelli. 
+- *Block*: quando si mette in attesa di un evento 
+- *Unblock*: l'evento atteso si verifica e il thread viene sbloccato 
+- *Finish*: il thread termina e il suo contesto viene deallocato
+
+
+## Sincronizzazione tra Thread 
+I thread condividono lo stesso spazio di indirizzamento e le risorse allocate dal processo. 
+Per evitare interferenze $\Large \to$ meccanismi di sincronizzazione 
+Tecniche simili adottate a livello dei processi 
+
+
+### ULT vs KLT
+*User Level Thread*: la gestione avviene a livello di applicazione e il kernel ignora l'esistenza dei thread.
+Un'applicazione di questo tipo può essere sviluppata con librerie che implementano le primitive per la gestione dei thread. 
+Tutti i thread sono allocati ad un singolo processo gestito dal kernel. 
+La libreria gestisce lo scheduling dei thread internamente al processo. 
+
+Vantaggi: 
+- Switching dei thread non richiede intervento del kernel o passaggio da User Mode a Kernel Mode. 
+- Lo scheduling può essere progettato per la specifica applicazione indipendente dalle politiche utilizzate dla kernel. 
+- Poratbilità (grazie alle librerie) 
+Svantaggi: 
+- Molte sys call sono bloccanti quindi se un ULT ne invoca una tutto il processo passa in **waiting**. (soluzione = jacketing)
+
+*Kernel Level Thread*: tutta la gestione avviene a livello del kernel: execution context del processo e di tutti i thread. 
+- Lo scheduling avviene sui thread e la competizione può essere ristretta ai thread dello stesso processo. 
+- Il blocco di un thread non implica il blocco dei thread fratelli. 
+- Un approccio KLT permette di realizzare il kernel stesso usando i thread. 
+
+Principale svantaggio: maggior costo dello switch tra KLT; anche uno switch tra thread fratelli comporta un passaggio alla modaltià kernel. 
+
+ULT e KLT possono anche essere combinati. Avviene in Solaris. 
+
+
+
+
 
 ### Scheduling in sistemi multiprocessore
 
