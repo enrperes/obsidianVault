@@ -1,38 +1,83 @@
----
-aliases:
-  - labos
-  - laboratorio
-  - sistemi
-  - operativi
----
-[[B1_bash.pdf]]
+==Shell== = interprete di comandi. Acquisisce, decodifica, esegue. 
+*sh, csh, ksh, bash* sono 
 
-# Bash commands
-`man bash`
-- Simple command execution
-	- 
-- List of commands
-- Pipeline
-- Async execution
+## Autenticazione
+UNIX: sistema multi utente. 
+A ogni utente corrisponde un username, password e *UID*. 
+Gli utenti possono far parte di *group*, identificati da *GID*. 
+Ogni utente o gruppo ha privilegi specifici. 
+*root* è l'utente con massimi privilegi. 
 
+Ad ogni utente è assegnata una home directory nel filesystem 
 
----
-
-#  C
-C01, C02 pdf 
-## Strutture di controllo 
-## Tipi 
-- Struct (record) sono aggregati di un numero arbitrario di elementi che possono avere tipi differenti. 
-	- Ogni elemento (campo) della struttura ha il suo tipo ed è identificato da un nome. 
-	- La dichiarazione di `struct nometipo` definisce un nuovo tipo. Sintassi: 
-```c
-struct nometipo{
-	tipo1 campo1;
-	tipo2 campo2;
-	tipon campon;
-};
+```bash
+ man thing # spiega manuale
+ whatis thing # prima riga manuale
+ apropos thing # comandi relativi 
 ```
 
+### Comandi 
+`ls -l`
+![[Pasted image 20251127161738.png#invert|center|500]]
+![[Pasted image 20251127161901.png#invert|center|500]]
+![[Pasted image 20251127161911.png#invert|center|500]]
+
+
+## Pipeline
+Esecuzione in seuqenza di più comandi
+vincolo: output di ogni comando fa da input al comando successivo. 
+
+```bash
+ comando1 | comando2 | comandon... 
+ 
+ ES: 
+ 
+ ls -l -a | grep thing | sort | ...
+```
+
+## Async exec
+Esecuzione asincrona di comandi, in background 
+```bash
+ comando & 
+```
+
+Bash esegue il comando in una subshell. 
+con `jobs` si visualizza la lista di tutti i job. Ognuno possiede un job number, oltre al PID. 
+
+
+
+
+
+# C
+
+```bash
+ gcc -o hello hello.c 
+```
+-o hello indica che il nome dell'eseguibile sia hello
+
+## Funzioni
+Ogni funzione comprende 
+- la *dichiarazione* che deve sempre precedere l'uso della funzione (nome, tipo di output, tipo, numero argomenti)
+- la *definizione* che descrive l'implementazione. Costituita da intestazione, che richiama il prototipo e dalla funzione "{ }" 
+
+```c
+int func(int, int, float);
+  
+int func(int x, int val, float arg){
+	int varlocale = val * x; 
+	if(arg>0)
+		return(varlocale)
+	else 
+		return (x+2*val);
+} 
+```
+
+- parametri passati by value: le modifiche effettuate nel corpo della funzione non hanno effetto all'esterno della funzione
+- Le variabili dichiarate nel corpo funzione sono tutte locali e non accessibili fuori 
+- lo *scope* delle variabili locali è il corpo della funzione. 
+
+le variabili *static* hanno sempre scope interno alla funzione ma lifetime = esecuzione del programma. Quindi mantiene il valore tra una chiamata alla funzione e la successiva. 
+Possono anche essere globali. 
 
 # Puntatori
 > Variabile che ha come valore l'indirizzo di una locazione di memoria (che solitamente contiene il valore di un'altra variabile)
