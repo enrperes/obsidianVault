@@ -546,9 +546,162 @@ Principale svantaggio: maggior costo dello switch tra KLT; anche uno switch tra 
 
 ULT e KLT possono anche essere combinati. Avviene in Solaris. 
 
+# CPU Scheduling
+
+> Mappare un certo numero di compiti su un diverso numero di esecutori
+
+*Scheduler* sceglie quale processo eseguire 
+*Dispatcher* effettua il context switch, inizializza il program counter alla prossima istruzione da eseguire, passa a modalità utente. 
+Tempo impiegato = latenza di dispatch
+
+POV Utente: 
+- Minimizzare tempo di risposta, di completamento e rispettare deadline
+POV Sistema: 
+- Massimizzare utiilzzo CPU, throughput
+- Garantire fairness 
+- Rispettare priorità 
+
+Solitamente i *processi* alternano fasi di **CPU Burst** (calcoli, istruzioni...) a **I/O Burst** (scritture / letture su disco, interazioni con dispositivi)
+Nelle fasi di I/O burst il processo non usa la CPU che può essere assegnata ad altri processi. 
+
+### Prelazione (preemption)
+indica la possibilità dello scheduler di interrompere un processo in esecuzione per assegnare la CPU a un altro processo con priorità più alta. 
+> Se esiste diritto di prelazione, un processo puà essere interrotto anche se non ha finito. 
+> Quindi da *running* passa a *ready* 
 
 
+## Esempio 
 
+![[Pasted image 20251202142504.png#invert|center|500]]
+
+Politiche di scheduling: 
+- FCFS (First Come First Served)
+- SJF (Shortest Job First)
+- SRTF (Shortest Remaining Time First)
+- HRRF (Highest Response Ratio First)
+- RR (Round Robin)
+- FSS (Fair Share Scheduling)
+
+
+### FCFS
+First Come First Served
+Si seleziona il processo che è nella ready-queue da più tempo, quindi i processi vengono serviti nell'ordine in cui sono entrati. 
+*Nonpreemptive.* 
+![[Pasted image 20251202142745.png#invert|center|500]]
+
+**Vantaggi**
+- Semplice da implementare, no overhead di gestione 
+- Non c'è problema starvation. Tutti i processi in ready prima o poi ottengono la CPU. 
+
+**Svantaggi**
+- Tempo di attesa medio legato all'ordine di arrivo dei burst 
+- Tempo di risposta di risposta di un processo anche molto alto. 
+- Un processo CPU-bount (che non usa I/O) monopolizza il processore. 
+==Convoy effect== Un processo molto lento rallenta tutti gli altri creando una coda lunga.
+
+
+### SJF
+Shortest Job First 
+Assegna la CPU al processo con il CPU burst più corto tra quelli ready. 
+![[Pasted image 20251202143606.png#invert|center|500]]
+*Nonpreemptive*, non viene interrotto.
+Svantaggi: processi lunghi penalizzati (starvation possibile) necessità di stimare i CPU-burst. 
+Vantaggio: Tempo di attesa medio migliore. 
+
+
+### SRTF
+Shortest Remaining Time First
+Variante *con preemption* di SJF. 
+1. Si seleziona il processo con CPU-burst più breve ma se $P_{1}$ è running e $P_{2}$ è in ready queue con durata minore al tempo restante di $P_{1}$ allora $P_{2}$ sottrae la CPU a $P_{1}$. 
+![[Pasted image 20251202145322.png#invert|center|500]]
+
+
+#### Stima durata CPU-Burst 
+Stima compiuta basandosi sui suoi CPU-burst del passato, usando la media esponenziale: 
+$$
+\Large \tau_{n+1}=\alpha t_{n} + (1-\alpha)\tau_{n}
+$$
+
+### HRRF 
+Highest Response Ratio First 
+Si seleziona il processo che ha il Response Ratio R maggiore. 
+Dove: 
+$$
+\Large R = \frac{t_{\alpha}+t_{s}}{t_{s}}
+$$
+Con $t_{\alpha}$ il tempo speso dal processo in attesa di ottenere la CPU
+$t_{s}$ la durata prevista del CPU-burst del processo. 
+
+Rimane *Nonpreemptive*. 
+
+![[Pasted image 20251202150344.png#invert|center|500]]
+
+Favorisce processi CPU-burst previ ma si tiene conto dell'età del processo, quindi processi vecchi guadagnano priorità $\Large \to$ evita starvation.
+Richiede stime sul tempo di servizio richiesto dai processi. 
+
+
+## Scheduling con priorità 
+Ad ogni processo viene assegnata una priorità: la CPU viene allocata al processo ready con priorità superiore (Priorità indicate con interi positivi, numero minore = priorità maggiore)
+
+Possono essere *statiche* o *dinamiche*, che sono reattive rispetto a mutazioni del carico del sistema 
+
+#### Starvation
+> Si verifica quando un processo P, pur essendo in ready, non ottiene mai l'uso della CPU. 
+
+### RR
+Round Robin
+Si serve il processo che attende da più tempo. 
+*Preemptive*. 
+Usa un timer (quanto di tempo): allo scadere, il processo in running viene rimosso dalla ready queue. 
+![[Pasted image 20251202151032.png#invert|center|500]]
+
+La durata di un quanto deve essere superiore al tempo necessario per gestire interruzioni e switch di contesto. 
+Ideale: se ha durata maggiore di più dell'80% dei CPU-burst.
+Se è troppo lungo i processi I/O-bound vengono penalizzati. 
+
+Principale difetto: 
+I processi CPU-Bound con burst più lungo del quanto tendono a venire interrotti e ad essere inseriti nella ready-queue $\Large \to$ passano davanti a tutti i processi waiting, in particolare gli I/O bound. 
+Però evita starvation. 
+
+
+## Scheduling con Code Multiple
+Si introducono più code di processi, che vengono partizionati in gruppi distinti, seguendo opportuni criteri. Ogni processo viene assegnato permamentemente ad una coda. 
+Code diverse possono avere politiche di scheduling diverse. 
+
+
+### Code Multiple con Retroazione
+Miglioria dell'algoritmo con code multiple che evita la starvation, permette ai processi di *migrare* tra le code a seconda dei criteri di aging. 
+- *preemptive*
+- processi che usano per molto tempo la CPU spostati in code con priorità più bassa
+- Processi I/O-bound tendono ad ottenere alta priorità 
+- Processi che attendono da tanto in code a bassa priorità possono essere spostati in code ad alta priorità 
+- Overhead del sistema maggiore ma compensato dalla sua maggior sensibilità 
+
+#### Parametri possibili
+- Numero di code
+- Algoritmi di scheduling da usare per ogni coda
+- Come spostare un processo da una coda all'altra
+- In quale coda inserire un processo nuovo 
+
+![[Pasted image 20251202154136.png#invert|center|500]]
+
+w = tempo speso in ready queue
+e = tempo speso in esecuzione
+s = tempo richiesto incluso e
+
+### FSS
+Fair Share Scheduling
+Prevede che i processi siano partizionati in gruppi (es: processi dello stesso utente) 
+E lo scheduling avvenga mirando all'equità di trattamento rispetto ai gruppi.
+- Adatto a sistemi multi utente e a applicazioni multi-thread
+- può trattare diversamente processi di diversi tipi di utente. 
+
+La schedulizzazione avviene a livello di thread e non di processo nei sistemi multithread. 
+Nei sistemi ULT viene tutto gestito dalla libreria 
+Solo i KLT sono schedulati direttamente dal Kernel di sistema: *system contention scope*
+Si usano algoritmi simili a quelli usati per i processi. 
+
+---
 
 ### Scheduling in sistemi multiprocessore
 
