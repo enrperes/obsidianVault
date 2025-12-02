@@ -701,6 +701,11 @@ Nei sistemi ULT viene tutto gestito dalla libreria
 Solo i KLT sono schedulati direttamente dal Kernel di sistema: *system contention scope*
 Si usano algoritmi simili a quelli usati per i processi. 
 
+
+## Scheduling per Multiprocessori
+
+...
+
 ---
 
 ### Scheduling in sistemi multiprocessore
