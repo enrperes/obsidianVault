@@ -701,12 +701,95 @@ Nei sistemi ULT viene tutto gestito dalla libreria
 Solo i KLT sono schedulati direttamente dal Kernel di sistema: *system contention scope*
 Si usano algoritmi simili a quelli usati per i processi. 
 
-
 ## Scheduling per Multiprocessori
+Possono essere adatte le tecniche di scheduling usate per il caso single-processor. 
+Ma bisogna distribuire il carico in modo bilanciato. 
 
-...
+> [!abstract]+  Multiprocessore 
+ > Si intendono più cose, un sistema con CPU multicore, un Code Multithread, un NUMA, 
+ > un sistema multiprocessore eterogeneo. 
+ 
+### Multielaborazione
+#### Asimmetrica (AMP)
+ Le attività di sistema (scheduling, interrupt...) sono tutet affidate a un processore, il *master server*. 
+ Il codice degli utenti è eseguito da altri processori. 
+Il master server essendo solo può fungere da bottleneck. 
+
+#### Simmetrica (SMP) (Linux, Windows, MacOS)
+Ogni processore ha uno scheduler che può essere di sistema o per processor. 
+Quindi tutti i processori hanno uguale accesso alla memoria e alle risorse. 
+Tutti possono eseguire sia kernel che user mode. 
+
+### Multiprocessori multicore
+Ogni core (fisico) è visto come un processore logico separato
+A livello hardware ogni core esegue più thread hardware. 
+
+Quindi si verifica un doppio livello di scheduling: 
+- hardware
+	- dei thread hardware sui Core della CPU 
+- software 
+	- dei thread / processi sulle CPU (quelli visti prima)
+
+I thread software sono entità gestite dal SO usate per il multithreading. 
+I thread hardware sono creati dalla CPU dentro un singolo core per migliorare la pipeline. 
+
+
+### Bilanciamento del carico 
+Come distribuire in modo equo i processi / thread da eseguire tra i core del sistema? 
+#### Push Migration
+Esiste un processo dedicato a monitorare periodicamente il carico di lavoro assegnato ai processori. 
+Sottrae e riassegna task dalle CPU in overload a quelle meno cariche. 
+#### Pull Migration 
+Ogni processore quanto è inattivo preleva un task da uno dei processori overloaded. 
+
+
+### NUMA 
+Non Uniform Mem Access
+> Architettura multiprocessore in cui il tempo di accesso alla memoria varia in base a quale processore effettua l'accesso e dove si trova fisicamente la memoria. 
+
+Quindi ogni CPU ha accesso veloce alla propria memoria locale e accesso più lento alla memoria delle altre CPU. 
+In questa architettura ci possono essere diversi processori con caratteristiche non omogenee: 
+- Diverso tipo (grafico, NPU)
+- Con diverso set di istruzioni
+- Con diversa potenza di calcolo.
+Es: ARM big-little combina core con alte prestazioni a core efficienti più lenti. 
+
+
+## Real-time systems
+Le funzionalità devono rispettare vincoli di tempo (scadenze, durate, t. di reazione)
+Servono algoritmi di scheduling specifici. 
+
+#### Real Time Soft
+I task critici hanno precedenza ma si possono violare le deadline
+#### Real Time Hard
+deadline vanno rispettate 
+
+
+### Algoritmi di scheduling Real-time
+#### Priorità 
+Con prelazione. Per garantire deadline hard e gestire task periodici. 
+#### Priorità proporzionale a frequenza
+Le priorità sono assegnate staticamente in base alla frequenza del task periodico. 
+#### EDF (Earliest Deadline First)
+Priorità assegnate dinamicamente. Prima il task con la scadenza più vicina. 
+#### A quote proporzionali 
+Tot di tempo di CPU ad ogni app
+
+
+## Scheduling in UNIX
+- Scheduling con code multiple e priorità dinamiche
+- Per ogni coda si applica Round Robin 
+- *Preemption* dopo 1s di utilizzo continuato della CPU 
+- Il sistema assegna a ogni processo una priorità di base 
+- Tutte le priorità sono poi ricalcolate ogni secondo.
+- 
+
+
 
 ---
+
+
+
 
 ### Scheduling in sistemi multiprocessore
 
