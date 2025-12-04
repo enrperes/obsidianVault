@@ -124,4 +124,6 @@ ip può essere usato per arrivare al valore di x
 
 ## Precedenza operatori
 1. Operatori unari * e & hanno precedenza rispetto agli operatori binari, quindi: `y = *ip + 1` prende l'oggetto puntato da `ip` lo incrementa e assegna il risultato a `y`
-2. 
+
+
+
