@@ -283,3 +283,59 @@ La funzione
 
 Alloca lo spazio per nmemb elementi, ciascuno di dimensione size e ==azzera== la memoria allocata. 
 
+
+## `make` 
+
+> Utility che permette di mantenere gruppi di file in modo coordinato / interdipendente 
+
+Scopo: 
+- compilare solo i file che sono cambiati 
+
+Legge un **MakeFile** che contiene regole nella forma: 
+
+```
+ target: dipendenze
+ <TAB> comando da eseguire  
+```
+
+
+Esempio di MakeFile: 
+
+```c
+main: main.o utils.o
+	gcc main.o utils.o -o main
+
+main.o: main.c utils.h
+	gcc -c main.c
+
+utils.o: utils.c utils.h
+	gcc -c utils.c
+
+clean:
+	rm -f *.o main
+```
+
+Esempio: 
+1. scrivere Makefile che contenga i comandi per:
+	1. Creare un file listato.txt che contenga l'output del comando ls -altr ${HOME}
+	2. Creare un file conteggio.txt che contenga il numero di righe di listato.txt
+	3. Mostrare il contenuto di conteggio.txt
+
+Soluzione: 
+```
+listato.txt:
+		ls -alrt ${HOME} > listato.txt
+
+conteggio.txt: listato.txt
+		wc -l listato.txt > conteggio.txt
+		
+		
+mostra: conteggio.txt
+		echo -e "\n\nNumero di righe:\n"
+		Invalid date
+		
+		
+clean: 
+		rm -f listato.txt conteggio.txt
+```
+
