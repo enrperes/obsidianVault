@@ -339,3 +339,33 @@ clean:
 		rm -f listato.txt conteggio.txt
 ```
 
+## `.PHONY`
+
+serve a dichiarare npmi di target che non corrispondono a file reali nel filesystem 
+Senza questo, make considera un target soddisfatto se esiste già un file con lo stesso nome, può causare comportamenti sbagliati. 
+
+Esempio: 
+
+```c
+ clean:
+	 rm -rf build 
+```
+
+`make clean` non esegue il comando se esiste già un file chiamato clean, pensando che il target sia già soddisfatto. 
+
+quindi: 
+
+```c
+ .PHONY: clean
+ 
+clean: 
+	rm -rf build 
+```
+
+Ora make sa che clean non è un file ma un comando da eseguire sempre. 
+Quindi `.PHONY` è utile in : 
+- clean
+- install
+- test
+- run 
+
