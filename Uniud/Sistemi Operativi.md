@@ -866,11 +866,58 @@ Anche se il codice dei due processi preso singolarmente è corretto, non funzion
 - Le due istruzioni sono **sezioni critiche**
 - Siamo in presenza di **race condition**. 
 
-##### Soluzione: 
+> [!NOTE]- Codice esempio
+> 
+> ```c
+>  #define BUFFER_SIZE 10
+>  typedef struct {
+> 	 ...
+>  } item; 
+>  
+>  item buffer[BUFFER_SIZE]; // array circolare
+>  int in = 0;  // posizione in cui scrivere
+>  int out = 0; // posizione da cui leggere
+>  int counter = 0; // num di record memorizzati
+>  
+>  item nextProduced; 
+>  while(1){
+> 	 while (counter == BUFFER_SIZE)
+> 	 buffer[in] = nextProduced; 
+> 	 in = (in+1) % BUFFER_SIZE; // riparte da 0 quando arriva a BUFFER_SIZE - 1
+> 	 counter++; 
+>  }
+>  
+>  item nextConsumed;
+>  while(1){
+> 	 while (counter == 0)
+> 	 nextConsumed = buffer[out];
+> 	 out = (out+1) % BUFFER_SIZE; 
+> 	 counter--; 
+>  }
+> ```
+>
+> Schema classico produttore / consumatore con buffer circolare condiviso. 
+> L'idea è che il produttore aggiunge elementi finchè c'è spazio e il consumatore rimuove elementi finchè ce ne sono. 
+> In questo caso buffer, in, out, counter fanno parte della sezione critica, ovvero codice che accede a dati condivisi, quindi non può essere eseguito contemporaneamente da più thread / processi (senza protezione)
+> 
+> In questo esempio può succcedere che il produttore e consumatore leggano / scrivano counter contemporaneamente o uno aggiorni in/out mentre l'altro sta usando quegli indici. 
 
----
+Errori di questo tipo sono difficili da scroprire perchè non riproducibili e dipendono dalla velocità relativa dei due processi. 
 
-Un'istruzione **atomica** fa più cose ma è un'unica istruzione e non può essere interrotta. 
+#### Possibile soluzione
+consiste nel progettare un protocollo 
+Schema generale: 
+- Sez critica racchiusa tra due porzioni di codice: **sezione di ingresso e di uscita**. 
+- Richiesta di accesso alla sez critica corrisponde a eseguire il codice della sezione di ingresso. 
+- eseguendo il codice della sezione di uscita il processo abbandona la sezione critica. 
+![[Pasted image 20260108114105.png#invert|300]]
 
-Uso di TestAndSet
+Per verificare se una soluzione è corretta deve verificare le tre proprietà: 
+- Mutua esclusione
+- Progresso
+- Attesa limitata
+
+### Soluzione di Peterson
+
+
 
