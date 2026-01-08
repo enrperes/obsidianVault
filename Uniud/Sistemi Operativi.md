@@ -919,5 +919,59 @@ Per verificare se una soluzione è corretta deve verificare le tre proprietà:
 
 ### Soluzione di Peterson
 
+Viene usata una variabile `turno` per garantire la mutua esclusione e elimina la possibilità di deadlock. 
+Evita che un processo monopolizzi la SC. Ogni processo dà una possibilità all'altro prima di entraare. 
+I *Flag* evitano che un processo sia ”chiuso fuori" quando l'altro non rientra in SC. 
+Permette a un processo di entrare in Sezione critica più volte consecutive. 
+
+Difetto: busy waiting. 
+
+### Soluzione con Interruzioni. 
+Disabilitare le interruzioni durante esecuzione della sezione critica. Si evita preemption dei processi mentre sono in SC. 
+![[Pasted image 20260108143251.png#invert|left|300]]
+
+Su sistemi mono processore non molto efficiente e su multiprocessore la mutua esclusione non è garantita perchè ci sono altri processi che possono eseguire in parallelo (sarebbbe inefficiente bloccare anche gli altri processori.) Inoltre, possibile causa di deadlock. 
+
+### Soluzione Hardware
+Istruzioni macchina che disciplinano gli acessi concorrenti e eseguono azioni in modo unitario (atomico) quindi non interrompibile sulla stessa locazione di memoria. 
+
+### Memory barrier 
+Istruzione che impedisce il riordinamento delle operazioni di memoria e forza la visibilità delle scritture prima / dopo la barriera
+Quindi tutto ciò che viene prima deve esssere completato e reso visibile prima di continuare. 
+
+### Test-and-set
+istruzione *atomica* hardware che legge il valore di una variabile, la imposta a true e restituisce il valore precedente.
+Serve a realizzare la mutua esclusione in modo atomico, impedendo che due thread entrino contemporaneamente in sez critica. 
+
+```c
+ boolean TestAndSet (boolean *target)
+ {
+	 boolean retval = *target;
+	 *target = TRUE; 
+	 return *retval;
+ } 
+```
+
+### Swap
+Istruzione atomica che cambia due variabili booleane. 
+### CompareAndSwap
+[...]
+
+
+--- 
+Una soluzione ottimale dovrebbe evitare che i processi in attesa di entrare nella Sezione Critica occupino la CPU inutilmente per lungo tempo. 
+Sarebbe meglio che un processo in attesa cambi il suo stato a *waiting*. 
+Tornerebbe ready solo quando ha la possibilità di entrare nella SC. 
+
+Per fare questo vengono usati i **semafori**
+
+## Semafori
+> Struttura dati costituita da: 
+> - una variabile intera S
+> - delle operazioni atomiche predefinite: *wait* e *signal*
+> - Eventuali operazioni per creazione e inizializzazione
+
+A seconda dei valori ammessi per S si distingue tra 
+semafori binari e generici. 
 
 
