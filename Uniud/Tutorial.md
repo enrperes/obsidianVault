@@ -1,6 +1,15 @@
 > File dove scrivere guide su come fare cose che altrimenti devo googlare ogni volta
 
 ---
+
+> [!info]+  Fix Immich System Integrity check (/mnt/nas permission error) 
+ > SSH into raspberry
+ > `sudo mount -a` $\Large \to$ fail, dice di aggiornare con `systemctl daemon-reload`
+ > di nuovo `sudo mount -a` 
+ > `docker reload immich_server` 
+ > per confermare: `docker logs -f -n 100 immich_server`   
+
+
 > [!info]+  **Enable Tailscale funnel on port 2283 on the raspberry to publish Immich** 
  > 1. SSH into raspberry 
  > 2. `sudo tailscale funnel 2283`, oppure per eseguire in background: `sudo tailscale funnel -bg 2283`

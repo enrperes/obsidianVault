@@ -974,4 +974,150 @@ Per fare questo vengono usati i **semafori**
 A seconda dei valori ammessi per S si distingue tra 
 semafori binari e generici. 
 
+Semantica di wait e signal: 
 
+```c
+ wait(S){
+	 while (S<=0)
+	 ; // busy waiting
+	 S--;
+ } 
+ 
+ signal(S){
+	 S++;
+ }
+```
+(ancora presente il problema di busy waiting)
+
+Funzionamento semaforo binario: 
+![[Pasted image 20260113160915.png#invert|left|300]]
+Il semaforo deve essere inizializzato a valore 1 e viene chiamato **Mutex** (Mutual Exclusion)
+L'esecuzione di `wait()` non implica uno switch di contesto quindi il processo resta in esecuzione mentre aspetta $\Large \longrightarrow$ semaforo ==spinlock==.
+Semafori spinlock vantaaggiosi se l'attesa è breve. 
+
+Senza Busy Waiting: 
+- Quando il proceso P esegue `wait(S)` e il valore del semaforo è minore o uguale a 0, P viene inserito in una coda di attesa associata a quel semaforo e portato in stato `waiting`. 
+- Il controllo passa allo short-term scheduler
+- I processi in coda attendono l'esecuzione di `signal(S)`, che ad ogni esecuzione libera *uno* dei processi in coda che diventa ready. 
+Implementato usando due operazioni elementari: 
+- `sleep()` per portare in waiting il rocesso che la invoce 
+- `wakeup(P)` per portare in ready il processo 
+(due syscall fornite dal SO)
+
+Quindi, wait e signal diventano: 
+
+```c
+ wait(semaforo *S){
+	 S->valore--;
+	 if( S->valore < 0){
+		 aggiungi questo processo a S->lista; 
+		 sleep(); 
+	 }
+ } 
+ 
+ signal(semaforo *S){
+	S -> valore++;
+	if (S->valore <=0){
+		togli un processo P da S->lista; 
+		wakeup(P);
+	} 
+ }
+```
+
+Non è detto che `lista` sia gestita con FIFO
+Il numero del semaforo negativo indica il numero di processi in attesa. 
+
+NB: `wait` e `signal` sono operazioni atomiche da considerare sezioni critiche. 
+
+> [!example] Esempio Lettori / Scrittori 
+> Un insieme di dati deve essere condiviso da un certo numero di processi, che possono leggere o aggiornare i dati. 
+> - Richieste di letture o scritture possono occorrere in modo asncrono, a istanti non prevedibili. 
+> - Lettori simultanei sono ammessi. 
+> - Mentre è in atto una scrittura nessuna altra operazione è ammessa. 
+> 
+> Soluzione con priorità ai lettori 
+> ```c
+> int readcount = 0; // numero lettori attivi 
+> semaphore semW = 1, mutex = 1, extra = 1; 
+> 
+> void lettore(){
+> 	wait(mutex); // mutex protegge l'accesso a readcount 
+> 		readcount ++; // conta i lettori attivi 
+> 		if(readcount==1) wait(semW); // il primo lettore blocca gli scrittori 
+> 	signal(mutex); 
+> 	// lettura...
+> 	wait(mutex); 
+> 		readcount--;
+> 		if (readcount==0) signal(semW); // l'ultimo lettore sblocca gli scrittori
+> 	signal(mutex);
+> }
+>   
+> void scrittore(){
+> 	wait(extra);
+> 	wait(semW);
+> 	// scrittura...
+> 	signal(semW);
+> 	signal(extra);
+> }
+> ```
+>  = se non c'è uno scrittore che sta scrivendo, i lettori possono entrare tutti insieme.
+> 
+> 
+> Soluzione con priorità agli scrittori: 
+> ![[Pasted image 20260113162817.png#invert|center|700]]
+> 
+> Le due soluzioni non escludono la starvation.
+
+
+## Monitor
+> Costrutto di sincronizzazione di alto livello che permette la condivisione sicura di dati fra processi concorrenti. Tipo di dato astratto che fornisce funzionalità di mutua esclusione. 
+
+- Permette di getire una collezione di dati privati e le procedure per accedervi. 
+- I processi possono invocare solo e procedure e non accedere direttamente ai dati. 
+- UN solo processo alla volta può eseguire codice del monitor, quindi un solo processo può essere *running* nel monitor. 
+
+L'idea è che i processi non accedono direttamente ai dati ma solo tramite le operazioni del monitor.
+
+> [!example] Esempio Lettori / Scrittori con monitor: 
+>
+> 
+> ```c
+>  monitor RW {
+>     int lettori = 0;
+>     boolean scrittura = false;
+>     condition okLettura, okScrittura;
+> 
+>     void startRead() {
+>         while (scrittura) wait(okLettura);
+>         lettori++;
+>     }
+> 
+>     void endRead() {
+>         lettori--;
+>         if (lettori == 0) signal(okScrittura);
+>     }
+> 
+>     void startWrite() {
+>         while (scrittura || lettori > 0) wait(okScrittura);
+>         scrittura = true;
+>     }
+> 
+>     void endWrite() {
+>         scrittura = false;
+>         signal(okScrittura);
+>         broadcast(okLettura);
+>     }
+> } 
+> ```
+
+
+| **Semafori**         | **Monitor**                 |
+| -------------------- | --------------------------- |
+| Basso livello        | Alto livello                |
+| Facili da usare male | più sicuri                  |
+| No incapsulamento    | dati protetti               |
+| Gestione manuale     | Mutua esclusione automatica |
+|                      |                             |
+
+
+# DeadLock
