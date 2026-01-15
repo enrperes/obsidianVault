@@ -566,7 +566,7 @@ Nelle fasi di I/O burst il processo non usa la CPU che può essere assegnata ad 
 
 ### Prelazione (preemption)
 indica la possibilità dello scheduler di interrompere un processo in esecuzione per assegnare la CPU a un altro processo con priorità più alta. 
-> Se esiste diritto di prelazione, un processo puà essere interrotto anche se non ha finito. 
+> Se esiste diritto di prelazione, un processo può essere interrotto anche se non ha finito. 
 > Quindi da *running* passa a *ready* 
 
 
@@ -1113,7 +1113,7 @@ L'idea è che i processi non accedono direttamente ai dati ma solo tramite le op
 
 | **Semafori**         | **Monitor**                 |
 | -------------------- | --------------------------- |
-| Basso livello        | Alto livello                |
+| Basso livello        | Alto livello                | 
 | Facili da usare male | più sicuri                  |
 | No incapsulamento    | dati protetti               |
 | Gestione manuale     | Mutua esclusione automatica |
@@ -1121,3 +1121,86 @@ L'idea è che i processi non accedono direttamente ai dati ma solo tramite le op
 
 
 # DeadLock
+
+Le *risorse* possono essere partizionate in ==risorse logiche== (buffer, file, directory, semafori) o ==risorse fisiche== (RAM, disco, monitor, canale di comunicazione...)
+Una risorsa può essere **preembtable** se il suo stato può essere ripristinato e può essere sottratta al processo che la usa. 
+**Non preemptable** quando la sua sottrazione causa perdita del lavoro fatto (scanner, stampante)
+
+Assunzioni: $R_{1}, R_{2}$ sono i vari tipi di risorsa disponibili. (CPU, memoria, dispositivi...)
+Per ogni $R_{i}$ esistano $W_{i}$ istanze della risorsa. 
+
+Per utilizzare una risorsa esiste un protocollo da seguire: 
+1. Richiesta della risorsa
+2. Uso della risorsa
+3. Rilascio della risorsa
+
+> [!abstract]+  Deadlock 
+ > Un insieme di processi si trova in deadlock se ogni processo dell'insieme è in attesa di un evento (rilascio di una risorsa) che solo un altro processo dell'insieme può provocare.
+ 
+4 Condizioni necessarie per il verificarsi del deadlock: 
+1. Mutua esclusione
+	1. Devono essere coinvolte risorse che possono essere utilizzate solo da un processo alla volta 
+2. Possesso ed attesa
+	1. Un processo che detiene una risorsa deve essere in attesa per ottenere un'altra risorsa necessaria per procedere. 
+3. Assenza di preemption
+	1. Non è possibile sottrarre le risorse ai processi che le hanno già acquisite.
+4. Attesa circolare 
+	1. Esiste un insieme di processi $P_{0}, P_{n}$  tale che $P_{0}$ attente una risorsa da $P_{n}$ e in generale ogni $P_{i}$ attende una risorsa da $P_{i-1}$, quindi si forma un'attesa circolare. 
+
+### Grafo di allocazione delle risorse
+
+Relazioni tra processi e risorse rappresentate tramite il grafo di allocazione delle risorse $\Large G(V,E)$ 
+
+Vertici V rappresentano Processi (P) o tipi di risorsa (R) 
+Archi E connettono un tipo di risorsa e un processo. Sono di due tipi: 
+- P$\Large \to$R indica che il processo è in attesa di ottenere un'istanza della risorsa di tipo R = arco di richiesta
+- R $\Large \to$ P indica che una istanza delal risorsa di tipo R è assegnata al processo P = arco di assegnazione.
+
+![[Pasted image 20260115153247.png#invert|center|300]]
+
+$P_{2}$ detiene un'istanza di $R_{2}$ e una di $R_{1}$ . 
+
+> [!abstract]+  Proprietà del grafo 
+> - Se NON contiene cicli allora NON ci può essere deadlock  
+> - Se ci sono cicli allora *potrebbe* verificarsi un deadlock. Dipende dal numero di istanze di risorse disponibili. 
+> Se per i nodi R del ciclo ci sono istanze singole allora si ha deadlock. (ongi processo nel ciclo è in deadlock)
+> Se ci sono più istanze di risorse dello stesso tipo allora la presenza del ciclo è una condizione necessaria ma non sufficiente al deadlock. 
+
+Nell'esempio di prima ci sono due cicli e c'è deadlock. 
+
+## Prevenzione Deadlock
+1. **Deadlock prevention** con tecniche di prevenzione statica
+2. **Deadlock avoidance** con tecniche di prevenzione dinamica
+3. **detection & recovery** ripristina qualora rilevi presenza di deadlock
+4. **Ostich algorithm** consiste nel confidare che non si verifichi e in caso $\Large \longrightarrow$ reboot. 
+
+### Deadlock prevention
+
+Risolve preventiamente il problema impedendo almeno una della 4 condizioni necessarie. 
+
+#### 1. Evitare mutua esclusione
+Distinzione tra risorse condivisibili e non. Si evita la mutua esclusione imponendo che un processo NON aspetti mai per ottenere una risorsa condivisibile. 
+Ma spesso le risorse sono NoN condivisibili quindi spesso non è risolutivo. 
+
+#### 2. Evitare possesso ed attesa
+Per evitare si deve imporre che un processo che detiene risorse non ne possa richiedere altre. 
+1. Imporre al processo di richiedere tutte le risorse necessarie prima di eseguire altre syscall
+Oppure
+2. permettere al processo di richiedere risorse solo se non ne possiede (quindi es dopo che ha rilasciato tutte quelle che deteneva)
+
+Non buona soluzione perchè porta a basso utilizzo di risorse, che vengono detenute più tempo del necessario e può anche portare a starvation, un processo che usa tante risorse le deve richiedere tutte insieme. 
+
+#### 3. Evitare assenza di preemption
+Si deve assicurare che non ci sia assenza di preemption sulle risorse già acquisite. 
+- Se un processo richiede una risorsa non disponibile (e quindi rimane in attesa) tutte le risorse già acquisite vengono sottratte in modo da non causare attesa a altri processi 
+- Il processo verrà riavviato quando tutte le risorse saranno disponibili insieme. 
+
+Chiaramente queste soluzioni si possono usare solo con risorse preemptable e non con quelle non preemptable. 
+
+#### 4. Evitare attesa circolare 
+Evitabile 
+- stabilendo un ordinamento su tutti i tipi di risorsa esistenti 
+- Imponendo che un processo richieda le risorse secondo una numerazione crescente. 
+Responsabilità cade sullo sviluppatore. Tende a rallentare l'esecuzione dei processi e non utilizzare a pieno le risorse. 
+
+
