@@ -1,3 +1,23 @@
+- [[#Autenticazione|Autenticazione]]
+	- [[#Autenticazione#Comandi|Comandi]]
+- [[#Pipeline|Pipeline]]
+- [[#Async exec|Async exec]]
+- [[#Struct|Struct]]
+- [[#Union|Union]]
+	- [[#Union#Differenze|Differenze]]
+- [[#Precedenza operatori|Precedenza operatori]]
+	- [[#Precedenza operatori#Puntatori e Array|Puntatori e Array]]
+	- [[#Precedenza operatori#Array come parametri di funzioni|Array come parametri di funzioni]]
+	- [[#Precedenza operatori#Struct & pointers|Struct & pointers]]
+	- [[#Precedenza operatori#Puntatori a funzioni e funzioni come argomento|Puntatori a funzioni e funzioni come argomento]]
+	- [[#Precedenza operatori#`malloc()`|`malloc()`]]
+- [[#`make`|`make`]]
+- [[#`.PHONY`|`.PHONY`]]
+- [[#Pipe|Pipe]]
+
+
+
+
 ==Shell== = interprete di comandi. Acquisisce, decodifica, esegue. 
 *sh, csh, ksh, bash* sono 
 
@@ -369,3 +389,26 @@ Quindi `.PHONY` è utile in :
 - test
 - run 
 
+
+## Pipe
+
+Meccanismo semplice di comunicazione unidirezionale con due estremi, uno in lettura e uno scrittura. 
+Unix fornisce la syscall `pipe()` che crea il canale e due descrittori associati. 
+Operazioni permesse: 
+- `write()`
+- `read()` 
+- `close()` 
+
+
+Politica usata: *==FIFO==*
+
+
+Prototipo: 
+```c
+ #include <unistd.h>
+ int pipe(int pipefd[2]); // pipefd = array di due interi che contiene i due descrittori di file identificanti la pipe. 
+ 
+
+pipefd[0] // utilizzabile per leggere dalla pipe 
+pipefd[1] // Per scrivere sulla pipe
+```
